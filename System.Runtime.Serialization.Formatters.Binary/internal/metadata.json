@@ -1,0 +1,223 @@
+{
+  "Namespace": "System.Runtime.Serialization.Formatters.Binary",
+  "ContributingAssemblies": [
+    "System.Runtime.Serialization.Formatters"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.Serialization.Formatters.Binary.BinaryFormatter",
+      "TsEmitName": "BinaryFormatter",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Deserialize",
+          "TsEmitName": "deserialize",
+          "NormalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Serialize",
+          "TsEmitName": "serialize",
+          "NormalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Deserialize",
+          "TsEmitName": "deserialize$view",
+          "NormalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1,
+          "SourceInterface": "System.Runtime.Serialization.IFormatter"
+        },
+        {
+          "ClrName": "Serialize",
+          "TsEmitName": "serialize$view",
+          "NormalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Runtime.Serialization.IFormatter"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "TypeFormat",
+          "TsEmitName": "typeFormat",
+          "NormalizedSignature": "TypeFormat|:System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "AssemblyFormat",
+          "TsEmitName": "assemblyFormat",
+          "NormalizedSignature": "AssemblyFormat|:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "FilterLevel",
+          "TsEmitName": "filterLevel",
+          "NormalizedSignature": "FilterLevel|:System.Runtime.Serialization.Formatters.TypeFilterLevel|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "SurrogateSelector",
+          "TsEmitName": "surrogateSelector",
+          "NormalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Binder",
+          "TsEmitName": "binder",
+          "NormalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Context",
+          "TsEmitName": "context",
+          "NormalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "SurrogateSelector",
+          "TsEmitName": "surrogateSelector$view",
+          "NormalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "SourceInterface": "System.Runtime.Serialization.IFormatter"
+        },
+        {
+          "ClrName": "Binder",
+          "TsEmitName": "binder$view",
+          "NormalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "SourceInterface": "System.Runtime.Serialization.IFormatter"
+        },
+        {
+          "ClrName": "Context",
+          "TsEmitName": "context$view",
+          "NormalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "SourceInterface": "System.Runtime.Serialization.IFormatter"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    }
+  ]
+}

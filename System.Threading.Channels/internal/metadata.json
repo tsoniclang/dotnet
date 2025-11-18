@@ -1,0 +1,697 @@
+{
+  "Namespace": "System.Threading.Channels",
+  "ContributingAssemblies": [
+    "System.Threading.Channels"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Threading.Channels.BoundedChannelFullMode",
+      "TsEmitName": "BoundedChannelFullMode",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Wait",
+          "TsEmitName": "wait",
+          "NormalizedSignature": "Wait|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DropNewest",
+          "TsEmitName": "dropNewest",
+          "NormalizedSignature": "DropNewest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DropOldest",
+          "TsEmitName": "dropOldest",
+          "NormalizedSignature": "DropOldest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DropWrite",
+          "TsEmitName": "dropWrite",
+          "NormalizedSignature": "DropWrite|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.BoundedChannelOptions",
+      "TsEmitName": "BoundedChannelOptions",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Capacity",
+          "TsEmitName": "capacity",
+          "NormalizedSignature": "Capacity|:System.Int32|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "FullMode",
+          "TsEmitName": "fullMode",
+          "NormalizedSignature": "FullMode|:System.Threading.Channels.BoundedChannelFullMode|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Int32):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Threading.Channels.Channel\u00601",
+      "TsEmitName": "Channel_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.Channel\u00602",
+      "TsEmitName": "Channel_2",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 2,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Reader",
+          "TsEmitName": "reader",
+          "NormalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Writer",
+          "TsEmitName": "writer",
+          "NormalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.ChannelClosedException",
+      "TsEmitName": "ChannelClosedException",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Exception):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Threading.Channels.ChannelOptions",
+      "TsEmitName": "ChannelOptions",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "SingleWriter",
+          "TsEmitName": "singleWriter",
+          "NormalizedSignature": "SingleWriter|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "SingleReader",
+          "TsEmitName": "singleReader",
+          "NormalizedSignature": "SingleReader|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "AllowSynchronousContinuations",
+          "TsEmitName": "allowSynchronousContinuations",
+          "NormalizedSignature": "AllowSynchronousContinuations|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.ChannelReader\u00601",
+      "TsEmitName": "ChannelReader_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "TryRead",
+          "TsEmitName": "tryRead",
+          "NormalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "TryPeek",
+          "TsEmitName": "tryPeek",
+          "NormalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "WaitToReadAsync",
+          "TsEmitName": "waitToReadAsync",
+          "NormalizedSignature": "WaitToReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "ReadAsync",
+          "TsEmitName": "readAsync",
+          "NormalizedSignature": "ReadAsync|(System.Threading.CancellationToken):ValueTask_1|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "ReadAllAsync",
+          "TsEmitName": "readAllAsync",
+          "NormalizedSignature": "ReadAllAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Completion",
+          "TsEmitName": "completion",
+          "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "CanCount",
+          "TsEmitName": "canCount",
+          "NormalizedSignature": "CanCount|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "CanPeek",
+          "TsEmitName": "canPeek",
+          "NormalizedSignature": "CanPeek|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Count",
+          "TsEmitName": "count",
+          "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.ChannelWriter\u00601",
+      "TsEmitName": "ChannelWriter_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "TryComplete",
+          "TsEmitName": "tryComplete",
+          "NormalizedSignature": "TryComplete|(System.Exception):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "TryWrite",
+          "TsEmitName": "tryWrite",
+          "NormalizedSignature": "TryWrite|(T):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "WaitToWriteAsync",
+          "TsEmitName": "waitToWriteAsync",
+          "NormalizedSignature": "WaitToWriteAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "WriteAsync",
+          "TsEmitName": "writeAsync",
+          "NormalizedSignature": "WriteAsync|(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Complete",
+          "TsEmitName": "complete",
+          "NormalizedSignature": "Complete|(System.Exception):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Threading.Channels.UnboundedChannelOptions",
+      "TsEmitName": "UnboundedChannelOptions",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
+      "TsEmitName": "UnboundedPrioritizedChannelOptions_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Comparer",
+          "TsEmitName": "comparer",
+          "NormalizedSignature": "Comparer|:IComparer_1|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Threading.Channels.Channel",
+      "TsEmitName": "Channel",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CreateUnbounded",
+          "TsEmitName": "createUnbounded",
+          "NormalizedSignature": "CreateUnbounded|():Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "CreateUnbounded",
+          "TsEmitName": "createUnbounded2",
+          "NormalizedSignature": "CreateUnbounded|(System.Threading.Channels.UnboundedChannelOptions):Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateBounded",
+          "TsEmitName": "createBounded",
+          "NormalizedSignature": "CreateBounded|(System.Int32):Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateBounded",
+          "TsEmitName": "createBounded2",
+          "NormalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions):Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateBounded",
+          "TsEmitName": "createBounded3",
+          "NormalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "CreateUnboundedPrioritized",
+          "TsEmitName": "createUnboundedPrioritized",
+          "NormalizedSignature": "CreateUnboundedPrioritized|():Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "CreateUnboundedPrioritized",
+          "TsEmitName": "createUnboundedPrioritized2",
+          "NormalizedSignature": "CreateUnboundedPrioritized|(UnboundedPrioritizedChannelOptions_1):Channel_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

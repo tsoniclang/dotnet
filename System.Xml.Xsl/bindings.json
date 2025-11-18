@@ -1,0 +1,3685 @@
+{
+  "Namespace": "System.Xml.Xsl",
+  "Types": [
+    {
+      "ClrName": "System.Xml.Xsl.IXsltContextFunction",
+      "TsEmitName": "IXsltContextFunction",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "MetadataToken": 100673769,
+          "CanonicalSignature": "(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object",
+          "NormalizedSignature": "Invoke|(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Minargs",
+          "TsEmitName": "minargs",
+          "MetadataToken": 385879018,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "Minargs|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Maxargs",
+          "TsEmitName": "maxargs",
+          "MetadataToken": 385879019,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "Maxargs|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "ReturnType",
+          "TsEmitName": "returnType",
+          "MetadataToken": 385879020,
+          "CanonicalSignature": ":System.Xml.XPath.XPathResultType",
+          "NormalizedSignature": "ReturnType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "ArgTypes",
+          "TsEmitName": "argTypes",
+          "MetadataToken": 385879021,
+          "CanonicalSignature": ":System.Xml.XPath.XPathResultType[]",
+          "NormalizedSignature": "ArgTypes|:System.Xml.XPath.XPathResultType[]|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "invoke",
+          "IsStatic": false,
+          "TsSignatureId": "Invoke|(System.Xml.Xsl.XsltContext,System.Object[],System.Xml.XPath.XPathNavigator):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673769
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "minargs",
+          "IsStatic": false,
+          "TsSignatureId": "Minargs|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879018
+          }
+        },
+        {
+          "TsName": "maxargs",
+          "IsStatic": false,
+          "TsSignatureId": "Maxargs|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879019
+          }
+        },
+        {
+          "TsName": "returnType",
+          "IsStatic": false,
+          "TsSignatureId": "ReturnType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879020
+          }
+        },
+        {
+          "TsName": "argTypes",
+          "IsStatic": false,
+          "TsSignatureId": "ArgTypes|:System.Xml.XPath.XPathResultType[]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextFunction",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879021
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.IXsltContextVariable",
+      "TsEmitName": "IXsltContextVariable",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Evaluate",
+          "TsEmitName": "evaluate",
+          "MetadataToken": 100673773,
+          "CanonicalSignature": "(System.Xml.Xsl.XsltContext):System.Object",
+          "NormalizedSignature": "Evaluate|(System.Xml.Xsl.XsltContext):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsLocal",
+          "TsEmitName": "isLocal",
+          "MetadataToken": 385879022,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsLocal|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "IsParam",
+          "TsEmitName": "isParam",
+          "MetadataToken": 385879023,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsParam|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "VariableType",
+          "TsEmitName": "variableType",
+          "MetadataToken": 385879024,
+          "CanonicalSignature": ":System.Xml.XPath.XPathResultType",
+          "NormalizedSignature": "VariableType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "evaluate",
+          "IsStatic": false,
+          "TsSignatureId": "Evaluate|(System.Xml.Xsl.XsltContext):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673773
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "isLocal",
+          "IsStatic": false,
+          "TsSignatureId": "IsLocal|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879022
+          }
+        },
+        {
+          "TsName": "isParam",
+          "IsStatic": false,
+          "TsSignatureId": "IsParam|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879023
+          }
+        },
+        {
+          "TsName": "variableType",
+          "IsStatic": false,
+          "TsSignatureId": "VariableType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.IXsltContextVariable",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879024
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XslCompiledTransform",
+      "TsEmitName": "XslCompiledTransform",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load",
+          "MetadataToken": 100673719,
+          "CanonicalSignature": "(System.Xml.XmlReader):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load2",
+          "MetadataToken": 100673720,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load3",
+          "MetadataToken": 100673721,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load4",
+          "MetadataToken": 100673722,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load5",
+          "MetadataToken": 100673723,
+          "CanonicalSignature": "(System.String):System.Void",
+          "NormalizedSignature": "Load|(System.String):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load6",
+          "MetadataToken": 100673724,
+          "CanonicalSignature": "(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load7",
+          "MetadataToken": 100673729,
+          "CanonicalSignature": "(System.Type):System.Void",
+          "NormalizedSignature": "Load|(System.Type):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load8",
+          "MetadataToken": 100673730,
+          "CanonicalSignature": "(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void",
+          "NormalizedSignature": "Load|(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform",
+          "MetadataToken": 100673731,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform2",
+          "MetadataToken": 100673732,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform3",
+          "MetadataToken": 100673733,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform4",
+          "MetadataToken": 100673734,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform5",
+          "MetadataToken": 100673735,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform6",
+          "MetadataToken": 100673736,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform7",
+          "MetadataToken": 100673737,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform8",
+          "MetadataToken": 100673738,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform9",
+          "MetadataToken": 100673739,
+          "CanonicalSignature": "(System.String,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform10",
+          "MetadataToken": 100673740,
+          "CanonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform11",
+          "MetadataToken": 100673741,
+          "CanonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform12",
+          "MetadataToken": 100673742,
+          "CanonicalSignature": "(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform13",
+          "MetadataToken": 100673743,
+          "CanonicalSignature": "(System.String,System.String):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.String):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform14",
+          "MetadataToken": 100673744,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform15",
+          "MetadataToken": 100673745,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "OutputSettings",
+          "TsEmitName": "outputSettings",
+          "MetadataToken": 385879016,
+          "CanonicalSignature": ":System.Xml.XmlWriterSettings",
+          "NormalizedSignature": "OutputSettings|:System.Xml.XmlWriterSettings|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673714,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673715,
+          "CanonicalSignature": "(System.Boolean):void",
+          "NormalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "load",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XmlReader):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673719
+          }
+        },
+        {
+          "TsName": "load2",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673720
+          }
+        },
+        {
+          "TsName": "load3",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673721
+          }
+        },
+        {
+          "TsName": "load4",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673722
+          }
+        },
+        {
+          "TsName": "load5",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673723
+          }
+        },
+        {
+          "TsName": "load6",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.String,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673724
+          }
+        },
+        {
+          "TsName": "load7",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Type):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673729
+          }
+        },
+        {
+          "TsName": "load8",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Reflection.MethodInfo,System.Byte[],System.Type[]):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673730
+          }
+        },
+        {
+          "TsName": "transform",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673731
+          }
+        },
+        {
+          "TsName": "transform2",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673732
+          }
+        },
+        {
+          "TsName": "transform3",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673733
+          }
+        },
+        {
+          "TsName": "transform4",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673734
+          }
+        },
+        {
+          "TsName": "transform5",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673735
+          }
+        },
+        {
+          "TsName": "transform6",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673736
+          }
+        },
+        {
+          "TsName": "transform7",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673737
+          }
+        },
+        {
+          "TsName": "transform8",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673738
+          }
+        },
+        {
+          "TsName": "transform9",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673739
+          }
+        },
+        {
+          "TsName": "transform10",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673740
+          }
+        },
+        {
+          "TsName": "transform11",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673741
+          }
+        },
+        {
+          "TsName": "transform12",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673742
+          }
+        },
+        {
+          "TsName": "transform13",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673743
+          }
+        },
+        {
+          "TsName": "transform14",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XmlReader,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673744
+          }
+        },
+        {
+          "TsName": "transform15",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673745
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "outputSettings",
+          "IsStatic": false,
+          "TsSignatureId": "OutputSettings|:System.Xml.XmlWriterSettings|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879016
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673714
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Boolean):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslCompiledTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673715
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltArgumentList",
+      "TsEmitName": "XsltArgumentList",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "GetParam",
+          "TsEmitName": "getParam",
+          "MetadataToken": 100673756,
+          "CanonicalSignature": "(System.String,System.String):System.Object",
+          "NormalizedSignature": "GetParam|(System.String,System.String):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetExtensionObject",
+          "TsEmitName": "getExtensionObject",
+          "MetadataToken": 100673757,
+          "CanonicalSignature": "(System.String):System.Object",
+          "NormalizedSignature": "GetExtensionObject|(System.String):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "AddParam",
+          "TsEmitName": "addParam",
+          "MetadataToken": 100673758,
+          "CanonicalSignature": "(System.String,System.String,System.Object):System.Void",
+          "NormalizedSignature": "AddParam|(System.String,System.String,System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "AddExtensionObject",
+          "TsEmitName": "addExtensionObject",
+          "MetadataToken": 100673759,
+          "CanonicalSignature": "(System.String,System.Object):System.Void",
+          "NormalizedSignature": "AddExtensionObject|(System.String,System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "RemoveParam",
+          "TsEmitName": "removeParam",
+          "MetadataToken": 100673760,
+          "CanonicalSignature": "(System.String,System.String):System.Object",
+          "NormalizedSignature": "RemoveParam|(System.String,System.String):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "RemoveExtensionObject",
+          "TsEmitName": "removeExtensionObject",
+          "MetadataToken": 100673761,
+          "CanonicalSignature": "(System.String):System.Object",
+          "NormalizedSignature": "RemoveExtensionObject|(System.String):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Clear",
+          "TsEmitName": "clear",
+          "MetadataToken": 100673764,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Clear|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "XsltMessageEncountered",
+          "TsEmitName": "xsltMessageEncountered",
+          "MetadataToken": 335544333,
+          "NormalizedSignature": "XsltMessageEncountered|System.Xml.Xsl.XsltMessageEncounteredEventHandler|static=false",
+          "IsStatic": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Constructors": [
+        {
+          "MetadataToken": 100673755,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "getParam",
+          "IsStatic": false,
+          "TsSignatureId": "GetParam|(System.String,System.String):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673756
+          }
+        },
+        {
+          "TsName": "getExtensionObject",
+          "IsStatic": false,
+          "TsSignatureId": "GetExtensionObject|(System.String):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673757
+          }
+        },
+        {
+          "TsName": "addParam",
+          "IsStatic": false,
+          "TsSignatureId": "AddParam|(System.String,System.String,System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673758
+          }
+        },
+        {
+          "TsName": "addExtensionObject",
+          "IsStatic": false,
+          "TsSignatureId": "AddExtensionObject|(System.String,System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673759
+          }
+        },
+        {
+          "TsName": "removeParam",
+          "IsStatic": false,
+          "TsSignatureId": "RemoveParam|(System.String,System.String):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673760
+          }
+        },
+        {
+          "TsName": "removeExtensionObject",
+          "IsStatic": false,
+          "TsSignatureId": "RemoveExtensionObject|(System.String):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673761
+          }
+        },
+        {
+          "TsName": "clear",
+          "IsStatic": false,
+          "TsSignatureId": "Clear|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673764
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedEvents": [
+        {
+          "TsName": "xsltMessageEncountered",
+          "IsStatic": false,
+          "TsSignatureId": "XsltMessageEncountered|System.Xml.Xsl.XsltMessageEncounteredEventHandler|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 335544333
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltArgumentList",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673755
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltCompileException",
+      "TsEmitName": "XsltCompileException",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "MetadataToken": 100673797,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "MetadataToken": 100682669,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673798,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673799,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673800,
+          "CanonicalSignature": "(System.String,System.Exception):void",
+          "NormalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673801,
+          "CanonicalSignature": "(System.Exception,System.String,System.Int32,System.Int32):void",
+          "NormalizedSignature": "constructor|(System.Exception,System.String,System.Int32,System.Int32):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "getObjectData",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673797
+          }
+        },
+        {
+          "TsName": "getObjectData$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682669
+          }
+        },
+        {
+          "TsName": "getBaseException",
+          "IsStatic": false,
+          "TsSignatureId": "GetBaseException|():System.Exception|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664511
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664518
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664523
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "sourceUri",
+          "IsStatic": false,
+          "TsSignatureId": "SourceUri|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879026
+          }
+        },
+        {
+          "TsName": "lineNumber",
+          "IsStatic": false,
+          "TsSignatureId": "LineNumber|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879027
+          }
+        },
+        {
+          "TsName": "linePosition",
+          "IsStatic": false,
+          "TsSignatureId": "LinePosition|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879028
+          }
+        },
+        {
+          "TsName": "message",
+          "IsStatic": false,
+          "TsSignatureId": "Message|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879029
+          }
+        },
+        {
+          "TsName": "targetSite",
+          "IsStatic": false,
+          "TsSignatureId": "TargetSite|:System.Reflection.MethodBase|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876072
+          }
+        },
+        {
+          "TsName": "data",
+          "IsStatic": false,
+          "TsSignatureId": "Data|:System.Collections.IDictionary|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876076
+          }
+        },
+        {
+          "TsName": "innerException",
+          "IsStatic": false,
+          "TsSignatureId": "InnerException|:System.Exception|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876077
+          }
+        },
+        {
+          "TsName": "helpLink",
+          "IsStatic": false,
+          "TsSignatureId": "HelpLink|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876078
+          }
+        },
+        {
+          "TsName": "source",
+          "IsStatic": false,
+          "TsSignatureId": "Source|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876079
+          }
+        },
+        {
+          "TsName": "hResult",
+          "IsStatic": false,
+          "TsSignatureId": "HResult|:System.Int32|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876080
+          }
+        },
+        {
+          "TsName": "stackTrace",
+          "IsStatic": false,
+          "TsSignatureId": "StackTrace|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876081
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673798
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673799
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.Exception):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673800
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Exception,System.String,System.Int32,System.Int32):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltCompileException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673801
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltContext",
+      "TsEmitName": "XsltContext",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "ResolveVariable",
+          "TsEmitName": "resolveVariable",
+          "MetadataToken": 100673777,
+          "CanonicalSignature": "(System.String,System.String):System.Xml.Xsl.IXsltContextVariable",
+          "NormalizedSignature": "ResolveVariable|(System.String,System.String):System.Xml.Xsl.IXsltContextVariable|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "ResolveFunction",
+          "TsEmitName": "resolveFunction",
+          "MetadataToken": 100673778,
+          "CanonicalSignature": "(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction",
+          "NormalizedSignature": "ResolveFunction|(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "PreserveWhitespace",
+          "TsEmitName": "preserveWhitespace",
+          "MetadataToken": 100673780,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Boolean",
+          "NormalizedSignature": "PreserveWhitespace|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "CompareDocument",
+          "TsEmitName": "compareDocument",
+          "MetadataToken": 100673781,
+          "CanonicalSignature": "(System.String,System.String):System.Int32",
+          "NormalizedSignature": "CompareDocument|(System.String,System.String):System.Int32|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetNamespacesInScope",
+          "TsEmitName": "getNamespacesInScope$view",
+          "MetadataToken": 100666154,
+          "CanonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.IXmlNamespaceResolver",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "LookupNamespace",
+          "TsEmitName": "lookupNamespace$view",
+          "MetadataToken": 100666155,
+          "CanonicalSignature": "(System.String):System.String",
+          "NormalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.IXmlNamespaceResolver",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetEnumerator",
+          "TsEmitName": "getEnumerator$view",
+          "MetadataToken": 100703948,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Collections.IEnumerable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "GetEnumerator",
+          "TsEmitName": "getEnumerator",
+          "MetadataToken": 0,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetNamespacesInScope",
+          "TsEmitName": "getNamespacesInScope",
+          "MetadataToken": 0,
+          "CanonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2",
+          "NormalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "LookupNamespace",
+          "TsEmitName": "lookupNamespace",
+          "MetadataToken": 0,
+          "CanonicalSignature": "(System.String):System.String",
+          "NormalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Whitespace",
+          "TsEmitName": "whitespace",
+          "MetadataToken": 385879025,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "Whitespace|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "resolveVariable",
+          "IsStatic": false,
+          "TsSignatureId": "ResolveVariable|(System.String,System.String):System.Xml.Xsl.IXsltContextVariable|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673777
+          }
+        },
+        {
+          "TsName": "resolveFunction",
+          "IsStatic": false,
+          "TsSignatureId": "ResolveFunction|(System.String,System.String,System.Xml.XPath.XPathResultType[]):System.Xml.Xsl.IXsltContextFunction|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673778
+          }
+        },
+        {
+          "TsName": "preserveWhitespace",
+          "IsStatic": false,
+          "TsSignatureId": "PreserveWhitespace|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673780
+          }
+        },
+        {
+          "TsName": "compareDocument",
+          "IsStatic": false,
+          "TsSignatureId": "CompareDocument|(System.String,System.String):System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673781
+          }
+        },
+        {
+          "TsName": "getNamespacesInScope$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.IXmlNamespaceResolver",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666154
+          }
+        },
+        {
+          "TsName": "lookupNamespace$view",
+          "IsStatic": false,
+          "TsSignatureId": "LookupNamespace|(System.String):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.IXmlNamespaceResolver",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666155
+          }
+        },
+        {
+          "TsName": "getEnumerator$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Collections.IEnumerable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100703948
+          }
+        },
+        {
+          "TsName": "getEnumerator",
+          "IsStatic": false,
+          "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "getNamespacesInScope",
+          "IsStatic": false,
+          "TsSignatureId": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "lookupNamespace",
+          "IsStatic": false,
+          "TsSignatureId": "LookupNamespace|(System.String):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "pushScope",
+          "IsStatic": false,
+          "TsSignatureId": "PushScope|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666466
+          }
+        },
+        {
+          "TsName": "popScope",
+          "IsStatic": false,
+          "TsSignatureId": "PopScope|():System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666467
+          }
+        },
+        {
+          "TsName": "addNamespace",
+          "IsStatic": false,
+          "TsSignatureId": "AddNamespace|(System.String,System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666468
+          }
+        },
+        {
+          "TsName": "removeNamespace",
+          "IsStatic": false,
+          "TsSignatureId": "RemoveNamespace|(System.String,System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666469
+          }
+        },
+        {
+          "TsName": "lookupPrefix",
+          "IsStatic": false,
+          "TsSignatureId": "LookupPrefix|(System.String):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666474
+          }
+        },
+        {
+          "TsName": "hasNamespace",
+          "IsStatic": false,
+          "TsSignatureId": "HasNamespace|(System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100666475
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "whitespace",
+          "IsStatic": false,
+          "TsSignatureId": "Whitespace|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltContext",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879025
+          }
+        },
+        {
+          "TsName": "nameTable",
+          "IsStatic": false,
+          "TsSignatureId": "NameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385877326
+          }
+        },
+        {
+          "TsName": "defaultNamespace",
+          "IsStatic": false,
+          "TsSignatureId": "DefaultNamespace|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.XmlNamespaceManager",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385877327
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltException",
+      "TsEmitName": "XsltException",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "MetadataToken": 100673783,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "MetadataToken": 100682669,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "SourceUri",
+          "TsEmitName": "sourceUri",
+          "MetadataToken": 385879026,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "SourceUri|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "LineNumber",
+          "TsEmitName": "lineNumber",
+          "MetadataToken": 385879027,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "LinePosition",
+          "TsEmitName": "linePosition",
+          "MetadataToken": 385879028,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Message",
+          "TsEmitName": "message",
+          "MetadataToken": 385879029,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673784,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673785,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673786,
+          "CanonicalSignature": "(System.String,System.Exception):void",
+          "NormalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltException",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "getObjectData",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673783
+          }
+        },
+        {
+          "TsName": "getObjectData$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682669
+          }
+        },
+        {
+          "TsName": "getBaseException",
+          "IsStatic": false,
+          "TsSignatureId": "GetBaseException|():System.Exception|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664511
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664518
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664523
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "sourceUri",
+          "IsStatic": false,
+          "TsSignatureId": "SourceUri|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879026
+          }
+        },
+        {
+          "TsName": "lineNumber",
+          "IsStatic": false,
+          "TsSignatureId": "LineNumber|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879027
+          }
+        },
+        {
+          "TsName": "linePosition",
+          "IsStatic": false,
+          "TsSignatureId": "LinePosition|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879028
+          }
+        },
+        {
+          "TsName": "message",
+          "IsStatic": false,
+          "TsSignatureId": "Message|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879029
+          }
+        },
+        {
+          "TsName": "targetSite",
+          "IsStatic": false,
+          "TsSignatureId": "TargetSite|:System.Reflection.MethodBase|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876072
+          }
+        },
+        {
+          "TsName": "data",
+          "IsStatic": false,
+          "TsSignatureId": "Data|:System.Collections.IDictionary|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876076
+          }
+        },
+        {
+          "TsName": "innerException",
+          "IsStatic": false,
+          "TsSignatureId": "InnerException|:System.Exception|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876077
+          }
+        },
+        {
+          "TsName": "helpLink",
+          "IsStatic": false,
+          "TsSignatureId": "HelpLink|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876078
+          }
+        },
+        {
+          "TsName": "source",
+          "IsStatic": false,
+          "TsSignatureId": "Source|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876079
+          }
+        },
+        {
+          "TsName": "hResult",
+          "IsStatic": false,
+          "TsSignatureId": "HResult|:System.Int32|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876080
+          }
+        },
+        {
+          "TsName": "stackTrace",
+          "IsStatic": false,
+          "TsSignatureId": "StackTrace|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Exception",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876081
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673784
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673785
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.Exception):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltException",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673786
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltMessageEncounteredEventArgs",
+      "TsEmitName": "XsltMessageEncounteredEventArgs",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Message",
+          "TsEmitName": "message",
+          "MetadataToken": 385879017,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventArgs",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "message",
+          "IsStatic": false,
+          "TsSignatureId": "Message|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventArgs",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879017
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+      "TsEmitName": "XsltMessageEncounteredEventHandler",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "MetadataToken": 100673752,
+          "CanonicalSignature": "(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void",
+          "NormalizedSignature": "Invoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "BeginInvoke",
+          "TsEmitName": "beginInvoke",
+          "MetadataToken": 100673753,
+          "CanonicalSignature": "(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "NormalizedSignature": "BeginInvoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "EndInvoke",
+          "TsEmitName": "endInvoke",
+          "MetadataToken": 100673754,
+          "CanonicalSignature": "(System.IAsyncResult):System.Void",
+          "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone$view",
+          "MetadataToken": 100668509,
+          "CanonicalSignature": "():System.Object",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.ICloneable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "MetadataToken": 100682669,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 0,
+          "CanonicalSignature": "():System.Object",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "MetadataToken": 0,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673751,
+          "CanonicalSignature": "(System.Object,System.IntPtr):void",
+          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "invoke",
+          "IsStatic": false,
+          "TsSignatureId": "Invoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673752
+          }
+        },
+        {
+          "TsName": "beginInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "BeginInvoke|(System.Object,System.Xml.Xsl.XsltMessageEncounteredEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673753
+          }
+        },
+        {
+          "TsName": "endInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673754
+          }
+        },
+        {
+          "TsName": "clone$view",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ICloneable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668509
+          }
+        },
+        {
+          "TsName": "getObjectData$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682669
+          }
+        },
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "getObjectData",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664796
+          }
+        },
+        {
+          "TsName": "getInvocationList",
+          "IsStatic": false,
+          "TsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664806
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664809
+          }
+        },
+        {
+          "TsName": "createDelegate",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664226
+          }
+        },
+        {
+          "TsName": "createDelegate2",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664227
+          }
+        },
+        {
+          "TsName": "createDelegate3",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664228
+          }
+        },
+        {
+          "TsName": "createDelegate4",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664229
+          }
+        },
+        {
+          "TsName": "combine",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664255
+          }
+        },
+        {
+          "TsName": "combine2",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664256
+          }
+        },
+        {
+          "TsName": "combine3",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664257
+          }
+        },
+        {
+          "TsName": "createDelegate5",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664258
+          }
+        },
+        {
+          "TsName": "createDelegate6",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664259
+          }
+        },
+        {
+          "TsName": "createDelegate7",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664260
+          }
+        },
+        {
+          "TsName": "createDelegate8",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664261
+          }
+        },
+        {
+          "TsName": "createDelegate9",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664262
+          }
+        },
+        {
+          "TsName": "createDelegate10",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664263
+          }
+        },
+        {
+          "TsName": "enumerateInvocationList",
+          "IsStatic": true,
+          "TsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664268
+          }
+        },
+        {
+          "TsName": "dynamicInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664269
+          }
+        },
+        {
+          "TsName": "remove",
+          "IsStatic": true,
+          "TsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664272
+          }
+        },
+        {
+          "TsName": "removeAll",
+          "IsStatic": true,
+          "TsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664273
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "target",
+          "IsStatic": false,
+          "TsSignatureId": "Target|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876038
+          }
+        },
+        {
+          "TsName": "hasSingleTarget",
+          "IsStatic": false,
+          "TsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876039
+          }
+        },
+        {
+          "TsName": "method",
+          "IsStatic": false,
+          "TsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876040
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltMessageEncounteredEventHandler",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673751
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XslTransform",
+      "TsEmitName": "XslTransform",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load",
+          "MetadataToken": 100673805,
+          "CanonicalSignature": "(System.Xml.XmlReader):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load2",
+          "MetadataToken": 100673806,
+          "CanonicalSignature": "(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load3",
+          "MetadataToken": 100673807,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load4",
+          "MetadataToken": 100673808,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load5",
+          "MetadataToken": 100673809,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load6",
+          "MetadataToken": 100673810,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load7",
+          "MetadataToken": 100673811,
+          "CanonicalSignature": "(System.String):System.Void",
+          "NormalizedSignature": "Load|(System.String):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load8",
+          "MetadataToken": 100673812,
+          "CanonicalSignature": "(System.String,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Load|(System.String,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform",
+          "MetadataToken": 100673814,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform2",
+          "MetadataToken": 100673815,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform3",
+          "MetadataToken": 100673816,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform4",
+          "MetadataToken": 100673817,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform5",
+          "MetadataToken": 100673818,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform6",
+          "MetadataToken": 100673819,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform7",
+          "MetadataToken": 100673820,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform8",
+          "MetadataToken": 100673821,
+          "CanonicalSignature": "(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform9",
+          "MetadataToken": 100673822,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform10",
+          "MetadataToken": 100673823,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform11",
+          "MetadataToken": 100673824,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform12",
+          "MetadataToken": 100673825,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform13",
+          "MetadataToken": 100673826,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform14",
+          "MetadataToken": 100673827,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform15",
+          "MetadataToken": 100673828,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform16",
+          "MetadataToken": 100673829,
+          "CanonicalSignature": "(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void",
+          "NormalizedSignature": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform17",
+          "MetadataToken": 100673830,
+          "CanonicalSignature": "(System.String,System.String,System.Xml.XmlResolver):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.String,System.Xml.XmlResolver):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "Transform",
+          "TsEmitName": "transform18",
+          "MetadataToken": 100673831,
+          "CanonicalSignature": "(System.String,System.String):System.Void",
+          "NormalizedSignature": "Transform|(System.String,System.String):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "XmlResolver",
+          "TsEmitName": "xmlResolver",
+          "MetadataToken": 385879031,
+          "CanonicalSignature": ":System.Xml.XmlResolver",
+          "NormalizedSignature": "XmlResolver|:System.Xml.XmlResolver|static=false|accessor=set",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": false,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673803,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "load",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XmlReader):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673805
+          }
+        },
+        {
+          "TsName": "load2",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XmlReader,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673806
+          }
+        },
+        {
+          "TsName": "load3",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673807
+          }
+        },
+        {
+          "TsName": "load4",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.IXPathNavigable,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673808
+          }
+        },
+        {
+          "TsName": "load5",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673809
+          }
+        },
+        {
+          "TsName": "load6",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.Xml.XPath.XPathNavigator,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673810
+          }
+        },
+        {
+          "TsName": "load7",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673811
+          }
+        },
+        {
+          "TsName": "load8",
+          "IsStatic": false,
+          "TsSignatureId": "Load|(System.String,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673812
+          }
+        },
+        {
+          "TsName": "transform",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673814
+          }
+        },
+        {
+          "TsName": "transform2",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673815
+          }
+        },
+        {
+          "TsName": "transform3",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673816
+          }
+        },
+        {
+          "TsName": "transform4",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673817
+          }
+        },
+        {
+          "TsName": "transform5",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673818
+          }
+        },
+        {
+          "TsName": "transform6",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673819
+          }
+        },
+        {
+          "TsName": "transform7",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673820
+          }
+        },
+        {
+          "TsName": "transform8",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673821
+          }
+        },
+        {
+          "TsName": "transform9",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlResolver):System.Xml.XmlReader|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673822
+          }
+        },
+        {
+          "TsName": "transform10",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList):System.Xml.XmlReader|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673823
+          }
+        },
+        {
+          "TsName": "transform11",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673824
+          }
+        },
+        {
+          "TsName": "transform12",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.TextWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673825
+          }
+        },
+        {
+          "TsName": "transform13",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673826
+          }
+        },
+        {
+          "TsName": "transform14",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.IO.Stream):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673827
+          }
+        },
+        {
+          "TsName": "transform15",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673828
+          }
+        },
+        {
+          "TsName": "transform16",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.Xml.XPath.IXPathNavigable,System.Xml.Xsl.XsltArgumentList,System.Xml.XmlWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673829
+          }
+        },
+        {
+          "TsName": "transform17",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.String,System.Xml.XmlResolver):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673830
+          }
+        },
+        {
+          "TsName": "transform18",
+          "IsStatic": false,
+          "TsSignatureId": "Transform|(System.String,System.String):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673831
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "xmlResolver",
+          "IsStatic": false,
+          "TsSignatureId": "XmlResolver|:System.Xml.XmlResolver|static=false|accessor=set",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879031
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XslTransform",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673803
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Xml.Xsl.XsltSettings",
+      "TsEmitName": "XsltSettings",
+      "AssemblyName": "System.Private.Xml",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Default",
+          "TsEmitName": "default_",
+          "MetadataToken": 385879032,
+          "CanonicalSignature": ":System.Xml.Xsl.XsltSettings",
+          "NormalizedSignature": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "TrustedXslt",
+          "TsEmitName": "trustedXslt",
+          "MetadataToken": 385879033,
+          "CanonicalSignature": ":System.Xml.Xsl.XsltSettings",
+          "NormalizedSignature": "TrustedXslt|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "EnableDocumentFunction",
+          "TsEmitName": "enableDocumentFunction",
+          "MetadataToken": 385879034,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "EnableDocumentFunction|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "ClrName": "EnableScript",
+          "TsEmitName": "enableScript",
+          "MetadataToken": 385879035,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "EnableScript|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100673834,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        },
+        {
+          "MetadataToken": 100673835,
+          "CanonicalSignature": "(System.Boolean,System.Boolean):void",
+          "NormalizedSignature": "constructor|(System.Boolean,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+          "DeclaringAssemblyName": "System.Private.Xml"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "default_",
+          "IsStatic": true,
+          "TsSignatureId": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879032
+          }
+        },
+        {
+          "TsName": "trustedXslt",
+          "IsStatic": true,
+          "TsSignatureId": "TrustedXslt|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879033
+          }
+        },
+        {
+          "TsName": "enableDocumentFunction",
+          "IsStatic": false,
+          "TsSignatureId": "EnableDocumentFunction|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879034
+          }
+        },
+        {
+          "TsName": "enableScript",
+          "IsStatic": false,
+          "TsSignatureId": "EnableScript|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 385879035
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673834
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Boolean,System.Boolean):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Xml.Xsl.XsltSettings",
+            "DeclaringAssemblyName": "System.Private.Xml",
+            "MetadataToken": 100673835
+          }
+        }
+      ]
+    }
+  ]
+}

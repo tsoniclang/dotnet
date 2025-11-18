@@ -1,0 +1,188 @@
+{
+  "Namespace": "System.Text.Json.Schema",
+  "ContributingAssemblies": [
+    "System.Text.Json"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+      "TsEmitName": "JsonSchemaExporterContext",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "TypeInfo",
+          "TsEmitName": "typeInfo",
+          "NormalizedSignature": "TypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "PropertyInfo",
+          "TsEmitName": "propertyInfo",
+          "NormalizedSignature": "PropertyInfo|:System.Text.Json.Serialization.Metadata.JsonPropertyInfo|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "BaseTypeInfo",
+          "TsEmitName": "baseTypeInfo",
+          "NormalizedSignature": "BaseTypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Path",
+          "TsEmitName": "path",
+          "NormalizedSignature": "Path|:System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+      "TsEmitName": "JsonSchemaExporterOptions",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Default",
+          "TsEmitName": "default_",
+          "NormalizedSignature": "Default|:System.Text.Json.Schema.JsonSchemaExporterOptions|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "TreatNullObliviousAsNonNullable",
+          "TsEmitName": "treatNullObliviousAsNonNullable",
+          "NormalizedSignature": "TreatNullObliviousAsNonNullable|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "TransformSchemaNode",
+          "TsEmitName": "transformSchemaNode",
+          "NormalizedSignature": "TransformSchemaNode|:System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Schema.JsonSchemaExporter",
+      "TsEmitName": "JsonSchemaExporter",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetJsonSchemaAsNode",
+          "TsEmitName": "getJsonSchemaAsNode",
+          "NormalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetJsonSchemaAsNode",
+          "TsEmitName": "getJsonSchemaAsNode2",
+          "NormalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

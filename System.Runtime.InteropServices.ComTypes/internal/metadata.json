@@ -1,0 +1,5167 @@
+{
+  "Namespace": "System.Runtime.InteropServices.ComTypes",
+  "ContributingAssemblies": [
+    "System.Runtime.InteropServices",
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ADVF",
+      "TsEmitName": "ADVF",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "ADVF_NODATA",
+          "TsEmitName": "advf_nodata",
+          "NormalizedSignature": "ADVF_NODATA|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVF_PRIMEFIRST",
+          "TsEmitName": "advf_primefirst",
+          "NormalizedSignature": "ADVF_PRIMEFIRST|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVF_ONLYONCE",
+          "TsEmitName": "advf_onlyonce",
+          "NormalizedSignature": "ADVF_ONLYONCE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVF_DATAONSTOP",
+          "TsEmitName": "advf_dataonstop",
+          "NormalizedSignature": "ADVF_DATAONSTOP|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVFCACHE_NOHANDLER",
+          "TsEmitName": "advfcache_nohandler",
+          "NormalizedSignature": "ADVFCACHE_NOHANDLER|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVFCACHE_FORCEBUILTIN",
+          "TsEmitName": "advfcache_forcebuiltin",
+          "NormalizedSignature": "ADVFCACHE_FORCEBUILTIN|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ADVFCACHE_ONSAVE",
+          "TsEmitName": "advfcache_onsave",
+          "NormalizedSignature": "ADVFCACHE_ONSAVE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.CALLCONV",
+      "TsEmitName": "CALLCONV",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "CC_CDECL",
+          "TsEmitName": "cc_cdecl",
+          "NormalizedSignature": "CC_CDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_MSCPASCAL",
+          "TsEmitName": "cc_mscpascal",
+          "NormalizedSignature": "CC_MSCPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_PASCAL",
+          "TsEmitName": "cc_pascal",
+          "NormalizedSignature": "CC_PASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_MACPASCAL",
+          "TsEmitName": "cc_macpascal",
+          "NormalizedSignature": "CC_MACPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_STDCALL",
+          "TsEmitName": "cc_stdcall",
+          "NormalizedSignature": "CC_STDCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_RESERVED",
+          "TsEmitName": "cc_reserved",
+          "NormalizedSignature": "CC_RESERVED|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_SYSCALL",
+          "TsEmitName": "cc_syscall",
+          "NormalizedSignature": "CC_SYSCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_MPWCDECL",
+          "TsEmitName": "cc_mpwcdecl",
+          "NormalizedSignature": "CC_MPWCDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_MPWPASCAL",
+          "TsEmitName": "cc_mpwpascal",
+          "NormalizedSignature": "CC_MPWPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CC_MAX",
+          "TsEmitName": "cc_max",
+          "NormalizedSignature": "CC_MAX|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.DATADIR",
+      "TsEmitName": "DATADIR",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "DATADIR_GET",
+          "TsEmitName": "datadir_get",
+          "NormalizedSignature": "DATADIR_GET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DATADIR_SET",
+          "TsEmitName": "datadir_set",
+          "NormalizedSignature": "DATADIR_SET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.DESCKIND",
+      "TsEmitName": "DESCKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "DESCKIND_NONE",
+          "TsEmitName": "desckind_none",
+          "NormalizedSignature": "DESCKIND_NONE|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DESCKIND_FUNCDESC",
+          "TsEmitName": "desckind_funcdesc",
+          "NormalizedSignature": "DESCKIND_FUNCDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DESCKIND_VARDESC",
+          "TsEmitName": "desckind_vardesc",
+          "NormalizedSignature": "DESCKIND_VARDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DESCKIND_TYPECOMP",
+          "TsEmitName": "desckind_typecomp",
+          "NormalizedSignature": "DESCKIND_TYPECOMP|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DESCKIND_IMPLICITAPPOBJ",
+          "TsEmitName": "desckind_implicitappobj",
+          "NormalizedSignature": "DESCKIND_IMPLICITAPPOBJ|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DESCKIND_MAX",
+          "TsEmitName": "desckind_max",
+          "NormalizedSignature": "DESCKIND_MAX|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.DVASPECT",
+      "TsEmitName": "DVASPECT",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "DVASPECT_CONTENT",
+          "TsEmitName": "dvaspect_content",
+          "NormalizedSignature": "DVASPECT_CONTENT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DVASPECT_THUMBNAIL",
+          "TsEmitName": "dvaspect_thumbnail",
+          "NormalizedSignature": "DVASPECT_THUMBNAIL|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DVASPECT_ICON",
+          "TsEmitName": "dvaspect_icon",
+          "NormalizedSignature": "DVASPECT_ICON|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "DVASPECT_DOCPRINT",
+          "TsEmitName": "dvaspect_docprint",
+          "NormalizedSignature": "DVASPECT_DOCPRINT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.FUNCFLAGS",
+      "TsEmitName": "FUNCFLAGS",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "FUNCFLAG_FRESTRICTED",
+          "TsEmitName": "funcflag_frestricted",
+          "NormalizedSignature": "FUNCFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FSOURCE",
+          "TsEmitName": "funcflag_fsource",
+          "NormalizedSignature": "FUNCFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FBINDABLE",
+          "TsEmitName": "funcflag_fbindable",
+          "NormalizedSignature": "FUNCFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FREQUESTEDIT",
+          "TsEmitName": "funcflag_frequestedit",
+          "NormalizedSignature": "FUNCFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FDISPLAYBIND",
+          "TsEmitName": "funcflag_fdisplaybind",
+          "NormalizedSignature": "FUNCFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FDEFAULTBIND",
+          "TsEmitName": "funcflag_fdefaultbind",
+          "NormalizedSignature": "FUNCFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FHIDDEN",
+          "TsEmitName": "funcflag_fhidden",
+          "NormalizedSignature": "FUNCFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FUSESGETLASTERROR",
+          "TsEmitName": "funcflag_fusesgetlasterror",
+          "NormalizedSignature": "FUNCFLAG_FUSESGETLASTERROR|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FDEFAULTCOLLELEM",
+          "TsEmitName": "funcflag_fdefaultcollelem",
+          "NormalizedSignature": "FUNCFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FUIDEFAULT",
+          "TsEmitName": "funcflag_fuidefault",
+          "NormalizedSignature": "FUNCFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FNONBROWSABLE",
+          "TsEmitName": "funcflag_fnonbrowsable",
+          "NormalizedSignature": "FUNCFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FREPLACEABLE",
+          "TsEmitName": "funcflag_freplaceable",
+          "NormalizedSignature": "FUNCFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNCFLAG_FIMMEDIATEBIND",
+          "TsEmitName": "funcflag_fimmediatebind",
+          "NormalizedSignature": "FUNCFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.FUNCKIND",
+      "TsEmitName": "FUNCKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "FUNC_VIRTUAL",
+          "TsEmitName": "func_virtual",
+          "NormalizedSignature": "FUNC_VIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNC_PUREVIRTUAL",
+          "TsEmitName": "func_purevirtual",
+          "NormalizedSignature": "FUNC_PUREVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNC_NONVIRTUAL",
+          "TsEmitName": "func_nonvirtual",
+          "NormalizedSignature": "FUNC_NONVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNC_STATIC",
+          "TsEmitName": "func_static",
+          "NormalizedSignature": "FUNC_STATIC|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FUNC_DISPATCH",
+          "TsEmitName": "func_dispatch",
+          "NormalizedSignature": "FUNC_DISPATCH|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IDLFLAG",
+      "TsEmitName": "IDLFLAG",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "IDLFLAG_NONE",
+          "TsEmitName": "idlflag_none",
+          "NormalizedSignature": "IDLFLAG_NONE|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IDLFLAG_FIN",
+          "TsEmitName": "idlflag_fin",
+          "NormalizedSignature": "IDLFLAG_FIN|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IDLFLAG_FOUT",
+          "TsEmitName": "idlflag_fout",
+          "NormalizedSignature": "IDLFLAG_FOUT|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IDLFLAG_FLCID",
+          "TsEmitName": "idlflag_flcid",
+          "NormalizedSignature": "IDLFLAG_FLCID|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IDLFLAG_FRETVAL",
+          "TsEmitName": "idlflag_fretval",
+          "NormalizedSignature": "IDLFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
+      "TsEmitName": "IMPLTYPEFLAGS",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "IMPLTYPEFLAG_FDEFAULT",
+          "TsEmitName": "impltypeflag_fdefault",
+          "NormalizedSignature": "IMPLTYPEFLAG_FDEFAULT|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IMPLTYPEFLAG_FSOURCE",
+          "TsEmitName": "impltypeflag_fsource",
+          "NormalizedSignature": "IMPLTYPEFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IMPLTYPEFLAG_FRESTRICTED",
+          "TsEmitName": "impltypeflag_frestricted",
+          "NormalizedSignature": "IMPLTYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
+          "TsEmitName": "impltypeflag_fdefaultvtable",
+          "NormalizedSignature": "IMPLTYPEFLAG_FDEFAULTVTABLE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.INVOKEKIND",
+      "TsEmitName": "INVOKEKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "INVOKE_FUNC",
+          "TsEmitName": "invoke_func",
+          "NormalizedSignature": "INVOKE_FUNC|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "INVOKE_PROPERTYGET",
+          "TsEmitName": "invoke_propertyget",
+          "NormalizedSignature": "INVOKE_PROPERTYGET|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "INVOKE_PROPERTYPUT",
+          "TsEmitName": "invoke_propertyput",
+          "NormalizedSignature": "INVOKE_PROPERTYPUT|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "INVOKE_PROPERTYPUTREF",
+          "TsEmitName": "invoke_propertyputref",
+          "NormalizedSignature": "INVOKE_PROPERTYPUTREF|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.LIBFLAGS",
+      "TsEmitName": "LIBFLAGS",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "LIBFLAG_FRESTRICTED",
+          "TsEmitName": "libflag_frestricted",
+          "NormalizedSignature": "LIBFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "LIBFLAG_FCONTROL",
+          "TsEmitName": "libflag_fcontrol",
+          "NormalizedSignature": "LIBFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "LIBFLAG_FHIDDEN",
+          "TsEmitName": "libflag_fhidden",
+          "NormalizedSignature": "LIBFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "LIBFLAG_FHASDISKIMAGE",
+          "TsEmitName": "libflag_fhasdiskimage",
+          "NormalizedSignature": "LIBFLAG_FHASDISKIMAGE|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.PARAMFLAG",
+      "TsEmitName": "PARAMFLAG",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "PARAMFLAG_NONE",
+          "TsEmitName": "paramflag_none",
+          "NormalizedSignature": "PARAMFLAG_NONE|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FIN",
+          "TsEmitName": "paramflag_fin",
+          "NormalizedSignature": "PARAMFLAG_FIN|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FOUT",
+          "TsEmitName": "paramflag_fout",
+          "NormalizedSignature": "PARAMFLAG_FOUT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FLCID",
+          "TsEmitName": "paramflag_flcid",
+          "NormalizedSignature": "PARAMFLAG_FLCID|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FRETVAL",
+          "TsEmitName": "paramflag_fretval",
+          "NormalizedSignature": "PARAMFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FOPT",
+          "TsEmitName": "paramflag_fopt",
+          "NormalizedSignature": "PARAMFLAG_FOPT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FHASDEFAULT",
+          "TsEmitName": "paramflag_fhasdefault",
+          "NormalizedSignature": "PARAMFLAG_FHASDEFAULT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "PARAMFLAG_FHASCUSTDATA",
+          "TsEmitName": "paramflag_fhascustdata",
+          "NormalizedSignature": "PARAMFLAG_FHASCUSTDATA|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.SYSKIND",
+      "TsEmitName": "SYSKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "SYS_WIN16",
+          "TsEmitName": "sys_win16",
+          "NormalizedSignature": "SYS_WIN16|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SYS_WIN32",
+          "TsEmitName": "sys_win32",
+          "NormalizedSignature": "SYS_WIN32|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SYS_MAC",
+          "TsEmitName": "sys_mac",
+          "NormalizedSignature": "SYS_MAC|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SYS_WIN64",
+          "TsEmitName": "sys_win64",
+          "NormalizedSignature": "SYS_WIN64|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYMED",
+      "TsEmitName": "TYMED",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "TYMED_HGLOBAL",
+          "TsEmitName": "tymed_hglobal",
+          "NormalizedSignature": "TYMED_HGLOBAL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_FILE",
+          "TsEmitName": "tymed_file",
+          "NormalizedSignature": "TYMED_FILE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_ISTREAM",
+          "TsEmitName": "tymed_istream",
+          "NormalizedSignature": "TYMED_ISTREAM|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_ISTORAGE",
+          "TsEmitName": "tymed_istorage",
+          "NormalizedSignature": "TYMED_ISTORAGE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_GDI",
+          "TsEmitName": "tymed_gdi",
+          "NormalizedSignature": "TYMED_GDI|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_MFPICT",
+          "TsEmitName": "tymed_mfpict",
+          "NormalizedSignature": "TYMED_MFPICT|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_ENHMF",
+          "TsEmitName": "tymed_enhmf",
+          "NormalizedSignature": "TYMED_ENHMF|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYMED_NULL",
+          "TsEmitName": "tymed_null",
+          "NormalizedSignature": "TYMED_NULL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYPEFLAGS",
+      "TsEmitName": "TYPEFLAGS",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "TYPEFLAG_FAPPOBJECT",
+          "TsEmitName": "typeflag_fappobject",
+          "NormalizedSignature": "TYPEFLAG_FAPPOBJECT|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FCANCREATE",
+          "TsEmitName": "typeflag_fcancreate",
+          "NormalizedSignature": "TYPEFLAG_FCANCREATE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FLICENSED",
+          "TsEmitName": "typeflag_flicensed",
+          "NormalizedSignature": "TYPEFLAG_FLICENSED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FPREDECLID",
+          "TsEmitName": "typeflag_fpredeclid",
+          "NormalizedSignature": "TYPEFLAG_FPREDECLID|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FHIDDEN",
+          "TsEmitName": "typeflag_fhidden",
+          "NormalizedSignature": "TYPEFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FCONTROL",
+          "TsEmitName": "typeflag_fcontrol",
+          "NormalizedSignature": "TYPEFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FDUAL",
+          "TsEmitName": "typeflag_fdual",
+          "NormalizedSignature": "TYPEFLAG_FDUAL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FNONEXTENSIBLE",
+          "TsEmitName": "typeflag_fnonextensible",
+          "NormalizedSignature": "TYPEFLAG_FNONEXTENSIBLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FOLEAUTOMATION",
+          "TsEmitName": "typeflag_foleautomation",
+          "NormalizedSignature": "TYPEFLAG_FOLEAUTOMATION|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FRESTRICTED",
+          "TsEmitName": "typeflag_frestricted",
+          "NormalizedSignature": "TYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FAGGREGATABLE",
+          "TsEmitName": "typeflag_faggregatable",
+          "NormalizedSignature": "TYPEFLAG_FAGGREGATABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FREPLACEABLE",
+          "TsEmitName": "typeflag_freplaceable",
+          "NormalizedSignature": "TYPEFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FDISPATCHABLE",
+          "TsEmitName": "typeflag_fdispatchable",
+          "NormalizedSignature": "TYPEFLAG_FDISPATCHABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FREVERSEBIND",
+          "TsEmitName": "typeflag_freversebind",
+          "NormalizedSignature": "TYPEFLAG_FREVERSEBIND|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TYPEFLAG_FPROXY",
+          "TsEmitName": "typeflag_fproxy",
+          "NormalizedSignature": "TYPEFLAG_FPROXY|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYPEKIND",
+      "TsEmitName": "TYPEKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "TKIND_ENUM",
+          "TsEmitName": "tkind_enum",
+          "NormalizedSignature": "TKIND_ENUM|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_RECORD",
+          "TsEmitName": "tkind_record",
+          "NormalizedSignature": "TKIND_RECORD|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_MODULE",
+          "TsEmitName": "tkind_module",
+          "NormalizedSignature": "TKIND_MODULE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_INTERFACE",
+          "TsEmitName": "tkind_interface",
+          "NormalizedSignature": "TKIND_INTERFACE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_DISPATCH",
+          "TsEmitName": "tkind_dispatch",
+          "NormalizedSignature": "TKIND_DISPATCH|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_COCLASS",
+          "TsEmitName": "tkind_coclass",
+          "NormalizedSignature": "TKIND_COCLASS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_ALIAS",
+          "TsEmitName": "tkind_alias",
+          "NormalizedSignature": "TKIND_ALIAS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_UNION",
+          "TsEmitName": "tkind_union",
+          "NormalizedSignature": "TKIND_UNION|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "TKIND_MAX",
+          "TsEmitName": "tkind_max",
+          "NormalizedSignature": "TKIND_MAX|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.VARFLAGS",
+      "TsEmitName": "VARFLAGS",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "VARFLAG_FREADONLY",
+          "TsEmitName": "varflag_freadonly",
+          "NormalizedSignature": "VARFLAG_FREADONLY|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FSOURCE",
+          "TsEmitName": "varflag_fsource",
+          "NormalizedSignature": "VARFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FBINDABLE",
+          "TsEmitName": "varflag_fbindable",
+          "NormalizedSignature": "VARFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FREQUESTEDIT",
+          "TsEmitName": "varflag_frequestedit",
+          "NormalizedSignature": "VARFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FDISPLAYBIND",
+          "TsEmitName": "varflag_fdisplaybind",
+          "NormalizedSignature": "VARFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FDEFAULTBIND",
+          "TsEmitName": "varflag_fdefaultbind",
+          "NormalizedSignature": "VARFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FHIDDEN",
+          "TsEmitName": "varflag_fhidden",
+          "NormalizedSignature": "VARFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FRESTRICTED",
+          "TsEmitName": "varflag_frestricted",
+          "NormalizedSignature": "VARFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FDEFAULTCOLLELEM",
+          "TsEmitName": "varflag_fdefaultcollelem",
+          "NormalizedSignature": "VARFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FUIDEFAULT",
+          "TsEmitName": "varflag_fuidefault",
+          "NormalizedSignature": "VARFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FNONBROWSABLE",
+          "TsEmitName": "varflag_fnonbrowsable",
+          "NormalizedSignature": "VARFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FREPLACEABLE",
+          "TsEmitName": "varflag_freplaceable",
+          "NormalizedSignature": "VARFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VARFLAG_FIMMEDIATEBIND",
+          "TsEmitName": "varflag_fimmediatebind",
+          "NormalizedSignature": "VARFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.VARKIND",
+      "TsEmitName": "VARKIND",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "VAR_PERINSTANCE",
+          "TsEmitName": "var_perinstance",
+          "NormalizedSignature": "VAR_PERINSTANCE|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VAR_STATIC",
+          "TsEmitName": "var_static",
+          "NormalizedSignature": "VAR_STATIC|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VAR_CONST",
+          "TsEmitName": "var_const",
+          "NormalizedSignature": "VAR_CONST|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "VAR_DISPATCH",
+          "TsEmitName": "var_dispatch",
+          "NormalizedSignature": "VAR_DISPATCH|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IAdviseSink",
+      "TsEmitName": "IAdviseSink",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "OnDataChange",
+          "TsEmitName": "onDataChange",
+          "NormalizedSignature": "OnDataChange|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "OnViewChange",
+          "TsEmitName": "onViewChange",
+          "NormalizedSignature": "OnViewChange|(System.Int32,System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "OnRename",
+          "TsEmitName": "onRename",
+          "NormalizedSignature": "OnRename|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "OnSave",
+          "TsEmitName": "onSave",
+          "NormalizedSignature": "OnSave|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IBindCtx",
+      "TsEmitName": "IBindCtx",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "RegisterObjectBound",
+          "TsEmitName": "registerObjectBound",
+          "NormalizedSignature": "RegisterObjectBound|(System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "ReleaseBoundObjects",
+          "TsEmitName": "releaseBoundObjects",
+          "NormalizedSignature": "ReleaseBoundObjects|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "SetBindOptions",
+          "TsEmitName": "setBindOptions",
+          "NormalizedSignature": "SetBindOptions|(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetRunningObjectTable",
+          "TsEmitName": "getRunningObjectTable",
+          "NormalizedSignature": "GetRunningObjectTable|(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "RegisterObjectParam",
+          "TsEmitName": "registerObjectParam",
+          "NormalizedSignature": "RegisterObjectParam|(System.String,System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetObjectParam",
+          "TsEmitName": "getObjectParam",
+          "NormalizedSignature": "GetObjectParam|(System.String,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "EnumObjectParam",
+          "TsEmitName": "enumObjectParam",
+          "NormalizedSignature": "EnumObjectParam|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "RevokeObjectParam",
+          "TsEmitName": "revokeObjectParam",
+          "NormalizedSignature": "RevokeObjectParam|(System.String):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IConnectionPoint",
+      "TsEmitName": "IConnectionPoint",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetConnectionInterface",
+          "TsEmitName": "getConnectionInterface",
+          "NormalizedSignature": "GetConnectionInterface|(System.Guid\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetConnectionPointContainer",
+          "TsEmitName": "getConnectionPointContainer",
+          "NormalizedSignature": "GetConnectionPointContainer|(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Advise",
+          "TsEmitName": "advise",
+          "NormalizedSignature": "Advise|(System.Object,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Unadvise",
+          "TsEmitName": "unadvise",
+          "NormalizedSignature": "Unadvise|(System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "EnumConnections",
+          "TsEmitName": "enumConnections",
+          "NormalizedSignature": "EnumConnections|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IConnectionPointContainer",
+      "TsEmitName": "IConnectionPointContainer",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "EnumConnectionPoints",
+          "TsEmitName": "enumConnectionPoints",
+          "NormalizedSignature": "EnumConnectionPoints|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "FindConnectionPoint",
+          "TsEmitName": "findConnectionPoint",
+          "NormalizedSignature": "FindConnectionPoint|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IDataObject",
+      "TsEmitName": "IDataObject",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetData",
+          "TsEmitName": "getData",
+          "NormalizedSignature": "GetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "QueryGetData",
+          "TsEmitName": "queryGetData",
+          "NormalizedSignature": "QueryGetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetCanonicalFormatEtc",
+          "TsEmitName": "getCanonicalFormatEtc",
+          "NormalizedSignature": "GetCanonicalFormatEtc|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.FORMATETC\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "SetData",
+          "TsEmitName": "setData",
+          "NormalizedSignature": "SetData|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.STGMEDIUM\u0026,System.Boolean):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "EnumFormatEtc",
+          "TsEmitName": "enumFormatEtc",
+          "NormalizedSignature": "EnumFormatEtc|(System.Runtime.InteropServices.ComTypes.DATADIR):System.Runtime.InteropServices.ComTypes.IEnumFORMATETC|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "DAdvise",
+          "TsEmitName": "dAdvise",
+          "NormalizedSignature": "DAdvise|(System.Runtime.InteropServices.ComTypes.FORMATETC\u0026,System.Runtime.InteropServices.ComTypes.ADVF,System.Runtime.InteropServices.ComTypes.IAdviseSink,System.Int32\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "DUnadvise",
+          "TsEmitName": "dUnadvise",
+          "NormalizedSignature": "DUnadvise|(System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "EnumDAdvise",
+          "TsEmitName": "enumDAdvise",
+          "NormalizedSignature": "EnumDAdvise|(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints",
+      "TsEmitName": "IEnumConnectionPoints",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumConnections",
+      "TsEmitName": "IEnumConnections",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumFORMATETC",
+      "TsEmitName": "IEnumFORMATETC",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.FORMATETC[],System.Int32[]):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumFORMATETC\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumMoniker",
+      "TsEmitName": "IEnumMoniker",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumSTATDATA",
+      "TsEmitName": "IEnumSTATDATA",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.STATDATA[],System.Int32[]):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumSTATDATA\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumString",
+      "TsEmitName": "IEnumString",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.String[],System.IntPtr):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IEnumVARIANT",
+      "TsEmitName": "IEnumVARIANT",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Next",
+          "TsEmitName": "next",
+          "NormalizedSignature": "Next|(System.Int32,System.Object[],System.IntPtr):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Reset",
+          "TsEmitName": "reset",
+          "NormalizedSignature": "Reset|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|():System.Runtime.InteropServices.ComTypes.IEnumVARIANT|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IMoniker",
+      "TsEmitName": "IMoniker",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetClassID",
+          "TsEmitName": "getClassID",
+          "NormalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "IsDirty",
+          "TsEmitName": "isDirty",
+          "NormalizedSignature": "IsDirty|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load",
+          "NormalizedSignature": "Load|(System.Runtime.InteropServices.ComTypes.IStream):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Save",
+          "TsEmitName": "save",
+          "NormalizedSignature": "Save|(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetSizeMax",
+          "TsEmitName": "getSizeMax",
+          "NormalizedSignature": "GetSizeMax|(System.Int64\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "BindToObject",
+          "TsEmitName": "bindToObject",
+          "NormalizedSignature": "BindToObject|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "Reduce",
+          "TsEmitName": "reduce",
+          "NormalizedSignature": "Reduce|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "ComposeWith",
+          "TsEmitName": "composeWith",
+          "NormalizedSignature": "ComposeWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Enum",
+          "TsEmitName": "enum_",
+          "NormalizedSignature": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "IsEqual",
+          "TsEmitName": "isEqual",
+          "NormalizedSignature": "IsEqual|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Hash",
+          "TsEmitName": "hash",
+          "NormalizedSignature": "Hash|(System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "IsRunning",
+          "TsEmitName": "isRunning",
+          "NormalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetTimeOfLastChange",
+          "TsEmitName": "getTimeOfLastChange",
+          "NormalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Inverse",
+          "TsEmitName": "inverse",
+          "NormalizedSignature": "Inverse|(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CommonPrefixWith",
+          "TsEmitName": "commonPrefixWith",
+          "NormalizedSignature": "CommonPrefixWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetDisplayName",
+          "TsEmitName": "getDisplayName",
+          "NormalizedSignature": "GetDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "ParseDisplayName",
+          "TsEmitName": "parseDisplayName",
+          "NormalizedSignature": "ParseDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "IsSystemMoniker",
+          "TsEmitName": "isSystemMoniker",
+          "NormalizedSignature": "IsSystemMoniker|(System.Int32\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IPersistFile",
+      "TsEmitName": "IPersistFile",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetClassID",
+          "TsEmitName": "getClassID",
+          "NormalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "IsDirty",
+          "TsEmitName": "isDirty",
+          "NormalizedSignature": "IsDirty|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Load",
+          "TsEmitName": "load",
+          "NormalizedSignature": "Load|(System.String,System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Save",
+          "TsEmitName": "save",
+          "NormalizedSignature": "Save|(System.String,System.Boolean):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "SaveCompleted",
+          "TsEmitName": "saveCompleted",
+          "NormalizedSignature": "SaveCompleted|(System.String):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetCurFile",
+          "TsEmitName": "getCurFile",
+          "NormalizedSignature": "GetCurFile|(System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IRunningObjectTable",
+      "TsEmitName": "IRunningObjectTable",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Register",
+          "TsEmitName": "register",
+          "NormalizedSignature": "Register|(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Revoke",
+          "TsEmitName": "revoke",
+          "NormalizedSignature": "Revoke|(System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "IsRunning",
+          "TsEmitName": "isRunning",
+          "NormalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetObject",
+          "TsEmitName": "getObject",
+          "NormalizedSignature": "GetObject|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "NoteChangeTime",
+          "TsEmitName": "noteChangeTime",
+          "NormalizedSignature": "NoteChangeTime|(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetTimeOfLastChange",
+          "TsEmitName": "getTimeOfLastChange",
+          "NormalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "EnumRunning",
+          "TsEmitName": "enumRunning",
+          "NormalizedSignature": "EnumRunning|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IStream",
+      "TsEmitName": "IStream",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Read",
+          "TsEmitName": "read",
+          "NormalizedSignature": "Read|(System.Byte[],System.Int32,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Seek",
+          "TsEmitName": "seek",
+          "NormalizedSignature": "Seek|(System.Int64,System.Int32,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "SetSize",
+          "TsEmitName": "setSize",
+          "NormalizedSignature": "SetSize|(System.Int64):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CopyTo",
+          "TsEmitName": "copyTo",
+          "NormalizedSignature": "CopyTo|(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "Commit",
+          "TsEmitName": "commit",
+          "NormalizedSignature": "Commit|(System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Revert",
+          "TsEmitName": "revert",
+          "NormalizedSignature": "Revert|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "LockRegion",
+          "TsEmitName": "lockRegion",
+          "NormalizedSignature": "LockRegion|(System.Int64,System.Int64,System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Stat",
+          "TsEmitName": "stat",
+          "NormalizedSignature": "Stat|(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ITypeComp",
+      "TsEmitName": "ITypeComp",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Bind",
+          "TsEmitName": "bind",
+          "NormalizedSignature": "Bind|(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 6
+        },
+        {
+          "ClrName": "BindType",
+          "TsEmitName": "bindType",
+          "NormalizedSignature": "BindType|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ITypeInfo",
+      "TsEmitName": "ITypeInfo",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetTypeAttr",
+          "TsEmitName": "getTypeAttr",
+          "NormalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeComp",
+          "TsEmitName": "getTypeComp",
+          "NormalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetFuncDesc",
+          "TsEmitName": "getFuncDesc",
+          "NormalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetNames",
+          "TsEmitName": "getNames",
+          "NormalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "GetRefTypeOfImplType",
+          "TsEmitName": "getRefTypeOfImplType",
+          "NormalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetImplTypeFlags",
+          "TsEmitName": "getImplTypeFlags",
+          "NormalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetIDsOfNames",
+          "TsEmitName": "getIDsOfNames",
+          "NormalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "NormalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 7
+        },
+        {
+          "ClrName": "GetDocumentation",
+          "TsEmitName": "getDocumentation",
+          "NormalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "GetDllEntry",
+          "TsEmitName": "getDllEntry",
+          "NormalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "GetRefTypeInfo",
+          "TsEmitName": "getRefTypeInfo",
+          "NormalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "AddressOfMember",
+          "TsEmitName": "addressOfMember",
+          "NormalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "CreateInstance",
+          "TsEmitName": "createInstance",
+          "NormalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetMops",
+          "TsEmitName": "getMops",
+          "NormalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetContainingTypeLib",
+          "TsEmitName": "getContainingTypeLib",
+          "NormalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "ReleaseTypeAttr",
+          "TsEmitName": "releaseTypeAttr",
+          "NormalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ITypeInfo2",
+      "TsEmitName": "ITypeInfo2",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetTypeAttr",
+          "TsEmitName": "getTypeAttr",
+          "NormalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeComp",
+          "TsEmitName": "getTypeComp",
+          "NormalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetFuncDesc",
+          "TsEmitName": "getFuncDesc",
+          "NormalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetNames",
+          "TsEmitName": "getNames",
+          "NormalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "GetRefTypeOfImplType",
+          "TsEmitName": "getRefTypeOfImplType",
+          "NormalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetImplTypeFlags",
+          "TsEmitName": "getImplTypeFlags",
+          "NormalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetIDsOfNames",
+          "TsEmitName": "getIDsOfNames",
+          "NormalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "NormalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 7
+        },
+        {
+          "ClrName": "GetDocumentation",
+          "TsEmitName": "getDocumentation",
+          "NormalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "GetDllEntry",
+          "TsEmitName": "getDllEntry",
+          "NormalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "GetRefTypeInfo",
+          "TsEmitName": "getRefTypeInfo",
+          "NormalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "AddressOfMember",
+          "TsEmitName": "addressOfMember",
+          "NormalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "CreateInstance",
+          "TsEmitName": "createInstance",
+          "NormalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetMops",
+          "TsEmitName": "getMops",
+          "NormalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetContainingTypeLib",
+          "TsEmitName": "getContainingTypeLib",
+          "NormalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "ReleaseTypeAttr",
+          "TsEmitName": "releaseTypeAttr",
+          "NormalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeKind",
+          "TsEmitName": "getTypeKind",
+          "NormalizedSignature": "GetTypeKind|(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeFlags",
+          "TsEmitName": "getTypeFlags",
+          "NormalizedSignature": "GetTypeFlags|(System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetFuncIndexOfMemId",
+          "TsEmitName": "getFuncIndexOfMemId",
+          "NormalizedSignature": "GetFuncIndexOfMemId|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetCustData",
+          "TsEmitName": "getCustData",
+          "NormalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetFuncCustData",
+          "TsEmitName": "getFuncCustData",
+          "NormalizedSignature": "GetFuncCustData|(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetParamCustData",
+          "TsEmitName": "getParamCustData",
+          "NormalizedSignature": "GetParamCustData|(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "GetDocumentation2",
+          "TsEmitName": "getDocumentation2",
+          "NormalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "GetAllFuncCustData",
+          "TsEmitName": "getAllFuncCustData",
+          "NormalizedSignature": "GetAllFuncCustData|(System.Int32,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetAllParamCustData",
+          "TsEmitName": "getAllParamCustData",
+          "NormalizedSignature": "GetAllParamCustData|(System.Int32,System.Int32,System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ITypeLib",
+      "TsEmitName": "ITypeLib",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetTypeInfoCount",
+          "TsEmitName": "getTypeInfoCount",
+          "NormalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetTypeInfo",
+          "TsEmitName": "getTypeInfo",
+          "NormalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetTypeInfoType",
+          "TsEmitName": "getTypeInfoType",
+          "NormalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetTypeInfoOfGuid",
+          "TsEmitName": "getTypeInfoOfGuid",
+          "NormalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetLibAttr",
+          "TsEmitName": "getLibAttr",
+          "NormalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeComp",
+          "TsEmitName": "getTypeComp",
+          "NormalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetDocumentation",
+          "TsEmitName": "getDocumentation",
+          "NormalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "IsName",
+          "TsEmitName": "isName",
+          "NormalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "FindName",
+          "TsEmitName": "findName",
+          "NormalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "ReleaseTLibAttr",
+          "TsEmitName": "releaseTLibAttr",
+          "NormalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ITypeLib2",
+      "TsEmitName": "ITypeLib2",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetTypeInfoCount",
+          "TsEmitName": "getTypeInfoCount",
+          "NormalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetTypeInfo",
+          "TsEmitName": "getTypeInfo",
+          "NormalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetTypeInfoType",
+          "TsEmitName": "getTypeInfoType",
+          "NormalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetTypeInfoOfGuid",
+          "TsEmitName": "getTypeInfoOfGuid",
+          "NormalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetLibAttr",
+          "TsEmitName": "getLibAttr",
+          "NormalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeComp",
+          "TsEmitName": "getTypeComp",
+          "NormalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetDocumentation",
+          "TsEmitName": "getDocumentation",
+          "NormalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "IsName",
+          "TsEmitName": "isName",
+          "NormalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "FindName",
+          "TsEmitName": "findName",
+          "NormalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "ReleaseTLibAttr",
+          "TsEmitName": "releaseTLibAttr",
+          "NormalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetCustData",
+          "TsEmitName": "getCustData",
+          "NormalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetLibStatistics",
+          "TsEmitName": "getLibStatistics",
+          "NormalizedSignature": "GetLibStatistics|(System.IntPtr,System.Int32\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetDocumentation2",
+          "TsEmitName": "getDocumentation2",
+          "NormalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.BIND_OPTS",
+      "TsEmitName": "BIND_OPTS",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "cbStruct",
+          "TsEmitName": "cbStruct",
+          "NormalizedSignature": "cbStruct|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "grfFlags",
+          "TsEmitName": "grfFlags",
+          "NormalizedSignature": "grfFlags|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "grfMode",
+          "TsEmitName": "grfMode",
+          "NormalizedSignature": "grfMode|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwTickCountDeadline",
+          "TsEmitName": "dwTickCountDeadline",
+          "NormalizedSignature": "dwTickCountDeadline|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.BINDPTR",
+      "TsEmitName": "BINDPTR",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "lpfuncdesc",
+          "TsEmitName": "lpfuncdesc",
+          "NormalizedSignature": "lpfuncdesc|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lpvardesc",
+          "TsEmitName": "lpvardesc",
+          "NormalizedSignature": "lpvardesc|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lptcomp",
+          "TsEmitName": "lptcomp",
+          "NormalizedSignature": "lptcomp|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.CONNECTDATA",
+      "TsEmitName": "CONNECTDATA",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "pUnk",
+          "TsEmitName": "pUnk",
+          "NormalizedSignature": "pUnk|System.Object|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwCookie",
+          "TsEmitName": "dwCookie",
+          "NormalizedSignature": "dwCookie|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.DISPPARAMS",
+      "TsEmitName": "DISPPARAMS",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "rgvarg",
+          "TsEmitName": "rgvarg",
+          "NormalizedSignature": "rgvarg|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "rgdispidNamedArgs",
+          "TsEmitName": "rgdispidNamedArgs",
+          "NormalizedSignature": "rgdispidNamedArgs|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cArgs",
+          "TsEmitName": "cArgs",
+          "NormalizedSignature": "cArgs|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cNamedArgs",
+          "TsEmitName": "cNamedArgs",
+          "NormalizedSignature": "cNamedArgs|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ELEMDESC",
+      "TsEmitName": "ELEMDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "tdesc",
+          "TsEmitName": "tdesc",
+          "NormalizedSignature": "tdesc|System.Runtime.InteropServices.ComTypes.TYPEDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "desc",
+          "TsEmitName": "desc",
+          "NormalizedSignature": "desc|System.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION",
+      "TsEmitName": "ELEMDESC_DESCUNION",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "idldesc",
+          "TsEmitName": "idldesc",
+          "NormalizedSignature": "idldesc|System.Runtime.InteropServices.ComTypes.IDLDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "paramdesc",
+          "TsEmitName": "paramdesc",
+          "NormalizedSignature": "paramdesc|System.Runtime.InteropServices.ComTypes.PARAMDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.EXCEPINFO",
+      "TsEmitName": "EXCEPINFO",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "wCode",
+          "TsEmitName": "wCode",
+          "NormalizedSignature": "wCode|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wReserved",
+          "TsEmitName": "wReserved",
+          "NormalizedSignature": "wReserved|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "bstrSource",
+          "TsEmitName": "bstrSource",
+          "NormalizedSignature": "bstrSource|System.String|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "bstrDescription",
+          "TsEmitName": "bstrDescription",
+          "NormalizedSignature": "bstrDescription|System.String|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "bstrHelpFile",
+          "TsEmitName": "bstrHelpFile",
+          "NormalizedSignature": "bstrHelpFile|System.String|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwHelpContext",
+          "TsEmitName": "dwHelpContext",
+          "NormalizedSignature": "dwHelpContext|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "pvReserved",
+          "TsEmitName": "pvReserved",
+          "NormalizedSignature": "pvReserved|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "pfnDeferredFillIn",
+          "TsEmitName": "pfnDeferredFillIn",
+          "NormalizedSignature": "pfnDeferredFillIn|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "scode",
+          "TsEmitName": "scode",
+          "NormalizedSignature": "scode|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.FILETIME",
+      "TsEmitName": "FILETIME",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "dwLowDateTime",
+          "TsEmitName": "dwLowDateTime",
+          "NormalizedSignature": "dwLowDateTime|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwHighDateTime",
+          "TsEmitName": "dwHighDateTime",
+          "NormalizedSignature": "dwHighDateTime|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.FORMATETC",
+      "TsEmitName": "FORMATETC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "cfFormat",
+          "TsEmitName": "cfFormat",
+          "NormalizedSignature": "cfFormat|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "ptd",
+          "TsEmitName": "ptd",
+          "NormalizedSignature": "ptd|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwAspect",
+          "TsEmitName": "dwAspect",
+          "NormalizedSignature": "dwAspect|System.Runtime.InteropServices.ComTypes.DVASPECT|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lindex",
+          "TsEmitName": "lindex",
+          "NormalizedSignature": "lindex|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "tymed",
+          "TsEmitName": "tymed",
+          "NormalizedSignature": "tymed|System.Runtime.InteropServices.ComTypes.TYMED|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.FUNCDESC",
+      "TsEmitName": "FUNCDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "memid",
+          "TsEmitName": "memid",
+          "NormalizedSignature": "memid|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lprgscode",
+          "TsEmitName": "lprgscode",
+          "NormalizedSignature": "lprgscode|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lprgelemdescParam",
+          "TsEmitName": "lprgelemdescParam",
+          "NormalizedSignature": "lprgelemdescParam|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "funckind",
+          "TsEmitName": "funckind",
+          "NormalizedSignature": "funckind|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "invkind",
+          "TsEmitName": "invkind",
+          "NormalizedSignature": "invkind|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "callconv",
+          "TsEmitName": "callconv",
+          "NormalizedSignature": "callconv|System.Runtime.InteropServices.ComTypes.CALLCONV|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cParams",
+          "TsEmitName": "cParams",
+          "NormalizedSignature": "cParams|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cParamsOpt",
+          "TsEmitName": "cParamsOpt",
+          "NormalizedSignature": "cParamsOpt|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "oVft",
+          "TsEmitName": "oVft",
+          "NormalizedSignature": "oVft|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cScodes",
+          "TsEmitName": "cScodes",
+          "NormalizedSignature": "cScodes|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "elemdescFunc",
+          "TsEmitName": "elemdescFunc",
+          "NormalizedSignature": "elemdescFunc|System.Runtime.InteropServices.ComTypes.ELEMDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wFuncFlags",
+          "TsEmitName": "wFuncFlags",
+          "NormalizedSignature": "wFuncFlags|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.IDLDESC",
+      "TsEmitName": "IDLDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "dwReserved",
+          "TsEmitName": "dwReserved",
+          "NormalizedSignature": "dwReserved|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wIDLFlags",
+          "TsEmitName": "wIDLFlags",
+          "NormalizedSignature": "wIDLFlags|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.PARAMDESC",
+      "TsEmitName": "PARAMDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "lpVarValue",
+          "TsEmitName": "lpVarValue",
+          "NormalizedSignature": "lpVarValue|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wParamFlags",
+          "TsEmitName": "wParamFlags",
+          "NormalizedSignature": "wParamFlags|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.STATDATA",
+      "TsEmitName": "STATDATA",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "formatetc",
+          "TsEmitName": "formatetc",
+          "NormalizedSignature": "formatetc|System.Runtime.InteropServices.ComTypes.FORMATETC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "advf",
+          "TsEmitName": "advf",
+          "NormalizedSignature": "advf|System.Runtime.InteropServices.ComTypes.ADVF|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "advSink",
+          "TsEmitName": "advSink",
+          "NormalizedSignature": "advSink|System.Runtime.InteropServices.ComTypes.IAdviseSink|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "connection",
+          "TsEmitName": "connection",
+          "NormalizedSignature": "connection|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.STATSTG",
+      "TsEmitName": "STATSTG",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "pwcsName",
+          "TsEmitName": "pwcsName",
+          "NormalizedSignature": "pwcsName|System.String|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "type",
+          "TsEmitName": "type_",
+          "NormalizedSignature": "type|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cbSize",
+          "TsEmitName": "cbSize",
+          "NormalizedSignature": "cbSize|System.Int64|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "mtime",
+          "TsEmitName": "mtime",
+          "NormalizedSignature": "mtime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "ctime",
+          "TsEmitName": "ctime",
+          "NormalizedSignature": "ctime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "atime",
+          "TsEmitName": "atime",
+          "NormalizedSignature": "atime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "grfMode",
+          "TsEmitName": "grfMode",
+          "NormalizedSignature": "grfMode|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "grfLocksSupported",
+          "TsEmitName": "grfLocksSupported",
+          "NormalizedSignature": "grfLocksSupported|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "clsid",
+          "TsEmitName": "clsid",
+          "NormalizedSignature": "clsid|System.Guid|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "grfStateBits",
+          "TsEmitName": "grfStateBits",
+          "NormalizedSignature": "grfStateBits|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "reserved",
+          "TsEmitName": "reserved",
+          "NormalizedSignature": "reserved|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.STGMEDIUM",
+      "TsEmitName": "STGMEDIUM",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "tymed",
+          "TsEmitName": "tymed",
+          "NormalizedSignature": "tymed|System.Runtime.InteropServices.ComTypes.TYMED|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "unionmember",
+          "TsEmitName": "unionmember",
+          "NormalizedSignature": "unionmember|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "pUnkForRelease",
+          "TsEmitName": "pUnkForRelease",
+          "NormalizedSignature": "pUnkForRelease|System.Object|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYPEATTR",
+      "TsEmitName": "TYPEATTR",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "MEMBER_ID_NIL",
+          "TsEmitName": "member_id_nil",
+          "NormalizedSignature": "MEMBER_ID_NIL|System.Int32|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "guid",
+          "TsEmitName": "guid",
+          "NormalizedSignature": "guid|System.Guid|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lcid",
+          "TsEmitName": "lcid",
+          "NormalizedSignature": "lcid|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "dwReserved",
+          "TsEmitName": "dwReserved",
+          "NormalizedSignature": "dwReserved|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "memidConstructor",
+          "TsEmitName": "memidConstructor",
+          "NormalizedSignature": "memidConstructor|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "memidDestructor",
+          "TsEmitName": "memidDestructor",
+          "NormalizedSignature": "memidDestructor|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lpstrSchema",
+          "TsEmitName": "lpstrSchema",
+          "NormalizedSignature": "lpstrSchema|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cbSizeInstance",
+          "TsEmitName": "cbSizeInstance",
+          "NormalizedSignature": "cbSizeInstance|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "typekind",
+          "TsEmitName": "typekind",
+          "NormalizedSignature": "typekind|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cFuncs",
+          "TsEmitName": "cFuncs",
+          "NormalizedSignature": "cFuncs|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cVars",
+          "TsEmitName": "cVars",
+          "NormalizedSignature": "cVars|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cImplTypes",
+          "TsEmitName": "cImplTypes",
+          "NormalizedSignature": "cImplTypes|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cbSizeVft",
+          "TsEmitName": "cbSizeVft",
+          "NormalizedSignature": "cbSizeVft|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "cbAlignment",
+          "TsEmitName": "cbAlignment",
+          "NormalizedSignature": "cbAlignment|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wTypeFlags",
+          "TsEmitName": "wTypeFlags",
+          "NormalizedSignature": "wTypeFlags|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wMajorVerNum",
+          "TsEmitName": "wMajorVerNum",
+          "NormalizedSignature": "wMajorVerNum|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wMinorVerNum",
+          "TsEmitName": "wMinorVerNum",
+          "NormalizedSignature": "wMinorVerNum|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "tdescAlias",
+          "TsEmitName": "tdescAlias",
+          "NormalizedSignature": "tdescAlias|System.Runtime.InteropServices.ComTypes.TYPEDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "idldescType",
+          "TsEmitName": "idldescType",
+          "NormalizedSignature": "idldescType|System.Runtime.InteropServices.ComTypes.IDLDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYPEDESC",
+      "TsEmitName": "TYPEDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "lpValue",
+          "TsEmitName": "lpValue",
+          "NormalizedSignature": "lpValue|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "vt",
+          "TsEmitName": "vt",
+          "NormalizedSignature": "vt|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.TYPELIBATTR",
+      "TsEmitName": "TYPELIBATTR",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "guid",
+          "TsEmitName": "guid",
+          "NormalizedSignature": "guid|System.Guid|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lcid",
+          "TsEmitName": "lcid",
+          "NormalizedSignature": "lcid|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "syskind",
+          "TsEmitName": "syskind",
+          "NormalizedSignature": "syskind|System.Runtime.InteropServices.ComTypes.SYSKIND|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wMajorVerNum",
+          "TsEmitName": "wMajorVerNum",
+          "NormalizedSignature": "wMajorVerNum|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wMinorVerNum",
+          "TsEmitName": "wMinorVerNum",
+          "NormalizedSignature": "wMinorVerNum|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wLibFlags",
+          "TsEmitName": "wLibFlags",
+          "NormalizedSignature": "wLibFlags|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.VARDESC",
+      "TsEmitName": "VARDESC",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "memid",
+          "TsEmitName": "memid",
+          "NormalizedSignature": "memid|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lpstrSchema",
+          "TsEmitName": "lpstrSchema",
+          "NormalizedSignature": "lpstrSchema|System.String|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "desc",
+          "TsEmitName": "desc",
+          "NormalizedSignature": "desc|System.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "elemdescVar",
+          "TsEmitName": "elemdescVar",
+          "NormalizedSignature": "elemdescVar|System.Runtime.InteropServices.ComTypes.ELEMDESC|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "wVarFlags",
+          "TsEmitName": "wVarFlags",
+          "NormalizedSignature": "wVarFlags|System.Int16|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "varkind",
+          "TsEmitName": "varkind",
+          "NormalizedSignature": "varkind|System.Runtime.InteropServices.ComTypes.VARKIND|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION",
+      "TsEmitName": "VARDESC_DESCUNION",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "oInst",
+          "TsEmitName": "oInst",
+          "NormalizedSignature": "oInst|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "lpvarValue",
+          "TsEmitName": "lpvarValue",
+          "NormalizedSignature": "lpvarValue|System.IntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

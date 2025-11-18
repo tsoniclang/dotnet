@@ -1,0 +1,411 @@
+{
+  "Namespace": "System.Runtime.Loader",
+  "ContributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
+      "TsEmitName": "AssemblyLoadContext_ContextualReflectionScope",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.Loader.AssemblyDependencyResolver",
+      "TsEmitName": "AssemblyDependencyResolver",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "ResolveAssemblyToPath",
+          "TsEmitName": "resolveAssemblyToPath",
+          "NormalizedSignature": "ResolveAssemblyToPath|(System.Reflection.AssemblyName):System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "ResolveUnmanagedDllToPath",
+          "TsEmitName": "resolveUnmanagedDllToPath",
+          "NormalizedSignature": "ResolveUnmanagedDllToPath|(System.String):System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Runtime.Loader.AssemblyLoadContext",
+      "TsEmitName": "AssemblyLoadContext",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetLoadContext",
+          "TsEmitName": "getLoadContext",
+          "NormalizedSignature": "GetLoadContext|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "SetProfileOptimizationRoot",
+          "TsEmitName": "setProfileOptimizationRoot",
+          "NormalizedSignature": "SetProfileOptimizationRoot|(System.String):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "StartProfileOptimization",
+          "TsEmitName": "startProfileOptimization",
+          "NormalizedSignature": "StartProfileOptimization|(System.String):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetAssemblyName",
+          "TsEmitName": "getAssemblyName",
+          "NormalizedSignature": "GetAssemblyName|(System.String):System.Reflection.AssemblyName|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "LoadFromAssemblyName",
+          "TsEmitName": "loadFromAssemblyName",
+          "NormalizedSignature": "LoadFromAssemblyName|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "LoadFromAssemblyPath",
+          "TsEmitName": "loadFromAssemblyPath",
+          "NormalizedSignature": "LoadFromAssemblyPath|(System.String):System.Reflection.Assembly|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "LoadFromNativeImagePath",
+          "TsEmitName": "loadFromNativeImagePath",
+          "NormalizedSignature": "LoadFromNativeImagePath|(System.String,System.String):System.Reflection.Assembly|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "LoadFromStream",
+          "TsEmitName": "loadFromStream",
+          "NormalizedSignature": "LoadFromStream|(System.IO.Stream):System.Reflection.Assembly|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "LoadFromStream",
+          "TsEmitName": "loadFromStream2",
+          "NormalizedSignature": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Unload",
+          "TsEmitName": "unload",
+          "NormalizedSignature": "Unload|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "EnterContextualReflection",
+          "TsEmitName": "enterContextualReflection",
+          "NormalizedSignature": "EnterContextualReflection|():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "EnterContextualReflection",
+          "TsEmitName": "enterContextualReflection",
+          "NormalizedSignature": "EnterContextualReflection|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Assemblies",
+          "TsEmitName": "assemblies",
+          "NormalizedSignature": "Assemblies|:System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Default",
+          "TsEmitName": "default_",
+          "NormalizedSignature": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "IsCollectible",
+          "TsEmitName": "isCollectible",
+          "NormalizedSignature": "IsCollectible|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "All",
+          "TsEmitName": "all",
+          "NormalizedSignature": "All|:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "CurrentContextualReflectionContext",
+          "TsEmitName": "currentContextualReflectionContext",
+          "NormalizedSignature": "CurrentContextualReflectionContext|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "ResolvingUnmanagedDll",
+          "TsEmitName": "resolvingUnmanagedDll",
+          "NormalizedSignature": "ResolvingUnmanagedDll|System.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "IsStatic": false
+        },
+        {
+          "ClrName": "Resolving",
+          "TsEmitName": "resolving",
+          "NormalizedSignature": "Resolving|System.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "IsStatic": false
+        },
+        {
+          "ClrName": "Unloading",
+          "TsEmitName": "unloading",
+          "NormalizedSignature": "Unloading|System.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "IsStatic": false
+        }
+      ],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    }
+  ]
+}

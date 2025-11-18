@@ -1,0 +1,1842 @@
+{
+  "Namespace": "System.Net.Http.Json",
+  "Types": [
+    {
+      "ClrName": "System.Net.Http.Json.JsonContent",
+      "TsEmitName": "JsonContent",
+      "AssemblyName": "System.Net.Http.Json",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create",
+          "MetadataToken": 100663446,
+          "CanonicalSignature": "(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent",
+          "NormalizedSignature": "Create|(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create2",
+          "MetadataToken": 100663447,
+          "CanonicalSignature": "(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent",
+          "NormalizedSignature": "Create|(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create3",
+          "MetadataToken": 100663448,
+          "CanonicalSignature": "(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
+          "NormalizedSignature": "Create|(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create4",
+          "MetadataToken": 100663449,
+          "CanonicalSignature": "(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
+          "NormalizedSignature": "Create|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "MetadataToken": 100668530,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.IDisposable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "MetadataToken": 0,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "ObjectType",
+          "TsEmitName": "objectType",
+          "MetadataToken": 385875976,
+          "CanonicalSignature": ":System.Type",
+          "NormalizedSignature": "ObjectType|:System.Type|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "Value",
+          "TsEmitName": "value",
+          "MetadataToken": 385875977,
+          "CanonicalSignature": ":System.Object",
+          "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "create",
+          "IsStatic": true,
+          "TsSignatureId": "Create|(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663446
+          }
+        },
+        {
+          "TsName": "create2",
+          "IsStatic": true,
+          "TsSignatureId": "Create|(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663447
+          }
+        },
+        {
+          "TsName": "create3",
+          "IsStatic": true,
+          "TsSignatureId": "Create|(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663448
+          }
+        },
+        {
+          "TsName": "create4",
+          "IsStatic": true,
+          "TsSignatureId": "Create|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663449
+          }
+        },
+        {
+          "TsName": "dispose$view",
+          "IsStatic": false,
+          "TsSignatureId": "Dispose|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IDisposable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668530
+          }
+        },
+        {
+          "TsName": "dispose",
+          "IsStatic": false,
+          "TsSignatureId": "Dispose|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "readAsStringAsync",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStringAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663901
+          }
+        },
+        {
+          "TsName": "readAsStringAsync2",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStringAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663902
+          }
+        },
+        {
+          "TsName": "readAsByteArrayAsync",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsByteArrayAsync|():System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663905
+          }
+        },
+        {
+          "TsName": "readAsByteArrayAsync2",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsByteArrayAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663906
+          }
+        },
+        {
+          "TsName": "readAsStream",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStream|():System.IO.Stream|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663908
+          }
+        },
+        {
+          "TsName": "readAsStream2",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStream|(System.Threading.CancellationToken):System.IO.Stream|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663909
+          }
+        },
+        {
+          "TsName": "readAsStreamAsync",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStreamAsync|():System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663910
+          }
+        },
+        {
+          "TsName": "readAsStreamAsync2",
+          "IsStatic": false,
+          "TsSignatureId": "ReadAsStreamAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663911
+          }
+        },
+        {
+          "TsName": "copyTo",
+          "IsStatic": false,
+          "TsSignatureId": "CopyTo|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663917
+          }
+        },
+        {
+          "TsName": "copyToAsync",
+          "IsStatic": false,
+          "TsSignatureId": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663918
+          }
+        },
+        {
+          "TsName": "copyToAsync2",
+          "IsStatic": false,
+          "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663919
+          }
+        },
+        {
+          "TsName": "copyToAsync3",
+          "IsStatic": false,
+          "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663920
+          }
+        },
+        {
+          "TsName": "copyToAsync4",
+          "IsStatic": false,
+          "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663921
+          }
+        },
+        {
+          "TsName": "loadIntoBufferAsync",
+          "IsStatic": false,
+          "TsSignatureId": "LoadIntoBufferAsync|():System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663924
+          }
+        },
+        {
+          "TsName": "loadIntoBufferAsync2",
+          "IsStatic": false,
+          "TsSignatureId": "LoadIntoBufferAsync|(System.Int64):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663925
+          }
+        },
+        {
+          "TsName": "loadIntoBufferAsync3",
+          "IsStatic": false,
+          "TsSignatureId": "LoadIntoBufferAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663926
+          }
+        },
+        {
+          "TsName": "loadIntoBufferAsync4",
+          "IsStatic": false,
+          "TsSignatureId": "LoadIntoBufferAsync|(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100663927
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "objectType",
+          "IsStatic": false,
+          "TsSignatureId": "ObjectType|:System.Type|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 385875976
+          }
+        },
+        {
+          "TsName": "value",
+          "IsStatic": false,
+          "TsSignatureId": "Value|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.JsonContent",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 385875977
+          }
+        },
+        {
+          "TsName": "headers",
+          "IsStatic": false,
+          "TsSignatureId": "Headers|:System.Net.Http.Headers.HttpContentHeaders|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.HttpContent",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 385876184
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Http.Json.HttpClientJsonExtensions",
+      "TsEmitName": "HttpClientJsonExtensions",
+      "AssemblyName": "System.Net.Http.Json",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable",
+          "MetadataToken": 100663308,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable2",
+          "MetadataToken": 100663309,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable3",
+          "MetadataToken": 100663310,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable4",
+          "MetadataToken": 100663311,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable5",
+          "MetadataToken": 100663312,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsAsyncEnumerable",
+          "TsEmitName": "getFromJsonAsAsyncEnumerable6",
+          "MetadataToken": 100663313,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync",
+          "MetadataToken": 100663324,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync2",
+          "MetadataToken": 100663325,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync3",
+          "MetadataToken": 100663326,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync4",
+          "MetadataToken": 100663327,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync5",
+          "MetadataToken": 100663328,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync6",
+          "MetadataToken": 100663329,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync7",
+          "MetadataToken": 100663330,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync8",
+          "MetadataToken": 100663331,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync9",
+          "MetadataToken": 100663332,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync10",
+          "MetadataToken": 100663333,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync11",
+          "MetadataToken": 100663334,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "DeleteFromJsonAsync",
+          "TsEmitName": "deleteFromJsonAsync12",
+          "MetadataToken": 100663335,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync",
+          "MetadataToken": 100663336,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync2",
+          "MetadataToken": 100663337,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync3",
+          "MetadataToken": 100663338,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync4",
+          "MetadataToken": 100663339,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync5",
+          "MetadataToken": 100663340,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync6",
+          "MetadataToken": 100663341,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync7",
+          "MetadataToken": 100663342,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync8",
+          "MetadataToken": 100663343,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync9",
+          "MetadataToken": 100663344,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync10",
+          "MetadataToken": 100663345,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync11",
+          "MetadataToken": 100663346,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "GetFromJsonAsync",
+          "TsEmitName": "getFromJsonAsync12",
+          "MetadataToken": 100663347,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync",
+          "MetadataToken": 100663348,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync2",
+          "MetadataToken": 100663349,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync3",
+          "MetadataToken": 100663350,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync4",
+          "MetadataToken": 100663351,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync5",
+          "MetadataToken": 100663352,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PostAsJsonAsync",
+          "TsEmitName": "postAsJsonAsync6",
+          "MetadataToken": 100663353,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync",
+          "MetadataToken": 100663354,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync2",
+          "MetadataToken": 100663355,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync3",
+          "MetadataToken": 100663356,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync4",
+          "MetadataToken": 100663357,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync5",
+          "MetadataToken": 100663358,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PutAsJsonAsync",
+          "TsEmitName": "putAsJsonAsync6",
+          "MetadataToken": 100663359,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync",
+          "MetadataToken": 100663360,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync2",
+          "MetadataToken": 100663361,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync3",
+          "MetadataToken": 100663362,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync4",
+          "MetadataToken": 100663363,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync5",
+          "MetadataToken": 100663364,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "PatchAsJsonAsync",
+          "TsEmitName": "patchAsJsonAsync6",
+          "MetadataToken": 100663365,
+          "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663308
+          }
+        },
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable2",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663309
+          }
+        },
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable3",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663310
+          }
+        },
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable4",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663311
+          }
+        },
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable5",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663312
+          }
+        },
+        {
+          "TsName": "getFromJsonAsAsyncEnumerable6",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663313
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663324
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663325
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663326
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663327
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663328
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663329
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync7",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663330
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync8",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663331
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync9",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663332
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync10",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663333
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync11",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663334
+          }
+        },
+        {
+          "TsName": "deleteFromJsonAsync12",
+          "IsStatic": true,
+          "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663335
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663336
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663337
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663338
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663339
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663340
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663341
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync7",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663342
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync8",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663343
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync9",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663344
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync10",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663345
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync11",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663346
+          }
+        },
+        {
+          "TsName": "getFromJsonAsync12",
+          "IsStatic": true,
+          "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663347
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663348
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663349
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663350
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663351
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663352
+          }
+        },
+        {
+          "TsName": "postAsJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663353
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663354
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663355
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663356
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663357
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663358
+          }
+        },
+        {
+          "TsName": "putAsJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663359
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663360
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663361
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663362
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663363
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663364
+          }
+        },
+        {
+          "TsName": "patchAsJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpClientJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663365
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Http.Json.HttpContentJsonExtensions",
+      "TsEmitName": "HttpContentJsonExtensions",
+      "AssemblyName": "System.Net.Http.Json",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "ReadFromJsonAsAsyncEnumerable",
+          "TsEmitName": "readFromJsonAsAsyncEnumerable",
+          "MetadataToken": 100663399,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsAsyncEnumerable",
+          "TsEmitName": "readFromJsonAsAsyncEnumerable2",
+          "MetadataToken": 100663400,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsAsyncEnumerable",
+          "TsEmitName": "readFromJsonAsAsyncEnumerable3",
+          "MetadataToken": 100663401,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
+          "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync",
+          "MetadataToken": 100663404,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync2",
+          "MetadataToken": 100663405,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync3",
+          "MetadataToken": 100663406,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync4",
+          "MetadataToken": 100663407,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync5",
+          "MetadataToken": 100663410,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        },
+        {
+          "ClrName": "ReadFromJsonAsync",
+          "TsEmitName": "readFromJsonAsync6",
+          "MetadataToken": 100663411,
+          "CanonicalSignature": "(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
+          "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+          "DeclaringAssemblyName": "System.Net.Http.Json"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "readFromJsonAsAsyncEnumerable",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663399
+          }
+        },
+        {
+          "TsName": "readFromJsonAsAsyncEnumerable2",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663400
+          }
+        },
+        {
+          "TsName": "readFromJsonAsAsyncEnumerable3",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663401
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663404
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync2",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663405
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync3",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663406
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync4",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663407
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync5",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663410
+          }
+        },
+        {
+          "TsName": "readFromJsonAsync6",
+          "IsStatic": true,
+          "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Json.HttpContentJsonExtensions",
+            "DeclaringAssemblyName": "System.Net.Http.Json",
+            "MetadataToken": 100663411
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    }
+  ]
+}

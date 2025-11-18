@@ -1,0 +1,4534 @@
+{
+  "Namespace": "System.Text.Unicode",
+  "Types": [
+    {
+      "ClrName": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+      "TsEmitName": "Utf8_TryWriteInterpolatedStringHandler",
+      "AssemblyName": "System.Private.CoreLib",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "AppendLiteral",
+          "TsEmitName": "appendLiteral",
+          "MetadataToken": 100682324,
+          "CanonicalSignature": "(System.String):System.Boolean",
+          "NormalizedSignature": "AppendLiteral|(System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted",
+          "MetadataToken": 100682325,
+          "CanonicalSignature": "(T):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(T):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted2",
+          "MetadataToken": 100682326,
+          "CanonicalSignature": "(T,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(T,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted3",
+          "MetadataToken": 100682327,
+          "CanonicalSignature": "(T,System.Int32):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted4",
+          "MetadataToken": 100682328,
+          "CanonicalSignature": "(T,System.Int32,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted5",
+          "MetadataToken": 100682329,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted6",
+          "MetadataToken": 100682330,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted7",
+          "MetadataToken": 100682331,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted8",
+          "MetadataToken": 100682332,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted9",
+          "MetadataToken": 100682333,
+          "CanonicalSignature": "(System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted10",
+          "MetadataToken": 100682334,
+          "CanonicalSignature": "(System.String,System.Int32,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AppendFormatted",
+          "TsEmitName": "appendFormatted11",
+          "MetadataToken": 100682335,
+          "CanonicalSignature": "(System.Object,System.Int32,System.String):System.Boolean",
+          "NormalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100682322,
+          "CanonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void",
+          "NormalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "MetadataToken": 100682323,
+          "CanonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void",
+          "NormalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "appendLiteral",
+          "IsStatic": false,
+          "TsSignatureId": "AppendLiteral|(System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682324
+          }
+        },
+        {
+          "TsName": "appendFormatted",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(T):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682325
+          }
+        },
+        {
+          "TsName": "appendFormatted2",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(T,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682326
+          }
+        },
+        {
+          "TsName": "appendFormatted3",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682327
+          }
+        },
+        {
+          "TsName": "appendFormatted4",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682328
+          }
+        },
+        {
+          "TsName": "appendFormatted5",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682329
+          }
+        },
+        {
+          "TsName": "appendFormatted6",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682330
+          }
+        },
+        {
+          "TsName": "appendFormatted7",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682331
+          }
+        },
+        {
+          "TsName": "appendFormatted8",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682332
+          }
+        },
+        {
+          "TsName": "appendFormatted9",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682333
+          }
+        },
+        {
+          "TsName": "appendFormatted10",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682334
+          }
+        },
+        {
+          "TsName": "appendFormatted11",
+          "IsStatic": false,
+          "TsSignatureId": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682335
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ValueType",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100665958
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ValueType",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100665961
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ValueType",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100665963
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682322
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682323
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Unicode.UnicodeRange",
+      "TsEmitName": "UnicodeRange",
+      "AssemblyName": "System.Text.Encodings.Web",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create",
+          "MetadataToken": 100663323,
+          "CanonicalSignature": "(System.Char,System.Char):System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Create|(System.Char,System.Char):System.Text.Unicode.UnicodeRange|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "FirstCodePoint",
+          "TsEmitName": "firstCodePoint",
+          "MetadataToken": 385875973,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "FirstCodePoint|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Length",
+          "TsEmitName": "length",
+          "MetadataToken": 385875974,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "Length|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663320,
+          "CanonicalSignature": "(System.Int32,System.Int32):void",
+          "NormalizedSignature": "constructor|(System.Int32,System.Int32):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "create",
+          "IsStatic": true,
+          "TsSignatureId": "Create|(System.Char,System.Char):System.Text.Unicode.UnicodeRange|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 100663323
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "firstCodePoint",
+          "IsStatic": false,
+          "TsSignatureId": "FirstCodePoint|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875973
+          }
+        },
+        {
+          "TsName": "length",
+          "IsStatic": false,
+          "TsSignatureId": "Length|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875974
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Int32,System.Int32):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRange",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 100663320
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Unicode.UnicodeRanges",
+      "TsEmitName": "UnicodeRanges",
+      "AssemblyName": "System.Text.Encodings.Web",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "None",
+          "TsEmitName": "none",
+          "MetadataToken": 385875975,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "None|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "All",
+          "TsEmitName": "all",
+          "MetadataToken": 385875976,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "All|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "BasicLatin",
+          "TsEmitName": "basicLatin",
+          "MetadataToken": 385875977,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "BasicLatin|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Latin1Supplement",
+          "TsEmitName": "latin1Supplement",
+          "MetadataToken": 385875978,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Latin1Supplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedA",
+          "TsEmitName": "latinExtendedA",
+          "MetadataToken": 385875979,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedB",
+          "TsEmitName": "latinExtendedB",
+          "MetadataToken": 385875980,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "IpaExtensions",
+          "TsEmitName": "ipaExtensions",
+          "MetadataToken": 385875981,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "IpaExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SpacingModifierLetters",
+          "TsEmitName": "spacingModifierLetters",
+          "MetadataToken": 385875982,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SpacingModifierLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CombiningDiacriticalMarks",
+          "TsEmitName": "combiningDiacriticalMarks",
+          "MetadataToken": 385875983,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CombiningDiacriticalMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GreekandCoptic",
+          "TsEmitName": "greekandCoptic",
+          "MetadataToken": 385875984,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GreekandCoptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Cyrillic",
+          "TsEmitName": "cyrillic",
+          "MetadataToken": 385875985,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Cyrillic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CyrillicSupplement",
+          "TsEmitName": "cyrillicSupplement",
+          "MetadataToken": 385875986,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CyrillicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Armenian",
+          "TsEmitName": "armenian",
+          "MetadataToken": 385875987,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Armenian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Hebrew",
+          "TsEmitName": "hebrew",
+          "MetadataToken": 385875988,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Hebrew|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Arabic",
+          "TsEmitName": "arabic",
+          "MetadataToken": 385875989,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Arabic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Syriac",
+          "TsEmitName": "syriac",
+          "MetadataToken": 385875990,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Syriac|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ArabicSupplement",
+          "TsEmitName": "arabicSupplement",
+          "MetadataToken": 385875991,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ArabicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Thaana",
+          "TsEmitName": "thaana",
+          "MetadataToken": 385875992,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Thaana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "NKo",
+          "TsEmitName": "nKo",
+          "MetadataToken": 385875993,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "NKo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Samaritan",
+          "TsEmitName": "samaritan",
+          "MetadataToken": 385875994,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Samaritan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Mandaic",
+          "TsEmitName": "mandaic",
+          "MetadataToken": 385875995,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Mandaic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SyriacSupplement",
+          "TsEmitName": "syriacSupplement",
+          "MetadataToken": 385875996,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SyriacSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ArabicExtendedB",
+          "TsEmitName": "arabicExtendedB",
+          "MetadataToken": 385875997,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ArabicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ArabicExtendedA",
+          "TsEmitName": "arabicExtendedA",
+          "MetadataToken": 385875998,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ArabicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Devanagari",
+          "TsEmitName": "devanagari",
+          "MetadataToken": 385875999,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Devanagari|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Bengali",
+          "TsEmitName": "bengali",
+          "MetadataToken": 385876000,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Bengali|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Gurmukhi",
+          "TsEmitName": "gurmukhi",
+          "MetadataToken": 385876001,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Gurmukhi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Gujarati",
+          "TsEmitName": "gujarati",
+          "MetadataToken": 385876002,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Gujarati|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Oriya",
+          "TsEmitName": "oriya",
+          "MetadataToken": 385876003,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Oriya|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Tamil",
+          "TsEmitName": "tamil",
+          "MetadataToken": 385876004,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Tamil|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Telugu",
+          "TsEmitName": "telugu",
+          "MetadataToken": 385876005,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Telugu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Kannada",
+          "TsEmitName": "kannada",
+          "MetadataToken": 385876006,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Kannada|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Malayalam",
+          "TsEmitName": "malayalam",
+          "MetadataToken": 385876007,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Malayalam|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Sinhala",
+          "TsEmitName": "sinhala",
+          "MetadataToken": 385876008,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Sinhala|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Thai",
+          "TsEmitName": "thai",
+          "MetadataToken": 385876009,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Thai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Lao",
+          "TsEmitName": "lao",
+          "MetadataToken": 385876010,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Lao|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Tibetan",
+          "TsEmitName": "tibetan",
+          "MetadataToken": 385876011,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Tibetan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Myanmar",
+          "TsEmitName": "myanmar",
+          "MetadataToken": 385876012,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Myanmar|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Georgian",
+          "TsEmitName": "georgian",
+          "MetadataToken": 385876013,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Georgian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HangulJamo",
+          "TsEmitName": "hangulJamo",
+          "MetadataToken": 385876014,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HangulJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Ethiopic",
+          "TsEmitName": "ethiopic",
+          "MetadataToken": 385876015,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Ethiopic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "EthiopicSupplement",
+          "TsEmitName": "ethiopicSupplement",
+          "MetadataToken": 385876016,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "EthiopicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Cherokee",
+          "TsEmitName": "cherokee",
+          "MetadataToken": 385876017,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Cherokee|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "UnifiedCanadianAboriginalSyllabics",
+          "TsEmitName": "unifiedCanadianAboriginalSyllabics",
+          "MetadataToken": 385876018,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "UnifiedCanadianAboriginalSyllabics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Ogham",
+          "TsEmitName": "ogham",
+          "MetadataToken": 385876019,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Ogham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Runic",
+          "TsEmitName": "runic",
+          "MetadataToken": 385876020,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Runic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Tagalog",
+          "TsEmitName": "tagalog",
+          "MetadataToken": 385876021,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Tagalog|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Hanunoo",
+          "TsEmitName": "hanunoo",
+          "MetadataToken": 385876022,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Hanunoo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Buhid",
+          "TsEmitName": "buhid",
+          "MetadataToken": 385876023,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Buhid|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Tagbanwa",
+          "TsEmitName": "tagbanwa",
+          "MetadataToken": 385876024,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Tagbanwa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Khmer",
+          "TsEmitName": "khmer",
+          "MetadataToken": 385876025,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Khmer|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Mongolian",
+          "TsEmitName": "mongolian",
+          "MetadataToken": 385876026,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Mongolian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "UnifiedCanadianAboriginalSyllabicsExtended",
+          "TsEmitName": "unifiedCanadianAboriginalSyllabicsExtended",
+          "MetadataToken": 385876027,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "UnifiedCanadianAboriginalSyllabicsExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Limbu",
+          "TsEmitName": "limbu",
+          "MetadataToken": 385876028,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Limbu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "TaiLe",
+          "TsEmitName": "taiLe",
+          "MetadataToken": 385876029,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "TaiLe|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "NewTaiLue",
+          "TsEmitName": "newTaiLue",
+          "MetadataToken": 385876030,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "NewTaiLue|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "KhmerSymbols",
+          "TsEmitName": "khmerSymbols",
+          "MetadataToken": 385876031,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "KhmerSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Buginese",
+          "TsEmitName": "buginese",
+          "MetadataToken": 385876032,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Buginese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "TaiTham",
+          "TsEmitName": "taiTham",
+          "MetadataToken": 385876033,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "TaiTham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CombiningDiacriticalMarksExtended",
+          "TsEmitName": "combiningDiacriticalMarksExtended",
+          "MetadataToken": 385876034,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CombiningDiacriticalMarksExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Balinese",
+          "TsEmitName": "balinese",
+          "MetadataToken": 385876035,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Balinese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Sundanese",
+          "TsEmitName": "sundanese",
+          "MetadataToken": 385876036,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Sundanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Batak",
+          "TsEmitName": "batak",
+          "MetadataToken": 385876037,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Batak|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Lepcha",
+          "TsEmitName": "lepcha",
+          "MetadataToken": 385876038,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Lepcha|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "OlChiki",
+          "TsEmitName": "olChiki",
+          "MetadataToken": 385876039,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "OlChiki|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CyrillicExtendedC",
+          "TsEmitName": "cyrillicExtendedC",
+          "MetadataToken": 385876040,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CyrillicExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GeorgianExtended",
+          "TsEmitName": "georgianExtended",
+          "MetadataToken": 385876041,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GeorgianExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SundaneseSupplement",
+          "TsEmitName": "sundaneseSupplement",
+          "MetadataToken": 385876042,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SundaneseSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "VedicExtensions",
+          "TsEmitName": "vedicExtensions",
+          "MetadataToken": 385876043,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "VedicExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "PhoneticExtensions",
+          "TsEmitName": "phoneticExtensions",
+          "MetadataToken": 385876044,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "PhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "PhoneticExtensionsSupplement",
+          "TsEmitName": "phoneticExtensionsSupplement",
+          "MetadataToken": 385876045,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "PhoneticExtensionsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CombiningDiacriticalMarksSupplement",
+          "TsEmitName": "combiningDiacriticalMarksSupplement",
+          "MetadataToken": 385876046,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CombiningDiacriticalMarksSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedAdditional",
+          "TsEmitName": "latinExtendedAdditional",
+          "MetadataToken": 385876047,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedAdditional|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GreekExtended",
+          "TsEmitName": "greekExtended",
+          "MetadataToken": 385876048,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GreekExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GeneralPunctuation",
+          "TsEmitName": "generalPunctuation",
+          "MetadataToken": 385876049,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GeneralPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SuperscriptsandSubscripts",
+          "TsEmitName": "superscriptsandSubscripts",
+          "MetadataToken": 385876050,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SuperscriptsandSubscripts|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CurrencySymbols",
+          "TsEmitName": "currencySymbols",
+          "MetadataToken": 385876051,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CurrencySymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CombiningDiacriticalMarksforSymbols",
+          "TsEmitName": "combiningDiacriticalMarksforSymbols",
+          "MetadataToken": 385876052,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CombiningDiacriticalMarksforSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LetterlikeSymbols",
+          "TsEmitName": "letterlikeSymbols",
+          "MetadataToken": 385876053,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LetterlikeSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "NumberForms",
+          "TsEmitName": "numberForms",
+          "MetadataToken": 385876054,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "NumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Arrows",
+          "TsEmitName": "arrows",
+          "MetadataToken": 385876055,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Arrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MathematicalOperators",
+          "TsEmitName": "mathematicalOperators",
+          "MetadataToken": 385876056,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MiscellaneousTechnical",
+          "TsEmitName": "miscellaneousTechnical",
+          "MetadataToken": 385876057,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MiscellaneousTechnical|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ControlPictures",
+          "TsEmitName": "controlPictures",
+          "MetadataToken": 385876058,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ControlPictures|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "OpticalCharacterRecognition",
+          "TsEmitName": "opticalCharacterRecognition",
+          "MetadataToken": 385876059,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "OpticalCharacterRecognition|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "EnclosedAlphanumerics",
+          "TsEmitName": "enclosedAlphanumerics",
+          "MetadataToken": 385876060,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "EnclosedAlphanumerics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "BoxDrawing",
+          "TsEmitName": "boxDrawing",
+          "MetadataToken": 385876061,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "BoxDrawing|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "BlockElements",
+          "TsEmitName": "blockElements",
+          "MetadataToken": 385876062,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "BlockElements|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GeometricShapes",
+          "TsEmitName": "geometricShapes",
+          "MetadataToken": 385876063,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GeometricShapes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MiscellaneousSymbols",
+          "TsEmitName": "miscellaneousSymbols",
+          "MetadataToken": 385876064,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MiscellaneousSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Dingbats",
+          "TsEmitName": "dingbats",
+          "MetadataToken": 385876065,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Dingbats|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MiscellaneousMathematicalSymbolsA",
+          "TsEmitName": "miscellaneousMathematicalSymbolsA",
+          "MetadataToken": 385876066,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MiscellaneousMathematicalSymbolsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SupplementalArrowsA",
+          "TsEmitName": "supplementalArrowsA",
+          "MetadataToken": 385876067,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SupplementalArrowsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "BraillePatterns",
+          "TsEmitName": "braillePatterns",
+          "MetadataToken": 385876068,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "BraillePatterns|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SupplementalArrowsB",
+          "TsEmitName": "supplementalArrowsB",
+          "MetadataToken": 385876069,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SupplementalArrowsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MiscellaneousMathematicalSymbolsB",
+          "TsEmitName": "miscellaneousMathematicalSymbolsB",
+          "MetadataToken": 385876070,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MiscellaneousMathematicalSymbolsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SupplementalMathematicalOperators",
+          "TsEmitName": "supplementalMathematicalOperators",
+          "MetadataToken": 385876071,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SupplementalMathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MiscellaneousSymbolsandArrows",
+          "TsEmitName": "miscellaneousSymbolsandArrows",
+          "MetadataToken": 385876072,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MiscellaneousSymbolsandArrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Glagolitic",
+          "TsEmitName": "glagolitic",
+          "MetadataToken": 385876073,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Glagolitic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedC",
+          "TsEmitName": "latinExtendedC",
+          "MetadataToken": 385876074,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Coptic",
+          "TsEmitName": "coptic",
+          "MetadataToken": 385876075,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Coptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "GeorgianSupplement",
+          "TsEmitName": "georgianSupplement",
+          "MetadataToken": 385876076,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "GeorgianSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Tifinagh",
+          "TsEmitName": "tifinagh",
+          "MetadataToken": 385876077,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Tifinagh|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "EthiopicExtended",
+          "TsEmitName": "ethiopicExtended",
+          "MetadataToken": 385876078,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "EthiopicExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CyrillicExtendedA",
+          "TsEmitName": "cyrillicExtendedA",
+          "MetadataToken": 385876079,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CyrillicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SupplementalPunctuation",
+          "TsEmitName": "supplementalPunctuation",
+          "MetadataToken": 385876080,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SupplementalPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkRadicalsSupplement",
+          "TsEmitName": "cjkRadicalsSupplement",
+          "MetadataToken": 385876081,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkRadicalsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "KangxiRadicals",
+          "TsEmitName": "kangxiRadicals",
+          "MetadataToken": 385876082,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "KangxiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "IdeographicDescriptionCharacters",
+          "TsEmitName": "ideographicDescriptionCharacters",
+          "MetadataToken": 385876083,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "IdeographicDescriptionCharacters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkSymbolsandPunctuation",
+          "TsEmitName": "cjkSymbolsandPunctuation",
+          "MetadataToken": 385876084,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkSymbolsandPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Hiragana",
+          "TsEmitName": "hiragana",
+          "MetadataToken": 385876085,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Hiragana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Katakana",
+          "TsEmitName": "katakana",
+          "MetadataToken": 385876086,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Katakana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Bopomofo",
+          "TsEmitName": "bopomofo",
+          "MetadataToken": 385876087,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Bopomofo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HangulCompatibilityJamo",
+          "TsEmitName": "hangulCompatibilityJamo",
+          "MetadataToken": 385876088,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HangulCompatibilityJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Kanbun",
+          "TsEmitName": "kanbun",
+          "MetadataToken": 385876089,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Kanbun|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "BopomofoExtended",
+          "TsEmitName": "bopomofoExtended",
+          "MetadataToken": 385876090,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "BopomofoExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkStrokes",
+          "TsEmitName": "cjkStrokes",
+          "MetadataToken": 385876091,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkStrokes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "KatakanaPhoneticExtensions",
+          "TsEmitName": "katakanaPhoneticExtensions",
+          "MetadataToken": 385876092,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "KatakanaPhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "EnclosedCjkLettersandMonths",
+          "TsEmitName": "enclosedCjkLettersandMonths",
+          "MetadataToken": 385876093,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "EnclosedCjkLettersandMonths|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkCompatibility",
+          "TsEmitName": "cjkCompatibility",
+          "MetadataToken": 385876094,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkCompatibility|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkUnifiedIdeographsExtensionA",
+          "TsEmitName": "cjkUnifiedIdeographsExtensionA",
+          "MetadataToken": 385876095,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkUnifiedIdeographsExtensionA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "YijingHexagramSymbols",
+          "TsEmitName": "yijingHexagramSymbols",
+          "MetadataToken": 385876096,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "YijingHexagramSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkUnifiedIdeographs",
+          "TsEmitName": "cjkUnifiedIdeographs",
+          "MetadataToken": 385876097,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkUnifiedIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "YiSyllables",
+          "TsEmitName": "yiSyllables",
+          "MetadataToken": 385876098,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "YiSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "YiRadicals",
+          "TsEmitName": "yiRadicals",
+          "MetadataToken": 385876099,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "YiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Lisu",
+          "TsEmitName": "lisu",
+          "MetadataToken": 385876100,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Lisu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Vai",
+          "TsEmitName": "vai",
+          "MetadataToken": 385876101,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Vai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CyrillicExtendedB",
+          "TsEmitName": "cyrillicExtendedB",
+          "MetadataToken": 385876102,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CyrillicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Bamum",
+          "TsEmitName": "bamum",
+          "MetadataToken": 385876103,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Bamum|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ModifierToneLetters",
+          "TsEmitName": "modifierToneLetters",
+          "MetadataToken": 385876104,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ModifierToneLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedD",
+          "TsEmitName": "latinExtendedD",
+          "MetadataToken": 385876105,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedD|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SylotiNagri",
+          "TsEmitName": "sylotiNagri",
+          "MetadataToken": 385876106,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SylotiNagri|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CommonIndicNumberForms",
+          "TsEmitName": "commonIndicNumberForms",
+          "MetadataToken": 385876107,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CommonIndicNumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Phagspa",
+          "TsEmitName": "phagspa",
+          "MetadataToken": 385876108,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Phagspa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Saurashtra",
+          "TsEmitName": "saurashtra",
+          "MetadataToken": 385876109,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Saurashtra|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "DevanagariExtended",
+          "TsEmitName": "devanagariExtended",
+          "MetadataToken": 385876110,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "DevanagariExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "KayahLi",
+          "TsEmitName": "kayahLi",
+          "MetadataToken": 385876111,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "KayahLi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Rejang",
+          "TsEmitName": "rejang",
+          "MetadataToken": 385876112,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Rejang|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HangulJamoExtendedA",
+          "TsEmitName": "hangulJamoExtendedA",
+          "MetadataToken": 385876113,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HangulJamoExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Javanese",
+          "TsEmitName": "javanese",
+          "MetadataToken": 385876114,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Javanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MyanmarExtendedB",
+          "TsEmitName": "myanmarExtendedB",
+          "MetadataToken": 385876115,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MyanmarExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Cham",
+          "TsEmitName": "cham",
+          "MetadataToken": 385876116,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Cham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MyanmarExtendedA",
+          "TsEmitName": "myanmarExtendedA",
+          "MetadataToken": 385876117,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MyanmarExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "TaiViet",
+          "TsEmitName": "taiViet",
+          "MetadataToken": 385876118,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "TaiViet|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MeeteiMayekExtensions",
+          "TsEmitName": "meeteiMayekExtensions",
+          "MetadataToken": 385876119,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MeeteiMayekExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "EthiopicExtendedA",
+          "TsEmitName": "ethiopicExtendedA",
+          "MetadataToken": 385876120,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "EthiopicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "LatinExtendedE",
+          "TsEmitName": "latinExtendedE",
+          "MetadataToken": 385876121,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "LatinExtendedE|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CherokeeSupplement",
+          "TsEmitName": "cherokeeSupplement",
+          "MetadataToken": 385876122,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CherokeeSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "MeeteiMayek",
+          "TsEmitName": "meeteiMayek",
+          "MetadataToken": 385876123,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "MeeteiMayek|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HangulSyllables",
+          "TsEmitName": "hangulSyllables",
+          "MetadataToken": 385876124,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HangulSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HangulJamoExtendedB",
+          "TsEmitName": "hangulJamoExtendedB",
+          "MetadataToken": 385876125,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HangulJamoExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkCompatibilityIdeographs",
+          "TsEmitName": "cjkCompatibilityIdeographs",
+          "MetadataToken": 385876126,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkCompatibilityIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "AlphabeticPresentationForms",
+          "TsEmitName": "alphabeticPresentationForms",
+          "MetadataToken": 385876127,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "AlphabeticPresentationForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ArabicPresentationFormsA",
+          "TsEmitName": "arabicPresentationFormsA",
+          "MetadataToken": 385876128,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ArabicPresentationFormsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "VariationSelectors",
+          "TsEmitName": "variationSelectors",
+          "MetadataToken": 385876129,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "VariationSelectors|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "VerticalForms",
+          "TsEmitName": "verticalForms",
+          "MetadataToken": 385876130,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "VerticalForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CombiningHalfMarks",
+          "TsEmitName": "combiningHalfMarks",
+          "MetadataToken": 385876131,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CombiningHalfMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "CjkCompatibilityForms",
+          "TsEmitName": "cjkCompatibilityForms",
+          "MetadataToken": 385876132,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "CjkCompatibilityForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "SmallFormVariants",
+          "TsEmitName": "smallFormVariants",
+          "MetadataToken": 385876133,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "SmallFormVariants|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "ArabicPresentationFormsB",
+          "TsEmitName": "arabicPresentationFormsB",
+          "MetadataToken": 385876134,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "ArabicPresentationFormsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "HalfwidthandFullwidthForms",
+          "TsEmitName": "halfwidthandFullwidthForms",
+          "MetadataToken": 385876135,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "HalfwidthandFullwidthForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        },
+        {
+          "ClrName": "Specials",
+          "TsEmitName": "specials",
+          "MetadataToken": 385876136,
+          "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
+          "NormalizedSignature": "Specials|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "none",
+          "IsStatic": true,
+          "TsSignatureId": "None|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875975
+          }
+        },
+        {
+          "TsName": "all",
+          "IsStatic": true,
+          "TsSignatureId": "All|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875976
+          }
+        },
+        {
+          "TsName": "basicLatin",
+          "IsStatic": true,
+          "TsSignatureId": "BasicLatin|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875977
+          }
+        },
+        {
+          "TsName": "latin1Supplement",
+          "IsStatic": true,
+          "TsSignatureId": "Latin1Supplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875978
+          }
+        },
+        {
+          "TsName": "latinExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875979
+          }
+        },
+        {
+          "TsName": "latinExtendedB",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875980
+          }
+        },
+        {
+          "TsName": "ipaExtensions",
+          "IsStatic": true,
+          "TsSignatureId": "IpaExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875981
+          }
+        },
+        {
+          "TsName": "spacingModifierLetters",
+          "IsStatic": true,
+          "TsSignatureId": "SpacingModifierLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875982
+          }
+        },
+        {
+          "TsName": "combiningDiacriticalMarks",
+          "IsStatic": true,
+          "TsSignatureId": "CombiningDiacriticalMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875983
+          }
+        },
+        {
+          "TsName": "greekandCoptic",
+          "IsStatic": true,
+          "TsSignatureId": "GreekandCoptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875984
+          }
+        },
+        {
+          "TsName": "cyrillic",
+          "IsStatic": true,
+          "TsSignatureId": "Cyrillic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875985
+          }
+        },
+        {
+          "TsName": "cyrillicSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "CyrillicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875986
+          }
+        },
+        {
+          "TsName": "armenian",
+          "IsStatic": true,
+          "TsSignatureId": "Armenian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875987
+          }
+        },
+        {
+          "TsName": "hebrew",
+          "IsStatic": true,
+          "TsSignatureId": "Hebrew|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875988
+          }
+        },
+        {
+          "TsName": "arabic",
+          "IsStatic": true,
+          "TsSignatureId": "Arabic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875989
+          }
+        },
+        {
+          "TsName": "syriac",
+          "IsStatic": true,
+          "TsSignatureId": "Syriac|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875990
+          }
+        },
+        {
+          "TsName": "arabicSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "ArabicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875991
+          }
+        },
+        {
+          "TsName": "thaana",
+          "IsStatic": true,
+          "TsSignatureId": "Thaana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875992
+          }
+        },
+        {
+          "TsName": "nKo",
+          "IsStatic": true,
+          "TsSignatureId": "NKo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875993
+          }
+        },
+        {
+          "TsName": "samaritan",
+          "IsStatic": true,
+          "TsSignatureId": "Samaritan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875994
+          }
+        },
+        {
+          "TsName": "mandaic",
+          "IsStatic": true,
+          "TsSignatureId": "Mandaic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875995
+          }
+        },
+        {
+          "TsName": "syriacSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "SyriacSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875996
+          }
+        },
+        {
+          "TsName": "arabicExtendedB",
+          "IsStatic": true,
+          "TsSignatureId": "ArabicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875997
+          }
+        },
+        {
+          "TsName": "arabicExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "ArabicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875998
+          }
+        },
+        {
+          "TsName": "devanagari",
+          "IsStatic": true,
+          "TsSignatureId": "Devanagari|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385875999
+          }
+        },
+        {
+          "TsName": "bengali",
+          "IsStatic": true,
+          "TsSignatureId": "Bengali|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876000
+          }
+        },
+        {
+          "TsName": "gurmukhi",
+          "IsStatic": true,
+          "TsSignatureId": "Gurmukhi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876001
+          }
+        },
+        {
+          "TsName": "gujarati",
+          "IsStatic": true,
+          "TsSignatureId": "Gujarati|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876002
+          }
+        },
+        {
+          "TsName": "oriya",
+          "IsStatic": true,
+          "TsSignatureId": "Oriya|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876003
+          }
+        },
+        {
+          "TsName": "tamil",
+          "IsStatic": true,
+          "TsSignatureId": "Tamil|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876004
+          }
+        },
+        {
+          "TsName": "telugu",
+          "IsStatic": true,
+          "TsSignatureId": "Telugu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876005
+          }
+        },
+        {
+          "TsName": "kannada",
+          "IsStatic": true,
+          "TsSignatureId": "Kannada|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876006
+          }
+        },
+        {
+          "TsName": "malayalam",
+          "IsStatic": true,
+          "TsSignatureId": "Malayalam|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876007
+          }
+        },
+        {
+          "TsName": "sinhala",
+          "IsStatic": true,
+          "TsSignatureId": "Sinhala|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876008
+          }
+        },
+        {
+          "TsName": "thai",
+          "IsStatic": true,
+          "TsSignatureId": "Thai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876009
+          }
+        },
+        {
+          "TsName": "lao",
+          "IsStatic": true,
+          "TsSignatureId": "Lao|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876010
+          }
+        },
+        {
+          "TsName": "tibetan",
+          "IsStatic": true,
+          "TsSignatureId": "Tibetan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876011
+          }
+        },
+        {
+          "TsName": "myanmar",
+          "IsStatic": true,
+          "TsSignatureId": "Myanmar|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876012
+          }
+        },
+        {
+          "TsName": "georgian",
+          "IsStatic": true,
+          "TsSignatureId": "Georgian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876013
+          }
+        },
+        {
+          "TsName": "hangulJamo",
+          "IsStatic": true,
+          "TsSignatureId": "HangulJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876014
+          }
+        },
+        {
+          "TsName": "ethiopic",
+          "IsStatic": true,
+          "TsSignatureId": "Ethiopic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876015
+          }
+        },
+        {
+          "TsName": "ethiopicSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "EthiopicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876016
+          }
+        },
+        {
+          "TsName": "cherokee",
+          "IsStatic": true,
+          "TsSignatureId": "Cherokee|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876017
+          }
+        },
+        {
+          "TsName": "unifiedCanadianAboriginalSyllabics",
+          "IsStatic": true,
+          "TsSignatureId": "UnifiedCanadianAboriginalSyllabics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876018
+          }
+        },
+        {
+          "TsName": "ogham",
+          "IsStatic": true,
+          "TsSignatureId": "Ogham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876019
+          }
+        },
+        {
+          "TsName": "runic",
+          "IsStatic": true,
+          "TsSignatureId": "Runic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876020
+          }
+        },
+        {
+          "TsName": "tagalog",
+          "IsStatic": true,
+          "TsSignatureId": "Tagalog|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876021
+          }
+        },
+        {
+          "TsName": "hanunoo",
+          "IsStatic": true,
+          "TsSignatureId": "Hanunoo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876022
+          }
+        },
+        {
+          "TsName": "buhid",
+          "IsStatic": true,
+          "TsSignatureId": "Buhid|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876023
+          }
+        },
+        {
+          "TsName": "tagbanwa",
+          "IsStatic": true,
+          "TsSignatureId": "Tagbanwa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876024
+          }
+        },
+        {
+          "TsName": "khmer",
+          "IsStatic": true,
+          "TsSignatureId": "Khmer|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876025
+          }
+        },
+        {
+          "TsName": "mongolian",
+          "IsStatic": true,
+          "TsSignatureId": "Mongolian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876026
+          }
+        },
+        {
+          "TsName": "unifiedCanadianAboriginalSyllabicsExtended",
+          "IsStatic": true,
+          "TsSignatureId": "UnifiedCanadianAboriginalSyllabicsExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876027
+          }
+        },
+        {
+          "TsName": "limbu",
+          "IsStatic": true,
+          "TsSignatureId": "Limbu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876028
+          }
+        },
+        {
+          "TsName": "taiLe",
+          "IsStatic": true,
+          "TsSignatureId": "TaiLe|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876029
+          }
+        },
+        {
+          "TsName": "newTaiLue",
+          "IsStatic": true,
+          "TsSignatureId": "NewTaiLue|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876030
+          }
+        },
+        {
+          "TsName": "khmerSymbols",
+          "IsStatic": true,
+          "TsSignatureId": "KhmerSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876031
+          }
+        },
+        {
+          "TsName": "buginese",
+          "IsStatic": true,
+          "TsSignatureId": "Buginese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876032
+          }
+        },
+        {
+          "TsName": "taiTham",
+          "IsStatic": true,
+          "TsSignatureId": "TaiTham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876033
+          }
+        },
+        {
+          "TsName": "combiningDiacriticalMarksExtended",
+          "IsStatic": true,
+          "TsSignatureId": "CombiningDiacriticalMarksExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876034
+          }
+        },
+        {
+          "TsName": "balinese",
+          "IsStatic": true,
+          "TsSignatureId": "Balinese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876035
+          }
+        },
+        {
+          "TsName": "sundanese",
+          "IsStatic": true,
+          "TsSignatureId": "Sundanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876036
+          }
+        },
+        {
+          "TsName": "batak",
+          "IsStatic": true,
+          "TsSignatureId": "Batak|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876037
+          }
+        },
+        {
+          "TsName": "lepcha",
+          "IsStatic": true,
+          "TsSignatureId": "Lepcha|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876038
+          }
+        },
+        {
+          "TsName": "olChiki",
+          "IsStatic": true,
+          "TsSignatureId": "OlChiki|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876039
+          }
+        },
+        {
+          "TsName": "cyrillicExtendedC",
+          "IsStatic": true,
+          "TsSignatureId": "CyrillicExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876040
+          }
+        },
+        {
+          "TsName": "georgianExtended",
+          "IsStatic": true,
+          "TsSignatureId": "GeorgianExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876041
+          }
+        },
+        {
+          "TsName": "sundaneseSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "SundaneseSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876042
+          }
+        },
+        {
+          "TsName": "vedicExtensions",
+          "IsStatic": true,
+          "TsSignatureId": "VedicExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876043
+          }
+        },
+        {
+          "TsName": "phoneticExtensions",
+          "IsStatic": true,
+          "TsSignatureId": "PhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876044
+          }
+        },
+        {
+          "TsName": "phoneticExtensionsSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "PhoneticExtensionsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876045
+          }
+        },
+        {
+          "TsName": "combiningDiacriticalMarksSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "CombiningDiacriticalMarksSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876046
+          }
+        },
+        {
+          "TsName": "latinExtendedAdditional",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedAdditional|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876047
+          }
+        },
+        {
+          "TsName": "greekExtended",
+          "IsStatic": true,
+          "TsSignatureId": "GreekExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876048
+          }
+        },
+        {
+          "TsName": "generalPunctuation",
+          "IsStatic": true,
+          "TsSignatureId": "GeneralPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876049
+          }
+        },
+        {
+          "TsName": "superscriptsandSubscripts",
+          "IsStatic": true,
+          "TsSignatureId": "SuperscriptsandSubscripts|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876050
+          }
+        },
+        {
+          "TsName": "currencySymbols",
+          "IsStatic": true,
+          "TsSignatureId": "CurrencySymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876051
+          }
+        },
+        {
+          "TsName": "combiningDiacriticalMarksforSymbols",
+          "IsStatic": true,
+          "TsSignatureId": "CombiningDiacriticalMarksforSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876052
+          }
+        },
+        {
+          "TsName": "letterlikeSymbols",
+          "IsStatic": true,
+          "TsSignatureId": "LetterlikeSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876053
+          }
+        },
+        {
+          "TsName": "numberForms",
+          "IsStatic": true,
+          "TsSignatureId": "NumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876054
+          }
+        },
+        {
+          "TsName": "arrows",
+          "IsStatic": true,
+          "TsSignatureId": "Arrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876055
+          }
+        },
+        {
+          "TsName": "mathematicalOperators",
+          "IsStatic": true,
+          "TsSignatureId": "MathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876056
+          }
+        },
+        {
+          "TsName": "miscellaneousTechnical",
+          "IsStatic": true,
+          "TsSignatureId": "MiscellaneousTechnical|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876057
+          }
+        },
+        {
+          "TsName": "controlPictures",
+          "IsStatic": true,
+          "TsSignatureId": "ControlPictures|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876058
+          }
+        },
+        {
+          "TsName": "opticalCharacterRecognition",
+          "IsStatic": true,
+          "TsSignatureId": "OpticalCharacterRecognition|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876059
+          }
+        },
+        {
+          "TsName": "enclosedAlphanumerics",
+          "IsStatic": true,
+          "TsSignatureId": "EnclosedAlphanumerics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876060
+          }
+        },
+        {
+          "TsName": "boxDrawing",
+          "IsStatic": true,
+          "TsSignatureId": "BoxDrawing|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876061
+          }
+        },
+        {
+          "TsName": "blockElements",
+          "IsStatic": true,
+          "TsSignatureId": "BlockElements|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876062
+          }
+        },
+        {
+          "TsName": "geometricShapes",
+          "IsStatic": true,
+          "TsSignatureId": "GeometricShapes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876063
+          }
+        },
+        {
+          "TsName": "miscellaneousSymbols",
+          "IsStatic": true,
+          "TsSignatureId": "MiscellaneousSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876064
+          }
+        },
+        {
+          "TsName": "dingbats",
+          "IsStatic": true,
+          "TsSignatureId": "Dingbats|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876065
+          }
+        },
+        {
+          "TsName": "miscellaneousMathematicalSymbolsA",
+          "IsStatic": true,
+          "TsSignatureId": "MiscellaneousMathematicalSymbolsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876066
+          }
+        },
+        {
+          "TsName": "supplementalArrowsA",
+          "IsStatic": true,
+          "TsSignatureId": "SupplementalArrowsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876067
+          }
+        },
+        {
+          "TsName": "braillePatterns",
+          "IsStatic": true,
+          "TsSignatureId": "BraillePatterns|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876068
+          }
+        },
+        {
+          "TsName": "supplementalArrowsB",
+          "IsStatic": true,
+          "TsSignatureId": "SupplementalArrowsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876069
+          }
+        },
+        {
+          "TsName": "miscellaneousMathematicalSymbolsB",
+          "IsStatic": true,
+          "TsSignatureId": "MiscellaneousMathematicalSymbolsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876070
+          }
+        },
+        {
+          "TsName": "supplementalMathematicalOperators",
+          "IsStatic": true,
+          "TsSignatureId": "SupplementalMathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876071
+          }
+        },
+        {
+          "TsName": "miscellaneousSymbolsandArrows",
+          "IsStatic": true,
+          "TsSignatureId": "MiscellaneousSymbolsandArrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876072
+          }
+        },
+        {
+          "TsName": "glagolitic",
+          "IsStatic": true,
+          "TsSignatureId": "Glagolitic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876073
+          }
+        },
+        {
+          "TsName": "latinExtendedC",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876074
+          }
+        },
+        {
+          "TsName": "coptic",
+          "IsStatic": true,
+          "TsSignatureId": "Coptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876075
+          }
+        },
+        {
+          "TsName": "georgianSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "GeorgianSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876076
+          }
+        },
+        {
+          "TsName": "tifinagh",
+          "IsStatic": true,
+          "TsSignatureId": "Tifinagh|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876077
+          }
+        },
+        {
+          "TsName": "ethiopicExtended",
+          "IsStatic": true,
+          "TsSignatureId": "EthiopicExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876078
+          }
+        },
+        {
+          "TsName": "cyrillicExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "CyrillicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876079
+          }
+        },
+        {
+          "TsName": "supplementalPunctuation",
+          "IsStatic": true,
+          "TsSignatureId": "SupplementalPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876080
+          }
+        },
+        {
+          "TsName": "cjkRadicalsSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "CjkRadicalsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876081
+          }
+        },
+        {
+          "TsName": "kangxiRadicals",
+          "IsStatic": true,
+          "TsSignatureId": "KangxiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876082
+          }
+        },
+        {
+          "TsName": "ideographicDescriptionCharacters",
+          "IsStatic": true,
+          "TsSignatureId": "IdeographicDescriptionCharacters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876083
+          }
+        },
+        {
+          "TsName": "cjkSymbolsandPunctuation",
+          "IsStatic": true,
+          "TsSignatureId": "CjkSymbolsandPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876084
+          }
+        },
+        {
+          "TsName": "hiragana",
+          "IsStatic": true,
+          "TsSignatureId": "Hiragana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876085
+          }
+        },
+        {
+          "TsName": "katakana",
+          "IsStatic": true,
+          "TsSignatureId": "Katakana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876086
+          }
+        },
+        {
+          "TsName": "bopomofo",
+          "IsStatic": true,
+          "TsSignatureId": "Bopomofo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876087
+          }
+        },
+        {
+          "TsName": "hangulCompatibilityJamo",
+          "IsStatic": true,
+          "TsSignatureId": "HangulCompatibilityJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876088
+          }
+        },
+        {
+          "TsName": "kanbun",
+          "IsStatic": true,
+          "TsSignatureId": "Kanbun|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876089
+          }
+        },
+        {
+          "TsName": "bopomofoExtended",
+          "IsStatic": true,
+          "TsSignatureId": "BopomofoExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876090
+          }
+        },
+        {
+          "TsName": "cjkStrokes",
+          "IsStatic": true,
+          "TsSignatureId": "CjkStrokes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876091
+          }
+        },
+        {
+          "TsName": "katakanaPhoneticExtensions",
+          "IsStatic": true,
+          "TsSignatureId": "KatakanaPhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876092
+          }
+        },
+        {
+          "TsName": "enclosedCjkLettersandMonths",
+          "IsStatic": true,
+          "TsSignatureId": "EnclosedCjkLettersandMonths|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876093
+          }
+        },
+        {
+          "TsName": "cjkCompatibility",
+          "IsStatic": true,
+          "TsSignatureId": "CjkCompatibility|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876094
+          }
+        },
+        {
+          "TsName": "cjkUnifiedIdeographsExtensionA",
+          "IsStatic": true,
+          "TsSignatureId": "CjkUnifiedIdeographsExtensionA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876095
+          }
+        },
+        {
+          "TsName": "yijingHexagramSymbols",
+          "IsStatic": true,
+          "TsSignatureId": "YijingHexagramSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876096
+          }
+        },
+        {
+          "TsName": "cjkUnifiedIdeographs",
+          "IsStatic": true,
+          "TsSignatureId": "CjkUnifiedIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876097
+          }
+        },
+        {
+          "TsName": "yiSyllables",
+          "IsStatic": true,
+          "TsSignatureId": "YiSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876098
+          }
+        },
+        {
+          "TsName": "yiRadicals",
+          "IsStatic": true,
+          "TsSignatureId": "YiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876099
+          }
+        },
+        {
+          "TsName": "lisu",
+          "IsStatic": true,
+          "TsSignatureId": "Lisu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876100
+          }
+        },
+        {
+          "TsName": "vai",
+          "IsStatic": true,
+          "TsSignatureId": "Vai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876101
+          }
+        },
+        {
+          "TsName": "cyrillicExtendedB",
+          "IsStatic": true,
+          "TsSignatureId": "CyrillicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876102
+          }
+        },
+        {
+          "TsName": "bamum",
+          "IsStatic": true,
+          "TsSignatureId": "Bamum|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876103
+          }
+        },
+        {
+          "TsName": "modifierToneLetters",
+          "IsStatic": true,
+          "TsSignatureId": "ModifierToneLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876104
+          }
+        },
+        {
+          "TsName": "latinExtendedD",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedD|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876105
+          }
+        },
+        {
+          "TsName": "sylotiNagri",
+          "IsStatic": true,
+          "TsSignatureId": "SylotiNagri|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876106
+          }
+        },
+        {
+          "TsName": "commonIndicNumberForms",
+          "IsStatic": true,
+          "TsSignatureId": "CommonIndicNumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876107
+          }
+        },
+        {
+          "TsName": "phagspa",
+          "IsStatic": true,
+          "TsSignatureId": "Phagspa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876108
+          }
+        },
+        {
+          "TsName": "saurashtra",
+          "IsStatic": true,
+          "TsSignatureId": "Saurashtra|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876109
+          }
+        },
+        {
+          "TsName": "devanagariExtended",
+          "IsStatic": true,
+          "TsSignatureId": "DevanagariExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876110
+          }
+        },
+        {
+          "TsName": "kayahLi",
+          "IsStatic": true,
+          "TsSignatureId": "KayahLi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876111
+          }
+        },
+        {
+          "TsName": "rejang",
+          "IsStatic": true,
+          "TsSignatureId": "Rejang|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876112
+          }
+        },
+        {
+          "TsName": "hangulJamoExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "HangulJamoExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876113
+          }
+        },
+        {
+          "TsName": "javanese",
+          "IsStatic": true,
+          "TsSignatureId": "Javanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876114
+          }
+        },
+        {
+          "TsName": "myanmarExtendedB",
+          "IsStatic": true,
+          "TsSignatureId": "MyanmarExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876115
+          }
+        },
+        {
+          "TsName": "cham",
+          "IsStatic": true,
+          "TsSignatureId": "Cham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876116
+          }
+        },
+        {
+          "TsName": "myanmarExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "MyanmarExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876117
+          }
+        },
+        {
+          "TsName": "taiViet",
+          "IsStatic": true,
+          "TsSignatureId": "TaiViet|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876118
+          }
+        },
+        {
+          "TsName": "meeteiMayekExtensions",
+          "IsStatic": true,
+          "TsSignatureId": "MeeteiMayekExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876119
+          }
+        },
+        {
+          "TsName": "ethiopicExtendedA",
+          "IsStatic": true,
+          "TsSignatureId": "EthiopicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876120
+          }
+        },
+        {
+          "TsName": "latinExtendedE",
+          "IsStatic": true,
+          "TsSignatureId": "LatinExtendedE|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876121
+          }
+        },
+        {
+          "TsName": "cherokeeSupplement",
+          "IsStatic": true,
+          "TsSignatureId": "CherokeeSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876122
+          }
+        },
+        {
+          "TsName": "meeteiMayek",
+          "IsStatic": true,
+          "TsSignatureId": "MeeteiMayek|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876123
+          }
+        },
+        {
+          "TsName": "hangulSyllables",
+          "IsStatic": true,
+          "TsSignatureId": "HangulSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876124
+          }
+        },
+        {
+          "TsName": "hangulJamoExtendedB",
+          "IsStatic": true,
+          "TsSignatureId": "HangulJamoExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876125
+          }
+        },
+        {
+          "TsName": "cjkCompatibilityIdeographs",
+          "IsStatic": true,
+          "TsSignatureId": "CjkCompatibilityIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876126
+          }
+        },
+        {
+          "TsName": "alphabeticPresentationForms",
+          "IsStatic": true,
+          "TsSignatureId": "AlphabeticPresentationForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876127
+          }
+        },
+        {
+          "TsName": "arabicPresentationFormsA",
+          "IsStatic": true,
+          "TsSignatureId": "ArabicPresentationFormsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876128
+          }
+        },
+        {
+          "TsName": "variationSelectors",
+          "IsStatic": true,
+          "TsSignatureId": "VariationSelectors|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876129
+          }
+        },
+        {
+          "TsName": "verticalForms",
+          "IsStatic": true,
+          "TsSignatureId": "VerticalForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876130
+          }
+        },
+        {
+          "TsName": "combiningHalfMarks",
+          "IsStatic": true,
+          "TsSignatureId": "CombiningHalfMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876131
+          }
+        },
+        {
+          "TsName": "cjkCompatibilityForms",
+          "IsStatic": true,
+          "TsSignatureId": "CjkCompatibilityForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876132
+          }
+        },
+        {
+          "TsName": "smallFormVariants",
+          "IsStatic": true,
+          "TsSignatureId": "SmallFormVariants|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876133
+          }
+        },
+        {
+          "TsName": "arabicPresentationFormsB",
+          "IsStatic": true,
+          "TsSignatureId": "ArabicPresentationFormsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876134
+          }
+        },
+        {
+          "TsName": "halfwidthandFullwidthForms",
+          "IsStatic": true,
+          "TsSignatureId": "HalfwidthandFullwidthForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876135
+          }
+        },
+        {
+          "TsName": "specials",
+          "IsStatic": true,
+          "TsSignatureId": "Specials|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.UnicodeRanges",
+            "DeclaringAssemblyName": "System.Text.Encodings.Web",
+            "MetadataToken": 385876136
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Unicode.Utf8",
+      "TsEmitName": "Utf8",
+      "AssemblyName": "System.Private.CoreLib",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "FromUtf16",
+          "TsEmitName": "fromUtf16",
+          "MetadataToken": 100682316,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
+          "NormalizedSignature": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 6,
+          "DeclaringClrType": "System.Text.Unicode.Utf8",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "ToUtf16",
+          "TsEmitName": "toUtf16",
+          "MetadataToken": 100682317,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
+          "NormalizedSignature": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 6,
+          "DeclaringClrType": "System.Text.Unicode.Utf8",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "TryWrite",
+          "TsEmitName": "tryWrite",
+          "MetadataToken": 100682319,
+          "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
+          "NormalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Text.Unicode.Utf8",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "TryWrite",
+          "TsEmitName": "tryWrite2",
+          "MetadataToken": 100682320,
+          "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
+          "NormalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Text.Unicode.Utf8",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "IsValid",
+          "TsEmitName": "isValid",
+          "MetadataToken": 100682321,
+          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
+          "NormalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Text.Unicode.Utf8",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "fromUtf16",
+          "IsStatic": true,
+          "TsSignatureId": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682316
+          }
+        },
+        {
+          "TsName": "toUtf16",
+          "IsStatic": true,
+          "TsSignatureId": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682317
+          }
+        },
+        {
+          "TsName": "tryWrite",
+          "IsStatic": true,
+          "TsSignatureId": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682319
+          }
+        },
+        {
+          "TsName": "tryWrite2",
+          "IsStatic": true,
+          "TsSignatureId": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682320
+          }
+        },
+        {
+          "TsName": "isValid",
+          "IsStatic": true,
+          "TsSignatureId": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Text.Unicode.Utf8",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682321
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    }
+  ]
+}

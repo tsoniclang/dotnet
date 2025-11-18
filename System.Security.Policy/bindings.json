@@ -1,0 +1,789 @@
+{
+  "Namespace": "System.Security.Policy",
+  "Types": [
+    {
+      "ClrName": "System.Security.Policy.Evidence",
+      "TsEmitName": "Evidence",
+      "AssemblyName": "System.Security.AccessControl",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "AddAssembly",
+          "TsEmitName": "addAssembly",
+          "MetadataToken": 100663367,
+          "CanonicalSignature": "(System.Object):System.Void",
+          "NormalizedSignature": "AddAssembly|(System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "AddAssemblyEvidence",
+          "TsEmitName": "addAssemblyEvidence",
+          "MetadataToken": 100663368,
+          "CanonicalSignature": "(T):System.Void",
+          "NormalizedSignature": "AddAssemblyEvidence|(T):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "AddHost",
+          "TsEmitName": "addHost",
+          "MetadataToken": 100663369,
+          "CanonicalSignature": "(System.Object):System.Void",
+          "NormalizedSignature": "AddHost|(System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "AddHostEvidence",
+          "TsEmitName": "addHostEvidence",
+          "MetadataToken": 100663370,
+          "CanonicalSignature": "(T):System.Void",
+          "NormalizedSignature": "AddHostEvidence|(T):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "Clear",
+          "TsEmitName": "clear",
+          "MetadataToken": 100663371,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Clear|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 100663372,
+          "CanonicalSignature": "():System.Security.Policy.Evidence",
+          "NormalizedSignature": "Clone|():System.Security.Policy.Evidence|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "CopyTo",
+          "TsEmitName": "copyTo",
+          "MetadataToken": 100663373,
+          "CanonicalSignature": "(System.Array,System.Int32):System.Void",
+          "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "GetAssemblyEnumerator",
+          "TsEmitName": "getAssemblyEnumerator",
+          "MetadataToken": 100663374,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetAssemblyEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "GetAssemblyEvidence",
+          "TsEmitName": "getAssemblyEvidence",
+          "MetadataToken": 100663375,
+          "CanonicalSignature": "():T",
+          "NormalizedSignature": "GetAssemblyEvidence|():T|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "GetEnumerator",
+          "TsEmitName": "getEnumerator",
+          "MetadataToken": 100663376,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "GetHostEnumerator",
+          "TsEmitName": "getHostEnumerator",
+          "MetadataToken": 100663377,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetHostEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "GetHostEvidence",
+          "TsEmitName": "getHostEvidence",
+          "MetadataToken": 100663378,
+          "CanonicalSignature": "():T",
+          "NormalizedSignature": "GetHostEvidence|():T|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 1,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "Merge",
+          "TsEmitName": "merge",
+          "MetadataToken": 100663379,
+          "CanonicalSignature": "(System.Security.Policy.Evidence):System.Void",
+          "NormalizedSignature": "Merge|(System.Security.Policy.Evidence):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "RemoveType",
+          "TsEmitName": "removeType",
+          "MetadataToken": 100663380,
+          "CanonicalSignature": "(System.Type):System.Void",
+          "NormalizedSignature": "RemoveType|(System.Type):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "CopyTo",
+          "TsEmitName": "copyTo$view",
+          "MetadataToken": 100703929,
+          "CanonicalSignature": "(System.Array,System.Int32):System.Void",
+          "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Collections.ICollection",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "GetEnumerator",
+          "TsEmitName": "getEnumerator$view",
+          "MetadataToken": 100703948,
+          "CanonicalSignature": "():System.Collections.IEnumerator",
+          "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Collections.IEnumerable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Count",
+          "TsEmitName": "count",
+          "MetadataToken": 385876016,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "IsReadOnly",
+          "TsEmitName": "isReadOnly",
+          "MetadataToken": 385876017,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "IsSynchronized",
+          "TsEmitName": "isSynchronized",
+          "MetadataToken": 385876018,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "Locked",
+          "TsEmitName": "locked",
+          "MetadataToken": 385876019,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "Locked|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "SyncRoot",
+          "TsEmitName": "syncRoot",
+          "MetadataToken": 385876020,
+          "CanonicalSignature": ":System.Object",
+          "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "ClrName": "Count",
+          "TsEmitName": "count$view",
+          "MetadataToken": 385881295,
+          "CanonicalSignature": ":System.Int32",
+          "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Collections.ICollection",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "SyncRoot",
+          "TsEmitName": "syncRoot$view",
+          "MetadataToken": 385881296,
+          "CanonicalSignature": ":System.Object",
+          "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Collections.ICollection",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "IsSynchronized",
+          "TsEmitName": "isSynchronized$view",
+          "MetadataToken": 385881297,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Collections.ICollection",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663357,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "MetadataToken": 100663358,
+          "CanonicalSignature": "(System.Object[],System.Object[]):void",
+          "NormalizedSignature": "constructor|(System.Object[],System.Object[]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "MetadataToken": 100663359,
+          "CanonicalSignature": "(System.Security.Policy.Evidence):void",
+          "NormalizedSignature": "constructor|(System.Security.Policy.Evidence):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        },
+        {
+          "MetadataToken": 100663360,
+          "CanonicalSignature": "(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[]):void",
+          "NormalizedSignature": "constructor|(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Policy.Evidence",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "addAssembly",
+          "IsStatic": false,
+          "TsSignatureId": "AddAssembly|(System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663367
+          }
+        },
+        {
+          "TsName": "addAssemblyEvidence",
+          "IsStatic": false,
+          "TsSignatureId": "AddAssemblyEvidence|(T):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663368
+          }
+        },
+        {
+          "TsName": "addHost",
+          "IsStatic": false,
+          "TsSignatureId": "AddHost|(System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663369
+          }
+        },
+        {
+          "TsName": "addHostEvidence",
+          "IsStatic": false,
+          "TsSignatureId": "AddHostEvidence|(T):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663370
+          }
+        },
+        {
+          "TsName": "clear",
+          "IsStatic": false,
+          "TsSignatureId": "Clear|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663371
+          }
+        },
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Security.Policy.Evidence|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663372
+          }
+        },
+        {
+          "TsName": "copyTo",
+          "IsStatic": false,
+          "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663373
+          }
+        },
+        {
+          "TsName": "getAssemblyEnumerator",
+          "IsStatic": false,
+          "TsSignatureId": "GetAssemblyEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663374
+          }
+        },
+        {
+          "TsName": "getAssemblyEvidence",
+          "IsStatic": false,
+          "TsSignatureId": "GetAssemblyEvidence|():T|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663375
+          }
+        },
+        {
+          "TsName": "getEnumerator",
+          "IsStatic": false,
+          "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663376
+          }
+        },
+        {
+          "TsName": "getHostEnumerator",
+          "IsStatic": false,
+          "TsSignatureId": "GetHostEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663377
+          }
+        },
+        {
+          "TsName": "getHostEvidence",
+          "IsStatic": false,
+          "TsSignatureId": "GetHostEvidence|():T|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663378
+          }
+        },
+        {
+          "TsName": "merge",
+          "IsStatic": false,
+          "TsSignatureId": "Merge|(System.Security.Policy.Evidence):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663379
+          }
+        },
+        {
+          "TsName": "removeType",
+          "IsStatic": false,
+          "TsSignatureId": "RemoveType|(System.Type):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663380
+          }
+        },
+        {
+          "TsName": "copyTo$view",
+          "IsStatic": false,
+          "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Collections.ICollection",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100703929
+          }
+        },
+        {
+          "TsName": "getEnumerator$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Collections.IEnumerable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100703948
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "count",
+          "IsStatic": false,
+          "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 385876016
+          }
+        },
+        {
+          "TsName": "isReadOnly",
+          "IsStatic": false,
+          "TsSignatureId": "IsReadOnly|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 385876017
+          }
+        },
+        {
+          "TsName": "isSynchronized",
+          "IsStatic": false,
+          "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 385876018
+          }
+        },
+        {
+          "TsName": "locked",
+          "IsStatic": false,
+          "TsSignatureId": "Locked|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 385876019
+          }
+        },
+        {
+          "TsName": "syncRoot",
+          "IsStatic": false,
+          "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 385876020
+          }
+        },
+        {
+          "TsName": "count$view",
+          "IsStatic": false,
+          "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Collections.ICollection",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385881295
+          }
+        },
+        {
+          "TsName": "syncRoot$view",
+          "IsStatic": false,
+          "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Collections.ICollection",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385881296
+          }
+        },
+        {
+          "TsName": "isSynchronized$view",
+          "IsStatic": false,
+          "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Collections.ICollection",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385881297
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663357
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Object[],System.Object[]):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663358
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Policy.Evidence):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663359
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[]):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.Evidence",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663360
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Security.Policy.EvidenceBase",
+      "TsEmitName": "EvidenceBase",
+      "AssemblyName": "System.Security.AccessControl",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 100663382,
+          "CanonicalSignature": "():System.Security.Policy.EvidenceBase",
+          "NormalizedSignature": "Clone|():System.Security.Policy.EvidenceBase|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Policy.EvidenceBase",
+          "DeclaringAssemblyName": "System.Security.AccessControl"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Security.Policy.EvidenceBase|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Policy.EvidenceBase",
+            "DeclaringAssemblyName": "System.Security.AccessControl",
+            "MetadataToken": 100663382
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    }
+  ]
+}

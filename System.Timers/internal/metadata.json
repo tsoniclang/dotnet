@@ -1,0 +1,441 @@
+{
+  "Namespace": "System.Timers",
+  "ContributingAssemblies": [
+    "System.ComponentModel.TypeConverter"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Timers.ElapsedEventArgs",
+      "TsEmitName": "ElapsedEventArgs",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "SignalTime",
+          "TsEmitName": "signalTime",
+          "NormalizedSignature": "SignalTime|:System.DateTime|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.DateTime):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.ElapsedEventHandler",
+      "TsEmitName": "ElapsedEventHandler",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "NormalizedSignature": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "BeginInvoke",
+          "TsEmitName": "beginInvoke",
+          "NormalizedSignature": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "EndInvoke",
+          "TsEmitName": "endInvoke",
+          "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone$view",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.ICloneable"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.Timer",
+      "TsEmitName": "Timer",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "BeginInit",
+          "TsEmitName": "beginInit",
+          "NormalizedSignature": "BeginInit|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Close",
+          "TsEmitName": "close",
+          "NormalizedSignature": "Close|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "EndInit",
+          "TsEmitName": "endInit",
+          "NormalizedSignature": "EndInit|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Start",
+          "TsEmitName": "start",
+          "NormalizedSignature": "Start|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Stop",
+          "TsEmitName": "stop",
+          "NormalizedSignature": "Stop|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "BeginInit",
+          "TsEmitName": "beginInit$view",
+          "NormalizedSignature": "BeginInit|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.ComponentModel.ISupportInitialize"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "AutoReset",
+          "TsEmitName": "autoReset",
+          "NormalizedSignature": "AutoReset|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Enabled",
+          "TsEmitName": "enabled",
+          "NormalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Interval",
+          "TsEmitName": "interval",
+          "NormalizedSignature": "Interval|:System.Double|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Site",
+          "TsEmitName": "site",
+          "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "SynchronizingObject",
+          "TsEmitName": "synchronizingObject",
+          "NormalizedSignature": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Site",
+          "TsEmitName": "site$view",
+          "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "SourceInterface": "System.ComponentModel.IComponent"
+        }
+      ],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "Elapsed",
+          "TsEmitName": "elapsed",
+          "NormalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
+          "IsStatic": false
+        }
+      ],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Double):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.TimeSpan):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.TimersDescriptionAttribute",
+      "TsEmitName": "TimersDescriptionAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Description",
+          "TsEmitName": "description",
+          "NormalizedSignature": "Description|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    }
+  ]
+}

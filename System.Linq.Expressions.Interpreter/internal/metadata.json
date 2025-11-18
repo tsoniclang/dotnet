@@ -1,0 +1,52 @@
+{
+  "Namespace": "System.Linq.Expressions.Interpreter",
+  "ContributingAssemblies": [
+    "System.Linq.Expressions"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Linq.Expressions.Interpreter.LightLambda",
+      "TsEmitName": "LightLambda",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Run",
+          "TsEmitName": "run",
+          "NormalizedSignature": "Run|(System.Object[]):System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "RunVoid",
+          "TsEmitName": "runVoid",
+          "NormalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

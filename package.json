@@ -1,0 +1,33 @@
+{
+  "name": "@tsonic/dotnet",
+  "version": "0.1.0",
+  "description": "TypeScript type definitions for .NET 10 BCL (Base Class Library)",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./*/index.d.ts"
+    }
+  },
+  "files": [
+    "**/*.d.ts",
+    "**/*.json",
+    "!node_modules"
+  ],
+  "keywords": [
+    "dotnet",
+    "typescript",
+    "types",
+    "bcl",
+    "net10",
+    "tsonic"
+  ],
+  "author": "Tsonic Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsoniclang/dotnet.git"
+  },
+  "dependencies": {
+    "@tsonic/types": "^0.1.1"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "Namespace": "System.Net.ServerSentEvents",
+  "ContributingAssemblies": [
+    "System.Net.ServerSentEvents"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Net.ServerSentEvents.SseItem\u00601",
+      "TsEmitName": "SseItem_1",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Data",
+          "TsEmitName": "data",
+          "NormalizedSignature": "Data|:T|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "EventType",
+          "TsEmitName": "eventType",
+          "NormalizedSignature": "EventType|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "EventId",
+          "TsEmitName": "eventId",
+          "NormalizedSignature": "EventId|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "ReconnectionInterval",
+          "TsEmitName": "reconnectionInterval",
+          "NormalizedSignature": "ReconnectionInterval|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(T,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+      "TsEmitName": "SseItemParser_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "NormalizedSignature": "Invoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "BeginInvoke",
+          "TsEmitName": "beginInvoke",
+          "NormalizedSignature": "BeginInvoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "EndInvoke",
+          "TsEmitName": "endInvoke",
+          "NormalizedSignature": "EndInvoke|(System.IAsyncResult):T|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone$view",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.ICloneable"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.ServerSentEvents.SseParser\u00601",
+      "TsEmitName": "SseParser_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "Enumerate",
+          "TsEmitName": "enumerate",
+          "NormalizedSignature": "Enumerate|():IEnumerable_1|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "EnumerateAsync",
+          "TsEmitName": "enumerateAsync",
+          "NormalizedSignature": "EnumerateAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "LastEventId",
+          "TsEmitName": "lastEventId",
+          "NormalizedSignature": "LastEventId|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "ReconnectionInterval",
+          "TsEmitName": "reconnectionInterval",
+          "NormalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.ServerSentEvents.SseFormatter",
+      "TsEmitName": "SseFormatter",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "WriteAsync",
+          "TsEmitName": "writeAsync",
+          "NormalizedSignature": "WriteAsync|(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "WriteAsync",
+          "TsEmitName": "writeAsync2",
+          "NormalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 4
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.ServerSentEvents.SseParser",
+      "TsEmitName": "SseParser",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create",
+          "NormalizedSignature": "Create|(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Create",
+          "TsEmitName": "create2",
+          "NormalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 1,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "EventTypeDefault",
+          "TsEmitName": "eventTypeDefault",
+          "NormalizedSignature": "EventTypeDefault|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

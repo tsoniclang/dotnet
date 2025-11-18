@@ -1,0 +1,2953 @@
+{
+  "Namespace": "System.Net.Mime",
+  "Types": [
+    {
+      "ClrName": "System.Net.Mime.TransferEncoding",
+      "TsEmitName": "TransferEncoding",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "MetadataToken": 67109363,
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Unknown",
+          "TsEmitName": "unknown_",
+          "MetadataToken": 67109364,
+          "NormalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "QuotedPrintable",
+          "TsEmitName": "quotedPrintable",
+          "MetadataToken": 67109365,
+          "NormalizedSignature": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Base64",
+          "TsEmitName": "base64",
+          "MetadataToken": 67109366,
+          "NormalizedSignature": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "SevenBit",
+          "TsEmitName": "sevenBit",
+          "MetadataToken": 67109367,
+          "NormalizedSignature": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "EightBit",
+          "TsEmitName": "eightBit",
+          "MetadataToken": 67109368,
+          "NormalizedSignature": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getName",
+          "IsStatic": true,
+          "TsSignatureId": "GetName|(TEnum):System.String|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664288
+          }
+        },
+        {
+          "TsName": "getName2",
+          "IsStatic": true,
+          "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664289
+          }
+        },
+        {
+          "TsName": "getNames",
+          "IsStatic": true,
+          "TsSignatureId": "GetNames|():System.String[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664293
+          }
+        },
+        {
+          "TsName": "getNames2",
+          "IsStatic": true,
+          "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664294
+          }
+        },
+        {
+          "TsName": "getUnderlyingType",
+          "IsStatic": true,
+          "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664296
+          }
+        },
+        {
+          "TsName": "getValues",
+          "IsStatic": true,
+          "TsSignatureId": "GetValues|():TEnum[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664297
+          }
+        },
+        {
+          "TsName": "getValues2",
+          "IsStatic": true,
+          "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664298
+          }
+        },
+        {
+          "TsName": "getValuesAsUnderlyingType",
+          "IsStatic": true,
+          "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664299
+          }
+        },
+        {
+          "TsName": "getValuesAsUnderlyingType2",
+          "IsStatic": true,
+          "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664300
+          }
+        },
+        {
+          "TsName": "hasFlag",
+          "IsStatic": false,
+          "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664303
+          }
+        },
+        {
+          "TsName": "isDefined",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664304
+          }
+        },
+        {
+          "TsName": "isDefined2",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664306
+          }
+        },
+        {
+          "TsName": "parse",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664308
+          }
+        },
+        {
+          "TsName": "parse2",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664309
+          }
+        },
+        {
+          "TsName": "parse3",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664310
+          }
+        },
+        {
+          "TsName": "parse4",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664311
+          }
+        },
+        {
+          "TsName": "parse5",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.String):TEnum|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664312
+          }
+        },
+        {
+          "TsName": "parse6",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664313
+          }
+        },
+        {
+          "TsName": "parse7",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664314
+          }
+        },
+        {
+          "TsName": "parse8",
+          "IsStatic": true,
+          "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664315
+          }
+        },
+        {
+          "TsName": "tryParse",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664316
+          }
+        },
+        {
+          "TsName": "tryParse2",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664317
+          }
+        },
+        {
+          "TsName": "tryParse3",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664318
+          }
+        },
+        {
+          "TsName": "tryParse4",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664319
+          }
+        },
+        {
+          "TsName": "tryParse5",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664321
+          }
+        },
+        {
+          "TsName": "tryParse6",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664322
+          }
+        },
+        {
+          "TsName": "tryParse7",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664323
+          }
+        },
+        {
+          "TsName": "tryParse8",
+          "IsStatic": true,
+          "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664324
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664331
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664332
+          }
+        },
+        {
+          "TsName": "compareTo",
+          "IsStatic": false,
+          "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664333
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664334
+          }
+        },
+        {
+          "TsName": "toString2",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|(System.String):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664335
+          }
+        },
+        {
+          "TsName": "toString3",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664336
+          }
+        },
+        {
+          "TsName": "toString4",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664337
+          }
+        },
+        {
+          "TsName": "format",
+          "IsStatic": true,
+          "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664344
+          }
+        },
+        {
+          "TsName": "tryFormat",
+          "IsStatic": true,
+          "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664346
+          }
+        },
+        {
+          "TsName": "getTypeCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664361
+          }
+        },
+        {
+          "TsName": "toObject",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664377
+          }
+        },
+        {
+          "TsName": "toObject2",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664378
+          }
+        },
+        {
+          "TsName": "toObject3",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664379
+          }
+        },
+        {
+          "TsName": "toObject4",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664380
+          }
+        },
+        {
+          "TsName": "toObject5",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664381
+          }
+        },
+        {
+          "TsName": "toObject6",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664382
+          }
+        },
+        {
+          "TsName": "toObject7",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664383
+          }
+        },
+        {
+          "TsName": "toObject8",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664384
+          }
+        },
+        {
+          "TsName": "toObject9",
+          "IsStatic": true,
+          "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Enum",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664385
+          }
+        },
+        {
+          "TsName": "tryFormat$view",
+          "IsStatic": false,
+          "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ISpanFormattable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100669347
+          }
+        },
+        {
+          "TsName": "toBoolean",
+          "IsStatic": false,
+          "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668513
+          }
+        },
+        {
+          "TsName": "toChar",
+          "IsStatic": false,
+          "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668514
+          }
+        },
+        {
+          "TsName": "toSByte",
+          "IsStatic": false,
+          "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668515
+          }
+        },
+        {
+          "TsName": "toByte",
+          "IsStatic": false,
+          "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668516
+          }
+        },
+        {
+          "TsName": "toInt16",
+          "IsStatic": false,
+          "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668517
+          }
+        },
+        {
+          "TsName": "toUInt16",
+          "IsStatic": false,
+          "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668518
+          }
+        },
+        {
+          "TsName": "toInt32",
+          "IsStatic": false,
+          "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668519
+          }
+        },
+        {
+          "TsName": "toUInt32",
+          "IsStatic": false,
+          "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668520
+          }
+        },
+        {
+          "TsName": "toInt64",
+          "IsStatic": false,
+          "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668521
+          }
+        },
+        {
+          "TsName": "toUInt64",
+          "IsStatic": false,
+          "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668522
+          }
+        },
+        {
+          "TsName": "toSingle",
+          "IsStatic": false,
+          "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668523
+          }
+        },
+        {
+          "TsName": "toDouble",
+          "IsStatic": false,
+          "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668524
+          }
+        },
+        {
+          "TsName": "toDecimal",
+          "IsStatic": false,
+          "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668525
+          }
+        },
+        {
+          "TsName": "toDateTime",
+          "IsStatic": false,
+          "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668526
+          }
+        },
+        {
+          "TsName": "toType",
+          "IsStatic": false,
+          "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668528
+          }
+        },
+        {
+          "TsName": "compareTo$view",
+          "IsStatic": false,
+          "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IComparable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668510
+          }
+        },
+        {
+          "TsName": "toString$view",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IFormattable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668533
+          }
+        },
+        {
+          "TsName": "getTypeCode$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668512
+          }
+        },
+        {
+          "TsName": "toString$view",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IConvertible",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668527
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "value__",
+          "IsStatic": false,
+          "TsSignatureId": "value__|System.Int32|static=false|const=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109363
+          }
+        },
+        {
+          "TsName": "unknown_",
+          "IsStatic": true,
+          "TsSignatureId": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109364
+          }
+        },
+        {
+          "TsName": "quotedPrintable",
+          "IsStatic": true,
+          "TsSignatureId": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109365
+          }
+        },
+        {
+          "TsName": "base64",
+          "IsStatic": true,
+          "TsSignatureId": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109366
+          }
+        },
+        {
+          "TsName": "sevenBit",
+          "IsStatic": true,
+          "TsSignatureId": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109367
+          }
+        },
+        {
+          "TsName": "eightBit",
+          "IsStatic": true,
+          "TsSignatureId": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.TransferEncoding",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109368
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.ContentDisposition",
+      "TsEmitName": "ContentDisposition",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "MetadataToken": 100664147,
+          "CanonicalSignature": "():System.String",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Equals",
+          "TsEmitName": "equals",
+          "MetadataToken": 100664150,
+          "CanonicalSignature": "(System.Object):System.Boolean",
+          "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "GetHashCode",
+          "TsEmitName": "getHashCode",
+          "MetadataToken": 100664151,
+          "CanonicalSignature": "():System.Int32",
+          "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "DispositionType",
+          "TsEmitName": "dispositionType",
+          "MetadataToken": 385876191,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "DispositionType|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Parameters",
+          "TsEmitName": "parameters",
+          "MetadataToken": 385876192,
+          "CanonicalSignature": ":System.Collections.Specialized.StringDictionary",
+          "NormalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "FileName",
+          "TsEmitName": "fileName",
+          "MetadataToken": 385876193,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "FileName|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "CreationDate",
+          "TsEmitName": "creationDate",
+          "MetadataToken": 385876194,
+          "CanonicalSignature": ":System.DateTime",
+          "NormalizedSignature": "CreationDate|:System.DateTime|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "ModificationDate",
+          "TsEmitName": "modificationDate",
+          "MetadataToken": 385876195,
+          "CanonicalSignature": ":System.DateTime",
+          "NormalizedSignature": "ModificationDate|:System.DateTime|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Inline",
+          "TsEmitName": "inline",
+          "MetadataToken": 385876196,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "Inline|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "ReadDate",
+          "TsEmitName": "readDate",
+          "MetadataToken": 385876197,
+          "CanonicalSignature": ":System.DateTime",
+          "NormalizedSignature": "ReadDate|:System.DateTime|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Size",
+          "TsEmitName": "size",
+          "MetadataToken": 385876198,
+          "CanonicalSignature": ":System.Int64",
+          "NormalizedSignature": "Size|:System.Int64|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100664127,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "MetadataToken": 100664128,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664147
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664150
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664151
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "dispositionType",
+          "IsStatic": false,
+          "TsSignatureId": "DispositionType|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876191
+          }
+        },
+        {
+          "TsName": "parameters",
+          "IsStatic": false,
+          "TsSignatureId": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876192
+          }
+        },
+        {
+          "TsName": "fileName",
+          "IsStatic": false,
+          "TsSignatureId": "FileName|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876193
+          }
+        },
+        {
+          "TsName": "creationDate",
+          "IsStatic": false,
+          "TsSignatureId": "CreationDate|:System.DateTime|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876194
+          }
+        },
+        {
+          "TsName": "modificationDate",
+          "IsStatic": false,
+          "TsSignatureId": "ModificationDate|:System.DateTime|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876195
+          }
+        },
+        {
+          "TsName": "inline",
+          "IsStatic": false,
+          "TsSignatureId": "Inline|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876196
+          }
+        },
+        {
+          "TsName": "readDate",
+          "IsStatic": false,
+          "TsSignatureId": "ReadDate|:System.DateTime|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876197
+          }
+        },
+        {
+          "TsName": "size",
+          "IsStatic": false,
+          "TsSignatureId": "Size|:System.Int64|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876198
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664127
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentDisposition",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664128
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.ContentType",
+      "TsEmitName": "ContentType",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "MetadataToken": 100664171,
+          "CanonicalSignature": "():System.String",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Equals",
+          "TsEmitName": "equals",
+          "MetadataToken": 100664174,
+          "CanonicalSignature": "(System.Object):System.Boolean",
+          "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "GetHashCode",
+          "TsEmitName": "getHashCode",
+          "MetadataToken": 100664175,
+          "CanonicalSignature": "():System.Int32",
+          "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Boundary",
+          "TsEmitName": "boundary",
+          "MetadataToken": 385876200,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Boundary|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "CharSet",
+          "TsEmitName": "charSet",
+          "MetadataToken": 385876201,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "CharSet|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "MediaType",
+          "TsEmitName": "mediaType",
+          "MetadataToken": 385876202,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "MediaType|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "MetadataToken": 385876203,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Parameters",
+          "TsEmitName": "parameters",
+          "MetadataToken": 385876204,
+          "CanonicalSignature": ":System.Collections.Specialized.StringDictionary",
+          "NormalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100664158,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "MetadataToken": 100664159,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Net.Mime.ContentType",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664171
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664174
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664175
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "boundary",
+          "IsStatic": false,
+          "TsSignatureId": "Boundary|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876200
+          }
+        },
+        {
+          "TsName": "charSet",
+          "IsStatic": false,
+          "TsSignatureId": "CharSet|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876201
+          }
+        },
+        {
+          "TsName": "mediaType",
+          "IsStatic": false,
+          "TsSignatureId": "MediaType|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876202
+          }
+        },
+        {
+          "TsName": "name",
+          "IsStatic": false,
+          "TsSignatureId": "Name|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876203
+          }
+        },
+        {
+          "TsName": "parameters",
+          "IsStatic": false,
+          "TsSignatureId": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 385876204
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664158
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.ContentType",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 100664159
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.DispositionTypeNames",
+      "TsEmitName": "DispositionTypeNames",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Inline",
+          "TsEmitName": "inline",
+          "MetadataToken": 67109384,
+          "NormalizedSignature": "Inline|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.DispositionTypeNames",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Attachment",
+          "TsEmitName": "attachment",
+          "MetadataToken": 67109385,
+          "NormalizedSignature": "Attachment|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.DispositionTypeNames",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "inline",
+          "IsStatic": true,
+          "TsSignatureId": "Inline|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.DispositionTypeNames",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109384
+          }
+        },
+        {
+          "TsName": "attachment",
+          "IsStatic": true,
+          "TsSignatureId": "Attachment|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.DispositionTypeNames",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109385
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames",
+      "TsEmitName": "MediaTypeNames",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BApplication",
+      "TsEmitName": "MediaTypeNames_Application",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "FormUrlEncoded",
+          "TsEmitName": "formUrlEncoded",
+          "MetadataToken": 67109386,
+          "NormalizedSignature": "FormUrlEncoded|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "GZip",
+          "TsEmitName": "gZip",
+          "MetadataToken": 67109387,
+          "NormalizedSignature": "GZip|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Json",
+          "TsEmitName": "json",
+          "MetadataToken": 67109388,
+          "NormalizedSignature": "Json|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "JsonPatch",
+          "TsEmitName": "jsonPatch",
+          "MetadataToken": 67109389,
+          "NormalizedSignature": "JsonPatch|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "JsonSequence",
+          "TsEmitName": "jsonSequence",
+          "MetadataToken": 67109390,
+          "NormalizedSignature": "JsonSequence|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Manifest",
+          "TsEmitName": "manifest",
+          "MetadataToken": 67109391,
+          "NormalizedSignature": "Manifest|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Octet",
+          "TsEmitName": "octet",
+          "MetadataToken": 67109392,
+          "NormalizedSignature": "Octet|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Pdf",
+          "TsEmitName": "pdf",
+          "MetadataToken": 67109393,
+          "NormalizedSignature": "Pdf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "ProblemJson",
+          "TsEmitName": "problemJson",
+          "MetadataToken": 67109394,
+          "NormalizedSignature": "ProblemJson|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "ProblemXml",
+          "TsEmitName": "problemXml",
+          "MetadataToken": 67109395,
+          "NormalizedSignature": "ProblemXml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Rtf",
+          "TsEmitName": "rtf",
+          "MetadataToken": 67109396,
+          "NormalizedSignature": "Rtf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Soap",
+          "TsEmitName": "soap",
+          "MetadataToken": 67109397,
+          "NormalizedSignature": "Soap|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Wasm",
+          "TsEmitName": "wasm",
+          "MetadataToken": 67109398,
+          "NormalizedSignature": "Wasm|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Xml",
+          "TsEmitName": "xml",
+          "MetadataToken": 67109399,
+          "NormalizedSignature": "Xml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "XmlDtd",
+          "TsEmitName": "xmlDtd",
+          "MetadataToken": 67109400,
+          "NormalizedSignature": "XmlDtd|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "XmlPatch",
+          "TsEmitName": "xmlPatch",
+          "MetadataToken": 67109401,
+          "NormalizedSignature": "XmlPatch|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Yaml",
+          "TsEmitName": "yaml",
+          "MetadataToken": 67109402,
+          "NormalizedSignature": "Yaml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Zip",
+          "TsEmitName": "zip",
+          "MetadataToken": 67109403,
+          "NormalizedSignature": "Zip|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "formUrlEncoded",
+          "IsStatic": true,
+          "TsSignatureId": "FormUrlEncoded|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109386
+          }
+        },
+        {
+          "TsName": "gZip",
+          "IsStatic": true,
+          "TsSignatureId": "GZip|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109387
+          }
+        },
+        {
+          "TsName": "json",
+          "IsStatic": true,
+          "TsSignatureId": "Json|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109388
+          }
+        },
+        {
+          "TsName": "jsonPatch",
+          "IsStatic": true,
+          "TsSignatureId": "JsonPatch|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109389
+          }
+        },
+        {
+          "TsName": "jsonSequence",
+          "IsStatic": true,
+          "TsSignatureId": "JsonSequence|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109390
+          }
+        },
+        {
+          "TsName": "manifest",
+          "IsStatic": true,
+          "TsSignatureId": "Manifest|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109391
+          }
+        },
+        {
+          "TsName": "octet",
+          "IsStatic": true,
+          "TsSignatureId": "Octet|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109392
+          }
+        },
+        {
+          "TsName": "pdf",
+          "IsStatic": true,
+          "TsSignatureId": "Pdf|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109393
+          }
+        },
+        {
+          "TsName": "problemJson",
+          "IsStatic": true,
+          "TsSignatureId": "ProblemJson|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109394
+          }
+        },
+        {
+          "TsName": "problemXml",
+          "IsStatic": true,
+          "TsSignatureId": "ProblemXml|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109395
+          }
+        },
+        {
+          "TsName": "rtf",
+          "IsStatic": true,
+          "TsSignatureId": "Rtf|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109396
+          }
+        },
+        {
+          "TsName": "soap",
+          "IsStatic": true,
+          "TsSignatureId": "Soap|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109397
+          }
+        },
+        {
+          "TsName": "wasm",
+          "IsStatic": true,
+          "TsSignatureId": "Wasm|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109398
+          }
+        },
+        {
+          "TsName": "xml",
+          "IsStatic": true,
+          "TsSignatureId": "Xml|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109399
+          }
+        },
+        {
+          "TsName": "xmlDtd",
+          "IsStatic": true,
+          "TsSignatureId": "XmlDtd|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109400
+          }
+        },
+        {
+          "TsName": "xmlPatch",
+          "IsStatic": true,
+          "TsSignatureId": "XmlPatch|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109401
+          }
+        },
+        {
+          "TsName": "yaml",
+          "IsStatic": true,
+          "TsSignatureId": "Yaml|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109402
+          }
+        },
+        {
+          "TsName": "zip",
+          "IsStatic": true,
+          "TsSignatureId": "Zip|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BApplication",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109403
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BFont",
+      "TsEmitName": "MediaTypeNames_Font",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Collection",
+          "TsEmitName": "collection",
+          "MetadataToken": 67109404,
+          "NormalizedSignature": "Collection|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Otf",
+          "TsEmitName": "otf",
+          "MetadataToken": 67109405,
+          "NormalizedSignature": "Otf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Sfnt",
+          "TsEmitName": "sfnt",
+          "MetadataToken": 67109406,
+          "NormalizedSignature": "Sfnt|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Ttf",
+          "TsEmitName": "ttf",
+          "MetadataToken": 67109407,
+          "NormalizedSignature": "Ttf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Woff",
+          "TsEmitName": "woff",
+          "MetadataToken": 67109408,
+          "NormalizedSignature": "Woff|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Woff2",
+          "TsEmitName": "woff2",
+          "MetadataToken": 67109409,
+          "NormalizedSignature": "Woff2|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "collection",
+          "IsStatic": true,
+          "TsSignatureId": "Collection|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109404
+          }
+        },
+        {
+          "TsName": "otf",
+          "IsStatic": true,
+          "TsSignatureId": "Otf|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109405
+          }
+        },
+        {
+          "TsName": "sfnt",
+          "IsStatic": true,
+          "TsSignatureId": "Sfnt|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109406
+          }
+        },
+        {
+          "TsName": "ttf",
+          "IsStatic": true,
+          "TsSignatureId": "Ttf|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109407
+          }
+        },
+        {
+          "TsName": "woff",
+          "IsStatic": true,
+          "TsSignatureId": "Woff|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109408
+          }
+        },
+        {
+          "TsName": "woff2",
+          "IsStatic": true,
+          "TsSignatureId": "Woff2|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BFont",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109409
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BImage",
+      "TsEmitName": "MediaTypeNames_Image",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Avif",
+          "TsEmitName": "avif",
+          "MetadataToken": 67109410,
+          "NormalizedSignature": "Avif|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Bmp",
+          "TsEmitName": "bmp",
+          "MetadataToken": 67109411,
+          "NormalizedSignature": "Bmp|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Gif",
+          "TsEmitName": "gif",
+          "MetadataToken": 67109412,
+          "NormalizedSignature": "Gif|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Icon",
+          "TsEmitName": "icon",
+          "MetadataToken": 67109413,
+          "NormalizedSignature": "Icon|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Jpeg",
+          "TsEmitName": "jpeg",
+          "MetadataToken": 67109414,
+          "NormalizedSignature": "Jpeg|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Png",
+          "TsEmitName": "png",
+          "MetadataToken": 67109415,
+          "NormalizedSignature": "Png|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Svg",
+          "TsEmitName": "svg",
+          "MetadataToken": 67109416,
+          "NormalizedSignature": "Svg|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Tiff",
+          "TsEmitName": "tiff",
+          "MetadataToken": 67109417,
+          "NormalizedSignature": "Tiff|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Webp",
+          "TsEmitName": "webp",
+          "MetadataToken": 67109418,
+          "NormalizedSignature": "Webp|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "avif",
+          "IsStatic": true,
+          "TsSignatureId": "Avif|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109410
+          }
+        },
+        {
+          "TsName": "bmp",
+          "IsStatic": true,
+          "TsSignatureId": "Bmp|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109411
+          }
+        },
+        {
+          "TsName": "gif",
+          "IsStatic": true,
+          "TsSignatureId": "Gif|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109412
+          }
+        },
+        {
+          "TsName": "icon",
+          "IsStatic": true,
+          "TsSignatureId": "Icon|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109413
+          }
+        },
+        {
+          "TsName": "jpeg",
+          "IsStatic": true,
+          "TsSignatureId": "Jpeg|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109414
+          }
+        },
+        {
+          "TsName": "png",
+          "IsStatic": true,
+          "TsSignatureId": "Png|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109415
+          }
+        },
+        {
+          "TsName": "svg",
+          "IsStatic": true,
+          "TsSignatureId": "Svg|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109416
+          }
+        },
+        {
+          "TsName": "tiff",
+          "IsStatic": true,
+          "TsSignatureId": "Tiff|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109417
+          }
+        },
+        {
+          "TsName": "webp",
+          "IsStatic": true,
+          "TsSignatureId": "Webp|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BImage",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109418
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+      "TsEmitName": "MediaTypeNames_Multipart",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "ByteRanges",
+          "TsEmitName": "byteRanges",
+          "MetadataToken": 67109419,
+          "NormalizedSignature": "ByteRanges|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "FormData",
+          "TsEmitName": "formData",
+          "MetadataToken": 67109420,
+          "NormalizedSignature": "FormData|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Mixed",
+          "TsEmitName": "mixed",
+          "MetadataToken": 67109421,
+          "NormalizedSignature": "Mixed|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Related",
+          "TsEmitName": "related",
+          "MetadataToken": 67109422,
+          "NormalizedSignature": "Related|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "byteRanges",
+          "IsStatic": true,
+          "TsSignatureId": "ByteRanges|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109419
+          }
+        },
+        {
+          "TsName": "formData",
+          "IsStatic": true,
+          "TsSignatureId": "FormData|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109420
+          }
+        },
+        {
+          "TsName": "mixed",
+          "IsStatic": true,
+          "TsSignatureId": "Mixed|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109421
+          }
+        },
+        {
+          "TsName": "related",
+          "IsStatic": true,
+          "TsSignatureId": "Related|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109422
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BText",
+      "TsEmitName": "MediaTypeNames_Text",
+      "AssemblyName": "System.Net.Mail",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Css",
+          "TsEmitName": "css",
+          "MetadataToken": 67109423,
+          "NormalizedSignature": "Css|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Csv",
+          "TsEmitName": "csv",
+          "MetadataToken": 67109424,
+          "NormalizedSignature": "Csv|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "EventStream",
+          "TsEmitName": "eventStream",
+          "MetadataToken": 67109425,
+          "NormalizedSignature": "EventStream|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Html",
+          "TsEmitName": "html",
+          "MetadataToken": 67109426,
+          "NormalizedSignature": "Html|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "JavaScript",
+          "TsEmitName": "javaScript",
+          "MetadataToken": 67109427,
+          "NormalizedSignature": "JavaScript|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Markdown",
+          "TsEmitName": "markdown",
+          "MetadataToken": 67109428,
+          "NormalizedSignature": "Markdown|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Plain",
+          "TsEmitName": "plain",
+          "MetadataToken": 67109429,
+          "NormalizedSignature": "Plain|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "RichText",
+          "TsEmitName": "richText",
+          "MetadataToken": 67109430,
+          "NormalizedSignature": "RichText|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Rtf",
+          "TsEmitName": "rtf",
+          "MetadataToken": 67109431,
+          "NormalizedSignature": "Rtf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        },
+        {
+          "ClrName": "Xml",
+          "TsEmitName": "xml",
+          "MetadataToken": 67109432,
+          "NormalizedSignature": "Xml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+          "DeclaringAssemblyName": "System.Net.Mail"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "css",
+          "IsStatic": true,
+          "TsSignatureId": "Css|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109423
+          }
+        },
+        {
+          "TsName": "csv",
+          "IsStatic": true,
+          "TsSignatureId": "Csv|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109424
+          }
+        },
+        {
+          "TsName": "eventStream",
+          "IsStatic": true,
+          "TsSignatureId": "EventStream|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109425
+          }
+        },
+        {
+          "TsName": "html",
+          "IsStatic": true,
+          "TsSignatureId": "Html|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109426
+          }
+        },
+        {
+          "TsName": "javaScript",
+          "IsStatic": true,
+          "TsSignatureId": "JavaScript|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109427
+          }
+        },
+        {
+          "TsName": "markdown",
+          "IsStatic": true,
+          "TsSignatureId": "Markdown|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109428
+          }
+        },
+        {
+          "TsName": "plain",
+          "IsStatic": true,
+          "TsSignatureId": "Plain|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109429
+          }
+        },
+        {
+          "TsName": "richText",
+          "IsStatic": true,
+          "TsSignatureId": "RichText|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109430
+          }
+        },
+        {
+          "TsName": "rtf",
+          "IsStatic": true,
+          "TsSignatureId": "Rtf|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109431
+          }
+        },
+        {
+          "TsName": "xml",
+          "IsStatic": true,
+          "TsSignatureId": "Xml|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Mime.MediaTypeNames\u002BText",
+            "DeclaringAssemblyName": "System.Net.Mail",
+            "MetadataToken": 67109432
+          }
+        }
+      ]
+    }
+  ]
+}

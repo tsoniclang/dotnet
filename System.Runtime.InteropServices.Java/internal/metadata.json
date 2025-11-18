@@ -1,0 +1,192 @@
+{
+  "Namespace": "System.Runtime.InteropServices.Java",
+  "ContributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.InteropServices.Java.ComponentCrossReference",
+      "TsEmitName": "ComponentCrossReference",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "SourceGroupIndex",
+          "TsEmitName": "sourceGroupIndex",
+          "NormalizedSignature": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "DestinationGroupIndex",
+          "TsEmitName": "destinationGroupIndex",
+          "NormalizedSignature": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
+      "TsEmitName": "MarkCrossReferencesArgs",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "ComponentCount",
+          "TsEmitName": "componentCount",
+          "NormalizedSignature": "ComponentCount|System.UIntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Components",
+          "TsEmitName": "components",
+          "NormalizedSignature": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "CrossReferenceCount",
+          "TsEmitName": "crossReferenceCount",
+          "NormalizedSignature": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "CrossReferences",
+          "TsEmitName": "crossReferences",
+          "NormalizedSignature": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.Java.StronglyConnectedComponent",
+      "TsEmitName": "StronglyConnectedComponent",
+      "Kind": "Struct",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Count",
+          "TsEmitName": "count",
+          "NormalizedSignature": "Count|System.UIntPtr|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Contexts",
+          "TsEmitName": "contexts",
+          "NormalizedSignature": "Contexts|System.Void**|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.Java.JavaMarshal",
+      "TsEmitName": "JavaMarshal",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Initialize",
+          "TsEmitName": "initialize",
+          "NormalizedSignature": "Initialize|():System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateReferenceTrackingHandle",
+          "TsEmitName": "createReferenceTrackingHandle",
+          "NormalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetContext",
+          "TsEmitName": "getContext",
+          "NormalizedSignature": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "FinishCrossReferenceProcessing",
+          "TsEmitName": "finishCrossReferenceProcessing",
+          "NormalizedSignature": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

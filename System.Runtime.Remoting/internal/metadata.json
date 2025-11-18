@@ -1,0 +1,44 @@
+{
+  "Namespace": "System.Runtime.Remoting",
+  "ContributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.Remoting.ObjectHandle",
+      "TsEmitName": "ObjectHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Unwrap",
+          "TsEmitName": "unwrap",
+          "NormalizedSignature": "Unwrap|():System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Object):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    }
+  ]
+}

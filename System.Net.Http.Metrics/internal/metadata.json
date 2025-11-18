@@ -1,0 +1,95 @@
+{
+  "Namespace": "System.Net.Http.Metrics",
+  "ContributingAssemblies": [
+    "System.Net.Http"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+      "TsEmitName": "HttpMetricsEnrichmentContext",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "AddCustomTag",
+          "TsEmitName": "addCustomTag",
+          "NormalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "AddCallback",
+          "TsEmitName": "addCallback",
+          "NormalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Request",
+          "TsEmitName": "request",
+          "NormalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Response",
+          "TsEmitName": "response",
+          "NormalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Exception",
+          "TsEmitName": "exception",
+          "NormalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

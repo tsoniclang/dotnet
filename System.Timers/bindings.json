@@ -1,0 +1,1566 @@
+{
+  "Namespace": "System.Timers",
+  "Types": [
+    {
+      "ClrName": "System.Timers.ElapsedEventArgs",
+      "TsEmitName": "ElapsedEventArgs",
+      "AssemblyName": "System.ComponentModel.TypeConverter",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "SignalTime",
+          "TsEmitName": "signalTime",
+          "MetadataToken": 385876041,
+          "CanonicalSignature": ":System.DateTime",
+          "NormalizedSignature": "SignalTime|:System.DateTime|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Timers.ElapsedEventArgs",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663461,
+          "CanonicalSignature": "(System.DateTime):void",
+          "NormalizedSignature": "constructor|(System.DateTime):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Timers.ElapsedEventArgs",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "signalTime",
+          "IsStatic": false,
+          "TsSignatureId": "SignalTime|:System.DateTime|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventArgs",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876041
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.DateTime):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventArgs",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663461
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.ElapsedEventHandler",
+      "TsEmitName": "ElapsedEventHandler",
+      "AssemblyName": "System.ComponentModel.TypeConverter",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "MetadataToken": 100663464,
+          "CanonicalSignature": "(System.Object,System.Timers.ElapsedEventArgs):System.Void",
+          "NormalizedSignature": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "BeginInvoke",
+          "TsEmitName": "beginInvoke",
+          "MetadataToken": 100663465,
+          "CanonicalSignature": "(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "NormalizedSignature": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "EndInvoke",
+          "TsEmitName": "endInvoke",
+          "MetadataToken": 100663466,
+          "CanonicalSignature": "(System.IAsyncResult):System.Void",
+          "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone$view",
+          "MetadataToken": 100668509,
+          "CanonicalSignature": "():System.Object",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.ICloneable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "MetadataToken": 100682669,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 0,
+          "CanonicalSignature": "():System.Object",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "MetadataToken": 0,
+          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663463,
+          "CanonicalSignature": "(System.Object,System.IntPtr):void",
+          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "invoke",
+          "IsStatic": false,
+          "TsSignatureId": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663464
+          }
+        },
+        {
+          "TsName": "beginInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663465
+          }
+        },
+        {
+          "TsName": "endInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663466
+          }
+        },
+        {
+          "TsName": "clone$view",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ICloneable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668509
+          }
+        },
+        {
+          "TsName": "getObjectData$view",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100682669
+          }
+        },
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "getObjectData",
+          "IsStatic": false,
+          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664796
+          }
+        },
+        {
+          "TsName": "getInvocationList",
+          "IsStatic": false,
+          "TsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664806
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MulticastDelegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664809
+          }
+        },
+        {
+          "TsName": "createDelegate",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664226
+          }
+        },
+        {
+          "TsName": "createDelegate2",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664227
+          }
+        },
+        {
+          "TsName": "createDelegate3",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664228
+          }
+        },
+        {
+          "TsName": "createDelegate4",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664229
+          }
+        },
+        {
+          "TsName": "combine",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664255
+          }
+        },
+        {
+          "TsName": "combine2",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664256
+          }
+        },
+        {
+          "TsName": "combine3",
+          "IsStatic": true,
+          "TsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664257
+          }
+        },
+        {
+          "TsName": "createDelegate5",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664258
+          }
+        },
+        {
+          "TsName": "createDelegate6",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664259
+          }
+        },
+        {
+          "TsName": "createDelegate7",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664260
+          }
+        },
+        {
+          "TsName": "createDelegate8",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664261
+          }
+        },
+        {
+          "TsName": "createDelegate9",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664262
+          }
+        },
+        {
+          "TsName": "createDelegate10",
+          "IsStatic": true,
+          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664263
+          }
+        },
+        {
+          "TsName": "enumerateInvocationList",
+          "IsStatic": true,
+          "TsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664268
+          }
+        },
+        {
+          "TsName": "dynamicInvoke",
+          "IsStatic": false,
+          "TsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664269
+          }
+        },
+        {
+          "TsName": "remove",
+          "IsStatic": true,
+          "TsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664272
+          }
+        },
+        {
+          "TsName": "removeAll",
+          "IsStatic": true,
+          "TsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664273
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "target",
+          "IsStatic": false,
+          "TsSignatureId": "Target|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876038
+          }
+        },
+        {
+          "TsName": "hasSingleTarget",
+          "IsStatic": false,
+          "TsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876039
+          }
+        },
+        {
+          "TsName": "method",
+          "IsStatic": false,
+          "TsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Delegate",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876040
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.ElapsedEventHandler",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663463
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.Timer",
+      "TsEmitName": "Timer",
+      "AssemblyName": "System.ComponentModel.TypeConverter",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "BeginInit",
+          "TsEmitName": "beginInit",
+          "MetadataToken": 100663483,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "BeginInit|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Close",
+          "TsEmitName": "close",
+          "MetadataToken": 100663484,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Close|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "EndInit",
+          "TsEmitName": "endInit",
+          "MetadataToken": 100663486,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "EndInit|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Start",
+          "TsEmitName": "start",
+          "MetadataToken": 100663487,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Start|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Stop",
+          "TsEmitName": "stop",
+          "MetadataToken": 100663488,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Stop|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "MetadataToken": 100668530,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.IDisposable",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "BeginInit",
+          "TsEmitName": "beginInit$view",
+          "MetadataToken": 100663474,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "BeginInit|():System.Void|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.ComponentModel.ISupportInitialize",
+          "DeclaringAssemblyName": "System.ComponentModel.Primitives"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "MetadataToken": 0,
+          "CanonicalSignature": "():System.Void",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "AutoReset",
+          "TsEmitName": "autoReset",
+          "MetadataToken": 385876042,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "AutoReset|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Enabled",
+          "TsEmitName": "enabled",
+          "MetadataToken": 385876043,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Interval",
+          "TsEmitName": "interval",
+          "MetadataToken": 385876044,
+          "CanonicalSignature": ":System.Double",
+          "NormalizedSignature": "Interval|:System.Double|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Site",
+          "TsEmitName": "site",
+          "MetadataToken": 385876045,
+          "CanonicalSignature": ":System.ComponentModel.ISite",
+          "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "SynchronizingObject",
+          "TsEmitName": "synchronizingObject",
+          "MetadataToken": 385876046,
+          "CanonicalSignature": ":System.ComponentModel.ISynchronizeInvoke",
+          "NormalizedSignature": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "ClrName": "Site",
+          "TsEmitName": "site$view",
+          "MetadataToken": 385876032,
+          "CanonicalSignature": ":System.ComponentModel.ISite",
+          "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.ComponentModel.IComponent",
+          "DeclaringAssemblyName": "System.ComponentModel.Primitives"
+        }
+      ],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "Elapsed",
+          "TsEmitName": "elapsed",
+          "MetadataToken": 335544321,
+          "NormalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
+          "IsStatic": false,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "Constructors": [
+        {
+          "MetadataToken": 100663467,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "MetadataToken": 100663468,
+          "CanonicalSignature": "(System.Double):void",
+          "NormalizedSignature": "constructor|(System.Double):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        },
+        {
+          "MetadataToken": 100663469,
+          "CanonicalSignature": "(System.TimeSpan):void",
+          "NormalizedSignature": "constructor|(System.TimeSpan):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Timers.Timer",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "beginInit",
+          "IsStatic": false,
+          "TsSignatureId": "BeginInit|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663483
+          }
+        },
+        {
+          "TsName": "close",
+          "IsStatic": false,
+          "TsSignatureId": "Close|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663484
+          }
+        },
+        {
+          "TsName": "endInit",
+          "IsStatic": false,
+          "TsSignatureId": "EndInit|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663486
+          }
+        },
+        {
+          "TsName": "start",
+          "IsStatic": false,
+          "TsSignatureId": "Start|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663487
+          }
+        },
+        {
+          "TsName": "stop",
+          "IsStatic": false,
+          "TsSignatureId": "Stop|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663488
+          }
+        },
+        {
+          "TsName": "dispose$view",
+          "IsStatic": false,
+          "TsSignatureId": "Dispose|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.IDisposable",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100668530
+          }
+        },
+        {
+          "TsName": "beginInit$view",
+          "IsStatic": false,
+          "TsSignatureId": "BeginInit|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.ISupportInitialize",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 100663474
+          }
+        },
+        {
+          "TsName": "dispose",
+          "IsStatic": false,
+          "TsSignatureId": "Dispose|():System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 0
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.Component",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 100663370
+          }
+        },
+        {
+          "TsName": "getLifetimeService",
+          "IsStatic": false,
+          "TsSignatureId": "GetLifetimeService|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MarshalByRefObject",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100669423
+          }
+        },
+        {
+          "TsName": "initializeLifetimeService",
+          "IsStatic": false,
+          "TsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.MarshalByRefObject",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100669424
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "autoReset",
+          "IsStatic": false,
+          "TsSignatureId": "AutoReset|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876042
+          }
+        },
+        {
+          "TsName": "enabled",
+          "IsStatic": false,
+          "TsSignatureId": "Enabled|:System.Boolean|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876043
+          }
+        },
+        {
+          "TsName": "interval",
+          "IsStatic": false,
+          "TsSignatureId": "Interval|:System.Double|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876044
+          }
+        },
+        {
+          "TsName": "site",
+          "IsStatic": false,
+          "TsSignatureId": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876045
+          }
+        },
+        {
+          "TsName": "synchronizingObject",
+          "IsStatic": false,
+          "TsSignatureId": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876046
+          }
+        },
+        {
+          "TsName": "site$view",
+          "IsStatic": false,
+          "TsSignatureId": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.IComponent",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 385876032
+          }
+        },
+        {
+          "TsName": "container",
+          "IsStatic": false,
+          "TsSignatureId": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.Component",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 385876013
+          }
+        }
+      ],
+      "ExposedEvents": [
+        {
+          "TsName": "elapsed",
+          "IsStatic": false,
+          "TsSignatureId": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 335544321
+          }
+        },
+        {
+          "TsName": "disposed",
+          "IsStatic": false,
+          "TsSignatureId": "Disposed|System.EventHandler|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.Component",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 335544321
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663467
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Double):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663468
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.TimeSpan):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.Timer",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663469
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Timers.TimersDescriptionAttribute",
+      "TsEmitName": "TimersDescriptionAttribute",
+      "AssemblyName": "System.ComponentModel.TypeConverter",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Description",
+          "TsEmitName": "description",
+          "MetadataToken": 385876047,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Description|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Timers.TimersDescriptionAttribute",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663490,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Timers.TimersDescriptionAttribute",
+          "DeclaringAssemblyName": "System.ComponentModel.TypeConverter"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.DescriptionAttribute",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 100663382
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.DescriptionAttribute",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 100663383
+          }
+        },
+        {
+          "TsName": "isDefaultAttribute",
+          "IsStatic": false,
+          "TsSignatureId": "IsDefaultAttribute|():System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.ComponentModel.DescriptionAttribute",
+            "DeclaringAssemblyName": "System.ComponentModel.Primitives",
+            "MetadataToken": 100663384
+          }
+        },
+        {
+          "TsName": "getCustomAttributes",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663865
+          }
+        },
+        {
+          "TsName": "getCustomAttributes2",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663866
+          }
+        },
+        {
+          "TsName": "getCustomAttributes3",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663867
+          }
+        },
+        {
+          "TsName": "getCustomAttributes4",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663868
+          }
+        },
+        {
+          "TsName": "isDefined",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663869
+          }
+        },
+        {
+          "TsName": "isDefined2",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663870
+          }
+        },
+        {
+          "TsName": "getCustomAttribute",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663871
+          }
+        },
+        {
+          "TsName": "getCustomAttribute2",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663872
+          }
+        },
+        {
+          "TsName": "getCustomAttributes5",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663873
+          }
+        },
+        {
+          "TsName": "getCustomAttributes6",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663874
+          }
+        },
+        {
+          "TsName": "getCustomAttributes7",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663875
+          }
+        },
+        {
+          "TsName": "getCustomAttributes8",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663876
+          }
+        },
+        {
+          "TsName": "isDefined3",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663877
+          }
+        },
+        {
+          "TsName": "isDefined4",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663878
+          }
+        },
+        {
+          "TsName": "getCustomAttribute3",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663879
+          }
+        },
+        {
+          "TsName": "getCustomAttribute4",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663880
+          }
+        },
+        {
+          "TsName": "getCustomAttributes9",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663881
+          }
+        },
+        {
+          "TsName": "getCustomAttributes10",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663882
+          }
+        },
+        {
+          "TsName": "getCustomAttributes11",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663883
+          }
+        },
+        {
+          "TsName": "getCustomAttributes12",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663884
+          }
+        },
+        {
+          "TsName": "isDefined5",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663885
+          }
+        },
+        {
+          "TsName": "isDefined6",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663886
+          }
+        },
+        {
+          "TsName": "getCustomAttribute5",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663887
+          }
+        },
+        {
+          "TsName": "getCustomAttribute6",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663888
+          }
+        },
+        {
+          "TsName": "getCustomAttributes13",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663889
+          }
+        },
+        {
+          "TsName": "getCustomAttributes14",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663890
+          }
+        },
+        {
+          "TsName": "getCustomAttributes15",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663891
+          }
+        },
+        {
+          "TsName": "getCustomAttributes16",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663892
+          }
+        },
+        {
+          "TsName": "isDefined7",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663893
+          }
+        },
+        {
+          "TsName": "isDefined8",
+          "IsStatic": true,
+          "TsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663894
+          }
+        },
+        {
+          "TsName": "getCustomAttribute7",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663895
+          }
+        },
+        {
+          "TsName": "getCustomAttribute8",
+          "IsStatic": true,
+          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663896
+          }
+        },
+        {
+          "TsName": "match",
+          "IsStatic": false,
+          "TsSignatureId": "Match|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100663902
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "description",
+          "IsStatic": false,
+          "TsSignatureId": "Description|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Timers.TimersDescriptionAttribute",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 385876047
+          }
+        },
+        {
+          "TsName": "typeId",
+          "IsStatic": false,
+          "TsSignatureId": "TypeId|:System.Object|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Attribute",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385876000
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Timers.TimersDescriptionAttribute",
+            "DeclaringAssemblyName": "System.ComponentModel.TypeConverter",
+            "MetadataToken": 100663490
+          }
+        }
+      ]
+    }
+  ]
+}

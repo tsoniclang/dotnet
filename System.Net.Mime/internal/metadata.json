@@ -1,0 +1,897 @@
+{
+  "Namespace": "System.Net.Mime",
+  "ContributingAssemblies": [
+    "System.Net.Mail"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Net.Mime.TransferEncoding",
+      "TsEmitName": "TransferEncoding",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Unknown",
+          "TsEmitName": "unknown_",
+          "NormalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "QuotedPrintable",
+          "TsEmitName": "quotedPrintable",
+          "NormalizedSignature": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Base64",
+          "TsEmitName": "base64",
+          "NormalizedSignature": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SevenBit",
+          "TsEmitName": "sevenBit",
+          "NormalizedSignature": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "EightBit",
+          "TsEmitName": "eightBit",
+          "NormalizedSignature": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.ContentDisposition",
+      "TsEmitName": "ContentDisposition",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Equals",
+          "TsEmitName": "equals",
+          "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetHashCode",
+          "TsEmitName": "getHashCode",
+          "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "DispositionType",
+          "TsEmitName": "dispositionType",
+          "NormalizedSignature": "DispositionType|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Parameters",
+          "TsEmitName": "parameters",
+          "NormalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "FileName",
+          "TsEmitName": "fileName",
+          "NormalizedSignature": "FileName|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "CreationDate",
+          "TsEmitName": "creationDate",
+          "NormalizedSignature": "CreationDate|:System.DateTime|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "ModificationDate",
+          "TsEmitName": "modificationDate",
+          "NormalizedSignature": "ModificationDate|:System.DateTime|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Inline",
+          "TsEmitName": "inline",
+          "NormalizedSignature": "Inline|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "ReadDate",
+          "TsEmitName": "readDate",
+          "NormalizedSignature": "ReadDate|:System.DateTime|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Size",
+          "TsEmitName": "size",
+          "NormalizedSignature": "Size|:System.Int64|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.ContentType",
+      "TsEmitName": "ContentType",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "Equals",
+          "TsEmitName": "equals",
+          "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetHashCode",
+          "TsEmitName": "getHashCode",
+          "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Boundary",
+          "TsEmitName": "boundary",
+          "NormalizedSignature": "Boundary|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "CharSet",
+          "TsEmitName": "charSet",
+          "NormalizedSignature": "CharSet|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "MediaType",
+          "TsEmitName": "mediaType",
+          "NormalizedSignature": "MediaType|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Parameters",
+          "TsEmitName": "parameters",
+          "NormalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Net.Mime.DispositionTypeNames",
+      "TsEmitName": "DispositionTypeNames",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Inline",
+          "TsEmitName": "inline",
+          "NormalizedSignature": "Inline|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Attachment",
+          "TsEmitName": "attachment",
+          "NormalizedSignature": "Attachment|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames",
+      "TsEmitName": "MediaTypeNames",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BApplication",
+      "TsEmitName": "MediaTypeNames_Application",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "FormUrlEncoded",
+          "TsEmitName": "formUrlEncoded",
+          "NormalizedSignature": "FormUrlEncoded|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "GZip",
+          "TsEmitName": "gZip",
+          "NormalizedSignature": "GZip|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Json",
+          "TsEmitName": "json",
+          "NormalizedSignature": "Json|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "JsonPatch",
+          "TsEmitName": "jsonPatch",
+          "NormalizedSignature": "JsonPatch|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "JsonSequence",
+          "TsEmitName": "jsonSequence",
+          "NormalizedSignature": "JsonSequence|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Manifest",
+          "TsEmitName": "manifest",
+          "NormalizedSignature": "Manifest|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Octet",
+          "TsEmitName": "octet",
+          "NormalizedSignature": "Octet|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Pdf",
+          "TsEmitName": "pdf",
+          "NormalizedSignature": "Pdf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ProblemJson",
+          "TsEmitName": "problemJson",
+          "NormalizedSignature": "ProblemJson|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "ProblemXml",
+          "TsEmitName": "problemXml",
+          "NormalizedSignature": "ProblemXml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Rtf",
+          "TsEmitName": "rtf",
+          "NormalizedSignature": "Rtf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Soap",
+          "TsEmitName": "soap",
+          "NormalizedSignature": "Soap|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Wasm",
+          "TsEmitName": "wasm",
+          "NormalizedSignature": "Wasm|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Xml",
+          "TsEmitName": "xml",
+          "NormalizedSignature": "Xml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "XmlDtd",
+          "TsEmitName": "xmlDtd",
+          "NormalizedSignature": "XmlDtd|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "XmlPatch",
+          "TsEmitName": "xmlPatch",
+          "NormalizedSignature": "XmlPatch|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Yaml",
+          "TsEmitName": "yaml",
+          "NormalizedSignature": "Yaml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Zip",
+          "TsEmitName": "zip",
+          "NormalizedSignature": "Zip|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BFont",
+      "TsEmitName": "MediaTypeNames_Font",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Collection",
+          "TsEmitName": "collection",
+          "NormalizedSignature": "Collection|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Otf",
+          "TsEmitName": "otf",
+          "NormalizedSignature": "Otf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Sfnt",
+          "TsEmitName": "sfnt",
+          "NormalizedSignature": "Sfnt|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Ttf",
+          "TsEmitName": "ttf",
+          "NormalizedSignature": "Ttf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Woff",
+          "TsEmitName": "woff",
+          "NormalizedSignature": "Woff|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Woff2",
+          "TsEmitName": "woff2",
+          "NormalizedSignature": "Woff2|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BImage",
+      "TsEmitName": "MediaTypeNames_Image",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Avif",
+          "TsEmitName": "avif",
+          "NormalizedSignature": "Avif|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Bmp",
+          "TsEmitName": "bmp",
+          "NormalizedSignature": "Bmp|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Gif",
+          "TsEmitName": "gif",
+          "NormalizedSignature": "Gif|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Icon",
+          "TsEmitName": "icon",
+          "NormalizedSignature": "Icon|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Jpeg",
+          "TsEmitName": "jpeg",
+          "NormalizedSignature": "Jpeg|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Png",
+          "TsEmitName": "png",
+          "NormalizedSignature": "Png|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Svg",
+          "TsEmitName": "svg",
+          "NormalizedSignature": "Svg|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Tiff",
+          "TsEmitName": "tiff",
+          "NormalizedSignature": "Tiff|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Webp",
+          "TsEmitName": "webp",
+          "NormalizedSignature": "Webp|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BMultipart",
+      "TsEmitName": "MediaTypeNames_Multipart",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "ByteRanges",
+          "TsEmitName": "byteRanges",
+          "NormalizedSignature": "ByteRanges|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FormData",
+          "TsEmitName": "formData",
+          "NormalizedSignature": "FormData|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Mixed",
+          "TsEmitName": "mixed",
+          "NormalizedSignature": "Mixed|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Related",
+          "TsEmitName": "related",
+          "NormalizedSignature": "Related|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Net.Mime.MediaTypeNames\u002BText",
+      "TsEmitName": "MediaTypeNames_Text",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Css",
+          "TsEmitName": "css",
+          "NormalizedSignature": "Css|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Csv",
+          "TsEmitName": "csv",
+          "NormalizedSignature": "Csv|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "EventStream",
+          "TsEmitName": "eventStream",
+          "NormalizedSignature": "EventStream|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Html",
+          "TsEmitName": "html",
+          "NormalizedSignature": "Html|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "JavaScript",
+          "TsEmitName": "javaScript",
+          "NormalizedSignature": "JavaScript|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Markdown",
+          "TsEmitName": "markdown",
+          "NormalizedSignature": "Markdown|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Plain",
+          "TsEmitName": "plain",
+          "NormalizedSignature": "Plain|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "RichText",
+          "TsEmitName": "richText",
+          "NormalizedSignature": "RichText|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Rtf",
+          "TsEmitName": "rtf",
+          "NormalizedSignature": "Rtf|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Xml",
+          "TsEmitName": "xml",
+          "NormalizedSignature": "Xml|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

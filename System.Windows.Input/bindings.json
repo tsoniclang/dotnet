@@ -1,0 +1,85 @@
+{
+  "Namespace": "System.Windows.Input",
+  "Types": [
+    {
+      "ClrName": "System.Windows.Input.ICommand",
+      "TsEmitName": "ICommand",
+      "AssemblyName": "System.ObjectModel",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "CanExecute",
+          "TsEmitName": "canExecute",
+          "MetadataToken": 100663318,
+          "CanonicalSignature": "(System.Object):System.Boolean",
+          "NormalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Windows.Input.ICommand",
+          "DeclaringAssemblyName": "System.ObjectModel"
+        },
+        {
+          "ClrName": "Execute",
+          "TsEmitName": "execute",
+          "MetadataToken": 100663319,
+          "CanonicalSignature": "(System.Object):System.Void",
+          "NormalizedSignature": "Execute|(System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Windows.Input.ICommand",
+          "DeclaringAssemblyName": "System.ObjectModel"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "CanExecuteChanged",
+          "TsEmitName": "canExecuteChanged",
+          "MetadataToken": 335544321,
+          "NormalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
+          "IsStatic": false,
+          "DeclaringClrType": "System.Windows.Input.ICommand",
+          "DeclaringAssemblyName": "System.ObjectModel"
+        }
+      ],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "canExecute",
+          "IsStatic": false,
+          "TsSignatureId": "CanExecute|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Windows.Input.ICommand",
+            "DeclaringAssemblyName": "System.ObjectModel",
+            "MetadataToken": 100663318
+          }
+        },
+        {
+          "TsName": "execute",
+          "IsStatic": false,
+          "TsSignatureId": "Execute|(System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Windows.Input.ICommand",
+            "DeclaringAssemblyName": "System.ObjectModel",
+            "MetadataToken": 100663319
+          }
+        }
+      ],
+      "ExposedEvents": [
+        {
+          "TsName": "canExecuteChanged",
+          "IsStatic": false,
+          "TsSignatureId": "CanExecuteChanged|System.EventHandler|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Windows.Input.ICommand",
+            "DeclaringAssemblyName": "System.ObjectModel",
+            "MetadataToken": 335544321
+          }
+        }
+      ]
+    }
+  ]
+}
