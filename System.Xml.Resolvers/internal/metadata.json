@@ -1,0 +1,275 @@
+{
+  "Namespace": "System.Xml.Resolvers",
+  "ContributingAssemblies": [
+    "System.Private.Xml"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Xml.Resolvers.XmlKnownDtds",
+      "TsEmitName": "XmlKnownDtds",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "None",
+          "TsEmitName": "none",
+          "NormalizedSignature": "None|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Xhtml10",
+          "TsEmitName": "xhtml10",
+          "NormalizedSignature": "Xhtml10|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Rss091",
+          "TsEmitName": "rss091",
+          "NormalizedSignature": "Rss091|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "All",
+          "TsEmitName": "all",
+          "NormalizedSignature": "All|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Xml.Resolvers.XmlPreloadedResolver",
+      "TsEmitName": "XmlPreloadedResolver",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "ResolveUri",
+          "TsEmitName": "resolveUri",
+          "NormalizedSignature": "ResolveUri|(System.Uri,System.String):System.Uri|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetEntity",
+          "TsEmitName": "getEntity",
+          "NormalizedSignature": "GetEntity|(System.Uri,System.String,System.Type):System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "SupportsType",
+          "TsEmitName": "supportsType",
+          "NormalizedSignature": "SupportsType|(System.Uri,System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Add",
+          "TsEmitName": "add",
+          "NormalizedSignature": "Add|(System.Uri,System.Byte[]):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Add",
+          "TsEmitName": "add2",
+          "NormalizedSignature": "Add|(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "Add",
+          "TsEmitName": "add3",
+          "NormalizedSignature": "Add|(System.Uri,System.IO.Stream):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Add",
+          "TsEmitName": "add4",
+          "NormalizedSignature": "Add|(System.Uri,System.String):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Remove",
+          "TsEmitName": "remove",
+          "NormalizedSignature": "Remove|(System.Uri):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetEntityAsync",
+          "TsEmitName": "getEntityAsync2",
+          "NormalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "GetEntityAsync",
+          "TsEmitName": "getEntityAsync",
+          "NormalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Credentials",
+          "TsEmitName": "credentials",
+          "NormalizedSignature": "Credentials|:System.Net.ICredentials|static=false|accessor=set",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": false,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "PreloadedUris",
+          "TsEmitName": "preloadedUris",
+          "NormalizedSignature": "PreloadedUris|:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Xml.Resolvers.XmlKnownDtds):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Xml.XmlResolver):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds,System.Collections.Generic.IEqualityComparer_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Namespace": "System.Windows.Input",
+  "ContributingAssemblies": [
+    "System.ObjectModel"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Windows.Input.ICommand",
+      "TsEmitName": "ICommand",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CanExecute",
+          "TsEmitName": "canExecute",
+          "NormalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Execute",
+          "TsEmitName": "execute",
+          "NormalizedSignature": "Execute|(System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [
+        {
+          "ClrName": "CanExecuteChanged",
+          "TsEmitName": "canExecuteChanged",
+          "NormalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
+          "IsStatic": false
+        }
+      ],
+      "Constructors": []
+    }
+  ]
+}

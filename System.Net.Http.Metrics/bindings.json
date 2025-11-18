@@ -1,0 +1,195 @@
+{
+  "Namespace": "System.Net.Http.Metrics",
+  "Types": [
+    {
+      "ClrName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+      "TsEmitName": "HttpMetricsEnrichmentContext",
+      "AssemblyName": "System.Net.Http",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "AddCustomTag",
+          "TsEmitName": "addCustomTag",
+          "MetadataToken": 100665659,
+          "CanonicalSignature": "(System.String,System.Object):System.Void",
+          "NormalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "DeclaringAssemblyName": "System.Net.Http"
+        },
+        {
+          "ClrName": "AddCallback",
+          "TsEmitName": "addCallback",
+          "MetadataToken": 100665660,
+          "CanonicalSignature": "(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
+          "NormalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "DeclaringAssemblyName": "System.Net.Http"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Request",
+          "TsEmitName": "request",
+          "MetadataToken": 385876422,
+          "CanonicalSignature": ":System.Net.Http.HttpRequestMessage",
+          "NormalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "DeclaringAssemblyName": "System.Net.Http"
+        },
+        {
+          "ClrName": "Response",
+          "TsEmitName": "response",
+          "MetadataToken": 385876423,
+          "CanonicalSignature": ":System.Net.Http.HttpResponseMessage",
+          "NormalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "DeclaringAssemblyName": "System.Net.Http"
+        },
+        {
+          "ClrName": "Exception",
+          "TsEmitName": "exception",
+          "MetadataToken": 385876424,
+          "CanonicalSignature": ":System.Exception",
+          "NormalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "DeclaringAssemblyName": "System.Net.Http"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "addCustomTag",
+          "IsStatic": false,
+          "TsSignatureId": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100665659
+          }
+        },
+        {
+          "TsName": "addCallback",
+          "IsStatic": true,
+          "TsSignatureId": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 100665660
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "request",
+          "IsStatic": false,
+          "TsSignatureId": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 385876422
+          }
+        },
+        {
+          "TsName": "response",
+          "IsStatic": false,
+          "TsSignatureId": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 385876423
+          }
+        },
+        {
+          "TsName": "exception",
+          "IsStatic": false,
+          "TsSignatureId": "Exception|:System.Exception|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+            "DeclaringAssemblyName": "System.Net.Http",
+            "MetadataToken": 385876424
+          }
+        }
+      ]
+    }
+  ]
+}

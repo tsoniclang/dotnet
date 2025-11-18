@@ -1,0 +1,1034 @@
+{
+  "Namespace": "Microsoft.Win32.SafeHandles",
+  "ContributingAssemblies": [
+    "Microsoft.Win32.Registry",
+    "System.Private.CoreLib",
+    "System.IO.MemoryMappedFiles",
+    "System.Security.Cryptography",
+    "System.Diagnostics.Process",
+    "System.Security.Principal.Windows",
+    "System.IO.Pipes"
+  ],
+  "Types": [
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
+      "TsEmitName": "CriticalHandleMinusOneIsInvalid",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
+      "TsEmitName": "CriticalHandleZeroOrMinusOneIsInvalid",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
+      "TsEmitName": "SafeAccessTokenHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "InvalidHandle",
+          "TsEmitName": "invalidHandle",
+          "NormalizedSignature": "InvalidHandle|:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeFileHandle",
+      "TsEmitName": "SafeFileHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsAsync",
+          "TsEmitName": "isAsync",
+          "NormalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        },
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
+      "TsEmitName": "SafeHandleMinusOneIsInvalid",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
+      "TsEmitName": "SafeHandleZeroOrMinusOneIsInvalid",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
+      "TsEmitName": "SafeMemoryMappedFileHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
+      "TsEmitName": "SafeMemoryMappedViewHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
+      "TsEmitName": "SafeNCryptHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
+      "TsEmitName": "SafeNCryptKeyHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
+      "TsEmitName": "SafeNCryptProviderHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
+      "TsEmitName": "SafeNCryptSecretHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafePipeHandle",
+      "TsEmitName": "SafePipeHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "IsInvalid",
+          "TsEmitName": "isInvalid",
+          "NormalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
+      "TsEmitName": "SafeProcessHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
+      "TsEmitName": "SafeRegistryHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
+      "TsEmitName": "SafeWaitHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.IntPtr,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
+      "TsEmitName": "SafeX509ChainHandle",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose$view",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.IDisposable"
+        },
+        {
+          "ClrName": "Dispose",
+          "TsEmitName": "dispose",
+          "NormalizedSignature": "Dispose|():System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    }
+  ]
+}

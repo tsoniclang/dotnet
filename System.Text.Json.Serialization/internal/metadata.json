@@ -1,0 +1,2151 @@
+{
+  "Namespace": "System.Text.Json.Serialization",
+  "ContributingAssemblies": [
+    "System.Text.Json"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonIgnoreCondition",
+      "TsEmitName": "JsonIgnoreCondition",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Never",
+          "TsEmitName": "never_",
+          "NormalizedSignature": "Never|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Always",
+          "TsEmitName": "always",
+          "NormalizedSignature": "Always|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WhenWritingDefault",
+          "TsEmitName": "whenWritingDefault",
+          "NormalizedSignature": "WhenWritingDefault|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WhenWritingNull",
+          "TsEmitName": "whenWritingNull",
+          "NormalizedSignature": "WhenWritingNull|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WhenWriting",
+          "TsEmitName": "whenWriting",
+          "NormalizedSignature": "WhenWriting|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WhenReading",
+          "TsEmitName": "whenReading",
+          "NormalizedSignature": "WhenReading|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonKnownNamingPolicy",
+      "TsEmitName": "JsonKnownNamingPolicy",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Unspecified",
+          "TsEmitName": "unspecified",
+          "NormalizedSignature": "Unspecified|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "CamelCase",
+          "TsEmitName": "camelCase",
+          "NormalizedSignature": "CamelCase|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SnakeCaseLower",
+          "TsEmitName": "snakeCaseLower",
+          "NormalizedSignature": "SnakeCaseLower|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "SnakeCaseUpper",
+          "TsEmitName": "snakeCaseUpper",
+          "NormalizedSignature": "SnakeCaseUpper|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "KebabCaseLower",
+          "TsEmitName": "kebabCaseLower",
+          "NormalizedSignature": "KebabCaseLower|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "KebabCaseUpper",
+          "TsEmitName": "kebabCaseUpper",
+          "NormalizedSignature": "KebabCaseUpper|System.Text.Json.Serialization.JsonKnownNamingPolicy|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonKnownReferenceHandler",
+      "TsEmitName": "JsonKnownReferenceHandler",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Unspecified",
+          "TsEmitName": "unspecified",
+          "NormalizedSignature": "Unspecified|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Preserve",
+          "TsEmitName": "preserve",
+          "NormalizedSignature": "Preserve|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "IgnoreCycles",
+          "TsEmitName": "ignoreCycles",
+          "NormalizedSignature": "IgnoreCycles|System.Text.Json.Serialization.JsonKnownReferenceHandler|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonNumberHandling",
+      "TsEmitName": "JsonNumberHandling",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Strict",
+          "TsEmitName": "strict",
+          "NormalizedSignature": "Strict|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "AllowReadingFromString",
+          "TsEmitName": "allowReadingFromString",
+          "NormalizedSignature": "AllowReadingFromString|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WriteAsString",
+          "TsEmitName": "writeAsString",
+          "NormalizedSignature": "WriteAsString|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "AllowNamedFloatingPointLiterals",
+          "TsEmitName": "allowNamedFloatingPointLiterals",
+          "NormalizedSignature": "AllowNamedFloatingPointLiterals|System.Text.Json.Serialization.JsonNumberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonObjectCreationHandling",
+      "TsEmitName": "JsonObjectCreationHandling",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Replace",
+          "TsEmitName": "replace",
+          "NormalizedSignature": "Replace|System.Text.Json.Serialization.JsonObjectCreationHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Populate",
+          "TsEmitName": "populate",
+          "NormalizedSignature": "Populate|System.Text.Json.Serialization.JsonObjectCreationHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonSourceGenerationMode",
+      "TsEmitName": "JsonSourceGenerationMode",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Default",
+          "TsEmitName": "default_",
+          "NormalizedSignature": "Default|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Metadata",
+          "TsEmitName": "metadata",
+          "NormalizedSignature": "Metadata|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Serialization",
+          "TsEmitName": "serialization",
+          "NormalizedSignature": "Serialization|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling",
+      "TsEmitName": "JsonUnknownDerivedTypeHandling",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "FailSerialization",
+          "TsEmitName": "failSerialization",
+          "NormalizedSignature": "FailSerialization|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FallBackToBaseType",
+          "TsEmitName": "fallBackToBaseType",
+          "NormalizedSignature": "FallBackToBaseType|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "FallBackToNearestAncestor",
+          "TsEmitName": "fallBackToNearestAncestor",
+          "NormalizedSignature": "FallBackToNearestAncestor|System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonUnknownTypeHandling",
+      "TsEmitName": "JsonUnknownTypeHandling",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "JsonElement",
+          "TsEmitName": "jsonElement",
+          "NormalizedSignature": "JsonElement|System.Text.Json.Serialization.JsonUnknownTypeHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "JsonNode",
+          "TsEmitName": "jsonNode",
+          "NormalizedSignature": "JsonNode|System.Text.Json.Serialization.JsonUnknownTypeHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonUnmappedMemberHandling",
+      "TsEmitName": "JsonUnmappedMemberHandling",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "Skip",
+          "TsEmitName": "skip",
+          "NormalizedSignature": "Skip|System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Disallow",
+          "TsEmitName": "disallow",
+          "NormalizedSignature": "Disallow|System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.IJsonOnDeserialized",
+      "TsEmitName": "IJsonOnDeserialized",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "OnDeserialized",
+          "TsEmitName": "onDeserialized",
+          "NormalizedSignature": "OnDeserialized|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.IJsonOnDeserializing",
+      "TsEmitName": "IJsonOnDeserializing",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "OnDeserializing",
+          "TsEmitName": "onDeserializing",
+          "NormalizedSignature": "OnDeserializing|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.IJsonOnSerialized",
+      "TsEmitName": "IJsonOnSerialized",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "OnSerialized",
+          "TsEmitName": "onSerialized",
+          "NormalizedSignature": "OnSerialized|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.IJsonOnSerializing",
+      "TsEmitName": "IJsonOnSerializing",
+      "Kind": "Interface",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "OnSerializing",
+          "TsEmitName": "onSerializing",
+          "NormalizedSignature": "OnSerializing|():System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonAttribute",
+      "TsEmitName": "JsonAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonConstructorAttribute",
+      "TsEmitName": "JsonConstructorAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonConverter",
+      "TsEmitName": "JsonConverter",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CanConvert",
+          "TsEmitName": "canConvert",
+          "NormalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Type",
+          "TsEmitName": "type_",
+          "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonConverter\u00601",
+      "TsEmitName": "JsonConverter_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "CanConvert",
+          "TsEmitName": "canConvert",
+          "NormalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "Read",
+          "TsEmitName": "read",
+          "NormalizedSignature": "Read|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "Write",
+          "TsEmitName": "write",
+          "NormalizedSignature": "Write|(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "ReadAsPropertyName",
+          "TsEmitName": "readAsPropertyName",
+          "NormalizedSignature": "ReadAsPropertyName|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):T|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "WriteAsPropertyName",
+          "TsEmitName": "writeAsPropertyName",
+          "NormalizedSignature": "WriteAsPropertyName|(System.Text.Json.Utf8JsonWriter,T,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "HandleNull",
+          "TsEmitName": "handleNull",
+          "NormalizedSignature": "HandleNull|:System.Boolean|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Type",
+          "TsEmitName": "type_",
+          "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonConverterAttribute",
+      "TsEmitName": "JsonConverterAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CreateConverter",
+          "TsEmitName": "createConverter",
+          "NormalizedSignature": "CreateConverter|(System.Type):System.Text.Json.Serialization.JsonConverter|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "ConverterType",
+          "TsEmitName": "converterType",
+          "NormalizedSignature": "ConverterType|:System.Type|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Type):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonConverterFactory",
+      "TsEmitName": "JsonConverterFactory",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CreateConverter",
+          "TsEmitName": "createConverter",
+          "NormalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Type",
+          "TsEmitName": "type_",
+          "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonDerivedTypeAttribute",
+      "TsEmitName": "JsonDerivedTypeAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "DerivedType",
+          "TsEmitName": "derivedType",
+          "NormalizedSignature": "DerivedType|:System.Type|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "TypeDiscriminator",
+          "TsEmitName": "typeDiscriminator",
+          "NormalizedSignature": "TypeDiscriminator|:System.Object|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Type):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Type,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Type,System.Int32):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonExtensionDataAttribute",
+      "TsEmitName": "JsonExtensionDataAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonIgnoreAttribute",
+      "TsEmitName": "JsonIgnoreAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Condition",
+          "TsEmitName": "condition",
+          "NormalizedSignature": "Condition|:System.Text.Json.Serialization.JsonIgnoreCondition|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonIncludeAttribute",
+      "TsEmitName": "JsonIncludeAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonNumberEnumConverter\u00601",
+      "TsEmitName": "JsonNumberEnumConverter_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "CanConvert",
+          "TsEmitName": "canConvert",
+          "NormalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateConverter",
+          "TsEmitName": "createConverter",
+          "NormalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonNumberHandlingAttribute",
+      "TsEmitName": "JsonNumberHandlingAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Handling",
+          "TsEmitName": "handling",
+          "NormalizedSignature": "Handling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.Serialization.JsonNumberHandling):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonObjectCreationHandlingAttribute",
+      "TsEmitName": "JsonObjectCreationHandlingAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Handling",
+          "TsEmitName": "handling",
+          "NormalizedSignature": "Handling|:System.Text.Json.Serialization.JsonObjectCreationHandling|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.Serialization.JsonObjectCreationHandling):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonPolymorphicAttribute",
+      "TsEmitName": "JsonPolymorphicAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "TypeDiscriminatorPropertyName",
+          "TsEmitName": "typeDiscriminatorPropertyName",
+          "NormalizedSignature": "TypeDiscriminatorPropertyName|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "UnknownDerivedTypeHandling",
+          "TsEmitName": "unknownDerivedTypeHandling",
+          "NormalizedSignature": "UnknownDerivedTypeHandling|:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IgnoreUnrecognizedTypeDiscriminators",
+          "TsEmitName": "ignoreUnrecognizedTypeDiscriminators",
+          "NormalizedSignature": "IgnoreUnrecognizedTypeDiscriminators|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+      "TsEmitName": "JsonPropertyNameAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonPropertyOrderAttribute",
+      "TsEmitName": "JsonPropertyOrderAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Order",
+          "TsEmitName": "order",
+          "NormalizedSignature": "Order|:System.Int32|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Int32):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonRequiredAttribute",
+      "TsEmitName": "JsonRequiredAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonSerializableAttribute",
+      "TsEmitName": "JsonSerializableAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "TypeInfoPropertyName",
+          "TsEmitName": "typeInfoPropertyName",
+          "NormalizedSignature": "TypeInfoPropertyName|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "GenerationMode",
+          "TsEmitName": "generationMode",
+          "NormalizedSignature": "GenerationMode|:System.Text.Json.Serialization.JsonSourceGenerationMode|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Type):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonSerializerContext",
+      "TsEmitName": "JsonSerializerContext",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "GetTypeInfo",
+          "TsEmitName": "getTypeInfo",
+          "NormalizedSignature": "GetTypeInfo|(System.Type):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "GetTypeInfo",
+          "TsEmitName": "getTypeInfo$view",
+          "NormalizedSignature": "GetTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Options",
+          "TsEmitName": "options",
+          "NormalizedSignature": "Options|:System.Text.Json.JsonSerializerOptions|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
+      "TsEmitName": "JsonSourceGenerationOptionsAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "AllowOutOfOrderMetadataProperties",
+          "TsEmitName": "allowOutOfOrderMetadataProperties",
+          "NormalizedSignature": "AllowOutOfOrderMetadataProperties|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "AllowTrailingCommas",
+          "TsEmitName": "allowTrailingCommas",
+          "NormalizedSignature": "AllowTrailingCommas|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "Converters",
+          "TsEmitName": "converters",
+          "NormalizedSignature": "Converters|:System.Type[]|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "DefaultBufferSize",
+          "TsEmitName": "defaultBufferSize",
+          "NormalizedSignature": "DefaultBufferSize|:System.Int32|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "DefaultIgnoreCondition",
+          "TsEmitName": "defaultIgnoreCondition",
+          "NormalizedSignature": "DefaultIgnoreCondition|:System.Text.Json.Serialization.JsonIgnoreCondition|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "DictionaryKeyPolicy",
+          "TsEmitName": "dictionaryKeyPolicy",
+          "NormalizedSignature": "DictionaryKeyPolicy|:System.Text.Json.Serialization.JsonKnownNamingPolicy|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IgnoreReadOnlyFields",
+          "TsEmitName": "ignoreReadOnlyFields",
+          "NormalizedSignature": "IgnoreReadOnlyFields|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IgnoreReadOnlyProperties",
+          "TsEmitName": "ignoreReadOnlyProperties",
+          "NormalizedSignature": "IgnoreReadOnlyProperties|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IncludeFields",
+          "TsEmitName": "includeFields",
+          "NormalizedSignature": "IncludeFields|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "MaxDepth",
+          "TsEmitName": "maxDepth",
+          "NormalizedSignature": "MaxDepth|:System.Int32|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "NumberHandling",
+          "TsEmitName": "numberHandling",
+          "NormalizedSignature": "NumberHandling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "PreferredObjectCreationHandling",
+          "TsEmitName": "preferredObjectCreationHandling",
+          "NormalizedSignature": "PreferredObjectCreationHandling|:System.Text.Json.Serialization.JsonObjectCreationHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "PropertyNameCaseInsensitive",
+          "TsEmitName": "propertyNameCaseInsensitive",
+          "NormalizedSignature": "PropertyNameCaseInsensitive|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "PropertyNamingPolicy",
+          "TsEmitName": "propertyNamingPolicy",
+          "NormalizedSignature": "PropertyNamingPolicy|:System.Text.Json.Serialization.JsonKnownNamingPolicy|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "ReadCommentHandling",
+          "TsEmitName": "readCommentHandling",
+          "NormalizedSignature": "ReadCommentHandling|:System.Text.Json.JsonCommentHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "ReferenceHandler",
+          "TsEmitName": "referenceHandler",
+          "NormalizedSignature": "ReferenceHandler|:System.Text.Json.Serialization.JsonKnownReferenceHandler|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "RespectNullableAnnotations",
+          "TsEmitName": "respectNullableAnnotations",
+          "NormalizedSignature": "RespectNullableAnnotations|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "RespectRequiredConstructorParameters",
+          "TsEmitName": "respectRequiredConstructorParameters",
+          "NormalizedSignature": "RespectRequiredConstructorParameters|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "UnknownTypeHandling",
+          "TsEmitName": "unknownTypeHandling",
+          "NormalizedSignature": "UnknownTypeHandling|:System.Text.Json.Serialization.JsonUnknownTypeHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "UnmappedMemberHandling",
+          "TsEmitName": "unmappedMemberHandling",
+          "NormalizedSignature": "UnmappedMemberHandling|:System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "WriteIndented",
+          "TsEmitName": "writeIndented",
+          "NormalizedSignature": "WriteIndented|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IndentCharacter",
+          "TsEmitName": "indentCharacter",
+          "NormalizedSignature": "IndentCharacter|:System.Char|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "IndentSize",
+          "TsEmitName": "indentSize",
+          "NormalizedSignature": "IndentSize|:System.Int32|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "GenerationMode",
+          "TsEmitName": "generationMode",
+          "NormalizedSignature": "GenerationMode|:System.Text.Json.Serialization.JsonSourceGenerationMode|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "UseStringEnumConverter",
+          "TsEmitName": "useStringEnumConverter",
+          "NormalizedSignature": "UseStringEnumConverter|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "NewLine",
+          "TsEmitName": "newLine",
+          "NormalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        },
+        {
+          "ClrName": "AllowDuplicateProperties",
+          "TsEmitName": "allowDuplicateProperties",
+          "NormalizedSignature": "AllowDuplicateProperties|:System.Boolean|static=false|accessor=getset",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.JsonSerializerDefaults):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonStringEnumConverter",
+      "TsEmitName": "JsonStringEnumConverter",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CanConvert",
+          "TsEmitName": "canConvert",
+          "NormalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateConverter",
+          "TsEmitName": "createConverter",
+          "NormalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.JsonNamingPolicy,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonStringEnumConverter\u00601",
+      "TsEmitName": "JsonStringEnumConverter_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "CanConvert",
+          "TsEmitName": "canConvert",
+          "NormalizedSignature": "CanConvert|(System.Type):System.Boolean|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 1
+        },
+        {
+          "ClrName": "CreateConverter",
+          "TsEmitName": "createConverter",
+          "NormalizedSignature": "CreateConverter|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.JsonConverter|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": true,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        },
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.JsonNamingPolicy,System.Boolean):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonStringEnumMemberNameAttribute",
+      "TsEmitName": "JsonStringEnumMemberNameAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.JsonUnmappedMemberHandlingAttribute",
+      "TsEmitName": "JsonUnmappedMemberHandlingAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "UnmappedMemberHandling",
+          "TsEmitName": "unmappedMemberHandling",
+          "NormalizedSignature": "UnmappedMemberHandling|:System.Text.Json.Serialization.JsonUnmappedMemberHandling|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Text.Json.Serialization.JsonUnmappedMemberHandling):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.ReferenceHandler",
+      "TsEmitName": "ReferenceHandler",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "CreateResolver",
+          "TsEmitName": "createResolver",
+          "NormalizedSignature": "CreateResolver|():System.Text.Json.Serialization.ReferenceResolver|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Preserve",
+          "TsEmitName": "preserve",
+          "NormalizedSignature": "Preserve|:System.Text.Json.Serialization.ReferenceHandler|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "IgnoreCycles",
+          "TsEmitName": "ignoreCycles",
+          "NormalizedSignature": "IgnoreCycles|:System.Text.Json.Serialization.ReferenceHandler|static=true|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.ReferenceHandler\u00601",
+      "TsEmitName": "ReferenceHandler_1",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 1,
+      "Methods": [
+        {
+          "ClrName": "CreateResolver",
+          "TsEmitName": "createResolver",
+          "NormalizedSignature": "CreateResolver|():System.Text.Json.Serialization.ReferenceResolver|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": true,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Text.Json.Serialization.ReferenceResolver",
+      "TsEmitName": "ReferenceResolver",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "AddReference",
+          "TsEmitName": "addReference",
+          "NormalizedSignature": "AddReference|(System.String,System.Object):System.Void|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "GetReference",
+          "TsEmitName": "getReference",
+          "NormalizedSignature": "GetReference|(System.Object,System.Boolean\u0026):System.String|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "ResolveReference",
+          "TsEmitName": "resolveReference",
+          "NormalizedSignature": "ResolveReference|(System.String):System.Object|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": true,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

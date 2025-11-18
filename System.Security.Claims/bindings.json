@@ -1,0 +1,3716 @@
+{
+  "Namespace": "System.Security.Claims",
+  "Types": [
+    {
+      "ClrName": "System.Security.Claims.Claim",
+      "TsEmitName": "Claim",
+      "AssemblyName": "System.Security.Claims",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 100663339,
+          "CanonicalSignature": "():System.Security.Claims.Claim",
+          "NormalizedSignature": "Clone|():System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone2",
+          "MetadataToken": 100663340,
+          "CanonicalSignature": "(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim",
+          "NormalizedSignature": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WriteTo",
+          "TsEmitName": "writeTo",
+          "MetadataToken": 100663341,
+          "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
+          "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "ToString",
+          "TsEmitName": "toString",
+          "MetadataToken": 100663343,
+          "CanonicalSignature": "():System.String",
+          "NormalizedSignature": "ToString|():System.String|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "Issuer",
+          "TsEmitName": "issuer",
+          "MetadataToken": 385875980,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Issuer|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "OriginalIssuer",
+          "TsEmitName": "originalIssuer",
+          "MetadataToken": 385875981,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "OriginalIssuer|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Properties",
+          "TsEmitName": "properties",
+          "MetadataToken": 385875982,
+          "CanonicalSignature": ":System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "NormalizedSignature": "Properties|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Subject",
+          "TsEmitName": "subject",
+          "MetadataToken": 385875983,
+          "CanonicalSignature": ":System.Security.Claims.ClaimsIdentity",
+          "NormalizedSignature": "Subject|:System.Security.Claims.ClaimsIdentity|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Type",
+          "TsEmitName": "type_",
+          "MetadataToken": 385875984,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Type|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Value",
+          "TsEmitName": "value",
+          "MetadataToken": 385875985,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Value|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "ValueType",
+          "TsEmitName": "valueType",
+          "MetadataToken": 385875986,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "ValueType|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663321,
+          "CanonicalSignature": "(System.IO.BinaryReader):void",
+          "NormalizedSignature": "constructor|(System.IO.BinaryReader):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663322,
+          "CanonicalSignature": "(System.IO.BinaryReader,System.Security.Claims.ClaimsIdentity):void",
+          "NormalizedSignature": "constructor|(System.IO.BinaryReader,System.Security.Claims.ClaimsIdentity):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663323,
+          "CanonicalSignature": "(System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663324,
+          "CanonicalSignature": "(System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663325,
+          "CanonicalSignature": "(System.String,System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.String,System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663326,
+          "CanonicalSignature": "(System.String,System.String,System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.String,System.String,System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663327,
+          "CanonicalSignature": "(System.String,System.String,System.String,System.String,System.String,System.Security.Claims.ClaimsIdentity):void",
+          "NormalizedSignature": "constructor|(System.String,System.String,System.String,System.String,System.String,System.Security.Claims.ClaimsIdentity):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 6,
+          "DeclaringClrType": "System.Security.Claims.Claim",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663339
+          }
+        },
+        {
+          "TsName": "clone2",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663340
+          }
+        },
+        {
+          "TsName": "writeTo",
+          "IsStatic": false,
+          "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663341
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663343
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "issuer",
+          "IsStatic": false,
+          "TsSignatureId": "Issuer|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875980
+          }
+        },
+        {
+          "TsName": "originalIssuer",
+          "IsStatic": false,
+          "TsSignatureId": "OriginalIssuer|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875981
+          }
+        },
+        {
+          "TsName": "properties",
+          "IsStatic": false,
+          "TsSignatureId": "Properties|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875982
+          }
+        },
+        {
+          "TsName": "subject",
+          "IsStatic": false,
+          "TsSignatureId": "Subject|:System.Security.Claims.ClaimsIdentity|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875983
+          }
+        },
+        {
+          "TsName": "type_",
+          "IsStatic": false,
+          "TsSignatureId": "Type|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875984
+          }
+        },
+        {
+          "TsName": "value",
+          "IsStatic": false,
+          "TsSignatureId": "Value|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875985
+          }
+        },
+        {
+          "TsName": "valueType",
+          "IsStatic": false,
+          "TsSignatureId": "ValueType|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875986
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.IO.BinaryReader):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663321
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.IO.BinaryReader,System.Security.Claims.ClaimsIdentity):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663322
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663323
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663324
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663325
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String,System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663326
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String,System.String,System.String,System.String,System.Security.Claims.ClaimsIdentity):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.Claim",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663327
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Security.Claims.ClaimsIdentity",
+      "TsEmitName": "ClaimsIdentity",
+      "AssemblyName": "System.Security.Claims",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 100663375,
+          "CanonicalSignature": "():System.Security.Claims.ClaimsIdentity",
+          "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "AddClaim",
+          "TsEmitName": "addClaim",
+          "MetadataToken": 100663376,
+          "CanonicalSignature": "(System.Security.Claims.Claim):System.Void",
+          "NormalizedSignature": "AddClaim|(System.Security.Claims.Claim):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "AddClaims",
+          "TsEmitName": "addClaims",
+          "MetadataToken": 100663377,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
+          "NormalizedSignature": "AddClaims|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "TryRemoveClaim",
+          "TsEmitName": "tryRemoveClaim",
+          "MetadataToken": 100663378,
+          "CanonicalSignature": "(System.Security.Claims.Claim):System.Boolean",
+          "NormalizedSignature": "TryRemoveClaim|(System.Security.Claims.Claim):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "RemoveClaim",
+          "TsEmitName": "removeClaim",
+          "MetadataToken": 100663379,
+          "CanonicalSignature": "(System.Security.Claims.Claim):System.Void",
+          "NormalizedSignature": "RemoveClaim|(System.Security.Claims.Claim):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindAll",
+          "TsEmitName": "findAll",
+          "MetadataToken": 100663382,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindAll",
+          "TsEmitName": "findAll2",
+          "MetadataToken": 100663383,
+          "CanonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindFirst",
+          "TsEmitName": "findFirst",
+          "MetadataToken": 100663384,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim",
+          "NormalizedSignature": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindFirst",
+          "TsEmitName": "findFirst2",
+          "MetadataToken": 100663385,
+          "CanonicalSignature": "(System.String):System.Security.Claims.Claim",
+          "NormalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HasClaim",
+          "TsEmitName": "hasClaim",
+          "MetadataToken": 100663386,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
+          "NormalizedSignature": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HasClaim",
+          "TsEmitName": "hasClaim2",
+          "MetadataToken": 100663387,
+          "CanonicalSignature": "(System.String,System.String):System.Boolean",
+          "NormalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WriteTo",
+          "TsEmitName": "writeTo",
+          "MetadataToken": 100663391,
+          "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
+          "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "AuthenticationType",
+          "TsEmitName": "authenticationType",
+          "MetadataToken": 385875987,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "IsAuthenticated",
+          "TsEmitName": "isAuthenticated",
+          "MetadataToken": 385875988,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Actor",
+          "TsEmitName": "actor",
+          "MetadataToken": 385875989,
+          "CanonicalSignature": ":System.Security.Claims.ClaimsIdentity",
+          "NormalizedSignature": "Actor|:System.Security.Claims.ClaimsIdentity|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "BootstrapContext",
+          "TsEmitName": "bootstrapContext",
+          "MetadataToken": 385875990,
+          "CanonicalSignature": ":System.Object",
+          "NormalizedSignature": "BootstrapContext|:System.Object|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Claims",
+          "TsEmitName": "claims",
+          "MetadataToken": 385875991,
+          "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Label",
+          "TsEmitName": "label",
+          "MetadataToken": 385875994,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Label|:System.String|static=false|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "MetadataToken": 385875995,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "NameClaimType",
+          "TsEmitName": "nameClaimType",
+          "MetadataToken": 385875996,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "NameClaimType|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "RoleClaimType",
+          "TsEmitName": "roleClaimType",
+          "MetadataToken": 385875997,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "RoleClaimType|:System.String|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name$view",
+          "MetadataToken": 385878137,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Principal.IIdentity",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "AuthenticationType",
+          "TsEmitName": "authenticationType$view",
+          "MetadataToken": 385878138,
+          "CanonicalSignature": ":System.String",
+          "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Principal.IIdentity",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        },
+        {
+          "ClrName": "IsAuthenticated",
+          "TsEmitName": "isAuthenticated$view",
+          "MetadataToken": 385878139,
+          "CanonicalSignature": ":System.Boolean",
+          "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Principal.IIdentity",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Fields": [
+        {
+          "ClrName": "DefaultIssuer",
+          "TsEmitName": "defaultIssuer",
+          "MetadataToken": 67108899,
+          "NormalizedSignature": "DefaultIssuer|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DefaultNameClaimType",
+          "TsEmitName": "defaultNameClaimType",
+          "MetadataToken": 67108900,
+          "NormalizedSignature": "DefaultNameClaimType|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DefaultRoleClaimType",
+          "TsEmitName": "defaultRoleClaimType",
+          "MetadataToken": 67108901,
+          "NormalizedSignature": "DefaultRoleClaimType|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663344,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663345,
+          "CanonicalSignature": "(System.Security.Principal.IIdentity):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IIdentity):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663346,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
+          "NormalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663347,
+          "CanonicalSignature": "(System.String):void",
+          "NormalizedSignature": "constructor|(System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663348,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String):void",
+          "NormalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663349,
+          "CanonicalSignature": "(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663350,
+          "CanonicalSignature": "(System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 3,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663351,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 4,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663352,
+          "CanonicalSignature": "(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 5,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663353,
+          "CanonicalSignature": "(System.IO.BinaryReader):void",
+          "NormalizedSignature": "constructor|(System.IO.BinaryReader):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663354,
+          "CanonicalSignature": "(System.IO.BinaryReader,System.StringComparison):void",
+          "NormalizedSignature": "constructor|(System.IO.BinaryReader,System.StringComparison):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663357,
+          "CanonicalSignature": "(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String,System.StringComparison):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String,System.StringComparison):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 6,
+          "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663375
+          }
+        },
+        {
+          "TsName": "addClaim",
+          "IsStatic": false,
+          "TsSignatureId": "AddClaim|(System.Security.Claims.Claim):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663376
+          }
+        },
+        {
+          "TsName": "addClaims",
+          "IsStatic": false,
+          "TsSignatureId": "AddClaims|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663377
+          }
+        },
+        {
+          "TsName": "tryRemoveClaim",
+          "IsStatic": false,
+          "TsSignatureId": "TryRemoveClaim|(System.Security.Claims.Claim):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663378
+          }
+        },
+        {
+          "TsName": "removeClaim",
+          "IsStatic": false,
+          "TsSignatureId": "RemoveClaim|(System.Security.Claims.Claim):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663379
+          }
+        },
+        {
+          "TsName": "findAll",
+          "IsStatic": false,
+          "TsSignatureId": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663382
+          }
+        },
+        {
+          "TsName": "findAll2",
+          "IsStatic": false,
+          "TsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663383
+          }
+        },
+        {
+          "TsName": "findFirst",
+          "IsStatic": false,
+          "TsSignatureId": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663384
+          }
+        },
+        {
+          "TsName": "findFirst2",
+          "IsStatic": false,
+          "TsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663385
+          }
+        },
+        {
+          "TsName": "hasClaim",
+          "IsStatic": false,
+          "TsSignatureId": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663386
+          }
+        },
+        {
+          "TsName": "hasClaim2",
+          "IsStatic": false,
+          "TsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663387
+          }
+        },
+        {
+          "TsName": "writeTo",
+          "IsStatic": false,
+          "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663391
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "authenticationType",
+          "IsStatic": false,
+          "TsSignatureId": "AuthenticationType|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875987
+          }
+        },
+        {
+          "TsName": "isAuthenticated",
+          "IsStatic": false,
+          "TsSignatureId": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875988
+          }
+        },
+        {
+          "TsName": "actor",
+          "IsStatic": false,
+          "TsSignatureId": "Actor|:System.Security.Claims.ClaimsIdentity|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875989
+          }
+        },
+        {
+          "TsName": "bootstrapContext",
+          "IsStatic": false,
+          "TsSignatureId": "BootstrapContext|:System.Object|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875990
+          }
+        },
+        {
+          "TsName": "claims",
+          "IsStatic": false,
+          "TsSignatureId": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875991
+          }
+        },
+        {
+          "TsName": "label",
+          "IsStatic": false,
+          "TsSignatureId": "Label|:System.String|static=false|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875994
+          }
+        },
+        {
+          "TsName": "name",
+          "IsStatic": false,
+          "TsSignatureId": "Name|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875995
+          }
+        },
+        {
+          "TsName": "nameClaimType",
+          "IsStatic": false,
+          "TsSignatureId": "NameClaimType|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875996
+          }
+        },
+        {
+          "TsName": "roleClaimType",
+          "IsStatic": false,
+          "TsSignatureId": "RoleClaimType|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385875997
+          }
+        },
+        {
+          "TsName": "name$view",
+          "IsStatic": false,
+          "TsSignatureId": "Name|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IIdentity",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385878137
+          }
+        },
+        {
+          "TsName": "authenticationType$view",
+          "IsStatic": false,
+          "TsSignatureId": "AuthenticationType|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IIdentity",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385878138
+          }
+        },
+        {
+          "TsName": "isAuthenticated$view",
+          "IsStatic": false,
+          "TsSignatureId": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IIdentity",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385878139
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "defaultIssuer",
+          "IsStatic": true,
+          "TsSignatureId": "DefaultIssuer|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108899
+          }
+        },
+        {
+          "TsName": "defaultNameClaimType",
+          "IsStatic": true,
+          "TsSignatureId": "DefaultNameClaimType|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108900
+          }
+        },
+        {
+          "TsName": "defaultRoleClaimType",
+          "IsStatic": true,
+          "TsSignatureId": "DefaultRoleClaimType|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108901
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663344
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IIdentity):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663345
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663346
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663347
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663348
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663349
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663350
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663351
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663352
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.IO.BinaryReader):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663353
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.IO.BinaryReader,System.StringComparison):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663354
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String,System.StringComparison):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsIdentity",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663357
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Security.Claims.ClaimsPrincipal",
+      "TsEmitName": "ClaimsPrincipal",
+      "AssemblyName": "System.Security.Claims",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "AddIdentity",
+          "TsEmitName": "addIdentity",
+          "MetadataToken": 100663438,
+          "CanonicalSignature": "(System.Security.Claims.ClaimsIdentity):System.Void",
+          "NormalizedSignature": "AddIdentity|(System.Security.Claims.ClaimsIdentity):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "AddIdentities",
+          "TsEmitName": "addIdentities",
+          "MetadataToken": 100663439,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
+          "NormalizedSignature": "AddIdentities|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "MetadataToken": 100663442,
+          "CanonicalSignature": "():System.Security.Claims.ClaimsPrincipal",
+          "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsPrincipal|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindAll",
+          "TsEmitName": "findAll",
+          "MetadataToken": 100663445,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindAll",
+          "TsEmitName": "findAll2",
+          "MetadataToken": 100663446,
+          "CanonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindFirst",
+          "TsEmitName": "findFirst",
+          "MetadataToken": 100663447,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim",
+          "NormalizedSignature": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "FindFirst",
+          "TsEmitName": "findFirst2",
+          "MetadataToken": 100663448,
+          "CanonicalSignature": "(System.String):System.Security.Claims.Claim",
+          "NormalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HasClaim",
+          "TsEmitName": "hasClaim",
+          "MetadataToken": 100663449,
+          "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
+          "NormalizedSignature": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HasClaim",
+          "TsEmitName": "hasClaim2",
+          "MetadataToken": 100663450,
+          "CanonicalSignature": "(System.String,System.String):System.Boolean",
+          "NormalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 2,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "IsInRole",
+          "TsEmitName": "isInRole",
+          "MetadataToken": 100663453,
+          "CanonicalSignature": "(System.String):System.Boolean",
+          "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WriteTo",
+          "TsEmitName": "writeTo",
+          "MetadataToken": 100663454,
+          "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
+          "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "IsInRole",
+          "TsEmitName": "isInRole$view",
+          "MetadataToken": 100674272,
+          "CanonicalSignature": "(System.String):System.Boolean",
+          "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
+          "EmitScope": "ViewOnly",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Principal.IPrincipal",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Properties": [
+        {
+          "ClrName": "PrimaryIdentitySelector",
+          "TsEmitName": "primaryIdentitySelector",
+          "MetadataToken": 385876004,
+          "CanonicalSignature": ":System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "PrimaryIdentitySelector|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "ClaimsPrincipalSelector",
+          "TsEmitName": "claimsPrincipalSelector",
+          "MetadataToken": 385876005,
+          "CanonicalSignature": ":System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "ClaimsPrincipalSelector|:System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": true,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Claims",
+          "TsEmitName": "claims",
+          "MetadataToken": 385876006,
+          "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Current",
+          "TsEmitName": "current",
+          "MetadataToken": 385876008,
+          "CanonicalSignature": ":System.Security.Claims.ClaimsPrincipal",
+          "NormalizedSignature": "Current|:System.Security.Claims.ClaimsPrincipal|static=true|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Identities",
+          "TsEmitName": "identities",
+          "MetadataToken": 385876009,
+          "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
+          "NormalizedSignature": "Identities|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Identity",
+          "TsEmitName": "identity",
+          "MetadataToken": 385876010,
+          "CanonicalSignature": ":System.Security.Principal.IIdentity",
+          "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
+          "EmitScope": "ClassSurface",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Identity",
+          "TsEmitName": "identity$view",
+          "MetadataToken": 385878140,
+          "CanonicalSignature": ":System.Security.Principal.IIdentity",
+          "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
+          "EmitScope": "ViewOnly",
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false,
+          "DeclaringClrType": "System.Security.Principal.IPrincipal",
+          "DeclaringAssemblyName": "System.Private.CoreLib"
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "MetadataToken": 100663433,
+          "CanonicalSignature": "():void",
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663434,
+          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
+          "NormalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663435,
+          "CanonicalSignature": "(System.Security.Principal.IIdentity):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IIdentity):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663436,
+          "CanonicalSignature": "(System.Security.Principal.IPrincipal):void",
+          "NormalizedSignature": "constructor|(System.Security.Principal.IPrincipal):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "MetadataToken": 100663437,
+          "CanonicalSignature": "(System.IO.BinaryReader):void",
+          "NormalizedSignature": "constructor|(System.IO.BinaryReader):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "ExposedMethods": [
+        {
+          "TsName": "addIdentity",
+          "IsStatic": false,
+          "TsSignatureId": "AddIdentity|(System.Security.Claims.ClaimsIdentity):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663438
+          }
+        },
+        {
+          "TsName": "addIdentities",
+          "IsStatic": false,
+          "TsSignatureId": "AddIdentities|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663439
+          }
+        },
+        {
+          "TsName": "clone",
+          "IsStatic": false,
+          "TsSignatureId": "Clone|():System.Security.Claims.ClaimsPrincipal|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663442
+          }
+        },
+        {
+          "TsName": "findAll",
+          "IsStatic": false,
+          "TsSignatureId": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663445
+          }
+        },
+        {
+          "TsName": "findAll2",
+          "IsStatic": false,
+          "TsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663446
+          }
+        },
+        {
+          "TsName": "findFirst",
+          "IsStatic": false,
+          "TsSignatureId": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663447
+          }
+        },
+        {
+          "TsName": "findFirst2",
+          "IsStatic": false,
+          "TsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663448
+          }
+        },
+        {
+          "TsName": "hasClaim",
+          "IsStatic": false,
+          "TsSignatureId": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663449
+          }
+        },
+        {
+          "TsName": "hasClaim2",
+          "IsStatic": false,
+          "TsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663450
+          }
+        },
+        {
+          "TsName": "isInRole",
+          "IsStatic": false,
+          "TsSignatureId": "IsInRole|(System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663453
+          }
+        },
+        {
+          "TsName": "writeTo",
+          "IsStatic": false,
+          "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663454
+          }
+        },
+        {
+          "TsName": "isInRole$view",
+          "IsStatic": false,
+          "TsSignatureId": "IsInRole|(System.String):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IPrincipal",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100674272
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedProperties": [
+        {
+          "TsName": "primaryIdentitySelector",
+          "IsStatic": true,
+          "TsSignatureId": "PrimaryIdentitySelector|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876004
+          }
+        },
+        {
+          "TsName": "claimsPrincipalSelector",
+          "IsStatic": true,
+          "TsSignatureId": "ClaimsPrincipalSelector|:System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876005
+          }
+        },
+        {
+          "TsName": "claims",
+          "IsStatic": false,
+          "TsSignatureId": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876006
+          }
+        },
+        {
+          "TsName": "current",
+          "IsStatic": true,
+          "TsSignatureId": "Current|:System.Security.Claims.ClaimsPrincipal|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876008
+          }
+        },
+        {
+          "TsName": "identities",
+          "IsStatic": false,
+          "TsSignatureId": "Identities|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876009
+          }
+        },
+        {
+          "TsName": "identity",
+          "IsStatic": false,
+          "TsSignatureId": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 385876010
+          }
+        },
+        {
+          "TsName": "identity$view",
+          "IsStatic": false,
+          "TsSignatureId": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IPrincipal",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385878140
+          }
+        }
+      ],
+      "ExposedConstructors": [
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|():void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663433
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663434
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IIdentity):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663435
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.Security.Principal.IPrincipal):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663436
+          }
+        },
+        {
+          "IsStatic": false,
+          "TsSignatureId": "constructor|(System.IO.BinaryReader):void|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimsPrincipal",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 100663437
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Security.Claims.ClaimTypes",
+      "TsEmitName": "ClaimTypes",
+      "AssemblyName": "System.Security.Claims",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "AuthenticationInstant",
+          "TsEmitName": "authenticationInstant",
+          "MetadataToken": 67108962,
+          "NormalizedSignature": "AuthenticationInstant|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "AuthenticationMethod",
+          "TsEmitName": "authenticationMethod",
+          "MetadataToken": 67108963,
+          "NormalizedSignature": "AuthenticationMethod|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "CookiePath",
+          "TsEmitName": "cookiePath",
+          "MetadataToken": 67108964,
+          "NormalizedSignature": "CookiePath|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DenyOnlyPrimarySid",
+          "TsEmitName": "denyOnlyPrimarySid",
+          "MetadataToken": 67108965,
+          "NormalizedSignature": "DenyOnlyPrimarySid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DenyOnlyPrimaryGroupSid",
+          "TsEmitName": "denyOnlyPrimaryGroupSid",
+          "MetadataToken": 67108966,
+          "NormalizedSignature": "DenyOnlyPrimaryGroupSid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DenyOnlyWindowsDeviceGroup",
+          "TsEmitName": "denyOnlyWindowsDeviceGroup",
+          "MetadataToken": 67108967,
+          "NormalizedSignature": "DenyOnlyWindowsDeviceGroup|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Dsa",
+          "TsEmitName": "dsa",
+          "MetadataToken": 67108968,
+          "NormalizedSignature": "Dsa|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Expiration",
+          "TsEmitName": "expiration",
+          "MetadataToken": 67108969,
+          "NormalizedSignature": "Expiration|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Expired",
+          "TsEmitName": "expired",
+          "MetadataToken": 67108970,
+          "NormalizedSignature": "Expired|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "GroupSid",
+          "TsEmitName": "groupSid",
+          "MetadataToken": 67108971,
+          "NormalizedSignature": "GroupSid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "IsPersistent",
+          "TsEmitName": "isPersistent",
+          "MetadataToken": 67108972,
+          "NormalizedSignature": "IsPersistent|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "PrimaryGroupSid",
+          "TsEmitName": "primaryGroupSid",
+          "MetadataToken": 67108973,
+          "NormalizedSignature": "PrimaryGroupSid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "PrimarySid",
+          "TsEmitName": "primarySid",
+          "MetadataToken": 67108974,
+          "NormalizedSignature": "PrimarySid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Role",
+          "TsEmitName": "role",
+          "MetadataToken": 67108975,
+          "NormalizedSignature": "Role|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "SerialNumber",
+          "TsEmitName": "serialNumber",
+          "MetadataToken": 67108976,
+          "NormalizedSignature": "SerialNumber|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "UserData",
+          "TsEmitName": "userData",
+          "MetadataToken": 67108977,
+          "NormalizedSignature": "UserData|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Version",
+          "TsEmitName": "version",
+          "MetadataToken": 67108978,
+          "NormalizedSignature": "Version|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsAccountName",
+          "TsEmitName": "windowsAccountName",
+          "MetadataToken": 67108979,
+          "NormalizedSignature": "WindowsAccountName|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsDeviceClaim",
+          "TsEmitName": "windowsDeviceClaim",
+          "MetadataToken": 67108980,
+          "NormalizedSignature": "WindowsDeviceClaim|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsDeviceGroup",
+          "TsEmitName": "windowsDeviceGroup",
+          "MetadataToken": 67108981,
+          "NormalizedSignature": "WindowsDeviceGroup|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsUserClaim",
+          "TsEmitName": "windowsUserClaim",
+          "MetadataToken": 67108982,
+          "NormalizedSignature": "WindowsUserClaim|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsFqbnVersion",
+          "TsEmitName": "windowsFqbnVersion",
+          "MetadataToken": 67108983,
+          "NormalizedSignature": "WindowsFqbnVersion|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "WindowsSubAuthority",
+          "TsEmitName": "windowsSubAuthority",
+          "MetadataToken": 67108984,
+          "NormalizedSignature": "WindowsSubAuthority|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Anonymous",
+          "TsEmitName": "anonymous",
+          "MetadataToken": 67108985,
+          "NormalizedSignature": "Anonymous|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Authentication",
+          "TsEmitName": "authentication",
+          "MetadataToken": 67108986,
+          "NormalizedSignature": "Authentication|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "AuthorizationDecision",
+          "TsEmitName": "authorizationDecision",
+          "MetadataToken": 67108987,
+          "NormalizedSignature": "AuthorizationDecision|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Country",
+          "TsEmitName": "country",
+          "MetadataToken": 67108988,
+          "NormalizedSignature": "Country|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DateOfBirth",
+          "TsEmitName": "dateOfBirth",
+          "MetadataToken": 67108989,
+          "NormalizedSignature": "DateOfBirth|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Dns",
+          "TsEmitName": "dns",
+          "MetadataToken": 67108990,
+          "NormalizedSignature": "Dns|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DenyOnlySid",
+          "TsEmitName": "denyOnlySid",
+          "MetadataToken": 67108991,
+          "NormalizedSignature": "DenyOnlySid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Email",
+          "TsEmitName": "email",
+          "MetadataToken": 67108992,
+          "NormalizedSignature": "Email|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Gender",
+          "TsEmitName": "gender",
+          "MetadataToken": 67108993,
+          "NormalizedSignature": "Gender|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "GivenName",
+          "TsEmitName": "givenName",
+          "MetadataToken": 67108994,
+          "NormalizedSignature": "GivenName|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Hash",
+          "TsEmitName": "hash",
+          "MetadataToken": 67108995,
+          "NormalizedSignature": "Hash|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HomePhone",
+          "TsEmitName": "homePhone",
+          "MetadataToken": 67108996,
+          "NormalizedSignature": "HomePhone|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Locality",
+          "TsEmitName": "locality",
+          "MetadataToken": 67108997,
+          "NormalizedSignature": "Locality|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "MobilePhone",
+          "TsEmitName": "mobilePhone",
+          "MetadataToken": 67108998,
+          "NormalizedSignature": "MobilePhone|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Name",
+          "TsEmitName": "name",
+          "MetadataToken": 67108999,
+          "NormalizedSignature": "Name|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "NameIdentifier",
+          "TsEmitName": "nameIdentifier",
+          "MetadataToken": 67109000,
+          "NormalizedSignature": "NameIdentifier|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "OtherPhone",
+          "TsEmitName": "otherPhone",
+          "MetadataToken": 67109001,
+          "NormalizedSignature": "OtherPhone|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "PostalCode",
+          "TsEmitName": "postalCode",
+          "MetadataToken": 67109002,
+          "NormalizedSignature": "PostalCode|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Rsa",
+          "TsEmitName": "rsa",
+          "MetadataToken": 67109003,
+          "NormalizedSignature": "Rsa|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Sid",
+          "TsEmitName": "sid",
+          "MetadataToken": 67109004,
+          "NormalizedSignature": "Sid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Spn",
+          "TsEmitName": "spn",
+          "MetadataToken": 67109005,
+          "NormalizedSignature": "Spn|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "StateOrProvince",
+          "TsEmitName": "stateOrProvince",
+          "MetadataToken": 67109006,
+          "NormalizedSignature": "StateOrProvince|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "StreetAddress",
+          "TsEmitName": "streetAddress",
+          "MetadataToken": 67109007,
+          "NormalizedSignature": "StreetAddress|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Surname",
+          "TsEmitName": "surname",
+          "MetadataToken": 67109008,
+          "NormalizedSignature": "Surname|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "System",
+          "TsEmitName": "system",
+          "MetadataToken": 67109009,
+          "NormalizedSignature": "System|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Thumbprint",
+          "TsEmitName": "thumbprint",
+          "MetadataToken": 67109010,
+          "NormalizedSignature": "Thumbprint|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Upn",
+          "TsEmitName": "upn",
+          "MetadataToken": 67109011,
+          "NormalizedSignature": "Upn|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Uri",
+          "TsEmitName": "uri",
+          "MetadataToken": 67109012,
+          "NormalizedSignature": "Uri|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Webpage",
+          "TsEmitName": "webpage",
+          "MetadataToken": 67109013,
+          "NormalizedSignature": "Webpage|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "X500DistinguishedName",
+          "TsEmitName": "x500DistinguishedName",
+          "MetadataToken": 67109014,
+          "NormalizedSignature": "X500DistinguishedName|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Actor",
+          "TsEmitName": "actor",
+          "MetadataToken": 67109015,
+          "NormalizedSignature": "Actor|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "authenticationInstant",
+          "IsStatic": true,
+          "TsSignatureId": "AuthenticationInstant|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108962
+          }
+        },
+        {
+          "TsName": "authenticationMethod",
+          "IsStatic": true,
+          "TsSignatureId": "AuthenticationMethod|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108963
+          }
+        },
+        {
+          "TsName": "cookiePath",
+          "IsStatic": true,
+          "TsSignatureId": "CookiePath|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108964
+          }
+        },
+        {
+          "TsName": "denyOnlyPrimarySid",
+          "IsStatic": true,
+          "TsSignatureId": "DenyOnlyPrimarySid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108965
+          }
+        },
+        {
+          "TsName": "denyOnlyPrimaryGroupSid",
+          "IsStatic": true,
+          "TsSignatureId": "DenyOnlyPrimaryGroupSid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108966
+          }
+        },
+        {
+          "TsName": "denyOnlyWindowsDeviceGroup",
+          "IsStatic": true,
+          "TsSignatureId": "DenyOnlyWindowsDeviceGroup|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108967
+          }
+        },
+        {
+          "TsName": "dsa",
+          "IsStatic": true,
+          "TsSignatureId": "Dsa|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108968
+          }
+        },
+        {
+          "TsName": "expiration",
+          "IsStatic": true,
+          "TsSignatureId": "Expiration|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108969
+          }
+        },
+        {
+          "TsName": "expired",
+          "IsStatic": true,
+          "TsSignatureId": "Expired|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108970
+          }
+        },
+        {
+          "TsName": "groupSid",
+          "IsStatic": true,
+          "TsSignatureId": "GroupSid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108971
+          }
+        },
+        {
+          "TsName": "isPersistent",
+          "IsStatic": true,
+          "TsSignatureId": "IsPersistent|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108972
+          }
+        },
+        {
+          "TsName": "primaryGroupSid",
+          "IsStatic": true,
+          "TsSignatureId": "PrimaryGroupSid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108973
+          }
+        },
+        {
+          "TsName": "primarySid",
+          "IsStatic": true,
+          "TsSignatureId": "PrimarySid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108974
+          }
+        },
+        {
+          "TsName": "role",
+          "IsStatic": true,
+          "TsSignatureId": "Role|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108975
+          }
+        },
+        {
+          "TsName": "serialNumber",
+          "IsStatic": true,
+          "TsSignatureId": "SerialNumber|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108976
+          }
+        },
+        {
+          "TsName": "userData",
+          "IsStatic": true,
+          "TsSignatureId": "UserData|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108977
+          }
+        },
+        {
+          "TsName": "version",
+          "IsStatic": true,
+          "TsSignatureId": "Version|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108978
+          }
+        },
+        {
+          "TsName": "windowsAccountName",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsAccountName|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108979
+          }
+        },
+        {
+          "TsName": "windowsDeviceClaim",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsDeviceClaim|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108980
+          }
+        },
+        {
+          "TsName": "windowsDeviceGroup",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsDeviceGroup|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108981
+          }
+        },
+        {
+          "TsName": "windowsUserClaim",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsUserClaim|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108982
+          }
+        },
+        {
+          "TsName": "windowsFqbnVersion",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsFqbnVersion|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108983
+          }
+        },
+        {
+          "TsName": "windowsSubAuthority",
+          "IsStatic": true,
+          "TsSignatureId": "WindowsSubAuthority|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108984
+          }
+        },
+        {
+          "TsName": "anonymous",
+          "IsStatic": true,
+          "TsSignatureId": "Anonymous|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108985
+          }
+        },
+        {
+          "TsName": "authentication",
+          "IsStatic": true,
+          "TsSignatureId": "Authentication|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108986
+          }
+        },
+        {
+          "TsName": "authorizationDecision",
+          "IsStatic": true,
+          "TsSignatureId": "AuthorizationDecision|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108987
+          }
+        },
+        {
+          "TsName": "country",
+          "IsStatic": true,
+          "TsSignatureId": "Country|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108988
+          }
+        },
+        {
+          "TsName": "dateOfBirth",
+          "IsStatic": true,
+          "TsSignatureId": "DateOfBirth|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108989
+          }
+        },
+        {
+          "TsName": "dns",
+          "IsStatic": true,
+          "TsSignatureId": "Dns|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108990
+          }
+        },
+        {
+          "TsName": "denyOnlySid",
+          "IsStatic": true,
+          "TsSignatureId": "DenyOnlySid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108991
+          }
+        },
+        {
+          "TsName": "email",
+          "IsStatic": true,
+          "TsSignatureId": "Email|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108992
+          }
+        },
+        {
+          "TsName": "gender",
+          "IsStatic": true,
+          "TsSignatureId": "Gender|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108993
+          }
+        },
+        {
+          "TsName": "givenName",
+          "IsStatic": true,
+          "TsSignatureId": "GivenName|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108994
+          }
+        },
+        {
+          "TsName": "hash",
+          "IsStatic": true,
+          "TsSignatureId": "Hash|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108995
+          }
+        },
+        {
+          "TsName": "homePhone",
+          "IsStatic": true,
+          "TsSignatureId": "HomePhone|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108996
+          }
+        },
+        {
+          "TsName": "locality",
+          "IsStatic": true,
+          "TsSignatureId": "Locality|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108997
+          }
+        },
+        {
+          "TsName": "mobilePhone",
+          "IsStatic": true,
+          "TsSignatureId": "MobilePhone|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108998
+          }
+        },
+        {
+          "TsName": "name",
+          "IsStatic": true,
+          "TsSignatureId": "Name|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67108999
+          }
+        },
+        {
+          "TsName": "nameIdentifier",
+          "IsStatic": true,
+          "TsSignatureId": "NameIdentifier|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109000
+          }
+        },
+        {
+          "TsName": "otherPhone",
+          "IsStatic": true,
+          "TsSignatureId": "OtherPhone|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109001
+          }
+        },
+        {
+          "TsName": "postalCode",
+          "IsStatic": true,
+          "TsSignatureId": "PostalCode|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109002
+          }
+        },
+        {
+          "TsName": "rsa",
+          "IsStatic": true,
+          "TsSignatureId": "Rsa|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109003
+          }
+        },
+        {
+          "TsName": "sid",
+          "IsStatic": true,
+          "TsSignatureId": "Sid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109004
+          }
+        },
+        {
+          "TsName": "spn",
+          "IsStatic": true,
+          "TsSignatureId": "Spn|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109005
+          }
+        },
+        {
+          "TsName": "stateOrProvince",
+          "IsStatic": true,
+          "TsSignatureId": "StateOrProvince|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109006
+          }
+        },
+        {
+          "TsName": "streetAddress",
+          "IsStatic": true,
+          "TsSignatureId": "StreetAddress|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109007
+          }
+        },
+        {
+          "TsName": "surname",
+          "IsStatic": true,
+          "TsSignatureId": "Surname|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109008
+          }
+        },
+        {
+          "TsName": "system",
+          "IsStatic": true,
+          "TsSignatureId": "System|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109009
+          }
+        },
+        {
+          "TsName": "thumbprint",
+          "IsStatic": true,
+          "TsSignatureId": "Thumbprint|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109010
+          }
+        },
+        {
+          "TsName": "upn",
+          "IsStatic": true,
+          "TsSignatureId": "Upn|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109011
+          }
+        },
+        {
+          "TsName": "uri",
+          "IsStatic": true,
+          "TsSignatureId": "Uri|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109012
+          }
+        },
+        {
+          "TsName": "webpage",
+          "IsStatic": true,
+          "TsSignatureId": "Webpage|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109013
+          }
+        },
+        {
+          "TsName": "x500DistinguishedName",
+          "IsStatic": true,
+          "TsSignatureId": "X500DistinguishedName|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109014
+          }
+        },
+        {
+          "TsName": "actor",
+          "IsStatic": true,
+          "TsSignatureId": "Actor|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109015
+          }
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Security.Claims.ClaimValueTypes",
+      "TsEmitName": "ClaimValueTypes",
+      "AssemblyName": "System.Security.Claims",
+      "MetadataToken": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "Base64Binary",
+          "TsEmitName": "base64Binary",
+          "MetadataToken": 67109016,
+          "NormalizedSignature": "Base64Binary|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Base64Octet",
+          "TsEmitName": "base64Octet",
+          "MetadataToken": 67109017,
+          "NormalizedSignature": "Base64Octet|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Boolean",
+          "TsEmitName": "boolean_",
+          "MetadataToken": 67109018,
+          "NormalizedSignature": "Boolean|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Date",
+          "TsEmitName": "date",
+          "MetadataToken": 67109019,
+          "NormalizedSignature": "Date|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DateTime",
+          "TsEmitName": "dateTime",
+          "MetadataToken": 67109020,
+          "NormalizedSignature": "DateTime|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Double",
+          "TsEmitName": "double",
+          "MetadataToken": 67109021,
+          "NormalizedSignature": "Double|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Fqbn",
+          "TsEmitName": "fqbn",
+          "MetadataToken": 67109022,
+          "NormalizedSignature": "Fqbn|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "HexBinary",
+          "TsEmitName": "hexBinary",
+          "MetadataToken": 67109023,
+          "NormalizedSignature": "HexBinary|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Integer",
+          "TsEmitName": "integer",
+          "MetadataToken": 67109024,
+          "NormalizedSignature": "Integer|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Integer32",
+          "TsEmitName": "integer32",
+          "MetadataToken": 67109025,
+          "NormalizedSignature": "Integer32|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Integer64",
+          "TsEmitName": "integer64",
+          "MetadataToken": 67109026,
+          "NormalizedSignature": "Integer64|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Sid",
+          "TsEmitName": "sid",
+          "MetadataToken": 67109027,
+          "NormalizedSignature": "Sid|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "String",
+          "TsEmitName": "string_",
+          "MetadataToken": 67109028,
+          "NormalizedSignature": "String|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Time",
+          "TsEmitName": "time",
+          "MetadataToken": 67109029,
+          "NormalizedSignature": "Time|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "UInteger32",
+          "TsEmitName": "uInteger32",
+          "MetadataToken": 67109030,
+          "NormalizedSignature": "UInteger32|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "UInteger64",
+          "TsEmitName": "uInteger64",
+          "MetadataToken": 67109031,
+          "NormalizedSignature": "UInteger64|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DnsName",
+          "TsEmitName": "dnsName",
+          "MetadataToken": 67109032,
+          "NormalizedSignature": "DnsName|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Email",
+          "TsEmitName": "email",
+          "MetadataToken": 67109033,
+          "NormalizedSignature": "Email|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Rsa",
+          "TsEmitName": "rsa",
+          "MetadataToken": 67109034,
+          "NormalizedSignature": "Rsa|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "UpnName",
+          "TsEmitName": "upnName",
+          "MetadataToken": 67109035,
+          "NormalizedSignature": "UpnName|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DsaKeyValue",
+          "TsEmitName": "dsaKeyValue",
+          "MetadataToken": 67109036,
+          "NormalizedSignature": "DsaKeyValue|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "KeyInfo",
+          "TsEmitName": "keyInfo",
+          "MetadataToken": 67109037,
+          "NormalizedSignature": "KeyInfo|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "RsaKeyValue",
+          "TsEmitName": "rsaKeyValue",
+          "MetadataToken": 67109038,
+          "NormalizedSignature": "RsaKeyValue|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "DaytimeDuration",
+          "TsEmitName": "daytimeDuration",
+          "MetadataToken": 67109039,
+          "NormalizedSignature": "DaytimeDuration|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "YearMonthDuration",
+          "TsEmitName": "yearMonthDuration",
+          "MetadataToken": 67109040,
+          "NormalizedSignature": "YearMonthDuration|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "Rfc822Name",
+          "TsEmitName": "rfc822Name",
+          "MetadataToken": 67109041,
+          "NormalizedSignature": "Rfc822Name|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        },
+        {
+          "ClrName": "X500Name",
+          "TsEmitName": "x500Name",
+          "MetadataToken": 67109042,
+          "NormalizedSignature": "X500Name|System.String|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+          "DeclaringAssemblyName": "System.Security.Claims"
+        }
+      ],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ],
+      "ExposedFields": [
+        {
+          "TsName": "base64Binary",
+          "IsStatic": true,
+          "TsSignatureId": "Base64Binary|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109016
+          }
+        },
+        {
+          "TsName": "base64Octet",
+          "IsStatic": true,
+          "TsSignatureId": "Base64Octet|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109017
+          }
+        },
+        {
+          "TsName": "boolean_",
+          "IsStatic": true,
+          "TsSignatureId": "Boolean|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109018
+          }
+        },
+        {
+          "TsName": "date",
+          "IsStatic": true,
+          "TsSignatureId": "Date|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109019
+          }
+        },
+        {
+          "TsName": "dateTime",
+          "IsStatic": true,
+          "TsSignatureId": "DateTime|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109020
+          }
+        },
+        {
+          "TsName": "double",
+          "IsStatic": true,
+          "TsSignatureId": "Double|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109021
+          }
+        },
+        {
+          "TsName": "fqbn",
+          "IsStatic": true,
+          "TsSignatureId": "Fqbn|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109022
+          }
+        },
+        {
+          "TsName": "hexBinary",
+          "IsStatic": true,
+          "TsSignatureId": "HexBinary|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109023
+          }
+        },
+        {
+          "TsName": "integer",
+          "IsStatic": true,
+          "TsSignatureId": "Integer|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109024
+          }
+        },
+        {
+          "TsName": "integer32",
+          "IsStatic": true,
+          "TsSignatureId": "Integer32|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109025
+          }
+        },
+        {
+          "TsName": "integer64",
+          "IsStatic": true,
+          "TsSignatureId": "Integer64|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109026
+          }
+        },
+        {
+          "TsName": "sid",
+          "IsStatic": true,
+          "TsSignatureId": "Sid|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109027
+          }
+        },
+        {
+          "TsName": "string_",
+          "IsStatic": true,
+          "TsSignatureId": "String|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109028
+          }
+        },
+        {
+          "TsName": "time",
+          "IsStatic": true,
+          "TsSignatureId": "Time|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109029
+          }
+        },
+        {
+          "TsName": "uInteger32",
+          "IsStatic": true,
+          "TsSignatureId": "UInteger32|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109030
+          }
+        },
+        {
+          "TsName": "uInteger64",
+          "IsStatic": true,
+          "TsSignatureId": "UInteger64|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109031
+          }
+        },
+        {
+          "TsName": "dnsName",
+          "IsStatic": true,
+          "TsSignatureId": "DnsName|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109032
+          }
+        },
+        {
+          "TsName": "email",
+          "IsStatic": true,
+          "TsSignatureId": "Email|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109033
+          }
+        },
+        {
+          "TsName": "rsa",
+          "IsStatic": true,
+          "TsSignatureId": "Rsa|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109034
+          }
+        },
+        {
+          "TsName": "upnName",
+          "IsStatic": true,
+          "TsSignatureId": "UpnName|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109035
+          }
+        },
+        {
+          "TsName": "dsaKeyValue",
+          "IsStatic": true,
+          "TsSignatureId": "DsaKeyValue|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109036
+          }
+        },
+        {
+          "TsName": "keyInfo",
+          "IsStatic": true,
+          "TsSignatureId": "KeyInfo|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109037
+          }
+        },
+        {
+          "TsName": "rsaKeyValue",
+          "IsStatic": true,
+          "TsSignatureId": "RsaKeyValue|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109038
+          }
+        },
+        {
+          "TsName": "daytimeDuration",
+          "IsStatic": true,
+          "TsSignatureId": "DaytimeDuration|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109039
+          }
+        },
+        {
+          "TsName": "yearMonthDuration",
+          "IsStatic": true,
+          "TsSignatureId": "YearMonthDuration|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109040
+          }
+        },
+        {
+          "TsName": "rfc822Name",
+          "IsStatic": true,
+          "TsSignatureId": "Rfc822Name|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109041
+          }
+        },
+        {
+          "TsName": "x500Name",
+          "IsStatic": true,
+          "TsSignatureId": "X500Name|System.String|static=true|const=true",
+          "Target": {
+            "DeclaringClrType": "System.Security.Claims.ClaimValueTypes",
+            "DeclaringAssemblyName": "System.Security.Claims",
+            "MetadataToken": 67109042
+          }
+        }
+      ]
+    }
+  ]
+}

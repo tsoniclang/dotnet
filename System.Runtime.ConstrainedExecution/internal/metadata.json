@@ -1,0 +1,198 @@
+{
+  "Namespace": "System.Runtime.ConstrainedExecution",
+  "ContributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.ConstrainedExecution.Cer",
+      "TsEmitName": "Cer",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "None",
+          "TsEmitName": "none",
+          "NormalizedSignature": "None|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MayFail",
+          "TsEmitName": "mayFail",
+          "NormalizedSignature": "MayFail|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "Success",
+          "TsEmitName": "success",
+          "NormalizedSignature": "Success|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.ConstrainedExecution.Consistency",
+      "TsEmitName": "Consistency",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "MayCorruptProcess",
+          "TsEmitName": "mayCorruptProcess",
+          "NormalizedSignature": "MayCorruptProcess|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MayCorruptAppDomain",
+          "TsEmitName": "mayCorruptAppDomain",
+          "NormalizedSignature": "MayCorruptAppDomain|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MayCorruptInstance",
+          "TsEmitName": "mayCorruptInstance",
+          "NormalizedSignature": "MayCorruptInstance|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "WillNotCorruptState",
+          "TsEmitName": "willNotCorruptState",
+          "NormalizedSignature": "WillNotCorruptState|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+      "TsEmitName": "CriticalFinalizerObject",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": false,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
+      "TsEmitName": "PrePrepareMethodAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
+      "TsEmitName": "ReliabilityContractAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [
+        {
+          "ClrName": "ConsistencyGuarantee",
+          "TsEmitName": "consistencyGuarantee",
+          "NormalizedSignature": "ConsistencyGuarantee|:System.Runtime.ConstrainedExecution.Consistency|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        },
+        {
+          "ClrName": "Cer",
+          "TsEmitName": "cer",
+          "NormalizedSignature": "Cer|:System.Runtime.ConstrainedExecution.Cer|static=false|accessor=get",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsIndexer": false,
+          "HasGetter": true,
+          "HasSetter": false
+        }
+      ],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Runtime.ConstrainedExecution.Consistency,System.Runtime.ConstrainedExecution.Cer):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    }
+  ]
+}

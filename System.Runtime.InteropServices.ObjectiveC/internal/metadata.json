@@ -1,0 +1,287 @@
+{
+  "Namespace": "System.Runtime.InteropServices.ObjectiveC",
+  "ContributingAssemblies": [
+    "System.Private.CoreLib"
+  ],
+  "Types": [
+    {
+      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+      "TsEmitName": "ObjectiveCMarshal_MessageSendFunction",
+      "Kind": "Enum",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [
+        {
+          "ClrName": "value__",
+          "TsEmitName": "value__",
+          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
+          "IsStatic": false,
+          "IsReadOnly": false,
+          "IsLiteral": false
+        },
+        {
+          "ClrName": "MsgSend",
+          "TsEmitName": "msgSend",
+          "NormalizedSignature": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MsgSendFpret",
+          "TsEmitName": "msgSendFpret",
+          "NormalizedSignature": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MsgSendStret",
+          "TsEmitName": "msgSendStret",
+          "NormalizedSignature": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MsgSendSuper",
+          "TsEmitName": "msgSendSuper",
+          "NormalizedSignature": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        },
+        {
+          "ClrName": "MsgSendSuperStret",
+          "TsEmitName": "msgSendSuperStret",
+          "NormalizedSignature": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "IsStatic": true,
+          "IsReadOnly": false,
+          "IsLiteral": true
+        }
+      ],
+      "Events": [],
+      "Constructors": []
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+      "TsEmitName": "ObjectiveCMarshal_UnhandledExceptionPropagationHandler",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Invoke",
+          "TsEmitName": "invoke",
+          "NormalizedSignature": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 3
+        },
+        {
+          "ClrName": "BeginInvoke",
+          "TsEmitName": "beginInvoke",
+          "NormalizedSignature": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 5
+        },
+        {
+          "ClrName": "EndInvoke",
+          "TsEmitName": "endInvoke",
+          "NormalizedSignature": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone$view",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0,
+          "SourceInterface": "System.ICloneable"
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData$view",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "ExplicitView",
+          "EmitScope": "ViewOnly",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2,
+          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "ClrName": "Clone",
+          "TsEmitName": "clone",
+          "NormalizedSignature": "Clone|():System.Object|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 0
+        },
+        {
+          "ClrName": "GetObjectData",
+          "TsEmitName": "getObjectData",
+          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "Provenance": "BaseOverload",
+          "EmitScope": "ClassSurface",
+          "IsStatic": false,
+          "IsAbstract": false,
+          "IsVirtual": true,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 2
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
+      "TsEmitName": "ObjectiveCTrackedTypeAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
+      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+      "TsEmitName": "ObjectiveCMarshal",
+      "Kind": "StaticNamespace",
+      "Accessibility": "Public",
+      "IsAbstract": true,
+      "IsSealed": true,
+      "IsStatic": true,
+      "Arity": 0,
+      "Methods": [
+        {
+          "ClrName": "Initialize",
+          "TsEmitName": "initialize",
+          "NormalizedSignature": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 4
+        },
+        {
+          "ClrName": "CreateReferenceTrackingHandle",
+          "TsEmitName": "createReferenceTrackingHandle",
+          "NormalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "SetMessageSendCallback",
+          "TsEmitName": "setMessageSendCallback",
+          "NormalizedSignature": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 2
+        },
+        {
+          "ClrName": "SetMessageSendPendingException",
+          "TsEmitName": "setMessageSendPendingException",
+          "NormalizedSignature": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
+          "Provenance": "Original",
+          "EmitScope": "ClassSurface",
+          "IsStatic": true,
+          "IsAbstract": false,
+          "IsVirtual": false,
+          "IsOverride": false,
+          "IsSealed": false,
+          "Arity": 0,
+          "ParameterCount": 1
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": []
+    }
+  ]
+}

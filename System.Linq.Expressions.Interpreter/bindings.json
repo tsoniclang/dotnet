@@ -1,0 +1,123 @@
+{
+  "Namespace": "System.Linq.Expressions.Interpreter",
+  "Types": [
+    {
+      "ClrName": "System.Linq.Expressions.Interpreter.LightLambda",
+      "TsEmitName": "LightLambda",
+      "AssemblyName": "System.Linq.Expressions",
+      "MetadataToken": 0,
+      "Methods": [
+        {
+          "ClrName": "Run",
+          "TsEmitName": "run",
+          "MetadataToken": 100666475,
+          "CanonicalSignature": "(System.Object[]):System.Object",
+          "NormalizedSignature": "Run|(System.Object[]):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
+          "DeclaringAssemblyName": "System.Linq.Expressions"
+        },
+        {
+          "ClrName": "RunVoid",
+          "TsEmitName": "runVoid",
+          "MetadataToken": 100666476,
+          "CanonicalSignature": "(System.Object[]):System.Object",
+          "NormalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
+          "EmitScope": "ClassSurface",
+          "Arity": 0,
+          "ParameterCount": 1,
+          "DeclaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
+          "DeclaringAssemblyName": "System.Linq.Expressions"
+        }
+      ],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [],
+      "ExposedMethods": [
+        {
+          "TsName": "run",
+          "IsStatic": false,
+          "TsSignatureId": "Run|(System.Object[]):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
+            "DeclaringAssemblyName": "System.Linq.Expressions",
+            "MetadataToken": 100666475
+          }
+        },
+        {
+          "TsName": "runVoid",
+          "IsStatic": false,
+          "TsSignatureId": "RunVoid|(System.Object[]):System.Object|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
+            "DeclaringAssemblyName": "System.Linq.Expressions",
+            "MetadataToken": 100666476
+          }
+        },
+        {
+          "TsName": "getType",
+          "IsStatic": false,
+          "TsSignatureId": "GetType|():System.Type|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664825
+          }
+        },
+        {
+          "TsName": "toString",
+          "IsStatic": false,
+          "TsSignatureId": "ToString|():System.String|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664829
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": false,
+          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664830
+          }
+        },
+        {
+          "TsName": "equals",
+          "IsStatic": true,
+          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664831
+          }
+        },
+        {
+          "TsName": "referenceEquals",
+          "IsStatic": true,
+          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664832
+          }
+        },
+        {
+          "TsName": "getHashCode",
+          "IsStatic": false,
+          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "Target": {
+            "DeclaringClrType": "System.Object",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100664833
+          }
+        }
+      ]
+    }
+  ]
+}
