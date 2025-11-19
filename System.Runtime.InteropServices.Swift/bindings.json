@@ -10,8 +10,8 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
-          "MetadataToken": 385879725,
+          "TsEmitName": "Value",
+          "MetadataToken": 385879685,
           "CanonicalSignature": ":System.Void*",
           "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -26,7 +26,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100695307,
+          "MetadataToken": 100695203,
           "CanonicalSignature": "(System.Void*):void",
           "NormalizedSignature": "constructor|(System.Void*):void|static=false",
           "IsStatic": false,
@@ -37,7 +37,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -47,7 +47,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -57,7 +57,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -67,7 +67,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -77,7 +77,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -87,7 +87,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -99,13 +99,13 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879725
+            "MetadataToken": 385879685
           }
         }
       ],
@@ -116,7 +116,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695307
+            "MetadataToken": 100695203
           }
         }
       ]
@@ -130,8 +130,8 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
-          "MetadataToken": 385879726,
+          "TsEmitName": "Value",
+          "MetadataToken": 385879686,
           "CanonicalSignature": ":System.Void*",
           "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -146,7 +146,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100695309,
+          "MetadataToken": 100695205,
           "CanonicalSignature": "(System.Void*):void",
           "NormalizedSignature": "constructor|(System.Void*):void|static=false",
           "IsStatic": false,
@@ -157,7 +157,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -167,7 +167,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -177,7 +177,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -187,7 +187,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -197,7 +197,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -207,7 +207,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -219,13 +219,13 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879726
+            "MetadataToken": 385879686
           }
         }
       ],
@@ -236,7 +236,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695309
+            "MetadataToken": 100695205
           }
         }
       ]
@@ -250,8 +250,8 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
-          "MetadataToken": 385879723,
+          "TsEmitName": "Value",
+          "MetadataToken": 385879683,
           "CanonicalSignature": ":System.Void*",
           "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -266,7 +266,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100695303,
+          "MetadataToken": 100695199,
           "CanonicalSignature": "(System.Void*):void",
           "NormalizedSignature": "constructor|(System.Void*):void|static=false",
           "IsStatic": false,
@@ -277,7 +277,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -287,7 +287,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -297,7 +297,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -307,7 +307,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -317,7 +317,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -327,7 +327,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -339,13 +339,13 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879723
+            "MetadataToken": 385879683
           }
         }
       ],
@@ -356,7 +356,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695303
+            "MetadataToken": 100695199
           }
         }
       ]
@@ -370,8 +370,8 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
-          "MetadataToken": 385879724,
+          "TsEmitName": "Value",
+          "MetadataToken": 385879684,
           "CanonicalSignature": ":T",
           "NormalizedSignature": "Value|:T|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -386,7 +386,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100695305,
+          "MetadataToken": 100695201,
           "CanonicalSignature": "(T):void",
           "NormalizedSignature": "constructor|(T):void|static=false",
           "IsStatic": false,
@@ -397,7 +397,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -407,7 +407,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -417,7 +417,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -427,7 +427,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -437,7 +437,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -447,7 +447,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -459,13 +459,13 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:T|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879724
+            "MetadataToken": 385879684
           }
         }
       ],
@@ -476,7 +476,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695305
+            "MetadataToken": 100695201
           }
         }
       ]

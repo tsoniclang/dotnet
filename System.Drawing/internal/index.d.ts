@@ -40,204 +40,204 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum KnownColor {
-    activeBorder = 1,
-    activeCaption = 2,
-    activeCaptionText = 3,
-    appWorkspace = 4,
-    control = 5,
-    controlDark = 6,
-    controlDarkDark = 7,
-    controlLight = 8,
-    controlLightLight = 9,
-    controlText = 10,
-    desktop = 11,
-    grayText = 12,
-    highlight = 13,
-    highlightText = 14,
-    hotTrack = 15,
-    inactiveBorder = 16,
-    inactiveCaption = 17,
-    inactiveCaptionText = 18,
-    info = 19,
-    infoText = 20,
-    menu = 21,
-    menuText = 22,
-    scrollBar = 23,
-    window = 24,
-    windowFrame = 25,
-    windowText = 26,
-    transparent = 27,
-    aliceBlue = 28,
-    antiqueWhite = 29,
-    aqua = 30,
-    aquamarine = 31,
-    azure = 32,
-    beige = 33,
-    bisque = 34,
-    black = 35,
-    blanchedAlmond = 36,
-    blue = 37,
-    blueViolet = 38,
-    brown = 39,
-    burlyWood = 40,
-    cadetBlue = 41,
-    chartreuse = 42,
-    chocolate = 43,
-    coral = 44,
-    cornflowerBlue = 45,
-    cornsilk = 46,
-    crimson = 47,
-    cyan = 48,
-    darkBlue = 49,
-    darkCyan = 50,
-    darkGoldenrod = 51,
-    darkGray = 52,
-    darkGreen = 53,
-    darkKhaki = 54,
-    darkMagenta = 55,
-    darkOliveGreen = 56,
-    darkOrange = 57,
-    darkOrchid = 58,
-    darkRed = 59,
-    darkSalmon = 60,
-    darkSeaGreen = 61,
-    darkSlateBlue = 62,
-    darkSlateGray = 63,
-    darkTurquoise = 64,
-    darkViolet = 65,
-    deepPink = 66,
-    deepSkyBlue = 67,
-    dimGray = 68,
-    dodgerBlue = 69,
-    firebrick = 70,
-    floralWhite = 71,
-    forestGreen = 72,
-    fuchsia = 73,
-    gainsboro = 74,
-    ghostWhite = 75,
-    gold = 76,
-    goldenrod = 77,
-    gray = 78,
-    green = 79,
-    greenYellow = 80,
-    honeydew = 81,
-    hotPink = 82,
-    indianRed = 83,
-    indigo = 84,
-    ivory = 85,
-    khaki = 86,
-    lavender = 87,
-    lavenderBlush = 88,
-    lawnGreen = 89,
-    lemonChiffon = 90,
-    lightBlue = 91,
-    lightCoral = 92,
-    lightCyan = 93,
-    lightGoldenrodYellow = 94,
-    lightGray = 95,
-    lightGreen = 96,
-    lightPink = 97,
-    lightSalmon = 98,
-    lightSeaGreen = 99,
-    lightSkyBlue = 100,
-    lightSlateGray = 101,
-    lightSteelBlue = 102,
-    lightYellow = 103,
-    lime = 104,
-    limeGreen = 105,
-    linen = 106,
-    magenta = 107,
-    maroon = 108,
-    mediumAquamarine = 109,
-    mediumBlue = 110,
-    mediumOrchid = 111,
-    mediumPurple = 112,
-    mediumSeaGreen = 113,
-    mediumSlateBlue = 114,
-    mediumSpringGreen = 115,
-    mediumTurquoise = 116,
-    mediumVioletRed = 117,
-    midnightBlue = 118,
-    mintCream = 119,
-    mistyRose = 120,
-    moccasin = 121,
-    navajoWhite = 122,
-    navy = 123,
-    oldLace = 124,
-    olive = 125,
-    oliveDrab = 126,
-    orange = 127,
-    orangeRed = 128,
-    orchid = 129,
-    paleGoldenrod = 130,
-    paleGreen = 131,
-    paleTurquoise = 132,
-    paleVioletRed = 133,
-    papayaWhip = 134,
-    peachPuff = 135,
-    peru = 136,
-    pink = 137,
-    plum = 138,
-    powderBlue = 139,
-    purple = 140,
-    red = 141,
-    rosyBrown = 142,
-    royalBlue = 143,
-    saddleBrown = 144,
-    salmon = 145,
-    sandyBrown = 146,
-    seaGreen = 147,
-    seaShell = 148,
-    sienna = 149,
-    silver = 150,
-    skyBlue = 151,
-    slateBlue = 152,
-    slateGray = 153,
-    snow = 154,
-    springGreen = 155,
-    steelBlue = 156,
-    tan = 157,
-    teal = 158,
-    thistle = 159,
-    tomato = 160,
-    turquoise = 161,
-    violet = 162,
-    wheat = 163,
-    white = 164,
-    whiteSmoke = 165,
-    yellow = 166,
-    yellowGreen = 167,
-    buttonFace = 168,
-    buttonHighlight = 169,
-    buttonShadow = 170,
-    gradientActiveCaption = 171,
-    gradientInactiveCaption = 172,
-    menuBar = 173,
-    menuHighlight = 174,
-    rebeccaPurple = 175
+    ActiveBorder = 1,
+    ActiveCaption = 2,
+    ActiveCaptionText = 3,
+    AppWorkspace = 4,
+    Control = 5,
+    ControlDark = 6,
+    ControlDarkDark = 7,
+    ControlLight = 8,
+    ControlLightLight = 9,
+    ControlText = 10,
+    Desktop = 11,
+    GrayText = 12,
+    Highlight = 13,
+    HighlightText = 14,
+    HotTrack = 15,
+    InactiveBorder = 16,
+    InactiveCaption = 17,
+    InactiveCaptionText = 18,
+    Info = 19,
+    InfoText = 20,
+    Menu = 21,
+    MenuText = 22,
+    ScrollBar = 23,
+    Window = 24,
+    WindowFrame = 25,
+    WindowText = 26,
+    Transparent = 27,
+    AliceBlue = 28,
+    AntiqueWhite = 29,
+    Aqua = 30,
+    Aquamarine = 31,
+    Azure = 32,
+    Beige = 33,
+    Bisque = 34,
+    Black = 35,
+    BlanchedAlmond = 36,
+    Blue = 37,
+    BlueViolet = 38,
+    Brown = 39,
+    BurlyWood = 40,
+    CadetBlue = 41,
+    Chartreuse = 42,
+    Chocolate = 43,
+    Coral = 44,
+    CornflowerBlue = 45,
+    Cornsilk = 46,
+    Crimson = 47,
+    Cyan = 48,
+    DarkBlue = 49,
+    DarkCyan = 50,
+    DarkGoldenrod = 51,
+    DarkGray = 52,
+    DarkGreen = 53,
+    DarkKhaki = 54,
+    DarkMagenta = 55,
+    DarkOliveGreen = 56,
+    DarkOrange = 57,
+    DarkOrchid = 58,
+    DarkRed = 59,
+    DarkSalmon = 60,
+    DarkSeaGreen = 61,
+    DarkSlateBlue = 62,
+    DarkSlateGray = 63,
+    DarkTurquoise = 64,
+    DarkViolet = 65,
+    DeepPink = 66,
+    DeepSkyBlue = 67,
+    DimGray = 68,
+    DodgerBlue = 69,
+    Firebrick = 70,
+    FloralWhite = 71,
+    ForestGreen = 72,
+    Fuchsia = 73,
+    Gainsboro = 74,
+    GhostWhite = 75,
+    Gold = 76,
+    Goldenrod = 77,
+    Gray = 78,
+    Green = 79,
+    GreenYellow = 80,
+    Honeydew = 81,
+    HotPink = 82,
+    IndianRed = 83,
+    Indigo = 84,
+    Ivory = 85,
+    Khaki = 86,
+    Lavender = 87,
+    LavenderBlush = 88,
+    LawnGreen = 89,
+    LemonChiffon = 90,
+    LightBlue = 91,
+    LightCoral = 92,
+    LightCyan = 93,
+    LightGoldenrodYellow = 94,
+    LightGray = 95,
+    LightGreen = 96,
+    LightPink = 97,
+    LightSalmon = 98,
+    LightSeaGreen = 99,
+    LightSkyBlue = 100,
+    LightSlateGray = 101,
+    LightSteelBlue = 102,
+    LightYellow = 103,
+    Lime = 104,
+    LimeGreen = 105,
+    Linen = 106,
+    Magenta = 107,
+    Maroon = 108,
+    MediumAquamarine = 109,
+    MediumBlue = 110,
+    MediumOrchid = 111,
+    MediumPurple = 112,
+    MediumSeaGreen = 113,
+    MediumSlateBlue = 114,
+    MediumSpringGreen = 115,
+    MediumTurquoise = 116,
+    MediumVioletRed = 117,
+    MidnightBlue = 118,
+    MintCream = 119,
+    MistyRose = 120,
+    Moccasin = 121,
+    NavajoWhite = 122,
+    Navy = 123,
+    OldLace = 124,
+    Olive = 125,
+    OliveDrab = 126,
+    Orange = 127,
+    OrangeRed = 128,
+    Orchid = 129,
+    PaleGoldenrod = 130,
+    PaleGreen = 131,
+    PaleTurquoise = 132,
+    PaleVioletRed = 133,
+    PapayaWhip = 134,
+    PeachPuff = 135,
+    Peru = 136,
+    Pink = 137,
+    Plum = 138,
+    PowderBlue = 139,
+    Purple = 140,
+    Red = 141,
+    RosyBrown = 142,
+    RoyalBlue = 143,
+    SaddleBrown = 144,
+    Salmon = 145,
+    SandyBrown = 146,
+    SeaGreen = 147,
+    SeaShell = 148,
+    Sienna = 149,
+    Silver = 150,
+    SkyBlue = 151,
+    SlateBlue = 152,
+    SlateGray = 153,
+    Snow = 154,
+    SpringGreen = 155,
+    SteelBlue = 156,
+    Tan = 157,
+    Teal = 158,
+    Thistle = 159,
+    Tomato = 160,
+    Turquoise = 161,
+    Violet = 162,
+    Wheat = 163,
+    White = 164,
+    WhiteSmoke = 165,
+    Yellow = 166,
+    YellowGreen = 167,
+    ButtonFace = 168,
+    ButtonHighlight = 169,
+    ButtonShadow = 170,
+    GradientActiveCaption = 171,
+    GradientInactiveCaption = 172,
+    MenuBar = 173,
+    MenuHighlight = 174,
+    RebeccaPurple = 175
 }
 
 
 export class Color$instance {
-    readonly a: byte;
-    readonly b: byte;
-    readonly g: byte;
-    readonly isEmpty: boolean;
-    readonly isKnownColor: boolean;
-    readonly isNamedColor: boolean;
-    readonly isSystemColor: boolean;
-    readonly name: string;
-    readonly r: byte;
-    equals(obj: any): boolean;
-    equals(other: Color): boolean;
-    getBrightness(): float;
-    getHashCode(): int;
-    getHue(): float;
-    getSaturation(): float;
-    toArgb(): int;
-    toKnownColor(): KnownColor;
-    toString(): string;
-    static readonly empty: Color;
+    readonly A: byte;
+    readonly B: byte;
+    readonly G: byte;
+    readonly IsEmpty: boolean;
+    readonly IsKnownColor: boolean;
+    readonly IsNamedColor: boolean;
+    readonly IsSystemColor: boolean;
+    readonly Name: string;
+    readonly R: byte;
+    Equals(obj: any): boolean;
+    Equals(other: Color): boolean;
+    GetBrightness(): float;
+    GetHashCode(): int;
+    GetHue(): float;
+    GetSaturation(): float;
+    ToArgb(): int;
+    ToKnownColor(): KnownColor;
+    ToString(): string;
+    static readonly Empty: Color;
     static readonly Transparent: Color;
     static readonly AliceBlue: Color;
     static readonly AntiqueWhite: Color;
@@ -403,16 +403,16 @@ export class Point$instance {
     constructor(x: int, y: int);
     constructor(sz: Size);
     constructor(dw: int);
-    readonly isEmpty: boolean;
-    x: int;
-    y: int;
-    equals(obj: any): boolean;
-    equals(other: Point): boolean;
-    getHashCode(): int;
-    offset(dx: int, dy: int): void;
-    offset(p: Point): void;
-    toString(): string;
-    static readonly empty: Point;
+    readonly IsEmpty: boolean;
+    X: int;
+    Y: int;
+    Equals(obj: any): boolean;
+    Equals(other: Point): boolean;
+    GetHashCode(): int;
+    Offset(dx: int, dy: int): void;
+    Offset(p: Point): void;
+    ToString(): string;
+    static readonly Empty: Point;
     static Add(pt: Point, sz: Size): Point;
     static Ceiling(value: PointF): Point;
     static Round(value: PointF): Point;
@@ -434,15 +434,15 @@ export type Point = Point$instance & __Point$views;
 export class PointF$instance {
     constructor(x: float, y: float);
     constructor(vector: Vector2);
-    readonly isEmpty: boolean;
-    x: float;
-    y: float;
-    equals(obj: any): boolean;
-    equals(other: PointF): boolean;
-    getHashCode(): int;
-    toString(): string;
-    toVector2(): Vector2;
-    static readonly empty: PointF;
+    readonly IsEmpty: boolean;
+    X: float;
+    Y: float;
+    Equals(obj: any): boolean;
+    Equals(other: PointF): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    ToVector2(): Vector2;
+    static readonly Empty: PointF;
     static Add(pt: PointF, sz: Size): PointF;
     static Add(pt: PointF, sz: SizeF): PointF;
     static Subtract(pt: PointF, sz: Size): PointF;
@@ -463,31 +463,31 @@ export type PointF = PointF$instance & __PointF$views;
 export class Rectangle$instance {
     constructor(x: int, y: int, width: int, height: int);
     constructor(location: Point, size: Size);
-    readonly bottom: int;
-    height: int;
-    readonly isEmpty: boolean;
-    readonly left: int;
-    location: Point;
-    readonly right: int;
-    size: Size;
-    readonly top: int;
-    width: int;
-    x: int;
-    y: int;
-    contains(x: int, y: int): boolean;
-    contains(pt: Point): boolean;
-    contains(rect: Rectangle): boolean;
-    equals(obj: any): boolean;
-    equals(other: Rectangle): boolean;
-    getHashCode(): int;
-    inflate(width: int, height: int): void;
-    inflate(size: Size): void;
-    intersect(rect: Rectangle): void;
-    intersectsWith(rect: Rectangle): boolean;
-    offset(pos: Point): void;
-    offset(x: int, y: int): void;
-    toString(): string;
-    static readonly empty: Rectangle;
+    readonly Bottom: int;
+    Height: int;
+    readonly IsEmpty: boolean;
+    readonly Left: int;
+    Location: Point;
+    readonly Right: int;
+    Size: Size;
+    readonly Top: int;
+    Width: int;
+    X: int;
+    Y: int;
+    Contains(x: int, y: int): boolean;
+    Contains(pt: Point): boolean;
+    Contains(rect: Rectangle): boolean;
+    Equals(obj: any): boolean;
+    Equals(other: Rectangle): boolean;
+    GetHashCode(): int;
+    Inflate(width: int, height: int): void;
+    Inflate(size: Size): void;
+    Intersect(rect: Rectangle): void;
+    IntersectsWith(rect: Rectangle): boolean;
+    Offset(pos: Point): void;
+    Offset(x: int, y: int): void;
+    ToString(): string;
+    static readonly Empty: Rectangle;
     static Ceiling(value: RectangleF): Rectangle;
     static FromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
     static Inflate(rect: Rectangle, x: int, y: int): Rectangle;
@@ -512,32 +512,32 @@ export class RectangleF$instance {
     constructor(x: float, y: float, width: float, height: float);
     constructor(location: PointF, size: SizeF);
     constructor(vector: Vector4);
-    readonly bottom: float;
-    height: float;
-    readonly isEmpty: boolean;
-    readonly left: float;
-    location: PointF;
-    readonly right: float;
-    size: SizeF;
-    readonly top: float;
-    width: float;
-    x: float;
-    y: float;
-    contains(x: float, y: float): boolean;
-    contains(pt: PointF): boolean;
-    contains(rect: RectangleF): boolean;
-    equals(obj: any): boolean;
-    equals(other: RectangleF): boolean;
-    getHashCode(): int;
-    inflate(x: float, y: float): void;
-    inflate(size: SizeF): void;
-    intersect(rect: RectangleF): void;
-    intersectsWith(rect: RectangleF): boolean;
-    offset(pos: PointF): void;
-    offset(x: float, y: float): void;
-    toString(): string;
-    toVector4(): Vector4;
-    static readonly empty: RectangleF;
+    readonly Bottom: float;
+    Height: float;
+    readonly IsEmpty: boolean;
+    readonly Left: float;
+    Location: PointF;
+    readonly Right: float;
+    Size: SizeF;
+    readonly Top: float;
+    Width: float;
+    X: float;
+    Y: float;
+    Contains(x: float, y: float): boolean;
+    Contains(pt: PointF): boolean;
+    Contains(rect: RectangleF): boolean;
+    Equals(obj: any): boolean;
+    Equals(other: RectangleF): boolean;
+    GetHashCode(): int;
+    Inflate(x: float, y: float): void;
+    Inflate(size: SizeF): void;
+    Intersect(rect: RectangleF): void;
+    IntersectsWith(rect: RectangleF): boolean;
+    Offset(pos: PointF): void;
+    Offset(x: float, y: float): void;
+    ToString(): string;
+    ToVector4(): Vector4;
+    static readonly Empty: RectangleF;
     static FromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
     static Inflate(rect: RectangleF, x: float, y: float): RectangleF;
     static Intersect(a: RectangleF, b: RectangleF): RectangleF;
@@ -558,14 +558,14 @@ export type RectangleF = RectangleF$instance & __RectangleF$views;
 export class Size$instance {
     constructor(pt: Point);
     constructor(width: int, height: int);
-    height: int;
-    readonly isEmpty: boolean;
-    width: int;
-    equals(obj: any): boolean;
-    equals(other: Size): boolean;
-    getHashCode(): int;
-    toString(): string;
-    static readonly empty: Size;
+    Height: int;
+    readonly IsEmpty: boolean;
+    Width: int;
+    Equals(obj: any): boolean;
+    Equals(other: Size): boolean;
+    GetHashCode(): int;
+    ToString(): string;
+    static readonly Empty: Size;
     static Add(sz1: Size, sz2: Size): Size;
     static Ceiling(value: SizeF): Size;
     static Round(value: SizeF): Size;
@@ -589,17 +589,17 @@ export class SizeF$instance {
     constructor(pt: PointF);
     constructor(vector: Vector2);
     constructor(width: float, height: float);
-    height: float;
-    readonly isEmpty: boolean;
-    width: float;
-    equals(obj: any): boolean;
-    equals(other: SizeF): boolean;
-    getHashCode(): int;
-    toPointF(): PointF;
-    toSize(): Size;
-    toString(): string;
-    toVector2(): Vector2;
-    static readonly empty: SizeF;
+    Height: float;
+    readonly IsEmpty: boolean;
+    Width: float;
+    Equals(obj: any): boolean;
+    Equals(other: SizeF): boolean;
+    GetHashCode(): int;
+    ToPointF(): PointF;
+    ToSize(): Size;
+    ToString(): string;
+    ToVector2(): Vector2;
+    static readonly Empty: SizeF;
     static Add(sz1: SizeF, sz2: SizeF): SizeF;
     static Subtract(sz1: SizeF, sz2: SizeF): SizeF;
 }
@@ -617,18 +617,18 @@ export type SizeF = SizeF$instance & __SizeF$views;
 
 export class ColorConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
-    getStandardValues(): ICollection;
-    getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
-    getStandardValuesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
+    ConvertFrom(value: any): any;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
+    ConvertTo(value: any, destinationType: Type): any;
+    GetStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
+    GetStandardValues(): ICollection;
+    GetStandardValuesSupported(context: ITypeDescriptorContext): boolean;
+    GetStandardValuesSupported(): boolean;
 }
 
 
@@ -636,23 +636,23 @@ export type ColorConverter = ColorConverter$instance;
 
 export class PointConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
+    ConvertFrom(value: any): any;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
+    ConvertTo(value: any, destinationType: Type): any;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
+    CreateInstance(propertyValues: IDictionary): any;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: any): PropertyDescriptorCollection;
+    GetProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -660,23 +660,23 @@ export type PointConverter = PointConverter$instance;
 
 export class RectangleConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
+    ConvertFrom(value: any): any;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
+    ConvertTo(value: any, destinationType: Type): any;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
+    CreateInstance(propertyValues: IDictionary): any;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: any): PropertyDescriptorCollection;
+    GetProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -684,23 +684,23 @@ export type RectangleConverter = RectangleConverter$instance;
 
 export class SizeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
+    ConvertFrom(value: any): any;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
+    ConvertTo(value: any, destinationType: Type): any;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
+    CreateInstance(propertyValues: IDictionary): any;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: any): PropertyDescriptorCollection;
+    GetProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 
@@ -708,23 +708,23 @@ export type SizeConverter = SizeConverter$instance;
 
 export class SizeFConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
     constructor();
-    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
-    canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
-    getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
-    getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
-    getPropertiesSupported(context: ITypeDescriptorContext): boolean;
-    getPropertiesSupported(): boolean;
+    CanConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
+    CanConvertFrom(sourceType: Type): boolean;
+    CanConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    CanConvertTo(destinationType: Type): boolean;
+    ConvertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
+    ConvertFrom(value: any): any;
+    ConvertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
+    ConvertTo(value: any, destinationType: Type): any;
+    CreateInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
+    CreateInstance(propertyValues: IDictionary): any;
+    GetCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
+    GetCreateInstanceSupported(): boolean;
+    GetProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
+    GetProperties(value: any): PropertyDescriptorCollection;
+    GetProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    GetPropertiesSupported(context: ITypeDescriptorContext): boolean;
+    GetPropertiesSupported(): boolean;
 }
 
 

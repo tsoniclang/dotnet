@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "ReadWrite",
-          "TsEmitName": "readWrite",
+          "TsEmitName": "ReadWrite",
           "NormalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "CopyOnWrite",
-          "TsEmitName": "copyOnWrite",
+          "TsEmitName": "CopyOnWrite",
           "NormalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "ReadExecute",
-          "TsEmitName": "readExecute",
+          "TsEmitName": "ReadExecute",
           "NormalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "ReadWriteExecute",
-          "TsEmitName": "readWriteExecute",
+          "TsEmitName": "ReadWriteExecute",
           "NormalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "DelayAllocatePages",
-          "TsEmitName": "delayAllocatePages",
+          "TsEmitName": "DelayAllocatePages",
           "NormalizedSignature": "DelayAllocatePages|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "ClrName": "CopyOnWrite",
-          "TsEmitName": "copyOnWrite",
+          "TsEmitName": "CopyOnWrite",
           "NormalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "Execute",
-          "TsEmitName": "execute",
+          "TsEmitName": "Execute",
           "NormalizedSignature": "Execute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "ReadWrite",
-          "TsEmitName": "readWrite",
+          "TsEmitName": "ReadWrite",
           "NormalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "ClrName": "ReadExecute",
-          "TsEmitName": "readExecute",
+          "TsEmitName": "ReadExecute",
           "NormalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "ClrName": "ReadWriteExecute",
-          "TsEmitName": "readWriteExecute",
+          "TsEmitName": "ReadWriteExecute",
           "NormalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "AccessSystemSecurity",
-          "TsEmitName": "accessSystemSecurity",
+          "TsEmitName": "AccessSystemSecurity",
           "NormalizedSignature": "AccessSystemSecurity|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -256,7 +256,7 @@
       "Methods": [
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting",
+          "TsEmitName": "OpenExisting",
           "NormalizedSignature": "OpenExisting|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -270,7 +270,7 @@
         },
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting2",
+          "TsEmitName": "OpenExisting2",
           "NormalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -284,7 +284,7 @@
         },
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting3",
+          "TsEmitName": "OpenExisting3",
           "NormalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -298,7 +298,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile",
+          "TsEmitName": "CreateFromFile",
           "NormalizedSignature": "CreateFromFile|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -312,7 +312,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile2",
+          "TsEmitName": "CreateFromFile2",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -326,7 +326,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile3",
+          "TsEmitName": "CreateFromFile3",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -340,7 +340,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile4",
+          "TsEmitName": "CreateFromFile4",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -354,7 +354,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile5",
+          "TsEmitName": "CreateFromFile5",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -368,7 +368,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile6",
+          "TsEmitName": "CreateFromFile6",
           "NormalizedSignature": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -382,7 +382,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile7",
+          "TsEmitName": "CreateFromFile7",
           "NormalizedSignature": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew",
+          "TsEmitName": "CreateNew",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -410,7 +410,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew2",
+          "TsEmitName": "CreateNew2",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -424,7 +424,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew3",
+          "TsEmitName": "CreateNew3",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -438,7 +438,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen",
+          "TsEmitName": "CreateOrOpen",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen2",
+          "TsEmitName": "CreateOrOpen2",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -466,7 +466,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen3",
+          "TsEmitName": "CreateOrOpen3",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -480,7 +480,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream",
+          "TsEmitName": "CreateViewStream",
           "NormalizedSignature": "CreateViewStream|():System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -494,7 +494,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream2",
+          "TsEmitName": "CreateViewStream2",
           "NormalizedSignature": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -508,7 +508,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream3",
+          "TsEmitName": "CreateViewStream3",
           "NormalizedSignature": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -522,7 +522,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor",
+          "TsEmitName": "CreateViewAccessor",
           "NormalizedSignature": "CreateViewAccessor|():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -536,7 +536,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor2",
+          "TsEmitName": "CreateViewAccessor2",
           "NormalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -550,7 +550,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor3",
+          "TsEmitName": "CreateViewAccessor3",
           "NormalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -564,7 +564,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -578,7 +578,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -595,7 +595,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedFileHandle",
-          "TsEmitName": "safeMemoryMappedFileHandle",
+          "TsEmitName": "SafeMemoryMappedFileHandle",
           "NormalizedSignature": "SafeMemoryMappedFileHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -624,7 +624,7 @@
       "Methods": [
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "NormalizedSignature": "Flush|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -653,7 +653,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -669,7 +669,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedViewHandle",
-          "TsEmitName": "safeMemoryMappedViewHandle",
+          "TsEmitName": "SafeMemoryMappedViewHandle",
           "NormalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -683,7 +683,7 @@
         },
         {
           "ClrName": "PointerOffset",
-          "TsEmitName": "pointerOffset",
+          "TsEmitName": "PointerOffset",
           "NormalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -712,7 +712,7 @@
       "Methods": [
         {
           "ClrName": "SetLength",
-          "TsEmitName": "setLength",
+          "TsEmitName": "SetLength",
           "NormalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -726,7 +726,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "NormalizedSignature": "Flush|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -740,7 +740,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -755,7 +755,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -770,7 +770,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -784,7 +784,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -800,7 +800,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedViewHandle",
-          "TsEmitName": "safeMemoryMappedViewHandle",
+          "TsEmitName": "SafeMemoryMappedViewHandle",
           "NormalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -814,7 +814,7 @@
         },
         {
           "ClrName": "PointerOffset",
-          "TsEmitName": "pointerOffset",
+          "TsEmitName": "PointerOffset",
           "NormalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

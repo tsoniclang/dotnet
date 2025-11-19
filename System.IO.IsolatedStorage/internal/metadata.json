@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "User",
-          "TsEmitName": "user",
+          "TsEmitName": "User",
           "NormalizedSignature": "User|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Domain",
-          "TsEmitName": "domain",
+          "TsEmitName": "Domain",
           "NormalizedSignature": "Domain|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "Assembly",
-          "TsEmitName": "assembly",
+          "TsEmitName": "Assembly",
           "NormalizedSignature": "Assembly|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "Roaming",
-          "TsEmitName": "roaming",
+          "TsEmitName": "Roaming",
           "NormalizedSignature": "Roaming|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "Machine",
-          "TsEmitName": "machine",
+          "TsEmitName": "Machine",
           "NormalizedSignature": "Machine|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "Application",
-          "TsEmitName": "application",
+          "TsEmitName": "Application",
           "NormalizedSignature": "Application|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -96,7 +96,7 @@
       "Methods": [
         {
           "ClrName": "Normalize",
-          "TsEmitName": "normalize",
+          "TsEmitName": "Normalize",
           "NormalizedSignature": "Normalize|():System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -126,7 +126,7 @@
       "Methods": [
         {
           "ClrName": "IncreaseQuotaTo",
-          "TsEmitName": "increaseQuotaTo",
+          "TsEmitName": "IncreaseQuotaTo",
           "NormalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -140,7 +140,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -156,7 +156,7 @@
       "Properties": [
         {
           "ClrName": "ApplicationIdentity",
-          "TsEmitName": "applicationIdentity",
+          "TsEmitName": "ApplicationIdentity",
           "NormalizedSignature": "ApplicationIdentity|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "AssemblyIdentity",
-          "TsEmitName": "assemblyIdentity",
+          "TsEmitName": "AssemblyIdentity",
           "NormalizedSignature": "AssemblyIdentity|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -184,7 +184,7 @@
         },
         {
           "ClrName": "DomainIdentity",
-          "TsEmitName": "domainIdentity",
+          "TsEmitName": "DomainIdentity",
           "NormalizedSignature": "DomainIdentity|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -198,7 +198,7 @@
         },
         {
           "ClrName": "CurrentSize",
-          "TsEmitName": "currentSize",
+          "TsEmitName": "CurrentSize",
           "NormalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -212,7 +212,7 @@
         },
         {
           "ClrName": "UsedSize",
-          "TsEmitName": "usedSize",
+          "TsEmitName": "UsedSize",
           "NormalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -226,7 +226,7 @@
         },
         {
           "ClrName": "AvailableFreeSpace",
-          "TsEmitName": "availableFreeSpace",
+          "TsEmitName": "AvailableFreeSpace",
           "NormalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -240,7 +240,7 @@
         },
         {
           "ClrName": "MaximumSize",
-          "TsEmitName": "maximumSize",
+          "TsEmitName": "MaximumSize",
           "NormalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -254,7 +254,7 @@
         },
         {
           "ClrName": "Quota",
-          "TsEmitName": "quota",
+          "TsEmitName": "Quota",
           "NormalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -268,7 +268,7 @@
         },
         {
           "ClrName": "Scope",
-          "TsEmitName": "scope",
+          "TsEmitName": "Scope",
           "NormalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -297,7 +297,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -312,7 +312,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -358,7 +358,7 @@
       "Methods": [
         {
           "ClrName": "Close",
-          "TsEmitName": "close",
+          "TsEmitName": "Close",
           "NormalizedSignature": "Close|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -372,7 +372,7 @@
         },
         {
           "ClrName": "DeleteFile",
-          "TsEmitName": "deleteFile",
+          "TsEmitName": "DeleteFile",
           "NormalizedSignature": "DeleteFile|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -386,7 +386,7 @@
         },
         {
           "ClrName": "FileExists",
-          "TsEmitName": "fileExists",
+          "TsEmitName": "FileExists",
           "NormalizedSignature": "FileExists|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -400,7 +400,7 @@
         },
         {
           "ClrName": "DirectoryExists",
-          "TsEmitName": "directoryExists",
+          "TsEmitName": "DirectoryExists",
           "NormalizedSignature": "DirectoryExists|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -414,7 +414,7 @@
         },
         {
           "ClrName": "CreateDirectory",
-          "TsEmitName": "createDirectory",
+          "TsEmitName": "CreateDirectory",
           "NormalizedSignature": "CreateDirectory|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -428,7 +428,7 @@
         },
         {
           "ClrName": "DeleteDirectory",
-          "TsEmitName": "deleteDirectory",
+          "TsEmitName": "DeleteDirectory",
           "NormalizedSignature": "DeleteDirectory|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "GetFileNames",
-          "TsEmitName": "getFileNames",
+          "TsEmitName": "GetFileNames",
           "NormalizedSignature": "GetFileNames|():System.String[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -456,7 +456,7 @@
         },
         {
           "ClrName": "GetFileNames",
-          "TsEmitName": "getFileNames2",
+          "TsEmitName": "GetFileNames2",
           "NormalizedSignature": "GetFileNames|(System.String):System.String[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -470,7 +470,7 @@
         },
         {
           "ClrName": "GetDirectoryNames",
-          "TsEmitName": "getDirectoryNames",
+          "TsEmitName": "GetDirectoryNames",
           "NormalizedSignature": "GetDirectoryNames|():System.String[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -484,7 +484,7 @@
         },
         {
           "ClrName": "GetDirectoryNames",
-          "TsEmitName": "getDirectoryNames2",
+          "TsEmitName": "GetDirectoryNames2",
           "NormalizedSignature": "GetDirectoryNames|(System.String):System.String[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -498,7 +498,7 @@
         },
         {
           "ClrName": "OpenFile",
-          "TsEmitName": "openFile",
+          "TsEmitName": "OpenFile",
           "NormalizedSignature": "OpenFile|(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -512,7 +512,7 @@
         },
         {
           "ClrName": "OpenFile",
-          "TsEmitName": "openFile2",
+          "TsEmitName": "OpenFile2",
           "NormalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -526,7 +526,7 @@
         },
         {
           "ClrName": "OpenFile",
-          "TsEmitName": "openFile3",
+          "TsEmitName": "OpenFile3",
           "NormalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "CreateFile",
-          "TsEmitName": "createFile",
+          "TsEmitName": "CreateFile",
           "NormalizedSignature": "CreateFile|(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -554,7 +554,7 @@
         },
         {
           "ClrName": "GetCreationTime",
-          "TsEmitName": "getCreationTime",
+          "TsEmitName": "GetCreationTime",
           "NormalizedSignature": "GetCreationTime|(System.String):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -568,7 +568,7 @@
         },
         {
           "ClrName": "GetLastAccessTime",
-          "TsEmitName": "getLastAccessTime",
+          "TsEmitName": "GetLastAccessTime",
           "NormalizedSignature": "GetLastAccessTime|(System.String):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -582,7 +582,7 @@
         },
         {
           "ClrName": "GetLastWriteTime",
-          "TsEmitName": "getLastWriteTime",
+          "TsEmitName": "GetLastWriteTime",
           "NormalizedSignature": "GetLastWriteTime|(System.String):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -596,7 +596,7 @@
         },
         {
           "ClrName": "CopyFile",
-          "TsEmitName": "copyFile",
+          "TsEmitName": "CopyFile",
           "NormalizedSignature": "CopyFile|(System.String,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -610,7 +610,7 @@
         },
         {
           "ClrName": "CopyFile",
-          "TsEmitName": "copyFile2",
+          "TsEmitName": "CopyFile2",
           "NormalizedSignature": "CopyFile|(System.String,System.String,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -624,7 +624,7 @@
         },
         {
           "ClrName": "MoveFile",
-          "TsEmitName": "moveFile",
+          "TsEmitName": "MoveFile",
           "NormalizedSignature": "MoveFile|(System.String,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         },
         {
           "ClrName": "MoveDirectory",
-          "TsEmitName": "moveDirectory",
+          "TsEmitName": "MoveDirectory",
           "NormalizedSignature": "MoveDirectory|(System.String,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -652,7 +652,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -666,7 +666,7 @@
         },
         {
           "ClrName": "GetUserStoreForApplication",
-          "TsEmitName": "getUserStoreForApplication",
+          "TsEmitName": "GetUserStoreForApplication",
           "NormalizedSignature": "GetUserStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -680,7 +680,7 @@
         },
         {
           "ClrName": "GetUserStoreForAssembly",
-          "TsEmitName": "getUserStoreForAssembly",
+          "TsEmitName": "GetUserStoreForAssembly",
           "NormalizedSignature": "GetUserStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -694,7 +694,7 @@
         },
         {
           "ClrName": "GetUserStoreForDomain",
-          "TsEmitName": "getUserStoreForDomain",
+          "TsEmitName": "GetUserStoreForDomain",
           "NormalizedSignature": "GetUserStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -708,7 +708,7 @@
         },
         {
           "ClrName": "GetUserStoreForSite",
-          "TsEmitName": "getUserStoreForSite",
+          "TsEmitName": "GetUserStoreForSite",
           "NormalizedSignature": "GetUserStoreForSite|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -722,7 +722,7 @@
         },
         {
           "ClrName": "GetMachineStoreForApplication",
-          "TsEmitName": "getMachineStoreForApplication",
+          "TsEmitName": "GetMachineStoreForApplication",
           "NormalizedSignature": "GetMachineStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -736,7 +736,7 @@
         },
         {
           "ClrName": "GetMachineStoreForAssembly",
-          "TsEmitName": "getMachineStoreForAssembly",
+          "TsEmitName": "GetMachineStoreForAssembly",
           "NormalizedSignature": "GetMachineStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -750,7 +750,7 @@
         },
         {
           "ClrName": "GetMachineStoreForDomain",
-          "TsEmitName": "getMachineStoreForDomain",
+          "TsEmitName": "GetMachineStoreForDomain",
           "NormalizedSignature": "GetMachineStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -764,7 +764,7 @@
         },
         {
           "ClrName": "GetStore",
-          "TsEmitName": "getStore",
+          "TsEmitName": "GetStore",
           "NormalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -778,7 +778,7 @@
         },
         {
           "ClrName": "GetStore",
-          "TsEmitName": "getStore2",
+          "TsEmitName": "GetStore2",
           "NormalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -792,7 +792,7 @@
         },
         {
           "ClrName": "GetStore",
-          "TsEmitName": "getStore3",
+          "TsEmitName": "GetStore3",
           "NormalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -806,7 +806,7 @@
         },
         {
           "ClrName": "GetStore",
-          "TsEmitName": "getStore4",
+          "TsEmitName": "GetStore4",
           "NormalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -820,7 +820,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -834,7 +834,7 @@
         },
         {
           "ClrName": "IncreaseQuotaTo",
-          "TsEmitName": "increaseQuotaTo",
+          "TsEmitName": "IncreaseQuotaTo",
           "NormalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -848,7 +848,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -862,7 +862,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -876,7 +876,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -893,7 +893,7 @@
       "Properties": [
         {
           "ClrName": "AvailableFreeSpace",
-          "TsEmitName": "availableFreeSpace",
+          "TsEmitName": "AvailableFreeSpace",
           "NormalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -907,7 +907,7 @@
         },
         {
           "ClrName": "MaximumSize",
-          "TsEmitName": "maximumSize",
+          "TsEmitName": "MaximumSize",
           "NormalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -921,7 +921,7 @@
         },
         {
           "ClrName": "Quota",
-          "TsEmitName": "quota",
+          "TsEmitName": "Quota",
           "NormalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -935,7 +935,7 @@
         },
         {
           "ClrName": "UsedSize",
-          "TsEmitName": "usedSize",
+          "TsEmitName": "UsedSize",
           "NormalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -949,7 +949,7 @@
         },
         {
           "ClrName": "CurrentSize",
-          "TsEmitName": "currentSize",
+          "TsEmitName": "CurrentSize",
           "NormalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -963,7 +963,7 @@
         },
         {
           "ClrName": "IsEnabled",
-          "TsEmitName": "isEnabled",
+          "TsEmitName": "IsEnabled",
           "NormalizedSignature": "IsEnabled|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -992,7 +992,7 @@
       "Methods": [
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1006,7 +1006,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "NormalizedSignature": "Flush|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1020,7 +1020,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush2",
+          "TsEmitName": "Flush2",
           "NormalizedSignature": "Flush|(System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1034,7 +1034,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync2",
+          "TsEmitName": "FlushAsync2",
           "NormalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1048,7 +1048,7 @@
         },
         {
           "ClrName": "SetLength",
-          "TsEmitName": "setLength",
+          "TsEmitName": "SetLength",
           "NormalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1062,7 +1062,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read2",
+          "TsEmitName": "Read2",
           "NormalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1076,7 +1076,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read3",
+          "TsEmitName": "Read3",
           "NormalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1090,7 +1090,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync7",
+          "TsEmitName": "ReadAsync7",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1104,7 +1104,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync8",
+          "TsEmitName": "ReadAsync8",
           "NormalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1118,7 +1118,7 @@
         },
         {
           "ClrName": "ReadByte",
-          "TsEmitName": "readByte",
+          "TsEmitName": "ReadByte",
           "NormalizedSignature": "ReadByte|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1132,7 +1132,7 @@
         },
         {
           "ClrName": "Seek",
-          "TsEmitName": "seek",
+          "TsEmitName": "Seek",
           "NormalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write2",
+          "TsEmitName": "Write2",
           "NormalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1160,7 +1160,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write3",
+          "TsEmitName": "Write3",
           "NormalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1174,7 +1174,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync4",
+          "TsEmitName": "WriteAsync4",
           "NormalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1188,7 +1188,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync5",
+          "TsEmitName": "WriteAsync5",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1202,7 +1202,7 @@
         },
         {
           "ClrName": "WriteByte",
-          "TsEmitName": "writeByte",
+          "TsEmitName": "WriteByte",
           "NormalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1216,7 +1216,7 @@
         },
         {
           "ClrName": "BeginRead",
-          "TsEmitName": "beginRead",
+          "TsEmitName": "BeginRead",
           "NormalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1230,7 +1230,7 @@
         },
         {
           "ClrName": "BeginWrite",
-          "TsEmitName": "beginWrite",
+          "TsEmitName": "BeginWrite",
           "NormalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1244,7 +1244,7 @@
         },
         {
           "ClrName": "EndRead",
-          "TsEmitName": "endRead",
+          "TsEmitName": "EndRead",
           "NormalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1258,7 +1258,7 @@
         },
         {
           "ClrName": "EndWrite",
-          "TsEmitName": "endWrite",
+          "TsEmitName": "EndWrite",
           "NormalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1272,7 +1272,7 @@
         },
         {
           "ClrName": "Unlock",
-          "TsEmitName": "unlock",
+          "TsEmitName": "Unlock",
           "NormalizedSignature": "Unlock|(System.Int64,System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1286,7 +1286,7 @@
         },
         {
           "ClrName": "Lock",
-          "TsEmitName": "lock",
+          "TsEmitName": "Lock",
           "NormalizedSignature": "Lock|(System.Int64,System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1300,7 +1300,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1315,7 +1315,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1330,7 +1330,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1344,7 +1344,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync",
+          "TsEmitName": "FlushAsync",
           "NormalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1358,7 +1358,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1372,7 +1372,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync",
+          "TsEmitName": "ReadAsync",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1386,7 +1386,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync6",
+          "TsEmitName": "ReadAsync6",
           "NormalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1400,7 +1400,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync5",
+          "TsEmitName": "ReadAsync5",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1414,7 +1414,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync",
+          "TsEmitName": "WriteAsync",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1442,7 +1442,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync3",
+          "TsEmitName": "WriteAsync3",
           "NormalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1458,7 +1458,7 @@
       "Properties": [
         {
           "ClrName": "CanRead",
-          "TsEmitName": "canRead",
+          "TsEmitName": "CanRead",
           "NormalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1472,7 +1472,7 @@
         },
         {
           "ClrName": "CanWrite",
-          "TsEmitName": "canWrite",
+          "TsEmitName": "CanWrite",
           "NormalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1486,7 +1486,7 @@
         },
         {
           "ClrName": "CanSeek",
-          "TsEmitName": "canSeek",
+          "TsEmitName": "CanSeek",
           "NormalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1500,7 +1500,7 @@
         },
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1514,7 +1514,7 @@
         },
         {
           "ClrName": "Position",
-          "TsEmitName": "position",
+          "TsEmitName": "Position",
           "NormalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1528,7 +1528,7 @@
         },
         {
           "ClrName": "IsAsync",
-          "TsEmitName": "isAsync",
+          "TsEmitName": "IsAsync",
           "NormalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1542,7 +1542,7 @@
         },
         {
           "ClrName": "Handle",
-          "TsEmitName": "handle",
+          "TsEmitName": "Handle",
           "NormalizedSignature": "Handle|:System.IntPtr|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1556,7 +1556,7 @@
         },
         {
           "ClrName": "SafeFileHandle",
-          "TsEmitName": "safeFileHandle",
+          "TsEmitName": "SafeFileHandle",
           "NormalizedSignature": "SafeFileHandle|:Microsoft.Win32.SafeHandles.SafeFileHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

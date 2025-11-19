@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "ReadWrite",
-          "TsEmitName": "readWrite",
+          "TsEmitName": "ReadWrite",
           "MetadataToken": 67109008,
           "NormalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -31,7 +31,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "MetadataToken": 67109009,
           "NormalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -41,7 +41,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "MetadataToken": 67109010,
           "NormalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -51,7 +51,7 @@
         },
         {
           "ClrName": "CopyOnWrite",
-          "TsEmitName": "copyOnWrite",
+          "TsEmitName": "CopyOnWrite",
           "MetadataToken": 67109011,
           "NormalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -61,7 +61,7 @@
         },
         {
           "ClrName": "ReadExecute",
-          "TsEmitName": "readExecute",
+          "TsEmitName": "ReadExecute",
           "MetadataToken": 67109012,
           "NormalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -71,7 +71,7 @@
         },
         {
           "ClrName": "ReadWriteExecute",
-          "TsEmitName": "readWriteExecute",
+          "TsEmitName": "ReadWriteExecute",
           "MetadataToken": 67109013,
           "NormalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "IsStatic": true,
@@ -84,7 +84,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getName",
+          "TsName": "GetName",
           "IsStatic": true,
           "TsSignatureId": "GetName|(TEnum):System.String|static=true",
           "Target": {
@@ -94,7 +94,7 @@
           }
         },
         {
-          "TsName": "getName2",
+          "TsName": "GetName2",
           "IsStatic": true,
           "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "Target": {
@@ -104,7 +104,7 @@
           }
         },
         {
-          "TsName": "getNames",
+          "TsName": "GetNames",
           "IsStatic": true,
           "TsSignatureId": "GetNames|():System.String[]|static=true",
           "Target": {
@@ -114,7 +114,7 @@
           }
         },
         {
-          "TsName": "getNames2",
+          "TsName": "GetNames2",
           "IsStatic": true,
           "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "Target": {
@@ -124,7 +124,7 @@
           }
         },
         {
-          "TsName": "getUnderlyingType",
+          "TsName": "GetUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
           "Target": {
@@ -134,7 +134,7 @@
           }
         },
         {
-          "TsName": "getValues",
+          "TsName": "GetValues",
           "IsStatic": true,
           "TsSignatureId": "GetValues|():TEnum[]|static=true",
           "Target": {
@@ -144,7 +144,7 @@
           }
         },
         {
-          "TsName": "getValues2",
+          "TsName": "GetValues2",
           "IsStatic": true,
           "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "Target": {
@@ -154,7 +154,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType",
+          "TsName": "GetValuesAsUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
           "Target": {
@@ -164,7 +164,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType2",
+          "TsName": "GetValuesAsUnderlyingType2",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "Target": {
@@ -174,7 +174,7 @@
           }
         },
         {
-          "TsName": "hasFlag",
+          "TsName": "HasFlag",
           "IsStatic": false,
           "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
           "Target": {
@@ -184,7 +184,7 @@
           }
         },
         {
-          "TsName": "isDefined",
+          "TsName": "IsDefined",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
           "Target": {
@@ -194,7 +194,7 @@
           }
         },
         {
-          "TsName": "isDefined2",
+          "TsName": "IsDefined2",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "Target": {
@@ -204,7 +204,7 @@
           }
         },
         {
-          "TsName": "parse",
+          "TsName": "Parse",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
           "Target": {
@@ -214,7 +214,7 @@
           }
         },
         {
-          "TsName": "parse2",
+          "TsName": "Parse2",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "Target": {
@@ -224,7 +224,7 @@
           }
         },
         {
-          "TsName": "parse3",
+          "TsName": "Parse3",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
           "Target": {
@@ -234,7 +234,7 @@
           }
         },
         {
-          "TsName": "parse4",
+          "TsName": "Parse4",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "Target": {
@@ -244,7 +244,7 @@
           }
         },
         {
-          "TsName": "parse5",
+          "TsName": "Parse5",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String):TEnum|static=true",
           "Target": {
@@ -254,7 +254,7 @@
           }
         },
         {
-          "TsName": "parse6",
+          "TsName": "Parse6",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "Target": {
@@ -264,7 +264,7 @@
           }
         },
         {
-          "TsName": "parse7",
+          "TsName": "Parse7",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
           "Target": {
@@ -274,7 +274,7 @@
           }
         },
         {
-          "TsName": "parse8",
+          "TsName": "Parse8",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "Target": {
@@ -284,7 +284,7 @@
           }
         },
         {
-          "TsName": "tryParse",
+          "TsName": "TryParse",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -294,7 +294,7 @@
           }
         },
         {
-          "TsName": "tryParse2",
+          "TsName": "TryParse2",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -304,7 +304,7 @@
           }
         },
         {
-          "TsName": "tryParse3",
+          "TsName": "TryParse3",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -314,7 +314,7 @@
           }
         },
         {
-          "TsName": "tryParse4",
+          "TsName": "TryParse4",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -324,7 +324,7 @@
           }
         },
         {
-          "TsName": "tryParse5",
+          "TsName": "TryParse5",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -334,7 +334,7 @@
           }
         },
         {
-          "TsName": "tryParse6",
+          "TsName": "TryParse6",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -344,7 +344,7 @@
           }
         },
         {
-          "TsName": "tryParse7",
+          "TsName": "TryParse7",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -354,7 +354,7 @@
           }
         },
         {
-          "TsName": "tryParse8",
+          "TsName": "TryParse8",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -364,7 +364,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -374,7 +374,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -384,7 +384,7 @@
           }
         },
         {
-          "TsName": "compareTo",
+          "TsName": "CompareTo",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -394,7 +394,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -404,7 +404,7 @@
           }
         },
         {
-          "TsName": "toString2",
+          "TsName": "ToString2",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String):System.String|static=false",
           "Target": {
@@ -414,7 +414,7 @@
           }
         },
         {
-          "TsName": "toString3",
+          "TsName": "ToString3",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -424,7 +424,7 @@
           }
         },
         {
-          "TsName": "toString4",
+          "TsName": "ToString4",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -434,7 +434,7 @@
           }
         },
         {
-          "TsName": "format",
+          "TsName": "Format",
           "IsStatic": true,
           "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
           "Target": {
@@ -444,7 +444,7 @@
           }
         },
         {
-          "TsName": "tryFormat",
+          "TsName": "TryFormat",
           "IsStatic": true,
           "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "Target": {
@@ -454,7 +454,7 @@
           }
         },
         {
-          "TsName": "getTypeCode",
+          "TsName": "GetTypeCode",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -464,7 +464,7 @@
           }
         },
         {
-          "TsName": "toObject",
+          "TsName": "ToObject",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
           "Target": {
@@ -474,7 +474,7 @@
           }
         },
         {
-          "TsName": "toObject2",
+          "TsName": "ToObject2",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
           "Target": {
@@ -484,7 +484,7 @@
           }
         },
         {
-          "TsName": "toObject3",
+          "TsName": "ToObject3",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
           "Target": {
@@ -494,7 +494,7 @@
           }
         },
         {
-          "TsName": "toObject4",
+          "TsName": "ToObject4",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
           "Target": {
@@ -504,7 +504,7 @@
           }
         },
         {
-          "TsName": "toObject5",
+          "TsName": "ToObject5",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "Target": {
@@ -514,7 +514,7 @@
           }
         },
         {
-          "TsName": "toObject6",
+          "TsName": "ToObject6",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
           "Target": {
@@ -524,7 +524,7 @@
           }
         },
         {
-          "TsName": "toObject7",
+          "TsName": "ToObject7",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
           "Target": {
@@ -534,7 +534,7 @@
           }
         },
         {
-          "TsName": "toObject8",
+          "TsName": "ToObject8",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
           "Target": {
@@ -544,7 +544,7 @@
           }
         },
         {
-          "TsName": "toObject9",
+          "TsName": "ToObject9",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
           "Target": {
@@ -554,7 +554,7 @@
           }
         },
         {
-          "TsName": "tryFormat$view",
+          "TsName": "TryFormat$view",
           "IsStatic": false,
           "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -564,7 +564,7 @@
           }
         },
         {
-          "TsName": "toBoolean",
+          "TsName": "ToBoolean",
           "IsStatic": false,
           "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -574,7 +574,7 @@
           }
         },
         {
-          "TsName": "toChar",
+          "TsName": "ToChar",
           "IsStatic": false,
           "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
           "Target": {
@@ -584,7 +584,7 @@
           }
         },
         {
-          "TsName": "toSByte",
+          "TsName": "ToSByte",
           "IsStatic": false,
           "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
           "Target": {
@@ -594,7 +594,7 @@
           }
         },
         {
-          "TsName": "toByte",
+          "TsName": "ToByte",
           "IsStatic": false,
           "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
           "Target": {
@@ -604,7 +604,7 @@
           }
         },
         {
-          "TsName": "toInt16",
+          "TsName": "ToInt16",
           "IsStatic": false,
           "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
           "Target": {
@@ -614,7 +614,7 @@
           }
         },
         {
-          "TsName": "toUInt16",
+          "TsName": "ToUInt16",
           "IsStatic": false,
           "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
           "Target": {
@@ -624,7 +624,7 @@
           }
         },
         {
-          "TsName": "toInt32",
+          "TsName": "ToInt32",
           "IsStatic": false,
           "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
           "Target": {
@@ -634,7 +634,7 @@
           }
         },
         {
-          "TsName": "toUInt32",
+          "TsName": "ToUInt32",
           "IsStatic": false,
           "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
           "Target": {
@@ -644,7 +644,7 @@
           }
         },
         {
-          "TsName": "toInt64",
+          "TsName": "ToInt64",
           "IsStatic": false,
           "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
           "Target": {
@@ -654,7 +654,7 @@
           }
         },
         {
-          "TsName": "toUInt64",
+          "TsName": "ToUInt64",
           "IsStatic": false,
           "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
           "Target": {
@@ -664,7 +664,7 @@
           }
         },
         {
-          "TsName": "toSingle",
+          "TsName": "ToSingle",
           "IsStatic": false,
           "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
           "Target": {
@@ -674,7 +674,7 @@
           }
         },
         {
-          "TsName": "toDouble",
+          "TsName": "ToDouble",
           "IsStatic": false,
           "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
           "Target": {
@@ -684,7 +684,7 @@
           }
         },
         {
-          "TsName": "toDecimal",
+          "TsName": "ToDecimal",
           "IsStatic": false,
           "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
           "Target": {
@@ -694,7 +694,7 @@
           }
         },
         {
-          "TsName": "toDateTime",
+          "TsName": "ToDateTime",
           "IsStatic": false,
           "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
           "Target": {
@@ -704,7 +704,7 @@
           }
         },
         {
-          "TsName": "toType",
+          "TsName": "ToType",
           "IsStatic": false,
           "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
           "Target": {
@@ -714,7 +714,7 @@
           }
         },
         {
-          "TsName": "compareTo$view",
+          "TsName": "CompareTo$view",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -724,7 +724,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -734,7 +734,7 @@
           }
         },
         {
-          "TsName": "getTypeCode$view",
+          "TsName": "GetTypeCode$view",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -744,7 +744,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -754,7 +754,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -764,7 +764,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -774,7 +774,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -796,7 +796,7 @@
           }
         },
         {
-          "TsName": "readWrite",
+          "TsName": "ReadWrite",
           "IsStatic": true,
           "TsSignatureId": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -806,7 +806,7 @@
           }
         },
         {
-          "TsName": "read",
+          "TsName": "Read",
           "IsStatic": true,
           "TsSignatureId": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -816,7 +816,7 @@
           }
         },
         {
-          "TsName": "write",
+          "TsName": "Write",
           "IsStatic": true,
           "TsSignatureId": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -826,7 +826,7 @@
           }
         },
         {
-          "TsName": "copyOnWrite",
+          "TsName": "CopyOnWrite",
           "IsStatic": true,
           "TsSignatureId": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -836,7 +836,7 @@
           }
         },
         {
-          "TsName": "readExecute",
+          "TsName": "ReadExecute",
           "IsStatic": true,
           "TsSignatureId": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -846,7 +846,7 @@
           }
         },
         {
-          "TsName": "readWriteExecute",
+          "TsName": "ReadWriteExecute",
           "IsStatic": true,
           "TsSignatureId": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "Target": {
@@ -877,7 +877,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "MetadataToken": 67109005,
           "NormalizedSignature": "None|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "IsStatic": true,
@@ -887,7 +887,7 @@
         },
         {
           "ClrName": "DelayAllocatePages",
-          "TsEmitName": "delayAllocatePages",
+          "TsEmitName": "DelayAllocatePages",
           "MetadataToken": 67109006,
           "NormalizedSignature": "DelayAllocatePages|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "IsStatic": true,
@@ -900,7 +900,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getName",
+          "TsName": "GetName",
           "IsStatic": true,
           "TsSignatureId": "GetName|(TEnum):System.String|static=true",
           "Target": {
@@ -910,7 +910,7 @@
           }
         },
         {
-          "TsName": "getName2",
+          "TsName": "GetName2",
           "IsStatic": true,
           "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "Target": {
@@ -920,7 +920,7 @@
           }
         },
         {
-          "TsName": "getNames",
+          "TsName": "GetNames",
           "IsStatic": true,
           "TsSignatureId": "GetNames|():System.String[]|static=true",
           "Target": {
@@ -930,7 +930,7 @@
           }
         },
         {
-          "TsName": "getNames2",
+          "TsName": "GetNames2",
           "IsStatic": true,
           "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "Target": {
@@ -940,7 +940,7 @@
           }
         },
         {
-          "TsName": "getUnderlyingType",
+          "TsName": "GetUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
           "Target": {
@@ -950,7 +950,7 @@
           }
         },
         {
-          "TsName": "getValues",
+          "TsName": "GetValues",
           "IsStatic": true,
           "TsSignatureId": "GetValues|():TEnum[]|static=true",
           "Target": {
@@ -960,7 +960,7 @@
           }
         },
         {
-          "TsName": "getValues2",
+          "TsName": "GetValues2",
           "IsStatic": true,
           "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "Target": {
@@ -970,7 +970,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType",
+          "TsName": "GetValuesAsUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
           "Target": {
@@ -980,7 +980,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType2",
+          "TsName": "GetValuesAsUnderlyingType2",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "Target": {
@@ -990,7 +990,7 @@
           }
         },
         {
-          "TsName": "hasFlag",
+          "TsName": "HasFlag",
           "IsStatic": false,
           "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
           "Target": {
@@ -1000,7 +1000,7 @@
           }
         },
         {
-          "TsName": "isDefined",
+          "TsName": "IsDefined",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
           "Target": {
@@ -1010,7 +1010,7 @@
           }
         },
         {
-          "TsName": "isDefined2",
+          "TsName": "IsDefined2",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1020,7 +1020,7 @@
           }
         },
         {
-          "TsName": "parse",
+          "TsName": "Parse",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
           "Target": {
@@ -1030,7 +1030,7 @@
           }
         },
         {
-          "TsName": "parse2",
+          "TsName": "Parse2",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "Target": {
@@ -1040,7 +1040,7 @@
           }
         },
         {
-          "TsName": "parse3",
+          "TsName": "Parse3",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
           "Target": {
@@ -1050,7 +1050,7 @@
           }
         },
         {
-          "TsName": "parse4",
+          "TsName": "Parse4",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "Target": {
@@ -1060,7 +1060,7 @@
           }
         },
         {
-          "TsName": "parse5",
+          "TsName": "Parse5",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String):TEnum|static=true",
           "Target": {
@@ -1070,7 +1070,7 @@
           }
         },
         {
-          "TsName": "parse6",
+          "TsName": "Parse6",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "Target": {
@@ -1080,7 +1080,7 @@
           }
         },
         {
-          "TsName": "parse7",
+          "TsName": "Parse7",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
           "Target": {
@@ -1090,7 +1090,7 @@
           }
         },
         {
-          "TsName": "parse8",
+          "TsName": "Parse8",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "Target": {
@@ -1100,7 +1100,7 @@
           }
         },
         {
-          "TsName": "tryParse",
+          "TsName": "TryParse",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -1110,7 +1110,7 @@
           }
         },
         {
-          "TsName": "tryParse2",
+          "TsName": "TryParse2",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -1120,7 +1120,7 @@
           }
         },
         {
-          "TsName": "tryParse3",
+          "TsName": "TryParse3",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -1130,7 +1130,7 @@
           }
         },
         {
-          "TsName": "tryParse4",
+          "TsName": "TryParse4",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -1140,7 +1140,7 @@
           }
         },
         {
-          "TsName": "tryParse5",
+          "TsName": "TryParse5",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -1150,7 +1150,7 @@
           }
         },
         {
-          "TsName": "tryParse6",
+          "TsName": "TryParse6",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -1160,7 +1160,7 @@
           }
         },
         {
-          "TsName": "tryParse7",
+          "TsName": "TryParse7",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -1170,7 +1170,7 @@
           }
         },
         {
-          "TsName": "tryParse8",
+          "TsName": "TryParse8",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -1180,7 +1180,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1190,7 +1190,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -1200,7 +1200,7 @@
           }
         },
         {
-          "TsName": "compareTo",
+          "TsName": "CompareTo",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -1210,7 +1210,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1220,7 +1220,7 @@
           }
         },
         {
-          "TsName": "toString2",
+          "TsName": "ToString2",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String):System.String|static=false",
           "Target": {
@@ -1230,7 +1230,7 @@
           }
         },
         {
-          "TsName": "toString3",
+          "TsName": "ToString3",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -1240,7 +1240,7 @@
           }
         },
         {
-          "TsName": "toString4",
+          "TsName": "ToString4",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -1250,7 +1250,7 @@
           }
         },
         {
-          "TsName": "format",
+          "TsName": "Format",
           "IsStatic": true,
           "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
           "Target": {
@@ -1260,7 +1260,7 @@
           }
         },
         {
-          "TsName": "tryFormat",
+          "TsName": "TryFormat",
           "IsStatic": true,
           "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "Target": {
@@ -1270,7 +1270,7 @@
           }
         },
         {
-          "TsName": "getTypeCode",
+          "TsName": "GetTypeCode",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -1280,7 +1280,7 @@
           }
         },
         {
-          "TsName": "toObject",
+          "TsName": "ToObject",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
           "Target": {
@@ -1290,7 +1290,7 @@
           }
         },
         {
-          "TsName": "toObject2",
+          "TsName": "ToObject2",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
           "Target": {
@@ -1300,7 +1300,7 @@
           }
         },
         {
-          "TsName": "toObject3",
+          "TsName": "ToObject3",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
           "Target": {
@@ -1310,7 +1310,7 @@
           }
         },
         {
-          "TsName": "toObject4",
+          "TsName": "ToObject4",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
           "Target": {
@@ -1320,7 +1320,7 @@
           }
         },
         {
-          "TsName": "toObject5",
+          "TsName": "ToObject5",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "Target": {
@@ -1330,7 +1330,7 @@
           }
         },
         {
-          "TsName": "toObject6",
+          "TsName": "ToObject6",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
           "Target": {
@@ -1340,7 +1340,7 @@
           }
         },
         {
-          "TsName": "toObject7",
+          "TsName": "ToObject7",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
           "Target": {
@@ -1350,7 +1350,7 @@
           }
         },
         {
-          "TsName": "toObject8",
+          "TsName": "ToObject8",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
           "Target": {
@@ -1360,7 +1360,7 @@
           }
         },
         {
-          "TsName": "toObject9",
+          "TsName": "ToObject9",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
           "Target": {
@@ -1370,7 +1370,7 @@
           }
         },
         {
-          "TsName": "tryFormat$view",
+          "TsName": "TryFormat$view",
           "IsStatic": false,
           "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -1380,7 +1380,7 @@
           }
         },
         {
-          "TsName": "toBoolean",
+          "TsName": "ToBoolean",
           "IsStatic": false,
           "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -1390,7 +1390,7 @@
           }
         },
         {
-          "TsName": "toChar",
+          "TsName": "ToChar",
           "IsStatic": false,
           "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
           "Target": {
@@ -1400,7 +1400,7 @@
           }
         },
         {
-          "TsName": "toSByte",
+          "TsName": "ToSByte",
           "IsStatic": false,
           "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
           "Target": {
@@ -1410,7 +1410,7 @@
           }
         },
         {
-          "TsName": "toByte",
+          "TsName": "ToByte",
           "IsStatic": false,
           "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
           "Target": {
@@ -1420,7 +1420,7 @@
           }
         },
         {
-          "TsName": "toInt16",
+          "TsName": "ToInt16",
           "IsStatic": false,
           "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
           "Target": {
@@ -1430,7 +1430,7 @@
           }
         },
         {
-          "TsName": "toUInt16",
+          "TsName": "ToUInt16",
           "IsStatic": false,
           "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
           "Target": {
@@ -1440,7 +1440,7 @@
           }
         },
         {
-          "TsName": "toInt32",
+          "TsName": "ToInt32",
           "IsStatic": false,
           "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
           "Target": {
@@ -1450,7 +1450,7 @@
           }
         },
         {
-          "TsName": "toUInt32",
+          "TsName": "ToUInt32",
           "IsStatic": false,
           "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
           "Target": {
@@ -1460,7 +1460,7 @@
           }
         },
         {
-          "TsName": "toInt64",
+          "TsName": "ToInt64",
           "IsStatic": false,
           "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
           "Target": {
@@ -1470,7 +1470,7 @@
           }
         },
         {
-          "TsName": "toUInt64",
+          "TsName": "ToUInt64",
           "IsStatic": false,
           "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
           "Target": {
@@ -1480,7 +1480,7 @@
           }
         },
         {
-          "TsName": "toSingle",
+          "TsName": "ToSingle",
           "IsStatic": false,
           "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
           "Target": {
@@ -1490,7 +1490,7 @@
           }
         },
         {
-          "TsName": "toDouble",
+          "TsName": "ToDouble",
           "IsStatic": false,
           "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
           "Target": {
@@ -1500,7 +1500,7 @@
           }
         },
         {
-          "TsName": "toDecimal",
+          "TsName": "ToDecimal",
           "IsStatic": false,
           "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
           "Target": {
@@ -1510,7 +1510,7 @@
           }
         },
         {
-          "TsName": "toDateTime",
+          "TsName": "ToDateTime",
           "IsStatic": false,
           "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
           "Target": {
@@ -1520,7 +1520,7 @@
           }
         },
         {
-          "TsName": "toType",
+          "TsName": "ToType",
           "IsStatic": false,
           "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
           "Target": {
@@ -1530,7 +1530,7 @@
           }
         },
         {
-          "TsName": "compareTo$view",
+          "TsName": "CompareTo$view",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -1540,7 +1540,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -1550,7 +1550,7 @@
           }
         },
         {
-          "TsName": "getTypeCode$view",
+          "TsName": "GetTypeCode$view",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -1560,7 +1560,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -1570,7 +1570,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1580,7 +1580,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1590,7 +1590,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1612,7 +1612,7 @@
           }
         },
         {
-          "TsName": "none",
+          "TsName": "None",
           "IsStatic": true,
           "TsSignatureId": "None|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "Target": {
@@ -1622,7 +1622,7 @@
           }
         },
         {
-          "TsName": "delayAllocatePages",
+          "TsName": "DelayAllocatePages",
           "IsStatic": true,
           "TsSignatureId": "DelayAllocatePages|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "Target": {
@@ -1653,7 +1653,7 @@
         },
         {
           "ClrName": "CopyOnWrite",
-          "TsEmitName": "copyOnWrite",
+          "TsEmitName": "CopyOnWrite",
           "MetadataToken": 67109026,
           "NormalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1663,7 +1663,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "MetadataToken": 67109027,
           "NormalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1673,7 +1673,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "MetadataToken": 67109028,
           "NormalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1683,7 +1683,7 @@
         },
         {
           "ClrName": "Execute",
-          "TsEmitName": "execute",
+          "TsEmitName": "Execute",
           "MetadataToken": 67109029,
           "NormalizedSignature": "Execute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1693,7 +1693,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "MetadataToken": 67109030,
           "NormalizedSignature": "Delete|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1703,7 +1703,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "MetadataToken": 67109031,
           "NormalizedSignature": "ReadPermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1713,7 +1713,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "MetadataToken": 67109032,
           "NormalizedSignature": "ChangePermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1723,7 +1723,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "MetadataToken": 67109033,
           "NormalizedSignature": "TakeOwnership|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1733,7 +1733,7 @@
         },
         {
           "ClrName": "ReadWrite",
-          "TsEmitName": "readWrite",
+          "TsEmitName": "ReadWrite",
           "MetadataToken": 67109034,
           "NormalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1743,7 +1743,7 @@
         },
         {
           "ClrName": "ReadExecute",
-          "TsEmitName": "readExecute",
+          "TsEmitName": "ReadExecute",
           "MetadataToken": 67109035,
           "NormalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1753,7 +1753,7 @@
         },
         {
           "ClrName": "ReadWriteExecute",
-          "TsEmitName": "readWriteExecute",
+          "TsEmitName": "ReadWriteExecute",
           "MetadataToken": 67109036,
           "NormalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1763,7 +1763,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "MetadataToken": 67109037,
           "NormalizedSignature": "FullControl|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1773,7 +1773,7 @@
         },
         {
           "ClrName": "AccessSystemSecurity",
-          "TsEmitName": "accessSystemSecurity",
+          "TsEmitName": "AccessSystemSecurity",
           "MetadataToken": 67109038,
           "NormalizedSignature": "AccessSystemSecurity|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "IsStatic": true,
@@ -1786,7 +1786,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getName",
+          "TsName": "GetName",
           "IsStatic": true,
           "TsSignatureId": "GetName|(TEnum):System.String|static=true",
           "Target": {
@@ -1796,7 +1796,7 @@
           }
         },
         {
-          "TsName": "getName2",
+          "TsName": "GetName2",
           "IsStatic": true,
           "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "Target": {
@@ -1806,7 +1806,7 @@
           }
         },
         {
-          "TsName": "getNames",
+          "TsName": "GetNames",
           "IsStatic": true,
           "TsSignatureId": "GetNames|():System.String[]|static=true",
           "Target": {
@@ -1816,7 +1816,7 @@
           }
         },
         {
-          "TsName": "getNames2",
+          "TsName": "GetNames2",
           "IsStatic": true,
           "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "Target": {
@@ -1826,7 +1826,7 @@
           }
         },
         {
-          "TsName": "getUnderlyingType",
+          "TsName": "GetUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
           "Target": {
@@ -1836,7 +1836,7 @@
           }
         },
         {
-          "TsName": "getValues",
+          "TsName": "GetValues",
           "IsStatic": true,
           "TsSignatureId": "GetValues|():TEnum[]|static=true",
           "Target": {
@@ -1846,7 +1846,7 @@
           }
         },
         {
-          "TsName": "getValues2",
+          "TsName": "GetValues2",
           "IsStatic": true,
           "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "Target": {
@@ -1856,7 +1856,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType",
+          "TsName": "GetValuesAsUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
           "Target": {
@@ -1866,7 +1866,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType2",
+          "TsName": "GetValuesAsUnderlyingType2",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "Target": {
@@ -1876,7 +1876,7 @@
           }
         },
         {
-          "TsName": "hasFlag",
+          "TsName": "HasFlag",
           "IsStatic": false,
           "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
           "Target": {
@@ -1886,7 +1886,7 @@
           }
         },
         {
-          "TsName": "isDefined",
+          "TsName": "IsDefined",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
           "Target": {
@@ -1896,7 +1896,7 @@
           }
         },
         {
-          "TsName": "isDefined2",
+          "TsName": "IsDefined2",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1906,7 +1906,7 @@
           }
         },
         {
-          "TsName": "parse",
+          "TsName": "Parse",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
           "Target": {
@@ -1916,7 +1916,7 @@
           }
         },
         {
-          "TsName": "parse2",
+          "TsName": "Parse2",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "Target": {
@@ -1926,7 +1926,7 @@
           }
         },
         {
-          "TsName": "parse3",
+          "TsName": "Parse3",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
           "Target": {
@@ -1936,7 +1936,7 @@
           }
         },
         {
-          "TsName": "parse4",
+          "TsName": "Parse4",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "Target": {
@@ -1946,7 +1946,7 @@
           }
         },
         {
-          "TsName": "parse5",
+          "TsName": "Parse5",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String):TEnum|static=true",
           "Target": {
@@ -1956,7 +1956,7 @@
           }
         },
         {
-          "TsName": "parse6",
+          "TsName": "Parse6",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "Target": {
@@ -1966,7 +1966,7 @@
           }
         },
         {
-          "TsName": "parse7",
+          "TsName": "Parse7",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
           "Target": {
@@ -1976,7 +1976,7 @@
           }
         },
         {
-          "TsName": "parse8",
+          "TsName": "Parse8",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "Target": {
@@ -1986,7 +1986,7 @@
           }
         },
         {
-          "TsName": "tryParse",
+          "TsName": "TryParse",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -1996,7 +1996,7 @@
           }
         },
         {
-          "TsName": "tryParse2",
+          "TsName": "TryParse2",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -2006,7 +2006,7 @@
           }
         },
         {
-          "TsName": "tryParse3",
+          "TsName": "TryParse3",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -2016,7 +2016,7 @@
           }
         },
         {
-          "TsName": "tryParse4",
+          "TsName": "TryParse4",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -2026,7 +2026,7 @@
           }
         },
         {
-          "TsName": "tryParse5",
+          "TsName": "TryParse5",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -2036,7 +2036,7 @@
           }
         },
         {
-          "TsName": "tryParse6",
+          "TsName": "TryParse6",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -2046,7 +2046,7 @@
           }
         },
         {
-          "TsName": "tryParse7",
+          "TsName": "TryParse7",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -2056,7 +2056,7 @@
           }
         },
         {
-          "TsName": "tryParse8",
+          "TsName": "TryParse8",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -2066,7 +2066,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2076,7 +2076,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -2086,7 +2086,7 @@
           }
         },
         {
-          "TsName": "compareTo",
+          "TsName": "CompareTo",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -2096,7 +2096,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2106,7 +2106,7 @@
           }
         },
         {
-          "TsName": "toString2",
+          "TsName": "ToString2",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String):System.String|static=false",
           "Target": {
@@ -2116,7 +2116,7 @@
           }
         },
         {
-          "TsName": "toString3",
+          "TsName": "ToString3",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -2126,7 +2126,7 @@
           }
         },
         {
-          "TsName": "toString4",
+          "TsName": "ToString4",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -2136,7 +2136,7 @@
           }
         },
         {
-          "TsName": "format",
+          "TsName": "Format",
           "IsStatic": true,
           "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
           "Target": {
@@ -2146,7 +2146,7 @@
           }
         },
         {
-          "TsName": "tryFormat",
+          "TsName": "TryFormat",
           "IsStatic": true,
           "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "Target": {
@@ -2156,7 +2156,7 @@
           }
         },
         {
-          "TsName": "getTypeCode",
+          "TsName": "GetTypeCode",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -2166,7 +2166,7 @@
           }
         },
         {
-          "TsName": "toObject",
+          "TsName": "ToObject",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
           "Target": {
@@ -2176,7 +2176,7 @@
           }
         },
         {
-          "TsName": "toObject2",
+          "TsName": "ToObject2",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
           "Target": {
@@ -2186,7 +2186,7 @@
           }
         },
         {
-          "TsName": "toObject3",
+          "TsName": "ToObject3",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
           "Target": {
@@ -2196,7 +2196,7 @@
           }
         },
         {
-          "TsName": "toObject4",
+          "TsName": "ToObject4",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
           "Target": {
@@ -2206,7 +2206,7 @@
           }
         },
         {
-          "TsName": "toObject5",
+          "TsName": "ToObject5",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "Target": {
@@ -2216,7 +2216,7 @@
           }
         },
         {
-          "TsName": "toObject6",
+          "TsName": "ToObject6",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
           "Target": {
@@ -2226,7 +2226,7 @@
           }
         },
         {
-          "TsName": "toObject7",
+          "TsName": "ToObject7",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
           "Target": {
@@ -2236,7 +2236,7 @@
           }
         },
         {
-          "TsName": "toObject8",
+          "TsName": "ToObject8",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
           "Target": {
@@ -2246,7 +2246,7 @@
           }
         },
         {
-          "TsName": "toObject9",
+          "TsName": "ToObject9",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
           "Target": {
@@ -2256,7 +2256,7 @@
           }
         },
         {
-          "TsName": "tryFormat$view",
+          "TsName": "TryFormat$view",
           "IsStatic": false,
           "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -2266,7 +2266,7 @@
           }
         },
         {
-          "TsName": "toBoolean",
+          "TsName": "ToBoolean",
           "IsStatic": false,
           "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -2276,7 +2276,7 @@
           }
         },
         {
-          "TsName": "toChar",
+          "TsName": "ToChar",
           "IsStatic": false,
           "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
           "Target": {
@@ -2286,7 +2286,7 @@
           }
         },
         {
-          "TsName": "toSByte",
+          "TsName": "ToSByte",
           "IsStatic": false,
           "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
           "Target": {
@@ -2296,7 +2296,7 @@
           }
         },
         {
-          "TsName": "toByte",
+          "TsName": "ToByte",
           "IsStatic": false,
           "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
           "Target": {
@@ -2306,7 +2306,7 @@
           }
         },
         {
-          "TsName": "toInt16",
+          "TsName": "ToInt16",
           "IsStatic": false,
           "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
           "Target": {
@@ -2316,7 +2316,7 @@
           }
         },
         {
-          "TsName": "toUInt16",
+          "TsName": "ToUInt16",
           "IsStatic": false,
           "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
           "Target": {
@@ -2326,7 +2326,7 @@
           }
         },
         {
-          "TsName": "toInt32",
+          "TsName": "ToInt32",
           "IsStatic": false,
           "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
           "Target": {
@@ -2336,7 +2336,7 @@
           }
         },
         {
-          "TsName": "toUInt32",
+          "TsName": "ToUInt32",
           "IsStatic": false,
           "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
           "Target": {
@@ -2346,7 +2346,7 @@
           }
         },
         {
-          "TsName": "toInt64",
+          "TsName": "ToInt64",
           "IsStatic": false,
           "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
           "Target": {
@@ -2356,7 +2356,7 @@
           }
         },
         {
-          "TsName": "toUInt64",
+          "TsName": "ToUInt64",
           "IsStatic": false,
           "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
           "Target": {
@@ -2366,7 +2366,7 @@
           }
         },
         {
-          "TsName": "toSingle",
+          "TsName": "ToSingle",
           "IsStatic": false,
           "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
           "Target": {
@@ -2376,7 +2376,7 @@
           }
         },
         {
-          "TsName": "toDouble",
+          "TsName": "ToDouble",
           "IsStatic": false,
           "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
           "Target": {
@@ -2386,7 +2386,7 @@
           }
         },
         {
-          "TsName": "toDecimal",
+          "TsName": "ToDecimal",
           "IsStatic": false,
           "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
           "Target": {
@@ -2396,7 +2396,7 @@
           }
         },
         {
-          "TsName": "toDateTime",
+          "TsName": "ToDateTime",
           "IsStatic": false,
           "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
           "Target": {
@@ -2406,7 +2406,7 @@
           }
         },
         {
-          "TsName": "toType",
+          "TsName": "ToType",
           "IsStatic": false,
           "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
           "Target": {
@@ -2416,7 +2416,7 @@
           }
         },
         {
-          "TsName": "compareTo$view",
+          "TsName": "CompareTo$view",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -2426,7 +2426,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -2436,7 +2436,7 @@
           }
         },
         {
-          "TsName": "getTypeCode$view",
+          "TsName": "GetTypeCode$view",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -2446,7 +2446,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -2456,7 +2456,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2466,7 +2466,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2476,7 +2476,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2498,7 +2498,7 @@
           }
         },
         {
-          "TsName": "copyOnWrite",
+          "TsName": "CopyOnWrite",
           "IsStatic": true,
           "TsSignatureId": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2508,7 +2508,7 @@
           }
         },
         {
-          "TsName": "write",
+          "TsName": "Write",
           "IsStatic": true,
           "TsSignatureId": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2518,7 +2518,7 @@
           }
         },
         {
-          "TsName": "read",
+          "TsName": "Read",
           "IsStatic": true,
           "TsSignatureId": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2528,7 +2528,7 @@
           }
         },
         {
-          "TsName": "execute",
+          "TsName": "Execute",
           "IsStatic": true,
           "TsSignatureId": "Execute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2538,7 +2538,7 @@
           }
         },
         {
-          "TsName": "delete_",
+          "TsName": "Delete",
           "IsStatic": true,
           "TsSignatureId": "Delete|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2548,7 +2548,7 @@
           }
         },
         {
-          "TsName": "readPermissions",
+          "TsName": "ReadPermissions",
           "IsStatic": true,
           "TsSignatureId": "ReadPermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2558,7 +2558,7 @@
           }
         },
         {
-          "TsName": "changePermissions",
+          "TsName": "ChangePermissions",
           "IsStatic": true,
           "TsSignatureId": "ChangePermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2568,7 +2568,7 @@
           }
         },
         {
-          "TsName": "takeOwnership",
+          "TsName": "TakeOwnership",
           "IsStatic": true,
           "TsSignatureId": "TakeOwnership|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2578,7 +2578,7 @@
           }
         },
         {
-          "TsName": "readWrite",
+          "TsName": "ReadWrite",
           "IsStatic": true,
           "TsSignatureId": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2588,7 +2588,7 @@
           }
         },
         {
-          "TsName": "readExecute",
+          "TsName": "ReadExecute",
           "IsStatic": true,
           "TsSignatureId": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2598,7 +2598,7 @@
           }
         },
         {
-          "TsName": "readWriteExecute",
+          "TsName": "ReadWriteExecute",
           "IsStatic": true,
           "TsSignatureId": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2608,7 +2608,7 @@
           }
         },
         {
-          "TsName": "fullControl",
+          "TsName": "FullControl",
           "IsStatic": true,
           "TsSignatureId": "FullControl|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2618,7 +2618,7 @@
           }
         },
         {
-          "TsName": "accessSystemSecurity",
+          "TsName": "AccessSystemSecurity",
           "IsStatic": true,
           "TsSignatureId": "AccessSystemSecurity|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "Target": {
@@ -2637,7 +2637,7 @@
       "Methods": [
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting",
+          "TsEmitName": "OpenExisting",
           "MetadataToken": 100663374,
           "CanonicalSignature": "(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "OpenExisting|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2649,7 +2649,7 @@
         },
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting2",
+          "TsEmitName": "OpenExisting2",
           "MetadataToken": 100663375,
           "CanonicalSignature": "(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2661,7 +2661,7 @@
         },
         {
           "ClrName": "OpenExisting",
-          "TsEmitName": "openExisting3",
+          "TsEmitName": "OpenExisting3",
           "MetadataToken": 100663376,
           "CanonicalSignature": "(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2673,7 +2673,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile",
+          "TsEmitName": "CreateFromFile",
           "MetadataToken": 100663377,
           "CanonicalSignature": "(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2685,7 +2685,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile2",
+          "TsEmitName": "CreateFromFile2",
           "MetadataToken": 100663378,
           "CanonicalSignature": "(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2697,7 +2697,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile3",
+          "TsEmitName": "CreateFromFile3",
           "MetadataToken": 100663379,
           "CanonicalSignature": "(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2709,7 +2709,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile4",
+          "TsEmitName": "CreateFromFile4",
           "MetadataToken": 100663380,
           "CanonicalSignature": "(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2721,7 +2721,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile5",
+          "TsEmitName": "CreateFromFile5",
           "MetadataToken": 100663381,
           "CanonicalSignature": "(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2733,7 +2733,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile6",
+          "TsEmitName": "CreateFromFile6",
           "MetadataToken": 100663382,
           "CanonicalSignature": "(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2745,7 +2745,7 @@
         },
         {
           "ClrName": "CreateFromFile",
-          "TsEmitName": "createFromFile7",
+          "TsEmitName": "CreateFromFile7",
           "MetadataToken": 100663383,
           "CanonicalSignature": "(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2757,7 +2757,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew",
+          "TsEmitName": "CreateNew",
           "MetadataToken": 100663384,
           "CanonicalSignature": "(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2769,7 +2769,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew2",
+          "TsEmitName": "CreateNew2",
           "MetadataToken": 100663385,
           "CanonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2781,7 +2781,7 @@
         },
         {
           "ClrName": "CreateNew",
-          "TsEmitName": "createNew3",
+          "TsEmitName": "CreateNew3",
           "MetadataToken": 100663386,
           "CanonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2793,7 +2793,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen",
+          "TsEmitName": "CreateOrOpen",
           "MetadataToken": 100663387,
           "CanonicalSignature": "(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2805,7 +2805,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen2",
+          "TsEmitName": "CreateOrOpen2",
           "MetadataToken": 100663388,
           "CanonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2817,7 +2817,7 @@
         },
         {
           "ClrName": "CreateOrOpen",
-          "TsEmitName": "createOrOpen3",
+          "TsEmitName": "CreateOrOpen3",
           "MetadataToken": 100663389,
           "CanonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "NormalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -2829,7 +2829,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream",
+          "TsEmitName": "CreateViewStream",
           "MetadataToken": 100663390,
           "CanonicalSignature": "():System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "NormalizedSignature": "CreateViewStream|():System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -2841,7 +2841,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream2",
+          "TsEmitName": "CreateViewStream2",
           "MetadataToken": 100663391,
           "CanonicalSignature": "(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "NormalizedSignature": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -2853,7 +2853,7 @@
         },
         {
           "ClrName": "CreateViewStream",
-          "TsEmitName": "createViewStream3",
+          "TsEmitName": "CreateViewStream3",
           "MetadataToken": 100663392,
           "CanonicalSignature": "(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "NormalizedSignature": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -2865,7 +2865,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor",
+          "TsEmitName": "CreateViewAccessor",
           "MetadataToken": 100663393,
           "CanonicalSignature": "():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "NormalizedSignature": "CreateViewAccessor|():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -2877,7 +2877,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor2",
+          "TsEmitName": "CreateViewAccessor2",
           "MetadataToken": 100663394,
           "CanonicalSignature": "(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "NormalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -2889,7 +2889,7 @@
         },
         {
           "ClrName": "CreateViewAccessor",
-          "TsEmitName": "createViewAccessor3",
+          "TsEmitName": "CreateViewAccessor3",
           "MetadataToken": 100663395,
           "CanonicalSignature": "(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "NormalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -2901,7 +2901,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "MetadataToken": 100663396,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -2913,7 +2913,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -2927,7 +2927,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedFileHandle",
-          "TsEmitName": "safeMemoryMappedFileHandle",
+          "TsEmitName": "SafeMemoryMappedFileHandle",
           "MetadataToken": 385875999,
           "CanonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "NormalizedSignature": "SafeMemoryMappedFileHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle|static=false|accessor=get",
@@ -2944,7 +2944,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "openExisting",
+          "TsName": "OpenExisting",
           "IsStatic": true,
           "TsSignatureId": "OpenExisting|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -2954,7 +2954,7 @@
           }
         },
         {
-          "TsName": "openExisting2",
+          "TsName": "OpenExisting2",
           "IsStatic": true,
           "TsSignatureId": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -2964,7 +2964,7 @@
           }
         },
         {
-          "TsName": "openExisting3",
+          "TsName": "OpenExisting3",
           "IsStatic": true,
           "TsSignatureId": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -2974,7 +2974,7 @@
           }
         },
         {
-          "TsName": "createFromFile",
+          "TsName": "CreateFromFile",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -2984,7 +2984,7 @@
           }
         },
         {
-          "TsName": "createFromFile2",
+          "TsName": "CreateFromFile2",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -2994,7 +2994,7 @@
           }
         },
         {
-          "TsName": "createFromFile3",
+          "TsName": "CreateFromFile3",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3004,7 +3004,7 @@
           }
         },
         {
-          "TsName": "createFromFile4",
+          "TsName": "CreateFromFile4",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3014,7 +3014,7 @@
           }
         },
         {
-          "TsName": "createFromFile5",
+          "TsName": "CreateFromFile5",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3024,7 +3024,7 @@
           }
         },
         {
-          "TsName": "createFromFile6",
+          "TsName": "CreateFromFile6",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3034,7 +3034,7 @@
           }
         },
         {
-          "TsName": "createFromFile7",
+          "TsName": "CreateFromFile7",
           "IsStatic": true,
           "TsSignatureId": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3044,7 +3044,7 @@
           }
         },
         {
-          "TsName": "createNew",
+          "TsName": "CreateNew",
           "IsStatic": true,
           "TsSignatureId": "CreateNew|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3054,7 +3054,7 @@
           }
         },
         {
-          "TsName": "createNew2",
+          "TsName": "CreateNew2",
           "IsStatic": true,
           "TsSignatureId": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3064,7 +3064,7 @@
           }
         },
         {
-          "TsName": "createNew3",
+          "TsName": "CreateNew3",
           "IsStatic": true,
           "TsSignatureId": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3074,7 +3074,7 @@
           }
         },
         {
-          "TsName": "createOrOpen",
+          "TsName": "CreateOrOpen",
           "IsStatic": true,
           "TsSignatureId": "CreateOrOpen|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3084,7 +3084,7 @@
           }
         },
         {
-          "TsName": "createOrOpen2",
+          "TsName": "CreateOrOpen2",
           "IsStatic": true,
           "TsSignatureId": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3094,7 +3094,7 @@
           }
         },
         {
-          "TsName": "createOrOpen3",
+          "TsName": "CreateOrOpen3",
           "IsStatic": true,
           "TsSignatureId": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "Target": {
@@ -3104,7 +3104,7 @@
           }
         },
         {
-          "TsName": "createViewStream",
+          "TsName": "CreateViewStream",
           "IsStatic": false,
           "TsSignatureId": "CreateViewStream|():System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Target": {
@@ -3114,7 +3114,7 @@
           }
         },
         {
-          "TsName": "createViewStream2",
+          "TsName": "CreateViewStream2",
           "IsStatic": false,
           "TsSignatureId": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Target": {
@@ -3124,7 +3124,7 @@
           }
         },
         {
-          "TsName": "createViewStream3",
+          "TsName": "CreateViewStream3",
           "IsStatic": false,
           "TsSignatureId": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "Target": {
@@ -3134,7 +3134,7 @@
           }
         },
         {
-          "TsName": "createViewAccessor",
+          "TsName": "CreateViewAccessor",
           "IsStatic": false,
           "TsSignatureId": "CreateViewAccessor|():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Target": {
@@ -3144,7 +3144,7 @@
           }
         },
         {
-          "TsName": "createViewAccessor2",
+          "TsName": "CreateViewAccessor2",
           "IsStatic": false,
           "TsSignatureId": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Target": {
@@ -3154,7 +3154,7 @@
           }
         },
         {
-          "TsName": "createViewAccessor3",
+          "TsName": "CreateViewAccessor3",
           "IsStatic": false,
           "TsSignatureId": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "Target": {
@@ -3164,7 +3164,7 @@
           }
         },
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3174,7 +3174,7 @@
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3184,7 +3184,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -3194,7 +3194,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -3204,7 +3204,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -3214,7 +3214,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3224,7 +3224,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3234,7 +3234,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -3246,7 +3246,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "safeMemoryMappedFileHandle",
+          "TsName": "SafeMemoryMappedFileHandle",
           "IsStatic": false,
           "TsSignatureId": "SafeMemoryMappedFileHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle|static=false|accessor=get",
           "Target": {
@@ -3265,7 +3265,7 @@
       "Methods": [
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "MetadataToken": 100663434,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Flush|():System.Void|static=false",
@@ -3277,7 +3277,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -3289,7 +3289,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "MetadataToken": 0,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -3303,7 +3303,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedViewHandle",
-          "TsEmitName": "safeMemoryMappedViewHandle",
+          "TsEmitName": "SafeMemoryMappedViewHandle",
           "MetadataToken": 385876005,
           "CanonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "NormalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
@@ -3316,7 +3316,7 @@
         },
         {
           "ClrName": "PointerOffset",
-          "TsEmitName": "pointerOffset",
+          "TsEmitName": "PointerOffset",
           "MetadataToken": 385876006,
           "CanonicalSignature": ":System.Int64",
           "NormalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
@@ -3333,7 +3333,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "flush",
+          "TsName": "Flush",
           "IsStatic": false,
           "TsSignatureId": "Flush|():System.Void|static=false",
           "Target": {
@@ -3343,7 +3343,7 @@
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3353,7 +3353,7 @@
           }
         },
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3363,307 +3363,307 @@
           }
         },
         {
-          "TsName": "readBoolean",
+          "TsName": "ReadBoolean",
           "IsStatic": false,
           "TsSignatureId": "ReadBoolean|(System.Int64):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701391
+            "MetadataToken": 100701288
           }
         },
         {
-          "TsName": "readByte",
+          "TsName": "ReadByte",
           "IsStatic": false,
           "TsSignatureId": "ReadByte|(System.Int64):System.Byte|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701392
+            "MetadataToken": 100701289
           }
         },
         {
-          "TsName": "readChar",
+          "TsName": "ReadChar",
           "IsStatic": false,
           "TsSignatureId": "ReadChar|(System.Int64):System.Char|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701393
+            "MetadataToken": 100701290
           }
         },
         {
-          "TsName": "readInt16",
+          "TsName": "ReadInt16",
           "IsStatic": false,
           "TsSignatureId": "ReadInt16|(System.Int64):System.Int16|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701394
+            "MetadataToken": 100701291
           }
         },
         {
-          "TsName": "readInt32",
+          "TsName": "ReadInt32",
           "IsStatic": false,
           "TsSignatureId": "ReadInt32|(System.Int64):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701395
+            "MetadataToken": 100701292
           }
         },
         {
-          "TsName": "readInt64",
+          "TsName": "ReadInt64",
           "IsStatic": false,
           "TsSignatureId": "ReadInt64|(System.Int64):System.Int64|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701396
+            "MetadataToken": 100701293
           }
         },
         {
-          "TsName": "readDecimal",
+          "TsName": "ReadDecimal",
           "IsStatic": false,
           "TsSignatureId": "ReadDecimal|(System.Int64):System.Decimal|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701397
+            "MetadataToken": 100701294
           }
         },
         {
-          "TsName": "readSingle",
+          "TsName": "ReadSingle",
           "IsStatic": false,
           "TsSignatureId": "ReadSingle|(System.Int64):System.Single|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701398
+            "MetadataToken": 100701295
           }
         },
         {
-          "TsName": "readDouble",
+          "TsName": "ReadDouble",
           "IsStatic": false,
           "TsSignatureId": "ReadDouble|(System.Int64):System.Double|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701399
+            "MetadataToken": 100701296
           }
         },
         {
-          "TsName": "readSByte",
+          "TsName": "ReadSByte",
           "IsStatic": false,
           "TsSignatureId": "ReadSByte|(System.Int64):System.SByte|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701400
+            "MetadataToken": 100701297
           }
         },
         {
-          "TsName": "readUInt16",
+          "TsName": "ReadUInt16",
           "IsStatic": false,
           "TsSignatureId": "ReadUInt16|(System.Int64):System.UInt16|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701401
+            "MetadataToken": 100701298
           }
         },
         {
-          "TsName": "readUInt32",
+          "TsName": "ReadUInt32",
           "IsStatic": false,
           "TsSignatureId": "ReadUInt32|(System.Int64):System.UInt32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701402
+            "MetadataToken": 100701299
           }
         },
         {
-          "TsName": "readUInt64",
+          "TsName": "ReadUInt64",
           "IsStatic": false,
           "TsSignatureId": "ReadUInt64|(System.Int64):System.UInt64|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701403
+            "MetadataToken": 100701300
           }
         },
         {
-          "TsName": "read",
+          "TsName": "Read",
           "IsStatic": false,
           "TsSignatureId": "Read|(System.Int64,T\u0026):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701404
+            "MetadataToken": 100701301
           }
         },
         {
-          "TsName": "readArray",
+          "TsName": "ReadArray",
           "IsStatic": false,
           "TsSignatureId": "ReadArray|(System.Int64,T[],System.Int32,System.Int32):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701405
+            "MetadataToken": 100701302
           }
         },
         {
-          "TsName": "write",
+          "TsName": "Write",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Boolean):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701406
+            "MetadataToken": 100701303
           }
         },
         {
-          "TsName": "write2",
+          "TsName": "Write2",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Byte):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701407
+            "MetadataToken": 100701304
           }
         },
         {
-          "TsName": "write3",
+          "TsName": "Write3",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Char):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701408
+            "MetadataToken": 100701305
           }
         },
         {
-          "TsName": "write4",
+          "TsName": "Write4",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Int16):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701409
+            "MetadataToken": 100701306
           }
         },
         {
-          "TsName": "write5",
+          "TsName": "Write5",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701410
+            "MetadataToken": 100701307
           }
         },
         {
-          "TsName": "write6",
+          "TsName": "Write6",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Int64):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701411
+            "MetadataToken": 100701308
           }
         },
         {
-          "TsName": "write7",
+          "TsName": "Write7",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Decimal):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701412
+            "MetadataToken": 100701309
           }
         },
         {
-          "TsName": "write8",
+          "TsName": "Write8",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Single):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701413
+            "MetadataToken": 100701310
           }
         },
         {
-          "TsName": "write9",
+          "TsName": "Write9",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.Double):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701414
+            "MetadataToken": 100701311
           }
         },
         {
-          "TsName": "write10",
+          "TsName": "Write10",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.SByte):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701415
+            "MetadataToken": 100701312
           }
         },
         {
-          "TsName": "write11",
+          "TsName": "Write11",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.UInt16):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701416
+            "MetadataToken": 100701313
           }
         },
         {
-          "TsName": "write12",
+          "TsName": "Write12",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.UInt32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701417
+            "MetadataToken": 100701314
           }
         },
         {
-          "TsName": "write13",
+          "TsName": "Write13",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,System.UInt64):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701418
+            "MetadataToken": 100701315
           }
         },
         {
-          "TsName": "write14",
+          "TsName": "Write14",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Int64,T\u0026):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701419
+            "MetadataToken": 100701316
           }
         },
         {
-          "TsName": "writeArray",
+          "TsName": "WriteArray",
           "IsStatic": false,
           "TsSignatureId": "WriteArray|(System.Int64,T[],System.Int32,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701420
+            "MetadataToken": 100701317
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -3673,7 +3673,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -3683,7 +3683,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -3693,7 +3693,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3703,7 +3703,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3713,7 +3713,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -3725,7 +3725,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "safeMemoryMappedViewHandle",
+          "TsName": "SafeMemoryMappedViewHandle",
           "IsStatic": false,
           "TsSignatureId": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "Target": {
@@ -3735,7 +3735,7 @@
           }
         },
         {
-          "TsName": "pointerOffset",
+          "TsName": "PointerOffset",
           "IsStatic": false,
           "TsSignatureId": "PointerOffset|:System.Int64|static=false|accessor=get",
           "Target": {
@@ -3745,33 +3745,33 @@
           }
         },
         {
-          "TsName": "capacity",
+          "TsName": "Capacity",
           "IsStatic": false,
           "TsSignatureId": "Capacity|:System.Int64|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880845
+            "MetadataToken": 385880806
           }
         },
         {
-          "TsName": "canRead",
+          "TsName": "CanRead",
           "IsStatic": false,
           "TsSignatureId": "CanRead|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880846
+            "MetadataToken": 385880807
           }
         },
         {
-          "TsName": "canWrite",
+          "TsName": "CanWrite",
           "IsStatic": false,
           "TsSignatureId": "CanWrite|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryAccessor",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880847
+            "MetadataToken": 385880808
           }
         }
       ]
@@ -3784,7 +3784,7 @@
       "Methods": [
         {
           "ClrName": "SetLength",
-          "TsEmitName": "setLength",
+          "TsEmitName": "SetLength",
           "MetadataToken": 100663438,
           "CanonicalSignature": "(System.Int64):System.Void",
           "NormalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
@@ -3796,7 +3796,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "MetadataToken": 100663440,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Flush|():System.Void|static=false",
@@ -3808,7 +3808,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -3820,7 +3820,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "MetadataToken": 100668504,
           "CanonicalSignature": "():System.Threading.Tasks.ValueTask",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -3832,7 +3832,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "MetadataToken": 0,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -3844,7 +3844,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "MetadataToken": 0,
           "CanonicalSignature": "():System.Threading.Tasks.ValueTask",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -3858,7 +3858,7 @@
       "Properties": [
         {
           "ClrName": "SafeMemoryMappedViewHandle",
-          "TsEmitName": "safeMemoryMappedViewHandle",
+          "TsEmitName": "SafeMemoryMappedViewHandle",
           "MetadataToken": 385876007,
           "CanonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "NormalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
@@ -3871,7 +3871,7 @@
         },
         {
           "ClrName": "PointerOffset",
-          "TsEmitName": "pointerOffset",
+          "TsEmitName": "PointerOffset",
           "MetadataToken": 385876008,
           "CanonicalSignature": ":System.Int64",
           "NormalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
@@ -3888,7 +3888,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "setLength",
+          "TsName": "SetLength",
           "IsStatic": false,
           "TsSignatureId": "SetLength|(System.Int64):System.Void|static=false",
           "Target": {
@@ -3898,7 +3898,7 @@
           }
         },
         {
-          "TsName": "flush",
+          "TsName": "Flush",
           "IsStatic": false,
           "TsSignatureId": "Flush|():System.Void|static=false",
           "Target": {
@@ -3908,7 +3908,7 @@
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3918,7 +3918,7 @@
           }
         },
         {
-          "TsName": "disposeAsync$view",
+          "TsName": "DisposeAsync$view",
           "IsStatic": false,
           "TsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Target": {
@@ -3928,7 +3928,7 @@
           }
         },
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -3938,7 +3938,7 @@
           }
         },
         {
-          "TsName": "disposeAsync",
+          "TsName": "DisposeAsync",
           "IsStatic": false,
           "TsSignatureId": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Target": {
@@ -3948,127 +3948,127 @@
           }
         },
         {
-          "TsName": "flushAsync2",
+          "TsName": "FlushAsync2",
           "IsStatic": false,
           "TsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701438
+            "MetadataToken": 100701335
           }
         },
         {
-          "TsName": "read2",
+          "TsName": "Read2",
           "IsStatic": false,
           "TsSignatureId": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701445
+            "MetadataToken": 100701342
           }
         },
         {
-          "TsName": "read3",
+          "TsName": "Read3",
           "IsStatic": false,
           "TsSignatureId": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701446
+            "MetadataToken": 100701343
           }
         },
         {
-          "TsName": "readAsync4",
+          "TsName": "ReadAsync4",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701448
+            "MetadataToken": 100701345
           }
         },
         {
-          "TsName": "readAsync5",
+          "TsName": "ReadAsync5",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701449
+            "MetadataToken": 100701346
           }
         },
         {
-          "TsName": "readByte",
+          "TsName": "ReadByte",
           "IsStatic": false,
           "TsSignatureId": "ReadByte|():System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701450
+            "MetadataToken": 100701347
           }
         },
         {
-          "TsName": "seek",
+          "TsName": "Seek",
           "IsStatic": false,
           "TsSignatureId": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701451
+            "MetadataToken": 100701348
           }
         },
         {
-          "TsName": "write2",
+          "TsName": "Write2",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701453
+            "MetadataToken": 100701350
           }
         },
         {
-          "TsName": "write3",
+          "TsName": "Write3",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701454
+            "MetadataToken": 100701351
           }
         },
         {
-          "TsName": "writeAsync3",
+          "TsName": "WriteAsync3",
           "IsStatic": false,
           "TsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701456
+            "MetadataToken": 100701353
           }
         },
         {
-          "TsName": "writeAsync4",
+          "TsName": "WriteAsync4",
           "IsStatic": false,
           "TsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701457
+            "MetadataToken": 100701354
           }
         },
         {
-          "TsName": "writeByte",
+          "TsName": "WriteByte",
           "IsStatic": false,
           "TsSignatureId": "WriteByte|(System.Byte):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100701458
+            "MetadataToken": 100701355
           }
         },
         {
-          "TsName": "flushAsync",
+          "TsName": "FlushAsync",
           "IsStatic": false,
           "TsSignatureId": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -4078,7 +4078,7 @@
           }
         },
         {
-          "TsName": "read",
+          "TsName": "Read",
           "IsStatic": false,
           "TsSignatureId": "Read|(System.Span_1):System.Int32|static=false",
           "Target": {
@@ -4088,7 +4088,7 @@
           }
         },
         {
-          "TsName": "readAsync",
+          "TsName": "ReadAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "Target": {
@@ -4098,7 +4098,7 @@
           }
         },
         {
-          "TsName": "readAsync2",
+          "TsName": "ReadAsync2",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "Target": {
@@ -4108,7 +4108,7 @@
           }
         },
         {
-          "TsName": "readAsync3",
+          "TsName": "ReadAsync3",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "Target": {
@@ -4118,7 +4118,7 @@
           }
         },
         {
-          "TsName": "write",
+          "TsName": "Write",
           "IsStatic": false,
           "TsSignatureId": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "Target": {
@@ -4128,7 +4128,7 @@
           }
         },
         {
-          "TsName": "writeAsync",
+          "TsName": "WriteAsync",
           "IsStatic": false,
           "TsSignatureId": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -4138,7 +4138,7 @@
           }
         },
         {
-          "TsName": "writeAsync2",
+          "TsName": "WriteAsync2",
           "IsStatic": false,
           "TsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Target": {
@@ -4148,197 +4148,197 @@
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.IO.Stream):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699841
+            "MetadataToken": 100699738
           }
         },
         {
-          "TsName": "copyTo2",
+          "TsName": "CopyTo2",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699842
+            "MetadataToken": 100699739
           }
         },
         {
-          "TsName": "copyToAsync",
+          "TsName": "CopyToAsync",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699843
+            "MetadataToken": 100699740
           }
         },
         {
-          "TsName": "copyToAsync2",
+          "TsName": "CopyToAsync2",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699844
+            "MetadataToken": 100699741
           }
         },
         {
-          "TsName": "copyToAsync3",
+          "TsName": "CopyToAsync3",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699845
+            "MetadataToken": 100699742
           }
         },
         {
-          "TsName": "copyToAsync4",
+          "TsName": "CopyToAsync4",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699846
+            "MetadataToken": 100699743
           }
         },
         {
-          "TsName": "close",
+          "TsName": "Close",
           "IsStatic": false,
           "TsSignatureId": "Close|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699849
+            "MetadataToken": 100699746
           }
         },
         {
-          "TsName": "beginRead",
+          "TsName": "BeginRead",
           "IsStatic": false,
           "TsSignatureId": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699856
+            "MetadataToken": 100699753
           }
         },
         {
-          "TsName": "endRead",
+          "TsName": "EndRead",
           "IsStatic": false,
           "TsSignatureId": "EndRead|(System.IAsyncResult):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699858
+            "MetadataToken": 100699755
           }
         },
         {
-          "TsName": "readAsync",
+          "TsName": "ReadAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699859
+            "MetadataToken": 100699756
           }
         },
         {
-          "TsName": "readExactlyAsync",
+          "TsName": "ReadExactlyAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadExactlyAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699862
+            "MetadataToken": 100699759
           }
         },
         {
-          "TsName": "readExactlyAsync2",
+          "TsName": "ReadExactlyAsync2",
           "IsStatic": false,
           "TsSignatureId": "ReadExactlyAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699863
+            "MetadataToken": 100699760
           }
         },
         {
-          "TsName": "readAtLeastAsync",
+          "TsName": "ReadAtLeastAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAtLeastAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699864
+            "MetadataToken": 100699761
           }
         },
         {
-          "TsName": "beginWrite",
+          "TsName": "BeginWrite",
           "IsStatic": false,
           "TsSignatureId": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699867
+            "MetadataToken": 100699764
           }
         },
         {
-          "TsName": "endWrite",
+          "TsName": "EndWrite",
           "IsStatic": false,
           "TsSignatureId": "EndWrite|(System.IAsyncResult):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699872
+            "MetadataToken": 100699769
           }
         },
         {
-          "TsName": "readExactly",
+          "TsName": "ReadExactly",
           "IsStatic": false,
           "TsSignatureId": "ReadExactly|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699883
+            "MetadataToken": 100699780
           }
         },
         {
-          "TsName": "readExactly2",
+          "TsName": "ReadExactly2",
           "IsStatic": false,
           "TsSignatureId": "ReadExactly|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699884
+            "MetadataToken": 100699781
           }
         },
         {
-          "TsName": "readAtLeast",
+          "TsName": "ReadAtLeast",
           "IsStatic": false,
           "TsSignatureId": "ReadAtLeast|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):System.Int32|static=false",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699885
+            "MetadataToken": 100699782
           }
         },
         {
-          "TsName": "synchronized",
+          "TsName": "Synchronized",
           "IsStatic": true,
           "TsSignatureId": "Synchronized|(System.IO.Stream):System.IO.Stream|static=true",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100699890
+            "MetadataToken": 100699787
           }
         },
         {
-          "TsName": "getLifetimeService",
+          "TsName": "GetLifetimeService",
           "IsStatic": false,
           "TsSignatureId": "GetLifetimeService|():System.Object|static=false",
           "Target": {
@@ -4348,7 +4348,7 @@
           }
         },
         {
-          "TsName": "initializeLifetimeService",
+          "TsName": "InitializeLifetimeService",
           "IsStatic": false,
           "TsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
           "Target": {
@@ -4358,7 +4358,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -4368,7 +4368,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -4378,7 +4378,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -4388,7 +4388,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4398,7 +4398,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4408,7 +4408,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -4420,7 +4420,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "safeMemoryMappedViewHandle",
+          "TsName": "SafeMemoryMappedViewHandle",
           "IsStatic": false,
           "TsSignatureId": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
           "Target": {
@@ -4430,7 +4430,7 @@
           }
         },
         {
-          "TsName": "pointerOffset",
+          "TsName": "PointerOffset",
           "IsStatic": false,
           "TsSignatureId": "PointerOffset|:System.Int64|static=false|accessor=get",
           "Target": {
@@ -4440,103 +4440,103 @@
           }
         },
         {
-          "TsName": "canRead",
+          "TsName": "CanRead",
           "IsStatic": false,
           "TsSignatureId": "CanRead|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880849
+            "MetadataToken": 385880810
           }
         },
         {
-          "TsName": "canSeek",
+          "TsName": "CanSeek",
           "IsStatic": false,
           "TsSignatureId": "CanSeek|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880850
+            "MetadataToken": 385880811
           }
         },
         {
-          "TsName": "canWrite",
+          "TsName": "CanWrite",
           "IsStatic": false,
           "TsSignatureId": "CanWrite|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880851
+            "MetadataToken": 385880812
           }
         },
         {
-          "TsName": "length",
+          "TsName": "Length",
           "IsStatic": false,
           "TsSignatureId": "Length|:System.Int64|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880852
+            "MetadataToken": 385880813
           }
         },
         {
-          "TsName": "capacity",
+          "TsName": "Capacity",
           "IsStatic": false,
           "TsSignatureId": "Capacity|:System.Int64|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880853
+            "MetadataToken": 385880814
           }
         },
         {
-          "TsName": "position",
+          "TsName": "Position",
           "IsStatic": false,
           "TsSignatureId": "Position|:System.Int64|static=false|accessor=getset",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880854
+            "MetadataToken": 385880815
           }
         },
         {
-          "TsName": "positionPointer",
+          "TsName": "PositionPointer",
           "IsStatic": false,
           "TsSignatureId": "PositionPointer|:System.Byte*|static=false|accessor=getset",
           "Target": {
             "DeclaringClrType": "System.IO.UnmanagedMemoryStream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880855
+            "MetadataToken": 385880816
           }
         },
         {
-          "TsName": "canTimeout",
+          "TsName": "CanTimeout",
           "IsStatic": false,
           "TsSignatureId": "CanTimeout|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880725
+            "MetadataToken": 385880686
           }
         },
         {
-          "TsName": "readTimeout",
+          "TsName": "ReadTimeout",
           "IsStatic": false,
           "TsSignatureId": "ReadTimeout|:System.Int32|static=false|accessor=getset",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880728
+            "MetadataToken": 385880689
           }
         },
         {
-          "TsName": "writeTimeout",
+          "TsName": "WriteTimeout",
           "IsStatic": false,
           "TsSignatureId": "WriteTimeout|:System.Int32|static=false|accessor=getset",
           "Target": {
             "DeclaringClrType": "System.IO.Stream",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385880729
+            "MetadataToken": 385880690
           }
         }
       ]

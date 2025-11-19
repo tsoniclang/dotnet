@@ -17,7 +17,7 @@
       "Properties": [
         {
           "ClrName": "PropertyNameCaseInsensitive",
-          "TsEmitName": "propertyNameCaseInsensitive",
+          "TsEmitName": "PropertyNameCaseInsensitive",
           "NormalizedSignature": "PropertyNameCaseInsensitive|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -46,7 +46,7 @@
       "Methods": [
         {
           "ClrName": "GetValues",
-          "TsEmitName": "getValues",
+          "TsEmitName": "GetValues",
           "NormalizedSignature": "GetValues|():IEnumerable_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -60,7 +60,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonArray|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -88,7 +88,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "NormalizedSignature": "WriteTo|(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -102,7 +102,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "NormalizedSignature": "Add|(System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -116,7 +116,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -130,7 +130,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Text.Json.Nodes.JsonNode):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -144,7 +144,7 @@
         },
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf",
+          "TsEmitName": "IndexOf",
           "NormalizedSignature": "IndexOf|(System.Text.Json.Nodes.JsonNode):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -158,7 +158,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert",
+          "TsEmitName": "Insert",
           "NormalizedSignature": "Insert|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -172,7 +172,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Text.Json.Nodes.JsonNode):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -186,7 +186,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt",
+          "TsEmitName": "RemoveAt",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -200,7 +200,7 @@
         },
         {
           "ClrName": "RemoveAll",
-          "TsEmitName": "removeAll",
+          "TsEmitName": "RemoveAll",
           "NormalizedSignature": "RemoveAll|(System.Func_2[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -214,7 +214,7 @@
         },
         {
           "ClrName": "RemoveRange",
-          "TsEmitName": "removeRange",
+          "TsEmitName": "RemoveRange",
           "NormalizedSignature": "RemoveRange|(System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -228,7 +228,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -242,7 +242,7 @@
         },
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf$view",
+          "TsEmitName": "IndexOf$view",
           "NormalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -257,7 +257,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert$view",
+          "TsEmitName": "Insert$view",
           "NormalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -272,7 +272,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -287,7 +287,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -302,7 +302,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -317,7 +317,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -332,7 +332,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -347,7 +347,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt$view",
+          "TsEmitName": "RemoveAt$view",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -362,7 +362,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -379,7 +379,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -393,7 +393,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -408,7 +408,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -464,7 +464,7 @@
       "Methods": [
         {
           "ClrName": "AsArray",
-          "TsEmitName": "asArray",
+          "TsEmitName": "AsArray",
           "NormalizedSignature": "AsArray|():System.Text.Json.Nodes.JsonArray|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -478,7 +478,7 @@
         },
         {
           "ClrName": "AsObject",
-          "TsEmitName": "asObject",
+          "TsEmitName": "AsObject",
           "NormalizedSignature": "AsObject|():System.Text.Json.Nodes.JsonObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -492,7 +492,7 @@
         },
         {
           "ClrName": "AsValue",
-          "TsEmitName": "asValue",
+          "TsEmitName": "AsValue",
           "NormalizedSignature": "AsValue|():System.Text.Json.Nodes.JsonValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -506,7 +506,7 @@
         },
         {
           "ClrName": "GetPath",
-          "TsEmitName": "getPath",
+          "TsEmitName": "GetPath",
           "NormalizedSignature": "GetPath|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -520,7 +520,7 @@
         },
         {
           "ClrName": "GetValue",
-          "TsEmitName": "getValue",
+          "TsEmitName": "GetValue",
           "NormalizedSignature": "GetValue|():T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -534,7 +534,7 @@
         },
         {
           "ClrName": "DeepClone",
-          "TsEmitName": "deepClone",
+          "TsEmitName": "DeepClone",
           "NormalizedSignature": "DeepClone|():System.Text.Json.Nodes.JsonNode|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -548,7 +548,7 @@
         },
         {
           "ClrName": "GetValueKind",
-          "TsEmitName": "getValueKind",
+          "TsEmitName": "GetValueKind",
           "NormalizedSignature": "GetValueKind|():System.Text.Json.JsonValueKind|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -562,7 +562,7 @@
         },
         {
           "ClrName": "GetPropertyName",
-          "TsEmitName": "getPropertyName",
+          "TsEmitName": "GetPropertyName",
           "NormalizedSignature": "GetPropertyName|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -576,7 +576,7 @@
         },
         {
           "ClrName": "GetElementIndex",
-          "TsEmitName": "getElementIndex",
+          "TsEmitName": "GetElementIndex",
           "NormalizedSignature": "GetElementIndex|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -590,7 +590,7 @@
         },
         {
           "ClrName": "DeepEquals",
-          "TsEmitName": "deepEquals",
+          "TsEmitName": "DeepEquals",
           "NormalizedSignature": "DeepEquals|(System.Text.Json.Nodes.JsonNode,System.Text.Json.Nodes.JsonNode):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -604,7 +604,7 @@
         },
         {
           "ClrName": "ReplaceWith",
-          "TsEmitName": "replaceWith",
+          "TsEmitName": "ReplaceWith",
           "NormalizedSignature": "ReplaceWith|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -618,7 +618,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse",
+          "TsEmitName": "Parse",
           "NormalizedSignature": "Parse|(System.Text.Json.Utf8JsonReader\u0026,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonNode|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -632,7 +632,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse2",
+          "TsEmitName": "Parse2",
           "NormalizedSignature": "Parse|(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -646,7 +646,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse3",
+          "TsEmitName": "Parse3",
           "NormalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -660,7 +660,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse4",
+          "TsEmitName": "Parse4",
           "NormalizedSignature": "Parse|(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -674,7 +674,7 @@
         },
         {
           "ClrName": "ParseAsync",
-          "TsEmitName": "parseAsync",
+          "TsEmitName": "ParseAsync",
           "NormalizedSignature": "ParseAsync|(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -688,7 +688,7 @@
         },
         {
           "ClrName": "ToJsonString",
-          "TsEmitName": "toJsonString",
+          "TsEmitName": "ToJsonString",
           "NormalizedSignature": "ToJsonString|(System.Text.Json.JsonSerializerOptions):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -702,7 +702,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -716,7 +716,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "NormalizedSignature": "WriteTo|(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -788,7 +788,7 @@
       "Properties": [
         {
           "ClrName": "Options",
-          "TsEmitName": "options",
+          "TsEmitName": "Options",
           "NormalizedSignature": "Options|:System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -802,7 +802,7 @@
         },
         {
           "ClrName": "Parent",
-          "TsEmitName": "parent",
+          "TsEmitName": "Parent",
           "NormalizedSignature": "Parent|:System.Text.Json.Nodes.JsonNode|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -816,7 +816,7 @@
         },
         {
           "ClrName": "Root",
-          "TsEmitName": "root",
+          "TsEmitName": "Root",
           "NormalizedSignature": "Root|:System.Text.Json.Nodes.JsonNode|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -845,7 +845,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonObject|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -859,7 +859,7 @@
         },
         {
           "ClrName": "TryGetPropertyValue",
-          "TsEmitName": "tryGetPropertyValue",
+          "TsEmitName": "TryGetPropertyValue",
           "NormalizedSignature": "TryGetPropertyValue|(System.String,System.Text.Json.Nodes.JsonNode\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -873,7 +873,7 @@
         },
         {
           "ClrName": "TryGetPropertyValue",
-          "TsEmitName": "tryGetPropertyValue2",
+          "TsEmitName": "TryGetPropertyValue2",
           "NormalizedSignature": "TryGetPropertyValue|(System.String,System.Text.Json.Nodes.JsonNode\u0026,System.Int32\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -887,7 +887,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "NormalizedSignature": "WriteTo|(System.Text.Json.Utf8JsonWriter,System.Text.Json.JsonSerializerOptions):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -901,7 +901,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -915,7 +915,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
+          "TsEmitName": "TryAdd",
           "NormalizedSignature": "TryAdd|(System.String,System.Text.Json.Nodes.JsonNode):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -929,7 +929,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd2",
+          "TsEmitName": "TryAdd2",
           "NormalizedSignature": "TryAdd|(System.String,System.Text.Json.Nodes.JsonNode,System.Int32\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -943,7 +943,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "NormalizedSignature": "Add|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -957,7 +957,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -971,7 +971,7 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey",
+          "TsEmitName": "ContainsKey",
           "NormalizedSignature": "ContainsKey|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -985,7 +985,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -999,7 +999,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1013,7 +1013,7 @@
         },
         {
           "ClrName": "GetAt",
-          "TsEmitName": "getAt",
+          "TsEmitName": "GetAt",
           "NormalizedSignature": "GetAt|(System.Int32):System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1027,7 +1027,7 @@
         },
         {
           "ClrName": "SetAt",
-          "TsEmitName": "setAt",
+          "TsEmitName": "SetAt",
           "NormalizedSignature": "SetAt|(System.Int32,System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1041,7 +1041,7 @@
         },
         {
           "ClrName": "SetAt",
-          "TsEmitName": "setAt2",
+          "TsEmitName": "SetAt2",
           "NormalizedSignature": "SetAt|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1055,7 +1055,7 @@
         },
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf",
+          "TsEmitName": "IndexOf",
           "NormalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1069,7 +1069,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert",
+          "TsEmitName": "Insert",
           "NormalizedSignature": "Insert|(System.Int32,System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1083,7 +1083,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt",
+          "TsEmitName": "RemoveAt",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1097,7 +1097,7 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey$view",
+          "TsEmitName": "ContainsKey$view",
           "NormalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1112,7 +1112,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1127,7 +1127,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1142,7 +1142,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1157,7 +1157,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1172,7 +1172,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1187,7 +1187,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1202,7 +1202,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1217,7 +1217,7 @@
         },
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf$view",
+          "TsEmitName": "IndexOf$view",
           "NormalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1232,7 +1232,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert$view",
+          "TsEmitName": "Insert$view",
           "NormalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1247,7 +1247,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1262,7 +1262,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt$view",
+          "TsEmitName": "RemoveAt$view",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1279,7 +1279,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1293,7 +1293,7 @@
         },
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys",
+          "TsEmitName": "Keys",
           "NormalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1308,7 +1308,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1323,7 +1323,7 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values",
+          "TsEmitName": "Values",
           "NormalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1338,7 +1338,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1379,7 +1379,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Boolean,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1393,7 +1393,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1407,7 +1407,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create3",
+          "TsEmitName": "Create3",
           "NormalizedSignature": "Create|(System.Byte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1421,7 +1421,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create4",
+          "TsEmitName": "Create4",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1435,7 +1435,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create5",
+          "TsEmitName": "Create5",
           "NormalizedSignature": "Create|(System.Char,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1449,7 +1449,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create6",
+          "TsEmitName": "Create6",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1463,7 +1463,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create7",
+          "TsEmitName": "Create7",
           "NormalizedSignature": "Create|(System.DateTime,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1477,7 +1477,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create8",
+          "TsEmitName": "Create8",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1491,7 +1491,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create9",
+          "TsEmitName": "Create9",
           "NormalizedSignature": "Create|(System.DateTimeOffset,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1505,7 +1505,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create10",
+          "TsEmitName": "Create10",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1519,7 +1519,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create11",
+          "TsEmitName": "Create11",
           "NormalizedSignature": "Create|(System.Decimal,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1533,7 +1533,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create12",
+          "TsEmitName": "Create12",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1547,7 +1547,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create13",
+          "TsEmitName": "Create13",
           "NormalizedSignature": "Create|(System.Double,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1561,7 +1561,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create14",
+          "TsEmitName": "Create14",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1575,7 +1575,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create15",
+          "TsEmitName": "Create15",
           "NormalizedSignature": "Create|(System.Guid,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1589,7 +1589,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create16",
+          "TsEmitName": "Create16",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Guid,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1603,7 +1603,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create17",
+          "TsEmitName": "Create17",
           "NormalizedSignature": "Create|(System.Int16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1617,7 +1617,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create18",
+          "TsEmitName": "Create18",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1631,7 +1631,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create19",
+          "TsEmitName": "Create19",
           "NormalizedSignature": "Create|(System.Int32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1645,7 +1645,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create20",
+          "TsEmitName": "Create20",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1659,7 +1659,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create21",
+          "TsEmitName": "Create21",
           "NormalizedSignature": "Create|(System.Int64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1673,7 +1673,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create22",
+          "TsEmitName": "Create22",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1687,7 +1687,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create23",
+          "TsEmitName": "Create23",
           "NormalizedSignature": "Create|(System.SByte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1701,7 +1701,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create24",
+          "TsEmitName": "Create24",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.SByte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1715,7 +1715,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create25",
+          "TsEmitName": "Create25",
           "NormalizedSignature": "Create|(System.Single,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1729,7 +1729,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create26",
+          "TsEmitName": "Create26",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1743,7 +1743,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create27",
+          "TsEmitName": "Create27",
           "NormalizedSignature": "Create|(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1757,7 +1757,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create28",
+          "TsEmitName": "Create28",
           "NormalizedSignature": "Create|(System.UInt16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1771,7 +1771,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create29",
+          "TsEmitName": "Create29",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1785,7 +1785,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create30",
+          "TsEmitName": "Create30",
           "NormalizedSignature": "Create|(System.UInt32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1799,7 +1799,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create31",
+          "TsEmitName": "Create31",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1813,7 +1813,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create32",
+          "TsEmitName": "Create32",
           "NormalizedSignature": "Create|(System.UInt64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1827,7 +1827,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create33",
+          "TsEmitName": "Create33",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1841,7 +1841,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create34",
+          "TsEmitName": "Create34",
           "NormalizedSignature": "Create|(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1855,7 +1855,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create35",
+          "TsEmitName": "Create35",
           "NormalizedSignature": "Create|(System.Nullable_1[[System.Text.Json.JsonElement,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1869,7 +1869,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "NormalizedSignature": "TryGetValue|(T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1883,7 +1883,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create36",
+          "TsEmitName": "Create36",
           "NormalizedSignature": "Create|(T,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1897,7 +1897,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create37",
+          "TsEmitName": "Create37",
           "NormalizedSignature": "Create|(T,JsonTypeInfo_1,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

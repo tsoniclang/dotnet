@@ -1,8 +1,8 @@
 {
   "Namespace": "System.Buffers",
   "ContributingAssemblies": [
-    "System.Memory",
-    "System.Private.CoreLib"
+    "System.Private.CoreLib",
+    "System.Memory"
   ],
   "Types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "ClrName": "Done",
-          "TsEmitName": "done",
+          "TsEmitName": "Done",
           "NormalizedSignature": "Done|System.Buffers.OperationStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "ClrName": "DestinationTooSmall",
-          "TsEmitName": "destinationTooSmall",
+          "TsEmitName": "DestinationTooSmall",
           "NormalizedSignature": "DestinationTooSmall|System.Buffers.OperationStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "ClrName": "NeedMoreData",
-          "TsEmitName": "needMoreData",
+          "TsEmitName": "NeedMoreData",
           "NormalizedSignature": "NeedMoreData|System.Buffers.OperationStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "ClrName": "InvalidData",
-          "TsEmitName": "invalidData",
+          "TsEmitName": "InvalidData",
           "NormalizedSignature": "InvalidData|System.Buffers.OperationStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -73,7 +73,7 @@
       "Methods": [
         {
           "ClrName": "Advance",
-          "TsEmitName": "advance",
+          "TsEmitName": "Advance",
           "NormalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -87,7 +87,7 @@
         },
         {
           "ClrName": "GetMemory",
-          "TsEmitName": "getMemory",
+          "TsEmitName": "GetMemory",
           "NormalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -101,7 +101,7 @@
         },
         {
           "ClrName": "GetSpan",
-          "TsEmitName": "getSpan",
+          "TsEmitName": "GetSpan",
           "NormalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -131,7 +131,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -147,7 +147,7 @@
       "Properties": [
         {
           "ClrName": "Memory",
-          "TsEmitName": "memory",
+          "TsEmitName": "Memory",
           "NormalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -176,7 +176,7 @@
       "Methods": [
         {
           "ClrName": "Pin",
-          "TsEmitName": "pin",
+          "TsEmitName": "Pin",
           "NormalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -190,7 +190,7 @@
         },
         {
           "ClrName": "Unpin",
-          "TsEmitName": "unpin",
+          "TsEmitName": "Unpin",
           "NormalizedSignature": "Unpin|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -220,7 +220,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -251,7 +251,7 @@
       "Properties": [
         {
           "ClrName": "Pointer",
-          "TsEmitName": "pointer",
+          "TsEmitName": "Pointer",
           "NormalizedSignature": "Pointer|:System.Void*|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -286,7 +286,7 @@
       "Methods": [
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice",
+          "TsEmitName": "Slice",
           "NormalizedSignature": "Slice|(System.Int64,System.Int64):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -300,7 +300,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice2",
+          "TsEmitName": "Slice2",
           "NormalizedSignature": "Slice|(System.Int64,System.SequencePosition):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -314,7 +314,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice3",
+          "TsEmitName": "Slice3",
           "NormalizedSignature": "Slice|(System.SequencePosition,System.Int64):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -328,7 +328,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice4",
+          "TsEmitName": "Slice4",
           "NormalizedSignature": "Slice|(System.Int32,System.Int32):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -342,7 +342,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice5",
+          "TsEmitName": "Slice5",
           "NormalizedSignature": "Slice|(System.Int32,System.SequencePosition):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -356,7 +356,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice6",
+          "TsEmitName": "Slice6",
           "NormalizedSignature": "Slice|(System.SequencePosition,System.Int32):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -370,7 +370,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice7",
+          "TsEmitName": "Slice7",
           "NormalizedSignature": "Slice|(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -384,7 +384,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice8",
+          "TsEmitName": "Slice8",
           "NormalizedSignature": "Slice|(System.SequencePosition):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -398,7 +398,7 @@
         },
         {
           "ClrName": "Slice",
-          "TsEmitName": "slice9",
+          "TsEmitName": "Slice9",
           "NormalizedSignature": "Slice|(System.Int64):ReadOnlySequence_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -412,7 +412,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -426,7 +426,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():Enumerator|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -440,7 +440,7 @@
         },
         {
           "ClrName": "GetPosition",
-          "TsEmitName": "getPosition",
+          "TsEmitName": "GetPosition",
           "NormalizedSignature": "GetPosition|(System.Int64):System.SequencePosition|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -454,7 +454,7 @@
         },
         {
           "ClrName": "GetOffset",
-          "TsEmitName": "getOffset",
+          "TsEmitName": "GetOffset",
           "NormalizedSignature": "GetOffset|(System.SequencePosition):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -468,7 +468,7 @@
         },
         {
           "ClrName": "GetPosition",
-          "TsEmitName": "getPosition2",
+          "TsEmitName": "GetPosition2",
           "NormalizedSignature": "GetPosition|(System.Int64,System.SequencePosition):System.SequencePosition|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -482,7 +482,7 @@
         },
         {
           "ClrName": "TryGet",
-          "TsEmitName": "tryGet",
+          "TsEmitName": "TryGet",
           "NormalizedSignature": "TryGet|(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -498,7 +498,7 @@
       "Properties": [
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -512,7 +512,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -526,7 +526,7 @@
         },
         {
           "ClrName": "IsSingleSegment",
-          "TsEmitName": "isSingleSegment",
+          "TsEmitName": "IsSingleSegment",
           "NormalizedSignature": "IsSingleSegment|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "First",
-          "TsEmitName": "first",
+          "TsEmitName": "First",
           "NormalizedSignature": "First|:ReadOnlyMemory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -554,7 +554,7 @@
         },
         {
           "ClrName": "FirstSpan",
-          "TsEmitName": "firstSpan",
+          "TsEmitName": "FirstSpan",
           "NormalizedSignature": "FirstSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -568,7 +568,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|:System.SequencePosition|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -582,7 +582,7 @@
         },
         {
           "ClrName": "End",
-          "TsEmitName": "end",
+          "TsEmitName": "End",
           "NormalizedSignature": "End|:System.SequencePosition|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -598,7 +598,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|ReadOnlySequence\u00601|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -641,7 +641,7 @@
       "Methods": [
         {
           "ClrName": "MoveNext",
-          "TsEmitName": "moveNext",
+          "TsEmitName": "MoveNext",
           "NormalizedSignature": "MoveNext|():System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -657,7 +657,7 @@
       "Properties": [
         {
           "ClrName": "Current",
-          "TsEmitName": "current",
+          "TsEmitName": "Current",
           "NormalizedSignature": "Current|:ReadOnlyMemory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -692,7 +692,7 @@
       "Methods": [
         {
           "ClrName": "TryPeek",
-          "TsEmitName": "tryPeek",
+          "TsEmitName": "TryPeek",
           "NormalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -706,7 +706,7 @@
         },
         {
           "ClrName": "TryPeek",
-          "TsEmitName": "tryPeek2",
+          "TsEmitName": "TryPeek2",
           "NormalizedSignature": "TryPeek|(System.Int64,T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -720,7 +720,7 @@
         },
         {
           "ClrName": "TryRead",
-          "TsEmitName": "tryRead",
+          "TsEmitName": "TryRead",
           "NormalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -734,7 +734,7 @@
         },
         {
           "ClrName": "Rewind",
-          "TsEmitName": "rewind",
+          "TsEmitName": "Rewind",
           "NormalizedSignature": "Rewind|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -748,7 +748,7 @@
         },
         {
           "ClrName": "Advance",
-          "TsEmitName": "advance",
+          "TsEmitName": "Advance",
           "NormalizedSignature": "Advance|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -762,7 +762,7 @@
         },
         {
           "ClrName": "TryCopyTo",
-          "TsEmitName": "tryCopyTo",
+          "TsEmitName": "TryCopyTo",
           "NormalizedSignature": "TryCopyTo|(Span_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -776,7 +776,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo",
+          "TsEmitName": "TryReadTo",
           "NormalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -790,7 +790,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo2",
+          "TsEmitName": "TryReadTo2",
           "NormalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -804,7 +804,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo3",
+          "TsEmitName": "TryReadTo3",
           "NormalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -818,7 +818,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo4",
+          "TsEmitName": "TryReadTo4",
           "NormalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -832,7 +832,7 @@
         },
         {
           "ClrName": "TryReadToAny",
-          "TsEmitName": "tryReadToAny",
+          "TsEmitName": "TryReadToAny",
           "NormalizedSignature": "TryReadToAny|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -846,7 +846,7 @@
         },
         {
           "ClrName": "TryReadToAny",
-          "TsEmitName": "tryReadToAny2",
+          "TsEmitName": "TryReadToAny2",
           "NormalizedSignature": "TryReadToAny|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -860,7 +860,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo5",
+          "TsEmitName": "TryReadTo5",
           "NormalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -874,7 +874,7 @@
         },
         {
           "ClrName": "TryReadTo",
-          "TsEmitName": "tryReadTo6",
+          "TsEmitName": "TryReadTo6",
           "NormalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -888,7 +888,7 @@
         },
         {
           "ClrName": "TryReadExact",
-          "TsEmitName": "tryReadExact",
+          "TsEmitName": "TryReadExact",
           "NormalizedSignature": "TryReadExact|(System.Int32,ReadOnlySequence_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -902,7 +902,7 @@
         },
         {
           "ClrName": "TryAdvanceTo",
-          "TsEmitName": "tryAdvanceTo",
+          "TsEmitName": "TryAdvanceTo",
           "NormalizedSignature": "TryAdvanceTo|(T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -916,7 +916,7 @@
         },
         {
           "ClrName": "TryAdvanceToAny",
-          "TsEmitName": "tryAdvanceToAny",
+          "TsEmitName": "TryAdvanceToAny",
           "NormalizedSignature": "TryAdvanceToAny|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -930,7 +930,7 @@
         },
         {
           "ClrName": "AdvancePast",
-          "TsEmitName": "advancePast",
+          "TsEmitName": "AdvancePast",
           "NormalizedSignature": "AdvancePast|(T):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -944,7 +944,7 @@
         },
         {
           "ClrName": "AdvancePastAny",
-          "TsEmitName": "advancePastAny",
+          "TsEmitName": "AdvancePastAny",
           "NormalizedSignature": "AdvancePastAny|(ReadOnlySpan_1):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -958,7 +958,7 @@
         },
         {
           "ClrName": "AdvancePastAny",
-          "TsEmitName": "advancePastAny2",
+          "TsEmitName": "AdvancePastAny2",
           "NormalizedSignature": "AdvancePastAny|(T,T,T,T):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -972,7 +972,7 @@
         },
         {
           "ClrName": "AdvancePastAny",
-          "TsEmitName": "advancePastAny3",
+          "TsEmitName": "AdvancePastAny3",
           "NormalizedSignature": "AdvancePastAny|(T,T,T):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -986,7 +986,7 @@
         },
         {
           "ClrName": "AdvancePastAny",
-          "TsEmitName": "advancePastAny4",
+          "TsEmitName": "AdvancePastAny4",
           "NormalizedSignature": "AdvancePastAny|(T,T):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1000,7 +1000,7 @@
         },
         {
           "ClrName": "AdvanceToEnd",
-          "TsEmitName": "advanceToEnd",
+          "TsEmitName": "AdvanceToEnd",
           "NormalizedSignature": "AdvanceToEnd|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1014,7 +1014,7 @@
         },
         {
           "ClrName": "IsNext",
-          "TsEmitName": "isNext",
+          "TsEmitName": "IsNext",
           "NormalizedSignature": "IsNext|(T,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1028,7 +1028,7 @@
         },
         {
           "ClrName": "IsNext",
-          "TsEmitName": "isNext2",
+          "TsEmitName": "IsNext2",
           "NormalizedSignature": "IsNext|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1044,7 +1044,7 @@
       "Properties": [
         {
           "ClrName": "End",
-          "TsEmitName": "end",
+          "TsEmitName": "End",
           "NormalizedSignature": "End|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1058,7 +1058,7 @@
         },
         {
           "ClrName": "Sequence",
-          "TsEmitName": "sequence",
+          "TsEmitName": "Sequence",
           "NormalizedSignature": "Sequence|:ReadOnlySequence_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1072,7 +1072,7 @@
         },
         {
           "ClrName": "UnreadSequence",
-          "TsEmitName": "unreadSequence",
+          "TsEmitName": "UnreadSequence",
           "NormalizedSignature": "UnreadSequence|:ReadOnlySequence_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1086,7 +1086,7 @@
         },
         {
           "ClrName": "Position",
-          "TsEmitName": "position",
+          "TsEmitName": "Position",
           "NormalizedSignature": "Position|:System.SequencePosition|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1100,7 +1100,7 @@
         },
         {
           "ClrName": "CurrentSpan",
-          "TsEmitName": "currentSpan",
+          "TsEmitName": "CurrentSpan",
           "NormalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1114,7 +1114,7 @@
         },
         {
           "ClrName": "CurrentSpanIndex",
-          "TsEmitName": "currentSpanIndex",
+          "TsEmitName": "CurrentSpanIndex",
           "NormalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1128,7 +1128,7 @@
         },
         {
           "ClrName": "UnreadSpan",
-          "TsEmitName": "unreadSpan",
+          "TsEmitName": "UnreadSpan",
           "NormalizedSignature": "UnreadSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1142,7 +1142,7 @@
         },
         {
           "ClrName": "Consumed",
-          "TsEmitName": "consumed",
+          "TsEmitName": "Consumed",
           "NormalizedSignature": "Consumed|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1156,7 +1156,7 @@
         },
         {
           "ClrName": "Remaining",
-          "TsEmitName": "remaining",
+          "TsEmitName": "Remaining",
           "NormalizedSignature": "Remaining|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1170,7 +1170,7 @@
         },
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1205,7 +1205,7 @@
       "Methods": [
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse",
+          "TsEmitName": "Parse",
           "NormalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1219,7 +1219,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse2",
+          "TsEmitName": "Parse2",
           "NormalizedSignature": "Parse|(System.String):System.Buffers.StandardFormat|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1233,7 +1233,7 @@
         },
         {
           "ClrName": "TryParse",
-          "TsEmitName": "tryParse",
+          "TsEmitName": "TryParse",
           "NormalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1247,7 +1247,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1261,7 +1261,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1275,7 +1275,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Buffers.StandardFormat):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1289,7 +1289,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1303,7 +1303,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1320,7 +1320,7 @@
       "Properties": [
         {
           "ClrName": "Symbol",
-          "TsEmitName": "symbol_",
+          "TsEmitName": "Symbol",
           "NormalizedSignature": "Symbol|:System.Char|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1334,7 +1334,7 @@
         },
         {
           "ClrName": "Precision",
-          "TsEmitName": "precision",
+          "TsEmitName": "Precision",
           "NormalizedSignature": "Precision|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1348,7 +1348,7 @@
         },
         {
           "ClrName": "HasPrecision",
-          "TsEmitName": "hasPrecision",
+          "TsEmitName": "HasPrecision",
           "NormalizedSignature": "HasPrecision|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1362,7 +1362,7 @@
         },
         {
           "ClrName": "IsDefault",
-          "TsEmitName": "isDefault",
+          "TsEmitName": "IsDefault",
           "NormalizedSignature": "IsDefault|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1378,7 +1378,7 @@
       "Fields": [
         {
           "ClrName": "NoPrecision",
-          "TsEmitName": "noPrecision",
+          "TsEmitName": "NoPrecision",
           "NormalizedSignature": "NoPrecision|System.Byte|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1386,7 +1386,7 @@
         },
         {
           "ClrName": "MaxPrecision",
-          "TsEmitName": "maxPrecision",
+          "TsEmitName": "MaxPrecision",
           "NormalizedSignature": "MaxPrecision|System.Byte|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1414,7 +1414,7 @@
       "Methods": [
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
         },
         {
           "ClrName": "ResetWrittenCount",
-          "TsEmitName": "resetWrittenCount",
+          "TsEmitName": "ResetWrittenCount",
           "NormalizedSignature": "ResetWrittenCount|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1442,7 +1442,7 @@
         },
         {
           "ClrName": "Advance",
-          "TsEmitName": "advance",
+          "TsEmitName": "Advance",
           "NormalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1456,7 +1456,7 @@
         },
         {
           "ClrName": "GetMemory",
-          "TsEmitName": "getMemory",
+          "TsEmitName": "GetMemory",
           "NormalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1470,7 +1470,7 @@
         },
         {
           "ClrName": "GetSpan",
-          "TsEmitName": "getSpan",
+          "TsEmitName": "GetSpan",
           "NormalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1484,7 +1484,7 @@
         },
         {
           "ClrName": "Advance",
-          "TsEmitName": "advance$view",
+          "TsEmitName": "Advance$view",
           "NormalizedSignature": "Advance|(System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1499,7 +1499,7 @@
         },
         {
           "ClrName": "GetMemory",
-          "TsEmitName": "getMemory$view",
+          "TsEmitName": "GetMemory$view",
           "NormalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1514,7 +1514,7 @@
         },
         {
           "ClrName": "GetSpan",
-          "TsEmitName": "getSpan$view",
+          "TsEmitName": "GetSpan$view",
           "NormalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1531,7 +1531,7 @@
       "Properties": [
         {
           "ClrName": "WrittenMemory",
-          "TsEmitName": "writtenMemory",
+          "TsEmitName": "WrittenMemory",
           "NormalizedSignature": "WrittenMemory|:ReadOnlyMemory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1545,7 +1545,7 @@
         },
         {
           "ClrName": "WrittenSpan",
-          "TsEmitName": "writtenSpan",
+          "TsEmitName": "WrittenSpan",
           "NormalizedSignature": "WrittenSpan|:ReadOnlySpan_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1559,7 +1559,7 @@
         },
         {
           "ClrName": "WrittenCount",
-          "TsEmitName": "writtenCount",
+          "TsEmitName": "WrittenCount",
           "NormalizedSignature": "WrittenCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1573,7 +1573,7 @@
         },
         {
           "ClrName": "Capacity",
-          "TsEmitName": "capacity",
+          "TsEmitName": "Capacity",
           "NormalizedSignature": "Capacity|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1587,7 +1587,7 @@
         },
         {
           "ClrName": "FreeCapacity",
-          "TsEmitName": "freeCapacity",
+          "TsEmitName": "FreeCapacity",
           "NormalizedSignature": "FreeCapacity|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1627,7 +1627,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():ArrayPool_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1641,7 +1641,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "NormalizedSignature": "Create|(System.Int32,System.Int32):ArrayPool_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1655,7 +1655,7 @@
         },
         {
           "ClrName": "Rent",
-          "TsEmitName": "rent",
+          "TsEmitName": "Rent",
           "NormalizedSignature": "Rent|(System.Int32):T[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1669,7 +1669,7 @@
         },
         {
           "ClrName": "Return",
-          "TsEmitName": "return_",
+          "TsEmitName": "Return",
           "NormalizedSignature": "Return|(T[],System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1685,7 +1685,7 @@
       "Properties": [
         {
           "ClrName": "Shared",
-          "TsEmitName": "shared",
+          "TsEmitName": "Shared",
           "NormalizedSignature": "Shared|:ArrayPool_1|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1714,7 +1714,7 @@
       "Methods": [
         {
           "ClrName": "GetSpan",
-          "TsEmitName": "getSpan",
+          "TsEmitName": "GetSpan",
           "NormalizedSignature": "GetSpan|():Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1728,7 +1728,7 @@
         },
         {
           "ClrName": "Pin",
-          "TsEmitName": "pin",
+          "TsEmitName": "Pin",
           "NormalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1742,7 +1742,7 @@
         },
         {
           "ClrName": "Unpin",
-          "TsEmitName": "unpin",
+          "TsEmitName": "Unpin",
           "NormalizedSignature": "Unpin|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1756,7 +1756,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1771,7 +1771,7 @@
         },
         {
           "ClrName": "Pin",
-          "TsEmitName": "pin$view",
+          "TsEmitName": "Pin$view",
           "NormalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1786,7 +1786,7 @@
         },
         {
           "ClrName": "Unpin",
-          "TsEmitName": "unpin$view",
+          "TsEmitName": "Unpin$view",
           "NormalizedSignature": "Unpin|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1803,7 +1803,7 @@
       "Properties": [
         {
           "ClrName": "Memory",
-          "TsEmitName": "memory",
+          "TsEmitName": "Memory",
           "NormalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1817,7 +1817,7 @@
         },
         {
           "ClrName": "Memory",
-          "TsEmitName": "memory$view",
+          "TsEmitName": "Memory$view",
           "NormalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1847,7 +1847,7 @@
       "Methods": [
         {
           "ClrName": "Rent",
-          "TsEmitName": "rent",
+          "TsEmitName": "Rent",
           "NormalizedSignature": "Rent|(System.Int32):IMemoryOwner_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1861,7 +1861,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1875,7 +1875,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1892,7 +1892,7 @@
       "Properties": [
         {
           "ClrName": "Shared",
-          "TsEmitName": "shared",
+          "TsEmitName": "Shared",
           "NormalizedSignature": "Shared|:MemoryPool_1|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1906,7 +1906,7 @@
         },
         {
           "ClrName": "MaxBufferSize",
-          "TsEmitName": "maxBufferSize",
+          "TsEmitName": "MaxBufferSize",
           "NormalizedSignature": "MaxBufferSize|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1936,7 +1936,7 @@
       "Properties": [
         {
           "ClrName": "Memory",
-          "TsEmitName": "memory",
+          "TsEmitName": "Memory",
           "NormalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1950,7 +1950,7 @@
         },
         {
           "ClrName": "Next",
-          "TsEmitName": "next",
+          "TsEmitName": "Next",
           "NormalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1964,7 +1964,7 @@
         },
         {
           "ClrName": "RunningIndex",
-          "TsEmitName": "runningIndex",
+          "TsEmitName": "RunningIndex",
           "NormalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1993,7 +1993,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(ReadOnlySpan_1,TArg):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2007,7 +2007,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2021,7 +2021,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2035,7 +2035,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2050,7 +2050,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2065,7 +2065,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2079,7 +2079,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2115,7 +2115,7 @@
       "Methods": [
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2145,7 +2145,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(Span_1,TArg):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2159,7 +2159,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2173,7 +2173,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2187,7 +2187,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2202,7 +2202,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2217,7 +2217,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2231,7 +2231,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2267,7 +2267,7 @@
       "Methods": [
         {
           "ClrName": "PositionOf",
-          "TsEmitName": "positionOf",
+          "TsEmitName": "PositionOf",
           "NormalizedSignature": "PositionOf|(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2281,7 +2281,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(ReadOnlySequence_1\u0026,Span_1):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2295,7 +2295,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "NormalizedSignature": "ToArray|(ReadOnlySequence_1\u0026):T[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2309,7 +2309,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(IBufferWriter_1,ReadOnlySpan_1):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2339,7 +2339,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2353,7 +2353,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "NormalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2367,7 +2367,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create3",
+          "TsEmitName": "Create3",
           "NormalizedSignature": "Create|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2397,7 +2397,7 @@
       "Methods": [
         {
           "ClrName": "TryReadLittleEndian",
-          "TsEmitName": "tryReadLittleEndian",
+          "TsEmitName": "TryReadLittleEndian",
           "NormalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2411,7 +2411,7 @@
         },
         {
           "ClrName": "TryReadBigEndian",
-          "TsEmitName": "tryReadBigEndian",
+          "TsEmitName": "TryReadBigEndian",
           "NormalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2425,7 +2425,7 @@
         },
         {
           "ClrName": "TryReadLittleEndian",
-          "TsEmitName": "tryReadLittleEndian2",
+          "TsEmitName": "TryReadLittleEndian2",
           "NormalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2439,7 +2439,7 @@
         },
         {
           "ClrName": "TryReadBigEndian",
-          "TsEmitName": "tryReadBigEndian2",
+          "TsEmitName": "TryReadBigEndian2",
           "NormalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2453,7 +2453,7 @@
         },
         {
           "ClrName": "TryReadLittleEndian",
-          "TsEmitName": "tryReadLittleEndian3",
+          "TsEmitName": "TryReadLittleEndian3",
           "NormalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2467,7 +2467,7 @@
         },
         {
           "ClrName": "TryReadBigEndian",
-          "TsEmitName": "tryReadBigEndian3",
+          "TsEmitName": "TryReadBigEndian3",
           "NormalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

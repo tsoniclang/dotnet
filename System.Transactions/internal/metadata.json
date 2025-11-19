@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "BlockCommitUntilComplete",
-          "TsEmitName": "blockCommitUntilComplete",
+          "TsEmitName": "BlockCommitUntilComplete",
           "NormalizedSignature": "BlockCommitUntilComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "RollbackIfNotComplete",
-          "TsEmitName": "rollbackIfNotComplete",
+          "TsEmitName": "RollbackIfNotComplete",
           "NormalizedSignature": "RollbackIfNotComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Transactions.EnlistmentOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "EnlistDuringPrepareRequired",
-          "TsEmitName": "enlistDuringPrepareRequired",
+          "TsEmitName": "EnlistDuringPrepareRequired",
           "NormalizedSignature": "EnlistDuringPrepareRequired|System.Transactions.EnlistmentOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "Automatic",
-          "TsEmitName": "automatic",
+          "TsEmitName": "Automatic",
           "NormalizedSignature": "Automatic|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "ClrName": "Full",
-          "TsEmitName": "full",
+          "TsEmitName": "Full",
           "NormalizedSignature": "Full|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "Serializable",
-          "TsEmitName": "serializable",
+          "TsEmitName": "Serializable",
           "NormalizedSignature": "Serializable|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "RepeatableRead",
-          "TsEmitName": "repeatableRead",
+          "TsEmitName": "RepeatableRead",
           "NormalizedSignature": "RepeatableRead|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "ReadCommitted",
-          "TsEmitName": "readCommitted",
+          "TsEmitName": "ReadCommitted",
           "NormalizedSignature": "ReadCommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "ClrName": "ReadUncommitted",
-          "TsEmitName": "readUncommitted",
+          "TsEmitName": "ReadUncommitted",
           "NormalizedSignature": "ReadUncommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "ClrName": "Snapshot",
-          "TsEmitName": "snapshot",
+          "TsEmitName": "Snapshot",
           "NormalizedSignature": "Snapshot|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "ClrName": "Chaos",
-          "TsEmitName": "chaos",
+          "TsEmitName": "Chaos",
           "NormalizedSignature": "Chaos|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "Unspecified",
-          "TsEmitName": "unspecified",
+          "TsEmitName": "Unspecified",
           "NormalizedSignature": "Unspecified|System.Transactions.IsolationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "Suppress",
-          "TsEmitName": "suppress",
+          "TsEmitName": "Suppress",
           "NormalizedSignature": "Suppress|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "ClrName": "Enabled",
-          "TsEmitName": "enabled",
+          "TsEmitName": "Enabled",
           "NormalizedSignature": "Enabled|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "ClrName": "Required",
-          "TsEmitName": "required",
+          "TsEmitName": "Required",
           "NormalizedSignature": "Required|System.Transactions.TransactionScopeOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "ClrName": "RequiresNew",
-          "TsEmitName": "requiresNew",
+          "TsEmitName": "RequiresNew",
           "NormalizedSignature": "RequiresNew|System.Transactions.TransactionScopeOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -290,7 +290,7 @@
         },
         {
           "ClrName": "Suppress",
-          "TsEmitName": "suppress",
+          "TsEmitName": "Suppress",
           "NormalizedSignature": "Suppress|System.Transactions.TransactionScopeOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "ClrName": "Active",
-          "TsEmitName": "active",
+          "TsEmitName": "Active",
           "NormalizedSignature": "Active|System.Transactions.TransactionStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "Committed",
-          "TsEmitName": "committed",
+          "TsEmitName": "Committed",
           "NormalizedSignature": "Committed|System.Transactions.TransactionStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -338,7 +338,7 @@
         },
         {
           "ClrName": "Aborted",
-          "TsEmitName": "aborted",
+          "TsEmitName": "Aborted",
           "NormalizedSignature": "Aborted|System.Transactions.TransactionStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "InDoubt",
-          "TsEmitName": "inDoubt",
+          "TsEmitName": "InDoubt",
           "NormalizedSignature": "InDoubt|System.Transactions.TransactionStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -368,7 +368,7 @@
       "Methods": [
         {
           "ClrName": "Commit",
-          "TsEmitName": "commit",
+          "TsEmitName": "Commit",
           "NormalizedSignature": "Commit|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -382,7 +382,7 @@
         },
         {
           "ClrName": "Abort",
-          "TsEmitName": "abort",
+          "TsEmitName": "Abort",
           "NormalizedSignature": "Abort|(System.IntPtr,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         },
         {
           "ClrName": "GetTransactionInfo",
-          "TsEmitName": "getTransactionInfo",
+          "TsEmitName": "GetTransactionInfo",
           "NormalizedSignature": "GetTransactionInfo|(System.IntPtr):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -426,7 +426,7 @@
       "Methods": [
         {
           "ClrName": "Prepare",
-          "TsEmitName": "prepare",
+          "TsEmitName": "Prepare",
           "NormalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -440,7 +440,7 @@
         },
         {
           "ClrName": "Commit",
-          "TsEmitName": "commit",
+          "TsEmitName": "Commit",
           "NormalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -470,7 +470,7 @@
       "Methods": [
         {
           "ClrName": "Initialize",
-          "TsEmitName": "initialize",
+          "TsEmitName": "Initialize",
           "NormalizedSignature": "Initialize|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -484,7 +484,7 @@
         },
         {
           "ClrName": "SinglePhaseCommit",
-          "TsEmitName": "singlePhaseCommit",
+          "TsEmitName": "SinglePhaseCommit",
           "NormalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -498,7 +498,7 @@
         },
         {
           "ClrName": "Promote",
-          "TsEmitName": "promote",
+          "TsEmitName": "Promote",
           "NormalizedSignature": "Promote|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -528,7 +528,7 @@
       "Methods": [
         {
           "ClrName": "Rollback",
-          "TsEmitName": "rollback",
+          "TsEmitName": "Rollback",
           "NormalizedSignature": "Rollback|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         },
         {
           "ClrName": "Promote",
-          "TsEmitName": "promote",
+          "TsEmitName": "Promote",
           "NormalizedSignature": "Promote|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -572,7 +572,7 @@
       "Methods": [
         {
           "ClrName": "SinglePhaseCommit",
-          "TsEmitName": "singlePhaseCommit",
+          "TsEmitName": "SinglePhaseCommit",
           "NormalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -586,7 +586,7 @@
         },
         {
           "ClrName": "Prepare",
-          "TsEmitName": "prepare",
+          "TsEmitName": "Prepare",
           "NormalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -600,7 +600,7 @@
         },
         {
           "ClrName": "Commit",
-          "TsEmitName": "commit",
+          "TsEmitName": "Commit",
           "NormalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -630,7 +630,7 @@
       "Methods": [
         {
           "ClrName": "Promote",
-          "TsEmitName": "promote",
+          "TsEmitName": "Promote",
           "NormalizedSignature": "Promote|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -660,7 +660,7 @@
       "Methods": [
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -674,7 +674,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -688,7 +688,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Transactions.TransactionOptions):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -702,7 +702,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -719,7 +719,7 @@
       "Properties": [
         {
           "ClrName": "Timeout",
-          "TsEmitName": "timeout",
+          "TsEmitName": "Timeout",
           "NormalizedSignature": "Timeout|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -733,7 +733,7 @@
         },
         {
           "ClrName": "IsolationLevel",
-          "TsEmitName": "isolationLevel",
+          "TsEmitName": "IsolationLevel",
           "NormalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -762,7 +762,7 @@
       "Methods": [
         {
           "ClrName": "BeginCommit",
-          "TsEmitName": "beginCommit",
+          "TsEmitName": "BeginCommit",
           "NormalizedSignature": "BeginCommit|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -776,7 +776,7 @@
         },
         {
           "ClrName": "Commit",
-          "TsEmitName": "commit",
+          "TsEmitName": "Commit",
           "NormalizedSignature": "Commit|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -790,7 +790,7 @@
         },
         {
           "ClrName": "EndCommit",
-          "TsEmitName": "endCommit",
+          "TsEmitName": "EndCommit",
           "NormalizedSignature": "EndCommit|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -804,7 +804,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -819,7 +819,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -834,7 +834,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -848,7 +848,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -864,7 +864,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -879,7 +879,7 @@
         },
         {
           "ClrName": "AsyncWaitHandle",
-          "TsEmitName": "asyncWaitHandle",
+          "TsEmitName": "AsyncWaitHandle",
           "NormalizedSignature": "AsyncWaitHandle|:System.Threading.WaitHandle|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -894,7 +894,7 @@
         },
         {
           "ClrName": "AsyncState",
-          "TsEmitName": "asyncState",
+          "TsEmitName": "AsyncState",
           "NormalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -909,7 +909,7 @@
         },
         {
           "ClrName": "CompletedSynchronously",
-          "TsEmitName": "completedSynchronously",
+          "TsEmitName": "CompletedSynchronously",
           "NormalizedSignature": "CompletedSynchronously|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -955,7 +955,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -969,7 +969,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -984,7 +984,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -999,7 +999,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1013,7 +1013,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1043,7 +1043,7 @@
       "Methods": [
         {
           "ClrName": "Done",
-          "TsEmitName": "done",
+          "TsEmitName": "Done",
           "NormalizedSignature": "Done|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1073,7 +1073,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|():System.Transactions.Transaction|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1087,7 +1087,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1101,7 +1101,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Transactions.Transaction|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1115,7 +1115,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1130,7 +1130,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1145,7 +1145,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1159,7 +1159,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1195,7 +1195,7 @@
       "Methods": [
         {
           "ClrName": "Prepared",
-          "TsEmitName": "prepared",
+          "TsEmitName": "Prepared",
           "NormalizedSignature": "Prepared|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1209,7 +1209,7 @@
         },
         {
           "ClrName": "ForceRollback",
-          "TsEmitName": "forceRollback",
+          "TsEmitName": "ForceRollback",
           "NormalizedSignature": "ForceRollback|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1223,7 +1223,7 @@
         },
         {
           "ClrName": "ForceRollback",
-          "TsEmitName": "forceRollback2",
+          "TsEmitName": "ForceRollback2",
           "NormalizedSignature": "ForceRollback|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1237,7 +1237,7 @@
         },
         {
           "ClrName": "RecoveryInformation",
-          "TsEmitName": "recoveryInformation",
+          "TsEmitName": "RecoveryInformation",
           "NormalizedSignature": "RecoveryInformation|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1267,7 +1267,7 @@
       "Methods": [
         {
           "ClrName": "Aborted",
-          "TsEmitName": "aborted",
+          "TsEmitName": "Aborted",
           "NormalizedSignature": "Aborted|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1281,7 +1281,7 @@
         },
         {
           "ClrName": "Aborted",
-          "TsEmitName": "aborted2",
+          "TsEmitName": "Aborted2",
           "NormalizedSignature": "Aborted|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1295,7 +1295,7 @@
         },
         {
           "ClrName": "Committed",
-          "TsEmitName": "committed",
+          "TsEmitName": "Committed",
           "NormalizedSignature": "Committed|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1309,7 +1309,7 @@
         },
         {
           "ClrName": "InDoubt",
-          "TsEmitName": "inDoubt",
+          "TsEmitName": "InDoubt",
           "NormalizedSignature": "InDoubt|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1323,7 +1323,7 @@
         },
         {
           "ClrName": "InDoubt",
-          "TsEmitName": "inDoubt2",
+          "TsEmitName": "InDoubt2",
           "NormalizedSignature": "InDoubt|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1353,7 +1353,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1368,7 +1368,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1383,7 +1383,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1397,7 +1397,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1433,7 +1433,7 @@
       "Methods": [
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1447,7 +1447,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1461,7 +1461,7 @@
         },
         {
           "ClrName": "GetPromotedToken",
-          "TsEmitName": "getPromotedToken",
+          "TsEmitName": "GetPromotedToken",
           "NormalizedSignature": "GetPromotedToken|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1475,7 +1475,7 @@
         },
         {
           "ClrName": "EnlistDurable",
-          "TsEmitName": "enlistDurable",
+          "TsEmitName": "EnlistDurable",
           "NormalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1489,7 +1489,7 @@
         },
         {
           "ClrName": "EnlistDurable",
-          "TsEmitName": "enlistDurable2",
+          "TsEmitName": "EnlistDurable2",
           "NormalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1503,7 +1503,7 @@
         },
         {
           "ClrName": "Rollback",
-          "TsEmitName": "rollback",
+          "TsEmitName": "Rollback",
           "NormalizedSignature": "Rollback|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1517,7 +1517,7 @@
         },
         {
           "ClrName": "Rollback",
-          "TsEmitName": "rollback2",
+          "TsEmitName": "Rollback2",
           "NormalizedSignature": "Rollback|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1531,7 +1531,7 @@
         },
         {
           "ClrName": "EnlistVolatile",
-          "TsEmitName": "enlistVolatile",
+          "TsEmitName": "EnlistVolatile",
           "NormalizedSignature": "EnlistVolatile|(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1545,7 +1545,7 @@
         },
         {
           "ClrName": "EnlistVolatile",
-          "TsEmitName": "enlistVolatile2",
+          "TsEmitName": "EnlistVolatile2",
           "NormalizedSignature": "EnlistVolatile|(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1559,7 +1559,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Transactions.Transaction|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1573,7 +1573,7 @@
         },
         {
           "ClrName": "DependentClone",
-          "TsEmitName": "dependentClone",
+          "TsEmitName": "DependentClone",
           "NormalizedSignature": "DependentClone|(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1587,7 +1587,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1601,7 +1601,7 @@
         },
         {
           "ClrName": "EnlistPromotableSinglePhase",
-          "TsEmitName": "enlistPromotableSinglePhase",
+          "TsEmitName": "EnlistPromotableSinglePhase",
           "NormalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1615,7 +1615,7 @@
         },
         {
           "ClrName": "EnlistPromotableSinglePhase",
-          "TsEmitName": "enlistPromotableSinglePhase2",
+          "TsEmitName": "EnlistPromotableSinglePhase2",
           "NormalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1629,7 +1629,7 @@
         },
         {
           "ClrName": "PromoteAndEnlistDurable",
-          "TsEmitName": "promoteAndEnlistDurable",
+          "TsEmitName": "PromoteAndEnlistDurable",
           "NormalizedSignature": "PromoteAndEnlistDurable|(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1643,7 +1643,7 @@
         },
         {
           "ClrName": "SetDistributedTransactionIdentifier",
-          "TsEmitName": "setDistributedTransactionIdentifier",
+          "TsEmitName": "SetDistributedTransactionIdentifier",
           "NormalizedSignature": "SetDistributedTransactionIdentifier|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1657,7 +1657,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1672,7 +1672,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1689,7 +1689,7 @@
       "Properties": [
         {
           "ClrName": "Current",
-          "TsEmitName": "current",
+          "TsEmitName": "Current",
           "NormalizedSignature": "Current|:System.Transactions.Transaction|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1703,7 +1703,7 @@
         },
         {
           "ClrName": "TransactionInformation",
-          "TsEmitName": "transactionInformation",
+          "TsEmitName": "TransactionInformation",
           "NormalizedSignature": "TransactionInformation|:System.Transactions.TransactionInformation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1717,7 +1717,7 @@
         },
         {
           "ClrName": "IsolationLevel",
-          "TsEmitName": "isolationLevel",
+          "TsEmitName": "IsolationLevel",
           "NormalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1731,7 +1731,7 @@
         },
         {
           "ClrName": "PromoterType",
-          "TsEmitName": "promoterType",
+          "TsEmitName": "PromoterType",
           "NormalizedSignature": "PromoterType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1748,7 +1748,7 @@
       "Events": [
         {
           "ClrName": "TransactionCompleted",
-          "TsEmitName": "transactionCompleted",
+          "TsEmitName": "TransactionCompleted",
           "NormalizedSignature": "TransactionCompleted|System.Transactions.TransactionCompletedEventHandler|static=false",
           "IsStatic": false
         }
@@ -1767,7 +1767,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1782,7 +1782,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1828,7 +1828,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1842,7 +1842,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1856,7 +1856,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1870,7 +1870,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1885,7 +1885,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1900,7 +1900,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1914,7 +1914,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1951,7 +1951,7 @@
       "Properties": [
         {
           "ClrName": "Transaction",
-          "TsEmitName": "transaction",
+          "TsEmitName": "Transaction",
           "NormalizedSignature": "Transaction|:System.Transactions.Transaction|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1986,7 +1986,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2001,7 +2001,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2047,7 +2047,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2062,7 +2062,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2109,7 +2109,7 @@
       "Properties": [
         {
           "ClrName": "LocalIdentifier",
-          "TsEmitName": "localIdentifier",
+          "TsEmitName": "LocalIdentifier",
           "NormalizedSignature": "LocalIdentifier|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2123,7 +2123,7 @@
         },
         {
           "ClrName": "DistributedIdentifier",
-          "TsEmitName": "distributedIdentifier",
+          "TsEmitName": "DistributedIdentifier",
           "NormalizedSignature": "DistributedIdentifier|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2137,7 +2137,7 @@
         },
         {
           "ClrName": "CreationTime",
-          "TsEmitName": "creationTime",
+          "TsEmitName": "CreationTime",
           "NormalizedSignature": "CreationTime|:System.DateTime|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2151,7 +2151,7 @@
         },
         {
           "ClrName": "Status",
-          "TsEmitName": "status",
+          "TsEmitName": "Status",
           "NormalizedSignature": "Status|:System.Transactions.TransactionStatus|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2180,7 +2180,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2195,7 +2195,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2241,7 +2241,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2256,7 +2256,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2302,7 +2302,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2316,7 +2316,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2330,7 +2330,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2432,7 +2432,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2446,7 +2446,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2460,7 +2460,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2474,7 +2474,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2489,7 +2489,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2504,7 +2504,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2518,7 +2518,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2554,7 +2554,7 @@
       "Methods": [
         {
           "ClrName": "GetExportCookie",
-          "TsEmitName": "getExportCookie",
+          "TsEmitName": "GetExportCookie",
           "NormalizedSignature": "GetExportCookie|(System.Transactions.Transaction,System.Byte[]):System.Byte[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2568,7 +2568,7 @@
         },
         {
           "ClrName": "GetTransactionFromExportCookie",
-          "TsEmitName": "getTransactionFromExportCookie",
+          "TsEmitName": "GetTransactionFromExportCookie",
           "NormalizedSignature": "GetTransactionFromExportCookie|(System.Byte[]):System.Transactions.Transaction|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2582,7 +2582,7 @@
         },
         {
           "ClrName": "GetTransmitterPropagationToken",
-          "TsEmitName": "getTransmitterPropagationToken",
+          "TsEmitName": "GetTransmitterPropagationToken",
           "NormalizedSignature": "GetTransmitterPropagationToken|(System.Transactions.Transaction):System.Byte[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2596,7 +2596,7 @@
         },
         {
           "ClrName": "GetTransactionFromTransmitterPropagationToken",
-          "TsEmitName": "getTransactionFromTransmitterPropagationToken",
+          "TsEmitName": "GetTransactionFromTransmitterPropagationToken",
           "NormalizedSignature": "GetTransactionFromTransmitterPropagationToken|(System.Byte[]):System.Transactions.Transaction|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2610,7 +2610,7 @@
         },
         {
           "ClrName": "GetDtcTransaction",
-          "TsEmitName": "getDtcTransaction",
+          "TsEmitName": "GetDtcTransaction",
           "NormalizedSignature": "GetDtcTransaction|(System.Transactions.Transaction):System.Transactions.IDtcTransaction|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2624,7 +2624,7 @@
         },
         {
           "ClrName": "GetTransactionFromDtcTransaction",
-          "TsEmitName": "getTransactionFromDtcTransaction",
+          "TsEmitName": "GetTransactionFromDtcTransaction",
           "NormalizedSignature": "GetTransactionFromDtcTransaction|(System.Transactions.IDtcTransaction):System.Transactions.Transaction|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2638,7 +2638,7 @@
         },
         {
           "ClrName": "GetWhereabouts",
-          "TsEmitName": "getWhereabouts",
+          "TsEmitName": "GetWhereabouts",
           "NormalizedSignature": "GetWhereabouts|():System.Byte[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2655,7 +2655,7 @@
       "Fields": [
         {
           "ClrName": "PromoterTypeDtc",
-          "TsEmitName": "promoterTypeDtc",
+          "TsEmitName": "PromoterTypeDtc",
           "NormalizedSignature": "PromoterTypeDtc|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -2677,7 +2677,7 @@
       "Methods": [
         {
           "ClrName": "Reenlist",
-          "TsEmitName": "reenlist",
+          "TsEmitName": "Reenlist",
           "NormalizedSignature": "Reenlist|(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2691,7 +2691,7 @@
         },
         {
           "ClrName": "RecoveryComplete",
-          "TsEmitName": "recoveryComplete",
+          "TsEmitName": "RecoveryComplete",
           "NormalizedSignature": "RecoveryComplete|(System.Guid):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2707,7 +2707,7 @@
       "Properties": [
         {
           "ClrName": "HostCurrentCallback",
-          "TsEmitName": "hostCurrentCallback",
+          "TsEmitName": "HostCurrentCallback",
           "NormalizedSignature": "HostCurrentCallback|:System.Transactions.HostCurrentTransactionCallback|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2721,7 +2721,7 @@
         },
         {
           "ClrName": "DefaultTimeout",
-          "TsEmitName": "defaultTimeout",
+          "TsEmitName": "DefaultTimeout",
           "NormalizedSignature": "DefaultTimeout|:System.TimeSpan|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2735,7 +2735,7 @@
         },
         {
           "ClrName": "MaximumTimeout",
-          "TsEmitName": "maximumTimeout",
+          "TsEmitName": "MaximumTimeout",
           "NormalizedSignature": "MaximumTimeout|:System.TimeSpan|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2749,7 +2749,7 @@
         },
         {
           "ClrName": "ImplicitDistributedTransactions",
-          "TsEmitName": "implicitDistributedTransactions",
+          "TsEmitName": "ImplicitDistributedTransactions",
           "NormalizedSignature": "ImplicitDistributedTransactions|:System.Boolean|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2766,7 +2766,7 @@
       "Events": [
         {
           "ClrName": "DistributedTransactionStarted",
-          "TsEmitName": "distributedTransactionStarted",
+          "TsEmitName": "DistributedTransactionStarted",
           "NormalizedSignature": "DistributedTransactionStarted|System.Transactions.TransactionStartedEventHandler|static=true",
           "IsStatic": true
         }

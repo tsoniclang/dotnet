@@ -1,10 +1,10 @@
 {
   "Namespace": "System.Security.AccessControl",
   "ContributingAssemblies": [
-    "System.IO.FileSystem.AccessControl",
     "Microsoft.Win32.Registry",
-    "System.Threading.AccessControl",
-    "System.Security.AccessControl"
+    "System.IO.FileSystem.AccessControl",
+    "System.Security.AccessControl",
+    "System.Threading.AccessControl"
   ],
   "Types": [
     {
@@ -29,7 +29,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.AccessControlActions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -37,7 +37,7 @@
         },
         {
           "ClrName": "View",
-          "TsEmitName": "view",
+          "TsEmitName": "View",
           "NormalizedSignature": "View|System.Security.AccessControl.AccessControlActions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -45,7 +45,7 @@
         },
         {
           "ClrName": "Change",
-          "TsEmitName": "change",
+          "TsEmitName": "Change",
           "NormalizedSignature": "Change|System.Security.AccessControl.AccessControlActions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -77,7 +77,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -85,7 +85,7 @@
         },
         {
           "ClrName": "Set",
-          "TsEmitName": "set_",
+          "TsEmitName": "Set",
           "NormalizedSignature": "Set|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -93,7 +93,7 @@
         },
         {
           "ClrName": "Reset",
-          "TsEmitName": "reset",
+          "TsEmitName": "Reset",
           "NormalizedSignature": "Reset|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -101,7 +101,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -109,7 +109,7 @@
         },
         {
           "ClrName": "RemoveAll",
-          "TsEmitName": "removeAll",
+          "TsEmitName": "RemoveAll",
           "NormalizedSignature": "RemoveAll|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -117,7 +117,7 @@
         },
         {
           "ClrName": "RemoveSpecific",
-          "TsEmitName": "removeSpecific",
+          "TsEmitName": "RemoveSpecific",
           "NormalizedSignature": "RemoveSpecific|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -149,7 +149,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -157,7 +157,7 @@
         },
         {
           "ClrName": "Audit",
-          "TsEmitName": "audit",
+          "TsEmitName": "Audit",
           "NormalizedSignature": "Audit|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -165,7 +165,7 @@
         },
         {
           "ClrName": "Access",
-          "TsEmitName": "access",
+          "TsEmitName": "Access",
           "NormalizedSignature": "Access|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -173,7 +173,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -181,7 +181,7 @@
         },
         {
           "ClrName": "Group",
-          "TsEmitName": "group",
+          "TsEmitName": "Group",
           "NormalizedSignature": "Group|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -189,7 +189,7 @@
         },
         {
           "ClrName": "All",
-          "TsEmitName": "all",
+          "TsEmitName": "All",
           "NormalizedSignature": "All|System.Security.AccessControl.AccessControlSections|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -221,7 +221,7 @@
         },
         {
           "ClrName": "Allow",
-          "TsEmitName": "allow",
+          "TsEmitName": "Allow",
           "NormalizedSignature": "Allow|System.Security.AccessControl.AccessControlType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -229,7 +229,7 @@
         },
         {
           "ClrName": "Deny",
-          "TsEmitName": "deny",
+          "TsEmitName": "Deny",
           "NormalizedSignature": "Deny|System.Security.AccessControl.AccessControlType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -261,7 +261,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -269,7 +269,7 @@
         },
         {
           "ClrName": "ObjectInherit",
-          "TsEmitName": "objectInherit",
+          "TsEmitName": "ObjectInherit",
           "NormalizedSignature": "ObjectInherit|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -277,7 +277,7 @@
         },
         {
           "ClrName": "ContainerInherit",
-          "TsEmitName": "containerInherit",
+          "TsEmitName": "ContainerInherit",
           "NormalizedSignature": "ContainerInherit|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -285,7 +285,7 @@
         },
         {
           "ClrName": "NoPropagateInherit",
-          "TsEmitName": "noPropagateInherit",
+          "TsEmitName": "NoPropagateInherit",
           "NormalizedSignature": "NoPropagateInherit|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -293,7 +293,7 @@
         },
         {
           "ClrName": "InheritOnly",
-          "TsEmitName": "inheritOnly",
+          "TsEmitName": "InheritOnly",
           "NormalizedSignature": "InheritOnly|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -301,7 +301,7 @@
         },
         {
           "ClrName": "InheritanceFlags",
-          "TsEmitName": "inheritanceFlags",
+          "TsEmitName": "InheritanceFlags",
           "NormalizedSignature": "InheritanceFlags|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -309,7 +309,7 @@
         },
         {
           "ClrName": "Inherited",
-          "TsEmitName": "inherited",
+          "TsEmitName": "Inherited",
           "NormalizedSignature": "Inherited|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -317,7 +317,7 @@
         },
         {
           "ClrName": "SuccessfulAccess",
-          "TsEmitName": "successfulAccess",
+          "TsEmitName": "SuccessfulAccess",
           "NormalizedSignature": "SuccessfulAccess|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -325,7 +325,7 @@
         },
         {
           "ClrName": "FailedAccess",
-          "TsEmitName": "failedAccess",
+          "TsEmitName": "FailedAccess",
           "NormalizedSignature": "FailedAccess|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -333,7 +333,7 @@
         },
         {
           "ClrName": "AuditFlags",
-          "TsEmitName": "auditFlags",
+          "TsEmitName": "AuditFlags",
           "NormalizedSignature": "AuditFlags|System.Security.AccessControl.AceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -365,7 +365,7 @@
         },
         {
           "ClrName": "AccessAllowed",
-          "TsEmitName": "accessAllowed",
+          "TsEmitName": "AccessAllowed",
           "NormalizedSignature": "AccessAllowed|System.Security.AccessControl.AceQualifier|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -373,7 +373,7 @@
         },
         {
           "ClrName": "AccessDenied",
-          "TsEmitName": "accessDenied",
+          "TsEmitName": "AccessDenied",
           "NormalizedSignature": "AccessDenied|System.Security.AccessControl.AceQualifier|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -381,7 +381,7 @@
         },
         {
           "ClrName": "SystemAudit",
-          "TsEmitName": "systemAudit",
+          "TsEmitName": "SystemAudit",
           "NormalizedSignature": "SystemAudit|System.Security.AccessControl.AceQualifier|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -389,7 +389,7 @@
         },
         {
           "ClrName": "SystemAlarm",
-          "TsEmitName": "systemAlarm",
+          "TsEmitName": "SystemAlarm",
           "NormalizedSignature": "SystemAlarm|System.Security.AccessControl.AceQualifier|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -421,7 +421,7 @@
         },
         {
           "ClrName": "AccessAllowed",
-          "TsEmitName": "accessAllowed",
+          "TsEmitName": "AccessAllowed",
           "NormalizedSignature": "AccessAllowed|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -429,7 +429,7 @@
         },
         {
           "ClrName": "AccessDenied",
-          "TsEmitName": "accessDenied",
+          "TsEmitName": "AccessDenied",
           "NormalizedSignature": "AccessDenied|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -437,7 +437,7 @@
         },
         {
           "ClrName": "SystemAudit",
-          "TsEmitName": "systemAudit",
+          "TsEmitName": "SystemAudit",
           "NormalizedSignature": "SystemAudit|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -445,7 +445,7 @@
         },
         {
           "ClrName": "SystemAlarm",
-          "TsEmitName": "systemAlarm",
+          "TsEmitName": "SystemAlarm",
           "NormalizedSignature": "SystemAlarm|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -453,7 +453,7 @@
         },
         {
           "ClrName": "AccessAllowedCompound",
-          "TsEmitName": "accessAllowedCompound",
+          "TsEmitName": "AccessAllowedCompound",
           "NormalizedSignature": "AccessAllowedCompound|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -461,7 +461,7 @@
         },
         {
           "ClrName": "AccessAllowedObject",
-          "TsEmitName": "accessAllowedObject",
+          "TsEmitName": "AccessAllowedObject",
           "NormalizedSignature": "AccessAllowedObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -469,7 +469,7 @@
         },
         {
           "ClrName": "AccessDeniedObject",
-          "TsEmitName": "accessDeniedObject",
+          "TsEmitName": "AccessDeniedObject",
           "NormalizedSignature": "AccessDeniedObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -477,7 +477,7 @@
         },
         {
           "ClrName": "SystemAuditObject",
-          "TsEmitName": "systemAuditObject",
+          "TsEmitName": "SystemAuditObject",
           "NormalizedSignature": "SystemAuditObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -485,7 +485,7 @@
         },
         {
           "ClrName": "SystemAlarmObject",
-          "TsEmitName": "systemAlarmObject",
+          "TsEmitName": "SystemAlarmObject",
           "NormalizedSignature": "SystemAlarmObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -493,7 +493,7 @@
         },
         {
           "ClrName": "AccessAllowedCallback",
-          "TsEmitName": "accessAllowedCallback",
+          "TsEmitName": "AccessAllowedCallback",
           "NormalizedSignature": "AccessAllowedCallback|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -501,7 +501,7 @@
         },
         {
           "ClrName": "AccessDeniedCallback",
-          "TsEmitName": "accessDeniedCallback",
+          "TsEmitName": "AccessDeniedCallback",
           "NormalizedSignature": "AccessDeniedCallback|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -509,7 +509,7 @@
         },
         {
           "ClrName": "AccessAllowedCallbackObject",
-          "TsEmitName": "accessAllowedCallbackObject",
+          "TsEmitName": "AccessAllowedCallbackObject",
           "NormalizedSignature": "AccessAllowedCallbackObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -517,7 +517,7 @@
         },
         {
           "ClrName": "AccessDeniedCallbackObject",
-          "TsEmitName": "accessDeniedCallbackObject",
+          "TsEmitName": "AccessDeniedCallbackObject",
           "NormalizedSignature": "AccessDeniedCallbackObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -525,7 +525,7 @@
         },
         {
           "ClrName": "SystemAuditCallback",
-          "TsEmitName": "systemAuditCallback",
+          "TsEmitName": "SystemAuditCallback",
           "NormalizedSignature": "SystemAuditCallback|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -533,7 +533,7 @@
         },
         {
           "ClrName": "SystemAlarmCallback",
-          "TsEmitName": "systemAlarmCallback",
+          "TsEmitName": "SystemAlarmCallback",
           "NormalizedSignature": "SystemAlarmCallback|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -541,7 +541,7 @@
         },
         {
           "ClrName": "SystemAuditCallbackObject",
-          "TsEmitName": "systemAuditCallbackObject",
+          "TsEmitName": "SystemAuditCallbackObject",
           "NormalizedSignature": "SystemAuditCallbackObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -549,7 +549,7 @@
         },
         {
           "ClrName": "MaxDefinedAceType",
-          "TsEmitName": "maxDefinedAceType",
+          "TsEmitName": "MaxDefinedAceType",
           "NormalizedSignature": "MaxDefinedAceType|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -557,7 +557,7 @@
         },
         {
           "ClrName": "SystemAlarmCallbackObject",
-          "TsEmitName": "systemAlarmCallbackObject",
+          "TsEmitName": "SystemAlarmCallbackObject",
           "NormalizedSignature": "SystemAlarmCallbackObject|System.Security.AccessControl.AceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -589,7 +589,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.AuditFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -597,7 +597,7 @@
         },
         {
           "ClrName": "Success",
-          "TsEmitName": "success",
+          "TsEmitName": "Success",
           "NormalizedSignature": "Success|System.Security.AccessControl.AuditFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -605,7 +605,7 @@
         },
         {
           "ClrName": "Failure",
-          "TsEmitName": "failure",
+          "TsEmitName": "Failure",
           "NormalizedSignature": "Failure|System.Security.AccessControl.AuditFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -637,7 +637,7 @@
         },
         {
           "ClrName": "Impersonation",
-          "TsEmitName": "impersonation",
+          "TsEmitName": "Impersonation",
           "NormalizedSignature": "Impersonation|System.Security.AccessControl.CompoundAceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -669,7 +669,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -677,7 +677,7 @@
         },
         {
           "ClrName": "OwnerDefaulted",
-          "TsEmitName": "ownerDefaulted",
+          "TsEmitName": "OwnerDefaulted",
           "NormalizedSignature": "OwnerDefaulted|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -685,7 +685,7 @@
         },
         {
           "ClrName": "GroupDefaulted",
-          "TsEmitName": "groupDefaulted",
+          "TsEmitName": "GroupDefaulted",
           "NormalizedSignature": "GroupDefaulted|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -693,7 +693,7 @@
         },
         {
           "ClrName": "DiscretionaryAclPresent",
-          "TsEmitName": "discretionaryAclPresent",
+          "TsEmitName": "DiscretionaryAclPresent",
           "NormalizedSignature": "DiscretionaryAclPresent|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -701,7 +701,7 @@
         },
         {
           "ClrName": "DiscretionaryAclDefaulted",
-          "TsEmitName": "discretionaryAclDefaulted",
+          "TsEmitName": "DiscretionaryAclDefaulted",
           "NormalizedSignature": "DiscretionaryAclDefaulted|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -709,7 +709,7 @@
         },
         {
           "ClrName": "SystemAclPresent",
-          "TsEmitName": "systemAclPresent",
+          "TsEmitName": "SystemAclPresent",
           "NormalizedSignature": "SystemAclPresent|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -717,7 +717,7 @@
         },
         {
           "ClrName": "SystemAclDefaulted",
-          "TsEmitName": "systemAclDefaulted",
+          "TsEmitName": "SystemAclDefaulted",
           "NormalizedSignature": "SystemAclDefaulted|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -725,7 +725,7 @@
         },
         {
           "ClrName": "DiscretionaryAclUntrusted",
-          "TsEmitName": "discretionaryAclUntrusted",
+          "TsEmitName": "DiscretionaryAclUntrusted",
           "NormalizedSignature": "DiscretionaryAclUntrusted|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -733,7 +733,7 @@
         },
         {
           "ClrName": "ServerSecurity",
-          "TsEmitName": "serverSecurity",
+          "TsEmitName": "ServerSecurity",
           "NormalizedSignature": "ServerSecurity|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -741,7 +741,7 @@
         },
         {
           "ClrName": "DiscretionaryAclAutoInheritRequired",
-          "TsEmitName": "discretionaryAclAutoInheritRequired",
+          "TsEmitName": "DiscretionaryAclAutoInheritRequired",
           "NormalizedSignature": "DiscretionaryAclAutoInheritRequired|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -749,7 +749,7 @@
         },
         {
           "ClrName": "SystemAclAutoInheritRequired",
-          "TsEmitName": "systemAclAutoInheritRequired",
+          "TsEmitName": "SystemAclAutoInheritRequired",
           "NormalizedSignature": "SystemAclAutoInheritRequired|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -757,7 +757,7 @@
         },
         {
           "ClrName": "DiscretionaryAclAutoInherited",
-          "TsEmitName": "discretionaryAclAutoInherited",
+          "TsEmitName": "DiscretionaryAclAutoInherited",
           "NormalizedSignature": "DiscretionaryAclAutoInherited|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -765,7 +765,7 @@
         },
         {
           "ClrName": "SystemAclAutoInherited",
-          "TsEmitName": "systemAclAutoInherited",
+          "TsEmitName": "SystemAclAutoInherited",
           "NormalizedSignature": "SystemAclAutoInherited|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -773,7 +773,7 @@
         },
         {
           "ClrName": "DiscretionaryAclProtected",
-          "TsEmitName": "discretionaryAclProtected",
+          "TsEmitName": "DiscretionaryAclProtected",
           "NormalizedSignature": "DiscretionaryAclProtected|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -781,7 +781,7 @@
         },
         {
           "ClrName": "SystemAclProtected",
-          "TsEmitName": "systemAclProtected",
+          "TsEmitName": "SystemAclProtected",
           "NormalizedSignature": "SystemAclProtected|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -789,7 +789,7 @@
         },
         {
           "ClrName": "RMControlValid",
-          "TsEmitName": "rmControlValid",
+          "TsEmitName": "RMControlValid",
           "NormalizedSignature": "RMControlValid|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -797,7 +797,7 @@
         },
         {
           "ClrName": "SelfRelative",
-          "TsEmitName": "selfRelative",
+          "TsEmitName": "SelfRelative",
           "NormalizedSignature": "SelfRelative|System.Security.AccessControl.ControlFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -829,7 +829,7 @@
         },
         {
           "ClrName": "Modify",
-          "TsEmitName": "modify",
+          "TsEmitName": "Modify",
           "NormalizedSignature": "Modify|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -837,7 +837,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -845,7 +845,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -853,7 +853,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -861,7 +861,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -869,7 +869,7 @@
         },
         {
           "ClrName": "Synchronize",
-          "TsEmitName": "synchronize",
+          "TsEmitName": "Synchronize",
           "NormalizedSignature": "Synchronize|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -877,7 +877,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -909,7 +909,7 @@
         },
         {
           "ClrName": "ListDirectory",
-          "TsEmitName": "listDirectory",
+          "TsEmitName": "ListDirectory",
           "NormalizedSignature": "ListDirectory|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -917,7 +917,7 @@
         },
         {
           "ClrName": "ReadData",
-          "TsEmitName": "readData",
+          "TsEmitName": "ReadData",
           "NormalizedSignature": "ReadData|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -925,7 +925,7 @@
         },
         {
           "ClrName": "CreateFiles",
-          "TsEmitName": "createFiles",
+          "TsEmitName": "CreateFiles",
           "NormalizedSignature": "CreateFiles|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -933,7 +933,7 @@
         },
         {
           "ClrName": "WriteData",
-          "TsEmitName": "writeData",
+          "TsEmitName": "WriteData",
           "NormalizedSignature": "WriteData|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -941,7 +941,7 @@
         },
         {
           "ClrName": "AppendData",
-          "TsEmitName": "appendData",
+          "TsEmitName": "AppendData",
           "NormalizedSignature": "AppendData|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -949,7 +949,7 @@
         },
         {
           "ClrName": "CreateDirectories",
-          "TsEmitName": "createDirectories",
+          "TsEmitName": "CreateDirectories",
           "NormalizedSignature": "CreateDirectories|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -957,7 +957,7 @@
         },
         {
           "ClrName": "ReadExtendedAttributes",
-          "TsEmitName": "readExtendedAttributes",
+          "TsEmitName": "ReadExtendedAttributes",
           "NormalizedSignature": "ReadExtendedAttributes|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -965,7 +965,7 @@
         },
         {
           "ClrName": "WriteExtendedAttributes",
-          "TsEmitName": "writeExtendedAttributes",
+          "TsEmitName": "WriteExtendedAttributes",
           "NormalizedSignature": "WriteExtendedAttributes|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -973,7 +973,7 @@
         },
         {
           "ClrName": "ExecuteFile",
-          "TsEmitName": "executeFile",
+          "TsEmitName": "ExecuteFile",
           "NormalizedSignature": "ExecuteFile|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -981,7 +981,7 @@
         },
         {
           "ClrName": "Traverse",
-          "TsEmitName": "traverse",
+          "TsEmitName": "Traverse",
           "NormalizedSignature": "Traverse|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -989,7 +989,7 @@
         },
         {
           "ClrName": "DeleteSubdirectoriesAndFiles",
-          "TsEmitName": "deleteSubdirectoriesAndFiles",
+          "TsEmitName": "DeleteSubdirectoriesAndFiles",
           "NormalizedSignature": "DeleteSubdirectoriesAndFiles|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -997,7 +997,7 @@
         },
         {
           "ClrName": "ReadAttributes",
-          "TsEmitName": "readAttributes",
+          "TsEmitName": "ReadAttributes",
           "NormalizedSignature": "ReadAttributes|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1005,7 +1005,7 @@
         },
         {
           "ClrName": "WriteAttributes",
-          "TsEmitName": "writeAttributes",
+          "TsEmitName": "WriteAttributes",
           "NormalizedSignature": "WriteAttributes|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1013,7 +1013,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1021,7 +1021,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1029,7 +1029,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1037,7 +1037,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1045,7 +1045,7 @@
         },
         {
           "ClrName": "ReadAndExecute",
-          "TsEmitName": "readAndExecute",
+          "TsEmitName": "ReadAndExecute",
           "NormalizedSignature": "ReadAndExecute|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1053,7 +1053,7 @@
         },
         {
           "ClrName": "Modify",
-          "TsEmitName": "modify",
+          "TsEmitName": "Modify",
           "NormalizedSignature": "Modify|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1061,7 +1061,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1069,7 +1069,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1077,7 +1077,7 @@
         },
         {
           "ClrName": "Synchronize",
-          "TsEmitName": "synchronize",
+          "TsEmitName": "Synchronize",
           "NormalizedSignature": "Synchronize|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1085,7 +1085,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1117,7 +1117,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.InheritanceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1125,7 +1125,7 @@
         },
         {
           "ClrName": "ContainerInherit",
-          "TsEmitName": "containerInherit",
+          "TsEmitName": "ContainerInherit",
           "NormalizedSignature": "ContainerInherit|System.Security.AccessControl.InheritanceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1133,7 +1133,7 @@
         },
         {
           "ClrName": "ObjectInherit",
-          "TsEmitName": "objectInherit",
+          "TsEmitName": "ObjectInherit",
           "NormalizedSignature": "ObjectInherit|System.Security.AccessControl.InheritanceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1165,7 +1165,7 @@
         },
         {
           "ClrName": "Modify",
-          "TsEmitName": "modify",
+          "TsEmitName": "Modify",
           "NormalizedSignature": "Modify|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1173,7 +1173,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1181,7 +1181,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1189,7 +1189,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1197,7 +1197,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1205,7 +1205,7 @@
         },
         {
           "ClrName": "Synchronize",
-          "TsEmitName": "synchronize",
+          "TsEmitName": "Synchronize",
           "NormalizedSignature": "Synchronize|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1213,7 +1213,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.Security.AccessControl.MutexRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1245,7 +1245,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.ObjectAceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1253,7 +1253,7 @@
         },
         {
           "ClrName": "ObjectAceTypePresent",
-          "TsEmitName": "objectAceTypePresent",
+          "TsEmitName": "ObjectAceTypePresent",
           "NormalizedSignature": "ObjectAceTypePresent|System.Security.AccessControl.ObjectAceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1261,7 +1261,7 @@
         },
         {
           "ClrName": "InheritedObjectAceTypePresent",
-          "TsEmitName": "inheritedObjectAceTypePresent",
+          "TsEmitName": "InheritedObjectAceTypePresent",
           "NormalizedSignature": "InheritedObjectAceTypePresent|System.Security.AccessControl.ObjectAceFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1293,7 +1293,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.AccessControl.PropagationFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1301,7 +1301,7 @@
         },
         {
           "ClrName": "NoPropagateInherit",
-          "TsEmitName": "noPropagateInherit",
+          "TsEmitName": "NoPropagateInherit",
           "NormalizedSignature": "NoPropagateInherit|System.Security.AccessControl.PropagationFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1309,7 +1309,7 @@
         },
         {
           "ClrName": "InheritOnly",
-          "TsEmitName": "inheritOnly",
+          "TsEmitName": "InheritOnly",
           "NormalizedSignature": "InheritOnly|System.Security.AccessControl.PropagationFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1341,7 +1341,7 @@
         },
         {
           "ClrName": "QueryValues",
-          "TsEmitName": "queryValues",
+          "TsEmitName": "QueryValues",
           "NormalizedSignature": "QueryValues|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1349,7 +1349,7 @@
         },
         {
           "ClrName": "SetValue",
-          "TsEmitName": "setValue",
+          "TsEmitName": "SetValue",
           "NormalizedSignature": "SetValue|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1357,7 +1357,7 @@
         },
         {
           "ClrName": "CreateSubKey",
-          "TsEmitName": "createSubKey",
+          "TsEmitName": "CreateSubKey",
           "NormalizedSignature": "CreateSubKey|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1365,7 +1365,7 @@
         },
         {
           "ClrName": "EnumerateSubKeys",
-          "TsEmitName": "enumerateSubKeys",
+          "TsEmitName": "EnumerateSubKeys",
           "NormalizedSignature": "EnumerateSubKeys|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1373,7 +1373,7 @@
         },
         {
           "ClrName": "Notify",
-          "TsEmitName": "notify",
+          "TsEmitName": "Notify",
           "NormalizedSignature": "Notify|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1381,7 +1381,7 @@
         },
         {
           "ClrName": "CreateLink",
-          "TsEmitName": "createLink",
+          "TsEmitName": "CreateLink",
           "NormalizedSignature": "CreateLink|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1389,7 +1389,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1397,7 +1397,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1405,7 +1405,7 @@
         },
         {
           "ClrName": "WriteKey",
-          "TsEmitName": "writeKey",
+          "TsEmitName": "WriteKey",
           "NormalizedSignature": "WriteKey|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1413,7 +1413,7 @@
         },
         {
           "ClrName": "ExecuteKey",
-          "TsEmitName": "executeKey",
+          "TsEmitName": "ExecuteKey",
           "NormalizedSignature": "ExecuteKey|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1421,7 +1421,7 @@
         },
         {
           "ClrName": "ReadKey",
-          "TsEmitName": "readKey",
+          "TsEmitName": "ReadKey",
           "NormalizedSignature": "ReadKey|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1429,7 +1429,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1437,7 +1437,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1445,7 +1445,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1477,7 +1477,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1485,7 +1485,7 @@
         },
         {
           "ClrName": "FileObject",
-          "TsEmitName": "fileObject",
+          "TsEmitName": "FileObject",
           "NormalizedSignature": "FileObject|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1493,7 +1493,7 @@
         },
         {
           "ClrName": "Service",
-          "TsEmitName": "service",
+          "TsEmitName": "Service",
           "NormalizedSignature": "Service|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1501,7 +1501,7 @@
         },
         {
           "ClrName": "Printer",
-          "TsEmitName": "printer",
+          "TsEmitName": "Printer",
           "NormalizedSignature": "Printer|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1509,7 +1509,7 @@
         },
         {
           "ClrName": "RegistryKey",
-          "TsEmitName": "registryKey",
+          "TsEmitName": "RegistryKey",
           "NormalizedSignature": "RegistryKey|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1517,7 +1517,7 @@
         },
         {
           "ClrName": "LMShare",
-          "TsEmitName": "lmShare",
+          "TsEmitName": "LMShare",
           "NormalizedSignature": "LMShare|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1525,7 +1525,7 @@
         },
         {
           "ClrName": "KernelObject",
-          "TsEmitName": "kernelObject",
+          "TsEmitName": "KernelObject",
           "NormalizedSignature": "KernelObject|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1533,7 +1533,7 @@
         },
         {
           "ClrName": "WindowObject",
-          "TsEmitName": "windowObject",
+          "TsEmitName": "WindowObject",
           "NormalizedSignature": "WindowObject|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1541,7 +1541,7 @@
         },
         {
           "ClrName": "DSObject",
-          "TsEmitName": "dsObject",
+          "TsEmitName": "DSObject",
           "NormalizedSignature": "DSObject|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1549,7 +1549,7 @@
         },
         {
           "ClrName": "DSObjectAll",
-          "TsEmitName": "dsObjectAll",
+          "TsEmitName": "DSObjectAll",
           "NormalizedSignature": "DSObjectAll|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1557,7 +1557,7 @@
         },
         {
           "ClrName": "ProviderDefined",
-          "TsEmitName": "providerDefined",
+          "TsEmitName": "ProviderDefined",
           "NormalizedSignature": "ProviderDefined|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1565,7 +1565,7 @@
         },
         {
           "ClrName": "WmiGuidObject",
-          "TsEmitName": "wmiGuidObject",
+          "TsEmitName": "WmiGuidObject",
           "NormalizedSignature": "WmiGuidObject|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1573,7 +1573,7 @@
         },
         {
           "ClrName": "RegistryWow6432Key",
-          "TsEmitName": "registryWow6432Key",
+          "TsEmitName": "RegistryWow6432Key",
           "NormalizedSignature": "RegistryWow6432Key|System.Security.AccessControl.ResourceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1605,7 +1605,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|System.Security.AccessControl.SecurityInfos|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1613,7 +1613,7 @@
         },
         {
           "ClrName": "Group",
-          "TsEmitName": "group",
+          "TsEmitName": "Group",
           "NormalizedSignature": "Group|System.Security.AccessControl.SecurityInfos|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1621,7 +1621,7 @@
         },
         {
           "ClrName": "DiscretionaryAcl",
-          "TsEmitName": "discretionaryAcl",
+          "TsEmitName": "DiscretionaryAcl",
           "NormalizedSignature": "DiscretionaryAcl|System.Security.AccessControl.SecurityInfos|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1629,7 +1629,7 @@
         },
         {
           "ClrName": "SystemAcl",
-          "TsEmitName": "systemAcl",
+          "TsEmitName": "SystemAcl",
           "NormalizedSignature": "SystemAcl|System.Security.AccessControl.SecurityInfos|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1661,7 +1661,7 @@
         },
         {
           "ClrName": "Modify",
-          "TsEmitName": "modify",
+          "TsEmitName": "Modify",
           "NormalizedSignature": "Modify|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1669,7 +1669,7 @@
         },
         {
           "ClrName": "Delete",
-          "TsEmitName": "delete_",
+          "TsEmitName": "Delete",
           "NormalizedSignature": "Delete|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1677,7 +1677,7 @@
         },
         {
           "ClrName": "ReadPermissions",
-          "TsEmitName": "readPermissions",
+          "TsEmitName": "ReadPermissions",
           "NormalizedSignature": "ReadPermissions|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1685,7 +1685,7 @@
         },
         {
           "ClrName": "ChangePermissions",
-          "TsEmitName": "changePermissions",
+          "TsEmitName": "ChangePermissions",
           "NormalizedSignature": "ChangePermissions|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1693,7 +1693,7 @@
         },
         {
           "ClrName": "TakeOwnership",
-          "TsEmitName": "takeOwnership",
+          "TsEmitName": "TakeOwnership",
           "NormalizedSignature": "TakeOwnership|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1701,7 +1701,7 @@
         },
         {
           "ClrName": "Synchronize",
-          "TsEmitName": "synchronize",
+          "TsEmitName": "Synchronize",
           "NormalizedSignature": "Synchronize|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1709,7 +1709,7 @@
         },
         {
           "ClrName": "FullControl",
-          "TsEmitName": "fullControl",
+          "TsEmitName": "FullControl",
           "NormalizedSignature": "FullControl|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1732,7 +1732,7 @@
       "Properties": [
         {
           "ClrName": "AccessControlType",
-          "TsEmitName": "accessControlType",
+          "TsEmitName": "AccessControlType",
           "NormalizedSignature": "AccessControlType|:System.Security.AccessControl.AccessControlType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1762,7 +1762,7 @@
       "Properties": [
         {
           "ClrName": "Rights",
-          "TsEmitName": "rights",
+          "TsEmitName": "Rights",
           "NormalizedSignature": "Rights|:T|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1812,7 +1812,7 @@
       "Methods": [
         {
           "ClrName": "MoveNext",
-          "TsEmitName": "moveNext",
+          "TsEmitName": "MoveNext",
           "NormalizedSignature": "MoveNext|():System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1826,7 +1826,7 @@
         },
         {
           "ClrName": "Reset",
-          "TsEmitName": "reset",
+          "TsEmitName": "Reset",
           "NormalizedSignature": "Reset|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1840,7 +1840,7 @@
         },
         {
           "ClrName": "MoveNext",
-          "TsEmitName": "moveNext$view",
+          "TsEmitName": "MoveNext$view",
           "NormalizedSignature": "MoveNext|():System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1855,7 +1855,7 @@
         },
         {
           "ClrName": "Reset",
-          "TsEmitName": "reset$view",
+          "TsEmitName": "Reset$view",
           "NormalizedSignature": "Reset|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1872,7 +1872,7 @@
       "Properties": [
         {
           "ClrName": "Current",
-          "TsEmitName": "current",
+          "TsEmitName": "Current",
           "NormalizedSignature": "Current|:System.Security.AccessControl.GenericAce|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1886,7 +1886,7 @@
         },
         {
           "ClrName": "Current",
-          "TsEmitName": "current$view",
+          "TsEmitName": "Current$view",
           "NormalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1917,7 +1917,7 @@
       "Properties": [
         {
           "ClrName": "AuditFlags",
-          "TsEmitName": "auditFlags",
+          "TsEmitName": "AuditFlags",
           "NormalizedSignature": "AuditFlags|:System.Security.AccessControl.AuditFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1947,7 +1947,7 @@
       "Properties": [
         {
           "ClrName": "Rights",
-          "TsEmitName": "rights",
+          "TsEmitName": "Rights",
           "NormalizedSignature": "Rights|:T|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1998,7 +1998,7 @@
       "Properties": [
         {
           "ClrName": "IdentityReference",
-          "TsEmitName": "identityReference",
+          "TsEmitName": "IdentityReference",
           "NormalizedSignature": "IdentityReference|:System.Security.Principal.IdentityReference|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2012,7 +2012,7 @@
         },
         {
           "ClrName": "InheritanceFlags",
-          "TsEmitName": "inheritanceFlags",
+          "TsEmitName": "InheritanceFlags",
           "NormalizedSignature": "InheritanceFlags|:System.Security.AccessControl.InheritanceFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2026,7 +2026,7 @@
         },
         {
           "ClrName": "IsInherited",
-          "TsEmitName": "isInherited",
+          "TsEmitName": "IsInherited",
           "NormalizedSignature": "IsInherited|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2040,7 +2040,7 @@
         },
         {
           "ClrName": "PropagationFlags",
-          "TsEmitName": "propagationFlags",
+          "TsEmitName": "PropagationFlags",
           "NormalizedSignature": "PropagationFlags|:System.Security.AccessControl.PropagationFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2069,7 +2069,7 @@
       "Methods": [
         {
           "ClrName": "AddRule",
-          "TsEmitName": "addRule",
+          "TsEmitName": "AddRule",
           "NormalizedSignature": "AddRule|(System.Security.AccessControl.AuthorizationRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2083,7 +2083,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo2",
+          "TsEmitName": "CopyTo2",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2097,7 +2097,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2112,7 +2112,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2127,7 +2127,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2141,7 +2141,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2157,7 +2157,7 @@
       "Properties": [
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Security.AccessControl.AuthorizationRule|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2171,7 +2171,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2186,7 +2186,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2201,7 +2201,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2237,7 +2237,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2251,7 +2251,7 @@
         },
         {
           "ClrName": "MaxOpaqueLength",
-          "TsEmitName": "maxOpaqueLength",
+          "TsEmitName": "MaxOpaqueLength",
           "NormalizedSignature": "MaxOpaqueLength|(System.Boolean):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2267,7 +2267,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2302,7 +2302,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2316,7 +2316,7 @@
         },
         {
           "ClrName": "Purge",
-          "TsEmitName": "purge",
+          "TsEmitName": "Purge",
           "NormalizedSignature": "Purge|(System.Security.Principal.SecurityIdentifier):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2330,7 +2330,7 @@
         },
         {
           "ClrName": "RemoveInheritedAces",
-          "TsEmitName": "removeInheritedAces",
+          "TsEmitName": "RemoveInheritedAces",
           "NormalizedSignature": "RemoveInheritedAces|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2344,7 +2344,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2359,7 +2359,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2374,7 +2374,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2388,7 +2388,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo2",
+          "TsEmitName": "CopyTo2",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2402,7 +2402,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2416,7 +2416,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator2",
+          "TsEmitName": "GetEnumerator2",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2432,7 +2432,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2446,7 +2446,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2460,7 +2460,7 @@
         },
         {
           "ClrName": "IsCanonical",
-          "TsEmitName": "isCanonical",
+          "TsEmitName": "IsCanonical",
           "NormalizedSignature": "IsCanonical|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2474,7 +2474,7 @@
         },
         {
           "ClrName": "IsContainer",
-          "TsEmitName": "isContainer",
+          "TsEmitName": "IsContainer",
           "NormalizedSignature": "IsContainer|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2488,7 +2488,7 @@
         },
         {
           "ClrName": "IsDS",
-          "TsEmitName": "isDS",
+          "TsEmitName": "IsDS",
           "NormalizedSignature": "IsDS|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2502,7 +2502,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Security.AccessControl.GenericAce|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2516,7 +2516,7 @@
         },
         {
           "ClrName": "Revision",
-          "TsEmitName": "revision",
+          "TsEmitName": "Revision",
           "NormalizedSignature": "Revision|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2530,7 +2530,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2545,7 +2545,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2560,7 +2560,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2590,7 +2590,7 @@
       "Methods": [
         {
           "ClrName": "GetAccessRules",
-          "TsEmitName": "getAccessRules",
+          "TsEmitName": "GetAccessRules",
           "NormalizedSignature": "GetAccessRules|(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2604,7 +2604,7 @@
         },
         {
           "ClrName": "GetAuditRules",
-          "TsEmitName": "getAuditRules",
+          "TsEmitName": "GetAuditRules",
           "NormalizedSignature": "GetAuditRules|(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2634,7 +2634,7 @@
       "Methods": [
         {
           "ClrName": "AddDiscretionaryAcl",
-          "TsEmitName": "addDiscretionaryAcl",
+          "TsEmitName": "AddDiscretionaryAcl",
           "NormalizedSignature": "AddDiscretionaryAcl|(System.Byte,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2648,7 +2648,7 @@
         },
         {
           "ClrName": "AddSystemAcl",
-          "TsEmitName": "addSystemAcl",
+          "TsEmitName": "AddSystemAcl",
           "NormalizedSignature": "AddSystemAcl|(System.Byte,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2662,7 +2662,7 @@
         },
         {
           "ClrName": "PurgeAccessControl",
-          "TsEmitName": "purgeAccessControl",
+          "TsEmitName": "PurgeAccessControl",
           "NormalizedSignature": "PurgeAccessControl|(System.Security.Principal.SecurityIdentifier):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2676,7 +2676,7 @@
         },
         {
           "ClrName": "PurgeAudit",
-          "TsEmitName": "purgeAudit",
+          "TsEmitName": "PurgeAudit",
           "NormalizedSignature": "PurgeAudit|(System.Security.Principal.SecurityIdentifier):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2690,7 +2690,7 @@
         },
         {
           "ClrName": "SetDiscretionaryAclProtection",
-          "TsEmitName": "setDiscretionaryAclProtection",
+          "TsEmitName": "SetDiscretionaryAclProtection",
           "NormalizedSignature": "SetDiscretionaryAclProtection|(System.Boolean,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2704,7 +2704,7 @@
         },
         {
           "ClrName": "SetSystemAclProtection",
-          "TsEmitName": "setSystemAclProtection",
+          "TsEmitName": "SetSystemAclProtection",
           "NormalizedSignature": "SetSystemAclProtection|(System.Boolean,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2720,7 +2720,7 @@
       "Properties": [
         {
           "ClrName": "ControlFlags",
-          "TsEmitName": "controlFlags",
+          "TsEmitName": "ControlFlags",
           "NormalizedSignature": "ControlFlags|:System.Security.AccessControl.ControlFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2734,7 +2734,7 @@
         },
         {
           "ClrName": "DiscretionaryAcl",
-          "TsEmitName": "discretionaryAcl",
+          "TsEmitName": "DiscretionaryAcl",
           "NormalizedSignature": "DiscretionaryAcl|:System.Security.AccessControl.DiscretionaryAcl|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2748,7 +2748,7 @@
         },
         {
           "ClrName": "Group",
-          "TsEmitName": "group",
+          "TsEmitName": "Group",
           "NormalizedSignature": "Group|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2762,7 +2762,7 @@
         },
         {
           "ClrName": "IsContainer",
-          "TsEmitName": "isContainer",
+          "TsEmitName": "IsContainer",
           "NormalizedSignature": "IsContainer|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2776,7 +2776,7 @@
         },
         {
           "ClrName": "IsDiscretionaryAclCanonical",
-          "TsEmitName": "isDiscretionaryAclCanonical",
+          "TsEmitName": "IsDiscretionaryAclCanonical",
           "NormalizedSignature": "IsDiscretionaryAclCanonical|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2790,7 +2790,7 @@
         },
         {
           "ClrName": "IsDS",
-          "TsEmitName": "isDS",
+          "TsEmitName": "IsDS",
           "NormalizedSignature": "IsDS|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2804,7 +2804,7 @@
         },
         {
           "ClrName": "IsSystemAclCanonical",
-          "TsEmitName": "isSystemAclCanonical",
+          "TsEmitName": "IsSystemAclCanonical",
           "NormalizedSignature": "IsSystemAclCanonical|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2818,7 +2818,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2832,7 +2832,7 @@
         },
         {
           "ClrName": "SystemAcl",
-          "TsEmitName": "systemAcl",
+          "TsEmitName": "SystemAcl",
           "NormalizedSignature": "SystemAcl|:System.Security.AccessControl.SystemAcl|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2882,7 +2882,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2898,7 +2898,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2912,7 +2912,7 @@
         },
         {
           "ClrName": "CompoundAceType",
-          "TsEmitName": "compoundAceType",
+          "TsEmitName": "CompoundAceType",
           "NormalizedSignature": "CompoundAceType|:System.Security.AccessControl.CompoundAceType|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2947,7 +2947,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2961,7 +2961,7 @@
         },
         {
           "ClrName": "GetOpaque",
-          "TsEmitName": "getOpaque",
+          "TsEmitName": "GetOpaque",
           "NormalizedSignature": "GetOpaque|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2975,7 +2975,7 @@
         },
         {
           "ClrName": "SetOpaque",
-          "TsEmitName": "setOpaque",
+          "TsEmitName": "SetOpaque",
           "NormalizedSignature": "SetOpaque|(System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2991,7 +2991,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3005,7 +3005,7 @@
         },
         {
           "ClrName": "OpaqueLength",
-          "TsEmitName": "opaqueLength",
+          "TsEmitName": "OpaqueLength",
           "NormalizedSignature": "OpaqueLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3021,7 +3021,7 @@
       "Fields": [
         {
           "ClrName": "MaxOpaqueLength",
-          "TsEmitName": "maxOpaqueLength",
+          "TsEmitName": "MaxOpaqueLength",
           "NormalizedSignature": "MaxOpaqueLength|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -3049,7 +3049,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory2",
+          "TsEmitName": "AccessRuleFactory2",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3063,7 +3063,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory2",
+          "TsEmitName": "AuditRuleFactory2",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3077,7 +3077,7 @@
         },
         {
           "ClrName": "GetAccessRules",
-          "TsEmitName": "getAccessRules",
+          "TsEmitName": "GetAccessRules",
           "NormalizedSignature": "GetAccessRules|(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3091,7 +3091,7 @@
         },
         {
           "ClrName": "GetAuditRules",
-          "TsEmitName": "getAuditRules",
+          "TsEmitName": "GetAuditRules",
           "NormalizedSignature": "GetAuditRules|(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3105,7 +3105,7 @@
         },
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3119,7 +3119,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3175,7 +3175,7 @@
       "Methods": [
         {
           "ClrName": "AddAccess",
-          "TsEmitName": "addAccess",
+          "TsEmitName": "AddAccess",
           "NormalizedSignature": "AddAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3189,7 +3189,7 @@
         },
         {
           "ClrName": "AddAccess",
-          "TsEmitName": "addAccess2",
+          "TsEmitName": "AddAccess2",
           "NormalizedSignature": "AddAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3203,7 +3203,7 @@
         },
         {
           "ClrName": "AddAccess",
-          "TsEmitName": "addAccess3",
+          "TsEmitName": "AddAccess3",
           "NormalizedSignature": "AddAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3217,7 +3217,7 @@
         },
         {
           "ClrName": "RemoveAccess",
-          "TsEmitName": "removeAccess",
+          "TsEmitName": "RemoveAccess",
           "NormalizedSignature": "RemoveAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3231,7 +3231,7 @@
         },
         {
           "ClrName": "RemoveAccess",
-          "TsEmitName": "removeAccess2",
+          "TsEmitName": "RemoveAccess2",
           "NormalizedSignature": "RemoveAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3245,7 +3245,7 @@
         },
         {
           "ClrName": "RemoveAccess",
-          "TsEmitName": "removeAccess3",
+          "TsEmitName": "RemoveAccess3",
           "NormalizedSignature": "RemoveAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3259,7 +3259,7 @@
         },
         {
           "ClrName": "RemoveAccessSpecific",
-          "TsEmitName": "removeAccessSpecific",
+          "TsEmitName": "RemoveAccessSpecific",
           "NormalizedSignature": "RemoveAccessSpecific|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3273,7 +3273,7 @@
         },
         {
           "ClrName": "RemoveAccessSpecific",
-          "TsEmitName": "removeAccessSpecific2",
+          "TsEmitName": "RemoveAccessSpecific2",
           "NormalizedSignature": "RemoveAccessSpecific|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3287,7 +3287,7 @@
         },
         {
           "ClrName": "RemoveAccessSpecific",
-          "TsEmitName": "removeAccessSpecific3",
+          "TsEmitName": "RemoveAccessSpecific3",
           "NormalizedSignature": "RemoveAccessSpecific|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3301,7 +3301,7 @@
         },
         {
           "ClrName": "SetAccess",
-          "TsEmitName": "setAccess",
+          "TsEmitName": "SetAccess",
           "NormalizedSignature": "SetAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3315,7 +3315,7 @@
         },
         {
           "ClrName": "SetAccess",
-          "TsEmitName": "setAccess2",
+          "TsEmitName": "SetAccess2",
           "NormalizedSignature": "SetAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3329,7 +3329,7 @@
         },
         {
           "ClrName": "SetAccess",
-          "TsEmitName": "setAccess3",
+          "TsEmitName": "SetAccess3",
           "NormalizedSignature": "SetAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3343,7 +3343,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3358,7 +3358,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3373,7 +3373,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3387,7 +3387,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo3",
+          "TsEmitName": "CopyTo3",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3401,7 +3401,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3415,7 +3415,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator3",
+          "TsEmitName": "GetEnumerator3",
           "NormalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -3431,7 +3431,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3446,7 +3446,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3461,7 +3461,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3508,7 +3508,7 @@
       "Properties": [
         {
           "ClrName": "EventWaitHandleRights",
-          "TsEmitName": "eventWaitHandleRights",
+          "TsEmitName": "EventWaitHandleRights",
           "NormalizedSignature": "EventWaitHandleRights|:System.Security.AccessControl.EventWaitHandleRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3549,7 +3549,7 @@
       "Properties": [
         {
           "ClrName": "EventWaitHandleRights",
-          "TsEmitName": "eventWaitHandleRights",
+          "TsEmitName": "EventWaitHandleRights",
           "NormalizedSignature": "EventWaitHandleRights|:System.Security.AccessControl.EventWaitHandleRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3584,7 +3584,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3598,7 +3598,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3612,7 +3612,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3626,7 +3626,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3640,7 +3640,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3654,7 +3654,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3668,7 +3668,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3682,7 +3682,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(System.Security.AccessControl.EventWaitHandleAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3696,7 +3696,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3710,7 +3710,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3724,7 +3724,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3738,7 +3738,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3752,7 +3752,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3768,7 +3768,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3782,7 +3782,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3796,7 +3796,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3858,7 +3858,7 @@
       "Properties": [
         {
           "ClrName": "FileSystemRights",
-          "TsEmitName": "fileSystemRights",
+          "TsEmitName": "FileSystemRights",
           "NormalizedSignature": "FileSystemRights|:System.Security.AccessControl.FileSystemRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3909,7 +3909,7 @@
       "Properties": [
         {
           "ClrName": "FileSystemRights",
-          "TsEmitName": "fileSystemRights",
+          "TsEmitName": "FileSystemRights",
           "NormalizedSignature": "FileSystemRights|:System.Security.AccessControl.FileSystemRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3959,7 +3959,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3973,7 +3973,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(System.Security.AccessControl.FileSystemAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3987,7 +3987,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(System.Security.AccessControl.FileSystemAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4001,7 +4001,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4015,7 +4015,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(System.Security.AccessControl.FileSystemAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4029,7 +4029,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(System.Security.AccessControl.FileSystemAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4043,7 +4043,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(System.Security.AccessControl.FileSystemAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4057,7 +4057,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(System.Security.AccessControl.FileSystemAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4071,7 +4071,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(System.Security.AccessControl.FileSystemAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4085,7 +4085,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(System.Security.AccessControl.FileSystemAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4099,7 +4099,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(System.Security.AccessControl.FileSystemAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4113,7 +4113,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(System.Security.AccessControl.FileSystemAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4127,7 +4127,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(System.Security.AccessControl.FileSystemAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4143,7 +4143,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4157,7 +4157,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4171,7 +4171,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4200,7 +4200,7 @@
       "Methods": [
         {
           "ClrName": "Copy",
-          "TsEmitName": "copy",
+          "TsEmitName": "Copy",
           "NormalizedSignature": "Copy|():System.Security.AccessControl.GenericAce|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4214,7 +4214,7 @@
         },
         {
           "ClrName": "CreateFromBinaryForm",
-          "TsEmitName": "createFromBinaryForm",
+          "TsEmitName": "CreateFromBinaryForm",
           "NormalizedSignature": "CreateFromBinaryForm|(System.Byte[],System.Int32):System.Security.AccessControl.GenericAce|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4228,7 +4228,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4242,7 +4242,7 @@
         },
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4256,7 +4256,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4272,7 +4272,7 @@
       "Properties": [
         {
           "ClrName": "AceFlags",
-          "TsEmitName": "aceFlags",
+          "TsEmitName": "AceFlags",
           "NormalizedSignature": "AceFlags|:System.Security.AccessControl.AceFlags|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4286,7 +4286,7 @@
         },
         {
           "ClrName": "AceType",
-          "TsEmitName": "aceType",
+          "TsEmitName": "AceType",
           "NormalizedSignature": "AceType|:System.Security.AccessControl.AceType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4300,7 +4300,7 @@
         },
         {
           "ClrName": "AuditFlags",
-          "TsEmitName": "auditFlags",
+          "TsEmitName": "AuditFlags",
           "NormalizedSignature": "AuditFlags|:System.Security.AccessControl.AuditFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4314,7 +4314,7 @@
         },
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4328,7 +4328,7 @@
         },
         {
           "ClrName": "InheritanceFlags",
-          "TsEmitName": "inheritanceFlags",
+          "TsEmitName": "InheritanceFlags",
           "NormalizedSignature": "InheritanceFlags|:System.Security.AccessControl.InheritanceFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4342,7 +4342,7 @@
         },
         {
           "ClrName": "IsInherited",
-          "TsEmitName": "isInherited",
+          "TsEmitName": "IsInherited",
           "NormalizedSignature": "IsInherited|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4356,7 +4356,7 @@
         },
         {
           "ClrName": "PropagationFlags",
-          "TsEmitName": "propagationFlags",
+          "TsEmitName": "PropagationFlags",
           "NormalizedSignature": "PropagationFlags|:System.Security.AccessControl.PropagationFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4385,7 +4385,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4399,7 +4399,7 @@
         },
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4413,7 +4413,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4427,7 +4427,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4442,7 +4442,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4459,7 +4459,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4473,7 +4473,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4487,7 +4487,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4501,7 +4501,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Security.AccessControl.GenericAce|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4515,7 +4515,7 @@
         },
         {
           "ClrName": "Revision",
-          "TsEmitName": "revision",
+          "TsEmitName": "Revision",
           "NormalizedSignature": "Revision|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4529,7 +4529,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4543,7 +4543,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4558,7 +4558,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot$view",
+          "TsEmitName": "SyncRoot$view",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4573,7 +4573,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized$view",
+          "TsEmitName": "IsSynchronized$view",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4590,7 +4590,7 @@
       "Fields": [
         {
           "ClrName": "AclRevision",
-          "TsEmitName": "aclRevision",
+          "TsEmitName": "AclRevision",
           "NormalizedSignature": "AclRevision|System.Byte|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4598,7 +4598,7 @@
         },
         {
           "ClrName": "AclRevisionDS",
-          "TsEmitName": "aclRevisionDS",
+          "TsEmitName": "AclRevisionDS",
           "NormalizedSignature": "AclRevisionDS|System.Byte|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4606,7 +4606,7 @@
         },
         {
           "ClrName": "MaxBinaryLength",
-          "TsEmitName": "maxBinaryLength",
+          "TsEmitName": "MaxBinaryLength",
           "NormalizedSignature": "MaxBinaryLength|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4628,7 +4628,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4642,7 +4642,7 @@
         },
         {
           "ClrName": "GetSddlForm",
-          "TsEmitName": "getSddlForm",
+          "TsEmitName": "GetSddlForm",
           "NormalizedSignature": "GetSddlForm|(System.Security.AccessControl.AccessControlSections):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4656,7 +4656,7 @@
         },
         {
           "ClrName": "IsSddlConversionSupported",
-          "TsEmitName": "isSddlConversionSupported",
+          "TsEmitName": "IsSddlConversionSupported",
           "NormalizedSignature": "IsSddlConversionSupported|():System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4672,7 +4672,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4686,7 +4686,7 @@
         },
         {
           "ClrName": "ControlFlags",
-          "TsEmitName": "controlFlags",
+          "TsEmitName": "ControlFlags",
           "NormalizedSignature": "ControlFlags|:System.Security.AccessControl.ControlFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4700,7 +4700,7 @@
         },
         {
           "ClrName": "Group",
-          "TsEmitName": "group",
+          "TsEmitName": "Group",
           "NormalizedSignature": "Group|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4714,7 +4714,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4728,7 +4728,7 @@
         },
         {
           "ClrName": "Revision",
-          "TsEmitName": "revision",
+          "TsEmitName": "Revision",
           "NormalizedSignature": "Revision|:System.Byte|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4758,7 +4758,7 @@
       "Properties": [
         {
           "ClrName": "AccessMask",
-          "TsEmitName": "accessMask",
+          "TsEmitName": "AccessMask",
           "NormalizedSignature": "AccessMask|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4772,7 +4772,7 @@
         },
         {
           "ClrName": "SecurityIdentifier",
-          "TsEmitName": "securityIdentifier",
+          "TsEmitName": "SecurityIdentifier",
           "NormalizedSignature": "SecurityIdentifier|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4802,7 +4802,7 @@
       "Properties": [
         {
           "ClrName": "MutexRights",
-          "TsEmitName": "mutexRights",
+          "TsEmitName": "MutexRights",
           "NormalizedSignature": "MutexRights|:System.Security.AccessControl.MutexRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4843,7 +4843,7 @@
       "Properties": [
         {
           "ClrName": "MutexRights",
-          "TsEmitName": "mutexRights",
+          "TsEmitName": "MutexRights",
           "NormalizedSignature": "MutexRights|:System.Security.AccessControl.MutexRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4878,7 +4878,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4892,7 +4892,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(System.Security.AccessControl.MutexAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4906,7 +4906,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(System.Security.AccessControl.MutexAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4920,7 +4920,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4934,7 +4934,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(System.Security.AccessControl.MutexAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4948,7 +4948,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(System.Security.AccessControl.MutexAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4962,7 +4962,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(System.Security.AccessControl.MutexAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4976,7 +4976,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(System.Security.AccessControl.MutexAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4990,7 +4990,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(System.Security.AccessControl.MutexAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5004,7 +5004,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(System.Security.AccessControl.MutexAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5018,7 +5018,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(System.Security.AccessControl.MutexAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5032,7 +5032,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(System.Security.AccessControl.MutexAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5046,7 +5046,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(System.Security.AccessControl.MutexAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5062,7 +5062,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5076,7 +5076,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5090,7 +5090,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5146,7 +5146,7 @@
       "Properties": [
         {
           "ClrName": "InheritedObjectType",
-          "TsEmitName": "inheritedObjectType",
+          "TsEmitName": "InheritedObjectType",
           "NormalizedSignature": "InheritedObjectType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5160,7 +5160,7 @@
         },
         {
           "ClrName": "ObjectFlags",
-          "TsEmitName": "objectFlags",
+          "TsEmitName": "ObjectFlags",
           "NormalizedSignature": "ObjectFlags|:System.Security.AccessControl.ObjectAceFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5174,7 +5174,7 @@
         },
         {
           "ClrName": "ObjectType",
-          "TsEmitName": "objectType",
+          "TsEmitName": "ObjectType",
           "NormalizedSignature": "ObjectType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5203,7 +5203,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5217,7 +5217,7 @@
         },
         {
           "ClrName": "MaxOpaqueLength",
-          "TsEmitName": "maxOpaqueLength",
+          "TsEmitName": "MaxOpaqueLength",
           "NormalizedSignature": "MaxOpaqueLength|(System.Boolean):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5233,7 +5233,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5247,7 +5247,7 @@
         },
         {
           "ClrName": "InheritedObjectAceType",
-          "TsEmitName": "inheritedObjectAceType",
+          "TsEmitName": "InheritedObjectAceType",
           "NormalizedSignature": "InheritedObjectAceType|:System.Guid|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5261,7 +5261,7 @@
         },
         {
           "ClrName": "ObjectAceFlags",
-          "TsEmitName": "objectAceFlags",
+          "TsEmitName": "ObjectAceFlags",
           "NormalizedSignature": "ObjectAceFlags|:System.Security.AccessControl.ObjectAceFlags|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5275,7 +5275,7 @@
         },
         {
           "ClrName": "ObjectAceType",
-          "TsEmitName": "objectAceType",
+          "TsEmitName": "ObjectAceType",
           "NormalizedSignature": "ObjectAceType|:System.Guid|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5311,7 +5311,7 @@
       "Properties": [
         {
           "ClrName": "InheritedObjectType",
-          "TsEmitName": "inheritedObjectType",
+          "TsEmitName": "InheritedObjectType",
           "NormalizedSignature": "InheritedObjectType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5325,7 +5325,7 @@
         },
         {
           "ClrName": "ObjectFlags",
-          "TsEmitName": "objectFlags",
+          "TsEmitName": "ObjectFlags",
           "NormalizedSignature": "ObjectFlags|:System.Security.AccessControl.ObjectAceFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5339,7 +5339,7 @@
         },
         {
           "ClrName": "ObjectType",
-          "TsEmitName": "objectType",
+          "TsEmitName": "ObjectType",
           "NormalizedSignature": "ObjectType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5368,7 +5368,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5382,7 +5382,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5396,7 +5396,7 @@
         },
         {
           "ClrName": "GetGroup",
-          "TsEmitName": "getGroup",
+          "TsEmitName": "GetGroup",
           "NormalizedSignature": "GetGroup|(System.Type):System.Security.Principal.IdentityReference|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5410,7 +5410,7 @@
         },
         {
           "ClrName": "GetOwner",
-          "TsEmitName": "getOwner",
+          "TsEmitName": "GetOwner",
           "NormalizedSignature": "GetOwner|(System.Type):System.Security.Principal.IdentityReference|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5424,7 +5424,7 @@
         },
         {
           "ClrName": "GetSecurityDescriptorBinaryForm",
-          "TsEmitName": "getSecurityDescriptorBinaryForm",
+          "TsEmitName": "GetSecurityDescriptorBinaryForm",
           "NormalizedSignature": "GetSecurityDescriptorBinaryForm|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5438,7 +5438,7 @@
         },
         {
           "ClrName": "GetSecurityDescriptorSddlForm",
-          "TsEmitName": "getSecurityDescriptorSddlForm",
+          "TsEmitName": "GetSecurityDescriptorSddlForm",
           "NormalizedSignature": "GetSecurityDescriptorSddlForm|(System.Security.AccessControl.AccessControlSections):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5452,7 +5452,7 @@
         },
         {
           "ClrName": "IsSddlConversionSupported",
-          "TsEmitName": "isSddlConversionSupported",
+          "TsEmitName": "IsSddlConversionSupported",
           "NormalizedSignature": "IsSddlConversionSupported|():System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5466,7 +5466,7 @@
         },
         {
           "ClrName": "ModifyAccessRule",
-          "TsEmitName": "modifyAccessRule",
+          "TsEmitName": "ModifyAccessRule",
           "NormalizedSignature": "ModifyAccessRule|(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5480,7 +5480,7 @@
         },
         {
           "ClrName": "ModifyAuditRule",
-          "TsEmitName": "modifyAuditRule",
+          "TsEmitName": "ModifyAuditRule",
           "NormalizedSignature": "ModifyAuditRule|(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5494,7 +5494,7 @@
         },
         {
           "ClrName": "PurgeAccessRules",
-          "TsEmitName": "purgeAccessRules",
+          "TsEmitName": "PurgeAccessRules",
           "NormalizedSignature": "PurgeAccessRules|(System.Security.Principal.IdentityReference):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5508,7 +5508,7 @@
         },
         {
           "ClrName": "PurgeAuditRules",
-          "TsEmitName": "purgeAuditRules",
+          "TsEmitName": "PurgeAuditRules",
           "NormalizedSignature": "PurgeAuditRules|(System.Security.Principal.IdentityReference):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5522,7 +5522,7 @@
         },
         {
           "ClrName": "SetAccessRuleProtection",
-          "TsEmitName": "setAccessRuleProtection",
+          "TsEmitName": "SetAccessRuleProtection",
           "NormalizedSignature": "SetAccessRuleProtection|(System.Boolean,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5536,7 +5536,7 @@
         },
         {
           "ClrName": "SetAuditRuleProtection",
-          "TsEmitName": "setAuditRuleProtection",
+          "TsEmitName": "SetAuditRuleProtection",
           "NormalizedSignature": "SetAuditRuleProtection|(System.Boolean,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5550,7 +5550,7 @@
         },
         {
           "ClrName": "SetGroup",
-          "TsEmitName": "setGroup",
+          "TsEmitName": "SetGroup",
           "NormalizedSignature": "SetGroup|(System.Security.Principal.IdentityReference):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5564,7 +5564,7 @@
         },
         {
           "ClrName": "SetOwner",
-          "TsEmitName": "setOwner",
+          "TsEmitName": "SetOwner",
           "NormalizedSignature": "SetOwner|(System.Security.Principal.IdentityReference):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5578,7 +5578,7 @@
         },
         {
           "ClrName": "SetSecurityDescriptorBinaryForm",
-          "TsEmitName": "setSecurityDescriptorBinaryForm",
+          "TsEmitName": "SetSecurityDescriptorBinaryForm",
           "NormalizedSignature": "SetSecurityDescriptorBinaryForm|(System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5592,7 +5592,7 @@
         },
         {
           "ClrName": "SetSecurityDescriptorBinaryForm",
-          "TsEmitName": "setSecurityDescriptorBinaryForm2",
+          "TsEmitName": "SetSecurityDescriptorBinaryForm2",
           "NormalizedSignature": "SetSecurityDescriptorBinaryForm|(System.Byte[],System.Security.AccessControl.AccessControlSections):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5606,7 +5606,7 @@
         },
         {
           "ClrName": "SetSecurityDescriptorSddlForm",
-          "TsEmitName": "setSecurityDescriptorSddlForm",
+          "TsEmitName": "SetSecurityDescriptorSddlForm",
           "NormalizedSignature": "SetSecurityDescriptorSddlForm|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5620,7 +5620,7 @@
         },
         {
           "ClrName": "SetSecurityDescriptorSddlForm",
-          "TsEmitName": "setSecurityDescriptorSddlForm2",
+          "TsEmitName": "SetSecurityDescriptorSddlForm2",
           "NormalizedSignature": "SetSecurityDescriptorSddlForm|(System.String,System.Security.AccessControl.AccessControlSections):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5636,7 +5636,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5650,7 +5650,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5664,7 +5664,7 @@
         },
         {
           "ClrName": "AreAccessRulesCanonical",
-          "TsEmitName": "areAccessRulesCanonical",
+          "TsEmitName": "AreAccessRulesCanonical",
           "NormalizedSignature": "AreAccessRulesCanonical|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5678,7 +5678,7 @@
         },
         {
           "ClrName": "AreAccessRulesProtected",
-          "TsEmitName": "areAccessRulesProtected",
+          "TsEmitName": "AreAccessRulesProtected",
           "NormalizedSignature": "AreAccessRulesProtected|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5692,7 +5692,7 @@
         },
         {
           "ClrName": "AreAuditRulesCanonical",
-          "TsEmitName": "areAuditRulesCanonical",
+          "TsEmitName": "AreAuditRulesCanonical",
           "NormalizedSignature": "AreAuditRulesCanonical|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5706,7 +5706,7 @@
         },
         {
           "ClrName": "AreAuditRulesProtected",
-          "TsEmitName": "areAuditRulesProtected",
+          "TsEmitName": "AreAuditRulesProtected",
           "NormalizedSignature": "AreAuditRulesProtected|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5720,7 +5720,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5749,7 +5749,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5763,7 +5763,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(AccessRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5777,7 +5777,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(AuditRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5791,7 +5791,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5805,7 +5805,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(AccessRule_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5819,7 +5819,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(AccessRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5833,7 +5833,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(AccessRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5847,7 +5847,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(AuditRule_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5861,7 +5861,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(AuditRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5875,7 +5875,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(AuditRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5889,7 +5889,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(AccessRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5903,7 +5903,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(AccessRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5917,7 +5917,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(AuditRule_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5933,7 +5933,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5947,7 +5947,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5961,7 +5961,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5990,7 +5990,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6004,7 +6004,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6021,7 +6021,7 @@
       "Properties": [
         {
           "ClrName": "PrivilegeName",
-          "TsEmitName": "privilegeName",
+          "TsEmitName": "PrivilegeName",
           "NormalizedSignature": "PrivilegeName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6066,7 +6066,7 @@
       "Methods": [
         {
           "ClrName": "GetOpaque",
-          "TsEmitName": "getOpaque",
+          "TsEmitName": "GetOpaque",
           "NormalizedSignature": "GetOpaque|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6080,7 +6080,7 @@
         },
         {
           "ClrName": "SetOpaque",
-          "TsEmitName": "setOpaque",
+          "TsEmitName": "SetOpaque",
           "NormalizedSignature": "SetOpaque|(System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6096,7 +6096,7 @@
       "Properties": [
         {
           "ClrName": "AceQualifier",
-          "TsEmitName": "aceQualifier",
+          "TsEmitName": "AceQualifier",
           "NormalizedSignature": "AceQualifier|:System.Security.AccessControl.AceQualifier|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6110,7 +6110,7 @@
         },
         {
           "ClrName": "IsCallback",
-          "TsEmitName": "isCallback",
+          "TsEmitName": "IsCallback",
           "NormalizedSignature": "IsCallback|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6124,7 +6124,7 @@
         },
         {
           "ClrName": "OpaqueLength",
-          "TsEmitName": "opaqueLength",
+          "TsEmitName": "OpaqueLength",
           "NormalizedSignature": "OpaqueLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6153,7 +6153,7 @@
       "Methods": [
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6167,7 +6167,7 @@
         },
         {
           "ClrName": "InsertAce",
-          "TsEmitName": "insertAce",
+          "TsEmitName": "InsertAce",
           "NormalizedSignature": "InsertAce|(System.Int32,System.Security.AccessControl.GenericAce):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6181,7 +6181,7 @@
         },
         {
           "ClrName": "RemoveAce",
-          "TsEmitName": "removeAce",
+          "TsEmitName": "RemoveAce",
           "NormalizedSignature": "RemoveAce|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6195,7 +6195,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6210,7 +6210,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6225,7 +6225,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6239,7 +6239,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo2",
+          "TsEmitName": "CopyTo2",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6253,7 +6253,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6267,7 +6267,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator2",
+          "TsEmitName": "GetEnumerator2",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6283,7 +6283,7 @@
       "Properties": [
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6297,7 +6297,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6311,7 +6311,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Security.AccessControl.GenericAce|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6325,7 +6325,7 @@
         },
         {
           "ClrName": "Revision",
-          "TsEmitName": "revision",
+          "TsEmitName": "Revision",
           "NormalizedSignature": "Revision|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6339,7 +6339,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6354,7 +6354,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6369,7 +6369,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6410,7 +6410,7 @@
       "Methods": [
         {
           "ClrName": "SetFlags",
-          "TsEmitName": "setFlags",
+          "TsEmitName": "SetFlags",
           "NormalizedSignature": "SetFlags|(System.Security.AccessControl.ControlFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6426,7 +6426,7 @@
       "Properties": [
         {
           "ClrName": "ControlFlags",
-          "TsEmitName": "controlFlags",
+          "TsEmitName": "ControlFlags",
           "NormalizedSignature": "ControlFlags|:System.Security.AccessControl.ControlFlags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6440,7 +6440,7 @@
         },
         {
           "ClrName": "DiscretionaryAcl",
-          "TsEmitName": "discretionaryAcl",
+          "TsEmitName": "DiscretionaryAcl",
           "NormalizedSignature": "DiscretionaryAcl|:System.Security.AccessControl.RawAcl|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6454,7 +6454,7 @@
         },
         {
           "ClrName": "Group",
-          "TsEmitName": "group",
+          "TsEmitName": "Group",
           "NormalizedSignature": "Group|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6468,7 +6468,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|:System.Security.Principal.SecurityIdentifier|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6482,7 +6482,7 @@
         },
         {
           "ClrName": "ResourceManagerControl",
-          "TsEmitName": "resourceManagerControl",
+          "TsEmitName": "ResourceManagerControl",
           "NormalizedSignature": "ResourceManagerControl|:System.Byte|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6496,7 +6496,7 @@
         },
         {
           "ClrName": "SystemAcl",
-          "TsEmitName": "systemAcl",
+          "TsEmitName": "SystemAcl",
           "NormalizedSignature": "SystemAcl|:System.Security.AccessControl.RawAcl|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6542,7 +6542,7 @@
       "Properties": [
         {
           "ClrName": "RegistryRights",
-          "TsEmitName": "registryRights",
+          "TsEmitName": "RegistryRights",
           "NormalizedSignature": "RegistryRights|:System.Security.AccessControl.RegistryRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6593,7 +6593,7 @@
       "Properties": [
         {
           "ClrName": "RegistryRights",
-          "TsEmitName": "registryRights",
+          "TsEmitName": "RegistryRights",
           "NormalizedSignature": "RegistryRights|:System.Security.AccessControl.RegistryRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6633,7 +6633,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6647,7 +6647,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(System.Security.AccessControl.RegistryAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6661,7 +6661,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(System.Security.AccessControl.RegistryAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6675,7 +6675,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6689,7 +6689,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(System.Security.AccessControl.RegistryAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6703,7 +6703,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(System.Security.AccessControl.RegistryAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6717,7 +6717,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(System.Security.AccessControl.RegistryAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6731,7 +6731,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(System.Security.AccessControl.RegistryAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6745,7 +6745,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(System.Security.AccessControl.RegistryAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6759,7 +6759,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(System.Security.AccessControl.RegistryAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6773,7 +6773,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(System.Security.AccessControl.RegistryAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6787,7 +6787,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(System.Security.AccessControl.RegistryAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6801,7 +6801,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(System.Security.AccessControl.RegistryAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6817,7 +6817,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6831,7 +6831,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6845,7 +6845,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6881,7 +6881,7 @@
       "Properties": [
         {
           "ClrName": "SemaphoreRights",
-          "TsEmitName": "semaphoreRights",
+          "TsEmitName": "SemaphoreRights",
           "NormalizedSignature": "SemaphoreRights|:System.Security.AccessControl.SemaphoreRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6922,7 +6922,7 @@
       "Properties": [
         {
           "ClrName": "SemaphoreRights",
-          "TsEmitName": "semaphoreRights",
+          "TsEmitName": "SemaphoreRights",
           "NormalizedSignature": "SemaphoreRights|:System.Security.AccessControl.SemaphoreRights|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6957,7 +6957,7 @@
       "Methods": [
         {
           "ClrName": "AccessRuleFactory",
-          "TsEmitName": "accessRuleFactory",
+          "TsEmitName": "AccessRuleFactory",
           "NormalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6971,7 +6971,7 @@
         },
         {
           "ClrName": "AddAccessRule",
-          "TsEmitName": "addAccessRule",
+          "TsEmitName": "AddAccessRule",
           "NormalizedSignature": "AddAccessRule|(System.Security.AccessControl.SemaphoreAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6985,7 +6985,7 @@
         },
         {
           "ClrName": "AddAuditRule",
-          "TsEmitName": "addAuditRule",
+          "TsEmitName": "AddAuditRule",
           "NormalizedSignature": "AddAuditRule|(System.Security.AccessControl.SemaphoreAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6999,7 +6999,7 @@
         },
         {
           "ClrName": "AuditRuleFactory",
-          "TsEmitName": "auditRuleFactory",
+          "TsEmitName": "AuditRuleFactory",
           "NormalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7013,7 +7013,7 @@
         },
         {
           "ClrName": "RemoveAccessRule",
-          "TsEmitName": "removeAccessRule",
+          "TsEmitName": "RemoveAccessRule",
           "NormalizedSignature": "RemoveAccessRule|(System.Security.AccessControl.SemaphoreAccessRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7027,7 +7027,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleAll",
-          "TsEmitName": "removeAccessRuleAll",
+          "TsEmitName": "RemoveAccessRuleAll",
           "NormalizedSignature": "RemoveAccessRuleAll|(System.Security.AccessControl.SemaphoreAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7041,7 +7041,7 @@
         },
         {
           "ClrName": "RemoveAccessRuleSpecific",
-          "TsEmitName": "removeAccessRuleSpecific",
+          "TsEmitName": "RemoveAccessRuleSpecific",
           "NormalizedSignature": "RemoveAccessRuleSpecific|(System.Security.AccessControl.SemaphoreAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7055,7 +7055,7 @@
         },
         {
           "ClrName": "RemoveAuditRule",
-          "TsEmitName": "removeAuditRule",
+          "TsEmitName": "RemoveAuditRule",
           "NormalizedSignature": "RemoveAuditRule|(System.Security.AccessControl.SemaphoreAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7069,7 +7069,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleAll",
-          "TsEmitName": "removeAuditRuleAll",
+          "TsEmitName": "RemoveAuditRuleAll",
           "NormalizedSignature": "RemoveAuditRuleAll|(System.Security.AccessControl.SemaphoreAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7083,7 +7083,7 @@
         },
         {
           "ClrName": "RemoveAuditRuleSpecific",
-          "TsEmitName": "removeAuditRuleSpecific",
+          "TsEmitName": "RemoveAuditRuleSpecific",
           "NormalizedSignature": "RemoveAuditRuleSpecific|(System.Security.AccessControl.SemaphoreAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7097,7 +7097,7 @@
         },
         {
           "ClrName": "ResetAccessRule",
-          "TsEmitName": "resetAccessRule",
+          "TsEmitName": "ResetAccessRule",
           "NormalizedSignature": "ResetAccessRule|(System.Security.AccessControl.SemaphoreAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7111,7 +7111,7 @@
         },
         {
           "ClrName": "SetAccessRule",
-          "TsEmitName": "setAccessRule",
+          "TsEmitName": "SetAccessRule",
           "NormalizedSignature": "SetAccessRule|(System.Security.AccessControl.SemaphoreAccessRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7125,7 +7125,7 @@
         },
         {
           "ClrName": "SetAuditRule",
-          "TsEmitName": "setAuditRule",
+          "TsEmitName": "SetAuditRule",
           "NormalizedSignature": "SetAuditRule|(System.Security.AccessControl.SemaphoreAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7141,7 +7141,7 @@
       "Properties": [
         {
           "ClrName": "AccessRightType",
-          "TsEmitName": "accessRightType",
+          "TsEmitName": "AccessRightType",
           "NormalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7155,7 +7155,7 @@
         },
         {
           "ClrName": "AccessRuleType",
-          "TsEmitName": "accessRuleType",
+          "TsEmitName": "AccessRuleType",
           "NormalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7169,7 +7169,7 @@
         },
         {
           "ClrName": "AuditRuleType",
-          "TsEmitName": "auditRuleType",
+          "TsEmitName": "AuditRuleType",
           "NormalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7209,7 +7209,7 @@
       "Methods": [
         {
           "ClrName": "AddAudit",
-          "TsEmitName": "addAudit",
+          "TsEmitName": "AddAudit",
           "NormalizedSignature": "AddAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7223,7 +7223,7 @@
         },
         {
           "ClrName": "AddAudit",
-          "TsEmitName": "addAudit2",
+          "TsEmitName": "AddAudit2",
           "NormalizedSignature": "AddAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7237,7 +7237,7 @@
         },
         {
           "ClrName": "AddAudit",
-          "TsEmitName": "addAudit3",
+          "TsEmitName": "AddAudit3",
           "NormalizedSignature": "AddAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7251,7 +7251,7 @@
         },
         {
           "ClrName": "RemoveAudit",
-          "TsEmitName": "removeAudit",
+          "TsEmitName": "RemoveAudit",
           "NormalizedSignature": "RemoveAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7265,7 +7265,7 @@
         },
         {
           "ClrName": "RemoveAudit",
-          "TsEmitName": "removeAudit2",
+          "TsEmitName": "RemoveAudit2",
           "NormalizedSignature": "RemoveAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7279,7 +7279,7 @@
         },
         {
           "ClrName": "RemoveAudit",
-          "TsEmitName": "removeAudit3",
+          "TsEmitName": "RemoveAudit3",
           "NormalizedSignature": "RemoveAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7293,7 +7293,7 @@
         },
         {
           "ClrName": "RemoveAuditSpecific",
-          "TsEmitName": "removeAuditSpecific",
+          "TsEmitName": "RemoveAuditSpecific",
           "NormalizedSignature": "RemoveAuditSpecific|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7307,7 +7307,7 @@
         },
         {
           "ClrName": "RemoveAuditSpecific",
-          "TsEmitName": "removeAuditSpecific2",
+          "TsEmitName": "RemoveAuditSpecific2",
           "NormalizedSignature": "RemoveAuditSpecific|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7321,7 +7321,7 @@
         },
         {
           "ClrName": "RemoveAuditSpecific",
-          "TsEmitName": "removeAuditSpecific3",
+          "TsEmitName": "RemoveAuditSpecific3",
           "NormalizedSignature": "RemoveAuditSpecific|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7335,7 +7335,7 @@
         },
         {
           "ClrName": "SetAudit",
-          "TsEmitName": "setAudit",
+          "TsEmitName": "SetAudit",
           "NormalizedSignature": "SetAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7349,7 +7349,7 @@
         },
         {
           "ClrName": "SetAudit",
-          "TsEmitName": "setAudit2",
+          "TsEmitName": "SetAudit2",
           "NormalizedSignature": "SetAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7363,7 +7363,7 @@
         },
         {
           "ClrName": "SetAudit",
-          "TsEmitName": "setAudit3",
+          "TsEmitName": "SetAudit3",
           "NormalizedSignature": "SetAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7377,7 +7377,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -7392,7 +7392,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -7407,7 +7407,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -7421,7 +7421,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo3",
+          "TsEmitName": "CopyTo3",
           "NormalizedSignature": "CopyTo|(System.Security.AccessControl.GenericAce[],System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -7435,7 +7435,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -7449,7 +7449,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator3",
+          "TsEmitName": "GetEnumerator3",
           "NormalizedSignature": "GetEnumerator|():System.Security.AccessControl.AceEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -7465,7 +7465,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -7480,7 +7480,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -7495,7 +7495,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",

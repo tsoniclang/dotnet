@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
+          "TsEmitName": "Default",
           "NormalizedSignature": "Default|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "AddMethod",
-          "TsEmitName": "addMethod",
+          "TsEmitName": "AddMethod",
           "NormalizedSignature": "AddMethod|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "AddField",
-          "TsEmitName": "addField",
+          "TsEmitName": "AddField",
           "NormalizedSignature": "AddField|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "AddParameter",
-          "TsEmitName": "addParameter",
+          "TsEmitName": "AddParameter",
           "NormalizedSignature": "AddParameter|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "AddProperty",
-          "TsEmitName": "addProperty",
+          "TsEmitName": "AddProperty",
           "NormalizedSignature": "AddProperty|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "AddEvent",
-          "TsEmitName": "addEvent",
+          "TsEmitName": "AddEvent",
           "NormalizedSignature": "AddEvent|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Reflection.Metadata.Ecma335.FunctionPointerAttributes|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "HasThis",
-          "TsEmitName": "hasThis",
+          "TsEmitName": "HasThis",
           "NormalizedSignature": "HasThis|System.Reflection.Metadata.Ecma335.FunctionPointerAttributes|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "HasExplicitThis",
-          "TsEmitName": "hasExplicitThis",
+          "TsEmitName": "HasExplicitThis",
           "NormalizedSignature": "HasExplicitThis|System.Reflection.Metadata.Ecma335.FunctionPointerAttributes|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "ClrName": "UserString",
-          "TsEmitName": "userString",
+          "TsEmitName": "UserString",
           "NormalizedSignature": "UserString|System.Reflection.Metadata.Ecma335.HeapIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "String",
-          "TsEmitName": "string_",
+          "TsEmitName": "String",
           "NormalizedSignature": "String|System.Reflection.Metadata.Ecma335.HeapIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "Blob",
-          "TsEmitName": "blob",
+          "TsEmitName": "Blob",
           "NormalizedSignature": "Blob|System.Reflection.Metadata.Ecma335.HeapIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "Guid",
-          "TsEmitName": "guid",
+          "TsEmitName": "Guid",
           "NormalizedSignature": "Guid|System.Reflection.Metadata.Ecma335.HeapIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Reflection.Metadata.Ecma335.MethodBodyAttributes|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "ClrName": "InitLocals",
-          "TsEmitName": "initLocals",
+          "TsEmitName": "InitLocals",
           "NormalizedSignature": "InitLocals|System.Reflection.Metadata.Ecma335.MethodBodyAttributes|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "ClrName": "Module",
-          "TsEmitName": "module_",
+          "TsEmitName": "Module",
           "NormalizedSignature": "Module|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "ClrName": "TypeRef",
-          "TsEmitName": "typeRef",
+          "TsEmitName": "TypeRef",
           "NormalizedSignature": "TypeRef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -258,7 +258,7 @@
         },
         {
           "ClrName": "TypeDef",
-          "TsEmitName": "typeDef",
+          "TsEmitName": "TypeDef",
           "NormalizedSignature": "TypeDef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -266,7 +266,7 @@
         },
         {
           "ClrName": "FieldPtr",
-          "TsEmitName": "fieldPtr",
+          "TsEmitName": "FieldPtr",
           "NormalizedSignature": "FieldPtr|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "ClrName": "Field",
-          "TsEmitName": "field",
+          "TsEmitName": "Field",
           "NormalizedSignature": "Field|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "ClrName": "MethodPtr",
-          "TsEmitName": "methodPtr",
+          "TsEmitName": "MethodPtr",
           "NormalizedSignature": "MethodPtr|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -290,7 +290,7 @@
         },
         {
           "ClrName": "MethodDef",
-          "TsEmitName": "methodDef",
+          "TsEmitName": "MethodDef",
           "NormalizedSignature": "MethodDef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -298,7 +298,7 @@
         },
         {
           "ClrName": "ParamPtr",
-          "TsEmitName": "paramPtr",
+          "TsEmitName": "ParamPtr",
           "NormalizedSignature": "ParamPtr|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -306,7 +306,7 @@
         },
         {
           "ClrName": "Param",
-          "TsEmitName": "param",
+          "TsEmitName": "Param",
           "NormalizedSignature": "Param|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -314,7 +314,7 @@
         },
         {
           "ClrName": "InterfaceImpl",
-          "TsEmitName": "interfaceImpl",
+          "TsEmitName": "InterfaceImpl",
           "NormalizedSignature": "InterfaceImpl|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "ClrName": "MemberRef",
-          "TsEmitName": "memberRef",
+          "TsEmitName": "MemberRef",
           "NormalizedSignature": "MemberRef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "Constant",
-          "TsEmitName": "constant",
+          "TsEmitName": "Constant",
           "NormalizedSignature": "Constant|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -338,7 +338,7 @@
         },
         {
           "ClrName": "CustomAttribute",
-          "TsEmitName": "customAttribute",
+          "TsEmitName": "CustomAttribute",
           "NormalizedSignature": "CustomAttribute|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "FieldMarshal",
-          "TsEmitName": "fieldMarshal",
+          "TsEmitName": "FieldMarshal",
           "NormalizedSignature": "FieldMarshal|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -354,7 +354,7 @@
         },
         {
           "ClrName": "DeclSecurity",
-          "TsEmitName": "declSecurity",
+          "TsEmitName": "DeclSecurity",
           "NormalizedSignature": "DeclSecurity|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -362,7 +362,7 @@
         },
         {
           "ClrName": "ClassLayout",
-          "TsEmitName": "classLayout",
+          "TsEmitName": "ClassLayout",
           "NormalizedSignature": "ClassLayout|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -370,7 +370,7 @@
         },
         {
           "ClrName": "FieldLayout",
-          "TsEmitName": "fieldLayout",
+          "TsEmitName": "FieldLayout",
           "NormalizedSignature": "FieldLayout|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -378,7 +378,7 @@
         },
         {
           "ClrName": "StandAloneSig",
-          "TsEmitName": "standAloneSig",
+          "TsEmitName": "StandAloneSig",
           "NormalizedSignature": "StandAloneSig|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -386,7 +386,7 @@
         },
         {
           "ClrName": "EventMap",
-          "TsEmitName": "eventMap",
+          "TsEmitName": "EventMap",
           "NormalizedSignature": "EventMap|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -394,7 +394,7 @@
         },
         {
           "ClrName": "EventPtr",
-          "TsEmitName": "eventPtr",
+          "TsEmitName": "EventPtr",
           "NormalizedSignature": "EventPtr|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -402,7 +402,7 @@
         },
         {
           "ClrName": "Event",
-          "TsEmitName": "event",
+          "TsEmitName": "Event",
           "NormalizedSignature": "Event|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -410,7 +410,7 @@
         },
         {
           "ClrName": "PropertyMap",
-          "TsEmitName": "propertyMap",
+          "TsEmitName": "PropertyMap",
           "NormalizedSignature": "PropertyMap|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -418,7 +418,7 @@
         },
         {
           "ClrName": "PropertyPtr",
-          "TsEmitName": "propertyPtr",
+          "TsEmitName": "PropertyPtr",
           "NormalizedSignature": "PropertyPtr|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -426,7 +426,7 @@
         },
         {
           "ClrName": "Property",
-          "TsEmitName": "property",
+          "TsEmitName": "Property",
           "NormalizedSignature": "Property|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -434,7 +434,7 @@
         },
         {
           "ClrName": "MethodSemantics",
-          "TsEmitName": "methodSemantics",
+          "TsEmitName": "MethodSemantics",
           "NormalizedSignature": "MethodSemantics|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "MethodImpl",
-          "TsEmitName": "methodImpl",
+          "TsEmitName": "MethodImpl",
           "NormalizedSignature": "MethodImpl|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -450,7 +450,7 @@
         },
         {
           "ClrName": "ModuleRef",
-          "TsEmitName": "moduleRef",
+          "TsEmitName": "ModuleRef",
           "NormalizedSignature": "ModuleRef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -458,7 +458,7 @@
         },
         {
           "ClrName": "TypeSpec",
-          "TsEmitName": "typeSpec",
+          "TsEmitName": "TypeSpec",
           "NormalizedSignature": "TypeSpec|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -466,7 +466,7 @@
         },
         {
           "ClrName": "ImplMap",
-          "TsEmitName": "implMap",
+          "TsEmitName": "ImplMap",
           "NormalizedSignature": "ImplMap|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -474,7 +474,7 @@
         },
         {
           "ClrName": "FieldRva",
-          "TsEmitName": "fieldRva",
+          "TsEmitName": "FieldRva",
           "NormalizedSignature": "FieldRva|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -482,7 +482,7 @@
         },
         {
           "ClrName": "EncLog",
-          "TsEmitName": "encLog",
+          "TsEmitName": "EncLog",
           "NormalizedSignature": "EncLog|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -490,7 +490,7 @@
         },
         {
           "ClrName": "EncMap",
-          "TsEmitName": "encMap",
+          "TsEmitName": "EncMap",
           "NormalizedSignature": "EncMap|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -498,7 +498,7 @@
         },
         {
           "ClrName": "Assembly",
-          "TsEmitName": "assembly",
+          "TsEmitName": "Assembly",
           "NormalizedSignature": "Assembly|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -506,7 +506,7 @@
         },
         {
           "ClrName": "AssemblyProcessor",
-          "TsEmitName": "assemblyProcessor",
+          "TsEmitName": "AssemblyProcessor",
           "NormalizedSignature": "AssemblyProcessor|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "AssemblyOS",
-          "TsEmitName": "assemblyOS",
+          "TsEmitName": "AssemblyOS",
           "NormalizedSignature": "AssemblyOS|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -522,7 +522,7 @@
         },
         {
           "ClrName": "AssemblyRef",
-          "TsEmitName": "assemblyRef",
+          "TsEmitName": "AssemblyRef",
           "NormalizedSignature": "AssemblyRef|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -530,7 +530,7 @@
         },
         {
           "ClrName": "AssemblyRefProcessor",
-          "TsEmitName": "assemblyRefProcessor",
+          "TsEmitName": "AssemblyRefProcessor",
           "NormalizedSignature": "AssemblyRefProcessor|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -538,7 +538,7 @@
         },
         {
           "ClrName": "AssemblyRefOS",
-          "TsEmitName": "assemblyRefOS",
+          "TsEmitName": "AssemblyRefOS",
           "NormalizedSignature": "AssemblyRefOS|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -546,7 +546,7 @@
         },
         {
           "ClrName": "File",
-          "TsEmitName": "file",
+          "TsEmitName": "File",
           "NormalizedSignature": "File|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -554,7 +554,7 @@
         },
         {
           "ClrName": "ExportedType",
-          "TsEmitName": "exportedType",
+          "TsEmitName": "ExportedType",
           "NormalizedSignature": "ExportedType|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -562,7 +562,7 @@
         },
         {
           "ClrName": "ManifestResource",
-          "TsEmitName": "manifestResource",
+          "TsEmitName": "ManifestResource",
           "NormalizedSignature": "ManifestResource|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -570,7 +570,7 @@
         },
         {
           "ClrName": "NestedClass",
-          "TsEmitName": "nestedClass",
+          "TsEmitName": "NestedClass",
           "NormalizedSignature": "NestedClass|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -578,7 +578,7 @@
         },
         {
           "ClrName": "GenericParam",
-          "TsEmitName": "genericParam",
+          "TsEmitName": "GenericParam",
           "NormalizedSignature": "GenericParam|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -586,7 +586,7 @@
         },
         {
           "ClrName": "MethodSpec",
-          "TsEmitName": "methodSpec",
+          "TsEmitName": "MethodSpec",
           "NormalizedSignature": "MethodSpec|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -594,7 +594,7 @@
         },
         {
           "ClrName": "GenericParamConstraint",
-          "TsEmitName": "genericParamConstraint",
+          "TsEmitName": "GenericParamConstraint",
           "NormalizedSignature": "GenericParamConstraint|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -602,7 +602,7 @@
         },
         {
           "ClrName": "Document",
-          "TsEmitName": "document",
+          "TsEmitName": "Document",
           "NormalizedSignature": "Document|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -610,7 +610,7 @@
         },
         {
           "ClrName": "MethodDebugInformation",
-          "TsEmitName": "methodDebugInformation",
+          "TsEmitName": "MethodDebugInformation",
           "NormalizedSignature": "MethodDebugInformation|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -618,7 +618,7 @@
         },
         {
           "ClrName": "LocalScope",
-          "TsEmitName": "localScope",
+          "TsEmitName": "LocalScope",
           "NormalizedSignature": "LocalScope|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "LocalVariable",
-          "TsEmitName": "localVariable",
+          "TsEmitName": "LocalVariable",
           "NormalizedSignature": "LocalVariable|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -634,7 +634,7 @@
         },
         {
           "ClrName": "LocalConstant",
-          "TsEmitName": "localConstant",
+          "TsEmitName": "LocalConstant",
           "NormalizedSignature": "LocalConstant|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -642,7 +642,7 @@
         },
         {
           "ClrName": "ImportScope",
-          "TsEmitName": "importScope",
+          "TsEmitName": "ImportScope",
           "NormalizedSignature": "ImportScope|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -650,7 +650,7 @@
         },
         {
           "ClrName": "StateMachineMethod",
-          "TsEmitName": "stateMachineMethod",
+          "TsEmitName": "StateMachineMethod",
           "NormalizedSignature": "StateMachineMethod|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -658,7 +658,7 @@
         },
         {
           "ClrName": "CustomDebugInformation",
-          "TsEmitName": "customDebugInformation",
+          "TsEmitName": "CustomDebugInformation",
           "NormalizedSignature": "CustomDebugInformation|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -680,7 +680,7 @@
       "Methods": [
         {
           "ClrName": "Shape",
-          "TsEmitName": "shape",
+          "TsEmitName": "Shape",
           "NormalizedSignature": "Shape|(System.Int32,System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -696,7 +696,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -731,7 +731,7 @@
       "Methods": [
         {
           "ClrName": "Field",
-          "TsEmitName": "field",
+          "TsEmitName": "Field",
           "NormalizedSignature": "Field|():System.Reflection.Metadata.Ecma335.FieldTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -745,7 +745,7 @@
         },
         {
           "ClrName": "FieldSignature",
-          "TsEmitName": "fieldSignature",
+          "TsEmitName": "FieldSignature",
           "NormalizedSignature": "FieldSignature|():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -759,7 +759,7 @@
         },
         {
           "ClrName": "MethodSpecificationSignature",
-          "TsEmitName": "methodSpecificationSignature",
+          "TsEmitName": "MethodSpecificationSignature",
           "NormalizedSignature": "MethodSpecificationSignature|(System.Int32):System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -773,7 +773,7 @@
         },
         {
           "ClrName": "MethodSignature",
-          "TsEmitName": "methodSignature",
+          "TsEmitName": "MethodSignature",
           "NormalizedSignature": "MethodSignature|(System.Reflection.Metadata.SignatureCallingConvention,System.Int32,System.Boolean):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -787,7 +787,7 @@
         },
         {
           "ClrName": "PropertySignature",
-          "TsEmitName": "propertySignature",
+          "TsEmitName": "PropertySignature",
           "NormalizedSignature": "PropertySignature|(System.Boolean):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -801,7 +801,7 @@
         },
         {
           "ClrName": "CustomAttributeSignature",
-          "TsEmitName": "customAttributeSignature",
+          "TsEmitName": "CustomAttributeSignature",
           "NormalizedSignature": "CustomAttributeSignature|(System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder\u0026,System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -815,7 +815,7 @@
         },
         {
           "ClrName": "CustomAttributeSignature",
-          "TsEmitName": "customAttributeSignature2",
+          "TsEmitName": "CustomAttributeSignature2",
           "NormalizedSignature": "CustomAttributeSignature|(System.Action_1[[System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -829,7 +829,7 @@
         },
         {
           "ClrName": "LocalVariableSignature",
-          "TsEmitName": "localVariableSignature",
+          "TsEmitName": "LocalVariableSignature",
           "NormalizedSignature": "LocalVariableSignature|(System.Int32):System.Reflection.Metadata.Ecma335.LocalVariablesEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -843,7 +843,7 @@
         },
         {
           "ClrName": "TypeSpecificationSignature",
-          "TsEmitName": "typeSpecificationSignature",
+          "TsEmitName": "TypeSpecificationSignature",
           "NormalizedSignature": "TypeSpecificationSignature|():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -857,7 +857,7 @@
         },
         {
           "ClrName": "PermissionSetBlob",
-          "TsEmitName": "permissionSetBlob",
+          "TsEmitName": "PermissionSetBlob",
           "NormalizedSignature": "PermissionSetBlob|(System.Int32):System.Reflection.Metadata.Ecma335.PermissionSetEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -871,7 +871,7 @@
         },
         {
           "ClrName": "PermissionSetArguments",
-          "TsEmitName": "permissionSetArguments",
+          "TsEmitName": "PermissionSetArguments",
           "NormalizedSignature": "PermissionSetArguments|(System.Int32):System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -887,7 +887,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -922,7 +922,7 @@
       "Methods": [
         {
           "ClrName": "ObjectArray",
-          "TsEmitName": "objectArray",
+          "TsEmitName": "ObjectArray",
           "NormalizedSignature": "ObjectArray|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         },
         {
           "ClrName": "ElementType",
-          "TsEmitName": "elementType",
+          "TsEmitName": "ElementType",
           "NormalizedSignature": "ElementType|():System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -952,7 +952,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -987,7 +987,7 @@
       "Methods": [
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "NormalizedSignature": "Boolean|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1001,7 +1001,7 @@
         },
         {
           "ClrName": "Char",
-          "TsEmitName": "char",
+          "TsEmitName": "Char",
           "NormalizedSignature": "Char|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1015,7 +1015,7 @@
         },
         {
           "ClrName": "SByte",
-          "TsEmitName": "sByte",
+          "TsEmitName": "SByte",
           "NormalizedSignature": "SByte|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1029,7 +1029,7 @@
         },
         {
           "ClrName": "Byte",
-          "TsEmitName": "byte",
+          "TsEmitName": "Byte",
           "NormalizedSignature": "Byte|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1043,7 +1043,7 @@
         },
         {
           "ClrName": "Int16",
-          "TsEmitName": "int16",
+          "TsEmitName": "Int16",
           "NormalizedSignature": "Int16|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1057,7 +1057,7 @@
         },
         {
           "ClrName": "UInt16",
-          "TsEmitName": "uInt16",
+          "TsEmitName": "UInt16",
           "NormalizedSignature": "UInt16|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1071,7 +1071,7 @@
         },
         {
           "ClrName": "Int32",
-          "TsEmitName": "int32",
+          "TsEmitName": "Int32",
           "NormalizedSignature": "Int32|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1085,7 +1085,7 @@
         },
         {
           "ClrName": "UInt32",
-          "TsEmitName": "uInt32",
+          "TsEmitName": "UInt32",
           "NormalizedSignature": "UInt32|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1099,7 +1099,7 @@
         },
         {
           "ClrName": "Int64",
-          "TsEmitName": "int64",
+          "TsEmitName": "Int64",
           "NormalizedSignature": "Int64|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1113,7 +1113,7 @@
         },
         {
           "ClrName": "UInt64",
-          "TsEmitName": "uInt64",
+          "TsEmitName": "UInt64",
           "NormalizedSignature": "UInt64|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1127,7 +1127,7 @@
         },
         {
           "ClrName": "Single",
-          "TsEmitName": "single",
+          "TsEmitName": "Single",
           "NormalizedSignature": "Single|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1141,7 +1141,7 @@
         },
         {
           "ClrName": "Double",
-          "TsEmitName": "double",
+          "TsEmitName": "Double",
           "NormalizedSignature": "Double|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1155,7 +1155,7 @@
         },
         {
           "ClrName": "String",
-          "TsEmitName": "string_",
+          "TsEmitName": "String",
           "NormalizedSignature": "String|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1169,7 +1169,7 @@
         },
         {
           "ClrName": "PrimitiveType",
-          "TsEmitName": "primitiveType",
+          "TsEmitName": "PrimitiveType",
           "NormalizedSignature": "PrimitiveType|(System.Reflection.Metadata.PrimitiveSerializationTypeCode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1183,7 +1183,7 @@
         },
         {
           "ClrName": "SystemType",
-          "TsEmitName": "systemType",
+          "TsEmitName": "SystemType",
           "NormalizedSignature": "SystemType|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1197,7 +1197,7 @@
         },
         {
           "ClrName": "Enum",
-          "TsEmitName": "enum_",
+          "TsEmitName": "Enum",
           "NormalizedSignature": "Enum|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1213,7 +1213,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1248,7 +1248,7 @@
       "Methods": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|(System.Int32):System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1264,7 +1264,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1299,7 +1299,7 @@
       "Methods": [
         {
           "ClrName": "AddModifier",
-          "TsEmitName": "addModifier",
+          "TsEmitName": "AddModifier",
           "NormalizedSignature": "AddModifier|(System.Reflection.Metadata.EntityHandle,System.Boolean):System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1315,7 +1315,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1350,7 +1350,7 @@
       "Methods": [
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1364,7 +1364,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1378,7 +1378,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1392,7 +1392,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1409,7 +1409,7 @@
       "Properties": [
         {
           "ClrName": "Handle",
-          "TsEmitName": "handle",
+          "TsEmitName": "Handle",
           "NormalizedSignature": "Handle|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1423,7 +1423,7 @@
         },
         {
           "ClrName": "Operation",
-          "TsEmitName": "operation",
+          "TsEmitName": "Operation",
           "NormalizedSignature": "Operation|:System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1458,7 +1458,7 @@
       "Methods": [
         {
           "ClrName": "IsSmallRegionCount",
-          "TsEmitName": "isSmallRegionCount",
+          "TsEmitName": "IsSmallRegionCount",
           "NormalizedSignature": "IsSmallRegionCount|(System.Int32):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1472,7 +1472,7 @@
         },
         {
           "ClrName": "IsSmallExceptionRegion",
-          "TsEmitName": "isSmallExceptionRegion",
+          "TsEmitName": "IsSmallExceptionRegion",
           "NormalizedSignature": "IsSmallExceptionRegion|(System.Int32,System.Int32):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1486,7 +1486,7 @@
         },
         {
           "ClrName": "AddFinally",
-          "TsEmitName": "addFinally",
+          "TsEmitName": "AddFinally",
           "NormalizedSignature": "AddFinally|(System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1500,7 +1500,7 @@
         },
         {
           "ClrName": "AddFault",
-          "TsEmitName": "addFault",
+          "TsEmitName": "AddFault",
           "NormalizedSignature": "AddFault|(System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1514,7 +1514,7 @@
         },
         {
           "ClrName": "AddCatch",
-          "TsEmitName": "addCatch",
+          "TsEmitName": "AddCatch",
           "NormalizedSignature": "AddCatch|(System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1528,7 +1528,7 @@
         },
         {
           "ClrName": "AddFilter",
-          "TsEmitName": "addFilter",
+          "TsEmitName": "AddFilter",
           "NormalizedSignature": "AddFilter|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1542,7 +1542,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Reflection.Metadata.ExceptionRegionKind,System.Int32,System.Int32,System.Int32,System.Int32,System.Reflection.Metadata.EntityHandle,System.Int32):System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1558,7 +1558,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1572,7 +1572,7 @@
         },
         {
           "ClrName": "HasSmallFormat",
-          "TsEmitName": "hasSmallFormat",
+          "TsEmitName": "HasSmallFormat",
           "NormalizedSignature": "HasSmallFormat|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1601,7 +1601,7 @@
       "Methods": [
         {
           "ClrName": "CustomModifiers",
-          "TsEmitName": "customModifiers",
+          "TsEmitName": "CustomModifiers",
           "NormalizedSignature": "CustomModifiers|():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1615,7 +1615,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1629,7 +1629,7 @@
         },
         {
           "ClrName": "TypedReference",
-          "TsEmitName": "typedReference",
+          "TsEmitName": "TypedReference",
           "NormalizedSignature": "TypedReference|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1645,7 +1645,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1680,7 +1680,7 @@
       "Methods": [
         {
           "ClrName": "AddArgument",
-          "TsEmitName": "addArgument",
+          "TsEmitName": "AddArgument",
           "NormalizedSignature": "AddArgument|():System.Reflection.Metadata.Ecma335.LiteralEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1696,7 +1696,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1731,7 +1731,7 @@
       "Methods": [
         {
           "ClrName": "AddArgument",
-          "TsEmitName": "addArgument",
+          "TsEmitName": "AddArgument",
           "NormalizedSignature": "AddArgument|():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1747,7 +1747,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1782,7 +1782,7 @@
       "Methods": [
         {
           "ClrName": "OpCode",
-          "TsEmitName": "opCode",
+          "TsEmitName": "OpCode",
           "NormalizedSignature": "OpCode|(System.Reflection.Metadata.ILOpCode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1796,7 +1796,7 @@
         },
         {
           "ClrName": "Token",
-          "TsEmitName": "token",
+          "TsEmitName": "Token",
           "NormalizedSignature": "Token|(System.Reflection.Metadata.EntityHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1810,7 +1810,7 @@
         },
         {
           "ClrName": "Token",
-          "TsEmitName": "token2",
+          "TsEmitName": "Token2",
           "NormalizedSignature": "Token|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1824,7 +1824,7 @@
         },
         {
           "ClrName": "LoadString",
-          "TsEmitName": "loadString",
+          "TsEmitName": "LoadString",
           "NormalizedSignature": "LoadString|(System.Reflection.Metadata.UserStringHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1838,7 +1838,7 @@
         },
         {
           "ClrName": "Call",
-          "TsEmitName": "call",
+          "TsEmitName": "Call",
           "NormalizedSignature": "Call|(System.Reflection.Metadata.EntityHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1852,7 +1852,7 @@
         },
         {
           "ClrName": "Call",
-          "TsEmitName": "call2",
+          "TsEmitName": "Call2",
           "NormalizedSignature": "Call|(System.Reflection.Metadata.MethodDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1866,7 +1866,7 @@
         },
         {
           "ClrName": "Call",
-          "TsEmitName": "call3",
+          "TsEmitName": "Call3",
           "NormalizedSignature": "Call|(System.Reflection.Metadata.MethodSpecificationHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1880,7 +1880,7 @@
         },
         {
           "ClrName": "Call",
-          "TsEmitName": "call4",
+          "TsEmitName": "Call4",
           "NormalizedSignature": "Call|(System.Reflection.Metadata.MemberReferenceHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1894,7 +1894,7 @@
         },
         {
           "ClrName": "CallIndirect",
-          "TsEmitName": "callIndirect",
+          "TsEmitName": "CallIndirect",
           "NormalizedSignature": "CallIndirect|(System.Reflection.Metadata.StandaloneSignatureHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1908,7 +1908,7 @@
         },
         {
           "ClrName": "LoadConstantI4",
-          "TsEmitName": "loadConstantI4",
+          "TsEmitName": "LoadConstantI4",
           "NormalizedSignature": "LoadConstantI4|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1922,7 +1922,7 @@
         },
         {
           "ClrName": "LoadConstantI8",
-          "TsEmitName": "loadConstantI8",
+          "TsEmitName": "LoadConstantI8",
           "NormalizedSignature": "LoadConstantI8|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1936,7 +1936,7 @@
         },
         {
           "ClrName": "LoadConstantR4",
-          "TsEmitName": "loadConstantR4",
+          "TsEmitName": "LoadConstantR4",
           "NormalizedSignature": "LoadConstantR4|(System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1950,7 +1950,7 @@
         },
         {
           "ClrName": "LoadConstantR8",
-          "TsEmitName": "loadConstantR8",
+          "TsEmitName": "LoadConstantR8",
           "NormalizedSignature": "LoadConstantR8|(System.Double):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1964,7 +1964,7 @@
         },
         {
           "ClrName": "LoadLocal",
-          "TsEmitName": "loadLocal",
+          "TsEmitName": "LoadLocal",
           "NormalizedSignature": "LoadLocal|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1978,7 +1978,7 @@
         },
         {
           "ClrName": "StoreLocal",
-          "TsEmitName": "storeLocal",
+          "TsEmitName": "StoreLocal",
           "NormalizedSignature": "StoreLocal|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1992,7 +1992,7 @@
         },
         {
           "ClrName": "LoadLocalAddress",
-          "TsEmitName": "loadLocalAddress",
+          "TsEmitName": "LoadLocalAddress",
           "NormalizedSignature": "LoadLocalAddress|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2006,7 +2006,7 @@
         },
         {
           "ClrName": "LoadArgument",
-          "TsEmitName": "loadArgument",
+          "TsEmitName": "LoadArgument",
           "NormalizedSignature": "LoadArgument|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2020,7 +2020,7 @@
         },
         {
           "ClrName": "LoadArgumentAddress",
-          "TsEmitName": "loadArgumentAddress",
+          "TsEmitName": "LoadArgumentAddress",
           "NormalizedSignature": "LoadArgumentAddress|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2034,7 +2034,7 @@
         },
         {
           "ClrName": "StoreArgument",
-          "TsEmitName": "storeArgument",
+          "TsEmitName": "StoreArgument",
           "NormalizedSignature": "StoreArgument|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2048,7 +2048,7 @@
         },
         {
           "ClrName": "DefineLabel",
-          "TsEmitName": "defineLabel",
+          "TsEmitName": "DefineLabel",
           "NormalizedSignature": "DefineLabel|():System.Reflection.Metadata.Ecma335.LabelHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2062,7 +2062,7 @@
         },
         {
           "ClrName": "Branch",
-          "TsEmitName": "branch",
+          "TsEmitName": "Branch",
           "NormalizedSignature": "Branch|(System.Reflection.Metadata.ILOpCode,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2076,7 +2076,7 @@
         },
         {
           "ClrName": "Switch",
-          "TsEmitName": "switch_",
+          "TsEmitName": "Switch",
           "NormalizedSignature": "Switch|(System.Int32):System.Reflection.Metadata.Ecma335.SwitchInstructionEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2090,7 +2090,7 @@
         },
         {
           "ClrName": "MarkLabel",
-          "TsEmitName": "markLabel",
+          "TsEmitName": "MarkLabel",
           "NormalizedSignature": "MarkLabel|(System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2106,7 +2106,7 @@
       "Properties": [
         {
           "ClrName": "CodeBuilder",
-          "TsEmitName": "codeBuilder",
+          "TsEmitName": "CodeBuilder",
           "NormalizedSignature": "CodeBuilder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2120,7 +2120,7 @@
         },
         {
           "ClrName": "ControlFlowBuilder",
-          "TsEmitName": "controlFlowBuilder",
+          "TsEmitName": "ControlFlowBuilder",
           "NormalizedSignature": "ControlFlowBuilder|:System.Reflection.Metadata.Ecma335.ControlFlowBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2134,7 +2134,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset",
+          "TsEmitName": "Offset",
           "NormalizedSignature": "Offset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2169,7 +2169,7 @@
       "Methods": [
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Reflection.Metadata.Ecma335.LabelHandle):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2183,7 +2183,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2197,7 +2197,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2211,7 +2211,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2228,7 +2228,7 @@
       "Properties": [
         {
           "ClrName": "Id",
-          "TsEmitName": "id",
+          "TsEmitName": "Id",
           "NormalizedSignature": "Id|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2242,7 +2242,7 @@
         },
         {
           "ClrName": "IsNil",
-          "TsEmitName": "isNil",
+          "TsEmitName": "IsNil",
           "NormalizedSignature": "IsNil|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2271,7 +2271,7 @@
       "Methods": [
         {
           "ClrName": "Vector",
-          "TsEmitName": "vector",
+          "TsEmitName": "Vector",
           "NormalizedSignature": "Vector|():System.Reflection.Metadata.Ecma335.VectorEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2285,7 +2285,7 @@
         },
         {
           "ClrName": "TaggedVector",
-          "TsEmitName": "taggedVector",
+          "TsEmitName": "TaggedVector",
           "NormalizedSignature": "TaggedVector|(System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.VectorEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2299,7 +2299,7 @@
         },
         {
           "ClrName": "TaggedVector",
-          "TsEmitName": "taggedVector2",
+          "TsEmitName": "TaggedVector2",
           "NormalizedSignature": "TaggedVector|(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.VectorEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2313,7 +2313,7 @@
         },
         {
           "ClrName": "Scalar",
-          "TsEmitName": "scalar",
+          "TsEmitName": "Scalar",
           "NormalizedSignature": "Scalar|():System.Reflection.Metadata.Ecma335.ScalarEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2327,7 +2327,7 @@
         },
         {
           "ClrName": "TaggedScalar",
-          "TsEmitName": "taggedScalar",
+          "TsEmitName": "TaggedScalar",
           "NormalizedSignature": "TaggedScalar|(System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.ScalarEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2341,7 +2341,7 @@
         },
         {
           "ClrName": "TaggedScalar",
-          "TsEmitName": "taggedScalar2",
+          "TsEmitName": "TaggedScalar2",
           "NormalizedSignature": "TaggedScalar|(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ScalarEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2357,7 +2357,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2392,7 +2392,7 @@
       "Methods": [
         {
           "ClrName": "AddLiteral",
-          "TsEmitName": "addLiteral",
+          "TsEmitName": "AddLiteral",
           "NormalizedSignature": "AddLiteral|():System.Reflection.Metadata.Ecma335.LiteralEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2408,7 +2408,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2443,7 +2443,7 @@
       "Methods": [
         {
           "ClrName": "AddVariable",
-          "TsEmitName": "addVariable",
+          "TsEmitName": "AddVariable",
           "NormalizedSignature": "AddVariable|():System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2459,7 +2459,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2494,7 +2494,7 @@
       "Methods": [
         {
           "ClrName": "CustomModifiers",
-          "TsEmitName": "customModifiers",
+          "TsEmitName": "CustomModifiers",
           "NormalizedSignature": "CustomModifiers|():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2508,7 +2508,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|(System.Boolean,System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2522,7 +2522,7 @@
         },
         {
           "ClrName": "TypedReference",
-          "TsEmitName": "typedReference",
+          "TsEmitName": "TypedReference",
           "NormalizedSignature": "TypedReference|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2538,7 +2538,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2573,7 +2573,7 @@
       "Methods": [
         {
           "ClrName": "AddMethodBody",
-          "TsEmitName": "addMethodBody",
+          "TsEmitName": "AddMethodBody",
           "NormalizedSignature": "AddMethodBody|(System.Int32,System.Int32,System.Int32,System.Boolean,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes):System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2587,7 +2587,7 @@
         },
         {
           "ClrName": "AddMethodBody",
-          "TsEmitName": "addMethodBody2",
+          "TsEmitName": "AddMethodBody2",
           "NormalizedSignature": "AddMethodBody|(System.Int32,System.Int32,System.Int32,System.Boolean,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2601,7 +2601,7 @@
         },
         {
           "ClrName": "AddMethodBody",
-          "TsEmitName": "addMethodBody3",
+          "TsEmitName": "AddMethodBody3",
           "NormalizedSignature": "AddMethodBody|(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2615,7 +2615,7 @@
         },
         {
           "ClrName": "AddMethodBody",
-          "TsEmitName": "addMethodBody4",
+          "TsEmitName": "AddMethodBody4",
           "NormalizedSignature": "AddMethodBody|(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2631,7 +2631,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2667,7 +2667,7 @@
       "Properties": [
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset",
+          "TsEmitName": "Offset",
           "NormalizedSignature": "Offset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2681,7 +2681,7 @@
         },
         {
           "ClrName": "Instructions",
-          "TsEmitName": "instructions",
+          "TsEmitName": "Instructions",
           "NormalizedSignature": "Instructions|:System.Reflection.Metadata.Blob|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2695,7 +2695,7 @@
         },
         {
           "ClrName": "ExceptionRegions",
-          "TsEmitName": "exceptionRegions",
+          "TsEmitName": "ExceptionRegions",
           "NormalizedSignature": "ExceptionRegions|:System.Reflection.Metadata.Ecma335.ExceptionRegionEncoder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2724,7 +2724,7 @@
       "Methods": [
         {
           "ClrName": "Parameters",
-          "TsEmitName": "parameters",
+          "TsEmitName": "Parameters",
           "NormalizedSignature": "Parameters|(System.Int32,System.Reflection.Metadata.Ecma335.ReturnTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.ParametersEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2738,7 +2738,7 @@
         },
         {
           "ClrName": "Parameters",
-          "TsEmitName": "parameters2",
+          "TsEmitName": "Parameters2",
           "NormalizedSignature": "Parameters|(System.Int32,System.Action_1[[System.Reflection.Metadata.Ecma335.ReturnTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ParametersEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2754,7 +2754,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2768,7 +2768,7 @@
         },
         {
           "ClrName": "HasVarArgs",
-          "TsEmitName": "hasVarArgs",
+          "TsEmitName": "HasVarArgs",
           "NormalizedSignature": "HasVarArgs|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2803,7 +2803,7 @@
       "Methods": [
         {
           "ClrName": "AddArgument",
-          "TsEmitName": "addArgument",
+          "TsEmitName": "AddArgument",
           "NormalizedSignature": "AddArgument|(System.Boolean,System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.NameEncoder\u0026,System.Reflection.Metadata.Ecma335.LiteralEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2817,7 +2817,7 @@
         },
         {
           "ClrName": "AddArgument",
-          "TsEmitName": "addArgument2",
+          "TsEmitName": "AddArgument2",
           "NormalizedSignature": "AddArgument|(System.Boolean,System.Action_1[[System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.NameEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.LiteralEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2833,7 +2833,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2868,7 +2868,7 @@
       "Methods": [
         {
           "ClrName": "ScalarType",
-          "TsEmitName": "scalarType",
+          "TsEmitName": "ScalarType",
           "NormalizedSignature": "ScalarType|():System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2882,7 +2882,7 @@
         },
         {
           "ClrName": "Object",
-          "TsEmitName": "object_",
+          "TsEmitName": "Object",
           "NormalizedSignature": "Object|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2896,7 +2896,7 @@
         },
         {
           "ClrName": "SZArray",
-          "TsEmitName": "szArray",
+          "TsEmitName": "SZArray",
           "NormalizedSignature": "SZArray|():System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2912,7 +2912,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2947,7 +2947,7 @@
       "Methods": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2963,7 +2963,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2998,7 +2998,7 @@
       "Methods": [
         {
           "ClrName": "AddParameter",
-          "TsEmitName": "addParameter",
+          "TsEmitName": "AddParameter",
           "NormalizedSignature": "AddParameter|():System.Reflection.Metadata.Ecma335.ParameterTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3012,7 +3012,7 @@
         },
         {
           "ClrName": "StartVarArgs",
-          "TsEmitName": "startVarArgs",
+          "TsEmitName": "StartVarArgs",
           "NormalizedSignature": "StartVarArgs|():System.Reflection.Metadata.Ecma335.ParametersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3028,7 +3028,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3042,7 +3042,7 @@
         },
         {
           "ClrName": "HasVarArgs",
-          "TsEmitName": "hasVarArgs",
+          "TsEmitName": "HasVarArgs",
           "NormalizedSignature": "HasVarArgs|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3077,7 +3077,7 @@
       "Methods": [
         {
           "ClrName": "CustomModifiers",
-          "TsEmitName": "customModifiers",
+          "TsEmitName": "CustomModifiers",
           "NormalizedSignature": "CustomModifiers|():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3091,7 +3091,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3105,7 +3105,7 @@
         },
         {
           "ClrName": "TypedReference",
-          "TsEmitName": "typedReference",
+          "TsEmitName": "TypedReference",
           "NormalizedSignature": "TypedReference|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3121,7 +3121,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3156,7 +3156,7 @@
       "Methods": [
         {
           "ClrName": "AddPermission",
-          "TsEmitName": "addPermission",
+          "TsEmitName": "AddPermission",
           "NormalizedSignature": "AddPermission|(System.String,System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Metadata.Ecma335.PermissionSetEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3170,7 +3170,7 @@
         },
         {
           "ClrName": "AddPermission",
-          "TsEmitName": "addPermission2",
+          "TsEmitName": "AddPermission2",
           "NormalizedSignature": "AddPermission|(System.String,System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.Ecma335.PermissionSetEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3186,7 +3186,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3221,7 +3221,7 @@
       "Methods": [
         {
           "ClrName": "CustomModifiers",
-          "TsEmitName": "customModifiers",
+          "TsEmitName": "CustomModifiers",
           "NormalizedSignature": "CustomModifiers|():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3235,7 +3235,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3249,7 +3249,7 @@
         },
         {
           "ClrName": "TypedReference",
-          "TsEmitName": "typedReference",
+          "TsEmitName": "TypedReference",
           "NormalizedSignature": "TypedReference|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3263,7 +3263,7 @@
         },
         {
           "ClrName": "Void",
-          "TsEmitName": "void_",
+          "TsEmitName": "Void",
           "NormalizedSignature": "Void|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3279,7 +3279,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3314,7 +3314,7 @@
       "Methods": [
         {
           "ClrName": "NullArray",
-          "TsEmitName": "nullArray",
+          "TsEmitName": "NullArray",
           "NormalizedSignature": "NullArray|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3328,7 +3328,7 @@
         },
         {
           "ClrName": "Constant",
-          "TsEmitName": "constant",
+          "TsEmitName": "Constant",
           "NormalizedSignature": "Constant|(System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3342,7 +3342,7 @@
         },
         {
           "ClrName": "SystemType",
-          "TsEmitName": "systemType",
+          "TsEmitName": "SystemType",
           "NormalizedSignature": "SystemType|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3358,7 +3358,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3393,7 +3393,7 @@
       "Methods": [
         {
           "ClrName": "DecodeType",
-          "TsEmitName": "decodeType",
+          "TsEmitName": "DecodeType",
           "NormalizedSignature": "DecodeType|(System.Reflection.Metadata.BlobReader\u0026,System.Boolean):TType|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3407,7 +3407,7 @@
         },
         {
           "ClrName": "DecodeMethodSignature",
-          "TsEmitName": "decodeMethodSignature",
+          "TsEmitName": "DecodeMethodSignature",
           "NormalizedSignature": "DecodeMethodSignature|(System.Reflection.Metadata.BlobReader\u0026):MethodSignature_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3421,7 +3421,7 @@
         },
         {
           "ClrName": "DecodeMethodSpecificationSignature",
-          "TsEmitName": "decodeMethodSpecificationSignature",
+          "TsEmitName": "DecodeMethodSpecificationSignature",
           "NormalizedSignature": "DecodeMethodSpecificationSignature|(System.Reflection.Metadata.BlobReader\u0026):ImmutableArray_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3435,7 +3435,7 @@
         },
         {
           "ClrName": "DecodeLocalSignature",
-          "TsEmitName": "decodeLocalSignature",
+          "TsEmitName": "DecodeLocalSignature",
           "NormalizedSignature": "DecodeLocalSignature|(System.Reflection.Metadata.BlobReader\u0026):ImmutableArray_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3449,7 +3449,7 @@
         },
         {
           "ClrName": "DecodeFieldSignature",
-          "TsEmitName": "decodeFieldSignature",
+          "TsEmitName": "DecodeFieldSignature",
           "NormalizedSignature": "DecodeFieldSignature|(System.Reflection.Metadata.BlobReader\u0026):TType|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3485,7 +3485,7 @@
       "Methods": [
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "NormalizedSignature": "Boolean|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3499,7 +3499,7 @@
         },
         {
           "ClrName": "Char",
-          "TsEmitName": "char",
+          "TsEmitName": "Char",
           "NormalizedSignature": "Char|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3513,7 +3513,7 @@
         },
         {
           "ClrName": "SByte",
-          "TsEmitName": "sByte",
+          "TsEmitName": "SByte",
           "NormalizedSignature": "SByte|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3527,7 +3527,7 @@
         },
         {
           "ClrName": "Byte",
-          "TsEmitName": "byte",
+          "TsEmitName": "Byte",
           "NormalizedSignature": "Byte|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3541,7 +3541,7 @@
         },
         {
           "ClrName": "Int16",
-          "TsEmitName": "int16",
+          "TsEmitName": "Int16",
           "NormalizedSignature": "Int16|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3555,7 +3555,7 @@
         },
         {
           "ClrName": "UInt16",
-          "TsEmitName": "uInt16",
+          "TsEmitName": "UInt16",
           "NormalizedSignature": "UInt16|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3569,7 +3569,7 @@
         },
         {
           "ClrName": "Int32",
-          "TsEmitName": "int32",
+          "TsEmitName": "Int32",
           "NormalizedSignature": "Int32|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3583,7 +3583,7 @@
         },
         {
           "ClrName": "UInt32",
-          "TsEmitName": "uInt32",
+          "TsEmitName": "UInt32",
           "NormalizedSignature": "UInt32|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3597,7 +3597,7 @@
         },
         {
           "ClrName": "Int64",
-          "TsEmitName": "int64",
+          "TsEmitName": "Int64",
           "NormalizedSignature": "Int64|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3611,7 +3611,7 @@
         },
         {
           "ClrName": "UInt64",
-          "TsEmitName": "uInt64",
+          "TsEmitName": "UInt64",
           "NormalizedSignature": "UInt64|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3625,7 +3625,7 @@
         },
         {
           "ClrName": "Single",
-          "TsEmitName": "single",
+          "TsEmitName": "Single",
           "NormalizedSignature": "Single|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3639,7 +3639,7 @@
         },
         {
           "ClrName": "Double",
-          "TsEmitName": "double",
+          "TsEmitName": "Double",
           "NormalizedSignature": "Double|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3653,7 +3653,7 @@
         },
         {
           "ClrName": "String",
-          "TsEmitName": "string_",
+          "TsEmitName": "String",
           "NormalizedSignature": "String|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3667,7 +3667,7 @@
         },
         {
           "ClrName": "TypedReference",
-          "TsEmitName": "typedReference",
+          "TsEmitName": "TypedReference",
           "NormalizedSignature": "TypedReference|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3681,7 +3681,7 @@
         },
         {
           "ClrName": "IntPtr",
-          "TsEmitName": "intPtr",
+          "TsEmitName": "IntPtr",
           "NormalizedSignature": "IntPtr|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3695,7 +3695,7 @@
         },
         {
           "ClrName": "UIntPtr",
-          "TsEmitName": "uIntPtr",
+          "TsEmitName": "UIntPtr",
           "NormalizedSignature": "UIntPtr|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3709,7 +3709,7 @@
         },
         {
           "ClrName": "Object",
-          "TsEmitName": "object_",
+          "TsEmitName": "Object",
           "NormalizedSignature": "Object|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3723,7 +3723,7 @@
         },
         {
           "ClrName": "PrimitiveType",
-          "TsEmitName": "primitiveType",
+          "TsEmitName": "PrimitiveType",
           "NormalizedSignature": "PrimitiveType|(System.Reflection.Metadata.PrimitiveTypeCode):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3737,7 +3737,7 @@
         },
         {
           "ClrName": "Array",
-          "TsEmitName": "array",
+          "TsEmitName": "Array",
           "NormalizedSignature": "Array|(System.Reflection.Metadata.Ecma335.SignatureTypeEncoder\u0026,System.Reflection.Metadata.Ecma335.ArrayShapeEncoder\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3751,7 +3751,7 @@
         },
         {
           "ClrName": "Array",
-          "TsEmitName": "array2",
+          "TsEmitName": "Array2",
           "NormalizedSignature": "Array|(System.Action_1[[System.Reflection.Metadata.Ecma335.SignatureTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ArrayShapeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3765,7 +3765,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|(System.Reflection.Metadata.EntityHandle,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3779,7 +3779,7 @@
         },
         {
           "ClrName": "FunctionPointer",
-          "TsEmitName": "functionPointer",
+          "TsEmitName": "FunctionPointer",
           "NormalizedSignature": "FunctionPointer|(System.Reflection.Metadata.SignatureCallingConvention,System.Reflection.Metadata.Ecma335.FunctionPointerAttributes,System.Int32):System.Reflection.Metadata.Ecma335.MethodSignatureEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3793,7 +3793,7 @@
         },
         {
           "ClrName": "GenericInstantiation",
-          "TsEmitName": "genericInstantiation",
+          "TsEmitName": "GenericInstantiation",
           "NormalizedSignature": "GenericInstantiation|(System.Reflection.Metadata.EntityHandle,System.Int32,System.Boolean):System.Reflection.Metadata.Ecma335.GenericTypeArgumentsEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3807,7 +3807,7 @@
         },
         {
           "ClrName": "GenericMethodTypeParameter",
-          "TsEmitName": "genericMethodTypeParameter",
+          "TsEmitName": "GenericMethodTypeParameter",
           "NormalizedSignature": "GenericMethodTypeParameter|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3821,7 +3821,7 @@
         },
         {
           "ClrName": "GenericTypeParameter",
-          "TsEmitName": "genericTypeParameter",
+          "TsEmitName": "GenericTypeParameter",
           "NormalizedSignature": "GenericTypeParameter|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3835,7 +3835,7 @@
         },
         {
           "ClrName": "Pointer",
-          "TsEmitName": "pointer",
+          "TsEmitName": "Pointer",
           "NormalizedSignature": "Pointer|():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3849,7 +3849,7 @@
         },
         {
           "ClrName": "VoidPointer",
-          "TsEmitName": "voidPointer",
+          "TsEmitName": "VoidPointer",
           "NormalizedSignature": "VoidPointer|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3863,7 +3863,7 @@
         },
         {
           "ClrName": "SZArray",
-          "TsEmitName": "szArray",
+          "TsEmitName": "SZArray",
           "NormalizedSignature": "SZArray|():System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3877,7 +3877,7 @@
         },
         {
           "ClrName": "CustomModifiers",
-          "TsEmitName": "customModifiers",
+          "TsEmitName": "CustomModifiers",
           "NormalizedSignature": "CustomModifiers|():System.Reflection.Metadata.Ecma335.CustomModifiersEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3893,7 +3893,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3928,7 +3928,7 @@
       "Methods": [
         {
           "ClrName": "Branch",
-          "TsEmitName": "branch",
+          "TsEmitName": "Branch",
           "NormalizedSignature": "Branch|(System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3958,7 +3958,7 @@
       "Methods": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|(System.Int32):System.Reflection.Metadata.Ecma335.LiteralsEncoder|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3974,7 +3974,7 @@
       "Properties": [
         {
           "ClrName": "Builder",
-          "TsEmitName": "builder",
+          "TsEmitName": "Builder",
           "NormalizedSignature": "Builder|:System.Reflection.Metadata.BlobBuilder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4009,7 +4009,7 @@
       "Methods": [
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4023,7 +4023,7 @@
         },
         {
           "ClrName": "AddFinallyRegion",
-          "TsEmitName": "addFinallyRegion",
+          "TsEmitName": "AddFinallyRegion",
           "NormalizedSignature": "AddFinallyRegion|(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4037,7 +4037,7 @@
         },
         {
           "ClrName": "AddFaultRegion",
-          "TsEmitName": "addFaultRegion",
+          "TsEmitName": "AddFaultRegion",
           "NormalizedSignature": "AddFaultRegion|(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4051,7 +4051,7 @@
         },
         {
           "ClrName": "AddCatchRegion",
-          "TsEmitName": "addCatchRegion",
+          "TsEmitName": "AddCatchRegion",
           "NormalizedSignature": "AddCatchRegion|(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.EntityHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4065,7 +4065,7 @@
         },
         {
           "ClrName": "AddFilterRegion",
-          "TsEmitName": "addFilterRegion",
+          "TsEmitName": "AddFilterRegion",
           "NormalizedSignature": "AddFilterRegion|(System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle,System.Reflection.Metadata.Ecma335.LabelHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4101,7 +4101,7 @@
       "Methods": [
         {
           "ClrName": "GetGenerationHandle",
-          "TsEmitName": "getGenerationHandle",
+          "TsEmitName": "GetGenerationHandle",
           "NormalizedSignature": "GetGenerationHandle|(System.Reflection.Metadata.Handle,System.Int32\u0026):System.Reflection.Metadata.Handle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4142,7 +4142,7 @@
       "Methods": [
         {
           "ClrName": "SetCapacity",
-          "TsEmitName": "setCapacity",
+          "TsEmitName": "SetCapacity",
           "NormalizedSignature": "SetCapacity|(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4156,7 +4156,7 @@
         },
         {
           "ClrName": "GetRowCount",
-          "TsEmitName": "getRowCount",
+          "TsEmitName": "GetRowCount",
           "NormalizedSignature": "GetRowCount|(System.Reflection.Metadata.Ecma335.TableIndex):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4170,7 +4170,7 @@
         },
         {
           "ClrName": "GetRowCounts",
-          "TsEmitName": "getRowCounts",
+          "TsEmitName": "GetRowCounts",
           "NormalizedSignature": "GetRowCounts|():System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4184,7 +4184,7 @@
         },
         {
           "ClrName": "AddModule",
-          "TsEmitName": "addModule",
+          "TsEmitName": "AddModule",
           "NormalizedSignature": "AddModule|(System.Int32,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.GuidHandle):System.Reflection.Metadata.ModuleDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4198,7 +4198,7 @@
         },
         {
           "ClrName": "AddAssembly",
-          "TsEmitName": "addAssembly",
+          "TsEmitName": "AddAssembly",
           "NormalizedSignature": "AddAssembly|(System.Reflection.Metadata.StringHandle,System.Version,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.AssemblyFlags,System.Reflection.AssemblyHashAlgorithm):System.Reflection.Metadata.AssemblyDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4212,7 +4212,7 @@
         },
         {
           "ClrName": "AddAssemblyReference",
-          "TsEmitName": "addAssemblyReference",
+          "TsEmitName": "AddAssemblyReference",
           "NormalizedSignature": "AddAssemblyReference|(System.Reflection.Metadata.StringHandle,System.Version,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.AssemblyFlags,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.AssemblyReferenceHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4226,7 +4226,7 @@
         },
         {
           "ClrName": "AddTypeDefinition",
-          "TsEmitName": "addTypeDefinition",
+          "TsEmitName": "AddTypeDefinition",
           "NormalizedSignature": "AddTypeDefinition|(System.Reflection.TypeAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.FieldDefinitionHandle,System.Reflection.Metadata.MethodDefinitionHandle):System.Reflection.Metadata.TypeDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4240,7 +4240,7 @@
         },
         {
           "ClrName": "AddTypeLayout",
-          "TsEmitName": "addTypeLayout",
+          "TsEmitName": "AddTypeLayout",
           "NormalizedSignature": "AddTypeLayout|(System.Reflection.Metadata.TypeDefinitionHandle,System.UInt16,System.UInt32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4254,7 +4254,7 @@
         },
         {
           "ClrName": "AddInterfaceImplementation",
-          "TsEmitName": "addInterfaceImplementation",
+          "TsEmitName": "AddInterfaceImplementation",
           "NormalizedSignature": "AddInterfaceImplementation|(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.InterfaceImplementationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4268,7 +4268,7 @@
         },
         {
           "ClrName": "AddNestedType",
-          "TsEmitName": "addNestedType",
+          "TsEmitName": "AddNestedType",
           "NormalizedSignature": "AddNestedType|(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.TypeDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4282,7 +4282,7 @@
         },
         {
           "ClrName": "AddTypeReference",
-          "TsEmitName": "addTypeReference",
+          "TsEmitName": "AddTypeReference",
           "NormalizedSignature": "AddTypeReference|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.TypeReferenceHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4296,7 +4296,7 @@
         },
         {
           "ClrName": "AddTypeSpecification",
-          "TsEmitName": "addTypeSpecification",
+          "TsEmitName": "AddTypeSpecification",
           "NormalizedSignature": "AddTypeSpecification|(System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.TypeSpecificationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4310,7 +4310,7 @@
         },
         {
           "ClrName": "AddStandaloneSignature",
-          "TsEmitName": "addStandaloneSignature",
+          "TsEmitName": "AddStandaloneSignature",
           "NormalizedSignature": "AddStandaloneSignature|(System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.StandaloneSignatureHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4324,7 +4324,7 @@
         },
         {
           "ClrName": "AddProperty",
-          "TsEmitName": "addProperty",
+          "TsEmitName": "AddProperty",
           "NormalizedSignature": "AddProperty|(System.Reflection.PropertyAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.PropertyDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4338,7 +4338,7 @@
         },
         {
           "ClrName": "AddPropertyMap",
-          "TsEmitName": "addPropertyMap",
+          "TsEmitName": "AddPropertyMap",
           "NormalizedSignature": "AddPropertyMap|(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.PropertyDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4352,7 +4352,7 @@
         },
         {
           "ClrName": "AddEvent",
-          "TsEmitName": "addEvent",
+          "TsEmitName": "AddEvent",
           "NormalizedSignature": "AddEvent|(System.Reflection.EventAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.EventDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4366,7 +4366,7 @@
         },
         {
           "ClrName": "AddEventMap",
-          "TsEmitName": "addEventMap",
+          "TsEmitName": "AddEventMap",
           "NormalizedSignature": "AddEventMap|(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EventDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4380,7 +4380,7 @@
         },
         {
           "ClrName": "AddConstant",
-          "TsEmitName": "addConstant",
+          "TsEmitName": "AddConstant",
           "NormalizedSignature": "AddConstant|(System.Reflection.Metadata.EntityHandle,System.Object):System.Reflection.Metadata.ConstantHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4394,7 +4394,7 @@
         },
         {
           "ClrName": "AddMethodSemantics",
-          "TsEmitName": "addMethodSemantics",
+          "TsEmitName": "AddMethodSemantics",
           "NormalizedSignature": "AddMethodSemantics|(System.Reflection.Metadata.EntityHandle,System.Reflection.MethodSemanticsAttributes,System.Reflection.Metadata.MethodDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4408,7 +4408,7 @@
         },
         {
           "ClrName": "AddCustomAttribute",
-          "TsEmitName": "addCustomAttribute",
+          "TsEmitName": "AddCustomAttribute",
           "NormalizedSignature": "AddCustomAttribute|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.CustomAttributeHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4422,7 +4422,7 @@
         },
         {
           "ClrName": "AddMethodSpecification",
-          "TsEmitName": "addMethodSpecification",
+          "TsEmitName": "AddMethodSpecification",
           "NormalizedSignature": "AddMethodSpecification|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MethodSpecificationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4436,7 +4436,7 @@
         },
         {
           "ClrName": "AddModuleReference",
-          "TsEmitName": "addModuleReference",
+          "TsEmitName": "AddModuleReference",
           "NormalizedSignature": "AddModuleReference|(System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.ModuleReferenceHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4450,7 +4450,7 @@
         },
         {
           "ClrName": "AddParameter",
-          "TsEmitName": "addParameter",
+          "TsEmitName": "AddParameter",
           "NormalizedSignature": "AddParameter|(System.Reflection.ParameterAttributes,System.Reflection.Metadata.StringHandle,System.Int32):System.Reflection.Metadata.ParameterHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4464,7 +4464,7 @@
         },
         {
           "ClrName": "AddGenericParameter",
-          "TsEmitName": "addGenericParameter",
+          "TsEmitName": "AddGenericParameter",
           "NormalizedSignature": "AddGenericParameter|(System.Reflection.Metadata.EntityHandle,System.Reflection.GenericParameterAttributes,System.Reflection.Metadata.StringHandle,System.Int32):System.Reflection.Metadata.GenericParameterHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4478,7 +4478,7 @@
         },
         {
           "ClrName": "AddGenericParameterConstraint",
-          "TsEmitName": "addGenericParameterConstraint",
+          "TsEmitName": "AddGenericParameterConstraint",
           "NormalizedSignature": "AddGenericParameterConstraint|(System.Reflection.Metadata.GenericParameterHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.GenericParameterConstraintHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4492,7 +4492,7 @@
         },
         {
           "ClrName": "AddFieldDefinition",
-          "TsEmitName": "addFieldDefinition",
+          "TsEmitName": "AddFieldDefinition",
           "NormalizedSignature": "AddFieldDefinition|(System.Reflection.FieldAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.FieldDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4506,7 +4506,7 @@
         },
         {
           "ClrName": "AddFieldLayout",
-          "TsEmitName": "addFieldLayout",
+          "TsEmitName": "AddFieldLayout",
           "NormalizedSignature": "AddFieldLayout|(System.Reflection.Metadata.FieldDefinitionHandle,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4520,7 +4520,7 @@
         },
         {
           "ClrName": "AddMarshallingDescriptor",
-          "TsEmitName": "addMarshallingDescriptor",
+          "TsEmitName": "AddMarshallingDescriptor",
           "NormalizedSignature": "AddMarshallingDescriptor|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.BlobHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4534,7 +4534,7 @@
         },
         {
           "ClrName": "AddFieldRelativeVirtualAddress",
-          "TsEmitName": "addFieldRelativeVirtualAddress",
+          "TsEmitName": "AddFieldRelativeVirtualAddress",
           "NormalizedSignature": "AddFieldRelativeVirtualAddress|(System.Reflection.Metadata.FieldDefinitionHandle,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4548,7 +4548,7 @@
         },
         {
           "ClrName": "AddMethodDefinition",
-          "TsEmitName": "addMethodDefinition",
+          "TsEmitName": "AddMethodDefinition",
           "NormalizedSignature": "AddMethodDefinition|(System.Reflection.MethodAttributes,System.Reflection.MethodImplAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Int32,System.Reflection.Metadata.ParameterHandle):System.Reflection.Metadata.MethodDefinitionHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4562,7 +4562,7 @@
         },
         {
           "ClrName": "AddMethodImport",
-          "TsEmitName": "addMethodImport",
+          "TsEmitName": "AddMethodImport",
           "NormalizedSignature": "AddMethodImport|(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.MethodImportAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.ModuleReferenceHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4576,7 +4576,7 @@
         },
         {
           "ClrName": "AddMethodImplementation",
-          "TsEmitName": "addMethodImplementation",
+          "TsEmitName": "AddMethodImplementation",
           "NormalizedSignature": "AddMethodImplementation|(System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.EntityHandle):System.Reflection.Metadata.MethodImplementationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4590,7 +4590,7 @@
         },
         {
           "ClrName": "AddMemberReference",
-          "TsEmitName": "addMemberReference",
+          "TsEmitName": "AddMemberReference",
           "NormalizedSignature": "AddMemberReference|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MemberReferenceHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4604,7 +4604,7 @@
         },
         {
           "ClrName": "AddManifestResource",
-          "TsEmitName": "addManifestResource",
+          "TsEmitName": "AddManifestResource",
           "NormalizedSignature": "AddManifestResource|(System.Reflection.ManifestResourceAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.UInt32):System.Reflection.Metadata.ManifestResourceHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4618,7 +4618,7 @@
         },
         {
           "ClrName": "AddAssemblyFile",
-          "TsEmitName": "addAssemblyFile",
+          "TsEmitName": "AddAssemblyFile",
           "NormalizedSignature": "AddAssemblyFile|(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle,System.Boolean):System.Reflection.Metadata.AssemblyFileHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4632,7 +4632,7 @@
         },
         {
           "ClrName": "AddExportedType",
-          "TsEmitName": "addExportedType",
+          "TsEmitName": "AddExportedType",
           "NormalizedSignature": "AddExportedType|(System.Reflection.TypeAttributes,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.EntityHandle,System.Int32):System.Reflection.Metadata.ExportedTypeHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4646,7 +4646,7 @@
         },
         {
           "ClrName": "AddDeclarativeSecurityAttribute",
-          "TsEmitName": "addDeclarativeSecurityAttribute",
+          "TsEmitName": "AddDeclarativeSecurityAttribute",
           "NormalizedSignature": "AddDeclarativeSecurityAttribute|(System.Reflection.Metadata.EntityHandle,System.Reflection.DeclarativeSecurityAction,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.DeclarativeSecurityAttributeHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4660,7 +4660,7 @@
         },
         {
           "ClrName": "AddEncLogEntry",
-          "TsEmitName": "addEncLogEntry",
+          "TsEmitName": "AddEncLogEntry",
           "NormalizedSignature": "AddEncLogEntry|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.Ecma335.EditAndContinueOperation):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4674,7 +4674,7 @@
         },
         {
           "ClrName": "AddEncMapEntry",
-          "TsEmitName": "addEncMapEntry",
+          "TsEmitName": "AddEncMapEntry",
           "NormalizedSignature": "AddEncMapEntry|(System.Reflection.Metadata.EntityHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4688,7 +4688,7 @@
         },
         {
           "ClrName": "AddDocument",
-          "TsEmitName": "addDocument",
+          "TsEmitName": "AddDocument",
           "NormalizedSignature": "AddDocument|(System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.BlobHandle,System.Reflection.Metadata.GuidHandle):System.Reflection.Metadata.DocumentHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4702,7 +4702,7 @@
         },
         {
           "ClrName": "AddMethodDebugInformation",
-          "TsEmitName": "addMethodDebugInformation",
+          "TsEmitName": "AddMethodDebugInformation",
           "NormalizedSignature": "AddMethodDebugInformation|(System.Reflection.Metadata.DocumentHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.MethodDebugInformationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4716,7 +4716,7 @@
         },
         {
           "ClrName": "AddLocalScope",
-          "TsEmitName": "addLocalScope",
+          "TsEmitName": "AddLocalScope",
           "NormalizedSignature": "AddLocalScope|(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.Metadata.ImportScopeHandle,System.Reflection.Metadata.LocalVariableHandle,System.Reflection.Metadata.LocalConstantHandle,System.Int32,System.Int32):System.Reflection.Metadata.LocalScopeHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4730,7 +4730,7 @@
         },
         {
           "ClrName": "AddLocalVariable",
-          "TsEmitName": "addLocalVariable",
+          "TsEmitName": "AddLocalVariable",
           "NormalizedSignature": "AddLocalVariable|(System.Reflection.Metadata.LocalVariableAttributes,System.Int32,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.LocalVariableHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4744,7 +4744,7 @@
         },
         {
           "ClrName": "AddLocalConstant",
-          "TsEmitName": "addLocalConstant",
+          "TsEmitName": "AddLocalConstant",
           "NormalizedSignature": "AddLocalConstant|(System.Reflection.Metadata.StringHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.LocalConstantHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4758,7 +4758,7 @@
         },
         {
           "ClrName": "AddImportScope",
-          "TsEmitName": "addImportScope",
+          "TsEmitName": "AddImportScope",
           "NormalizedSignature": "AddImportScope|(System.Reflection.Metadata.ImportScopeHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.ImportScopeHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4772,7 +4772,7 @@
         },
         {
           "ClrName": "AddStateMachineMethod",
-          "TsEmitName": "addStateMachineMethod",
+          "TsEmitName": "AddStateMachineMethod",
           "NormalizedSignature": "AddStateMachineMethod|(System.Reflection.Metadata.MethodDefinitionHandle,System.Reflection.Metadata.MethodDefinitionHandle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4786,7 +4786,7 @@
         },
         {
           "ClrName": "AddCustomDebugInformation",
-          "TsEmitName": "addCustomDebugInformation",
+          "TsEmitName": "AddCustomDebugInformation",
           "NormalizedSignature": "AddCustomDebugInformation|(System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.CustomDebugInformationHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4800,7 +4800,7 @@
         },
         {
           "ClrName": "SetCapacity",
-          "TsEmitName": "setCapacity2",
+          "TsEmitName": "SetCapacity2",
           "NormalizedSignature": "SetCapacity|(System.Reflection.Metadata.Ecma335.HeapIndex,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4814,7 +4814,7 @@
         },
         {
           "ClrName": "GetOrAddBlob",
-          "TsEmitName": "getOrAddBlob",
+          "TsEmitName": "GetOrAddBlob",
           "NormalizedSignature": "GetOrAddBlob|(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4828,7 +4828,7 @@
         },
         {
           "ClrName": "GetOrAddBlob",
-          "TsEmitName": "getOrAddBlob2",
+          "TsEmitName": "GetOrAddBlob2",
           "NormalizedSignature": "GetOrAddBlob|(System.Byte[]):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4842,7 +4842,7 @@
         },
         {
           "ClrName": "GetOrAddBlob",
-          "TsEmitName": "getOrAddBlob3",
+          "TsEmitName": "GetOrAddBlob3",
           "NormalizedSignature": "GetOrAddBlob|(System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4856,7 +4856,7 @@
         },
         {
           "ClrName": "GetOrAddConstantBlob",
-          "TsEmitName": "getOrAddConstantBlob",
+          "TsEmitName": "GetOrAddConstantBlob",
           "NormalizedSignature": "GetOrAddConstantBlob|(System.Object):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4870,7 +4870,7 @@
         },
         {
           "ClrName": "GetOrAddBlobUTF16",
-          "TsEmitName": "getOrAddBlobUTF16",
+          "TsEmitName": "GetOrAddBlobUTF16",
           "NormalizedSignature": "GetOrAddBlobUTF16|(System.String):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4884,7 +4884,7 @@
         },
         {
           "ClrName": "GetOrAddBlobUTF8",
-          "TsEmitName": "getOrAddBlobUTF8",
+          "TsEmitName": "GetOrAddBlobUTF8",
           "NormalizedSignature": "GetOrAddBlobUTF8|(System.String,System.Boolean):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4898,7 +4898,7 @@
         },
         {
           "ClrName": "GetOrAddDocumentName",
-          "TsEmitName": "getOrAddDocumentName",
+          "TsEmitName": "GetOrAddDocumentName",
           "NormalizedSignature": "GetOrAddDocumentName|(System.String):System.Reflection.Metadata.BlobHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4912,7 +4912,7 @@
         },
         {
           "ClrName": "GetOrAddGuid",
-          "TsEmitName": "getOrAddGuid",
+          "TsEmitName": "GetOrAddGuid",
           "NormalizedSignature": "GetOrAddGuid|(System.Guid):System.Reflection.Metadata.GuidHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4926,7 +4926,7 @@
         },
         {
           "ClrName": "ReserveGuid",
-          "TsEmitName": "reserveGuid",
+          "TsEmitName": "ReserveGuid",
           "NormalizedSignature": "ReserveGuid|():System.Reflection.Metadata.ReservedBlob_1[[System.Reflection.Metadata.GuidHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4940,7 +4940,7 @@
         },
         {
           "ClrName": "GetOrAddString",
-          "TsEmitName": "getOrAddString",
+          "TsEmitName": "GetOrAddString",
           "NormalizedSignature": "GetOrAddString|(System.String):System.Reflection.Metadata.StringHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4954,7 +4954,7 @@
         },
         {
           "ClrName": "ReserveUserString",
-          "TsEmitName": "reserveUserString",
+          "TsEmitName": "ReserveUserString",
           "NormalizedSignature": "ReserveUserString|(System.Int32):System.Reflection.Metadata.ReservedBlob_1[[System.Reflection.Metadata.UserStringHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4968,7 +4968,7 @@
         },
         {
           "ClrName": "GetOrAddUserString",
-          "TsEmitName": "getOrAddUserString",
+          "TsEmitName": "GetOrAddUserString",
           "NormalizedSignature": "GetOrAddUserString|(System.String):System.Reflection.Metadata.UserStringHandle|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5004,7 +5004,7 @@
       "Methods": [
         {
           "ClrName": "Serialize",
-          "TsEmitName": "serialize",
+          "TsEmitName": "Serialize",
           "NormalizedSignature": "Serialize|(System.Reflection.Metadata.BlobBuilder,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5020,7 +5020,7 @@
       "Properties": [
         {
           "ClrName": "MetadataVersion",
-          "TsEmitName": "metadataVersion",
+          "TsEmitName": "MetadataVersion",
           "NormalizedSignature": "MetadataVersion|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5034,7 +5034,7 @@
         },
         {
           "ClrName": "SuppressValidation",
-          "TsEmitName": "suppressValidation",
+          "TsEmitName": "SuppressValidation",
           "NormalizedSignature": "SuppressValidation|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5048,7 +5048,7 @@
         },
         {
           "ClrName": "Sizes",
-          "TsEmitName": "sizes",
+          "TsEmitName": "Sizes",
           "NormalizedSignature": "Sizes|:System.Reflection.Metadata.Ecma335.MetadataSizes|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5083,7 +5083,7 @@
       "Methods": [
         {
           "ClrName": "GetAlignedHeapSize",
-          "TsEmitName": "getAlignedHeapSize",
+          "TsEmitName": "GetAlignedHeapSize",
           "NormalizedSignature": "GetAlignedHeapSize|(System.Reflection.Metadata.Ecma335.HeapIndex):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5099,7 +5099,7 @@
       "Properties": [
         {
           "ClrName": "HeapSizes",
-          "TsEmitName": "heapSizes",
+          "TsEmitName": "HeapSizes",
           "NormalizedSignature": "HeapSizes|:System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5113,7 +5113,7 @@
         },
         {
           "ClrName": "RowCounts",
-          "TsEmitName": "rowCounts",
+          "TsEmitName": "RowCounts",
           "NormalizedSignature": "RowCounts|:System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5127,7 +5127,7 @@
         },
         {
           "ClrName": "ExternalRowCounts",
-          "TsEmitName": "externalRowCounts",
+          "TsEmitName": "ExternalRowCounts",
           "NormalizedSignature": "ExternalRowCounts|:System.Collections.Immutable.ImmutableArray_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5156,7 +5156,7 @@
       "Methods": [
         {
           "ClrName": "Serialize",
-          "TsEmitName": "serialize",
+          "TsEmitName": "Serialize",
           "NormalizedSignature": "Serialize|(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobContentId|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5172,7 +5172,7 @@
       "Properties": [
         {
           "ClrName": "MetadataVersion",
-          "TsEmitName": "metadataVersion",
+          "TsEmitName": "MetadataVersion",
           "NormalizedSignature": "MetadataVersion|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5186,7 +5186,7 @@
         },
         {
           "ClrName": "FormatVersion",
-          "TsEmitName": "formatVersion",
+          "TsEmitName": "FormatVersion",
           "NormalizedSignature": "FormatVersion|:System.UInt16|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5200,7 +5200,7 @@
         },
         {
           "ClrName": "IdProvider",
-          "TsEmitName": "idProvider",
+          "TsEmitName": "IdProvider",
           "NormalizedSignature": "IdProvider|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5235,7 +5235,7 @@
       "Methods": [
         {
           "ClrName": "HasCustomAttribute",
-          "TsEmitName": "hasCustomAttribute",
+          "TsEmitName": "HasCustomAttribute",
           "NormalizedSignature": "HasCustomAttribute|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5249,7 +5249,7 @@
         },
         {
           "ClrName": "HasConstant",
-          "TsEmitName": "hasConstant",
+          "TsEmitName": "HasConstant",
           "NormalizedSignature": "HasConstant|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5263,7 +5263,7 @@
         },
         {
           "ClrName": "CustomAttributeType",
-          "TsEmitName": "customAttributeType",
+          "TsEmitName": "CustomAttributeType",
           "NormalizedSignature": "CustomAttributeType|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5277,7 +5277,7 @@
         },
         {
           "ClrName": "HasDeclSecurity",
-          "TsEmitName": "hasDeclSecurity",
+          "TsEmitName": "HasDeclSecurity",
           "NormalizedSignature": "HasDeclSecurity|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5291,7 +5291,7 @@
         },
         {
           "ClrName": "HasFieldMarshal",
-          "TsEmitName": "hasFieldMarshal",
+          "TsEmitName": "HasFieldMarshal",
           "NormalizedSignature": "HasFieldMarshal|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5305,7 +5305,7 @@
         },
         {
           "ClrName": "HasSemantics",
-          "TsEmitName": "hasSemantics",
+          "TsEmitName": "HasSemantics",
           "NormalizedSignature": "HasSemantics|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5319,7 +5319,7 @@
         },
         {
           "ClrName": "Implementation",
-          "TsEmitName": "implementation",
+          "TsEmitName": "Implementation",
           "NormalizedSignature": "Implementation|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5333,7 +5333,7 @@
         },
         {
           "ClrName": "MemberForwarded",
-          "TsEmitName": "memberForwarded",
+          "TsEmitName": "MemberForwarded",
           "NormalizedSignature": "MemberForwarded|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5347,7 +5347,7 @@
         },
         {
           "ClrName": "MemberRefParent",
-          "TsEmitName": "memberRefParent",
+          "TsEmitName": "MemberRefParent",
           "NormalizedSignature": "MemberRefParent|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5361,7 +5361,7 @@
         },
         {
           "ClrName": "MethodDefOrRef",
-          "TsEmitName": "methodDefOrRef",
+          "TsEmitName": "MethodDefOrRef",
           "NormalizedSignature": "MethodDefOrRef|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5375,7 +5375,7 @@
         },
         {
           "ClrName": "ResolutionScope",
-          "TsEmitName": "resolutionScope",
+          "TsEmitName": "ResolutionScope",
           "NormalizedSignature": "ResolutionScope|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5389,7 +5389,7 @@
         },
         {
           "ClrName": "TypeDefOrRef",
-          "TsEmitName": "typeDefOrRef",
+          "TsEmitName": "TypeDefOrRef",
           "NormalizedSignature": "TypeDefOrRef|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5403,7 +5403,7 @@
         },
         {
           "ClrName": "TypeDefOrRefOrSpec",
-          "TsEmitName": "typeDefOrRefOrSpec",
+          "TsEmitName": "TypeDefOrRefOrSpec",
           "NormalizedSignature": "TypeDefOrRefOrSpec|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5417,7 +5417,7 @@
         },
         {
           "ClrName": "TypeOrMethodDef",
-          "TsEmitName": "typeOrMethodDef",
+          "TsEmitName": "TypeOrMethodDef",
           "NormalizedSignature": "TypeOrMethodDef|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5431,7 +5431,7 @@
         },
         {
           "ClrName": "HasCustomDebugInformation",
-          "TsEmitName": "hasCustomDebugInformation",
+          "TsEmitName": "HasCustomDebugInformation",
           "NormalizedSignature": "HasCustomDebugInformation|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5461,7 +5461,7 @@
       "Methods": [
         {
           "ClrName": "GetTypeDefinitionId",
-          "TsEmitName": "getTypeDefinitionId",
+          "TsEmitName": "GetTypeDefinitionId",
           "NormalizedSignature": "GetTypeDefinitionId|(System.Reflection.Metadata.ExportedType):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5491,7 +5491,7 @@
       "Methods": [
         {
           "ClrName": "GetTableRowCount",
-          "TsEmitName": "getTableRowCount",
+          "TsEmitName": "GetTableRowCount",
           "NormalizedSignature": "GetTableRowCount|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.TableIndex):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5505,7 +5505,7 @@
         },
         {
           "ClrName": "GetTableRowSize",
-          "TsEmitName": "getTableRowSize",
+          "TsEmitName": "GetTableRowSize",
           "NormalizedSignature": "GetTableRowSize|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.TableIndex):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5519,7 +5519,7 @@
         },
         {
           "ClrName": "GetTableMetadataOffset",
-          "TsEmitName": "getTableMetadataOffset",
+          "TsEmitName": "GetTableMetadataOffset",
           "NormalizedSignature": "GetTableMetadataOffset|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.TableIndex):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5533,7 +5533,7 @@
         },
         {
           "ClrName": "GetHeapSize",
-          "TsEmitName": "getHeapSize",
+          "TsEmitName": "GetHeapSize",
           "NormalizedSignature": "GetHeapSize|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.HeapIndex):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5547,7 +5547,7 @@
         },
         {
           "ClrName": "GetHeapMetadataOffset",
-          "TsEmitName": "getHeapMetadataOffset",
+          "TsEmitName": "GetHeapMetadataOffset",
           "NormalizedSignature": "GetHeapMetadataOffset|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Ecma335.HeapIndex):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5561,7 +5561,7 @@
         },
         {
           "ClrName": "GetNextHandle",
-          "TsEmitName": "getNextHandle",
+          "TsEmitName": "GetNextHandle",
           "NormalizedSignature": "GetNextHandle|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.UserStringHandle):System.Reflection.Metadata.UserStringHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5575,7 +5575,7 @@
         },
         {
           "ClrName": "GetNextHandle",
-          "TsEmitName": "getNextHandle2",
+          "TsEmitName": "GetNextHandle2",
           "NormalizedSignature": "GetNextHandle|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.BlobHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5589,7 +5589,7 @@
         },
         {
           "ClrName": "GetNextHandle",
-          "TsEmitName": "getNextHandle3",
+          "TsEmitName": "GetNextHandle3",
           "NormalizedSignature": "GetNextHandle|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.StringHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5603,7 +5603,7 @@
         },
         {
           "ClrName": "GetEditAndContinueLogEntries",
-          "TsEmitName": "getEditAndContinueLogEntries",
+          "TsEmitName": "GetEditAndContinueLogEntries",
           "NormalizedSignature": "GetEditAndContinueLogEntries|(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5617,7 +5617,7 @@
         },
         {
           "ClrName": "GetEditAndContinueMapEntries",
-          "TsEmitName": "getEditAndContinueMapEntries",
+          "TsEmitName": "GetEditAndContinueMapEntries",
           "NormalizedSignature": "GetEditAndContinueMapEntries|(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.EntityHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5631,7 +5631,7 @@
         },
         {
           "ClrName": "GetTypesWithProperties",
-          "TsEmitName": "getTypesWithProperties",
+          "TsEmitName": "GetTypesWithProperties",
           "NormalizedSignature": "GetTypesWithProperties|(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5645,7 +5645,7 @@
         },
         {
           "ClrName": "GetTypesWithEvents",
-          "TsEmitName": "getTypesWithEvents",
+          "TsEmitName": "GetTypesWithEvents",
           "NormalizedSignature": "GetTypesWithEvents|(System.Reflection.Metadata.MetadataReader):System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.TypeDefinitionHandle,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5659,7 +5659,7 @@
         },
         {
           "ClrName": "ResolveSignatureTypeKind",
-          "TsEmitName": "resolveSignatureTypeKind",
+          "TsEmitName": "ResolveSignatureTypeKind",
           "NormalizedSignature": "ResolveSignatureTypeKind|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle,System.Byte):System.Reflection.Metadata.SignatureTypeKind|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5689,7 +5689,7 @@
       "Methods": [
         {
           "ClrName": "GetRowNumber",
-          "TsEmitName": "getRowNumber",
+          "TsEmitName": "GetRowNumber",
           "NormalizedSignature": "GetRowNumber|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5703,7 +5703,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset",
+          "TsEmitName": "GetHeapOffset",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5717,7 +5717,7 @@
         },
         {
           "ClrName": "GetToken",
-          "TsEmitName": "getToken",
+          "TsEmitName": "GetToken",
           "NormalizedSignature": "GetToken|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5731,7 +5731,7 @@
         },
         {
           "ClrName": "GetToken",
-          "TsEmitName": "getToken2",
+          "TsEmitName": "GetToken2",
           "NormalizedSignature": "GetToken|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5745,7 +5745,7 @@
         },
         {
           "ClrName": "GetRowNumber",
-          "TsEmitName": "getRowNumber2",
+          "TsEmitName": "GetRowNumber2",
           "NormalizedSignature": "GetRowNumber|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5759,7 +5759,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset2",
+          "TsEmitName": "GetHeapOffset2",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.Handle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5773,7 +5773,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset3",
+          "TsEmitName": "GetHeapOffset3",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.BlobHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5787,7 +5787,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset4",
+          "TsEmitName": "GetHeapOffset4",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.GuidHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5801,7 +5801,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset5",
+          "TsEmitName": "GetHeapOffset5",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.UserStringHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5815,7 +5815,7 @@
         },
         {
           "ClrName": "GetHeapOffset",
-          "TsEmitName": "getHeapOffset6",
+          "TsEmitName": "GetHeapOffset6",
           "NormalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.StringHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5829,7 +5829,7 @@
         },
         {
           "ClrName": "GetToken",
-          "TsEmitName": "getToken3",
+          "TsEmitName": "GetToken3",
           "NormalizedSignature": "GetToken|(System.Reflection.Metadata.Handle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5843,7 +5843,7 @@
         },
         {
           "ClrName": "GetToken",
-          "TsEmitName": "getToken4",
+          "TsEmitName": "GetToken4",
           "NormalizedSignature": "GetToken|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5857,7 +5857,7 @@
         },
         {
           "ClrName": "TryGetTableIndex",
-          "TsEmitName": "tryGetTableIndex",
+          "TsEmitName": "TryGetTableIndex",
           "NormalizedSignature": "TryGetTableIndex|(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.TableIndex\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5871,7 +5871,7 @@
         },
         {
           "ClrName": "TryGetHeapIndex",
-          "TsEmitName": "tryGetHeapIndex",
+          "TsEmitName": "TryGetHeapIndex",
           "NormalizedSignature": "TryGetHeapIndex|(System.Reflection.Metadata.HandleKind,System.Reflection.Metadata.Ecma335.HeapIndex\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5885,7 +5885,7 @@
         },
         {
           "ClrName": "Handle",
-          "TsEmitName": "handle",
+          "TsEmitName": "Handle",
           "NormalizedSignature": "Handle|(System.Int32):System.Reflection.Metadata.Handle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5899,7 +5899,7 @@
         },
         {
           "ClrName": "EntityHandle",
-          "TsEmitName": "entityHandle",
+          "TsEmitName": "EntityHandle",
           "NormalizedSignature": "EntityHandle|(System.Int32):System.Reflection.Metadata.EntityHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5913,7 +5913,7 @@
         },
         {
           "ClrName": "EntityHandle",
-          "TsEmitName": "entityHandle2",
+          "TsEmitName": "EntityHandle2",
           "NormalizedSignature": "EntityHandle|(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5927,7 +5927,7 @@
         },
         {
           "ClrName": "Handle",
-          "TsEmitName": "handle2",
+          "TsEmitName": "Handle2",
           "NormalizedSignature": "Handle|(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5941,7 +5941,7 @@
         },
         {
           "ClrName": "MethodDefinitionHandle",
-          "TsEmitName": "methodDefinitionHandle",
+          "TsEmitName": "MethodDefinitionHandle",
           "NormalizedSignature": "MethodDefinitionHandle|(System.Int32):System.Reflection.Metadata.MethodDefinitionHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5955,7 +5955,7 @@
         },
         {
           "ClrName": "MethodImplementationHandle",
-          "TsEmitName": "methodImplementationHandle",
+          "TsEmitName": "MethodImplementationHandle",
           "NormalizedSignature": "MethodImplementationHandle|(System.Int32):System.Reflection.Metadata.MethodImplementationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5969,7 +5969,7 @@
         },
         {
           "ClrName": "MethodSpecificationHandle",
-          "TsEmitName": "methodSpecificationHandle",
+          "TsEmitName": "MethodSpecificationHandle",
           "NormalizedSignature": "MethodSpecificationHandle|(System.Int32):System.Reflection.Metadata.MethodSpecificationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5983,7 +5983,7 @@
         },
         {
           "ClrName": "TypeDefinitionHandle",
-          "TsEmitName": "typeDefinitionHandle",
+          "TsEmitName": "TypeDefinitionHandle",
           "NormalizedSignature": "TypeDefinitionHandle|(System.Int32):System.Reflection.Metadata.TypeDefinitionHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5997,7 +5997,7 @@
         },
         {
           "ClrName": "ExportedTypeHandle",
-          "TsEmitName": "exportedTypeHandle",
+          "TsEmitName": "ExportedTypeHandle",
           "NormalizedSignature": "ExportedTypeHandle|(System.Int32):System.Reflection.Metadata.ExportedTypeHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6011,7 +6011,7 @@
         },
         {
           "ClrName": "TypeReferenceHandle",
-          "TsEmitName": "typeReferenceHandle",
+          "TsEmitName": "TypeReferenceHandle",
           "NormalizedSignature": "TypeReferenceHandle|(System.Int32):System.Reflection.Metadata.TypeReferenceHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6025,7 +6025,7 @@
         },
         {
           "ClrName": "TypeSpecificationHandle",
-          "TsEmitName": "typeSpecificationHandle",
+          "TsEmitName": "TypeSpecificationHandle",
           "NormalizedSignature": "TypeSpecificationHandle|(System.Int32):System.Reflection.Metadata.TypeSpecificationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6039,7 +6039,7 @@
         },
         {
           "ClrName": "InterfaceImplementationHandle",
-          "TsEmitName": "interfaceImplementationHandle",
+          "TsEmitName": "InterfaceImplementationHandle",
           "NormalizedSignature": "InterfaceImplementationHandle|(System.Int32):System.Reflection.Metadata.InterfaceImplementationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6053,7 +6053,7 @@
         },
         {
           "ClrName": "MemberReferenceHandle",
-          "TsEmitName": "memberReferenceHandle",
+          "TsEmitName": "MemberReferenceHandle",
           "NormalizedSignature": "MemberReferenceHandle|(System.Int32):System.Reflection.Metadata.MemberReferenceHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6067,7 +6067,7 @@
         },
         {
           "ClrName": "FieldDefinitionHandle",
-          "TsEmitName": "fieldDefinitionHandle",
+          "TsEmitName": "FieldDefinitionHandle",
           "NormalizedSignature": "FieldDefinitionHandle|(System.Int32):System.Reflection.Metadata.FieldDefinitionHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6081,7 +6081,7 @@
         },
         {
           "ClrName": "EventDefinitionHandle",
-          "TsEmitName": "eventDefinitionHandle",
+          "TsEmitName": "EventDefinitionHandle",
           "NormalizedSignature": "EventDefinitionHandle|(System.Int32):System.Reflection.Metadata.EventDefinitionHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6095,7 +6095,7 @@
         },
         {
           "ClrName": "PropertyDefinitionHandle",
-          "TsEmitName": "propertyDefinitionHandle",
+          "TsEmitName": "PropertyDefinitionHandle",
           "NormalizedSignature": "PropertyDefinitionHandle|(System.Int32):System.Reflection.Metadata.PropertyDefinitionHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6109,7 +6109,7 @@
         },
         {
           "ClrName": "StandaloneSignatureHandle",
-          "TsEmitName": "standaloneSignatureHandle",
+          "TsEmitName": "StandaloneSignatureHandle",
           "NormalizedSignature": "StandaloneSignatureHandle|(System.Int32):System.Reflection.Metadata.StandaloneSignatureHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6123,7 +6123,7 @@
         },
         {
           "ClrName": "ParameterHandle",
-          "TsEmitName": "parameterHandle",
+          "TsEmitName": "ParameterHandle",
           "NormalizedSignature": "ParameterHandle|(System.Int32):System.Reflection.Metadata.ParameterHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6137,7 +6137,7 @@
         },
         {
           "ClrName": "GenericParameterHandle",
-          "TsEmitName": "genericParameterHandle",
+          "TsEmitName": "GenericParameterHandle",
           "NormalizedSignature": "GenericParameterHandle|(System.Int32):System.Reflection.Metadata.GenericParameterHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6151,7 +6151,7 @@
         },
         {
           "ClrName": "GenericParameterConstraintHandle",
-          "TsEmitName": "genericParameterConstraintHandle",
+          "TsEmitName": "GenericParameterConstraintHandle",
           "NormalizedSignature": "GenericParameterConstraintHandle|(System.Int32):System.Reflection.Metadata.GenericParameterConstraintHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6165,7 +6165,7 @@
         },
         {
           "ClrName": "ModuleReferenceHandle",
-          "TsEmitName": "moduleReferenceHandle",
+          "TsEmitName": "ModuleReferenceHandle",
           "NormalizedSignature": "ModuleReferenceHandle|(System.Int32):System.Reflection.Metadata.ModuleReferenceHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6179,7 +6179,7 @@
         },
         {
           "ClrName": "AssemblyReferenceHandle",
-          "TsEmitName": "assemblyReferenceHandle",
+          "TsEmitName": "AssemblyReferenceHandle",
           "NormalizedSignature": "AssemblyReferenceHandle|(System.Int32):System.Reflection.Metadata.AssemblyReferenceHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6193,7 +6193,7 @@
         },
         {
           "ClrName": "CustomAttributeHandle",
-          "TsEmitName": "customAttributeHandle",
+          "TsEmitName": "CustomAttributeHandle",
           "NormalizedSignature": "CustomAttributeHandle|(System.Int32):System.Reflection.Metadata.CustomAttributeHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6207,7 +6207,7 @@
         },
         {
           "ClrName": "DeclarativeSecurityAttributeHandle",
-          "TsEmitName": "declarativeSecurityAttributeHandle",
+          "TsEmitName": "DeclarativeSecurityAttributeHandle",
           "NormalizedSignature": "DeclarativeSecurityAttributeHandle|(System.Int32):System.Reflection.Metadata.DeclarativeSecurityAttributeHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6221,7 +6221,7 @@
         },
         {
           "ClrName": "ConstantHandle",
-          "TsEmitName": "constantHandle",
+          "TsEmitName": "ConstantHandle",
           "NormalizedSignature": "ConstantHandle|(System.Int32):System.Reflection.Metadata.ConstantHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6235,7 +6235,7 @@
         },
         {
           "ClrName": "ManifestResourceHandle",
-          "TsEmitName": "manifestResourceHandle",
+          "TsEmitName": "ManifestResourceHandle",
           "NormalizedSignature": "ManifestResourceHandle|(System.Int32):System.Reflection.Metadata.ManifestResourceHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6249,7 +6249,7 @@
         },
         {
           "ClrName": "AssemblyFileHandle",
-          "TsEmitName": "assemblyFileHandle",
+          "TsEmitName": "AssemblyFileHandle",
           "NormalizedSignature": "AssemblyFileHandle|(System.Int32):System.Reflection.Metadata.AssemblyFileHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6263,7 +6263,7 @@
         },
         {
           "ClrName": "DocumentHandle",
-          "TsEmitName": "documentHandle",
+          "TsEmitName": "DocumentHandle",
           "NormalizedSignature": "DocumentHandle|(System.Int32):System.Reflection.Metadata.DocumentHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6277,7 +6277,7 @@
         },
         {
           "ClrName": "MethodDebugInformationHandle",
-          "TsEmitName": "methodDebugInformationHandle",
+          "TsEmitName": "MethodDebugInformationHandle",
           "NormalizedSignature": "MethodDebugInformationHandle|(System.Int32):System.Reflection.Metadata.MethodDebugInformationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6291,7 +6291,7 @@
         },
         {
           "ClrName": "LocalScopeHandle",
-          "TsEmitName": "localScopeHandle",
+          "TsEmitName": "LocalScopeHandle",
           "NormalizedSignature": "LocalScopeHandle|(System.Int32):System.Reflection.Metadata.LocalScopeHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6305,7 +6305,7 @@
         },
         {
           "ClrName": "LocalVariableHandle",
-          "TsEmitName": "localVariableHandle",
+          "TsEmitName": "LocalVariableHandle",
           "NormalizedSignature": "LocalVariableHandle|(System.Int32):System.Reflection.Metadata.LocalVariableHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6319,7 +6319,7 @@
         },
         {
           "ClrName": "LocalConstantHandle",
-          "TsEmitName": "localConstantHandle",
+          "TsEmitName": "LocalConstantHandle",
           "NormalizedSignature": "LocalConstantHandle|(System.Int32):System.Reflection.Metadata.LocalConstantHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6333,7 +6333,7 @@
         },
         {
           "ClrName": "ImportScopeHandle",
-          "TsEmitName": "importScopeHandle",
+          "TsEmitName": "ImportScopeHandle",
           "NormalizedSignature": "ImportScopeHandle|(System.Int32):System.Reflection.Metadata.ImportScopeHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6347,7 +6347,7 @@
         },
         {
           "ClrName": "CustomDebugInformationHandle",
-          "TsEmitName": "customDebugInformationHandle",
+          "TsEmitName": "CustomDebugInformationHandle",
           "NormalizedSignature": "CustomDebugInformationHandle|(System.Int32):System.Reflection.Metadata.CustomDebugInformationHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6361,7 +6361,7 @@
         },
         {
           "ClrName": "UserStringHandle",
-          "TsEmitName": "userStringHandle",
+          "TsEmitName": "UserStringHandle",
           "NormalizedSignature": "UserStringHandle|(System.Int32):System.Reflection.Metadata.UserStringHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6375,7 +6375,7 @@
         },
         {
           "ClrName": "StringHandle",
-          "TsEmitName": "stringHandle",
+          "TsEmitName": "StringHandle",
           "NormalizedSignature": "StringHandle|(System.Int32):System.Reflection.Metadata.StringHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6389,7 +6389,7 @@
         },
         {
           "ClrName": "BlobHandle",
-          "TsEmitName": "blobHandle",
+          "TsEmitName": "BlobHandle",
           "NormalizedSignature": "BlobHandle|(System.Int32):System.Reflection.Metadata.BlobHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6403,7 +6403,7 @@
         },
         {
           "ClrName": "GuidHandle",
-          "TsEmitName": "guidHandle",
+          "TsEmitName": "GuidHandle",
           "NormalizedSignature": "GuidHandle|(System.Int32):System.Reflection.Metadata.GuidHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6417,7 +6417,7 @@
         },
         {
           "ClrName": "DocumentNameBlobHandle",
-          "TsEmitName": "documentNameBlobHandle",
+          "TsEmitName": "DocumentNameBlobHandle",
           "NormalizedSignature": "DocumentNameBlobHandle|(System.Int32):System.Reflection.Metadata.DocumentNameBlobHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6434,7 +6434,7 @@
       "Fields": [
         {
           "ClrName": "TableCount",
-          "TsEmitName": "tableCount",
+          "TsEmitName": "TableCount",
           "NormalizedSignature": "TableCount|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -6442,7 +6442,7 @@
         },
         {
           "ClrName": "HeapCount",
-          "TsEmitName": "heapCount",
+          "TsEmitName": "HeapCount",
           "NormalizedSignature": "HeapCount|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,

@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "MayFail",
-          "TsEmitName": "mayFail",
+          "TsEmitName": "MayFail",
           "NormalizedSignature": "MayFail|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Success",
-          "TsEmitName": "success",
+          "TsEmitName": "Success",
           "NormalizedSignature": "Success|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "MayCorruptProcess",
-          "TsEmitName": "mayCorruptProcess",
+          "TsEmitName": "MayCorruptProcess",
           "NormalizedSignature": "MayCorruptProcess|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "ClrName": "MayCorruptAppDomain",
-          "TsEmitName": "mayCorruptAppDomain",
+          "TsEmitName": "MayCorruptAppDomain",
           "NormalizedSignature": "MayCorruptAppDomain|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "MayCorruptInstance",
-          "TsEmitName": "mayCorruptInstance",
+          "TsEmitName": "MayCorruptInstance",
           "NormalizedSignature": "MayCorruptInstance|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "WillNotCorruptState",
-          "TsEmitName": "willNotCorruptState",
+          "TsEmitName": "WillNotCorruptState",
           "NormalizedSignature": "WillNotCorruptState|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -157,7 +157,7 @@
       "Properties": [
         {
           "ClrName": "ConsistencyGuarantee",
-          "TsEmitName": "consistencyGuarantee",
+          "TsEmitName": "ConsistencyGuarantee",
           "NormalizedSignature": "ConsistencyGuarantee|:System.Runtime.ConstrainedExecution.Consistency|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -171,7 +171,7 @@
         },
         {
           "ClrName": "Cer",
-          "TsEmitName": "cer",
+          "TsEmitName": "Cer",
           "NormalizedSignature": "Cer|:System.Runtime.ConstrainedExecution.Cer|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

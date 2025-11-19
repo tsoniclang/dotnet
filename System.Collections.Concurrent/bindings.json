@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "MetadataToken": 67108940,
           "NormalizedSignature": "None|System.Collections.Concurrent.EnumerablePartitionerOptions|static=true|const=true",
           "IsStatic": true,
@@ -31,7 +31,7 @@
         },
         {
           "ClrName": "NoBuffering",
-          "TsEmitName": "noBuffering",
+          "TsEmitName": "NoBuffering",
           "MetadataToken": 67108941,
           "NormalizedSignature": "NoBuffering|System.Collections.Concurrent.EnumerablePartitionerOptions|static=true|const=true",
           "IsStatic": true,
@@ -44,7 +44,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getName",
+          "TsName": "GetName",
           "IsStatic": true,
           "TsSignatureId": "GetName|(TEnum):System.String|static=true",
           "Target": {
@@ -54,7 +54,7 @@
           }
         },
         {
-          "TsName": "getName2",
+          "TsName": "GetName2",
           "IsStatic": true,
           "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "Target": {
@@ -64,7 +64,7 @@
           }
         },
         {
-          "TsName": "getNames",
+          "TsName": "GetNames",
           "IsStatic": true,
           "TsSignatureId": "GetNames|():System.String[]|static=true",
           "Target": {
@@ -74,7 +74,7 @@
           }
         },
         {
-          "TsName": "getNames2",
+          "TsName": "GetNames2",
           "IsStatic": true,
           "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "Target": {
@@ -84,7 +84,7 @@
           }
         },
         {
-          "TsName": "getUnderlyingType",
+          "TsName": "GetUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
           "Target": {
@@ -94,7 +94,7 @@
           }
         },
         {
-          "TsName": "getValues",
+          "TsName": "GetValues",
           "IsStatic": true,
           "TsSignatureId": "GetValues|():TEnum[]|static=true",
           "Target": {
@@ -104,7 +104,7 @@
           }
         },
         {
-          "TsName": "getValues2",
+          "TsName": "GetValues2",
           "IsStatic": true,
           "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "Target": {
@@ -114,7 +114,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType",
+          "TsName": "GetValuesAsUnderlyingType",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
           "Target": {
@@ -124,7 +124,7 @@
           }
         },
         {
-          "TsName": "getValuesAsUnderlyingType2",
+          "TsName": "GetValuesAsUnderlyingType2",
           "IsStatic": true,
           "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "Target": {
@@ -134,7 +134,7 @@
           }
         },
         {
-          "TsName": "hasFlag",
+          "TsName": "HasFlag",
           "IsStatic": false,
           "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
           "Target": {
@@ -144,7 +144,7 @@
           }
         },
         {
-          "TsName": "isDefined",
+          "TsName": "IsDefined",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
           "Target": {
@@ -154,7 +154,7 @@
           }
         },
         {
-          "TsName": "isDefined2",
+          "TsName": "IsDefined2",
           "IsStatic": true,
           "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "Target": {
@@ -164,7 +164,7 @@
           }
         },
         {
-          "TsName": "parse",
+          "TsName": "Parse",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
           "Target": {
@@ -174,7 +174,7 @@
           }
         },
         {
-          "TsName": "parse2",
+          "TsName": "Parse2",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "Target": {
@@ -184,7 +184,7 @@
           }
         },
         {
-          "TsName": "parse3",
+          "TsName": "Parse3",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
           "Target": {
@@ -194,7 +194,7 @@
           }
         },
         {
-          "TsName": "parse4",
+          "TsName": "Parse4",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "Target": {
@@ -204,7 +204,7 @@
           }
         },
         {
-          "TsName": "parse5",
+          "TsName": "Parse5",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String):TEnum|static=true",
           "Target": {
@@ -214,7 +214,7 @@
           }
         },
         {
-          "TsName": "parse6",
+          "TsName": "Parse6",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "Target": {
@@ -224,7 +224,7 @@
           }
         },
         {
-          "TsName": "parse7",
+          "TsName": "Parse7",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
           "Target": {
@@ -234,7 +234,7 @@
           }
         },
         {
-          "TsName": "parse8",
+          "TsName": "Parse8",
           "IsStatic": true,
           "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "Target": {
@@ -244,7 +244,7 @@
           }
         },
         {
-          "TsName": "tryParse",
+          "TsName": "TryParse",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -254,7 +254,7 @@
           }
         },
         {
-          "TsName": "tryParse2",
+          "TsName": "TryParse2",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -264,7 +264,7 @@
           }
         },
         {
-          "TsName": "tryParse3",
+          "TsName": "TryParse3",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -274,7 +274,7 @@
           }
         },
         {
-          "TsName": "tryParse4",
+          "TsName": "TryParse4",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Target": {
@@ -284,7 +284,7 @@
           }
         },
         {
-          "TsName": "tryParse5",
+          "TsName": "TryParse5",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -294,7 +294,7 @@
           }
         },
         {
-          "TsName": "tryParse6",
+          "TsName": "TryParse6",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -304,7 +304,7 @@
           }
         },
         {
-          "TsName": "tryParse7",
+          "TsName": "TryParse7",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -314,7 +314,7 @@
           }
         },
         {
-          "TsName": "tryParse8",
+          "TsName": "TryParse8",
           "IsStatic": true,
           "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "Target": {
@@ -324,7 +324,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -334,7 +334,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -344,7 +344,7 @@
           }
         },
         {
-          "TsName": "compareTo",
+          "TsName": "CompareTo",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -354,7 +354,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -364,7 +364,7 @@
           }
         },
         {
-          "TsName": "toString2",
+          "TsName": "ToString2",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String):System.String|static=false",
           "Target": {
@@ -374,7 +374,7 @@
           }
         },
         {
-          "TsName": "toString3",
+          "TsName": "ToString3",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -384,7 +384,7 @@
           }
         },
         {
-          "TsName": "toString4",
+          "TsName": "ToString4",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -394,7 +394,7 @@
           }
         },
         {
-          "TsName": "format",
+          "TsName": "Format",
           "IsStatic": true,
           "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
           "Target": {
@@ -404,7 +404,7 @@
           }
         },
         {
-          "TsName": "tryFormat",
+          "TsName": "TryFormat",
           "IsStatic": true,
           "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "Target": {
@@ -414,7 +414,7 @@
           }
         },
         {
-          "TsName": "getTypeCode",
+          "TsName": "GetTypeCode",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -424,7 +424,7 @@
           }
         },
         {
-          "TsName": "toObject",
+          "TsName": "ToObject",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
           "Target": {
@@ -434,7 +434,7 @@
           }
         },
         {
-          "TsName": "toObject2",
+          "TsName": "ToObject2",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
           "Target": {
@@ -444,7 +444,7 @@
           }
         },
         {
-          "TsName": "toObject3",
+          "TsName": "ToObject3",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
           "Target": {
@@ -454,7 +454,7 @@
           }
         },
         {
-          "TsName": "toObject4",
+          "TsName": "ToObject4",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
           "Target": {
@@ -464,7 +464,7 @@
           }
         },
         {
-          "TsName": "toObject5",
+          "TsName": "ToObject5",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "Target": {
@@ -474,7 +474,7 @@
           }
         },
         {
-          "TsName": "toObject6",
+          "TsName": "ToObject6",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
           "Target": {
@@ -484,7 +484,7 @@
           }
         },
         {
-          "TsName": "toObject7",
+          "TsName": "ToObject7",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
           "Target": {
@@ -494,7 +494,7 @@
           }
         },
         {
-          "TsName": "toObject8",
+          "TsName": "ToObject8",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
           "Target": {
@@ -504,7 +504,7 @@
           }
         },
         {
-          "TsName": "toObject9",
+          "TsName": "ToObject9",
           "IsStatic": true,
           "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
           "Target": {
@@ -514,7 +514,7 @@
           }
         },
         {
-          "TsName": "tryFormat$view",
+          "TsName": "TryFormat$view",
           "IsStatic": false,
           "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -524,7 +524,7 @@
           }
         },
         {
-          "TsName": "toBoolean",
+          "TsName": "ToBoolean",
           "IsStatic": false,
           "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
           "Target": {
@@ -534,7 +534,7 @@
           }
         },
         {
-          "TsName": "toChar",
+          "TsName": "ToChar",
           "IsStatic": false,
           "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
           "Target": {
@@ -544,7 +544,7 @@
           }
         },
         {
-          "TsName": "toSByte",
+          "TsName": "ToSByte",
           "IsStatic": false,
           "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
           "Target": {
@@ -554,7 +554,7 @@
           }
         },
         {
-          "TsName": "toByte",
+          "TsName": "ToByte",
           "IsStatic": false,
           "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
           "Target": {
@@ -564,7 +564,7 @@
           }
         },
         {
-          "TsName": "toInt16",
+          "TsName": "ToInt16",
           "IsStatic": false,
           "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
           "Target": {
@@ -574,7 +574,7 @@
           }
         },
         {
-          "TsName": "toUInt16",
+          "TsName": "ToUInt16",
           "IsStatic": false,
           "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
           "Target": {
@@ -584,7 +584,7 @@
           }
         },
         {
-          "TsName": "toInt32",
+          "TsName": "ToInt32",
           "IsStatic": false,
           "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
           "Target": {
@@ -594,7 +594,7 @@
           }
         },
         {
-          "TsName": "toUInt32",
+          "TsName": "ToUInt32",
           "IsStatic": false,
           "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
           "Target": {
@@ -604,7 +604,7 @@
           }
         },
         {
-          "TsName": "toInt64",
+          "TsName": "ToInt64",
           "IsStatic": false,
           "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
           "Target": {
@@ -614,7 +614,7 @@
           }
         },
         {
-          "TsName": "toUInt64",
+          "TsName": "ToUInt64",
           "IsStatic": false,
           "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
           "Target": {
@@ -624,7 +624,7 @@
           }
         },
         {
-          "TsName": "toSingle",
+          "TsName": "ToSingle",
           "IsStatic": false,
           "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
           "Target": {
@@ -634,7 +634,7 @@
           }
         },
         {
-          "TsName": "toDouble",
+          "TsName": "ToDouble",
           "IsStatic": false,
           "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
           "Target": {
@@ -644,7 +644,7 @@
           }
         },
         {
-          "TsName": "toDecimal",
+          "TsName": "ToDecimal",
           "IsStatic": false,
           "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
           "Target": {
@@ -654,7 +654,7 @@
           }
         },
         {
-          "TsName": "toDateTime",
+          "TsName": "ToDateTime",
           "IsStatic": false,
           "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
           "Target": {
@@ -664,7 +664,7 @@
           }
         },
         {
-          "TsName": "toType",
+          "TsName": "ToType",
           "IsStatic": false,
           "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
           "Target": {
@@ -674,7 +674,7 @@
           }
         },
         {
-          "TsName": "compareTo$view",
+          "TsName": "CompareTo$view",
           "IsStatic": false,
           "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
           "Target": {
@@ -684,7 +684,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -694,7 +694,7 @@
           }
         },
         {
-          "TsName": "getTypeCode$view",
+          "TsName": "GetTypeCode$view",
           "IsStatic": false,
           "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
           "Target": {
@@ -704,7 +704,7 @@
           }
         },
         {
-          "TsName": "toString$view",
+          "TsName": "ToString$view",
           "IsStatic": false,
           "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "Target": {
@@ -714,7 +714,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -724,7 +724,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -734,7 +734,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -756,7 +756,7 @@
           }
         },
         {
-          "TsName": "none",
+          "TsName": "None",
           "IsStatic": true,
           "TsSignatureId": "None|System.Collections.Concurrent.EnumerablePartitionerOptions|static=true|const=true",
           "Target": {
@@ -766,7 +766,7 @@
           }
         },
         {
-          "TsName": "noBuffering",
+          "TsName": "NoBuffering",
           "IsStatic": true,
           "TsSignatureId": "NoBuffering|System.Collections.Concurrent.EnumerablePartitionerOptions|static=true|const=true",
           "Target": {
@@ -785,8 +785,8 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
-          "MetadataToken": 100704217,
+          "TsEmitName": "CopyTo",
+          "MetadataToken": 100704114,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -797,8 +797,8 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
-          "MetadataToken": 100704218,
+          "TsEmitName": "TryAdd",
+          "MetadataToken": 100704115,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "TryAdd|(T):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -809,8 +809,8 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake",
-          "MetadataToken": 100704219,
+          "TsEmitName": "TryTake",
+          "MetadataToken": 100704116,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -821,8 +821,8 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
-          "MetadataToken": 100704220,
+          "TsEmitName": "ToArray",
+          "MetadataToken": 100704117,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "EmitScope": "ClassSurface",
@@ -833,8 +833,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ClassSurface",
@@ -845,8 +845,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator2",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator2",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ClassSurface",
@@ -857,8 +857,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo2",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo2",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -871,8 +871,8 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -884,8 +884,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -897,8 +897,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -914,105 +914,105 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704217
+            "MetadataToken": 100704114
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704218
+            "MetadataToken": 100704115
           }
         },
         {
-          "TsName": "tryTake",
+          "TsName": "TryTake",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704219
+            "MetadataToken": 100704116
           }
         },
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704220
+            "MetadataToken": 100704117
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getEnumerator2",
+          "TsName": "GetEnumerator2",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "copyTo2",
+          "TsName": "CopyTo2",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         }
       ],
       "ExposedProperties": [
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         }
       ]
@@ -1025,7 +1025,7 @@
       "Methods": [
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey",
+          "TsEmitName": "ContainsKey",
           "MetadataToken": 100663563,
           "CanonicalSignature": "(TAlternateKey):System.Boolean",
           "NormalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
@@ -1037,7 +1037,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
+          "TsEmitName": "TryAdd",
           "MetadataToken": 100663564,
           "CanonicalSignature": "(TAlternateKey,TValue):System.Boolean",
           "NormalizedSignature": "TryAdd|(TAlternateKey,TValue):System.Boolean|static=false",
@@ -1049,7 +1049,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "MetadataToken": 100663566,
           "CanonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
@@ -1061,7 +1061,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue2",
+          "TsEmitName": "TryGetValue2",
           "MetadataToken": 100663567,
           "CanonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryGetValue|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
@@ -1073,7 +1073,7 @@
         },
         {
           "ClrName": "TryRemove",
-          "TsEmitName": "tryRemove",
+          "TsEmitName": "TryRemove",
           "MetadataToken": 100663568,
           "CanonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryRemove|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
@@ -1085,7 +1085,7 @@
         },
         {
           "ClrName": "TryRemove",
-          "TsEmitName": "tryRemove2",
+          "TsEmitName": "TryRemove2",
           "MetadataToken": 100663569,
           "CanonicalSignature": "(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryRemove|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
@@ -1099,7 +1099,7 @@
       "Properties": [
         {
           "ClrName": "Dictionary",
-          "TsEmitName": "dictionary",
+          "TsEmitName": "Dictionary",
           "MetadataToken": 385876045,
           "CanonicalSignature": ":ConcurrentDictionary_2",
           "NormalizedSignature": "Dictionary|:ConcurrentDictionary_2|static=false|accessor=get",
@@ -1112,7 +1112,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "MetadataToken": 385876046,
           "CanonicalSignature": "[TAlternateKey]:TValue",
           "NormalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=getset",
@@ -1129,7 +1129,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "containsKey",
+          "TsName": "ContainsKey",
           "IsStatic": false,
           "TsSignatureId": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
           "Target": {
@@ -1139,7 +1139,7 @@
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(TAlternateKey,TValue):System.Boolean|static=false",
           "Target": {
@@ -1149,7 +1149,7 @@
           }
         },
         {
-          "TsName": "tryGetValue",
+          "TsName": "TryGetValue",
           "IsStatic": false,
           "TsSignatureId": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -1159,7 +1159,7 @@
           }
         },
         {
-          "TsName": "tryGetValue2",
+          "TsName": "TryGetValue2",
           "IsStatic": false,
           "TsSignatureId": "TryGetValue|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -1169,7 +1169,7 @@
           }
         },
         {
-          "TsName": "tryRemove",
+          "TsName": "TryRemove",
           "IsStatic": false,
           "TsSignatureId": "TryRemove|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -1179,7 +1179,7 @@
           }
         },
         {
-          "TsName": "tryRemove2",
+          "TsName": "TryRemove2",
           "IsStatic": false,
           "TsSignatureId": "TryRemove|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -1189,7 +1189,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1199,7 +1199,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -1209,7 +1209,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1219,7 +1219,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1229,7 +1229,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1239,7 +1239,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1251,7 +1251,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "dictionary",
+          "TsName": "Dictionary",
           "IsStatic": false,
           "TsSignatureId": "Dictionary|:ConcurrentDictionary_2|static=false|accessor=get",
           "Target": {
@@ -1261,7 +1261,7 @@
           }
         },
         {
-          "TsName": "item",
+          "TsName": "Item",
           "IsStatic": false,
           "TsSignatureId": "Item|[TAlternateKey]:TValue|static=false|accessor=getset",
           "Target": {
@@ -1280,7 +1280,7 @@
       "Methods": [
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "MetadataToken": 100663360,
           "CanonicalSignature": "(T):System.Void",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
@@ -1292,7 +1292,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "MetadataToken": 100663361,
           "CanonicalSignature": "(T,System.Threading.CancellationToken):System.Void",
           "NormalizedSignature": "Add|(T,System.Threading.CancellationToken):System.Void|static=false",
@@ -1304,7 +1304,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
+          "TsEmitName": "TryAdd",
           "MetadataToken": 100663362,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "TryAdd|(T):System.Boolean|static=false",
@@ -1316,7 +1316,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd2",
+          "TsEmitName": "TryAdd2",
           "MetadataToken": 100663363,
           "CanonicalSignature": "(T,System.TimeSpan):System.Boolean",
           "NormalizedSignature": "TryAdd|(T,System.TimeSpan):System.Boolean|static=false",
@@ -1328,7 +1328,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd3",
+          "TsEmitName": "TryAdd3",
           "MetadataToken": 100663364,
           "CanonicalSignature": "(T,System.Int32):System.Boolean",
           "NormalizedSignature": "TryAdd|(T,System.Int32):System.Boolean|static=false",
@@ -1340,7 +1340,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd4",
+          "TsEmitName": "TryAdd4",
           "MetadataToken": 100663365,
           "CanonicalSignature": "(T,System.Int32,System.Threading.CancellationToken):System.Boolean",
           "NormalizedSignature": "TryAdd|(T,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
@@ -1352,7 +1352,7 @@
         },
         {
           "ClrName": "Take",
-          "TsEmitName": "take",
+          "TsEmitName": "Take",
           "MetadataToken": 100663367,
           "CanonicalSignature": "():T",
           "NormalizedSignature": "Take|():T|static=false",
@@ -1364,7 +1364,7 @@
         },
         {
           "ClrName": "Take",
-          "TsEmitName": "take2",
+          "TsEmitName": "Take2",
           "MetadataToken": 100663368,
           "CanonicalSignature": "(System.Threading.CancellationToken):T",
           "NormalizedSignature": "Take|(System.Threading.CancellationToken):T|static=false",
@@ -1376,7 +1376,7 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake",
+          "TsEmitName": "TryTake",
           "MetadataToken": 100663369,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
@@ -1388,7 +1388,7 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake2",
+          "TsEmitName": "TryTake2",
           "MetadataToken": 100663370,
           "CanonicalSignature": "(T\u0026,System.TimeSpan):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026,System.TimeSpan):System.Boolean|static=false",
@@ -1400,7 +1400,7 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake3",
+          "TsEmitName": "TryTake3",
           "MetadataToken": 100663371,
           "CanonicalSignature": "(T\u0026,System.Int32):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026,System.Int32):System.Boolean|static=false",
@@ -1412,7 +1412,7 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake4",
+          "TsEmitName": "TryTake4",
           "MetadataToken": 100663372,
           "CanonicalSignature": "(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
@@ -1424,7 +1424,7 @@
         },
         {
           "ClrName": "AddToAny",
-          "TsEmitName": "addToAny",
+          "TsEmitName": "AddToAny",
           "MetadataToken": 100663374,
           "CanonicalSignature": "(BlockingCollection_1[],T):System.Int32",
           "NormalizedSignature": "AddToAny|(BlockingCollection_1[],T):System.Int32|static=true",
@@ -1436,7 +1436,7 @@
         },
         {
           "ClrName": "AddToAny",
-          "TsEmitName": "addToAny2",
+          "TsEmitName": "AddToAny2",
           "MetadataToken": 100663375,
           "CanonicalSignature": "(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32",
           "NormalizedSignature": "AddToAny|(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32|static=true",
@@ -1448,7 +1448,7 @@
         },
         {
           "ClrName": "TryAddToAny",
-          "TsEmitName": "tryAddToAny",
+          "TsEmitName": "TryAddToAny",
           "MetadataToken": 100663376,
           "CanonicalSignature": "(BlockingCollection_1[],T):System.Int32",
           "NormalizedSignature": "TryAddToAny|(BlockingCollection_1[],T):System.Int32|static=true",
@@ -1460,7 +1460,7 @@
         },
         {
           "ClrName": "TryAddToAny",
-          "TsEmitName": "tryAddToAny2",
+          "TsEmitName": "TryAddToAny2",
           "MetadataToken": 100663377,
           "CanonicalSignature": "(BlockingCollection_1[],T,System.TimeSpan):System.Int32",
           "NormalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.TimeSpan):System.Int32|static=true",
@@ -1472,7 +1472,7 @@
         },
         {
           "ClrName": "TryAddToAny",
-          "TsEmitName": "tryAddToAny3",
+          "TsEmitName": "TryAddToAny3",
           "MetadataToken": 100663378,
           "CanonicalSignature": "(BlockingCollection_1[],T,System.Int32):System.Int32",
           "NormalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.Int32):System.Int32|static=true",
@@ -1484,7 +1484,7 @@
         },
         {
           "ClrName": "TryAddToAny",
-          "TsEmitName": "tryAddToAny4",
+          "TsEmitName": "TryAddToAny4",
           "MetadataToken": 100663379,
           "CanonicalSignature": "(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32",
           "NormalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
@@ -1496,7 +1496,7 @@
         },
         {
           "ClrName": "TakeFromAny",
-          "TsEmitName": "takeFromAny",
+          "TsEmitName": "TakeFromAny",
           "MetadataToken": 100663384,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026):System.Int32",
           "NormalizedSignature": "TakeFromAny|(BlockingCollection_1[],T\u0026):System.Int32|static=true",
@@ -1508,7 +1508,7 @@
         },
         {
           "ClrName": "TakeFromAny",
-          "TsEmitName": "takeFromAny2",
+          "TsEmitName": "TakeFromAny2",
           "MetadataToken": 100663385,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32",
           "NormalizedSignature": "TakeFromAny|(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32|static=true",
@@ -1520,7 +1520,7 @@
         },
         {
           "ClrName": "TryTakeFromAny",
-          "TsEmitName": "tryTakeFromAny",
+          "TsEmitName": "TryTakeFromAny",
           "MetadataToken": 100663386,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026):System.Int32",
           "NormalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026):System.Int32|static=true",
@@ -1532,7 +1532,7 @@
         },
         {
           "ClrName": "TryTakeFromAny",
-          "TsEmitName": "tryTakeFromAny2",
+          "TsEmitName": "TryTakeFromAny2",
           "MetadataToken": 100663387,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32",
           "NormalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32|static=true",
@@ -1544,7 +1544,7 @@
         },
         {
           "ClrName": "TryTakeFromAny",
-          "TsEmitName": "tryTakeFromAny3",
+          "TsEmitName": "TryTakeFromAny3",
           "MetadataToken": 100663388,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026,System.Int32):System.Int32",
           "NormalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32):System.Int32|static=true",
@@ -1556,7 +1556,7 @@
         },
         {
           "ClrName": "TryTakeFromAny",
-          "TsEmitName": "tryTakeFromAny4",
+          "TsEmitName": "TryTakeFromAny4",
           "MetadataToken": 100663389,
           "CanonicalSignature": "(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32",
           "NormalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
@@ -1568,7 +1568,7 @@
         },
         {
           "ClrName": "CompleteAdding",
-          "TsEmitName": "completeAdding",
+          "TsEmitName": "CompleteAdding",
           "MetadataToken": 100663392,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "CompleteAdding|():System.Void|static=false",
@@ -1580,7 +1580,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "MetadataToken": 100663395,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -1592,7 +1592,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "MetadataToken": 100663397,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
@@ -1604,7 +1604,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "MetadataToken": 100663398,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -1616,7 +1616,7 @@
         },
         {
           "ClrName": "GetConsumingEnumerable",
-          "TsEmitName": "getConsumingEnumerable",
+          "TsEmitName": "GetConsumingEnumerable",
           "MetadataToken": 100663400,
           "CanonicalSignature": "():IEnumerable_1",
           "NormalizedSignature": "GetConsumingEnumerable|():IEnumerable_1|static=false",
@@ -1628,7 +1628,7 @@
         },
         {
           "ClrName": "GetConsumingEnumerable",
-          "TsEmitName": "getConsumingEnumerable2",
+          "TsEmitName": "GetConsumingEnumerable2",
           "MetadataToken": 100663401,
           "CanonicalSignature": "(System.Threading.CancellationToken):IEnumerable_1",
           "NormalizedSignature": "GetConsumingEnumerable|(System.Threading.CancellationToken):IEnumerable_1|static=false",
@@ -1640,8 +1640,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ViewOnly",
@@ -1652,8 +1652,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -1664,8 +1664,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -1676,7 +1676,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -1690,7 +1690,7 @@
       "Properties": [
         {
           "ClrName": "BoundedCapacity",
-          "TsEmitName": "boundedCapacity",
+          "TsEmitName": "BoundedCapacity",
           "MetadataToken": 385876005,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "BoundedCapacity|:System.Int32|static=false|accessor=get",
@@ -1703,7 +1703,7 @@
         },
         {
           "ClrName": "IsAddingCompleted",
-          "TsEmitName": "isAddingCompleted",
+          "TsEmitName": "IsAddingCompleted",
           "MetadataToken": 385876006,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsAddingCompleted|:System.Boolean|static=false|accessor=get",
@@ -1716,7 +1716,7 @@
         },
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "MetadataToken": 385876007,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
@@ -1729,7 +1729,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "MetadataToken": 385876008,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1742,8 +1742,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -1755,8 +1755,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -1768,8 +1768,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -1781,8 +1781,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881467,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881428,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -1835,7 +1835,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "add",
+          "TsName": "Add",
           "IsStatic": false,
           "TsSignatureId": "Add|(T):System.Void|static=false",
           "Target": {
@@ -1845,7 +1845,7 @@
           }
         },
         {
-          "TsName": "add2",
+          "TsName": "Add2",
           "IsStatic": false,
           "TsSignatureId": "Add|(T,System.Threading.CancellationToken):System.Void|static=false",
           "Target": {
@@ -1855,7 +1855,7 @@
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T):System.Boolean|static=false",
           "Target": {
@@ -1865,7 +1865,7 @@
           }
         },
         {
-          "TsName": "tryAdd2",
+          "TsName": "TryAdd2",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T,System.TimeSpan):System.Boolean|static=false",
           "Target": {
@@ -1875,7 +1875,7 @@
           }
         },
         {
-          "TsName": "tryAdd3",
+          "TsName": "TryAdd3",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T,System.Int32):System.Boolean|static=false",
           "Target": {
@@ -1885,7 +1885,7 @@
           }
         },
         {
-          "TsName": "tryAdd4",
+          "TsName": "TryAdd4",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
           "Target": {
@@ -1895,7 +1895,7 @@
           }
         },
         {
-          "TsName": "take",
+          "TsName": "Take",
           "IsStatic": false,
           "TsSignatureId": "Take|():T|static=false",
           "Target": {
@@ -1905,7 +1905,7 @@
           }
         },
         {
-          "TsName": "take2",
+          "TsName": "Take2",
           "IsStatic": false,
           "TsSignatureId": "Take|(System.Threading.CancellationToken):T|static=false",
           "Target": {
@@ -1915,7 +1915,7 @@
           }
         },
         {
-          "TsName": "tryTake",
+          "TsName": "TryTake",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
@@ -1925,7 +1925,7 @@
           }
         },
         {
-          "TsName": "tryTake2",
+          "TsName": "TryTake2",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026,System.TimeSpan):System.Boolean|static=false",
           "Target": {
@@ -1935,7 +1935,7 @@
           }
         },
         {
-          "TsName": "tryTake3",
+          "TsName": "TryTake3",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026,System.Int32):System.Boolean|static=false",
           "Target": {
@@ -1945,7 +1945,7 @@
           }
         },
         {
-          "TsName": "tryTake4",
+          "TsName": "TryTake4",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
           "Target": {
@@ -1955,7 +1955,7 @@
           }
         },
         {
-          "TsName": "addToAny",
+          "TsName": "AddToAny",
           "IsStatic": true,
           "TsSignatureId": "AddToAny|(BlockingCollection_1[],T):System.Int32|static=true",
           "Target": {
@@ -1965,7 +1965,7 @@
           }
         },
         {
-          "TsName": "addToAny2",
+          "TsName": "AddToAny2",
           "IsStatic": true,
           "TsSignatureId": "AddToAny|(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32|static=true",
           "Target": {
@@ -1975,7 +1975,7 @@
           }
         },
         {
-          "TsName": "tryAddToAny",
+          "TsName": "TryAddToAny",
           "IsStatic": true,
           "TsSignatureId": "TryAddToAny|(BlockingCollection_1[],T):System.Int32|static=true",
           "Target": {
@@ -1985,7 +1985,7 @@
           }
         },
         {
-          "TsName": "tryAddToAny2",
+          "TsName": "TryAddToAny2",
           "IsStatic": true,
           "TsSignatureId": "TryAddToAny|(BlockingCollection_1[],T,System.TimeSpan):System.Int32|static=true",
           "Target": {
@@ -1995,7 +1995,7 @@
           }
         },
         {
-          "TsName": "tryAddToAny3",
+          "TsName": "TryAddToAny3",
           "IsStatic": true,
           "TsSignatureId": "TryAddToAny|(BlockingCollection_1[],T,System.Int32):System.Int32|static=true",
           "Target": {
@@ -2005,7 +2005,7 @@
           }
         },
         {
-          "TsName": "tryAddToAny4",
+          "TsName": "TryAddToAny4",
           "IsStatic": true,
           "TsSignatureId": "TryAddToAny|(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
           "Target": {
@@ -2015,7 +2015,7 @@
           }
         },
         {
-          "TsName": "takeFromAny",
+          "TsName": "TakeFromAny",
           "IsStatic": true,
           "TsSignatureId": "TakeFromAny|(BlockingCollection_1[],T\u0026):System.Int32|static=true",
           "Target": {
@@ -2025,7 +2025,7 @@
           }
         },
         {
-          "TsName": "takeFromAny2",
+          "TsName": "TakeFromAny2",
           "IsStatic": true,
           "TsSignatureId": "TakeFromAny|(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32|static=true",
           "Target": {
@@ -2035,7 +2035,7 @@
           }
         },
         {
-          "TsName": "tryTakeFromAny",
+          "TsName": "TryTakeFromAny",
           "IsStatic": true,
           "TsSignatureId": "TryTakeFromAny|(BlockingCollection_1[],T\u0026):System.Int32|static=true",
           "Target": {
@@ -2045,7 +2045,7 @@
           }
         },
         {
-          "TsName": "tryTakeFromAny2",
+          "TsName": "TryTakeFromAny2",
           "IsStatic": true,
           "TsSignatureId": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32|static=true",
           "Target": {
@@ -2055,7 +2055,7 @@
           }
         },
         {
-          "TsName": "tryTakeFromAny3",
+          "TsName": "TryTakeFromAny3",
           "IsStatic": true,
           "TsSignatureId": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32):System.Int32|static=true",
           "Target": {
@@ -2065,7 +2065,7 @@
           }
         },
         {
-          "TsName": "tryTakeFromAny4",
+          "TsName": "TryTakeFromAny4",
           "IsStatic": true,
           "TsSignatureId": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
           "Target": {
@@ -2075,7 +2075,7 @@
           }
         },
         {
-          "TsName": "completeAdding",
+          "TsName": "CompleteAdding",
           "IsStatic": false,
           "TsSignatureId": "CompleteAdding|():System.Void|static=false",
           "Target": {
@@ -2085,7 +2085,7 @@
           }
         },
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -2095,7 +2095,7 @@
           }
         },
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
@@ -2105,7 +2105,7 @@
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
@@ -2115,7 +2115,7 @@
           }
         },
         {
-          "TsName": "getConsumingEnumerable",
+          "TsName": "GetConsumingEnumerable",
           "IsStatic": false,
           "TsSignatureId": "GetConsumingEnumerable|():IEnumerable_1|static=false",
           "Target": {
@@ -2125,7 +2125,7 @@
           }
         },
         {
-          "TsName": "getConsumingEnumerable2",
+          "TsName": "GetConsumingEnumerable2",
           "IsStatic": false,
           "TsSignatureId": "GetConsumingEnumerable|(System.Threading.CancellationToken):IEnumerable_1|static=false",
           "Target": {
@@ -2135,37 +2135,37 @@
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -2175,7 +2175,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2185,7 +2185,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2195,7 +2195,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2205,7 +2205,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2215,7 +2215,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2225,7 +2225,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -2237,7 +2237,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "boundedCapacity",
+          "TsName": "BoundedCapacity",
           "IsStatic": false,
           "TsSignatureId": "BoundedCapacity|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -2247,7 +2247,7 @@
           }
         },
         {
-          "TsName": "isAddingCompleted",
+          "TsName": "IsAddingCompleted",
           "IsStatic": false,
           "TsSignatureId": "IsAddingCompleted|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -2257,7 +2257,7 @@
           }
         },
         {
-          "TsName": "isCompleted",
+          "TsName": "IsCompleted",
           "IsStatic": false,
           "TsSignatureId": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -2267,7 +2267,7 @@
           }
         },
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -2277,43 +2277,43 @@
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881467
+            "MetadataToken": 385881428
           }
         }
       ],
@@ -2364,7 +2364,7 @@
       "Methods": [
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "MetadataToken": 100663428,
           "CanonicalSignature": "(T):System.Void",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
@@ -2376,7 +2376,7 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake",
+          "TsEmitName": "TryTake",
           "MetadataToken": 100663430,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
@@ -2388,7 +2388,7 @@
         },
         {
           "ClrName": "TryPeek",
-          "TsEmitName": "tryPeek",
+          "TsEmitName": "TryPeek",
           "MetadataToken": 100663431,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
@@ -2400,7 +2400,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "MetadataToken": 100663437,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -2412,7 +2412,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "MetadataToken": 100663440,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
@@ -2424,7 +2424,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "MetadataToken": 100663441,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
@@ -2436,7 +2436,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "MetadataToken": 100663442,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -2448,8 +2448,8 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
-          "MetadataToken": 100704218,
+          "TsEmitName": "TryAdd",
+          "MetadataToken": 100704115,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "TryAdd|(T):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -2460,8 +2460,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -2472,8 +2472,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -2484,8 +2484,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100704217,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100704114,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -2496,8 +2496,8 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake$view",
-          "MetadataToken": 100704219,
+          "TsEmitName": "TryTake$view",
+          "MetadataToken": 100704116,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -2508,8 +2508,8 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray$view",
-          "MetadataToken": 100704220,
+          "TsEmitName": "ToArray$view",
+          "MetadataToken": 100704117,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "EmitScope": "ViewOnly",
@@ -2520,8 +2520,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ViewOnly",
@@ -2534,7 +2534,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "MetadataToken": 385876014,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -2547,7 +2547,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "MetadataToken": 385876016,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
@@ -2560,8 +2560,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -2573,8 +2573,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -2586,8 +2586,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -2599,8 +2599,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881467,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881428,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -2635,7 +2635,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "add",
+          "TsName": "Add",
           "IsStatic": false,
           "TsSignatureId": "Add|(T):System.Void|static=false",
           "Target": {
@@ -2645,7 +2645,7 @@
           }
         },
         {
-          "TsName": "tryTake",
+          "TsName": "TryTake",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
@@ -2655,7 +2655,7 @@
           }
         },
         {
-          "TsName": "tryPeek",
+          "TsName": "TryPeek",
           "IsStatic": false,
           "TsSignatureId": "TryPeek|(T\u0026):System.Boolean|static=false",
           "Target": {
@@ -2665,7 +2665,7 @@
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
@@ -2675,7 +2675,7 @@
           }
         },
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
@@ -2685,7 +2685,7 @@
           }
         },
         {
-          "TsName": "clear",
+          "TsName": "Clear",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
@@ -2695,7 +2695,7 @@
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
@@ -2705,77 +2705,77 @@
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704218
+            "MetadataToken": 100704115
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704217
+            "MetadataToken": 100704114
           }
         },
         {
-          "TsName": "tryTake$view",
+          "TsName": "TryTake$view",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704219
+            "MetadataToken": 100704116
           }
         },
         {
-          "TsName": "toArray$view",
+          "TsName": "ToArray$view",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704220
+            "MetadataToken": 100704117
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2785,7 +2785,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2795,7 +2795,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2805,7 +2805,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2815,7 +2815,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2825,7 +2825,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -2837,7 +2837,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -2847,7 +2847,7 @@
           }
         },
         {
-          "TsName": "isEmpty",
+          "TsName": "IsEmpty",
           "IsStatic": false,
           "TsSignatureId": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -2857,43 +2857,43 @@
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881467
+            "MetadataToken": 385881428
           }
         }
       ],
@@ -2926,7 +2926,7 @@
       "Methods": [
         {
           "ClrName": "GetAlternateLookup",
-          "TsEmitName": "getAlternateLookup",
+          "TsEmitName": "GetAlternateLookup",
           "MetadataToken": 100663469,
           "CanonicalSignature": "():AlternateLookup_1",
           "NormalizedSignature": "GetAlternateLookup|():AlternateLookup_1|static=false",
@@ -2938,7 +2938,7 @@
         },
         {
           "ClrName": "TryGetAlternateLookup",
-          "TsEmitName": "tryGetAlternateLookup",
+          "TsEmitName": "TryGetAlternateLookup",
           "MetadataToken": 100663470,
           "CanonicalSignature": "(AlternateLookup_1\u0026):System.Boolean",
           "NormalizedSignature": "TryGetAlternateLookup|(AlternateLookup_1\u0026):System.Boolean|static=false",
@@ -2950,7 +2950,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
+          "TsEmitName": "TryAdd",
           "MetadataToken": 100663475,
           "CanonicalSignature": "(TKey,TValue):System.Boolean",
           "NormalizedSignature": "TryAdd|(TKey,TValue):System.Boolean|static=false",
@@ -2962,7 +2962,7 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey",
+          "TsEmitName": "ContainsKey",
           "MetadataToken": 100663476,
           "CanonicalSignature": "(TKey):System.Boolean",
           "NormalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
@@ -2974,7 +2974,7 @@
         },
         {
           "ClrName": "TryRemove",
-          "TsEmitName": "tryRemove",
+          "TsEmitName": "TryRemove",
           "MetadataToken": 100663477,
           "CanonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryRemove|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -2986,7 +2986,7 @@
         },
         {
           "ClrName": "TryRemove",
-          "TsEmitName": "tryRemove2",
+          "TsEmitName": "TryRemove2",
           "MetadataToken": 100663478,
           "CanonicalSignature": "(KeyValuePair_2):System.Boolean",
           "NormalizedSignature": "TryRemove|(KeyValuePair_2):System.Boolean|static=false",
@@ -2998,7 +2998,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "MetadataToken": 100663480,
           "CanonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -3010,7 +3010,7 @@
         },
         {
           "ClrName": "TryUpdate",
-          "TsEmitName": "tryUpdate",
+          "TsEmitName": "TryUpdate",
           "MetadataToken": 100663482,
           "CanonicalSignature": "(TKey,TValue,TValue):System.Boolean",
           "NormalizedSignature": "TryUpdate|(TKey,TValue,TValue):System.Boolean|static=false",
@@ -3022,7 +3022,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "MetadataToken": 100663484,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
@@ -3034,7 +3034,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "MetadataToken": 100663486,
           "CanonicalSignature": "():KeyValuePair_2[]",
           "NormalizedSignature": "ToArray|():KeyValuePair_2[]|static=false",
@@ -3046,7 +3046,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "MetadataToken": 100663490,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -3058,7 +3058,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd",
+          "TsEmitName": "GetOrAdd",
           "MetadataToken": 100663498,
           "CanonicalSignature": "(TKey,Func_2):TValue",
           "NormalizedSignature": "GetOrAdd|(TKey,Func_2):TValue|static=false",
@@ -3070,7 +3070,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd2",
+          "TsEmitName": "GetOrAdd2",
           "MetadataToken": 100663499,
           "CanonicalSignature": "(TKey,Func_3,TArg):TValue",
           "NormalizedSignature": "GetOrAdd|(TKey,Func_3,TArg):TValue|static=false",
@@ -3082,7 +3082,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd3",
+          "TsEmitName": "GetOrAdd3",
           "MetadataToken": 100663500,
           "CanonicalSignature": "(TKey,TValue):TValue",
           "NormalizedSignature": "GetOrAdd|(TKey,TValue):TValue|static=false",
@@ -3094,7 +3094,7 @@
         },
         {
           "ClrName": "AddOrUpdate",
-          "TsEmitName": "addOrUpdate",
+          "TsEmitName": "AddOrUpdate",
           "MetadataToken": 100663501,
           "CanonicalSignature": "(TKey,Func_3,Func_4,TArg):TValue",
           "NormalizedSignature": "AddOrUpdate|(TKey,Func_3,Func_4,TArg):TValue|static=false",
@@ -3106,7 +3106,7 @@
         },
         {
           "ClrName": "AddOrUpdate",
-          "TsEmitName": "addOrUpdate2",
+          "TsEmitName": "AddOrUpdate2",
           "MetadataToken": 100663502,
           "CanonicalSignature": "(TKey,Func_2,Func_3):TValue",
           "NormalizedSignature": "AddOrUpdate|(TKey,Func_2,Func_3):TValue|static=false",
@@ -3118,7 +3118,7 @@
         },
         {
           "ClrName": "AddOrUpdate",
-          "TsEmitName": "addOrUpdate3",
+          "TsEmitName": "AddOrUpdate3",
           "MetadataToken": 100663503,
           "CanonicalSignature": "(TKey,TValue,Func_3):TValue",
           "NormalizedSignature": "AddOrUpdate|(TKey,TValue,Func_3):TValue|static=false",
@@ -3130,8 +3130,8 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
-          "MetadataToken": 100704654,
+          "TsEmitName": "Add",
+          "MetadataToken": 100704551,
           "CanonicalSignature": "(TKey,TValue):System.Void",
           "NormalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3142,8 +3142,8 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
-          "MetadataToken": 100704655,
+          "TsEmitName": "Remove",
+          "MetadataToken": 100704552,
           "CanonicalSignature": "(TKey):System.Boolean",
           "NormalizedSignature": "Remove|(TKey):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3154,8 +3154,8 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
-          "MetadataToken": 100704641,
+          "TsEmitName": "Add",
+          "MetadataToken": 100704538,
           "CanonicalSignature": "(T):System.Void",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3166,8 +3166,8 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
-          "MetadataToken": 100704643,
+          "TsEmitName": "Contains",
+          "MetadataToken": 100704540,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3178,8 +3178,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
-          "MetadataToken": 100704644,
+          "TsEmitName": "CopyTo",
+          "MetadataToken": 100704541,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3190,8 +3190,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ViewOnly",
@@ -3202,8 +3202,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -3214,8 +3214,8 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
-          "MetadataToken": 100703938,
+          "TsEmitName": "Contains",
+          "MetadataToken": 100703835,
           "CanonicalSignature": "(System.Object):System.Boolean",
           "NormalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3226,8 +3226,8 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
-          "MetadataToken": 100703939,
+          "TsEmitName": "Add",
+          "MetadataToken": 100703836,
           "CanonicalSignature": "(System.Object,System.Object):System.Void",
           "NormalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3238,8 +3238,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100703943,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100703840,
           "CanonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -3250,8 +3250,8 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
-          "MetadataToken": 100703944,
+          "TsEmitName": "Remove",
+          "MetadataToken": 100703841,
           "CanonicalSignature": "(System.Object):System.Void",
           "NormalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3262,8 +3262,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3274,8 +3274,8 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey$view",
-          "MetadataToken": 100704653,
+          "TsEmitName": "ContainsKey$view",
+          "MetadataToken": 100704550,
           "CanonicalSignature": "(TKey):System.Boolean",
           "NormalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3286,8 +3286,8 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue$view",
-          "MetadataToken": 100704656,
+          "TsEmitName": "TryGetValue$view",
+          "MetadataToken": 100704553,
           "CanonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3298,8 +3298,8 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
-          "MetadataToken": 100704642,
+          "TsEmitName": "Clear$view",
+          "MetadataToken": 100704539,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3310,8 +3310,8 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
-          "MetadataToken": 100703940,
+          "TsEmitName": "Clear$view",
+          "MetadataToken": 100703837,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -3322,8 +3322,8 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey$view",
-          "MetadataToken": 100704675,
+          "TsEmitName": "ContainsKey$view",
+          "MetadataToken": 100704572,
           "CanonicalSignature": "(TKey):System.Boolean",
           "NormalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3334,8 +3334,8 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue$view",
-          "MetadataToken": 100704676,
+          "TsEmitName": "TryGetValue$view",
+          "MetadataToken": 100704573,
           "CanonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -3348,7 +3348,7 @@
       "Properties": [
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "MetadataToken": 385876022,
           "CanonicalSignature": "[TKey]:TValue",
           "NormalizedSignature": "Item|[TKey]:TValue|static=false|accessor=getset",
@@ -3361,7 +3361,7 @@
         },
         {
           "ClrName": "Comparer",
-          "TsEmitName": "comparer",
+          "TsEmitName": "Comparer",
           "MetadataToken": 385876023,
           "CanonicalSignature": ":IEqualityComparer_1",
           "NormalizedSignature": "Comparer|:IEqualityComparer_1|static=false|accessor=get",
@@ -3374,7 +3374,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "MetadataToken": 385876024,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -3387,7 +3387,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "MetadataToken": 385876025,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
@@ -3400,7 +3400,7 @@
         },
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys",
+          "TsEmitName": "Keys",
           "MetadataToken": 385876026,
           "CanonicalSignature": ":ICollection_1",
           "NormalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
@@ -3413,7 +3413,7 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values",
+          "TsEmitName": "Values",
           "MetadataToken": 385876028,
           "CanonicalSignature": ":ICollection_1",
           "NormalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
@@ -3426,8 +3426,8 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
-          "MetadataToken": 385881457,
+          "TsEmitName": "IsReadOnly",
+          "MetadataToken": 385881418,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3439,8 +3439,8 @@
         },
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys$view",
-          "MetadataToken": 385881299,
+          "TsEmitName": "Keys$view",
+          "MetadataToken": 385881260,
           "CanonicalSignature": ":System.Collections.ICollection",
           "NormalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3452,8 +3452,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3465,8 +3465,8 @@
         },
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys$view",
-          "MetadataToken": 385881469,
+          "TsEmitName": "Keys$view",
+          "MetadataToken": 385881430,
           "CanonicalSignature": ":IEnumerable_1",
           "NormalizedSignature": "Keys|:IEnumerable_1|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3478,8 +3478,8 @@
         },
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys$view",
-          "MetadataToken": 385881460,
+          "TsEmitName": "Keys$view",
+          "MetadataToken": 385881421,
           "CanonicalSignature": ":ICollection_1",
           "NormalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3491,8 +3491,8 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values$view",
-          "MetadataToken": 385881461,
+          "TsEmitName": "Values$view",
+          "MetadataToken": 385881422,
           "CanonicalSignature": ":ICollection_1",
           "NormalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3504,8 +3504,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881456,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881417,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3517,8 +3517,8 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values$view",
-          "MetadataToken": 385881300,
+          "TsEmitName": "Values$view",
+          "MetadataToken": 385881261,
           "CanonicalSignature": ":System.Collections.ICollection",
           "NormalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3530,8 +3530,8 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
-          "MetadataToken": 385881301,
+          "TsEmitName": "IsReadOnly",
+          "MetadataToken": 385881262,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3543,8 +3543,8 @@
         },
         {
           "ClrName": "IsFixedSize",
-          "TsEmitName": "isFixedSize",
-          "MetadataToken": 385881302,
+          "TsEmitName": "IsFixedSize",
+          "MetadataToken": 385881263,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3556,8 +3556,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3569,8 +3569,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3582,8 +3582,8 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values$view",
-          "MetadataToken": 385881470,
+          "TsEmitName": "Values$view",
+          "MetadataToken": 385881431,
           "CanonicalSignature": ":IEnumerable_1",
           "NormalizedSignature": "Values|:IEnumerable_1|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3595,8 +3595,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881467,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881428,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -3676,7 +3676,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "getAlternateLookup",
+          "TsName": "GetAlternateLookup",
           "IsStatic": false,
           "TsSignatureId": "GetAlternateLookup|():AlternateLookup_1|static=false",
           "Target": {
@@ -3686,7 +3686,7 @@
           }
         },
         {
-          "TsName": "tryGetAlternateLookup",
+          "TsName": "TryGetAlternateLookup",
           "IsStatic": false,
           "TsSignatureId": "TryGetAlternateLookup|(AlternateLookup_1\u0026):System.Boolean|static=false",
           "Target": {
@@ -3696,7 +3696,7 @@
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(TKey,TValue):System.Boolean|static=false",
           "Target": {
@@ -3706,7 +3706,7 @@
           }
         },
         {
-          "TsName": "containsKey",
+          "TsName": "ContainsKey",
           "IsStatic": false,
           "TsSignatureId": "ContainsKey|(TKey):System.Boolean|static=false",
           "Target": {
@@ -3716,7 +3716,7 @@
           }
         },
         {
-          "TsName": "tryRemove",
+          "TsName": "TryRemove",
           "IsStatic": false,
           "TsSignatureId": "TryRemove|(TKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -3726,7 +3726,7 @@
           }
         },
         {
-          "TsName": "tryRemove2",
+          "TsName": "TryRemove2",
           "IsStatic": false,
           "TsSignatureId": "TryRemove|(KeyValuePair_2):System.Boolean|static=false",
           "Target": {
@@ -3736,7 +3736,7 @@
           }
         },
         {
-          "TsName": "tryGetValue",
+          "TsName": "TryGetValue",
           "IsStatic": false,
           "TsSignatureId": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
@@ -3746,7 +3746,7 @@
           }
         },
         {
-          "TsName": "tryUpdate",
+          "TsName": "TryUpdate",
           "IsStatic": false,
           "TsSignatureId": "TryUpdate|(TKey,TValue,TValue):System.Boolean|static=false",
           "Target": {
@@ -3756,7 +3756,7 @@
           }
         },
         {
-          "TsName": "clear",
+          "TsName": "Clear",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
@@ -3766,7 +3766,7 @@
           }
         },
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():KeyValuePair_2[]|static=false",
           "Target": {
@@ -3776,7 +3776,7 @@
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
@@ -3786,7 +3786,7 @@
           }
         },
         {
-          "TsName": "getOrAdd",
+          "TsName": "GetOrAdd",
           "IsStatic": false,
           "TsSignatureId": "GetOrAdd|(TKey,Func_2):TValue|static=false",
           "Target": {
@@ -3796,7 +3796,7 @@
           }
         },
         {
-          "TsName": "getOrAdd2",
+          "TsName": "GetOrAdd2",
           "IsStatic": false,
           "TsSignatureId": "GetOrAdd|(TKey,Func_3,TArg):TValue|static=false",
           "Target": {
@@ -3806,7 +3806,7 @@
           }
         },
         {
-          "TsName": "getOrAdd3",
+          "TsName": "GetOrAdd3",
           "IsStatic": false,
           "TsSignatureId": "GetOrAdd|(TKey,TValue):TValue|static=false",
           "Target": {
@@ -3816,7 +3816,7 @@
           }
         },
         {
-          "TsName": "addOrUpdate",
+          "TsName": "AddOrUpdate",
           "IsStatic": false,
           "TsSignatureId": "AddOrUpdate|(TKey,Func_3,Func_4,TArg):TValue|static=false",
           "Target": {
@@ -3826,7 +3826,7 @@
           }
         },
         {
-          "TsName": "addOrUpdate2",
+          "TsName": "AddOrUpdate2",
           "IsStatic": false,
           "TsSignatureId": "AddOrUpdate|(TKey,Func_2,Func_3):TValue|static=false",
           "Target": {
@@ -3836,7 +3836,7 @@
           }
         },
         {
-          "TsName": "addOrUpdate3",
+          "TsName": "AddOrUpdate3",
           "IsStatic": false,
           "TsSignatureId": "AddOrUpdate|(TKey,TValue,Func_3):TValue|static=false",
           "Target": {
@@ -3846,187 +3846,187 @@
           }
         },
         {
-          "TsName": "add",
+          "TsName": "Add",
           "IsStatic": false,
           "TsSignatureId": "Add|(TKey,TValue):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704654
+            "MetadataToken": 100704551
           }
         },
         {
-          "TsName": "remove",
+          "TsName": "Remove",
           "IsStatic": false,
           "TsSignatureId": "Remove|(TKey):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704655
+            "MetadataToken": 100704552
           }
         },
         {
-          "TsName": "add",
+          "TsName": "Add",
           "IsStatic": false,
           "TsSignatureId": "Add|(T):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704641
+            "MetadataToken": 100704538
           }
         },
         {
-          "TsName": "contains",
+          "TsName": "Contains",
           "IsStatic": false,
           "TsSignatureId": "Contains|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704643
+            "MetadataToken": 100704540
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704644
+            "MetadataToken": 100704541
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "contains",
+          "TsName": "Contains",
           "IsStatic": false,
           "TsSignatureId": "Contains|(System.Object):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703938
+            "MetadataToken": 100703835
           }
         },
         {
-          "TsName": "add",
+          "TsName": "Add",
           "IsStatic": false,
           "TsSignatureId": "Add|(System.Object,System.Object):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703939
+            "MetadataToken": 100703836
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703943
+            "MetadataToken": 100703840
           }
         },
         {
-          "TsName": "remove",
+          "TsName": "Remove",
           "IsStatic": false,
           "TsSignatureId": "Remove|(System.Object):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703944
+            "MetadataToken": 100703841
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         },
         {
-          "TsName": "containsKey$view",
+          "TsName": "ContainsKey$view",
           "IsStatic": false,
           "TsSignatureId": "ContainsKey|(TKey):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704653
+            "MetadataToken": 100704550
           }
         },
         {
-          "TsName": "tryGetValue$view",
+          "TsName": "TryGetValue$view",
           "IsStatic": false,
           "TsSignatureId": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704656
+            "MetadataToken": 100704553
           }
         },
         {
-          "TsName": "clear$view",
+          "TsName": "Clear$view",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704642
+            "MetadataToken": 100704539
           }
         },
         {
-          "TsName": "clear$view",
+          "TsName": "Clear$view",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703940
+            "MetadataToken": 100703837
           }
         },
         {
-          "TsName": "containsKey$view",
+          "TsName": "ContainsKey$view",
           "IsStatic": false,
           "TsSignatureId": "ContainsKey|(TKey):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704675
+            "MetadataToken": 100704572
           }
         },
         {
-          "TsName": "tryGetValue$view",
+          "TsName": "TryGetValue$view",
           "IsStatic": false,
           "TsSignatureId": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704676
+            "MetadataToken": 100704573
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -4036,7 +4036,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -4046,7 +4046,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -4056,7 +4056,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4066,7 +4066,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4076,7 +4076,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -4088,7 +4088,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "item",
+          "TsName": "Item",
           "IsStatic": false,
           "TsSignatureId": "Item|[TKey]:TValue|static=false|accessor=getset",
           "Target": {
@@ -4098,7 +4098,7 @@
           }
         },
         {
-          "TsName": "comparer",
+          "TsName": "Comparer",
           "IsStatic": false,
           "TsSignatureId": "Comparer|:IEqualityComparer_1|static=false|accessor=get",
           "Target": {
@@ -4108,7 +4108,7 @@
           }
         },
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -4118,7 +4118,7 @@
           }
         },
         {
-          "TsName": "isEmpty",
+          "TsName": "IsEmpty",
           "IsStatic": false,
           "TsSignatureId": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -4128,7 +4128,7 @@
           }
         },
         {
-          "TsName": "keys",
+          "TsName": "Keys",
           "IsStatic": false,
           "TsSignatureId": "Keys|:ICollection_1|static=false|accessor=get",
           "Target": {
@@ -4138,7 +4138,7 @@
           }
         },
         {
-          "TsName": "values",
+          "TsName": "Values",
           "IsStatic": false,
           "TsSignatureId": "Values|:ICollection_1|static=false|accessor=get",
           "Target": {
@@ -4148,143 +4148,143 @@
           }
         },
         {
-          "TsName": "isReadOnly",
+          "TsName": "IsReadOnly",
           "IsStatic": false,
           "TsSignatureId": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881457
+            "MetadataToken": 385881418
           }
         },
         {
-          "TsName": "keys$view",
+          "TsName": "Keys$view",
           "IsStatic": false,
           "TsSignatureId": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881299
+            "MetadataToken": 385881260
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "keys$view",
+          "TsName": "Keys$view",
           "IsStatic": false,
           "TsSignatureId": "Keys|:IEnumerable_1|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881469
+            "MetadataToken": 385881430
           }
         },
         {
-          "TsName": "keys$view",
+          "TsName": "Keys$view",
           "IsStatic": false,
           "TsSignatureId": "Keys|:ICollection_1|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881460
+            "MetadataToken": 385881421
           }
         },
         {
-          "TsName": "values$view",
+          "TsName": "Values$view",
           "IsStatic": false,
           "TsSignatureId": "Values|:ICollection_1|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881461
+            "MetadataToken": 385881422
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.ICollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881456
+            "MetadataToken": 385881417
           }
         },
         {
-          "TsName": "values$view",
+          "TsName": "Values$view",
           "IsStatic": false,
           "TsSignatureId": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881300
+            "MetadataToken": 385881261
           }
         },
         {
-          "TsName": "isReadOnly",
+          "TsName": "IsReadOnly",
           "IsStatic": false,
           "TsSignatureId": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881301
+            "MetadataToken": 385881262
           }
         },
         {
-          "TsName": "isFixedSize",
+          "TsName": "IsFixedSize",
           "IsStatic": false,
           "TsSignatureId": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.IDictionary",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881302
+            "MetadataToken": 385881263
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         },
         {
-          "TsName": "values$view",
+          "TsName": "Values$view",
           "IsStatic": false,
           "TsSignatureId": "Values|:IEnumerable_1|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881470
+            "MetadataToken": 385881431
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881467
+            "MetadataToken": 385881428
           }
         }
       ],
@@ -4362,8 +4362,8 @@
       "Methods": [
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
-          "MetadataToken": 100704188,
+          "TsEmitName": "ToArray",
+          "MetadataToken": 100704085,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "EmitScope": "ClassSurface",
@@ -4374,8 +4374,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
-          "MetadataToken": 100704192,
+          "TsEmitName": "CopyTo",
+          "MetadataToken": 100704089,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -4386,8 +4386,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
-          "MetadataToken": 100704193,
+          "TsEmitName": "GetEnumerator",
+          "MetadataToken": 100704090,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ClassSurface",
@@ -4398,8 +4398,8 @@
         },
         {
           "ClrName": "Enqueue",
-          "TsEmitName": "enqueue",
-          "MetadataToken": 100704197,
+          "TsEmitName": "Enqueue",
+          "MetadataToken": 100704094,
           "CanonicalSignature": "(T):System.Void",
           "NormalizedSignature": "Enqueue|(T):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -4410,8 +4410,8 @@
         },
         {
           "ClrName": "TryDequeue",
-          "TsEmitName": "tryDequeue",
-          "MetadataToken": 100704199,
+          "TsEmitName": "TryDequeue",
+          "MetadataToken": 100704096,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryDequeue|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -4422,8 +4422,8 @@
         },
         {
           "ClrName": "TryPeek",
-          "TsEmitName": "tryPeek",
-          "MetadataToken": 100704201,
+          "TsEmitName": "TryPeek",
+          "MetadataToken": 100704098,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -4434,8 +4434,8 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
-          "MetadataToken": 100704203,
+          "TsEmitName": "Clear",
+          "MetadataToken": 100704100,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -4446,8 +4446,8 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
-          "MetadataToken": 100704218,
+          "TsEmitName": "TryAdd",
+          "MetadataToken": 100704115,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "TryAdd|(T):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -4458,8 +4458,8 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake",
-          "MetadataToken": 100704219,
+          "TsEmitName": "TryTake",
+          "MetadataToken": 100704116,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -4470,8 +4470,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -4482,8 +4482,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -4494,8 +4494,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100704217,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100704114,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -4506,8 +4506,8 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray$view",
-          "MetadataToken": 100704220,
+          "TsEmitName": "ToArray$view",
+          "MetadataToken": 100704117,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "EmitScope": "ViewOnly",
@@ -4518,8 +4518,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ViewOnly",
@@ -4532,8 +4532,8 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
-          "MetadataToken": 385881386,
+          "TsEmitName": "IsEmpty",
+          "MetadataToken": 385881347,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -4545,8 +4545,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
-          "MetadataToken": 385881387,
+          "TsEmitName": "Count",
+          "MetadataToken": 385881348,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -4558,8 +4558,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -4571,8 +4571,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -4584,8 +4584,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -4597,8 +4597,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881467,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881428,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -4613,7 +4613,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100704179,
+          "MetadataToken": 100704076,
           "CanonicalSignature": "():void",
           "NormalizedSignature": "constructor|():void|static=false",
           "IsStatic": false,
@@ -4622,7 +4622,7 @@
           "DeclaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "MetadataToken": 100704180,
+          "MetadataToken": 100704077,
           "CanonicalSignature": "(IEnumerable_1):void",
           "NormalizedSignature": "constructor|(IEnumerable_1):void|static=false",
           "IsStatic": false,
@@ -4633,147 +4633,147 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704188
+            "MetadataToken": 100704085
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704192
+            "MetadataToken": 100704089
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704193
+            "MetadataToken": 100704090
           }
         },
         {
-          "TsName": "enqueue",
+          "TsName": "Enqueue",
           "IsStatic": false,
           "TsSignatureId": "Enqueue|(T):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704197
+            "MetadataToken": 100704094
           }
         },
         {
-          "TsName": "tryDequeue",
+          "TsName": "TryDequeue",
           "IsStatic": false,
           "TsSignatureId": "TryDequeue|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704199
+            "MetadataToken": 100704096
           }
         },
         {
-          "TsName": "tryPeek",
+          "TsName": "TryPeek",
           "IsStatic": false,
           "TsSignatureId": "TryPeek|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704201
+            "MetadataToken": 100704098
           }
         },
         {
-          "TsName": "clear",
+          "TsName": "Clear",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704203
+            "MetadataToken": 100704100
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704218
+            "MetadataToken": 100704115
           }
         },
         {
-          "TsName": "tryTake",
+          "TsName": "TryTake",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704219
+            "MetadataToken": 100704116
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704217
+            "MetadataToken": 100704114
           }
         },
         {
-          "TsName": "toArray$view",
+          "TsName": "ToArray$view",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704220
+            "MetadataToken": 100704117
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -4783,7 +4783,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -4793,7 +4793,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -4803,7 +4803,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4813,7 +4813,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4823,7 +4823,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -4835,63 +4835,63 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "isEmpty",
+          "TsName": "IsEmpty",
           "IsStatic": false,
           "TsSignatureId": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881386
+            "MetadataToken": 385881347
           }
         },
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881387
+            "MetadataToken": 385881348
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881467
+            "MetadataToken": 385881428
           }
         }
       ],
@@ -4902,7 +4902,7 @@
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704179
+            "MetadataToken": 100704076
           }
         },
         {
@@ -4911,7 +4911,7 @@
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.ConcurrentQueue\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704180
+            "MetadataToken": 100704077
           }
         }
       ]
@@ -4924,7 +4924,7 @@
       "Methods": [
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "MetadataToken": 100663581,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Clear|():System.Void|static=false",
@@ -4936,7 +4936,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "MetadataToken": 100663583,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -4948,7 +4948,7 @@
         },
         {
           "ClrName": "Push",
-          "TsEmitName": "push",
+          "TsEmitName": "Push",
           "MetadataToken": 100663584,
           "CanonicalSignature": "(T):System.Void",
           "NormalizedSignature": "Push|(T):System.Void|static=false",
@@ -4960,7 +4960,7 @@
         },
         {
           "ClrName": "PushRange",
-          "TsEmitName": "pushRange",
+          "TsEmitName": "PushRange",
           "MetadataToken": 100663585,
           "CanonicalSignature": "(T[]):System.Void",
           "NormalizedSignature": "PushRange|(T[]):System.Void|static=false",
@@ -4972,7 +4972,7 @@
         },
         {
           "ClrName": "PushRange",
-          "TsEmitName": "pushRange2",
+          "TsEmitName": "PushRange2",
           "MetadataToken": 100663586,
           "CanonicalSignature": "(T[],System.Int32,System.Int32):System.Void",
           "NormalizedSignature": "PushRange|(T[],System.Int32,System.Int32):System.Void|static=false",
@@ -4984,7 +4984,7 @@
         },
         {
           "ClrName": "TryPeek",
-          "TsEmitName": "tryPeek",
+          "TsEmitName": "TryPeek",
           "MetadataToken": 100663590,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
@@ -4996,7 +4996,7 @@
         },
         {
           "ClrName": "TryPop",
-          "TsEmitName": "tryPop",
+          "TsEmitName": "TryPop",
           "MetadataToken": 100663591,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryPop|(T\u0026):System.Boolean|static=false",
@@ -5008,7 +5008,7 @@
         },
         {
           "ClrName": "TryPopRange",
-          "TsEmitName": "tryPopRange",
+          "TsEmitName": "TryPopRange",
           "MetadataToken": 100663592,
           "CanonicalSignature": "(T[]):System.Int32",
           "NormalizedSignature": "TryPopRange|(T[]):System.Int32|static=false",
@@ -5020,7 +5020,7 @@
         },
         {
           "ClrName": "TryPopRange",
-          "TsEmitName": "tryPopRange2",
+          "TsEmitName": "TryPopRange2",
           "MetadataToken": 100663593,
           "CanonicalSignature": "(T[],System.Int32,System.Int32):System.Int32",
           "NormalizedSignature": "TryPopRange|(T[],System.Int32,System.Int32):System.Int32|static=false",
@@ -5032,7 +5032,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "MetadataToken": 100663598,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
@@ -5044,7 +5044,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "MetadataToken": 100663601,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -5056,8 +5056,8 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
-          "MetadataToken": 100704218,
+          "TsEmitName": "TryAdd",
+          "MetadataToken": 100704115,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "TryAdd|(T):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -5068,8 +5068,8 @@
         },
         {
           "ClrName": "TryTake",
-          "TsEmitName": "tryTake",
-          "MetadataToken": 100704219,
+          "TsEmitName": "TryTake",
+          "MetadataToken": 100704116,
           "CanonicalSignature": "(T\u0026):System.Boolean",
           "NormalizedSignature": "TryTake|(T\u0026):System.Boolean|static=false",
           "EmitScope": "ViewOnly",
@@ -5080,8 +5080,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100703948,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100703845,
           "CanonicalSignature": "():System.Collections.IEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "EmitScope": "ViewOnly",
@@ -5092,8 +5092,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100703929,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100703826,
           "CanonicalSignature": "(System.Array,System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -5104,8 +5104,8 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
-          "MetadataToken": 100704217,
+          "TsEmitName": "CopyTo$view",
+          "MetadataToken": 100704114,
           "CanonicalSignature": "(T[],System.Int32):System.Void",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "EmitScope": "ViewOnly",
@@ -5116,8 +5116,8 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray$view",
-          "MetadataToken": 100704220,
+          "TsEmitName": "ToArray$view",
+          "MetadataToken": 100704117,
           "CanonicalSignature": "():T[]",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "EmitScope": "ViewOnly",
@@ -5128,8 +5128,8 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
-          "MetadataToken": 100704663,
+          "TsEmitName": "GetEnumerator$view",
+          "MetadataToken": 100704560,
           "CanonicalSignature": "():IEnumerator_1",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "EmitScope": "ViewOnly",
@@ -5142,7 +5142,7 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "MetadataToken": 385876048,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
@@ -5155,7 +5155,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "MetadataToken": 385876049,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -5168,8 +5168,8 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
-          "MetadataToken": 385881296,
+          "TsEmitName": "SyncRoot",
+          "MetadataToken": 385881257,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -5181,8 +5181,8 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
-          "MetadataToken": 385881297,
+          "TsEmitName": "IsSynchronized",
+          "MetadataToken": 385881258,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -5194,8 +5194,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881295,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881256,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -5207,8 +5207,8 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
-          "MetadataToken": 385881467,
+          "TsEmitName": "Count$view",
+          "MetadataToken": 385881428,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -5243,7 +5243,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "clear",
+          "TsName": "Clear",
           "IsStatic": false,
           "TsSignatureId": "Clear|():System.Void|static=false",
           "Target": {
@@ -5253,7 +5253,7 @@
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
@@ -5263,7 +5263,7 @@
           }
         },
         {
-          "TsName": "push",
+          "TsName": "Push",
           "IsStatic": false,
           "TsSignatureId": "Push|(T):System.Void|static=false",
           "Target": {
@@ -5273,7 +5273,7 @@
           }
         },
         {
-          "TsName": "pushRange",
+          "TsName": "PushRange",
           "IsStatic": false,
           "TsSignatureId": "PushRange|(T[]):System.Void|static=false",
           "Target": {
@@ -5283,7 +5283,7 @@
           }
         },
         {
-          "TsName": "pushRange2",
+          "TsName": "PushRange2",
           "IsStatic": false,
           "TsSignatureId": "PushRange|(T[],System.Int32,System.Int32):System.Void|static=false",
           "Target": {
@@ -5293,7 +5293,7 @@
           }
         },
         {
-          "TsName": "tryPeek",
+          "TsName": "TryPeek",
           "IsStatic": false,
           "TsSignatureId": "TryPeek|(T\u0026):System.Boolean|static=false",
           "Target": {
@@ -5303,7 +5303,7 @@
           }
         },
         {
-          "TsName": "tryPop",
+          "TsName": "TryPop",
           "IsStatic": false,
           "TsSignatureId": "TryPop|(T\u0026):System.Boolean|static=false",
           "Target": {
@@ -5313,7 +5313,7 @@
           }
         },
         {
-          "TsName": "tryPopRange",
+          "TsName": "TryPopRange",
           "IsStatic": false,
           "TsSignatureId": "TryPopRange|(T[]):System.Int32|static=false",
           "Target": {
@@ -5323,7 +5323,7 @@
           }
         },
         {
-          "TsName": "tryPopRange2",
+          "TsName": "TryPopRange2",
           "IsStatic": false,
           "TsSignatureId": "TryPopRange|(T[],System.Int32,System.Int32):System.Int32|static=false",
           "Target": {
@@ -5333,7 +5333,7 @@
           }
         },
         {
-          "TsName": "toArray",
+          "TsName": "ToArray",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
@@ -5343,7 +5343,7 @@
           }
         },
         {
-          "TsName": "getEnumerator",
+          "TsName": "GetEnumerator",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
@@ -5353,77 +5353,77 @@
           }
         },
         {
-          "TsName": "tryAdd",
+          "TsName": "TryAdd",
           "IsStatic": false,
           "TsSignatureId": "TryAdd|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704218
+            "MetadataToken": 100704115
           }
         },
         {
-          "TsName": "tryTake",
+          "TsName": "TryTake",
           "IsStatic": false,
           "TsSignatureId": "TryTake|(T\u0026):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704219
+            "MetadataToken": 100704116
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.IEnumerable",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703948
+            "MetadataToken": 100703845
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100703929
+            "MetadataToken": 100703826
           }
         },
         {
-          "TsName": "copyTo$view",
+          "TsName": "CopyTo$view",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704217
+            "MetadataToken": 100704114
           }
         },
         {
-          "TsName": "toArray$view",
+          "TsName": "ToArray$view",
           "IsStatic": false,
           "TsSignatureId": "ToArray|():T[]|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Concurrent.IProducerConsumerCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704220
+            "MetadataToken": 100704117
           }
         },
         {
-          "TsName": "getEnumerator$view",
+          "TsName": "GetEnumerator$view",
           "IsStatic": false,
           "TsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100704663
+            "MetadataToken": 100704560
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -5433,7 +5433,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -5443,7 +5443,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -5453,7 +5453,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5463,7 +5463,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5473,7 +5473,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -5485,7 +5485,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "isEmpty",
+          "TsName": "IsEmpty",
           "IsStatic": false,
           "TsSignatureId": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -5495,7 +5495,7 @@
           }
         },
         {
-          "TsName": "count",
+          "TsName": "Count",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -5505,43 +5505,43 @@
           }
         },
         {
-          "TsName": "syncRoot",
+          "TsName": "SyncRoot",
           "IsStatic": false,
           "TsSignatureId": "SyncRoot|:System.Object|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881296
+            "MetadataToken": 385881257
           }
         },
         {
-          "TsName": "isSynchronized",
+          "TsName": "IsSynchronized",
           "IsStatic": false,
           "TsSignatureId": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881297
+            "MetadataToken": 385881258
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.ICollection",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881295
+            "MetadataToken": 385881256
           }
         },
         {
-          "TsName": "count$view",
+          "TsName": "Count$view",
           "IsStatic": false,
           "TsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385881467
+            "MetadataToken": 385881428
           }
         }
       ],
@@ -5574,7 +5574,7 @@
       "Methods": [
         {
           "ClrName": "GetOrderablePartitions",
-          "TsEmitName": "getOrderablePartitions",
+          "TsEmitName": "GetOrderablePartitions",
           "MetadataToken": 100663612,
           "CanonicalSignature": "(System.Int32):IList_1",
           "NormalizedSignature": "GetOrderablePartitions|(System.Int32):IList_1|static=false",
@@ -5586,7 +5586,7 @@
         },
         {
           "ClrName": "GetOrderableDynamicPartitions",
-          "TsEmitName": "getOrderableDynamicPartitions",
+          "TsEmitName": "GetOrderableDynamicPartitions",
           "MetadataToken": 100663613,
           "CanonicalSignature": "():IEnumerable_1",
           "NormalizedSignature": "GetOrderableDynamicPartitions|():IEnumerable_1|static=false",
@@ -5598,7 +5598,7 @@
         },
         {
           "ClrName": "GetPartitions",
-          "TsEmitName": "getPartitions2",
+          "TsEmitName": "GetPartitions2",
           "MetadataToken": 100663617,
           "CanonicalSignature": "(System.Int32):IList_1",
           "NormalizedSignature": "GetPartitions|(System.Int32):IList_1|static=false",
@@ -5610,7 +5610,7 @@
         },
         {
           "ClrName": "GetDynamicPartitions",
-          "TsEmitName": "getDynamicPartitions2",
+          "TsEmitName": "GetDynamicPartitions2",
           "MetadataToken": 100663618,
           "CanonicalSignature": "():IEnumerable_1",
           "NormalizedSignature": "GetDynamicPartitions|():IEnumerable_1|static=false",
@@ -5622,7 +5622,7 @@
         },
         {
           "ClrName": "GetDynamicPartitions",
-          "TsEmitName": "getDynamicPartitions",
+          "TsEmitName": "GetDynamicPartitions",
           "MetadataToken": 0,
           "CanonicalSignature": "():System.Collections.Generic.IEnumerable_1",
           "NormalizedSignature": "GetDynamicPartitions|():System.Collections.Generic.IEnumerable_1|static=false",
@@ -5634,7 +5634,7 @@
         },
         {
           "ClrName": "GetPartitions",
-          "TsEmitName": "getPartitions",
+          "TsEmitName": "GetPartitions",
           "MetadataToken": 0,
           "CanonicalSignature": "(System.Int32):System.Collections.Generic.IList_1",
           "NormalizedSignature": "GetPartitions|(System.Int32):System.Collections.Generic.IList_1|static=false",
@@ -5648,7 +5648,7 @@
       "Properties": [
         {
           "ClrName": "KeysOrderedInEachPartition",
-          "TsEmitName": "keysOrderedInEachPartition",
+          "TsEmitName": "KeysOrderedInEachPartition",
           "MetadataToken": 385876054,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "KeysOrderedInEachPartition|:System.Boolean|static=false|accessor=get",
@@ -5661,7 +5661,7 @@
         },
         {
           "ClrName": "KeysOrderedAcrossPartitions",
-          "TsEmitName": "keysOrderedAcrossPartitions",
+          "TsEmitName": "KeysOrderedAcrossPartitions",
           "MetadataToken": 385876055,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "KeysOrderedAcrossPartitions|:System.Boolean|static=false|accessor=get",
@@ -5674,7 +5674,7 @@
         },
         {
           "ClrName": "KeysNormalized",
-          "TsEmitName": "keysNormalized",
+          "TsEmitName": "KeysNormalized",
           "MetadataToken": 385876056,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "KeysNormalized|:System.Boolean|static=false|accessor=get",
@@ -5691,7 +5691,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getOrderablePartitions",
+          "TsName": "GetOrderablePartitions",
           "IsStatic": false,
           "TsSignatureId": "GetOrderablePartitions|(System.Int32):IList_1|static=false",
           "Target": {
@@ -5701,7 +5701,7 @@
           }
         },
         {
-          "TsName": "getOrderableDynamicPartitions",
+          "TsName": "GetOrderableDynamicPartitions",
           "IsStatic": false,
           "TsSignatureId": "GetOrderableDynamicPartitions|():IEnumerable_1|static=false",
           "Target": {
@@ -5711,7 +5711,7 @@
           }
         },
         {
-          "TsName": "getPartitions2",
+          "TsName": "GetPartitions2",
           "IsStatic": false,
           "TsSignatureId": "GetPartitions|(System.Int32):IList_1|static=false",
           "Target": {
@@ -5721,7 +5721,7 @@
           }
         },
         {
-          "TsName": "getDynamicPartitions2",
+          "TsName": "GetDynamicPartitions2",
           "IsStatic": false,
           "TsSignatureId": "GetDynamicPartitions|():IEnumerable_1|static=false",
           "Target": {
@@ -5731,7 +5731,7 @@
           }
         },
         {
-          "TsName": "getDynamicPartitions",
+          "TsName": "GetDynamicPartitions",
           "IsStatic": false,
           "TsSignatureId": "GetDynamicPartitions|():System.Collections.Generic.IEnumerable_1|static=false",
           "Target": {
@@ -5741,7 +5741,7 @@
           }
         },
         {
-          "TsName": "getPartitions",
+          "TsName": "GetPartitions",
           "IsStatic": false,
           "TsSignatureId": "GetPartitions|(System.Int32):System.Collections.Generic.IList_1|static=false",
           "Target": {
@@ -5751,7 +5751,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -5761,7 +5761,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -5771,7 +5771,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -5781,7 +5781,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5791,7 +5791,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5801,7 +5801,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -5813,7 +5813,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "keysOrderedInEachPartition",
+          "TsName": "KeysOrderedInEachPartition",
           "IsStatic": false,
           "TsSignatureId": "KeysOrderedInEachPartition|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -5823,7 +5823,7 @@
           }
         },
         {
-          "TsName": "keysOrderedAcrossPartitions",
+          "TsName": "KeysOrderedAcrossPartitions",
           "IsStatic": false,
           "TsSignatureId": "KeysOrderedAcrossPartitions|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -5833,7 +5833,7 @@
           }
         },
         {
-          "TsName": "keysNormalized",
+          "TsName": "KeysNormalized",
           "IsStatic": false,
           "TsSignatureId": "KeysNormalized|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -5843,7 +5843,7 @@
           }
         },
         {
-          "TsName": "supportsDynamicPartitions",
+          "TsName": "SupportsDynamicPartitions",
           "IsStatic": false,
           "TsSignatureId": "SupportsDynamicPartitions|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -5862,7 +5862,7 @@
       "Methods": [
         {
           "ClrName": "GetPartitions",
-          "TsEmitName": "getPartitions",
+          "TsEmitName": "GetPartitions",
           "MetadataToken": 100663629,
           "CanonicalSignature": "(System.Int32):IList_1",
           "NormalizedSignature": "GetPartitions|(System.Int32):IList_1|static=false",
@@ -5874,7 +5874,7 @@
         },
         {
           "ClrName": "GetDynamicPartitions",
-          "TsEmitName": "getDynamicPartitions",
+          "TsEmitName": "GetDynamicPartitions",
           "MetadataToken": 100663631,
           "CanonicalSignature": "():IEnumerable_1",
           "NormalizedSignature": "GetDynamicPartitions|():IEnumerable_1|static=false",
@@ -5888,7 +5888,7 @@
       "Properties": [
         {
           "ClrName": "SupportsDynamicPartitions",
-          "TsEmitName": "supportsDynamicPartitions",
+          "TsEmitName": "SupportsDynamicPartitions",
           "MetadataToken": 385876059,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "SupportsDynamicPartitions|:System.Boolean|static=false|accessor=get",
@@ -5905,7 +5905,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getPartitions",
+          "TsName": "GetPartitions",
           "IsStatic": false,
           "TsSignatureId": "GetPartitions|(System.Int32):IList_1|static=false",
           "Target": {
@@ -5915,7 +5915,7 @@
           }
         },
         {
-          "TsName": "getDynamicPartitions",
+          "TsName": "GetDynamicPartitions",
           "IsStatic": false,
           "TsSignatureId": "GetDynamicPartitions|():IEnumerable_1|static=false",
           "Target": {
@@ -5925,7 +5925,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -5935,7 +5935,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -5945,7 +5945,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -5955,7 +5955,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5965,7 +5965,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -5975,7 +5975,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -5987,7 +5987,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "supportsDynamicPartitions",
+          "TsName": "SupportsDynamicPartitions",
           "IsStatic": false,
           "TsSignatureId": "SupportsDynamicPartitions|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -6006,7 +6006,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "MetadataToken": 100663633,
           "CanonicalSignature": "(IList_1,System.Boolean):OrderablePartitioner_1",
           "NormalizedSignature": "Create|(IList_1,System.Boolean):OrderablePartitioner_1|static=true",
@@ -6018,7 +6018,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "MetadataToken": 100663634,
           "CanonicalSignature": "(TSource[],System.Boolean):OrderablePartitioner_1",
           "NormalizedSignature": "Create|(TSource[],System.Boolean):OrderablePartitioner_1|static=true",
@@ -6030,7 +6030,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create3",
+          "TsEmitName": "Create3",
           "MetadataToken": 100663635,
           "CanonicalSignature": "(IEnumerable_1):OrderablePartitioner_1",
           "NormalizedSignature": "Create|(IEnumerable_1):OrderablePartitioner_1|static=true",
@@ -6042,7 +6042,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create4",
+          "TsEmitName": "Create4",
           "MetadataToken": 100663636,
           "CanonicalSignature": "(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1",
           "NormalizedSignature": "Create|(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1|static=true",
@@ -6054,7 +6054,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create5",
+          "TsEmitName": "Create5",
           "MetadataToken": 100663637,
           "CanonicalSignature": "(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Create|(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -6066,7 +6066,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create6",
+          "TsEmitName": "Create6",
           "MetadataToken": 100663638,
           "CanonicalSignature": "(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Create|(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -6078,7 +6078,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create7",
+          "TsEmitName": "Create7",
           "MetadataToken": 100663640,
           "CanonicalSignature": "(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Create|(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -6090,7 +6090,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create8",
+          "TsEmitName": "Create8",
           "MetadataToken": 100663641,
           "CanonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Create|(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -6107,7 +6107,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "create",
+          "TsName": "Create",
           "IsStatic": true,
           "TsSignatureId": "Create|(IList_1,System.Boolean):OrderablePartitioner_1|static=true",
           "Target": {
@@ -6117,7 +6117,7 @@
           }
         },
         {
-          "TsName": "create2",
+          "TsName": "Create2",
           "IsStatic": true,
           "TsSignatureId": "Create|(TSource[],System.Boolean):OrderablePartitioner_1|static=true",
           "Target": {
@@ -6127,7 +6127,7 @@
           }
         },
         {
-          "TsName": "create3",
+          "TsName": "Create3",
           "IsStatic": true,
           "TsSignatureId": "Create|(IEnumerable_1):OrderablePartitioner_1|static=true",
           "Target": {
@@ -6137,7 +6137,7 @@
           }
         },
         {
-          "TsName": "create4",
+          "TsName": "Create4",
           "IsStatic": true,
           "TsSignatureId": "Create|(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1|static=true",
           "Target": {
@@ -6147,7 +6147,7 @@
           }
         },
         {
-          "TsName": "create5",
+          "TsName": "Create5",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -6157,7 +6157,7 @@
           }
         },
         {
-          "TsName": "create6",
+          "TsName": "Create6",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -6167,7 +6167,7 @@
           }
         },
         {
-          "TsName": "create7",
+          "TsName": "Create7",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -6177,7 +6177,7 @@
           }
         },
         {
-          "TsName": "create8",
+          "TsName": "Create8",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -6187,7 +6187,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -6197,7 +6197,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -6207,7 +6207,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -6217,7 +6217,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -6227,7 +6227,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -6237,7 +6237,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {

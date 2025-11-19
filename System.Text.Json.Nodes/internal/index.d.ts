@@ -47,7 +47,7 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class JsonNodeOptions$instance {
-    propertyNameCaseInsensitive: boolean;
+    PropertyNameCaseInsensitive: boolean;
 }
 
 
@@ -59,20 +59,20 @@ export class JsonArray$instance extends JsonNode$instance {
     constructor(options: JsonNodeOptions, items: ReadOnlySpan_1<JsonNode>);
     constructor(items: JsonNode[]);
     constructor(items: ReadOnlySpan_1<JsonNode>);
-    readonly count: int;
-    add<T>(value: T): void;
-    add(item: JsonNode): void;
-    clear(): void;
-    contains(item: JsonNode): boolean;
-    getEnumerator(): IEnumerator_1<JsonNode>;
-    getValues<T>(): IEnumerable_1<T>;
-    indexOf(item: JsonNode): int;
-    insert(index: int, item: JsonNode): void;
-    remove(item: JsonNode): boolean;
-    removeAll(match: Func_2<JsonNode, CLROf<boolean>>): int;
-    removeAt(index: int): void;
-    removeRange(index: int, count: int): void;
-    writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
+    readonly Count: int;
+    Add<T>(value: T): void;
+    Add(item: JsonNode): void;
+    Clear(): void;
+    Contains(item: JsonNode): boolean;
+    GetEnumerator(): IEnumerator_1<JsonNode>;
+    GetValues<T>(): IEnumerable_1<T>;
+    IndexOf(item: JsonNode): int;
+    Insert(index: int, item: JsonNode): void;
+    Remove(item: JsonNode): boolean;
+    RemoveAll(match: Func_2<JsonNode, CLROf<boolean>>): int;
+    RemoveAt(index: int): void;
+    RemoveRange(index: int, count: int): void;
+    WriteTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
     static Create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonArray;
 }
 
@@ -88,26 +88,26 @@ export type JsonArray = JsonArray$instance & __JsonArray$views;
 
 
 export abstract class JsonNode$instance {
-    readonly options: Nullable_1<JsonNodeOptions>;
-    readonly parent: JsonNode;
-    readonly root: JsonNode;
-    asArray(): JsonArray;
-    asObject(): JsonObject;
-    asValue(): JsonValue;
-    deepClone(): JsonNode;
+    readonly Options: Nullable_1<JsonNodeOptions>;
+    readonly Parent: JsonNode;
+    readonly Root: JsonNode;
+    AsArray(): JsonArray;
+    AsObject(): JsonObject;
+    AsValue(): JsonValue;
+    DeepClone(): JsonNode;
     get_Item(index: int): JsonNode;
     get_Item(propertyName: string): JsonNode;
-    getElementIndex(): int;
-    getPath(): string;
-    getPropertyName(): string;
-    getValue<T>(): T;
-    getValueKind(): JsonValueKind;
-    replaceWith<T>(value: T): void;
+    GetElementIndex(): int;
+    GetPath(): string;
+    GetPropertyName(): string;
+    GetValue<T>(): T;
+    GetValueKind(): JsonValueKind;
+    ReplaceWith<T>(value: T): void;
     set_Item(index: int, value: JsonNode): void;
     set_Item(propertyName: string, value: JsonNode): void;
-    toJsonString(options?: JsonSerializerOptions): string;
-    toString(): string;
-    abstract writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
+    ToJsonString(options?: JsonSerializerOptions): string;
+    ToString(): string;
+    abstract WriteTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
     static DeepEquals(node1: JsonNode, node2: JsonNode): boolean;
     static Parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
     static Parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
@@ -122,24 +122,24 @@ export type JsonNode = JsonNode$instance;
 export class JsonObject$instance extends JsonNode$instance {
     constructor(options: Nullable_1<JsonNodeOptions>);
     constructor(properties: IEnumerable_1<KeyValuePair_2<CLROf<string>, JsonNode>>, options: Nullable_1<JsonNodeOptions>);
-    readonly count: int;
-    add(propertyName: string, value: JsonNode): void;
-    add(property: KeyValuePair_2<CLROf<string>, JsonNode>): void;
-    clear(): void;
-    containsKey(propertyName: string): boolean;
-    getAt(index: int): KeyValuePair_2<CLROf<string>, JsonNode>;
-    getEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, JsonNode>>;
-    indexOf(propertyName: string): int;
-    insert(index: int, propertyName: string, value: JsonNode): void;
-    remove(propertyName: string): boolean;
-    removeAt(index: int): void;
-    setAt(index: int, propertyName: string, value: JsonNode): void;
-    setAt(index: int, value: JsonNode): void;
-    tryAdd(propertyName: string, value: JsonNode): boolean;
-    tryAdd(propertyName: string, value: JsonNode, index: { value: TSByRef<int> }): boolean;
-    tryGetPropertyValue(propertyName: string, jsonNode: { value: TSByRef<JsonNode> }): boolean;
-    tryGetPropertyValue(propertyName: string, jsonNode: { value: TSByRef<JsonNode> }, index: { value: TSByRef<int> }): boolean;
-    writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
+    readonly Count: int;
+    Add(propertyName: string, value: JsonNode): void;
+    Add(property: KeyValuePair_2<CLROf<string>, JsonNode>): void;
+    Clear(): void;
+    ContainsKey(propertyName: string): boolean;
+    GetAt(index: int): KeyValuePair_2<CLROf<string>, JsonNode>;
+    GetEnumerator(): IEnumerator_1<KeyValuePair_2<CLROf<string>, JsonNode>>;
+    IndexOf(propertyName: string): int;
+    Insert(index: int, propertyName: string, value: JsonNode): void;
+    Remove(propertyName: string): boolean;
+    RemoveAt(index: int): void;
+    SetAt(index: int, propertyName: string, value: JsonNode): void;
+    SetAt(index: int, value: JsonNode): void;
+    TryAdd(propertyName: string, value: JsonNode): boolean;
+    TryAdd(propertyName: string, value: JsonNode, index: { value: TSByRef<int> }): boolean;
+    TryGetPropertyValue(propertyName: string, jsonNode: { value: TSByRef<JsonNode> }): boolean;
+    TryGetPropertyValue(propertyName: string, jsonNode: { value: TSByRef<JsonNode> }, index: { value: TSByRef<int> }): boolean;
+    WriteTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
     static Create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonObject;
 }
 
@@ -156,7 +156,7 @@ export type JsonObject = JsonObject$instance & __JsonObject$views;
 
 
 export abstract class JsonValue$instance extends JsonNode$instance {
-    abstract tryGetValue<T>(value: { value: TSByRef<T> }): boolean;
+    abstract TryGetValue<T>(value: { value: TSByRef<T> }): boolean;
     static Create(value: boolean, options?: Nullable_1<JsonNodeOptions>): JsonValue;
     static Create(value: byte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
     static Create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;

@@ -9,8 +9,8 @@
       "Methods": [
         {
           "ClrName": "AppendLiteral",
-          "TsEmitName": "appendLiteral",
-          "MetadataToken": 100682324,
+          "TsEmitName": "AppendLiteral",
+          "MetadataToken": 100682307,
           "CanonicalSignature": "(System.String):System.Boolean",
           "NormalizedSignature": "AppendLiteral|(System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -21,8 +21,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted",
-          "MetadataToken": 100682325,
+          "TsEmitName": "AppendFormatted",
+          "MetadataToken": 100682308,
           "CanonicalSignature": "(T):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(T):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -33,8 +33,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted2",
-          "MetadataToken": 100682326,
+          "TsEmitName": "AppendFormatted2",
+          "MetadataToken": 100682309,
           "CanonicalSignature": "(T,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(T,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -45,8 +45,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted3",
-          "MetadataToken": 100682327,
+          "TsEmitName": "AppendFormatted3",
+          "MetadataToken": 100682310,
           "CanonicalSignature": "(T,System.Int32):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -57,8 +57,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted4",
-          "MetadataToken": 100682328,
+          "TsEmitName": "AppendFormatted4",
+          "MetadataToken": 100682311,
           "CanonicalSignature": "(T,System.Int32,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -69,8 +69,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted5",
-          "MetadataToken": 100682329,
+          "TsEmitName": "AppendFormatted5",
+          "MetadataToken": 100682312,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -81,8 +81,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted6",
-          "MetadataToken": 100682330,
+          "TsEmitName": "AppendFormatted6",
+          "MetadataToken": 100682313,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -93,8 +93,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted7",
-          "MetadataToken": 100682331,
+          "TsEmitName": "AppendFormatted7",
+          "MetadataToken": 100682314,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -105,8 +105,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted8",
-          "MetadataToken": 100682332,
+          "TsEmitName": "AppendFormatted8",
+          "MetadataToken": 100682315,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -117,8 +117,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted9",
-          "MetadataToken": 100682333,
+          "TsEmitName": "AppendFormatted9",
+          "MetadataToken": 100682316,
           "CanonicalSignature": "(System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -129,8 +129,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted10",
-          "MetadataToken": 100682334,
+          "TsEmitName": "AppendFormatted10",
+          "MetadataToken": 100682317,
           "CanonicalSignature": "(System.String,System.Int32,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -141,8 +141,8 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted11",
-          "MetadataToken": 100682335,
+          "TsEmitName": "AppendFormatted11",
+          "MetadataToken": 100682318,
           "CanonicalSignature": "(System.Object,System.Int32,System.String):System.Boolean",
           "NormalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
           "EmitScope": "ClassSurface",
@@ -157,7 +157,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100682322,
+          "MetadataToken": 100682305,
           "CanonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void",
           "NormalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void|static=false",
           "IsStatic": false,
@@ -166,7 +166,7 @@
           "DeclaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "MetadataToken": 100682323,
+          "MetadataToken": 100682306,
           "CanonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void",
           "NormalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void|static=false",
           "IsStatic": false,
@@ -177,127 +177,127 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "appendLiteral",
+          "TsName": "AppendLiteral",
           "IsStatic": false,
           "TsSignatureId": "AppendLiteral|(System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682324
+            "MetadataToken": 100682307
           }
         },
         {
-          "TsName": "appendFormatted",
+          "TsName": "AppendFormatted",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(T):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682325
+            "MetadataToken": 100682308
           }
         },
         {
-          "TsName": "appendFormatted2",
+          "TsName": "AppendFormatted2",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(T,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682326
+            "MetadataToken": 100682309
           }
         },
         {
-          "TsName": "appendFormatted3",
+          "TsName": "AppendFormatted3",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682327
+            "MetadataToken": 100682310
           }
         },
         {
-          "TsName": "appendFormatted4",
+          "TsName": "AppendFormatted4",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682328
+            "MetadataToken": 100682311
           }
         },
         {
-          "TsName": "appendFormatted5",
+          "TsName": "AppendFormatted5",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682329
+            "MetadataToken": 100682312
           }
         },
         {
-          "TsName": "appendFormatted6",
+          "TsName": "AppendFormatted6",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682330
+            "MetadataToken": 100682313
           }
         },
         {
-          "TsName": "appendFormatted7",
+          "TsName": "AppendFormatted7",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682331
+            "MetadataToken": 100682314
           }
         },
         {
-          "TsName": "appendFormatted8",
+          "TsName": "AppendFormatted8",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682332
+            "MetadataToken": 100682315
           }
         },
         {
-          "TsName": "appendFormatted9",
+          "TsName": "AppendFormatted9",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682333
+            "MetadataToken": 100682316
           }
         },
         {
-          "TsName": "appendFormatted10",
+          "TsName": "AppendFormatted10",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682334
+            "MetadataToken": 100682317
           }
         },
         {
-          "TsName": "appendFormatted11",
+          "TsName": "AppendFormatted11",
           "IsStatic": false,
           "TsSignatureId": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682335
+            "MetadataToken": 100682318
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -307,7 +307,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -317,7 +317,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -327,7 +327,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -337,7 +337,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -347,7 +347,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -364,7 +364,7 @@
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682322
+            "MetadataToken": 100682305
           }
         },
         {
@@ -373,7 +373,7 @@
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682323
+            "MetadataToken": 100682306
           }
         }
       ]
@@ -386,7 +386,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "MetadataToken": 100663323,
           "CanonicalSignature": "(System.Char,System.Char):System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Create|(System.Char,System.Char):System.Text.Unicode.UnicodeRange|static=true",
@@ -400,7 +400,7 @@
       "Properties": [
         {
           "ClrName": "FirstCodePoint",
-          "TsEmitName": "firstCodePoint",
+          "TsEmitName": "FirstCodePoint",
           "MetadataToken": 385875973,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "FirstCodePoint|:System.Int32|static=false|accessor=get",
@@ -413,7 +413,7 @@
         },
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "MetadataToken": 385875974,
           "CanonicalSignature": ":System.Int32",
           "NormalizedSignature": "Length|:System.Int32|static=false|accessor=get",
@@ -440,7 +440,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "create",
+          "TsName": "Create",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Char,System.Char):System.Text.Unicode.UnicodeRange|static=true",
           "Target": {
@@ -450,7 +450,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -460,7 +460,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -470,7 +470,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -480,7 +480,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -490,7 +490,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -500,7 +500,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -512,7 +512,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "firstCodePoint",
+          "TsName": "FirstCodePoint",
           "IsStatic": false,
           "TsSignatureId": "FirstCodePoint|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -522,7 +522,7 @@
           }
         },
         {
-          "TsName": "length",
+          "TsName": "Length",
           "IsStatic": false,
           "TsSignatureId": "Length|:System.Int32|static=false|accessor=get",
           "Target": {
@@ -553,7 +553,7 @@
       "Properties": [
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "MetadataToken": 385875975,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "None|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -566,7 +566,7 @@
         },
         {
           "ClrName": "All",
-          "TsEmitName": "all",
+          "TsEmitName": "All",
           "MetadataToken": 385875976,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "All|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -579,7 +579,7 @@
         },
         {
           "ClrName": "BasicLatin",
-          "TsEmitName": "basicLatin",
+          "TsEmitName": "BasicLatin",
           "MetadataToken": 385875977,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "BasicLatin|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -592,7 +592,7 @@
         },
         {
           "ClrName": "Latin1Supplement",
-          "TsEmitName": "latin1Supplement",
+          "TsEmitName": "Latin1Supplement",
           "MetadataToken": 385875978,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Latin1Supplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -605,7 +605,7 @@
         },
         {
           "ClrName": "LatinExtendedA",
-          "TsEmitName": "latinExtendedA",
+          "TsEmitName": "LatinExtendedA",
           "MetadataToken": 385875979,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -618,7 +618,7 @@
         },
         {
           "ClrName": "LatinExtendedB",
-          "TsEmitName": "latinExtendedB",
+          "TsEmitName": "LatinExtendedB",
           "MetadataToken": 385875980,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -631,7 +631,7 @@
         },
         {
           "ClrName": "IpaExtensions",
-          "TsEmitName": "ipaExtensions",
+          "TsEmitName": "IpaExtensions",
           "MetadataToken": 385875981,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "IpaExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -644,7 +644,7 @@
         },
         {
           "ClrName": "SpacingModifierLetters",
-          "TsEmitName": "spacingModifierLetters",
+          "TsEmitName": "SpacingModifierLetters",
           "MetadataToken": 385875982,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SpacingModifierLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -657,7 +657,7 @@
         },
         {
           "ClrName": "CombiningDiacriticalMarks",
-          "TsEmitName": "combiningDiacriticalMarks",
+          "TsEmitName": "CombiningDiacriticalMarks",
           "MetadataToken": 385875983,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CombiningDiacriticalMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -670,7 +670,7 @@
         },
         {
           "ClrName": "GreekandCoptic",
-          "TsEmitName": "greekandCoptic",
+          "TsEmitName": "GreekandCoptic",
           "MetadataToken": 385875984,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GreekandCoptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -683,7 +683,7 @@
         },
         {
           "ClrName": "Cyrillic",
-          "TsEmitName": "cyrillic",
+          "TsEmitName": "Cyrillic",
           "MetadataToken": 385875985,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Cyrillic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -696,7 +696,7 @@
         },
         {
           "ClrName": "CyrillicSupplement",
-          "TsEmitName": "cyrillicSupplement",
+          "TsEmitName": "CyrillicSupplement",
           "MetadataToken": 385875986,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CyrillicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -709,7 +709,7 @@
         },
         {
           "ClrName": "Armenian",
-          "TsEmitName": "armenian",
+          "TsEmitName": "Armenian",
           "MetadataToken": 385875987,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Armenian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -722,7 +722,7 @@
         },
         {
           "ClrName": "Hebrew",
-          "TsEmitName": "hebrew",
+          "TsEmitName": "Hebrew",
           "MetadataToken": 385875988,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Hebrew|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -735,7 +735,7 @@
         },
         {
           "ClrName": "Arabic",
-          "TsEmitName": "arabic",
+          "TsEmitName": "Arabic",
           "MetadataToken": 385875989,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Arabic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -748,7 +748,7 @@
         },
         {
           "ClrName": "Syriac",
-          "TsEmitName": "syriac",
+          "TsEmitName": "Syriac",
           "MetadataToken": 385875990,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Syriac|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -761,7 +761,7 @@
         },
         {
           "ClrName": "ArabicSupplement",
-          "TsEmitName": "arabicSupplement",
+          "TsEmitName": "ArabicSupplement",
           "MetadataToken": 385875991,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ArabicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -774,7 +774,7 @@
         },
         {
           "ClrName": "Thaana",
-          "TsEmitName": "thaana",
+          "TsEmitName": "Thaana",
           "MetadataToken": 385875992,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Thaana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -787,7 +787,7 @@
         },
         {
           "ClrName": "NKo",
-          "TsEmitName": "nKo",
+          "TsEmitName": "NKo",
           "MetadataToken": 385875993,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "NKo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -800,7 +800,7 @@
         },
         {
           "ClrName": "Samaritan",
-          "TsEmitName": "samaritan",
+          "TsEmitName": "Samaritan",
           "MetadataToken": 385875994,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Samaritan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -813,7 +813,7 @@
         },
         {
           "ClrName": "Mandaic",
-          "TsEmitName": "mandaic",
+          "TsEmitName": "Mandaic",
           "MetadataToken": 385875995,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Mandaic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -826,7 +826,7 @@
         },
         {
           "ClrName": "SyriacSupplement",
-          "TsEmitName": "syriacSupplement",
+          "TsEmitName": "SyriacSupplement",
           "MetadataToken": 385875996,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SyriacSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -839,7 +839,7 @@
         },
         {
           "ClrName": "ArabicExtendedB",
-          "TsEmitName": "arabicExtendedB",
+          "TsEmitName": "ArabicExtendedB",
           "MetadataToken": 385875997,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ArabicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "ArabicExtendedA",
-          "TsEmitName": "arabicExtendedA",
+          "TsEmitName": "ArabicExtendedA",
           "MetadataToken": 385875998,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ArabicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -865,7 +865,7 @@
         },
         {
           "ClrName": "Devanagari",
-          "TsEmitName": "devanagari",
+          "TsEmitName": "Devanagari",
           "MetadataToken": 385875999,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Devanagari|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -878,7 +878,7 @@
         },
         {
           "ClrName": "Bengali",
-          "TsEmitName": "bengali",
+          "TsEmitName": "Bengali",
           "MetadataToken": 385876000,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Bengali|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -891,7 +891,7 @@
         },
         {
           "ClrName": "Gurmukhi",
-          "TsEmitName": "gurmukhi",
+          "TsEmitName": "Gurmukhi",
           "MetadataToken": 385876001,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Gurmukhi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -904,7 +904,7 @@
         },
         {
           "ClrName": "Gujarati",
-          "TsEmitName": "gujarati",
+          "TsEmitName": "Gujarati",
           "MetadataToken": 385876002,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Gujarati|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -917,7 +917,7 @@
         },
         {
           "ClrName": "Oriya",
-          "TsEmitName": "oriya",
+          "TsEmitName": "Oriya",
           "MetadataToken": 385876003,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Oriya|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -930,7 +930,7 @@
         },
         {
           "ClrName": "Tamil",
-          "TsEmitName": "tamil",
+          "TsEmitName": "Tamil",
           "MetadataToken": 385876004,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Tamil|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -943,7 +943,7 @@
         },
         {
           "ClrName": "Telugu",
-          "TsEmitName": "telugu",
+          "TsEmitName": "Telugu",
           "MetadataToken": 385876005,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Telugu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -956,7 +956,7 @@
         },
         {
           "ClrName": "Kannada",
-          "TsEmitName": "kannada",
+          "TsEmitName": "Kannada",
           "MetadataToken": 385876006,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Kannada|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -969,7 +969,7 @@
         },
         {
           "ClrName": "Malayalam",
-          "TsEmitName": "malayalam",
+          "TsEmitName": "Malayalam",
           "MetadataToken": 385876007,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Malayalam|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -982,7 +982,7 @@
         },
         {
           "ClrName": "Sinhala",
-          "TsEmitName": "sinhala",
+          "TsEmitName": "Sinhala",
           "MetadataToken": 385876008,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Sinhala|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -995,7 +995,7 @@
         },
         {
           "ClrName": "Thai",
-          "TsEmitName": "thai",
+          "TsEmitName": "Thai",
           "MetadataToken": 385876009,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Thai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1008,7 +1008,7 @@
         },
         {
           "ClrName": "Lao",
-          "TsEmitName": "lao",
+          "TsEmitName": "Lao",
           "MetadataToken": 385876010,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Lao|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1021,7 +1021,7 @@
         },
         {
           "ClrName": "Tibetan",
-          "TsEmitName": "tibetan",
+          "TsEmitName": "Tibetan",
           "MetadataToken": 385876011,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Tibetan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1034,7 +1034,7 @@
         },
         {
           "ClrName": "Myanmar",
-          "TsEmitName": "myanmar",
+          "TsEmitName": "Myanmar",
           "MetadataToken": 385876012,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Myanmar|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1047,7 +1047,7 @@
         },
         {
           "ClrName": "Georgian",
-          "TsEmitName": "georgian",
+          "TsEmitName": "Georgian",
           "MetadataToken": 385876013,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Georgian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1060,7 +1060,7 @@
         },
         {
           "ClrName": "HangulJamo",
-          "TsEmitName": "hangulJamo",
+          "TsEmitName": "HangulJamo",
           "MetadataToken": 385876014,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HangulJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1073,7 +1073,7 @@
         },
         {
           "ClrName": "Ethiopic",
-          "TsEmitName": "ethiopic",
+          "TsEmitName": "Ethiopic",
           "MetadataToken": 385876015,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Ethiopic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1086,7 +1086,7 @@
         },
         {
           "ClrName": "EthiopicSupplement",
-          "TsEmitName": "ethiopicSupplement",
+          "TsEmitName": "EthiopicSupplement",
           "MetadataToken": 385876016,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "EthiopicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1099,7 +1099,7 @@
         },
         {
           "ClrName": "Cherokee",
-          "TsEmitName": "cherokee",
+          "TsEmitName": "Cherokee",
           "MetadataToken": 385876017,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Cherokee|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1112,7 +1112,7 @@
         },
         {
           "ClrName": "UnifiedCanadianAboriginalSyllabics",
-          "TsEmitName": "unifiedCanadianAboriginalSyllabics",
+          "TsEmitName": "UnifiedCanadianAboriginalSyllabics",
           "MetadataToken": 385876018,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "UnifiedCanadianAboriginalSyllabics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1125,7 +1125,7 @@
         },
         {
           "ClrName": "Ogham",
-          "TsEmitName": "ogham",
+          "TsEmitName": "Ogham",
           "MetadataToken": 385876019,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Ogham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1138,7 +1138,7 @@
         },
         {
           "ClrName": "Runic",
-          "TsEmitName": "runic",
+          "TsEmitName": "Runic",
           "MetadataToken": 385876020,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Runic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1151,7 +1151,7 @@
         },
         {
           "ClrName": "Tagalog",
-          "TsEmitName": "tagalog",
+          "TsEmitName": "Tagalog",
           "MetadataToken": 385876021,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Tagalog|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1164,7 +1164,7 @@
         },
         {
           "ClrName": "Hanunoo",
-          "TsEmitName": "hanunoo",
+          "TsEmitName": "Hanunoo",
           "MetadataToken": 385876022,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Hanunoo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1177,7 +1177,7 @@
         },
         {
           "ClrName": "Buhid",
-          "TsEmitName": "buhid",
+          "TsEmitName": "Buhid",
           "MetadataToken": 385876023,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Buhid|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1190,7 +1190,7 @@
         },
         {
           "ClrName": "Tagbanwa",
-          "TsEmitName": "tagbanwa",
+          "TsEmitName": "Tagbanwa",
           "MetadataToken": 385876024,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Tagbanwa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1203,7 +1203,7 @@
         },
         {
           "ClrName": "Khmer",
-          "TsEmitName": "khmer",
+          "TsEmitName": "Khmer",
           "MetadataToken": 385876025,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Khmer|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1216,7 +1216,7 @@
         },
         {
           "ClrName": "Mongolian",
-          "TsEmitName": "mongolian",
+          "TsEmitName": "Mongolian",
           "MetadataToken": 385876026,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Mongolian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1229,7 +1229,7 @@
         },
         {
           "ClrName": "UnifiedCanadianAboriginalSyllabicsExtended",
-          "TsEmitName": "unifiedCanadianAboriginalSyllabicsExtended",
+          "TsEmitName": "UnifiedCanadianAboriginalSyllabicsExtended",
           "MetadataToken": 385876027,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "UnifiedCanadianAboriginalSyllabicsExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1242,7 +1242,7 @@
         },
         {
           "ClrName": "Limbu",
-          "TsEmitName": "limbu",
+          "TsEmitName": "Limbu",
           "MetadataToken": 385876028,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Limbu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1255,7 +1255,7 @@
         },
         {
           "ClrName": "TaiLe",
-          "TsEmitName": "taiLe",
+          "TsEmitName": "TaiLe",
           "MetadataToken": 385876029,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "TaiLe|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1268,7 +1268,7 @@
         },
         {
           "ClrName": "NewTaiLue",
-          "TsEmitName": "newTaiLue",
+          "TsEmitName": "NewTaiLue",
           "MetadataToken": 385876030,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "NewTaiLue|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1281,7 +1281,7 @@
         },
         {
           "ClrName": "KhmerSymbols",
-          "TsEmitName": "khmerSymbols",
+          "TsEmitName": "KhmerSymbols",
           "MetadataToken": 385876031,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "KhmerSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1294,7 +1294,7 @@
         },
         {
           "ClrName": "Buginese",
-          "TsEmitName": "buginese",
+          "TsEmitName": "Buginese",
           "MetadataToken": 385876032,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Buginese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1307,7 +1307,7 @@
         },
         {
           "ClrName": "TaiTham",
-          "TsEmitName": "taiTham",
+          "TsEmitName": "TaiTham",
           "MetadataToken": 385876033,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "TaiTham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1320,7 +1320,7 @@
         },
         {
           "ClrName": "CombiningDiacriticalMarksExtended",
-          "TsEmitName": "combiningDiacriticalMarksExtended",
+          "TsEmitName": "CombiningDiacriticalMarksExtended",
           "MetadataToken": 385876034,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CombiningDiacriticalMarksExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1333,7 +1333,7 @@
         },
         {
           "ClrName": "Balinese",
-          "TsEmitName": "balinese",
+          "TsEmitName": "Balinese",
           "MetadataToken": 385876035,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Balinese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1346,7 +1346,7 @@
         },
         {
           "ClrName": "Sundanese",
-          "TsEmitName": "sundanese",
+          "TsEmitName": "Sundanese",
           "MetadataToken": 385876036,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Sundanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1359,7 +1359,7 @@
         },
         {
           "ClrName": "Batak",
-          "TsEmitName": "batak",
+          "TsEmitName": "Batak",
           "MetadataToken": 385876037,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Batak|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1372,7 +1372,7 @@
         },
         {
           "ClrName": "Lepcha",
-          "TsEmitName": "lepcha",
+          "TsEmitName": "Lepcha",
           "MetadataToken": 385876038,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Lepcha|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1385,7 +1385,7 @@
         },
         {
           "ClrName": "OlChiki",
-          "TsEmitName": "olChiki",
+          "TsEmitName": "OlChiki",
           "MetadataToken": 385876039,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "OlChiki|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1398,7 +1398,7 @@
         },
         {
           "ClrName": "CyrillicExtendedC",
-          "TsEmitName": "cyrillicExtendedC",
+          "TsEmitName": "CyrillicExtendedC",
           "MetadataToken": 385876040,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CyrillicExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1411,7 +1411,7 @@
         },
         {
           "ClrName": "GeorgianExtended",
-          "TsEmitName": "georgianExtended",
+          "TsEmitName": "GeorgianExtended",
           "MetadataToken": 385876041,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GeorgianExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1424,7 +1424,7 @@
         },
         {
           "ClrName": "SundaneseSupplement",
-          "TsEmitName": "sundaneseSupplement",
+          "TsEmitName": "SundaneseSupplement",
           "MetadataToken": 385876042,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SundaneseSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1437,7 +1437,7 @@
         },
         {
           "ClrName": "VedicExtensions",
-          "TsEmitName": "vedicExtensions",
+          "TsEmitName": "VedicExtensions",
           "MetadataToken": 385876043,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "VedicExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1450,7 +1450,7 @@
         },
         {
           "ClrName": "PhoneticExtensions",
-          "TsEmitName": "phoneticExtensions",
+          "TsEmitName": "PhoneticExtensions",
           "MetadataToken": 385876044,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "PhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1463,7 +1463,7 @@
         },
         {
           "ClrName": "PhoneticExtensionsSupplement",
-          "TsEmitName": "phoneticExtensionsSupplement",
+          "TsEmitName": "PhoneticExtensionsSupplement",
           "MetadataToken": 385876045,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "PhoneticExtensionsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1476,7 +1476,7 @@
         },
         {
           "ClrName": "CombiningDiacriticalMarksSupplement",
-          "TsEmitName": "combiningDiacriticalMarksSupplement",
+          "TsEmitName": "CombiningDiacriticalMarksSupplement",
           "MetadataToken": 385876046,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CombiningDiacriticalMarksSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1489,7 +1489,7 @@
         },
         {
           "ClrName": "LatinExtendedAdditional",
-          "TsEmitName": "latinExtendedAdditional",
+          "TsEmitName": "LatinExtendedAdditional",
           "MetadataToken": 385876047,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedAdditional|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1502,7 +1502,7 @@
         },
         {
           "ClrName": "GreekExtended",
-          "TsEmitName": "greekExtended",
+          "TsEmitName": "GreekExtended",
           "MetadataToken": 385876048,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GreekExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1515,7 +1515,7 @@
         },
         {
           "ClrName": "GeneralPunctuation",
-          "TsEmitName": "generalPunctuation",
+          "TsEmitName": "GeneralPunctuation",
           "MetadataToken": 385876049,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GeneralPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1528,7 +1528,7 @@
         },
         {
           "ClrName": "SuperscriptsandSubscripts",
-          "TsEmitName": "superscriptsandSubscripts",
+          "TsEmitName": "SuperscriptsandSubscripts",
           "MetadataToken": 385876050,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SuperscriptsandSubscripts|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1541,7 +1541,7 @@
         },
         {
           "ClrName": "CurrencySymbols",
-          "TsEmitName": "currencySymbols",
+          "TsEmitName": "CurrencySymbols",
           "MetadataToken": 385876051,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CurrencySymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1554,7 +1554,7 @@
         },
         {
           "ClrName": "CombiningDiacriticalMarksforSymbols",
-          "TsEmitName": "combiningDiacriticalMarksforSymbols",
+          "TsEmitName": "CombiningDiacriticalMarksforSymbols",
           "MetadataToken": 385876052,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CombiningDiacriticalMarksforSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1567,7 +1567,7 @@
         },
         {
           "ClrName": "LetterlikeSymbols",
-          "TsEmitName": "letterlikeSymbols",
+          "TsEmitName": "LetterlikeSymbols",
           "MetadataToken": 385876053,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LetterlikeSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1580,7 +1580,7 @@
         },
         {
           "ClrName": "NumberForms",
-          "TsEmitName": "numberForms",
+          "TsEmitName": "NumberForms",
           "MetadataToken": 385876054,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "NumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1593,7 +1593,7 @@
         },
         {
           "ClrName": "Arrows",
-          "TsEmitName": "arrows",
+          "TsEmitName": "Arrows",
           "MetadataToken": 385876055,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Arrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1606,7 +1606,7 @@
         },
         {
           "ClrName": "MathematicalOperators",
-          "TsEmitName": "mathematicalOperators",
+          "TsEmitName": "MathematicalOperators",
           "MetadataToken": 385876056,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1619,7 +1619,7 @@
         },
         {
           "ClrName": "MiscellaneousTechnical",
-          "TsEmitName": "miscellaneousTechnical",
+          "TsEmitName": "MiscellaneousTechnical",
           "MetadataToken": 385876057,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MiscellaneousTechnical|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1632,7 +1632,7 @@
         },
         {
           "ClrName": "ControlPictures",
-          "TsEmitName": "controlPictures",
+          "TsEmitName": "ControlPictures",
           "MetadataToken": 385876058,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ControlPictures|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1645,7 +1645,7 @@
         },
         {
           "ClrName": "OpticalCharacterRecognition",
-          "TsEmitName": "opticalCharacterRecognition",
+          "TsEmitName": "OpticalCharacterRecognition",
           "MetadataToken": 385876059,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "OpticalCharacterRecognition|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1658,7 +1658,7 @@
         },
         {
           "ClrName": "EnclosedAlphanumerics",
-          "TsEmitName": "enclosedAlphanumerics",
+          "TsEmitName": "EnclosedAlphanumerics",
           "MetadataToken": 385876060,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "EnclosedAlphanumerics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1671,7 +1671,7 @@
         },
         {
           "ClrName": "BoxDrawing",
-          "TsEmitName": "boxDrawing",
+          "TsEmitName": "BoxDrawing",
           "MetadataToken": 385876061,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "BoxDrawing|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1684,7 +1684,7 @@
         },
         {
           "ClrName": "BlockElements",
-          "TsEmitName": "blockElements",
+          "TsEmitName": "BlockElements",
           "MetadataToken": 385876062,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "BlockElements|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1697,7 +1697,7 @@
         },
         {
           "ClrName": "GeometricShapes",
-          "TsEmitName": "geometricShapes",
+          "TsEmitName": "GeometricShapes",
           "MetadataToken": 385876063,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GeometricShapes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1710,7 +1710,7 @@
         },
         {
           "ClrName": "MiscellaneousSymbols",
-          "TsEmitName": "miscellaneousSymbols",
+          "TsEmitName": "MiscellaneousSymbols",
           "MetadataToken": 385876064,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MiscellaneousSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1723,7 +1723,7 @@
         },
         {
           "ClrName": "Dingbats",
-          "TsEmitName": "dingbats",
+          "TsEmitName": "Dingbats",
           "MetadataToken": 385876065,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Dingbats|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1736,7 +1736,7 @@
         },
         {
           "ClrName": "MiscellaneousMathematicalSymbolsA",
-          "TsEmitName": "miscellaneousMathematicalSymbolsA",
+          "TsEmitName": "MiscellaneousMathematicalSymbolsA",
           "MetadataToken": 385876066,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MiscellaneousMathematicalSymbolsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1749,7 +1749,7 @@
         },
         {
           "ClrName": "SupplementalArrowsA",
-          "TsEmitName": "supplementalArrowsA",
+          "TsEmitName": "SupplementalArrowsA",
           "MetadataToken": 385876067,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SupplementalArrowsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1762,7 +1762,7 @@
         },
         {
           "ClrName": "BraillePatterns",
-          "TsEmitName": "braillePatterns",
+          "TsEmitName": "BraillePatterns",
           "MetadataToken": 385876068,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "BraillePatterns|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1775,7 +1775,7 @@
         },
         {
           "ClrName": "SupplementalArrowsB",
-          "TsEmitName": "supplementalArrowsB",
+          "TsEmitName": "SupplementalArrowsB",
           "MetadataToken": 385876069,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SupplementalArrowsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1788,7 +1788,7 @@
         },
         {
           "ClrName": "MiscellaneousMathematicalSymbolsB",
-          "TsEmitName": "miscellaneousMathematicalSymbolsB",
+          "TsEmitName": "MiscellaneousMathematicalSymbolsB",
           "MetadataToken": 385876070,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MiscellaneousMathematicalSymbolsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1801,7 +1801,7 @@
         },
         {
           "ClrName": "SupplementalMathematicalOperators",
-          "TsEmitName": "supplementalMathematicalOperators",
+          "TsEmitName": "SupplementalMathematicalOperators",
           "MetadataToken": 385876071,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SupplementalMathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1814,7 +1814,7 @@
         },
         {
           "ClrName": "MiscellaneousSymbolsandArrows",
-          "TsEmitName": "miscellaneousSymbolsandArrows",
+          "TsEmitName": "MiscellaneousSymbolsandArrows",
           "MetadataToken": 385876072,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MiscellaneousSymbolsandArrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1827,7 +1827,7 @@
         },
         {
           "ClrName": "Glagolitic",
-          "TsEmitName": "glagolitic",
+          "TsEmitName": "Glagolitic",
           "MetadataToken": 385876073,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Glagolitic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1840,7 +1840,7 @@
         },
         {
           "ClrName": "LatinExtendedC",
-          "TsEmitName": "latinExtendedC",
+          "TsEmitName": "LatinExtendedC",
           "MetadataToken": 385876074,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1853,7 +1853,7 @@
         },
         {
           "ClrName": "Coptic",
-          "TsEmitName": "coptic",
+          "TsEmitName": "Coptic",
           "MetadataToken": 385876075,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Coptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1866,7 +1866,7 @@
         },
         {
           "ClrName": "GeorgianSupplement",
-          "TsEmitName": "georgianSupplement",
+          "TsEmitName": "GeorgianSupplement",
           "MetadataToken": 385876076,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "GeorgianSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1879,7 +1879,7 @@
         },
         {
           "ClrName": "Tifinagh",
-          "TsEmitName": "tifinagh",
+          "TsEmitName": "Tifinagh",
           "MetadataToken": 385876077,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Tifinagh|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1892,7 +1892,7 @@
         },
         {
           "ClrName": "EthiopicExtended",
-          "TsEmitName": "ethiopicExtended",
+          "TsEmitName": "EthiopicExtended",
           "MetadataToken": 385876078,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "EthiopicExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1905,7 +1905,7 @@
         },
         {
           "ClrName": "CyrillicExtendedA",
-          "TsEmitName": "cyrillicExtendedA",
+          "TsEmitName": "CyrillicExtendedA",
           "MetadataToken": 385876079,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CyrillicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1918,7 +1918,7 @@
         },
         {
           "ClrName": "SupplementalPunctuation",
-          "TsEmitName": "supplementalPunctuation",
+          "TsEmitName": "SupplementalPunctuation",
           "MetadataToken": 385876080,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SupplementalPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1931,7 +1931,7 @@
         },
         {
           "ClrName": "CjkRadicalsSupplement",
-          "TsEmitName": "cjkRadicalsSupplement",
+          "TsEmitName": "CjkRadicalsSupplement",
           "MetadataToken": 385876081,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkRadicalsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1944,7 +1944,7 @@
         },
         {
           "ClrName": "KangxiRadicals",
-          "TsEmitName": "kangxiRadicals",
+          "TsEmitName": "KangxiRadicals",
           "MetadataToken": 385876082,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "KangxiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1957,7 +1957,7 @@
         },
         {
           "ClrName": "IdeographicDescriptionCharacters",
-          "TsEmitName": "ideographicDescriptionCharacters",
+          "TsEmitName": "IdeographicDescriptionCharacters",
           "MetadataToken": 385876083,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "IdeographicDescriptionCharacters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1970,7 +1970,7 @@
         },
         {
           "ClrName": "CjkSymbolsandPunctuation",
-          "TsEmitName": "cjkSymbolsandPunctuation",
+          "TsEmitName": "CjkSymbolsandPunctuation",
           "MetadataToken": 385876084,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkSymbolsandPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1983,7 +1983,7 @@
         },
         {
           "ClrName": "Hiragana",
-          "TsEmitName": "hiragana",
+          "TsEmitName": "Hiragana",
           "MetadataToken": 385876085,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Hiragana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -1996,7 +1996,7 @@
         },
         {
           "ClrName": "Katakana",
-          "TsEmitName": "katakana",
+          "TsEmitName": "Katakana",
           "MetadataToken": 385876086,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Katakana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2009,7 +2009,7 @@
         },
         {
           "ClrName": "Bopomofo",
-          "TsEmitName": "bopomofo",
+          "TsEmitName": "Bopomofo",
           "MetadataToken": 385876087,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Bopomofo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2022,7 +2022,7 @@
         },
         {
           "ClrName": "HangulCompatibilityJamo",
-          "TsEmitName": "hangulCompatibilityJamo",
+          "TsEmitName": "HangulCompatibilityJamo",
           "MetadataToken": 385876088,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HangulCompatibilityJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2035,7 +2035,7 @@
         },
         {
           "ClrName": "Kanbun",
-          "TsEmitName": "kanbun",
+          "TsEmitName": "Kanbun",
           "MetadataToken": 385876089,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Kanbun|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2048,7 +2048,7 @@
         },
         {
           "ClrName": "BopomofoExtended",
-          "TsEmitName": "bopomofoExtended",
+          "TsEmitName": "BopomofoExtended",
           "MetadataToken": 385876090,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "BopomofoExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2061,7 +2061,7 @@
         },
         {
           "ClrName": "CjkStrokes",
-          "TsEmitName": "cjkStrokes",
+          "TsEmitName": "CjkStrokes",
           "MetadataToken": 385876091,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkStrokes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2074,7 +2074,7 @@
         },
         {
           "ClrName": "KatakanaPhoneticExtensions",
-          "TsEmitName": "katakanaPhoneticExtensions",
+          "TsEmitName": "KatakanaPhoneticExtensions",
           "MetadataToken": 385876092,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "KatakanaPhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2087,7 +2087,7 @@
         },
         {
           "ClrName": "EnclosedCjkLettersandMonths",
-          "TsEmitName": "enclosedCjkLettersandMonths",
+          "TsEmitName": "EnclosedCjkLettersandMonths",
           "MetadataToken": 385876093,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "EnclosedCjkLettersandMonths|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2100,7 +2100,7 @@
         },
         {
           "ClrName": "CjkCompatibility",
-          "TsEmitName": "cjkCompatibility",
+          "TsEmitName": "CjkCompatibility",
           "MetadataToken": 385876094,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkCompatibility|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2113,7 +2113,7 @@
         },
         {
           "ClrName": "CjkUnifiedIdeographsExtensionA",
-          "TsEmitName": "cjkUnifiedIdeographsExtensionA",
+          "TsEmitName": "CjkUnifiedIdeographsExtensionA",
           "MetadataToken": 385876095,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkUnifiedIdeographsExtensionA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2126,7 +2126,7 @@
         },
         {
           "ClrName": "YijingHexagramSymbols",
-          "TsEmitName": "yijingHexagramSymbols",
+          "TsEmitName": "YijingHexagramSymbols",
           "MetadataToken": 385876096,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "YijingHexagramSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2139,7 +2139,7 @@
         },
         {
           "ClrName": "CjkUnifiedIdeographs",
-          "TsEmitName": "cjkUnifiedIdeographs",
+          "TsEmitName": "CjkUnifiedIdeographs",
           "MetadataToken": 385876097,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkUnifiedIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2152,7 +2152,7 @@
         },
         {
           "ClrName": "YiSyllables",
-          "TsEmitName": "yiSyllables",
+          "TsEmitName": "YiSyllables",
           "MetadataToken": 385876098,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "YiSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2165,7 +2165,7 @@
         },
         {
           "ClrName": "YiRadicals",
-          "TsEmitName": "yiRadicals",
+          "TsEmitName": "YiRadicals",
           "MetadataToken": 385876099,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "YiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2178,7 +2178,7 @@
         },
         {
           "ClrName": "Lisu",
-          "TsEmitName": "lisu",
+          "TsEmitName": "Lisu",
           "MetadataToken": 385876100,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Lisu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2191,7 +2191,7 @@
         },
         {
           "ClrName": "Vai",
-          "TsEmitName": "vai",
+          "TsEmitName": "Vai",
           "MetadataToken": 385876101,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Vai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2204,7 +2204,7 @@
         },
         {
           "ClrName": "CyrillicExtendedB",
-          "TsEmitName": "cyrillicExtendedB",
+          "TsEmitName": "CyrillicExtendedB",
           "MetadataToken": 385876102,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CyrillicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2217,7 +2217,7 @@
         },
         {
           "ClrName": "Bamum",
-          "TsEmitName": "bamum",
+          "TsEmitName": "Bamum",
           "MetadataToken": 385876103,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Bamum|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2230,7 +2230,7 @@
         },
         {
           "ClrName": "ModifierToneLetters",
-          "TsEmitName": "modifierToneLetters",
+          "TsEmitName": "ModifierToneLetters",
           "MetadataToken": 385876104,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ModifierToneLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2243,7 +2243,7 @@
         },
         {
           "ClrName": "LatinExtendedD",
-          "TsEmitName": "latinExtendedD",
+          "TsEmitName": "LatinExtendedD",
           "MetadataToken": 385876105,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedD|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2256,7 +2256,7 @@
         },
         {
           "ClrName": "SylotiNagri",
-          "TsEmitName": "sylotiNagri",
+          "TsEmitName": "SylotiNagri",
           "MetadataToken": 385876106,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SylotiNagri|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2269,7 +2269,7 @@
         },
         {
           "ClrName": "CommonIndicNumberForms",
-          "TsEmitName": "commonIndicNumberForms",
+          "TsEmitName": "CommonIndicNumberForms",
           "MetadataToken": 385876107,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CommonIndicNumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2282,7 +2282,7 @@
         },
         {
           "ClrName": "Phagspa",
-          "TsEmitName": "phagspa",
+          "TsEmitName": "Phagspa",
           "MetadataToken": 385876108,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Phagspa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2295,7 +2295,7 @@
         },
         {
           "ClrName": "Saurashtra",
-          "TsEmitName": "saurashtra",
+          "TsEmitName": "Saurashtra",
           "MetadataToken": 385876109,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Saurashtra|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2308,7 +2308,7 @@
         },
         {
           "ClrName": "DevanagariExtended",
-          "TsEmitName": "devanagariExtended",
+          "TsEmitName": "DevanagariExtended",
           "MetadataToken": 385876110,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "DevanagariExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2321,7 +2321,7 @@
         },
         {
           "ClrName": "KayahLi",
-          "TsEmitName": "kayahLi",
+          "TsEmitName": "KayahLi",
           "MetadataToken": 385876111,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "KayahLi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2334,7 +2334,7 @@
         },
         {
           "ClrName": "Rejang",
-          "TsEmitName": "rejang",
+          "TsEmitName": "Rejang",
           "MetadataToken": 385876112,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Rejang|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2347,7 +2347,7 @@
         },
         {
           "ClrName": "HangulJamoExtendedA",
-          "TsEmitName": "hangulJamoExtendedA",
+          "TsEmitName": "HangulJamoExtendedA",
           "MetadataToken": 385876113,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HangulJamoExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2360,7 +2360,7 @@
         },
         {
           "ClrName": "Javanese",
-          "TsEmitName": "javanese",
+          "TsEmitName": "Javanese",
           "MetadataToken": 385876114,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Javanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2373,7 +2373,7 @@
         },
         {
           "ClrName": "MyanmarExtendedB",
-          "TsEmitName": "myanmarExtendedB",
+          "TsEmitName": "MyanmarExtendedB",
           "MetadataToken": 385876115,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MyanmarExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2386,7 +2386,7 @@
         },
         {
           "ClrName": "Cham",
-          "TsEmitName": "cham",
+          "TsEmitName": "Cham",
           "MetadataToken": 385876116,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Cham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2399,7 +2399,7 @@
         },
         {
           "ClrName": "MyanmarExtendedA",
-          "TsEmitName": "myanmarExtendedA",
+          "TsEmitName": "MyanmarExtendedA",
           "MetadataToken": 385876117,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MyanmarExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2412,7 +2412,7 @@
         },
         {
           "ClrName": "TaiViet",
-          "TsEmitName": "taiViet",
+          "TsEmitName": "TaiViet",
           "MetadataToken": 385876118,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "TaiViet|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2425,7 +2425,7 @@
         },
         {
           "ClrName": "MeeteiMayekExtensions",
-          "TsEmitName": "meeteiMayekExtensions",
+          "TsEmitName": "MeeteiMayekExtensions",
           "MetadataToken": 385876119,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MeeteiMayekExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2438,7 +2438,7 @@
         },
         {
           "ClrName": "EthiopicExtendedA",
-          "TsEmitName": "ethiopicExtendedA",
+          "TsEmitName": "EthiopicExtendedA",
           "MetadataToken": 385876120,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "EthiopicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2451,7 +2451,7 @@
         },
         {
           "ClrName": "LatinExtendedE",
-          "TsEmitName": "latinExtendedE",
+          "TsEmitName": "LatinExtendedE",
           "MetadataToken": 385876121,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "LatinExtendedE|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2464,7 +2464,7 @@
         },
         {
           "ClrName": "CherokeeSupplement",
-          "TsEmitName": "cherokeeSupplement",
+          "TsEmitName": "CherokeeSupplement",
           "MetadataToken": 385876122,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CherokeeSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2477,7 +2477,7 @@
         },
         {
           "ClrName": "MeeteiMayek",
-          "TsEmitName": "meeteiMayek",
+          "TsEmitName": "MeeteiMayek",
           "MetadataToken": 385876123,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "MeeteiMayek|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2490,7 +2490,7 @@
         },
         {
           "ClrName": "HangulSyllables",
-          "TsEmitName": "hangulSyllables",
+          "TsEmitName": "HangulSyllables",
           "MetadataToken": 385876124,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HangulSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2503,7 +2503,7 @@
         },
         {
           "ClrName": "HangulJamoExtendedB",
-          "TsEmitName": "hangulJamoExtendedB",
+          "TsEmitName": "HangulJamoExtendedB",
           "MetadataToken": 385876125,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HangulJamoExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2516,7 +2516,7 @@
         },
         {
           "ClrName": "CjkCompatibilityIdeographs",
-          "TsEmitName": "cjkCompatibilityIdeographs",
+          "TsEmitName": "CjkCompatibilityIdeographs",
           "MetadataToken": 385876126,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkCompatibilityIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2529,7 +2529,7 @@
         },
         {
           "ClrName": "AlphabeticPresentationForms",
-          "TsEmitName": "alphabeticPresentationForms",
+          "TsEmitName": "AlphabeticPresentationForms",
           "MetadataToken": 385876127,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "AlphabeticPresentationForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2542,7 +2542,7 @@
         },
         {
           "ClrName": "ArabicPresentationFormsA",
-          "TsEmitName": "arabicPresentationFormsA",
+          "TsEmitName": "ArabicPresentationFormsA",
           "MetadataToken": 385876128,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ArabicPresentationFormsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2555,7 +2555,7 @@
         },
         {
           "ClrName": "VariationSelectors",
-          "TsEmitName": "variationSelectors",
+          "TsEmitName": "VariationSelectors",
           "MetadataToken": 385876129,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "VariationSelectors|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2568,7 +2568,7 @@
         },
         {
           "ClrName": "VerticalForms",
-          "TsEmitName": "verticalForms",
+          "TsEmitName": "VerticalForms",
           "MetadataToken": 385876130,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "VerticalForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2581,7 +2581,7 @@
         },
         {
           "ClrName": "CombiningHalfMarks",
-          "TsEmitName": "combiningHalfMarks",
+          "TsEmitName": "CombiningHalfMarks",
           "MetadataToken": 385876131,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CombiningHalfMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2594,7 +2594,7 @@
         },
         {
           "ClrName": "CjkCompatibilityForms",
-          "TsEmitName": "cjkCompatibilityForms",
+          "TsEmitName": "CjkCompatibilityForms",
           "MetadataToken": 385876132,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "CjkCompatibilityForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2607,7 +2607,7 @@
         },
         {
           "ClrName": "SmallFormVariants",
-          "TsEmitName": "smallFormVariants",
+          "TsEmitName": "SmallFormVariants",
           "MetadataToken": 385876133,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "SmallFormVariants|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2620,7 +2620,7 @@
         },
         {
           "ClrName": "ArabicPresentationFormsB",
-          "TsEmitName": "arabicPresentationFormsB",
+          "TsEmitName": "ArabicPresentationFormsB",
           "MetadataToken": 385876134,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "ArabicPresentationFormsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2633,7 +2633,7 @@
         },
         {
           "ClrName": "HalfwidthandFullwidthForms",
-          "TsEmitName": "halfwidthandFullwidthForms",
+          "TsEmitName": "HalfwidthandFullwidthForms",
           "MetadataToken": 385876135,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "HalfwidthandFullwidthForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2646,7 +2646,7 @@
         },
         {
           "ClrName": "Specials",
-          "TsEmitName": "specials",
+          "TsEmitName": "Specials",
           "MetadataToken": 385876136,
           "CanonicalSignature": ":System.Text.Unicode.UnicodeRange",
           "NormalizedSignature": "Specials|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
@@ -2663,7 +2663,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2673,7 +2673,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2683,7 +2683,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2693,7 +2693,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2703,7 +2703,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2713,7 +2713,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -2725,7 +2725,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "none",
+          "TsName": "None",
           "IsStatic": true,
           "TsSignatureId": "None|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2735,7 +2735,7 @@
           }
         },
         {
-          "TsName": "all",
+          "TsName": "All",
           "IsStatic": true,
           "TsSignatureId": "All|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2745,7 +2745,7 @@
           }
         },
         {
-          "TsName": "basicLatin",
+          "TsName": "BasicLatin",
           "IsStatic": true,
           "TsSignatureId": "BasicLatin|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2755,7 +2755,7 @@
           }
         },
         {
-          "TsName": "latin1Supplement",
+          "TsName": "Latin1Supplement",
           "IsStatic": true,
           "TsSignatureId": "Latin1Supplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2765,7 +2765,7 @@
           }
         },
         {
-          "TsName": "latinExtendedA",
+          "TsName": "LatinExtendedA",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2775,7 +2775,7 @@
           }
         },
         {
-          "TsName": "latinExtendedB",
+          "TsName": "LatinExtendedB",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2785,7 +2785,7 @@
           }
         },
         {
-          "TsName": "ipaExtensions",
+          "TsName": "IpaExtensions",
           "IsStatic": true,
           "TsSignatureId": "IpaExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2795,7 +2795,7 @@
           }
         },
         {
-          "TsName": "spacingModifierLetters",
+          "TsName": "SpacingModifierLetters",
           "IsStatic": true,
           "TsSignatureId": "SpacingModifierLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2805,7 +2805,7 @@
           }
         },
         {
-          "TsName": "combiningDiacriticalMarks",
+          "TsName": "CombiningDiacriticalMarks",
           "IsStatic": true,
           "TsSignatureId": "CombiningDiacriticalMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2815,7 +2815,7 @@
           }
         },
         {
-          "TsName": "greekandCoptic",
+          "TsName": "GreekandCoptic",
           "IsStatic": true,
           "TsSignatureId": "GreekandCoptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2825,7 +2825,7 @@
           }
         },
         {
-          "TsName": "cyrillic",
+          "TsName": "Cyrillic",
           "IsStatic": true,
           "TsSignatureId": "Cyrillic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2835,7 +2835,7 @@
           }
         },
         {
-          "TsName": "cyrillicSupplement",
+          "TsName": "CyrillicSupplement",
           "IsStatic": true,
           "TsSignatureId": "CyrillicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2845,7 +2845,7 @@
           }
         },
         {
-          "TsName": "armenian",
+          "TsName": "Armenian",
           "IsStatic": true,
           "TsSignatureId": "Armenian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2855,7 +2855,7 @@
           }
         },
         {
-          "TsName": "hebrew",
+          "TsName": "Hebrew",
           "IsStatic": true,
           "TsSignatureId": "Hebrew|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2865,7 +2865,7 @@
           }
         },
         {
-          "TsName": "arabic",
+          "TsName": "Arabic",
           "IsStatic": true,
           "TsSignatureId": "Arabic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2875,7 +2875,7 @@
           }
         },
         {
-          "TsName": "syriac",
+          "TsName": "Syriac",
           "IsStatic": true,
           "TsSignatureId": "Syriac|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2885,7 +2885,7 @@
           }
         },
         {
-          "TsName": "arabicSupplement",
+          "TsName": "ArabicSupplement",
           "IsStatic": true,
           "TsSignatureId": "ArabicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2895,7 +2895,7 @@
           }
         },
         {
-          "TsName": "thaana",
+          "TsName": "Thaana",
           "IsStatic": true,
           "TsSignatureId": "Thaana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2905,7 +2905,7 @@
           }
         },
         {
-          "TsName": "nKo",
+          "TsName": "NKo",
           "IsStatic": true,
           "TsSignatureId": "NKo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2915,7 +2915,7 @@
           }
         },
         {
-          "TsName": "samaritan",
+          "TsName": "Samaritan",
           "IsStatic": true,
           "TsSignatureId": "Samaritan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2925,7 +2925,7 @@
           }
         },
         {
-          "TsName": "mandaic",
+          "TsName": "Mandaic",
           "IsStatic": true,
           "TsSignatureId": "Mandaic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2935,7 +2935,7 @@
           }
         },
         {
-          "TsName": "syriacSupplement",
+          "TsName": "SyriacSupplement",
           "IsStatic": true,
           "TsSignatureId": "SyriacSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2945,7 +2945,7 @@
           }
         },
         {
-          "TsName": "arabicExtendedB",
+          "TsName": "ArabicExtendedB",
           "IsStatic": true,
           "TsSignatureId": "ArabicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2955,7 +2955,7 @@
           }
         },
         {
-          "TsName": "arabicExtendedA",
+          "TsName": "ArabicExtendedA",
           "IsStatic": true,
           "TsSignatureId": "ArabicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2965,7 +2965,7 @@
           }
         },
         {
-          "TsName": "devanagari",
+          "TsName": "Devanagari",
           "IsStatic": true,
           "TsSignatureId": "Devanagari|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2975,7 +2975,7 @@
           }
         },
         {
-          "TsName": "bengali",
+          "TsName": "Bengali",
           "IsStatic": true,
           "TsSignatureId": "Bengali|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2985,7 +2985,7 @@
           }
         },
         {
-          "TsName": "gurmukhi",
+          "TsName": "Gurmukhi",
           "IsStatic": true,
           "TsSignatureId": "Gurmukhi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -2995,7 +2995,7 @@
           }
         },
         {
-          "TsName": "gujarati",
+          "TsName": "Gujarati",
           "IsStatic": true,
           "TsSignatureId": "Gujarati|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3005,7 +3005,7 @@
           }
         },
         {
-          "TsName": "oriya",
+          "TsName": "Oriya",
           "IsStatic": true,
           "TsSignatureId": "Oriya|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3015,7 +3015,7 @@
           }
         },
         {
-          "TsName": "tamil",
+          "TsName": "Tamil",
           "IsStatic": true,
           "TsSignatureId": "Tamil|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3025,7 +3025,7 @@
           }
         },
         {
-          "TsName": "telugu",
+          "TsName": "Telugu",
           "IsStatic": true,
           "TsSignatureId": "Telugu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3035,7 +3035,7 @@
           }
         },
         {
-          "TsName": "kannada",
+          "TsName": "Kannada",
           "IsStatic": true,
           "TsSignatureId": "Kannada|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3045,7 +3045,7 @@
           }
         },
         {
-          "TsName": "malayalam",
+          "TsName": "Malayalam",
           "IsStatic": true,
           "TsSignatureId": "Malayalam|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3055,7 +3055,7 @@
           }
         },
         {
-          "TsName": "sinhala",
+          "TsName": "Sinhala",
           "IsStatic": true,
           "TsSignatureId": "Sinhala|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3065,7 +3065,7 @@
           }
         },
         {
-          "TsName": "thai",
+          "TsName": "Thai",
           "IsStatic": true,
           "TsSignatureId": "Thai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3075,7 +3075,7 @@
           }
         },
         {
-          "TsName": "lao",
+          "TsName": "Lao",
           "IsStatic": true,
           "TsSignatureId": "Lao|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3085,7 +3085,7 @@
           }
         },
         {
-          "TsName": "tibetan",
+          "TsName": "Tibetan",
           "IsStatic": true,
           "TsSignatureId": "Tibetan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3095,7 +3095,7 @@
           }
         },
         {
-          "TsName": "myanmar",
+          "TsName": "Myanmar",
           "IsStatic": true,
           "TsSignatureId": "Myanmar|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3105,7 +3105,7 @@
           }
         },
         {
-          "TsName": "georgian",
+          "TsName": "Georgian",
           "IsStatic": true,
           "TsSignatureId": "Georgian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3115,7 +3115,7 @@
           }
         },
         {
-          "TsName": "hangulJamo",
+          "TsName": "HangulJamo",
           "IsStatic": true,
           "TsSignatureId": "HangulJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3125,7 +3125,7 @@
           }
         },
         {
-          "TsName": "ethiopic",
+          "TsName": "Ethiopic",
           "IsStatic": true,
           "TsSignatureId": "Ethiopic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3135,7 +3135,7 @@
           }
         },
         {
-          "TsName": "ethiopicSupplement",
+          "TsName": "EthiopicSupplement",
           "IsStatic": true,
           "TsSignatureId": "EthiopicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3145,7 +3145,7 @@
           }
         },
         {
-          "TsName": "cherokee",
+          "TsName": "Cherokee",
           "IsStatic": true,
           "TsSignatureId": "Cherokee|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3155,7 +3155,7 @@
           }
         },
         {
-          "TsName": "unifiedCanadianAboriginalSyllabics",
+          "TsName": "UnifiedCanadianAboriginalSyllabics",
           "IsStatic": true,
           "TsSignatureId": "UnifiedCanadianAboriginalSyllabics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3165,7 +3165,7 @@
           }
         },
         {
-          "TsName": "ogham",
+          "TsName": "Ogham",
           "IsStatic": true,
           "TsSignatureId": "Ogham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3175,7 +3175,7 @@
           }
         },
         {
-          "TsName": "runic",
+          "TsName": "Runic",
           "IsStatic": true,
           "TsSignatureId": "Runic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3185,7 +3185,7 @@
           }
         },
         {
-          "TsName": "tagalog",
+          "TsName": "Tagalog",
           "IsStatic": true,
           "TsSignatureId": "Tagalog|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3195,7 +3195,7 @@
           }
         },
         {
-          "TsName": "hanunoo",
+          "TsName": "Hanunoo",
           "IsStatic": true,
           "TsSignatureId": "Hanunoo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3205,7 +3205,7 @@
           }
         },
         {
-          "TsName": "buhid",
+          "TsName": "Buhid",
           "IsStatic": true,
           "TsSignatureId": "Buhid|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3215,7 +3215,7 @@
           }
         },
         {
-          "TsName": "tagbanwa",
+          "TsName": "Tagbanwa",
           "IsStatic": true,
           "TsSignatureId": "Tagbanwa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3225,7 +3225,7 @@
           }
         },
         {
-          "TsName": "khmer",
+          "TsName": "Khmer",
           "IsStatic": true,
           "TsSignatureId": "Khmer|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3235,7 +3235,7 @@
           }
         },
         {
-          "TsName": "mongolian",
+          "TsName": "Mongolian",
           "IsStatic": true,
           "TsSignatureId": "Mongolian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3245,7 +3245,7 @@
           }
         },
         {
-          "TsName": "unifiedCanadianAboriginalSyllabicsExtended",
+          "TsName": "UnifiedCanadianAboriginalSyllabicsExtended",
           "IsStatic": true,
           "TsSignatureId": "UnifiedCanadianAboriginalSyllabicsExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3255,7 +3255,7 @@
           }
         },
         {
-          "TsName": "limbu",
+          "TsName": "Limbu",
           "IsStatic": true,
           "TsSignatureId": "Limbu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3265,7 +3265,7 @@
           }
         },
         {
-          "TsName": "taiLe",
+          "TsName": "TaiLe",
           "IsStatic": true,
           "TsSignatureId": "TaiLe|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3275,7 +3275,7 @@
           }
         },
         {
-          "TsName": "newTaiLue",
+          "TsName": "NewTaiLue",
           "IsStatic": true,
           "TsSignatureId": "NewTaiLue|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3285,7 +3285,7 @@
           }
         },
         {
-          "TsName": "khmerSymbols",
+          "TsName": "KhmerSymbols",
           "IsStatic": true,
           "TsSignatureId": "KhmerSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3295,7 +3295,7 @@
           }
         },
         {
-          "TsName": "buginese",
+          "TsName": "Buginese",
           "IsStatic": true,
           "TsSignatureId": "Buginese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3305,7 +3305,7 @@
           }
         },
         {
-          "TsName": "taiTham",
+          "TsName": "TaiTham",
           "IsStatic": true,
           "TsSignatureId": "TaiTham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3315,7 +3315,7 @@
           }
         },
         {
-          "TsName": "combiningDiacriticalMarksExtended",
+          "TsName": "CombiningDiacriticalMarksExtended",
           "IsStatic": true,
           "TsSignatureId": "CombiningDiacriticalMarksExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3325,7 +3325,7 @@
           }
         },
         {
-          "TsName": "balinese",
+          "TsName": "Balinese",
           "IsStatic": true,
           "TsSignatureId": "Balinese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3335,7 +3335,7 @@
           }
         },
         {
-          "TsName": "sundanese",
+          "TsName": "Sundanese",
           "IsStatic": true,
           "TsSignatureId": "Sundanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3345,7 +3345,7 @@
           }
         },
         {
-          "TsName": "batak",
+          "TsName": "Batak",
           "IsStatic": true,
           "TsSignatureId": "Batak|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3355,7 +3355,7 @@
           }
         },
         {
-          "TsName": "lepcha",
+          "TsName": "Lepcha",
           "IsStatic": true,
           "TsSignatureId": "Lepcha|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3365,7 +3365,7 @@
           }
         },
         {
-          "TsName": "olChiki",
+          "TsName": "OlChiki",
           "IsStatic": true,
           "TsSignatureId": "OlChiki|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3375,7 +3375,7 @@
           }
         },
         {
-          "TsName": "cyrillicExtendedC",
+          "TsName": "CyrillicExtendedC",
           "IsStatic": true,
           "TsSignatureId": "CyrillicExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3385,7 +3385,7 @@
           }
         },
         {
-          "TsName": "georgianExtended",
+          "TsName": "GeorgianExtended",
           "IsStatic": true,
           "TsSignatureId": "GeorgianExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3395,7 +3395,7 @@
           }
         },
         {
-          "TsName": "sundaneseSupplement",
+          "TsName": "SundaneseSupplement",
           "IsStatic": true,
           "TsSignatureId": "SundaneseSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3405,7 +3405,7 @@
           }
         },
         {
-          "TsName": "vedicExtensions",
+          "TsName": "VedicExtensions",
           "IsStatic": true,
           "TsSignatureId": "VedicExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3415,7 +3415,7 @@
           }
         },
         {
-          "TsName": "phoneticExtensions",
+          "TsName": "PhoneticExtensions",
           "IsStatic": true,
           "TsSignatureId": "PhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3425,7 +3425,7 @@
           }
         },
         {
-          "TsName": "phoneticExtensionsSupplement",
+          "TsName": "PhoneticExtensionsSupplement",
           "IsStatic": true,
           "TsSignatureId": "PhoneticExtensionsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3435,7 +3435,7 @@
           }
         },
         {
-          "TsName": "combiningDiacriticalMarksSupplement",
+          "TsName": "CombiningDiacriticalMarksSupplement",
           "IsStatic": true,
           "TsSignatureId": "CombiningDiacriticalMarksSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3445,7 +3445,7 @@
           }
         },
         {
-          "TsName": "latinExtendedAdditional",
+          "TsName": "LatinExtendedAdditional",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedAdditional|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3455,7 +3455,7 @@
           }
         },
         {
-          "TsName": "greekExtended",
+          "TsName": "GreekExtended",
           "IsStatic": true,
           "TsSignatureId": "GreekExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3465,7 +3465,7 @@
           }
         },
         {
-          "TsName": "generalPunctuation",
+          "TsName": "GeneralPunctuation",
           "IsStatic": true,
           "TsSignatureId": "GeneralPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3475,7 +3475,7 @@
           }
         },
         {
-          "TsName": "superscriptsandSubscripts",
+          "TsName": "SuperscriptsandSubscripts",
           "IsStatic": true,
           "TsSignatureId": "SuperscriptsandSubscripts|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3485,7 +3485,7 @@
           }
         },
         {
-          "TsName": "currencySymbols",
+          "TsName": "CurrencySymbols",
           "IsStatic": true,
           "TsSignatureId": "CurrencySymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3495,7 +3495,7 @@
           }
         },
         {
-          "TsName": "combiningDiacriticalMarksforSymbols",
+          "TsName": "CombiningDiacriticalMarksforSymbols",
           "IsStatic": true,
           "TsSignatureId": "CombiningDiacriticalMarksforSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3505,7 +3505,7 @@
           }
         },
         {
-          "TsName": "letterlikeSymbols",
+          "TsName": "LetterlikeSymbols",
           "IsStatic": true,
           "TsSignatureId": "LetterlikeSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3515,7 +3515,7 @@
           }
         },
         {
-          "TsName": "numberForms",
+          "TsName": "NumberForms",
           "IsStatic": true,
           "TsSignatureId": "NumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3525,7 +3525,7 @@
           }
         },
         {
-          "TsName": "arrows",
+          "TsName": "Arrows",
           "IsStatic": true,
           "TsSignatureId": "Arrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3535,7 +3535,7 @@
           }
         },
         {
-          "TsName": "mathematicalOperators",
+          "TsName": "MathematicalOperators",
           "IsStatic": true,
           "TsSignatureId": "MathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3545,7 +3545,7 @@
           }
         },
         {
-          "TsName": "miscellaneousTechnical",
+          "TsName": "MiscellaneousTechnical",
           "IsStatic": true,
           "TsSignatureId": "MiscellaneousTechnical|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3555,7 +3555,7 @@
           }
         },
         {
-          "TsName": "controlPictures",
+          "TsName": "ControlPictures",
           "IsStatic": true,
           "TsSignatureId": "ControlPictures|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3565,7 +3565,7 @@
           }
         },
         {
-          "TsName": "opticalCharacterRecognition",
+          "TsName": "OpticalCharacterRecognition",
           "IsStatic": true,
           "TsSignatureId": "OpticalCharacterRecognition|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3575,7 +3575,7 @@
           }
         },
         {
-          "TsName": "enclosedAlphanumerics",
+          "TsName": "EnclosedAlphanumerics",
           "IsStatic": true,
           "TsSignatureId": "EnclosedAlphanumerics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3585,7 +3585,7 @@
           }
         },
         {
-          "TsName": "boxDrawing",
+          "TsName": "BoxDrawing",
           "IsStatic": true,
           "TsSignatureId": "BoxDrawing|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3595,7 +3595,7 @@
           }
         },
         {
-          "TsName": "blockElements",
+          "TsName": "BlockElements",
           "IsStatic": true,
           "TsSignatureId": "BlockElements|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3605,7 +3605,7 @@
           }
         },
         {
-          "TsName": "geometricShapes",
+          "TsName": "GeometricShapes",
           "IsStatic": true,
           "TsSignatureId": "GeometricShapes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3615,7 +3615,7 @@
           }
         },
         {
-          "TsName": "miscellaneousSymbols",
+          "TsName": "MiscellaneousSymbols",
           "IsStatic": true,
           "TsSignatureId": "MiscellaneousSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3625,7 +3625,7 @@
           }
         },
         {
-          "TsName": "dingbats",
+          "TsName": "Dingbats",
           "IsStatic": true,
           "TsSignatureId": "Dingbats|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3635,7 +3635,7 @@
           }
         },
         {
-          "TsName": "miscellaneousMathematicalSymbolsA",
+          "TsName": "MiscellaneousMathematicalSymbolsA",
           "IsStatic": true,
           "TsSignatureId": "MiscellaneousMathematicalSymbolsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3645,7 +3645,7 @@
           }
         },
         {
-          "TsName": "supplementalArrowsA",
+          "TsName": "SupplementalArrowsA",
           "IsStatic": true,
           "TsSignatureId": "SupplementalArrowsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3655,7 +3655,7 @@
           }
         },
         {
-          "TsName": "braillePatterns",
+          "TsName": "BraillePatterns",
           "IsStatic": true,
           "TsSignatureId": "BraillePatterns|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3665,7 +3665,7 @@
           }
         },
         {
-          "TsName": "supplementalArrowsB",
+          "TsName": "SupplementalArrowsB",
           "IsStatic": true,
           "TsSignatureId": "SupplementalArrowsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3675,7 +3675,7 @@
           }
         },
         {
-          "TsName": "miscellaneousMathematicalSymbolsB",
+          "TsName": "MiscellaneousMathematicalSymbolsB",
           "IsStatic": true,
           "TsSignatureId": "MiscellaneousMathematicalSymbolsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3685,7 +3685,7 @@
           }
         },
         {
-          "TsName": "supplementalMathematicalOperators",
+          "TsName": "SupplementalMathematicalOperators",
           "IsStatic": true,
           "TsSignatureId": "SupplementalMathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3695,7 +3695,7 @@
           }
         },
         {
-          "TsName": "miscellaneousSymbolsandArrows",
+          "TsName": "MiscellaneousSymbolsandArrows",
           "IsStatic": true,
           "TsSignatureId": "MiscellaneousSymbolsandArrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3705,7 +3705,7 @@
           }
         },
         {
-          "TsName": "glagolitic",
+          "TsName": "Glagolitic",
           "IsStatic": true,
           "TsSignatureId": "Glagolitic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3715,7 +3715,7 @@
           }
         },
         {
-          "TsName": "latinExtendedC",
+          "TsName": "LatinExtendedC",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3725,7 +3725,7 @@
           }
         },
         {
-          "TsName": "coptic",
+          "TsName": "Coptic",
           "IsStatic": true,
           "TsSignatureId": "Coptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3735,7 +3735,7 @@
           }
         },
         {
-          "TsName": "georgianSupplement",
+          "TsName": "GeorgianSupplement",
           "IsStatic": true,
           "TsSignatureId": "GeorgianSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3745,7 +3745,7 @@
           }
         },
         {
-          "TsName": "tifinagh",
+          "TsName": "Tifinagh",
           "IsStatic": true,
           "TsSignatureId": "Tifinagh|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3755,7 +3755,7 @@
           }
         },
         {
-          "TsName": "ethiopicExtended",
+          "TsName": "EthiopicExtended",
           "IsStatic": true,
           "TsSignatureId": "EthiopicExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3765,7 +3765,7 @@
           }
         },
         {
-          "TsName": "cyrillicExtendedA",
+          "TsName": "CyrillicExtendedA",
           "IsStatic": true,
           "TsSignatureId": "CyrillicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3775,7 +3775,7 @@
           }
         },
         {
-          "TsName": "supplementalPunctuation",
+          "TsName": "SupplementalPunctuation",
           "IsStatic": true,
           "TsSignatureId": "SupplementalPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3785,7 +3785,7 @@
           }
         },
         {
-          "TsName": "cjkRadicalsSupplement",
+          "TsName": "CjkRadicalsSupplement",
           "IsStatic": true,
           "TsSignatureId": "CjkRadicalsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3795,7 +3795,7 @@
           }
         },
         {
-          "TsName": "kangxiRadicals",
+          "TsName": "KangxiRadicals",
           "IsStatic": true,
           "TsSignatureId": "KangxiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3805,7 +3805,7 @@
           }
         },
         {
-          "TsName": "ideographicDescriptionCharacters",
+          "TsName": "IdeographicDescriptionCharacters",
           "IsStatic": true,
           "TsSignatureId": "IdeographicDescriptionCharacters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3815,7 +3815,7 @@
           }
         },
         {
-          "TsName": "cjkSymbolsandPunctuation",
+          "TsName": "CjkSymbolsandPunctuation",
           "IsStatic": true,
           "TsSignatureId": "CjkSymbolsandPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3825,7 +3825,7 @@
           }
         },
         {
-          "TsName": "hiragana",
+          "TsName": "Hiragana",
           "IsStatic": true,
           "TsSignatureId": "Hiragana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3835,7 +3835,7 @@
           }
         },
         {
-          "TsName": "katakana",
+          "TsName": "Katakana",
           "IsStatic": true,
           "TsSignatureId": "Katakana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3845,7 +3845,7 @@
           }
         },
         {
-          "TsName": "bopomofo",
+          "TsName": "Bopomofo",
           "IsStatic": true,
           "TsSignatureId": "Bopomofo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3855,7 +3855,7 @@
           }
         },
         {
-          "TsName": "hangulCompatibilityJamo",
+          "TsName": "HangulCompatibilityJamo",
           "IsStatic": true,
           "TsSignatureId": "HangulCompatibilityJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3865,7 +3865,7 @@
           }
         },
         {
-          "TsName": "kanbun",
+          "TsName": "Kanbun",
           "IsStatic": true,
           "TsSignatureId": "Kanbun|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3875,7 +3875,7 @@
           }
         },
         {
-          "TsName": "bopomofoExtended",
+          "TsName": "BopomofoExtended",
           "IsStatic": true,
           "TsSignatureId": "BopomofoExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3885,7 +3885,7 @@
           }
         },
         {
-          "TsName": "cjkStrokes",
+          "TsName": "CjkStrokes",
           "IsStatic": true,
           "TsSignatureId": "CjkStrokes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3895,7 +3895,7 @@
           }
         },
         {
-          "TsName": "katakanaPhoneticExtensions",
+          "TsName": "KatakanaPhoneticExtensions",
           "IsStatic": true,
           "TsSignatureId": "KatakanaPhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3905,7 +3905,7 @@
           }
         },
         {
-          "TsName": "enclosedCjkLettersandMonths",
+          "TsName": "EnclosedCjkLettersandMonths",
           "IsStatic": true,
           "TsSignatureId": "EnclosedCjkLettersandMonths|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3915,7 +3915,7 @@
           }
         },
         {
-          "TsName": "cjkCompatibility",
+          "TsName": "CjkCompatibility",
           "IsStatic": true,
           "TsSignatureId": "CjkCompatibility|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3925,7 +3925,7 @@
           }
         },
         {
-          "TsName": "cjkUnifiedIdeographsExtensionA",
+          "TsName": "CjkUnifiedIdeographsExtensionA",
           "IsStatic": true,
           "TsSignatureId": "CjkUnifiedIdeographsExtensionA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3935,7 +3935,7 @@
           }
         },
         {
-          "TsName": "yijingHexagramSymbols",
+          "TsName": "YijingHexagramSymbols",
           "IsStatic": true,
           "TsSignatureId": "YijingHexagramSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3945,7 +3945,7 @@
           }
         },
         {
-          "TsName": "cjkUnifiedIdeographs",
+          "TsName": "CjkUnifiedIdeographs",
           "IsStatic": true,
           "TsSignatureId": "CjkUnifiedIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3955,7 +3955,7 @@
           }
         },
         {
-          "TsName": "yiSyllables",
+          "TsName": "YiSyllables",
           "IsStatic": true,
           "TsSignatureId": "YiSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3965,7 +3965,7 @@
           }
         },
         {
-          "TsName": "yiRadicals",
+          "TsName": "YiRadicals",
           "IsStatic": true,
           "TsSignatureId": "YiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3975,7 +3975,7 @@
           }
         },
         {
-          "TsName": "lisu",
+          "TsName": "Lisu",
           "IsStatic": true,
           "TsSignatureId": "Lisu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3985,7 +3985,7 @@
           }
         },
         {
-          "TsName": "vai",
+          "TsName": "Vai",
           "IsStatic": true,
           "TsSignatureId": "Vai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -3995,7 +3995,7 @@
           }
         },
         {
-          "TsName": "cyrillicExtendedB",
+          "TsName": "CyrillicExtendedB",
           "IsStatic": true,
           "TsSignatureId": "CyrillicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4005,7 +4005,7 @@
           }
         },
         {
-          "TsName": "bamum",
+          "TsName": "Bamum",
           "IsStatic": true,
           "TsSignatureId": "Bamum|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4015,7 +4015,7 @@
           }
         },
         {
-          "TsName": "modifierToneLetters",
+          "TsName": "ModifierToneLetters",
           "IsStatic": true,
           "TsSignatureId": "ModifierToneLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4025,7 +4025,7 @@
           }
         },
         {
-          "TsName": "latinExtendedD",
+          "TsName": "LatinExtendedD",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedD|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4035,7 +4035,7 @@
           }
         },
         {
-          "TsName": "sylotiNagri",
+          "TsName": "SylotiNagri",
           "IsStatic": true,
           "TsSignatureId": "SylotiNagri|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4045,7 +4045,7 @@
           }
         },
         {
-          "TsName": "commonIndicNumberForms",
+          "TsName": "CommonIndicNumberForms",
           "IsStatic": true,
           "TsSignatureId": "CommonIndicNumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4055,7 +4055,7 @@
           }
         },
         {
-          "TsName": "phagspa",
+          "TsName": "Phagspa",
           "IsStatic": true,
           "TsSignatureId": "Phagspa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4065,7 +4065,7 @@
           }
         },
         {
-          "TsName": "saurashtra",
+          "TsName": "Saurashtra",
           "IsStatic": true,
           "TsSignatureId": "Saurashtra|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4075,7 +4075,7 @@
           }
         },
         {
-          "TsName": "devanagariExtended",
+          "TsName": "DevanagariExtended",
           "IsStatic": true,
           "TsSignatureId": "DevanagariExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4085,7 +4085,7 @@
           }
         },
         {
-          "TsName": "kayahLi",
+          "TsName": "KayahLi",
           "IsStatic": true,
           "TsSignatureId": "KayahLi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4095,7 +4095,7 @@
           }
         },
         {
-          "TsName": "rejang",
+          "TsName": "Rejang",
           "IsStatic": true,
           "TsSignatureId": "Rejang|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4105,7 +4105,7 @@
           }
         },
         {
-          "TsName": "hangulJamoExtendedA",
+          "TsName": "HangulJamoExtendedA",
           "IsStatic": true,
           "TsSignatureId": "HangulJamoExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4115,7 +4115,7 @@
           }
         },
         {
-          "TsName": "javanese",
+          "TsName": "Javanese",
           "IsStatic": true,
           "TsSignatureId": "Javanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4125,7 +4125,7 @@
           }
         },
         {
-          "TsName": "myanmarExtendedB",
+          "TsName": "MyanmarExtendedB",
           "IsStatic": true,
           "TsSignatureId": "MyanmarExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4135,7 +4135,7 @@
           }
         },
         {
-          "TsName": "cham",
+          "TsName": "Cham",
           "IsStatic": true,
           "TsSignatureId": "Cham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4145,7 +4145,7 @@
           }
         },
         {
-          "TsName": "myanmarExtendedA",
+          "TsName": "MyanmarExtendedA",
           "IsStatic": true,
           "TsSignatureId": "MyanmarExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4155,7 +4155,7 @@
           }
         },
         {
-          "TsName": "taiViet",
+          "TsName": "TaiViet",
           "IsStatic": true,
           "TsSignatureId": "TaiViet|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4165,7 +4165,7 @@
           }
         },
         {
-          "TsName": "meeteiMayekExtensions",
+          "TsName": "MeeteiMayekExtensions",
           "IsStatic": true,
           "TsSignatureId": "MeeteiMayekExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4175,7 +4175,7 @@
           }
         },
         {
-          "TsName": "ethiopicExtendedA",
+          "TsName": "EthiopicExtendedA",
           "IsStatic": true,
           "TsSignatureId": "EthiopicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4185,7 +4185,7 @@
           }
         },
         {
-          "TsName": "latinExtendedE",
+          "TsName": "LatinExtendedE",
           "IsStatic": true,
           "TsSignatureId": "LatinExtendedE|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4195,7 +4195,7 @@
           }
         },
         {
-          "TsName": "cherokeeSupplement",
+          "TsName": "CherokeeSupplement",
           "IsStatic": true,
           "TsSignatureId": "CherokeeSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4205,7 +4205,7 @@
           }
         },
         {
-          "TsName": "meeteiMayek",
+          "TsName": "MeeteiMayek",
           "IsStatic": true,
           "TsSignatureId": "MeeteiMayek|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4215,7 +4215,7 @@
           }
         },
         {
-          "TsName": "hangulSyllables",
+          "TsName": "HangulSyllables",
           "IsStatic": true,
           "TsSignatureId": "HangulSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4225,7 +4225,7 @@
           }
         },
         {
-          "TsName": "hangulJamoExtendedB",
+          "TsName": "HangulJamoExtendedB",
           "IsStatic": true,
           "TsSignatureId": "HangulJamoExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4235,7 +4235,7 @@
           }
         },
         {
-          "TsName": "cjkCompatibilityIdeographs",
+          "TsName": "CjkCompatibilityIdeographs",
           "IsStatic": true,
           "TsSignatureId": "CjkCompatibilityIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4245,7 +4245,7 @@
           }
         },
         {
-          "TsName": "alphabeticPresentationForms",
+          "TsName": "AlphabeticPresentationForms",
           "IsStatic": true,
           "TsSignatureId": "AlphabeticPresentationForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4255,7 +4255,7 @@
           }
         },
         {
-          "TsName": "arabicPresentationFormsA",
+          "TsName": "ArabicPresentationFormsA",
           "IsStatic": true,
           "TsSignatureId": "ArabicPresentationFormsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4265,7 +4265,7 @@
           }
         },
         {
-          "TsName": "variationSelectors",
+          "TsName": "VariationSelectors",
           "IsStatic": true,
           "TsSignatureId": "VariationSelectors|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4275,7 +4275,7 @@
           }
         },
         {
-          "TsName": "verticalForms",
+          "TsName": "VerticalForms",
           "IsStatic": true,
           "TsSignatureId": "VerticalForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4285,7 +4285,7 @@
           }
         },
         {
-          "TsName": "combiningHalfMarks",
+          "TsName": "CombiningHalfMarks",
           "IsStatic": true,
           "TsSignatureId": "CombiningHalfMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4295,7 +4295,7 @@
           }
         },
         {
-          "TsName": "cjkCompatibilityForms",
+          "TsName": "CjkCompatibilityForms",
           "IsStatic": true,
           "TsSignatureId": "CjkCompatibilityForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4305,7 +4305,7 @@
           }
         },
         {
-          "TsName": "smallFormVariants",
+          "TsName": "SmallFormVariants",
           "IsStatic": true,
           "TsSignatureId": "SmallFormVariants|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4315,7 +4315,7 @@
           }
         },
         {
-          "TsName": "arabicPresentationFormsB",
+          "TsName": "ArabicPresentationFormsB",
           "IsStatic": true,
           "TsSignatureId": "ArabicPresentationFormsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4325,7 +4325,7 @@
           }
         },
         {
-          "TsName": "halfwidthandFullwidthForms",
+          "TsName": "HalfwidthandFullwidthForms",
           "IsStatic": true,
           "TsSignatureId": "HalfwidthandFullwidthForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4335,7 +4335,7 @@
           }
         },
         {
-          "TsName": "specials",
+          "TsName": "Specials",
           "IsStatic": true,
           "TsSignatureId": "Specials|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "Target": {
@@ -4354,8 +4354,8 @@
       "Methods": [
         {
           "ClrName": "FromUtf16",
-          "TsEmitName": "fromUtf16",
-          "MetadataToken": 100682316,
+          "TsEmitName": "FromUtf16",
+          "MetadataToken": 100682299,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "NormalizedSignature": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "EmitScope": "ClassSurface",
@@ -4366,8 +4366,8 @@
         },
         {
           "ClrName": "ToUtf16",
-          "TsEmitName": "toUtf16",
-          "MetadataToken": 100682317,
+          "TsEmitName": "ToUtf16",
+          "MetadataToken": 100682300,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "NormalizedSignature": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "EmitScope": "ClassSurface",
@@ -4378,8 +4378,8 @@
         },
         {
           "ClrName": "TryWrite",
-          "TsEmitName": "tryWrite",
-          "MetadataToken": 100682319,
+          "TsEmitName": "TryWrite",
+          "MetadataToken": 100682302,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "NormalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -4390,8 +4390,8 @@
         },
         {
           "ClrName": "TryWrite",
-          "TsEmitName": "tryWrite2",
-          "MetadataToken": 100682320,
+          "TsEmitName": "TryWrite2",
+          "MetadataToken": 100682303,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "NormalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -4402,8 +4402,8 @@
         },
         {
           "ClrName": "IsValid",
-          "TsEmitName": "isValid",
-          "MetadataToken": 100682321,
+          "TsEmitName": "IsValid",
+          "MetadataToken": 100682304,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "NormalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -4419,57 +4419,57 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "fromUtf16",
+          "TsName": "FromUtf16",
           "IsStatic": true,
           "TsSignatureId": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682316
+            "MetadataToken": 100682299
           }
         },
         {
-          "TsName": "toUtf16",
+          "TsName": "ToUtf16",
           "IsStatic": true,
           "TsSignatureId": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682317
+            "MetadataToken": 100682300
           }
         },
         {
-          "TsName": "tryWrite",
+          "TsName": "TryWrite",
           "IsStatic": true,
           "TsSignatureId": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682319
+            "MetadataToken": 100682302
           }
         },
         {
-          "TsName": "tryWrite2",
+          "TsName": "TryWrite2",
           "IsStatic": true,
           "TsSignatureId": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682320
+            "MetadataToken": 100682303
           }
         },
         {
-          "TsName": "isValid",
+          "TsName": "IsValid",
           "IsStatic": true,
           "TsSignatureId": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Text.Unicode.Utf8",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682321
+            "MetadataToken": 100682304
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -4479,7 +4479,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -4489,7 +4489,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -4499,7 +4499,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4509,7 +4509,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -4519,7 +4519,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {

@@ -1,8 +1,8 @@
 {
   "Namespace": "System.Runtime.InteropServices.Marshalling",
   "ContributingAssemblies": [
-    "System.Runtime.InteropServices",
-    "System.Private.CoreLib"
+    "System.Private.CoreLib",
+    "System.Runtime.InteropServices"
   ],
   "Types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Runtime.InteropServices.Marshalling.ComInterfaceOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "ClrName": "ManagedObjectWrapper",
-          "TsEmitName": "managedObjectWrapper",
+          "TsEmitName": "ManagedObjectWrapper",
           "NormalizedSignature": "ManagedObjectWrapper|System.Runtime.InteropServices.Marshalling.ComInterfaceOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "ClrName": "ComObjectWrapper",
-          "TsEmitName": "comObjectWrapper",
+          "TsEmitName": "ComObjectWrapper",
           "NormalizedSignature": "ComObjectWrapper|System.Runtime.InteropServices.Marshalling.ComInterfaceOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -75,7 +75,7 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
+          "TsEmitName": "Default",
           "NormalizedSignature": "Default|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "ClrName": "ManagedToUnmanagedIn",
-          "TsEmitName": "managedToUnmanagedIn",
+          "TsEmitName": "ManagedToUnmanagedIn",
           "NormalizedSignature": "ManagedToUnmanagedIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "ClrName": "ManagedToUnmanagedRef",
-          "TsEmitName": "managedToUnmanagedRef",
+          "TsEmitName": "ManagedToUnmanagedRef",
           "NormalizedSignature": "ManagedToUnmanagedRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "ClrName": "ManagedToUnmanagedOut",
-          "TsEmitName": "managedToUnmanagedOut",
+          "TsEmitName": "ManagedToUnmanagedOut",
           "NormalizedSignature": "ManagedToUnmanagedOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -107,7 +107,7 @@
         },
         {
           "ClrName": "UnmanagedToManagedIn",
-          "TsEmitName": "unmanagedToManagedIn",
+          "TsEmitName": "UnmanagedToManagedIn",
           "NormalizedSignature": "UnmanagedToManagedIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -115,7 +115,7 @@
         },
         {
           "ClrName": "UnmanagedToManagedRef",
-          "TsEmitName": "unmanagedToManagedRef",
+          "TsEmitName": "UnmanagedToManagedRef",
           "NormalizedSignature": "UnmanagedToManagedRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -123,7 +123,7 @@
         },
         {
           "ClrName": "UnmanagedToManagedOut",
-          "TsEmitName": "unmanagedToManagedOut",
+          "TsEmitName": "UnmanagedToManagedOut",
           "NormalizedSignature": "UnmanagedToManagedOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -131,7 +131,7 @@
         },
         {
           "ClrName": "ElementIn",
-          "TsEmitName": "elementIn",
+          "TsEmitName": "ElementIn",
           "NormalizedSignature": "ElementIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -139,7 +139,7 @@
         },
         {
           "ClrName": "ElementRef",
-          "TsEmitName": "elementRef",
+          "TsEmitName": "ElementRef",
           "NormalizedSignature": "ElementRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -147,7 +147,7 @@
         },
         {
           "ClrName": "ElementOut",
-          "TsEmitName": "elementOut",
+          "TsEmitName": "ElementOut",
           "NormalizedSignature": "ElementOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -169,7 +169,7 @@
       "Methods": [
         {
           "ClrName": "GetComInterfaceEntries",
-          "TsEmitName": "getComInterfaceEntries",
+          "TsEmitName": "GetComInterfaceEntries",
           "NormalizedSignature": "GetComInterfaceEntries|(System.Int32\u0026):System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -199,7 +199,7 @@
       "Methods": [
         {
           "ClrName": "GetComInterfaceEntries",
-          "TsEmitName": "getComInterfaceEntries",
+          "TsEmitName": "GetComInterfaceEntries",
           "NormalizedSignature": "GetComInterfaceEntries|(System.Int32\u0026):System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -229,7 +229,7 @@
       "Methods": [
         {
           "ClrName": "ConstructTableInfo",
-          "TsEmitName": "constructTableInfo",
+          "TsEmitName": "ConstructTableInfo",
           "NormalizedSignature": "ConstructTableInfo|(System.RuntimeTypeHandle,System.Runtime.InteropServices.Marshalling.IIUnknownDerivedDetails,System.Void*):System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy\u002BTableInfo|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         },
         {
           "ClrName": "TryGetTableInfo",
-          "TsEmitName": "tryGetTableInfo",
+          "TsEmitName": "TryGetTableInfo",
           "NormalizedSignature": "TryGetTableInfo|(System.RuntimeTypeHandle,System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy\u002BTableInfo\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -257,7 +257,7 @@
         },
         {
           "ClrName": "TrySetTableInfo",
-          "TsEmitName": "trySetTableInfo",
+          "TsEmitName": "TrySetTableInfo",
           "NormalizedSignature": "TrySetTableInfo|(System.RuntimeTypeHandle,System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy\u002BTableInfo):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -271,7 +271,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|(System.Runtime.InteropServices.Marshalling.IIUnknownStrategy):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -302,7 +302,7 @@
       "Properties": [
         {
           "ClrName": "Iid",
-          "TsEmitName": "iid",
+          "TsEmitName": "Iid",
           "NormalizedSignature": "Iid|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -316,7 +316,7 @@
         },
         {
           "ClrName": "Implementation",
-          "TsEmitName": "implementation",
+          "TsEmitName": "Implementation",
           "NormalizedSignature": "Implementation|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "ManagedVirtualMethodTable",
-          "TsEmitName": "managedVirtualMethodTable",
+          "TsEmitName": "ManagedVirtualMethodTable",
           "NormalizedSignature": "ManagedVirtualMethodTable|:System.Void**|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -359,7 +359,7 @@
       "Methods": [
         {
           "ClrName": "GetIUnknownDerivedDetails",
-          "TsEmitName": "getIUnknownDerivedDetails",
+          "TsEmitName": "GetIUnknownDerivedDetails",
           "NormalizedSignature": "GetIUnknownDerivedDetails|(System.RuntimeTypeHandle):System.Runtime.InteropServices.Marshalling.IIUnknownDerivedDetails|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -373,7 +373,7 @@
         },
         {
           "ClrName": "GetComExposedTypeDetails",
-          "TsEmitName": "getComExposedTypeDetails",
+          "TsEmitName": "GetComExposedTypeDetails",
           "NormalizedSignature": "GetComExposedTypeDetails|(System.RuntimeTypeHandle):System.Runtime.InteropServices.Marshalling.IComExposedDetails|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -404,7 +404,7 @@
       "Properties": [
         {
           "ClrName": "Iid",
-          "TsEmitName": "iid",
+          "TsEmitName": "Iid",
           "NormalizedSignature": "Iid|:System.Guid|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -418,7 +418,7 @@
         },
         {
           "ClrName": "ManagedVirtualMethodTable",
-          "TsEmitName": "managedVirtualMethodTable",
+          "TsEmitName": "ManagedVirtualMethodTable",
           "NormalizedSignature": "ManagedVirtualMethodTable|:System.Void**|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -447,7 +447,7 @@
       "Methods": [
         {
           "ClrName": "CreateInstancePointer",
-          "TsEmitName": "createInstancePointer",
+          "TsEmitName": "CreateInstancePointer",
           "NormalizedSignature": "CreateInstancePointer|(System.Void*):System.Void*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -461,7 +461,7 @@
         },
         {
           "ClrName": "QueryInterface",
-          "TsEmitName": "queryInterface",
+          "TsEmitName": "QueryInterface",
           "NormalizedSignature": "QueryInterface|(System.Void*,System.Guid\u0026,System.Void*\u0026):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -475,7 +475,7 @@
         },
         {
           "ClrName": "Release",
-          "TsEmitName": "release",
+          "TsEmitName": "Release",
           "NormalizedSignature": "Release|(System.Void*):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -505,7 +505,7 @@
       "Methods": [
         {
           "ClrName": "GetVirtualMethodTableInfoForKey",
-          "TsEmitName": "getVirtualMethodTableInfoForKey",
+          "TsEmitName": "GetVirtualMethodTableInfoForKey",
           "NormalizedSignature": "GetVirtualMethodTableInfoForKey|(System.Type):System.Runtime.InteropServices.Marshalling.VirtualMethodTableInfo|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -535,7 +535,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -549,7 +549,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.Byte*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -563,7 +563,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -579,7 +579,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -608,7 +608,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(T[],Span_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -622,7 +622,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -636,7 +636,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -650,7 +650,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -664,7 +664,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -678,7 +678,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -692,7 +692,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|(T[]):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -708,7 +708,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -737,7 +737,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -751,7 +751,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.UInt16*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -765,7 +765,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -781,7 +781,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -810,7 +810,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -824,7 +824,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(T):System.Runtime.InteropServices.Marshalling.ComVariant|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         },
         {
           "ClrName": "CreateRaw",
-          "TsEmitName": "createRaw",
+          "TsEmitName": "CreateRaw",
           "NormalizedSignature": "CreateRaw|(System.Runtime.InteropServices.VarEnum,T):System.Runtime.InteropServices.Marshalling.ComVariant|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "As",
-          "TsEmitName": "as_",
+          "TsEmitName": "As",
           "NormalizedSignature": "As|():T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -866,7 +866,7 @@
         },
         {
           "ClrName": "GetRawDataRef",
-          "TsEmitName": "getRawDataRef",
+          "TsEmitName": "GetRawDataRef",
           "NormalizedSignature": "GetRawDataRef|():T\u0026|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -880,7 +880,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -897,7 +897,7 @@
       "Properties": [
         {
           "ClrName": "Null",
-          "TsEmitName": "null_",
+          "TsEmitName": "Null",
           "NormalizedSignature": "Null|:System.Runtime.InteropServices.Marshalling.ComVariant|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -911,7 +911,7 @@
         },
         {
           "ClrName": "VarType",
-          "TsEmitName": "varType",
+          "TsEmitName": "VarType",
           "NormalizedSignature": "VarType|:System.Runtime.InteropServices.VarEnum|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -940,7 +940,7 @@
       "Methods": [
         {
           "ClrName": "FromUnmanaged",
-          "TsEmitName": "fromUnmanaged",
+          "TsEmitName": "FromUnmanaged",
           "NormalizedSignature": "FromUnmanaged|(System.Runtime.InteropServices.Marshalling.ComVariant):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -954,7 +954,7 @@
         },
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -968,7 +968,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.Runtime.InteropServices.Marshalling.ComVariant|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -982,7 +982,7 @@
         },
         {
           "ClrName": "ToManaged",
-          "TsEmitName": "toManaged",
+          "TsEmitName": "ToManaged",
           "NormalizedSignature": "ToManaged|():System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -996,7 +996,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1042,7 +1042,7 @@
       "Properties": [
         {
           "ClrName": "ThisPtr",
-          "TsEmitName": "thisPtr",
+          "TsEmitName": "ThisPtr",
           "NormalizedSignature": "ThisPtr|:System.Void*|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1056,7 +1056,7 @@
         },
         {
           "ClrName": "Table",
-          "TsEmitName": "table",
+          "TsEmitName": "Table",
           "NormalizedSignature": "Table|:System.Void**|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1070,7 +1070,7 @@
         },
         {
           "ClrName": "ManagedType",
-          "TsEmitName": "managedType",
+          "TsEmitName": "ManagedType",
           "NormalizedSignature": "ManagedType|:System.RuntimeTypeHandle|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1099,7 +1099,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(T*[],Span_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1113,7 +1113,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|():System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1127,7 +1127,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1141,7 +1141,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1155,7 +1155,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1169,7 +1169,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1183,7 +1183,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|(T*[]):System.Byte\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1199,7 +1199,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1228,7 +1228,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(ReadOnlySpan_1,Span_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1256,7 +1256,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1270,7 +1270,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1284,7 +1284,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1298,7 +1298,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1312,7 +1312,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|(ReadOnlySpan_1):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1328,7 +1328,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1357,7 +1357,7 @@
       "Methods": [
         {
           "ClrName": "FromUnmanaged",
-          "TsEmitName": "fromUnmanaged",
+          "TsEmitName": "FromUnmanaged",
           "NormalizedSignature": "FromUnmanaged|(TUnmanagedElement*):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1371,7 +1371,7 @@
         },
         {
           "ClrName": "ToManaged",
-          "TsEmitName": "toManaged",
+          "TsEmitName": "ToManaged",
           "NormalizedSignature": "ToManaged|():ReadOnlySpan_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1385,7 +1385,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesSource",
-          "TsEmitName": "getUnmanagedValuesSource",
+          "TsEmitName": "GetUnmanagedValuesSource",
           "NormalizedSignature": "GetUnmanagedValuesSource|(System.Int32):ReadOnlySpan_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1399,7 +1399,7 @@
         },
         {
           "ClrName": "GetManagedValuesDestination",
-          "TsEmitName": "getManagedValuesDestination",
+          "TsEmitName": "GetManagedValuesDestination",
           "NormalizedSignature": "GetManagedValuesDestination|(System.Int32):Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1413,7 +1413,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1443,7 +1443,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1457,7 +1457,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.IntPtr|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1471,7 +1471,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1501,7 +1501,7 @@
       "Methods": [
         {
           "ClrName": "FromUnmanaged",
-          "TsEmitName": "fromUnmanaged",
+          "TsEmitName": "FromUnmanaged",
           "NormalizedSignature": "FromUnmanaged|(System.IntPtr):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1515,7 +1515,7 @@
         },
         {
           "ClrName": "ToManaged",
-          "TsEmitName": "toManaged",
+          "TsEmitName": "ToManaged",
           "NormalizedSignature": "ToManaged|():T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1529,7 +1529,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1565,7 +1565,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1579,7 +1579,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.IntPtr|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1593,7 +1593,7 @@
         },
         {
           "ClrName": "FromUnmanaged",
-          "TsEmitName": "fromUnmanaged",
+          "TsEmitName": "FromUnmanaged",
           "NormalizedSignature": "FromUnmanaged|(System.IntPtr):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1607,7 +1607,7 @@
         },
         {
           "ClrName": "OnInvoked",
-          "TsEmitName": "onInvoked",
+          "TsEmitName": "OnInvoked",
           "NormalizedSignature": "OnInvoked|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1621,7 +1621,7 @@
         },
         {
           "ClrName": "ToManagedFinally",
-          "TsEmitName": "toManagedFinally",
+          "TsEmitName": "ToManagedFinally",
           "NormalizedSignature": "ToManagedFinally|():T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1635,7 +1635,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1671,7 +1671,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(Span_1,Span_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1685,7 +1685,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1699,7 +1699,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1713,7 +1713,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1727,7 +1727,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1741,7 +1741,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1755,7 +1755,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|(Span_1):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1771,7 +1771,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1800,7 +1800,7 @@
       "Methods": [
         {
           "ClrName": "FromManaged",
-          "TsEmitName": "fromManaged",
+          "TsEmitName": "FromManaged",
           "NormalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1814,7 +1814,7 @@
         },
         {
           "ClrName": "ToUnmanaged",
-          "TsEmitName": "toUnmanaged",
+          "TsEmitName": "ToUnmanaged",
           "NormalizedSignature": "ToUnmanaged|():System.Byte*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1828,7 +1828,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1844,7 +1844,7 @@
       "Properties": [
         {
           "ClrName": "BufferSize",
-          "TsEmitName": "bufferSize",
+          "TsEmitName": "BufferSize",
           "NormalizedSignature": "BufferSize|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1873,7 +1873,7 @@
       "Methods": [
         {
           "ClrName": "Deconstruct",
-          "TsEmitName": "deconstruct",
+          "TsEmitName": "Deconstruct",
           "NormalizedSignature": "Deconstruct|(System.Void*\u0026,System.Void**\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1889,7 +1889,7 @@
       "Properties": [
         {
           "ClrName": "ThisPointer",
-          "TsEmitName": "thisPointer",
+          "TsEmitName": "ThisPointer",
           "NormalizedSignature": "ThisPointer|:System.Void*|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1903,7 +1903,7 @@
         },
         {
           "ClrName": "VirtualMethodTable",
-          "TsEmitName": "virtualMethodTable",
+          "TsEmitName": "VirtualMethodTable",
           "NormalizedSignature": "VirtualMethodTable|:System.Void**|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1938,7 +1938,7 @@
       "Methods": [
         {
           "ClrName": "GetComInterfaceEntries",
-          "TsEmitName": "getComInterfaceEntries",
+          "TsEmitName": "GetComInterfaceEntries",
           "NormalizedSignature": "GetComInterfaceEntries|(System.Int32\u0026):System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry*|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1952,7 +1952,7 @@
         },
         {
           "ClrName": "GetComInterfaceEntries",
-          "TsEmitName": "getComInterfaceEntries$view",
+          "TsEmitName": "GetComInterfaceEntries$view",
           "NormalizedSignature": "GetComInterfaceEntries|(System.Int32\u0026):System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry*|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1989,7 +1989,7 @@
       "Methods": [
         {
           "ClrName": "FinalRelease",
-          "TsEmitName": "finalRelease",
+          "TsEmitName": "FinalRelease",
           "NormalizedSignature": "FinalRelease|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2003,7 +2003,7 @@
         },
         {
           "ClrName": "IsInterfaceImplemented",
-          "TsEmitName": "isInterfaceImplemented",
+          "TsEmitName": "IsInterfaceImplemented",
           "NormalizedSignature": "IsInterfaceImplemented|(System.RuntimeTypeHandle,System.Boolean):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2018,7 +2018,7 @@
         },
         {
           "ClrName": "GetInterfaceImplementation",
-          "TsEmitName": "getInterfaceImplementation",
+          "TsEmitName": "GetInterfaceImplementation",
           "NormalizedSignature": "GetInterfaceImplementation|(System.RuntimeTypeHandle):System.RuntimeTypeHandle|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2033,7 +2033,7 @@
         },
         {
           "ClrName": "GetVirtualMethodTableInfoForKey",
-          "TsEmitName": "getVirtualMethodTableInfoForKey",
+          "TsEmitName": "GetVirtualMethodTableInfoForKey",
           "NormalizedSignature": "GetVirtualMethodTableInfoForKey|(System.Type):System.Runtime.InteropServices.Marshalling.VirtualMethodTableInfo|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2086,7 +2086,7 @@
       "Properties": [
         {
           "ClrName": "ManagedType",
-          "TsEmitName": "managedType",
+          "TsEmitName": "ManagedType",
           "NormalizedSignature": "ManagedType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2100,7 +2100,7 @@
         },
         {
           "ClrName": "MarshalMode",
-          "TsEmitName": "marshalMode",
+          "TsEmitName": "MarshalMode",
           "NormalizedSignature": "MarshalMode|:System.Runtime.InteropServices.Marshalling.MarshalMode|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2114,7 +2114,7 @@
         },
         {
           "ClrName": "MarshallerType",
-          "TsEmitName": "marshallerType",
+          "TsEmitName": "MarshallerType",
           "NormalizedSignature": "MarshallerType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2171,7 +2171,7 @@
       "Properties": [
         {
           "ClrName": "Options",
-          "TsEmitName": "options",
+          "TsEmitName": "Options",
           "NormalizedSignature": "Options|:System.Runtime.InteropServices.Marshalling.ComInterfaceOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2185,7 +2185,7 @@
         },
         {
           "ClrName": "StringMarshalling",
-          "TsEmitName": "stringMarshalling",
+          "TsEmitName": "StringMarshalling",
           "NormalizedSignature": "StringMarshalling|:System.Runtime.InteropServices.StringMarshalling|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2199,7 +2199,7 @@
         },
         {
           "ClrName": "StringMarshallingCustomType",
-          "TsEmitName": "stringMarshallingCustomType",
+          "TsEmitName": "StringMarshallingCustomType",
           "NormalizedSignature": "StringMarshallingCustomType|:System.Type|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2213,7 +2213,7 @@
         },
         {
           "ClrName": "ExceptionToUnmanagedMarshaller",
-          "TsEmitName": "exceptionToUnmanagedMarshaller",
+          "TsEmitName": "ExceptionToUnmanagedMarshaller",
           "NormalizedSignature": "ExceptionToUnmanagedMarshaller|:System.Type|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2249,7 +2249,7 @@
       "Properties": [
         {
           "ClrName": "Iid",
-          "TsEmitName": "iid",
+          "TsEmitName": "Iid",
           "NormalizedSignature": "Iid|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2263,7 +2263,7 @@
         },
         {
           "ClrName": "Implementation",
-          "TsEmitName": "implementation",
+          "TsEmitName": "Implementation",
           "NormalizedSignature": "Implementation|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2277,7 +2277,7 @@
         },
         {
           "ClrName": "ManagedVirtualMethodTable",
-          "TsEmitName": "managedVirtualMethodTable",
+          "TsEmitName": "ManagedVirtualMethodTable",
           "NormalizedSignature": "ManagedVirtualMethodTable|:System.Void**|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         },
         {
           "ClrName": "Iid",
-          "TsEmitName": "iid$view",
+          "TsEmitName": "Iid$view",
           "NormalizedSignature": "Iid|:System.Guid|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2306,7 +2306,7 @@
         },
         {
           "ClrName": "Implementation",
-          "TsEmitName": "implementation$view",
+          "TsEmitName": "Implementation$view",
           "NormalizedSignature": "Implementation|:System.Type|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2321,7 +2321,7 @@
         },
         {
           "ClrName": "ManagedVirtualMethodTable",
-          "TsEmitName": "managedVirtualMethodTable$view",
+          "TsEmitName": "ManagedVirtualMethodTable$view",
           "NormalizedSignature": "ManagedVirtualMethodTable|:System.Void**|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2358,7 +2358,7 @@
       "Properties": [
         {
           "ClrName": "NativeType",
-          "TsEmitName": "nativeType",
+          "TsEmitName": "NativeType",
           "NormalizedSignature": "NativeType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2372,7 +2372,7 @@
         },
         {
           "ClrName": "CountElementName",
-          "TsEmitName": "countElementName",
+          "TsEmitName": "CountElementName",
           "NormalizedSignature": "CountElementName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2386,7 +2386,7 @@
         },
         {
           "ClrName": "ConstantElementCount",
-          "TsEmitName": "constantElementCount",
+          "TsEmitName": "ConstantElementCount",
           "NormalizedSignature": "ConstantElementCount|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2400,7 +2400,7 @@
         },
         {
           "ClrName": "ElementIndirectionDepth",
-          "TsEmitName": "elementIndirectionDepth",
+          "TsEmitName": "ElementIndirectionDepth",
           "NormalizedSignature": "ElementIndirectionDepth|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2416,7 +2416,7 @@
       "Fields": [
         {
           "ClrName": "ReturnsCountValue",
-          "TsEmitName": "returnsCountValue",
+          "TsEmitName": "ReturnsCountValue",
           "NormalizedSignature": "ReturnsCountValue|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -2450,7 +2450,7 @@
       "Properties": [
         {
           "ClrName": "NativeType",
-          "TsEmitName": "nativeType",
+          "TsEmitName": "NativeType",
           "NormalizedSignature": "NativeType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2486,7 +2486,7 @@
       "Properties": [
         {
           "ClrName": "DefaultIUnknownInterfaceDetailsStrategy",
-          "TsEmitName": "defaultIUnknownInterfaceDetailsStrategy",
+          "TsEmitName": "DefaultIUnknownInterfaceDetailsStrategy",
           "NormalizedSignature": "DefaultIUnknownInterfaceDetailsStrategy|:System.Runtime.InteropServices.Marshalling.IIUnknownInterfaceDetailsStrategy|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2500,7 +2500,7 @@
         },
         {
           "ClrName": "DefaultIUnknownStrategy",
-          "TsEmitName": "defaultIUnknownStrategy",
+          "TsEmitName": "DefaultIUnknownStrategy",
           "NormalizedSignature": "DefaultIUnknownStrategy|:System.Runtime.InteropServices.Marshalling.IIUnknownStrategy|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2535,7 +2535,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.String):System.Byte*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2549,7 +2549,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.Byte*):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2563,7 +2563,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.Byte*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2593,7 +2593,7 @@
       "Methods": [
         {
           "ClrName": "AllocateContainerForUnmanagedElements",
-          "TsEmitName": "allocateContainerForUnmanagedElements",
+          "TsEmitName": "AllocateContainerForUnmanagedElements",
           "NormalizedSignature": "AllocateContainerForUnmanagedElements|(T[],System.Int32\u0026):TUnmanagedElement*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2607,7 +2607,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|(T[]):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2621,7 +2621,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2635,7 +2635,7 @@
         },
         {
           "ClrName": "AllocateContainerForManagedElements",
-          "TsEmitName": "allocateContainerForManagedElements",
+          "TsEmitName": "AllocateContainerForManagedElements",
           "NormalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):T[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2649,7 +2649,7 @@
         },
         {
           "ClrName": "GetManagedValuesDestination",
-          "TsEmitName": "getManagedValuesDestination",
+          "TsEmitName": "GetManagedValuesDestination",
           "NormalizedSignature": "GetManagedValuesDestination|(T[]):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2663,7 +2663,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesSource",
-          "TsEmitName": "getUnmanagedValuesSource",
+          "TsEmitName": "GetUnmanagedValuesSource",
           "NormalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2677,7 +2677,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2707,7 +2707,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.String):System.UInt16*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2721,7 +2721,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.UInt16*):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2735,7 +2735,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.UInt16*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2765,7 +2765,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(T):System.Void*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2779,7 +2779,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.Void*):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2793,7 +2793,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.Void*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2823,7 +2823,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.Object):System.Runtime.InteropServices.Marshalling.ComVariant|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2837,7 +2837,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.Runtime.InteropServices.Marshalling.ComVariant):System.Object|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2851,7 +2851,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.Runtime.InteropServices.Marshalling.ComVariant):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2881,7 +2881,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.Exception):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2911,7 +2911,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.Exception):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2941,7 +2941,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.Exception):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2971,7 +2971,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.Exception):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3001,7 +3001,7 @@
       "Methods": [
         {
           "ClrName": "AllocateContainerForUnmanagedElements",
-          "TsEmitName": "allocateContainerForUnmanagedElements",
+          "TsEmitName": "AllocateContainerForUnmanagedElements",
           "NormalizedSignature": "AllocateContainerForUnmanagedElements|(T*[],System.Int32\u0026):TUnmanagedElement*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3015,7 +3015,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|(T*[]):System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3029,7 +3029,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3043,7 +3043,7 @@
         },
         {
           "ClrName": "AllocateContainerForManagedElements",
-          "TsEmitName": "allocateContainerForManagedElements",
+          "TsEmitName": "AllocateContainerForManagedElements",
           "NormalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):T*[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3057,7 +3057,7 @@
         },
         {
           "ClrName": "GetManagedValuesDestination",
-          "TsEmitName": "getManagedValuesDestination",
+          "TsEmitName": "GetManagedValuesDestination",
           "NormalizedSignature": "GetManagedValuesDestination|(T*[]):System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3071,7 +3071,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesSource",
-          "TsEmitName": "getUnmanagedValuesSource",
+          "TsEmitName": "GetUnmanagedValuesSource",
           "NormalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3085,7 +3085,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3130,7 +3130,7 @@
       "Methods": [
         {
           "ClrName": "AllocateContainerForUnmanagedElements",
-          "TsEmitName": "allocateContainerForUnmanagedElements",
+          "TsEmitName": "AllocateContainerForUnmanagedElements",
           "NormalizedSignature": "AllocateContainerForUnmanagedElements|(ReadOnlySpan_1,System.Int32\u0026):TUnmanagedElement*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3144,7 +3144,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|(ReadOnlySpan_1):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3158,7 +3158,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3203,7 +3203,7 @@
       "Methods": [
         {
           "ClrName": "AllocateContainerForUnmanagedElements",
-          "TsEmitName": "allocateContainerForUnmanagedElements",
+          "TsEmitName": "AllocateContainerForUnmanagedElements",
           "NormalizedSignature": "AllocateContainerForUnmanagedElements|(Span_1,System.Int32\u0026):TUnmanagedElement*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3217,7 +3217,7 @@
         },
         {
           "ClrName": "GetManagedValuesSource",
-          "TsEmitName": "getManagedValuesSource",
+          "TsEmitName": "GetManagedValuesSource",
           "NormalizedSignature": "GetManagedValuesSource|(Span_1):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3231,7 +3231,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesDestination",
-          "TsEmitName": "getUnmanagedValuesDestination",
+          "TsEmitName": "GetUnmanagedValuesDestination",
           "NormalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3245,7 +3245,7 @@
         },
         {
           "ClrName": "AllocateContainerForManagedElements",
-          "TsEmitName": "allocateContainerForManagedElements",
+          "TsEmitName": "AllocateContainerForManagedElements",
           "NormalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3259,7 +3259,7 @@
         },
         {
           "ClrName": "GetManagedValuesDestination",
-          "TsEmitName": "getManagedValuesDestination",
+          "TsEmitName": "GetManagedValuesDestination",
           "NormalizedSignature": "GetManagedValuesDestination|(Span_1):Span_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3273,7 +3273,7 @@
         },
         {
           "ClrName": "GetUnmanagedValuesSource",
-          "TsEmitName": "getUnmanagedValuesSource",
+          "TsEmitName": "GetUnmanagedValuesSource",
           "NormalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3287,7 +3287,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3317,7 +3317,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(T):System.Void*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3331,7 +3331,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.Void*):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3345,7 +3345,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.Void*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3375,7 +3375,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.String):System.UInt16*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3389,7 +3389,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.UInt16*):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3403,7 +3403,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.UInt16*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3417,7 +3417,7 @@
         },
         {
           "ClrName": "GetPinnableReference",
-          "TsEmitName": "getPinnableReference",
+          "TsEmitName": "GetPinnableReference",
           "NormalizedSignature": "GetPinnableReference|(System.String):System.Char\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3447,7 +3447,7 @@
       "Methods": [
         {
           "ClrName": "ConvertToUnmanaged",
-          "TsEmitName": "convertToUnmanaged",
+          "TsEmitName": "ConvertToUnmanaged",
           "NormalizedSignature": "ConvertToUnmanaged|(System.String):System.Byte*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3461,7 +3461,7 @@
         },
         {
           "ClrName": "ConvertToManaged",
-          "TsEmitName": "convertToManaged",
+          "TsEmitName": "ConvertToManaged",
           "NormalizedSignature": "ConvertToManaged|(System.Byte*):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3475,7 +3475,7 @@
         },
         {
           "ClrName": "Free",
-          "TsEmitName": "free",
+          "TsEmitName": "Free",
           "NormalizedSignature": "Free|(System.Byte*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

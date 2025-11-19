@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Object",
-          "TsEmitName": "object_",
+          "TsEmitName": "Object",
           "NormalizedSignature": "Object|System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Enumerable",
-          "TsEmitName": "enumerable",
+          "TsEmitName": "Enumerable",
           "NormalizedSignature": "Enumerable|System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "Dictionary",
-          "TsEmitName": "dictionary",
+          "TsEmitName": "Dictionary",
           "NormalizedSignature": "Dictionary|System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -72,7 +72,7 @@
       "Methods": [
         {
           "ClrName": "GetTypeInfo",
-          "TsEmitName": "getTypeInfo",
+          "TsEmitName": "GetTypeInfo",
           "NormalizedSignature": "GetTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -103,7 +103,7 @@
       "Properties": [
         {
           "ClrName": "DerivedType",
-          "TsEmitName": "derivedType",
+          "TsEmitName": "DerivedType",
           "NormalizedSignature": "DerivedType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -117,7 +117,7 @@
         },
         {
           "ClrName": "TypeDiscriminator",
-          "TsEmitName": "typeDiscriminator",
+          "TsEmitName": "TypeDiscriminator",
           "NormalizedSignature": "TypeDiscriminator|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -162,7 +162,7 @@
       "Methods": [
         {
           "ClrName": "GetTypeInfo",
-          "TsEmitName": "getTypeInfo",
+          "TsEmitName": "GetTypeInfo",
           "NormalizedSignature": "GetTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -176,7 +176,7 @@
         },
         {
           "ClrName": "GetTypeInfo",
-          "TsEmitName": "getTypeInfo$view",
+          "TsEmitName": "GetTypeInfo$view",
           "NormalizedSignature": "GetTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -193,7 +193,7 @@
       "Properties": [
         {
           "ClrName": "Modifiers",
-          "TsEmitName": "modifiers",
+          "TsEmitName": "Modifiers",
           "NormalizedSignature": "Modifiers|:System.Collections.Generic.IList_1[[System.Action_1[[System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -229,7 +229,7 @@
       "Properties": [
         {
           "ClrName": "ObjectCreator",
-          "TsEmitName": "objectCreator",
+          "TsEmitName": "ObjectCreator",
           "NormalizedSignature": "ObjectCreator|:Func_1|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         },
         {
           "ClrName": "KeyInfo",
-          "TsEmitName": "keyInfo",
+          "TsEmitName": "KeyInfo",
           "NormalizedSignature": "KeyInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -257,7 +257,7 @@
         },
         {
           "ClrName": "ElementInfo",
-          "TsEmitName": "elementInfo",
+          "TsEmitName": "ElementInfo",
           "NormalizedSignature": "ElementInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -271,7 +271,7 @@
         },
         {
           "ClrName": "NumberHandling",
-          "TsEmitName": "numberHandling",
+          "TsEmitName": "NumberHandling",
           "NormalizedSignature": "NumberHandling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -285,7 +285,7 @@
         },
         {
           "ClrName": "SerializeHandler",
-          "TsEmitName": "serializeHandler",
+          "TsEmitName": "SerializeHandler",
           "NormalizedSignature": "SerializeHandler|:Action_2|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -321,7 +321,7 @@
       "Properties": [
         {
           "ClrName": "ObjectCreator",
-          "TsEmitName": "objectCreator",
+          "TsEmitName": "ObjectCreator",
           "NormalizedSignature": "ObjectCreator|:Func_1|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -335,7 +335,7 @@
         },
         {
           "ClrName": "ObjectWithParameterizedConstructorCreator",
-          "TsEmitName": "objectWithParameterizedConstructorCreator",
+          "TsEmitName": "ObjectWithParameterizedConstructorCreator",
           "NormalizedSignature": "ObjectWithParameterizedConstructorCreator|:Func_2|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -349,7 +349,7 @@
         },
         {
           "ClrName": "PropertyMetadataInitializer",
-          "TsEmitName": "propertyMetadataInitializer",
+          "TsEmitName": "PropertyMetadataInitializer",
           "NormalizedSignature": "PropertyMetadataInitializer|:System.Func_2[[System.Text.Json.Serialization.JsonSerializerContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Serialization.Metadata.JsonPropertyInfo[],System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -363,7 +363,7 @@
         },
         {
           "ClrName": "ConstructorParameterMetadataInitializer",
-          "TsEmitName": "constructorParameterMetadataInitializer",
+          "TsEmitName": "ConstructorParameterMetadataInitializer",
           "NormalizedSignature": "ConstructorParameterMetadataInitializer|:System.Func_1[[System.Text.Json.Serialization.Metadata.JsonParameterInfoValues[],System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -377,7 +377,7 @@
         },
         {
           "ClrName": "ConstructorAttributeProviderFactory",
-          "TsEmitName": "constructorAttributeProviderFactory",
+          "TsEmitName": "ConstructorAttributeProviderFactory",
           "NormalizedSignature": "ConstructorAttributeProviderFactory|:System.Func_1[[System.Reflection.ICustomAttributeProvider,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -391,7 +391,7 @@
         },
         {
           "ClrName": "NumberHandling",
-          "TsEmitName": "numberHandling",
+          "TsEmitName": "NumberHandling",
           "NormalizedSignature": "NumberHandling|:System.Text.Json.Serialization.JsonNumberHandling|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -405,7 +405,7 @@
         },
         {
           "ClrName": "SerializeHandler",
-          "TsEmitName": "serializeHandler",
+          "TsEmitName": "SerializeHandler",
           "NormalizedSignature": "SerializeHandler|:Action_2|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -441,7 +441,7 @@
       "Properties": [
         {
           "ClrName": "DeclaringType",
-          "TsEmitName": "declaringType",
+          "TsEmitName": "DeclaringType",
           "NormalizedSignature": "DeclaringType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -455,7 +455,7 @@
         },
         {
           "ClrName": "Position",
-          "TsEmitName": "position",
+          "TsEmitName": "Position",
           "NormalizedSignature": "Position|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -469,7 +469,7 @@
         },
         {
           "ClrName": "ParameterType",
-          "TsEmitName": "parameterType",
+          "TsEmitName": "ParameterType",
           "NormalizedSignature": "ParameterType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -483,7 +483,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -497,7 +497,7 @@
         },
         {
           "ClrName": "HasDefaultValue",
-          "TsEmitName": "hasDefaultValue",
+          "TsEmitName": "HasDefaultValue",
           "NormalizedSignature": "HasDefaultValue|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -511,7 +511,7 @@
         },
         {
           "ClrName": "DefaultValue",
-          "TsEmitName": "defaultValue",
+          "TsEmitName": "DefaultValue",
           "NormalizedSignature": "DefaultValue|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -525,7 +525,7 @@
         },
         {
           "ClrName": "IsNullable",
-          "TsEmitName": "isNullable",
+          "TsEmitName": "IsNullable",
           "NormalizedSignature": "IsNullable|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -539,7 +539,7 @@
         },
         {
           "ClrName": "IsMemberInitializer",
-          "TsEmitName": "isMemberInitializer",
+          "TsEmitName": "IsMemberInitializer",
           "NormalizedSignature": "IsMemberInitializer|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -553,7 +553,7 @@
         },
         {
           "ClrName": "AttributeProvider",
-          "TsEmitName": "attributeProvider",
+          "TsEmitName": "AttributeProvider",
           "NormalizedSignature": "AttributeProvider|:System.Reflection.ICustomAttributeProvider|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -583,7 +583,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -597,7 +597,7 @@
         },
         {
           "ClrName": "ParameterType",
-          "TsEmitName": "parameterType",
+          "TsEmitName": "ParameterType",
           "NormalizedSignature": "ParameterType|:System.Type|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -611,7 +611,7 @@
         },
         {
           "ClrName": "Position",
-          "TsEmitName": "position",
+          "TsEmitName": "Position",
           "NormalizedSignature": "Position|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -625,7 +625,7 @@
         },
         {
           "ClrName": "HasDefaultValue",
-          "TsEmitName": "hasDefaultValue",
+          "TsEmitName": "HasDefaultValue",
           "NormalizedSignature": "HasDefaultValue|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -639,7 +639,7 @@
         },
         {
           "ClrName": "DefaultValue",
-          "TsEmitName": "defaultValue",
+          "TsEmitName": "DefaultValue",
           "NormalizedSignature": "DefaultValue|:System.Object|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         },
         {
           "ClrName": "IsNullable",
-          "TsEmitName": "isNullable",
+          "TsEmitName": "IsNullable",
           "NormalizedSignature": "IsNullable|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -667,7 +667,7 @@
         },
         {
           "ClrName": "IsMemberInitializer",
-          "TsEmitName": "isMemberInitializer",
+          "TsEmitName": "IsMemberInitializer",
           "NormalizedSignature": "IsMemberInitializer|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -703,7 +703,7 @@
       "Properties": [
         {
           "ClrName": "DerivedTypes",
-          "TsEmitName": "derivedTypes",
+          "TsEmitName": "DerivedTypes",
           "NormalizedSignature": "DerivedTypes|:System.Collections.Generic.IList_1[[System.Text.Json.Serialization.Metadata.JsonDerivedType,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -717,7 +717,7 @@
         },
         {
           "ClrName": "IgnoreUnrecognizedTypeDiscriminators",
-          "TsEmitName": "ignoreUnrecognizedTypeDiscriminators",
+          "TsEmitName": "IgnoreUnrecognizedTypeDiscriminators",
           "NormalizedSignature": "IgnoreUnrecognizedTypeDiscriminators|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -731,7 +731,7 @@
         },
         {
           "ClrName": "UnknownDerivedTypeHandling",
-          "TsEmitName": "unknownDerivedTypeHandling",
+          "TsEmitName": "UnknownDerivedTypeHandling",
           "NormalizedSignature": "UnknownDerivedTypeHandling|:System.Text.Json.Serialization.JsonUnknownDerivedTypeHandling|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -745,7 +745,7 @@
         },
         {
           "ClrName": "TypeDiscriminatorPropertyName",
-          "TsEmitName": "typeDiscriminatorPropertyName",
+          "TsEmitName": "TypeDiscriminatorPropertyName",
           "NormalizedSignature": "TypeDiscriminatorPropertyName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -781,7 +781,7 @@
       "Properties": [
         {
           "ClrName": "CustomConverter",
-          "TsEmitName": "customConverter",
+          "TsEmitName": "CustomConverter",
           "NormalizedSignature": "CustomConverter|:System.Text.Json.Serialization.JsonConverter|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -795,7 +795,7 @@
         },
         {
           "ClrName": "Get",
-          "TsEmitName": "get_",
+          "TsEmitName": "Get",
           "NormalizedSignature": "Get|:System.Func_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -809,7 +809,7 @@
         },
         {
           "ClrName": "Set",
-          "TsEmitName": "set_",
+          "TsEmitName": "Set",
           "NormalizedSignature": "Set|:System.Action_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -823,7 +823,7 @@
         },
         {
           "ClrName": "ShouldSerialize",
-          "TsEmitName": "shouldSerialize",
+          "TsEmitName": "ShouldSerialize",
           "NormalizedSignature": "ShouldSerialize|:System.Func_3[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -837,7 +837,7 @@
         },
         {
           "ClrName": "AttributeProvider",
-          "TsEmitName": "attributeProvider",
+          "TsEmitName": "AttributeProvider",
           "NormalizedSignature": "AttributeProvider|:System.Reflection.ICustomAttributeProvider|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -851,7 +851,7 @@
         },
         {
           "ClrName": "ObjectCreationHandling",
-          "TsEmitName": "objectCreationHandling",
+          "TsEmitName": "ObjectCreationHandling",
           "NormalizedSignature": "ObjectCreationHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonObjectCreationHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -865,7 +865,7 @@
         },
         {
           "ClrName": "IsGetNullable",
-          "TsEmitName": "isGetNullable",
+          "TsEmitName": "IsGetNullable",
           "NormalizedSignature": "IsGetNullable|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -879,7 +879,7 @@
         },
         {
           "ClrName": "IsSetNullable",
-          "TsEmitName": "isSetNullable",
+          "TsEmitName": "IsSetNullable",
           "NormalizedSignature": "IsSetNullable|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -893,7 +893,7 @@
         },
         {
           "ClrName": "IsExtensionData",
-          "TsEmitName": "isExtensionData",
+          "TsEmitName": "IsExtensionData",
           "NormalizedSignature": "IsExtensionData|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -907,7 +907,7 @@
         },
         {
           "ClrName": "IsRequired",
-          "TsEmitName": "isRequired",
+          "TsEmitName": "IsRequired",
           "NormalizedSignature": "IsRequired|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -921,7 +921,7 @@
         },
         {
           "ClrName": "AssociatedParameter",
-          "TsEmitName": "associatedParameter",
+          "TsEmitName": "AssociatedParameter",
           "NormalizedSignature": "AssociatedParameter|:System.Text.Json.Serialization.Metadata.JsonParameterInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -935,7 +935,7 @@
         },
         {
           "ClrName": "DeclaringType",
-          "TsEmitName": "declaringType",
+          "TsEmitName": "DeclaringType",
           "NormalizedSignature": "DeclaringType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -949,7 +949,7 @@
         },
         {
           "ClrName": "PropertyType",
-          "TsEmitName": "propertyType",
+          "TsEmitName": "PropertyType",
           "NormalizedSignature": "PropertyType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -963,7 +963,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -977,7 +977,7 @@
         },
         {
           "ClrName": "Options",
-          "TsEmitName": "options",
+          "TsEmitName": "Options",
           "NormalizedSignature": "Options|:System.Text.Json.JsonSerializerOptions|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -991,7 +991,7 @@
         },
         {
           "ClrName": "Order",
-          "TsEmitName": "order",
+          "TsEmitName": "Order",
           "NormalizedSignature": "Order|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1005,7 +1005,7 @@
         },
         {
           "ClrName": "NumberHandling",
-          "TsEmitName": "numberHandling",
+          "TsEmitName": "NumberHandling",
           "NormalizedSignature": "NumberHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1035,7 +1035,7 @@
       "Properties": [
         {
           "ClrName": "IsProperty",
-          "TsEmitName": "isProperty",
+          "TsEmitName": "IsProperty",
           "NormalizedSignature": "IsProperty|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1049,7 +1049,7 @@
         },
         {
           "ClrName": "IsPublic",
-          "TsEmitName": "isPublic",
+          "TsEmitName": "IsPublic",
           "NormalizedSignature": "IsPublic|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1063,7 +1063,7 @@
         },
         {
           "ClrName": "IsVirtual",
-          "TsEmitName": "isVirtual",
+          "TsEmitName": "IsVirtual",
           "NormalizedSignature": "IsVirtual|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1077,7 +1077,7 @@
         },
         {
           "ClrName": "DeclaringType",
-          "TsEmitName": "declaringType",
+          "TsEmitName": "DeclaringType",
           "NormalizedSignature": "DeclaringType|:System.Type|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1091,7 +1091,7 @@
         },
         {
           "ClrName": "PropertyTypeInfo",
-          "TsEmitName": "propertyTypeInfo",
+          "TsEmitName": "PropertyTypeInfo",
           "NormalizedSignature": "PropertyTypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1105,7 +1105,7 @@
         },
         {
           "ClrName": "Converter",
-          "TsEmitName": "converter",
+          "TsEmitName": "Converter",
           "NormalizedSignature": "Converter|:JsonConverter_1|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1119,7 +1119,7 @@
         },
         {
           "ClrName": "Getter",
-          "TsEmitName": "getter",
+          "TsEmitName": "Getter",
           "NormalizedSignature": "Getter|:Func_2|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1133,7 +1133,7 @@
         },
         {
           "ClrName": "Setter",
-          "TsEmitName": "setter",
+          "TsEmitName": "Setter",
           "NormalizedSignature": "Setter|:Action_2|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1147,7 +1147,7 @@
         },
         {
           "ClrName": "IgnoreCondition",
-          "TsEmitName": "ignoreCondition",
+          "TsEmitName": "IgnoreCondition",
           "NormalizedSignature": "IgnoreCondition|:System.Nullable_1[[System.Text.Json.Serialization.JsonIgnoreCondition,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1161,7 +1161,7 @@
         },
         {
           "ClrName": "HasJsonInclude",
-          "TsEmitName": "hasJsonInclude",
+          "TsEmitName": "HasJsonInclude",
           "NormalizedSignature": "HasJsonInclude|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1175,7 +1175,7 @@
         },
         {
           "ClrName": "IsExtensionData",
-          "TsEmitName": "isExtensionData",
+          "TsEmitName": "IsExtensionData",
           "NormalizedSignature": "IsExtensionData|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1189,7 +1189,7 @@
         },
         {
           "ClrName": "NumberHandling",
-          "TsEmitName": "numberHandling",
+          "TsEmitName": "NumberHandling",
           "NormalizedSignature": "NumberHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1203,7 +1203,7 @@
         },
         {
           "ClrName": "PropertyName",
-          "TsEmitName": "propertyName",
+          "TsEmitName": "PropertyName",
           "NormalizedSignature": "PropertyName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1217,7 +1217,7 @@
         },
         {
           "ClrName": "JsonPropertyName",
-          "TsEmitName": "jsonPropertyName",
+          "TsEmitName": "JsonPropertyName",
           "NormalizedSignature": "JsonPropertyName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1231,7 +1231,7 @@
         },
         {
           "ClrName": "AttributeProviderFactory",
-          "TsEmitName": "attributeProviderFactory",
+          "TsEmitName": "AttributeProviderFactory",
           "NormalizedSignature": "AttributeProviderFactory|:System.Func_1[[System.Reflection.ICustomAttributeProvider,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1266,7 +1266,7 @@
       "Methods": [
         {
           "ClrName": "MakeReadOnly",
-          "TsEmitName": "makeReadOnly",
+          "TsEmitName": "MakeReadOnly",
           "NormalizedSignature": "MakeReadOnly|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1280,7 +1280,7 @@
         },
         {
           "ClrName": "CreateJsonTypeInfo",
-          "TsEmitName": "createJsonTypeInfo",
+          "TsEmitName": "CreateJsonTypeInfo",
           "NormalizedSignature": "CreateJsonTypeInfo|(System.Text.Json.JsonSerializerOptions):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1294,7 +1294,7 @@
         },
         {
           "ClrName": "CreateJsonTypeInfo",
-          "TsEmitName": "createJsonTypeInfo2",
+          "TsEmitName": "CreateJsonTypeInfo2",
           "NormalizedSignature": "CreateJsonTypeInfo|(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1308,7 +1308,7 @@
         },
         {
           "ClrName": "CreateJsonPropertyInfo",
-          "TsEmitName": "createJsonPropertyInfo",
+          "TsEmitName": "CreateJsonPropertyInfo",
           "NormalizedSignature": "CreateJsonPropertyInfo|(System.Type,System.String):System.Text.Json.Serialization.Metadata.JsonPropertyInfo|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1324,7 +1324,7 @@
       "Properties": [
         {
           "ClrName": "ElementType",
-          "TsEmitName": "elementType",
+          "TsEmitName": "ElementType",
           "NormalizedSignature": "ElementType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1338,7 +1338,7 @@
         },
         {
           "ClrName": "KeyType",
-          "TsEmitName": "keyType",
+          "TsEmitName": "KeyType",
           "NormalizedSignature": "KeyType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1352,7 +1352,7 @@
         },
         {
           "ClrName": "CreateObject",
-          "TsEmitName": "createObject",
+          "TsEmitName": "CreateObject",
           "NormalizedSignature": "CreateObject|:System.Func_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1366,7 +1366,7 @@
         },
         {
           "ClrName": "OnSerializing",
-          "TsEmitName": "onSerializing",
+          "TsEmitName": "OnSerializing",
           "NormalizedSignature": "OnSerializing|:System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1380,7 +1380,7 @@
         },
         {
           "ClrName": "OnSerialized",
-          "TsEmitName": "onSerialized",
+          "TsEmitName": "OnSerialized",
           "NormalizedSignature": "OnSerialized|:System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1394,7 +1394,7 @@
         },
         {
           "ClrName": "OnDeserializing",
-          "TsEmitName": "onDeserializing",
+          "TsEmitName": "OnDeserializing",
           "NormalizedSignature": "OnDeserializing|:System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1408,7 +1408,7 @@
         },
         {
           "ClrName": "OnDeserialized",
-          "TsEmitName": "onDeserialized",
+          "TsEmitName": "OnDeserialized",
           "NormalizedSignature": "OnDeserialized|:System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1422,7 +1422,7 @@
         },
         {
           "ClrName": "Properties",
-          "TsEmitName": "properties",
+          "TsEmitName": "Properties",
           "NormalizedSignature": "Properties|:System.Collections.Generic.IList_1[[System.Text.Json.Serialization.Metadata.JsonPropertyInfo,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1436,7 +1436,7 @@
         },
         {
           "ClrName": "PolymorphismOptions",
-          "TsEmitName": "polymorphismOptions",
+          "TsEmitName": "PolymorphismOptions",
           "NormalizedSignature": "PolymorphismOptions|:System.Text.Json.Serialization.Metadata.JsonPolymorphismOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1450,7 +1450,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1464,7 +1464,7 @@
         },
         {
           "ClrName": "Options",
-          "TsEmitName": "options",
+          "TsEmitName": "Options",
           "NormalizedSignature": "Options|:System.Text.Json.JsonSerializerOptions|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1478,7 +1478,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1492,7 +1492,7 @@
         },
         {
           "ClrName": "Converter",
-          "TsEmitName": "converter",
+          "TsEmitName": "Converter",
           "NormalizedSignature": "Converter|:System.Text.Json.Serialization.JsonConverter|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1506,7 +1506,7 @@
         },
         {
           "ClrName": "Kind",
-          "TsEmitName": "kind",
+          "TsEmitName": "Kind",
           "NormalizedSignature": "Kind|:System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1520,7 +1520,7 @@
         },
         {
           "ClrName": "NumberHandling",
-          "TsEmitName": "numberHandling",
+          "TsEmitName": "NumberHandling",
           "NormalizedSignature": "NumberHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1534,7 +1534,7 @@
         },
         {
           "ClrName": "UnmappedMemberHandling",
-          "TsEmitName": "unmappedMemberHandling",
+          "TsEmitName": "UnmappedMemberHandling",
           "NormalizedSignature": "UnmappedMemberHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonUnmappedMemberHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1548,7 +1548,7 @@
         },
         {
           "ClrName": "PreferredPropertyObjectCreationHandling",
-          "TsEmitName": "preferredPropertyObjectCreationHandling",
+          "TsEmitName": "PreferredPropertyObjectCreationHandling",
           "NormalizedSignature": "PreferredPropertyObjectCreationHandling|:System.Nullable_1[[System.Text.Json.Serialization.JsonObjectCreationHandling,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1562,7 +1562,7 @@
         },
         {
           "ClrName": "OriginatingResolver",
-          "TsEmitName": "originatingResolver",
+          "TsEmitName": "OriginatingResolver",
           "NormalizedSignature": "OriginatingResolver|:System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1576,7 +1576,7 @@
         },
         {
           "ClrName": "ConstructorAttributeProvider",
-          "TsEmitName": "constructorAttributeProvider",
+          "TsEmitName": "ConstructorAttributeProvider",
           "NormalizedSignature": "ConstructorAttributeProvider|:System.Reflection.ICustomAttributeProvider|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1606,7 +1606,7 @@
       "Properties": [
         {
           "ClrName": "CreateObject",
-          "TsEmitName": "createObject",
+          "TsEmitName": "CreateObject",
           "NormalizedSignature": "CreateObject|:Func_1|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1620,7 +1620,7 @@
         },
         {
           "ClrName": "SerializeHandler",
-          "TsEmitName": "serializeHandler",
+          "TsEmitName": "SerializeHandler",
           "NormalizedSignature": "SerializeHandler|:Action_2|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1649,7 +1649,7 @@
       "Methods": [
         {
           "ClrName": "CreateArrayInfo",
-          "TsEmitName": "createArrayInfo",
+          "TsEmitName": "CreateArrayInfo",
           "NormalizedSignature": "CreateArrayInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1663,7 +1663,7 @@
         },
         {
           "ClrName": "CreateListInfo",
-          "TsEmitName": "createListInfo",
+          "TsEmitName": "CreateListInfo",
           "NormalizedSignature": "CreateListInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1677,7 +1677,7 @@
         },
         {
           "ClrName": "CreateDictionaryInfo",
-          "TsEmitName": "createDictionaryInfo",
+          "TsEmitName": "CreateDictionaryInfo",
           "NormalizedSignature": "CreateDictionaryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1691,7 +1691,7 @@
         },
         {
           "ClrName": "CreateImmutableDictionaryInfo",
-          "TsEmitName": "createImmutableDictionaryInfo",
+          "TsEmitName": "CreateImmutableDictionaryInfo",
           "NormalizedSignature": "CreateImmutableDictionaryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Func_2):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1705,7 +1705,7 @@
         },
         {
           "ClrName": "CreateIDictionaryInfo",
-          "TsEmitName": "createIDictionaryInfo",
+          "TsEmitName": "CreateIDictionaryInfo",
           "NormalizedSignature": "CreateIDictionaryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1719,7 +1719,7 @@
         },
         {
           "ClrName": "CreateIReadOnlyDictionaryInfo",
-          "TsEmitName": "createIReadOnlyDictionaryInfo",
+          "TsEmitName": "CreateIReadOnlyDictionaryInfo",
           "NormalizedSignature": "CreateIReadOnlyDictionaryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1733,7 +1733,7 @@
         },
         {
           "ClrName": "CreateImmutableEnumerableInfo",
-          "TsEmitName": "createImmutableEnumerableInfo",
+          "TsEmitName": "CreateImmutableEnumerableInfo",
           "NormalizedSignature": "CreateImmutableEnumerableInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Func_2):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1747,7 +1747,7 @@
         },
         {
           "ClrName": "CreateIListInfo",
-          "TsEmitName": "createIListInfo",
+          "TsEmitName": "CreateIListInfo",
           "NormalizedSignature": "CreateIListInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1761,7 +1761,7 @@
         },
         {
           "ClrName": "CreateISetInfo",
-          "TsEmitName": "createISetInfo",
+          "TsEmitName": "CreateISetInfo",
           "NormalizedSignature": "CreateISetInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1775,7 +1775,7 @@
         },
         {
           "ClrName": "CreateICollectionInfo",
-          "TsEmitName": "createICollectionInfo",
+          "TsEmitName": "CreateICollectionInfo",
           "NormalizedSignature": "CreateICollectionInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1789,7 +1789,7 @@
         },
         {
           "ClrName": "CreateStackInfo",
-          "TsEmitName": "createStackInfo",
+          "TsEmitName": "CreateStackInfo",
           "NormalizedSignature": "CreateStackInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1803,7 +1803,7 @@
         },
         {
           "ClrName": "CreateQueueInfo",
-          "TsEmitName": "createQueueInfo",
+          "TsEmitName": "CreateQueueInfo",
           "NormalizedSignature": "CreateQueueInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1817,7 +1817,7 @@
         },
         {
           "ClrName": "CreateConcurrentStackInfo",
-          "TsEmitName": "createConcurrentStackInfo",
+          "TsEmitName": "CreateConcurrentStackInfo",
           "NormalizedSignature": "CreateConcurrentStackInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1831,7 +1831,7 @@
         },
         {
           "ClrName": "CreateConcurrentQueueInfo",
-          "TsEmitName": "createConcurrentQueueInfo",
+          "TsEmitName": "CreateConcurrentQueueInfo",
           "NormalizedSignature": "CreateConcurrentQueueInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1845,7 +1845,7 @@
         },
         {
           "ClrName": "CreateIEnumerableInfo",
-          "TsEmitName": "createIEnumerableInfo",
+          "TsEmitName": "CreateIEnumerableInfo",
           "NormalizedSignature": "CreateIEnumerableInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1859,7 +1859,7 @@
         },
         {
           "ClrName": "CreateIAsyncEnumerableInfo",
-          "TsEmitName": "createIAsyncEnumerableInfo",
+          "TsEmitName": "CreateIAsyncEnumerableInfo",
           "NormalizedSignature": "CreateIAsyncEnumerableInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1873,7 +1873,7 @@
         },
         {
           "ClrName": "CreateStackInfo",
-          "TsEmitName": "createStackInfo2",
+          "TsEmitName": "CreateStackInfo2",
           "NormalizedSignature": "CreateStackInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Action_2):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1887,7 +1887,7 @@
         },
         {
           "ClrName": "CreateQueueInfo",
-          "TsEmitName": "createQueueInfo2",
+          "TsEmitName": "CreateQueueInfo2",
           "NormalizedSignature": "CreateQueueInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Action_2):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1901,7 +1901,7 @@
         },
         {
           "ClrName": "CreateMemoryInfo",
-          "TsEmitName": "createMemoryInfo",
+          "TsEmitName": "CreateMemoryInfo",
           "NormalizedSignature": "CreateMemoryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1915,7 +1915,7 @@
         },
         {
           "ClrName": "CreateReadOnlyMemoryInfo",
-          "TsEmitName": "createReadOnlyMemoryInfo",
+          "TsEmitName": "CreateReadOnlyMemoryInfo",
           "NormalizedSignature": "CreateReadOnlyMemoryInfo|(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1929,7 +1929,7 @@
         },
         {
           "ClrName": "GetUnsupportedTypeConverter",
-          "TsEmitName": "getUnsupportedTypeConverter",
+          "TsEmitName": "GetUnsupportedTypeConverter",
           "NormalizedSignature": "GetUnsupportedTypeConverter|():JsonConverter_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1943,7 +1943,7 @@
         },
         {
           "ClrName": "GetEnumConverter",
-          "TsEmitName": "getEnumConverter",
+          "TsEmitName": "GetEnumConverter",
           "NormalizedSignature": "GetEnumConverter|(System.Text.Json.JsonSerializerOptions):JsonConverter_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1957,7 +1957,7 @@
         },
         {
           "ClrName": "GetNullableConverter",
-          "TsEmitName": "getNullableConverter",
+          "TsEmitName": "GetNullableConverter",
           "NormalizedSignature": "GetNullableConverter|(JsonTypeInfo_1):JsonConverter_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1971,7 +1971,7 @@
         },
         {
           "ClrName": "GetNullableConverter",
-          "TsEmitName": "getNullableConverter2",
+          "TsEmitName": "GetNullableConverter2",
           "NormalizedSignature": "GetNullableConverter|(System.Text.Json.JsonSerializerOptions):JsonConverter_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1985,7 +1985,7 @@
         },
         {
           "ClrName": "CreatePropertyInfo",
-          "TsEmitName": "createPropertyInfo",
+          "TsEmitName": "CreatePropertyInfo",
           "NormalizedSignature": "CreatePropertyInfo|(System.Text.Json.JsonSerializerOptions,JsonPropertyInfoValues_1):System.Text.Json.Serialization.Metadata.JsonPropertyInfo|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1999,7 +1999,7 @@
         },
         {
           "ClrName": "CreateObjectInfo",
-          "TsEmitName": "createObjectInfo",
+          "TsEmitName": "CreateObjectInfo",
           "NormalizedSignature": "CreateObjectInfo|(System.Text.Json.JsonSerializerOptions,JsonObjectInfoValues_1):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2013,7 +2013,7 @@
         },
         {
           "ClrName": "CreateValueInfo",
-          "TsEmitName": "createValueInfo",
+          "TsEmitName": "CreateValueInfo",
           "NormalizedSignature": "CreateValueInfo|(System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter):JsonTypeInfo_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2029,7 +2029,7 @@
       "Properties": [
         {
           "ClrName": "BooleanConverter",
-          "TsEmitName": "booleanConverter",
+          "TsEmitName": "BooleanConverter",
           "NormalizedSignature": "BooleanConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2043,7 +2043,7 @@
         },
         {
           "ClrName": "ByteArrayConverter",
-          "TsEmitName": "byteArrayConverter",
+          "TsEmitName": "ByteArrayConverter",
           "NormalizedSignature": "ByteArrayConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2057,7 +2057,7 @@
         },
         {
           "ClrName": "ByteConverter",
-          "TsEmitName": "byteConverter",
+          "TsEmitName": "ByteConverter",
           "NormalizedSignature": "ByteConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2071,7 +2071,7 @@
         },
         {
           "ClrName": "CharConverter",
-          "TsEmitName": "charConverter",
+          "TsEmitName": "CharConverter",
           "NormalizedSignature": "CharConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2085,7 +2085,7 @@
         },
         {
           "ClrName": "DateTimeConverter",
-          "TsEmitName": "dateTimeConverter",
+          "TsEmitName": "DateTimeConverter",
           "NormalizedSignature": "DateTimeConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2099,7 +2099,7 @@
         },
         {
           "ClrName": "DateTimeOffsetConverter",
-          "TsEmitName": "dateTimeOffsetConverter",
+          "TsEmitName": "DateTimeOffsetConverter",
           "NormalizedSignature": "DateTimeOffsetConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2113,7 +2113,7 @@
         },
         {
           "ClrName": "DateOnlyConverter",
-          "TsEmitName": "dateOnlyConverter",
+          "TsEmitName": "DateOnlyConverter",
           "NormalizedSignature": "DateOnlyConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.DateOnly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2127,7 +2127,7 @@
         },
         {
           "ClrName": "TimeOnlyConverter",
-          "TsEmitName": "timeOnlyConverter",
+          "TsEmitName": "TimeOnlyConverter",
           "NormalizedSignature": "TimeOnlyConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.TimeOnly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2141,7 +2141,7 @@
         },
         {
           "ClrName": "DecimalConverter",
-          "TsEmitName": "decimalConverter",
+          "TsEmitName": "DecimalConverter",
           "NormalizedSignature": "DecimalConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2155,7 +2155,7 @@
         },
         {
           "ClrName": "DoubleConverter",
-          "TsEmitName": "doubleConverter",
+          "TsEmitName": "DoubleConverter",
           "NormalizedSignature": "DoubleConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2169,7 +2169,7 @@
         },
         {
           "ClrName": "GuidConverter",
-          "TsEmitName": "guidConverter",
+          "TsEmitName": "GuidConverter",
           "NormalizedSignature": "GuidConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Guid,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2183,7 +2183,7 @@
         },
         {
           "ClrName": "Int16Converter",
-          "TsEmitName": "int16Converter",
+          "TsEmitName": "Int16Converter",
           "NormalizedSignature": "Int16Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2197,7 +2197,7 @@
         },
         {
           "ClrName": "Int32Converter",
-          "TsEmitName": "int32Converter",
+          "TsEmitName": "Int32Converter",
           "NormalizedSignature": "Int32Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2211,7 +2211,7 @@
         },
         {
           "ClrName": "Int64Converter",
-          "TsEmitName": "int64Converter",
+          "TsEmitName": "Int64Converter",
           "NormalizedSignature": "Int64Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2225,7 +2225,7 @@
         },
         {
           "ClrName": "Int128Converter",
-          "TsEmitName": "int128Converter",
+          "TsEmitName": "Int128Converter",
           "NormalizedSignature": "Int128Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2239,7 +2239,7 @@
         },
         {
           "ClrName": "UInt128Converter",
-          "TsEmitName": "uInt128Converter",
+          "TsEmitName": "UInt128Converter",
           "NormalizedSignature": "UInt128Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2253,7 +2253,7 @@
         },
         {
           "ClrName": "JsonArrayConverter",
-          "TsEmitName": "jsonArrayConverter",
+          "TsEmitName": "JsonArrayConverter",
           "NormalizedSignature": "JsonArrayConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.Nodes.JsonArray,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2267,7 +2267,7 @@
         },
         {
           "ClrName": "JsonElementConverter",
-          "TsEmitName": "jsonElementConverter",
+          "TsEmitName": "JsonElementConverter",
           "NormalizedSignature": "JsonElementConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.JsonElement,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2281,7 +2281,7 @@
         },
         {
           "ClrName": "JsonNodeConverter",
-          "TsEmitName": "jsonNodeConverter",
+          "TsEmitName": "JsonNodeConverter",
           "NormalizedSignature": "JsonNodeConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2295,7 +2295,7 @@
         },
         {
           "ClrName": "JsonObjectConverter",
-          "TsEmitName": "jsonObjectConverter",
+          "TsEmitName": "JsonObjectConverter",
           "NormalizedSignature": "JsonObjectConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.Nodes.JsonObject,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2309,7 +2309,7 @@
         },
         {
           "ClrName": "JsonValueConverter",
-          "TsEmitName": "jsonValueConverter",
+          "TsEmitName": "JsonValueConverter",
           "NormalizedSignature": "JsonValueConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.Nodes.JsonValue,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2323,7 +2323,7 @@
         },
         {
           "ClrName": "JsonDocumentConverter",
-          "TsEmitName": "jsonDocumentConverter",
+          "TsEmitName": "JsonDocumentConverter",
           "NormalizedSignature": "JsonDocumentConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Text.Json.JsonDocument,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2337,7 +2337,7 @@
         },
         {
           "ClrName": "MemoryByteConverter",
-          "TsEmitName": "memoryByteConverter",
+          "TsEmitName": "MemoryByteConverter",
           "NormalizedSignature": "MemoryByteConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2351,7 +2351,7 @@
         },
         {
           "ClrName": "ReadOnlyMemoryByteConverter",
-          "TsEmitName": "readOnlyMemoryByteConverter",
+          "TsEmitName": "ReadOnlyMemoryByteConverter",
           "NormalizedSignature": "ReadOnlyMemoryByteConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2365,7 +2365,7 @@
         },
         {
           "ClrName": "ObjectConverter",
-          "TsEmitName": "objectConverter",
+          "TsEmitName": "ObjectConverter",
           "NormalizedSignature": "ObjectConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2379,7 +2379,7 @@
         },
         {
           "ClrName": "HalfConverter",
-          "TsEmitName": "halfConverter",
+          "TsEmitName": "HalfConverter",
           "NormalizedSignature": "HalfConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Half,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2393,7 +2393,7 @@
         },
         {
           "ClrName": "SingleConverter",
-          "TsEmitName": "singleConverter",
+          "TsEmitName": "SingleConverter",
           "NormalizedSignature": "SingleConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2407,7 +2407,7 @@
         },
         {
           "ClrName": "SByteConverter",
-          "TsEmitName": "sByteConverter",
+          "TsEmitName": "SByteConverter",
           "NormalizedSignature": "SByteConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.SByte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2421,7 +2421,7 @@
         },
         {
           "ClrName": "StringConverter",
-          "TsEmitName": "stringConverter",
+          "TsEmitName": "StringConverter",
           "NormalizedSignature": "StringConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2435,7 +2435,7 @@
         },
         {
           "ClrName": "TimeSpanConverter",
-          "TsEmitName": "timeSpanConverter",
+          "TsEmitName": "TimeSpanConverter",
           "NormalizedSignature": "TimeSpanConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2449,7 +2449,7 @@
         },
         {
           "ClrName": "UInt16Converter",
-          "TsEmitName": "uInt16Converter",
+          "TsEmitName": "UInt16Converter",
           "NormalizedSignature": "UInt16Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2463,7 +2463,7 @@
         },
         {
           "ClrName": "UInt32Converter",
-          "TsEmitName": "uInt32Converter",
+          "TsEmitName": "UInt32Converter",
           "NormalizedSignature": "UInt32Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2477,7 +2477,7 @@
         },
         {
           "ClrName": "UInt64Converter",
-          "TsEmitName": "uInt64Converter",
+          "TsEmitName": "UInt64Converter",
           "NormalizedSignature": "UInt64Converter|:System.Text.Json.Serialization.JsonConverter_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2491,7 +2491,7 @@
         },
         {
           "ClrName": "UriConverter",
-          "TsEmitName": "uriConverter",
+          "TsEmitName": "UriConverter",
           "NormalizedSignature": "UriConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2505,7 +2505,7 @@
         },
         {
           "ClrName": "VersionConverter",
-          "TsEmitName": "versionConverter",
+          "TsEmitName": "VersionConverter",
           "NormalizedSignature": "VersionConverter|:System.Text.Json.Serialization.JsonConverter_1[[System.Version,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2534,7 +2534,7 @@
       "Methods": [
         {
           "ClrName": "Combine",
-          "TsEmitName": "combine",
+          "TsEmitName": "Combine",
           "NormalizedSignature": "Combine|(System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver[]):System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2548,7 +2548,7 @@
         },
         {
           "ClrName": "Combine",
-          "TsEmitName": "combine2",
+          "TsEmitName": "Combine2",
           "NormalizedSignature": "Combine|(System.ReadOnlySpan_1[[System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2562,7 +2562,7 @@
         },
         {
           "ClrName": "WithAddedModifier",
-          "TsEmitName": "withAddedModifier",
+          "TsEmitName": "WithAddedModifier",
           "NormalizedSignature": "WithAddedModifier|(System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver,System.Action_1[[System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

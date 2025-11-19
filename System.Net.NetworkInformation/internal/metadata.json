@@ -1,9 +1,9 @@
 {
   "Namespace": "System.Net.NetworkInformation",
   "ContributingAssemblies": [
+    "System.Net.Ping",
     "System.Net.NetworkInformation",
-    "System.Net.Primitives",
-    "System.Net.Ping"
+    "System.Net.Primitives"
   ],
   "Types": [
     {
@@ -28,7 +28,7 @@
         },
         {
           "ClrName": "Invalid",
-          "TsEmitName": "invalid",
+          "TsEmitName": "Invalid",
           "NormalizedSignature": "Invalid|System.Net.NetworkInformation.DuplicateAddressDetectionState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -36,7 +36,7 @@
         },
         {
           "ClrName": "Tentative",
-          "TsEmitName": "tentative",
+          "TsEmitName": "Tentative",
           "NormalizedSignature": "Tentative|System.Net.NetworkInformation.DuplicateAddressDetectionState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -44,7 +44,7 @@
         },
         {
           "ClrName": "Duplicate",
-          "TsEmitName": "duplicate",
+          "TsEmitName": "Duplicate",
           "NormalizedSignature": "Duplicate|System.Net.NetworkInformation.DuplicateAddressDetectionState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -52,7 +52,7 @@
         },
         {
           "ClrName": "Deprecated",
-          "TsEmitName": "deprecated",
+          "TsEmitName": "Deprecated",
           "NormalizedSignature": "Deprecated|System.Net.NetworkInformation.DuplicateAddressDetectionState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -60,7 +60,7 @@
         },
         {
           "ClrName": "Preferred",
-          "TsEmitName": "preferred",
+          "TsEmitName": "Preferred",
           "NormalizedSignature": "Preferred|System.Net.NetworkInformation.DuplicateAddressDetectionState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -92,7 +92,7 @@
         },
         {
           "ClrName": "Success",
-          "TsEmitName": "success",
+          "TsEmitName": "Success",
           "NormalizedSignature": "Success|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -100,7 +100,7 @@
         },
         {
           "ClrName": "DestinationNetworkUnreachable",
-          "TsEmitName": "destinationNetworkUnreachable",
+          "TsEmitName": "DestinationNetworkUnreachable",
           "NormalizedSignature": "DestinationNetworkUnreachable|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -108,7 +108,7 @@
         },
         {
           "ClrName": "DestinationHostUnreachable",
-          "TsEmitName": "destinationHostUnreachable",
+          "TsEmitName": "DestinationHostUnreachable",
           "NormalizedSignature": "DestinationHostUnreachable|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -116,7 +116,7 @@
         },
         {
           "ClrName": "DestinationProtocolUnreachable",
-          "TsEmitName": "destinationProtocolUnreachable",
+          "TsEmitName": "DestinationProtocolUnreachable",
           "NormalizedSignature": "DestinationProtocolUnreachable|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -124,7 +124,7 @@
         },
         {
           "ClrName": "DestinationPortUnreachable",
-          "TsEmitName": "destinationPortUnreachable",
+          "TsEmitName": "DestinationPortUnreachable",
           "NormalizedSignature": "DestinationPortUnreachable|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -132,7 +132,7 @@
         },
         {
           "ClrName": "DestinationProhibited",
-          "TsEmitName": "destinationProhibited",
+          "TsEmitName": "DestinationProhibited",
           "NormalizedSignature": "DestinationProhibited|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -140,7 +140,7 @@
         },
         {
           "ClrName": "NoResources",
-          "TsEmitName": "noResources",
+          "TsEmitName": "NoResources",
           "NormalizedSignature": "NoResources|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -148,7 +148,7 @@
         },
         {
           "ClrName": "BadOption",
-          "TsEmitName": "badOption",
+          "TsEmitName": "BadOption",
           "NormalizedSignature": "BadOption|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -156,7 +156,7 @@
         },
         {
           "ClrName": "HardwareError",
-          "TsEmitName": "hardwareError",
+          "TsEmitName": "HardwareError",
           "NormalizedSignature": "HardwareError|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -164,7 +164,7 @@
         },
         {
           "ClrName": "PacketTooBig",
-          "TsEmitName": "packetTooBig",
+          "TsEmitName": "PacketTooBig",
           "NormalizedSignature": "PacketTooBig|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -172,7 +172,7 @@
         },
         {
           "ClrName": "TimedOut",
-          "TsEmitName": "timedOut",
+          "TsEmitName": "TimedOut",
           "NormalizedSignature": "TimedOut|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -180,7 +180,7 @@
         },
         {
           "ClrName": "BadRoute",
-          "TsEmitName": "badRoute",
+          "TsEmitName": "BadRoute",
           "NormalizedSignature": "BadRoute|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -188,7 +188,7 @@
         },
         {
           "ClrName": "TtlExpired",
-          "TsEmitName": "ttlExpired",
+          "TsEmitName": "TtlExpired",
           "NormalizedSignature": "TtlExpired|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -196,7 +196,7 @@
         },
         {
           "ClrName": "TtlReassemblyTimeExceeded",
-          "TsEmitName": "ttlReassemblyTimeExceeded",
+          "TsEmitName": "TtlReassemblyTimeExceeded",
           "NormalizedSignature": "TtlReassemblyTimeExceeded|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -204,7 +204,7 @@
         },
         {
           "ClrName": "ParameterProblem",
-          "TsEmitName": "parameterProblem",
+          "TsEmitName": "ParameterProblem",
           "NormalizedSignature": "ParameterProblem|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -212,7 +212,7 @@
         },
         {
           "ClrName": "SourceQuench",
-          "TsEmitName": "sourceQuench",
+          "TsEmitName": "SourceQuench",
           "NormalizedSignature": "SourceQuench|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -220,7 +220,7 @@
         },
         {
           "ClrName": "BadDestination",
-          "TsEmitName": "badDestination",
+          "TsEmitName": "BadDestination",
           "NormalizedSignature": "BadDestination|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -228,7 +228,7 @@
         },
         {
           "ClrName": "DestinationUnreachable",
-          "TsEmitName": "destinationUnreachable",
+          "TsEmitName": "DestinationUnreachable",
           "NormalizedSignature": "DestinationUnreachable|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -236,7 +236,7 @@
         },
         {
           "ClrName": "TimeExceeded",
-          "TsEmitName": "timeExceeded",
+          "TsEmitName": "TimeExceeded",
           "NormalizedSignature": "TimeExceeded|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -244,7 +244,7 @@
         },
         {
           "ClrName": "BadHeader",
-          "TsEmitName": "badHeader",
+          "TsEmitName": "BadHeader",
           "NormalizedSignature": "BadHeader|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -252,7 +252,7 @@
         },
         {
           "ClrName": "UnrecognizedNextHeader",
-          "TsEmitName": "unrecognizedNextHeader",
+          "TsEmitName": "UnrecognizedNextHeader",
           "NormalizedSignature": "UnrecognizedNextHeader|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -260,7 +260,7 @@
         },
         {
           "ClrName": "IcmpError",
-          "TsEmitName": "icmpError",
+          "TsEmitName": "IcmpError",
           "NormalizedSignature": "IcmpError|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -268,7 +268,7 @@
         },
         {
           "ClrName": "DestinationScopeMismatch",
-          "TsEmitName": "destinationScopeMismatch",
+          "TsEmitName": "DestinationScopeMismatch",
           "NormalizedSignature": "DestinationScopeMismatch|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -276,7 +276,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -308,7 +308,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -316,7 +316,7 @@
         },
         {
           "ClrName": "Broadcast",
-          "TsEmitName": "broadcast",
+          "TsEmitName": "Broadcast",
           "NormalizedSignature": "Broadcast|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -324,7 +324,7 @@
         },
         {
           "ClrName": "Peer2Peer",
-          "TsEmitName": "peer2Peer",
+          "TsEmitName": "Peer2Peer",
           "NormalizedSignature": "Peer2Peer|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -332,7 +332,7 @@
         },
         {
           "ClrName": "Mixed",
-          "TsEmitName": "mixed",
+          "TsEmitName": "Mixed",
           "NormalizedSignature": "Mixed|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -340,7 +340,7 @@
         },
         {
           "ClrName": "Hybrid",
-          "TsEmitName": "hybrid",
+          "TsEmitName": "Hybrid",
           "NormalizedSignature": "Hybrid|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -372,7 +372,7 @@
         },
         {
           "ClrName": "IPv4",
-          "TsEmitName": "iPv4",
+          "TsEmitName": "IPv4",
           "NormalizedSignature": "IPv4|System.Net.NetworkInformation.NetworkInterfaceComponent|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -380,7 +380,7 @@
         },
         {
           "ClrName": "IPv6",
-          "TsEmitName": "iPv6",
+          "TsEmitName": "IPv6",
           "NormalizedSignature": "IPv6|System.Net.NetworkInformation.NetworkInterfaceComponent|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -412,7 +412,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -420,7 +420,7 @@
         },
         {
           "ClrName": "Ethernet",
-          "TsEmitName": "ethernet",
+          "TsEmitName": "Ethernet",
           "NormalizedSignature": "Ethernet|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -428,7 +428,7 @@
         },
         {
           "ClrName": "TokenRing",
-          "TsEmitName": "tokenRing",
+          "TsEmitName": "TokenRing",
           "NormalizedSignature": "TokenRing|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -436,7 +436,7 @@
         },
         {
           "ClrName": "Fddi",
-          "TsEmitName": "fddi",
+          "TsEmitName": "Fddi",
           "NormalizedSignature": "Fddi|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -444,7 +444,7 @@
         },
         {
           "ClrName": "BasicIsdn",
-          "TsEmitName": "basicIsdn",
+          "TsEmitName": "BasicIsdn",
           "NormalizedSignature": "BasicIsdn|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -452,7 +452,7 @@
         },
         {
           "ClrName": "PrimaryIsdn",
-          "TsEmitName": "primaryIsdn",
+          "TsEmitName": "PrimaryIsdn",
           "NormalizedSignature": "PrimaryIsdn|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -460,7 +460,7 @@
         },
         {
           "ClrName": "Ppp",
-          "TsEmitName": "ppp",
+          "TsEmitName": "Ppp",
           "NormalizedSignature": "Ppp|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -468,7 +468,7 @@
         },
         {
           "ClrName": "Loopback",
-          "TsEmitName": "loopback",
+          "TsEmitName": "Loopback",
           "NormalizedSignature": "Loopback|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -476,7 +476,7 @@
         },
         {
           "ClrName": "Ethernet3Megabit",
-          "TsEmitName": "ethernet3Megabit",
+          "TsEmitName": "Ethernet3Megabit",
           "NormalizedSignature": "Ethernet3Megabit|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -484,7 +484,7 @@
         },
         {
           "ClrName": "Slip",
-          "TsEmitName": "slip",
+          "TsEmitName": "Slip",
           "NormalizedSignature": "Slip|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -492,7 +492,7 @@
         },
         {
           "ClrName": "Atm",
-          "TsEmitName": "atm",
+          "TsEmitName": "Atm",
           "NormalizedSignature": "Atm|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -500,7 +500,7 @@
         },
         {
           "ClrName": "GenericModem",
-          "TsEmitName": "genericModem",
+          "TsEmitName": "GenericModem",
           "NormalizedSignature": "GenericModem|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -508,7 +508,7 @@
         },
         {
           "ClrName": "FastEthernetT",
-          "TsEmitName": "fastEthernetT",
+          "TsEmitName": "FastEthernetT",
           "NormalizedSignature": "FastEthernetT|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -516,7 +516,7 @@
         },
         {
           "ClrName": "Isdn",
-          "TsEmitName": "isdn",
+          "TsEmitName": "Isdn",
           "NormalizedSignature": "Isdn|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -524,7 +524,7 @@
         },
         {
           "ClrName": "FastEthernetFx",
-          "TsEmitName": "fastEthernetFx",
+          "TsEmitName": "FastEthernetFx",
           "NormalizedSignature": "FastEthernetFx|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -532,7 +532,7 @@
         },
         {
           "ClrName": "Wireless80211",
-          "TsEmitName": "wireless80211",
+          "TsEmitName": "Wireless80211",
           "NormalizedSignature": "Wireless80211|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "AsymmetricDsl",
-          "TsEmitName": "asymmetricDsl",
+          "TsEmitName": "AsymmetricDsl",
           "NormalizedSignature": "AsymmetricDsl|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -548,7 +548,7 @@
         },
         {
           "ClrName": "RateAdaptDsl",
-          "TsEmitName": "rateAdaptDsl",
+          "TsEmitName": "RateAdaptDsl",
           "NormalizedSignature": "RateAdaptDsl|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -556,7 +556,7 @@
         },
         {
           "ClrName": "SymmetricDsl",
-          "TsEmitName": "symmetricDsl",
+          "TsEmitName": "SymmetricDsl",
           "NormalizedSignature": "SymmetricDsl|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -564,7 +564,7 @@
         },
         {
           "ClrName": "VeryHighSpeedDsl",
-          "TsEmitName": "veryHighSpeedDsl",
+          "TsEmitName": "VeryHighSpeedDsl",
           "NormalizedSignature": "VeryHighSpeedDsl|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -572,7 +572,7 @@
         },
         {
           "ClrName": "IPOverAtm",
-          "TsEmitName": "ipOverAtm",
+          "TsEmitName": "IPOverAtm",
           "NormalizedSignature": "IPOverAtm|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -580,7 +580,7 @@
         },
         {
           "ClrName": "GigabitEthernet",
-          "TsEmitName": "gigabitEthernet",
+          "TsEmitName": "GigabitEthernet",
           "NormalizedSignature": "GigabitEthernet|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -588,7 +588,7 @@
         },
         {
           "ClrName": "Tunnel",
-          "TsEmitName": "tunnel",
+          "TsEmitName": "Tunnel",
           "NormalizedSignature": "Tunnel|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -596,7 +596,7 @@
         },
         {
           "ClrName": "MultiRateSymmetricDsl",
-          "TsEmitName": "multiRateSymmetricDsl",
+          "TsEmitName": "MultiRateSymmetricDsl",
           "NormalizedSignature": "MultiRateSymmetricDsl|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -604,7 +604,7 @@
         },
         {
           "ClrName": "HighPerformanceSerialBus",
-          "TsEmitName": "highPerformanceSerialBus",
+          "TsEmitName": "HighPerformanceSerialBus",
           "NormalizedSignature": "HighPerformanceSerialBus|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "Wman",
-          "TsEmitName": "wman",
+          "TsEmitName": "Wman",
           "NormalizedSignature": "Wman|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -620,7 +620,7 @@
         },
         {
           "ClrName": "Wwanpp",
-          "TsEmitName": "wwanpp",
+          "TsEmitName": "Wwanpp",
           "NormalizedSignature": "Wwanpp|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -628,7 +628,7 @@
         },
         {
           "ClrName": "Wwanpp2",
-          "TsEmitName": "wwanpp2",
+          "TsEmitName": "Wwanpp2",
           "NormalizedSignature": "Wwanpp2|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -660,7 +660,7 @@
         },
         {
           "ClrName": "Up",
-          "TsEmitName": "up",
+          "TsEmitName": "Up",
           "NormalizedSignature": "Up|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -668,7 +668,7 @@
         },
         {
           "ClrName": "Down",
-          "TsEmitName": "down",
+          "TsEmitName": "Down",
           "NormalizedSignature": "Down|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -676,7 +676,7 @@
         },
         {
           "ClrName": "Testing",
-          "TsEmitName": "testing",
+          "TsEmitName": "Testing",
           "NormalizedSignature": "Testing|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -684,7 +684,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -692,7 +692,7 @@
         },
         {
           "ClrName": "Dormant",
-          "TsEmitName": "dormant",
+          "TsEmitName": "Dormant",
           "NormalizedSignature": "Dormant|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -700,7 +700,7 @@
         },
         {
           "ClrName": "NotPresent",
-          "TsEmitName": "notPresent",
+          "TsEmitName": "NotPresent",
           "NormalizedSignature": "NotPresent|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -708,7 +708,7 @@
         },
         {
           "ClrName": "LowerLayerDown",
-          "TsEmitName": "lowerLayerDown",
+          "TsEmitName": "LowerLayerDown",
           "NormalizedSignature": "LowerLayerDown|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -740,7 +740,7 @@
         },
         {
           "ClrName": "Other",
-          "TsEmitName": "other",
+          "TsEmitName": "Other",
           "NormalizedSignature": "Other|System.Net.NetworkInformation.PrefixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -748,7 +748,7 @@
         },
         {
           "ClrName": "Manual",
-          "TsEmitName": "manual",
+          "TsEmitName": "Manual",
           "NormalizedSignature": "Manual|System.Net.NetworkInformation.PrefixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -756,7 +756,7 @@
         },
         {
           "ClrName": "WellKnown",
-          "TsEmitName": "wellKnown",
+          "TsEmitName": "WellKnown",
           "NormalizedSignature": "WellKnown|System.Net.NetworkInformation.PrefixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -764,7 +764,7 @@
         },
         {
           "ClrName": "Dhcp",
-          "TsEmitName": "dhcp",
+          "TsEmitName": "Dhcp",
           "NormalizedSignature": "Dhcp|System.Net.NetworkInformation.PrefixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -772,7 +772,7 @@
         },
         {
           "ClrName": "RouterAdvertisement",
-          "TsEmitName": "routerAdvertisement",
+          "TsEmitName": "RouterAdvertisement",
           "NormalizedSignature": "RouterAdvertisement|System.Net.NetworkInformation.PrefixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -804,7 +804,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -812,7 +812,7 @@
         },
         {
           "ClrName": "Interface",
-          "TsEmitName": "interface_",
+          "TsEmitName": "Interface",
           "NormalizedSignature": "Interface|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -820,7 +820,7 @@
         },
         {
           "ClrName": "Link",
-          "TsEmitName": "link",
+          "TsEmitName": "Link",
           "NormalizedSignature": "Link|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -828,7 +828,7 @@
         },
         {
           "ClrName": "Subnet",
-          "TsEmitName": "subnet",
+          "TsEmitName": "Subnet",
           "NormalizedSignature": "Subnet|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -836,7 +836,7 @@
         },
         {
           "ClrName": "Admin",
-          "TsEmitName": "admin",
+          "TsEmitName": "Admin",
           "NormalizedSignature": "Admin|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -844,7 +844,7 @@
         },
         {
           "ClrName": "Site",
-          "TsEmitName": "site",
+          "TsEmitName": "Site",
           "NormalizedSignature": "Site|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "Organization",
-          "TsEmitName": "organization",
+          "TsEmitName": "Organization",
           "NormalizedSignature": "Organization|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -860,7 +860,7 @@
         },
         {
           "ClrName": "Global",
-          "TsEmitName": "global",
+          "TsEmitName": "Global",
           "NormalizedSignature": "Global|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -892,7 +892,7 @@
         },
         {
           "ClrName": "Other",
-          "TsEmitName": "other",
+          "TsEmitName": "Other",
           "NormalizedSignature": "Other|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -900,7 +900,7 @@
         },
         {
           "ClrName": "Manual",
-          "TsEmitName": "manual",
+          "TsEmitName": "Manual",
           "NormalizedSignature": "Manual|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -908,7 +908,7 @@
         },
         {
           "ClrName": "WellKnown",
-          "TsEmitName": "wellKnown",
+          "TsEmitName": "WellKnown",
           "NormalizedSignature": "WellKnown|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -916,7 +916,7 @@
         },
         {
           "ClrName": "OriginDhcp",
-          "TsEmitName": "originDhcp",
+          "TsEmitName": "OriginDhcp",
           "NormalizedSignature": "OriginDhcp|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -924,7 +924,7 @@
         },
         {
           "ClrName": "LinkLayerAddress",
-          "TsEmitName": "linkLayerAddress",
+          "TsEmitName": "LinkLayerAddress",
           "NormalizedSignature": "LinkLayerAddress|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -932,7 +932,7 @@
         },
         {
           "ClrName": "Random",
-          "TsEmitName": "random",
+          "TsEmitName": "Random",
           "NormalizedSignature": "Random|System.Net.NetworkInformation.SuffixOrigin|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -964,7 +964,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -972,7 +972,7 @@
         },
         {
           "ClrName": "Closed",
-          "TsEmitName": "closed",
+          "TsEmitName": "Closed",
           "NormalizedSignature": "Closed|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -980,7 +980,7 @@
         },
         {
           "ClrName": "Listen",
-          "TsEmitName": "listen",
+          "TsEmitName": "Listen",
           "NormalizedSignature": "Listen|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -988,7 +988,7 @@
         },
         {
           "ClrName": "SynSent",
-          "TsEmitName": "synSent",
+          "TsEmitName": "SynSent",
           "NormalizedSignature": "SynSent|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -996,7 +996,7 @@
         },
         {
           "ClrName": "SynReceived",
-          "TsEmitName": "synReceived",
+          "TsEmitName": "SynReceived",
           "NormalizedSignature": "SynReceived|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1004,7 +1004,7 @@
         },
         {
           "ClrName": "Established",
-          "TsEmitName": "established",
+          "TsEmitName": "Established",
           "NormalizedSignature": "Established|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1012,7 +1012,7 @@
         },
         {
           "ClrName": "FinWait1",
-          "TsEmitName": "finWait1",
+          "TsEmitName": "FinWait1",
           "NormalizedSignature": "FinWait1|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1020,7 +1020,7 @@
         },
         {
           "ClrName": "FinWait2",
-          "TsEmitName": "finWait2",
+          "TsEmitName": "FinWait2",
           "NormalizedSignature": "FinWait2|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1028,7 +1028,7 @@
         },
         {
           "ClrName": "CloseWait",
-          "TsEmitName": "closeWait",
+          "TsEmitName": "CloseWait",
           "NormalizedSignature": "CloseWait|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1036,7 +1036,7 @@
         },
         {
           "ClrName": "Closing",
-          "TsEmitName": "closing",
+          "TsEmitName": "Closing",
           "NormalizedSignature": "Closing|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1044,7 +1044,7 @@
         },
         {
           "ClrName": "LastAck",
-          "TsEmitName": "lastAck",
+          "TsEmitName": "LastAck",
           "NormalizedSignature": "LastAck|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1052,7 +1052,7 @@
         },
         {
           "ClrName": "TimeWait",
-          "TsEmitName": "timeWait",
+          "TsEmitName": "TimeWait",
           "NormalizedSignature": "TimeWait|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1060,7 +1060,7 @@
         },
         {
           "ClrName": "DeleteTcb",
-          "TsEmitName": "deleteTcb",
+          "TsEmitName": "DeleteTcb",
           "NormalizedSignature": "DeleteTcb|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1083,7 +1083,7 @@
       "Properties": [
         {
           "ClrName": "Address",
-          "TsEmitName": "address",
+          "TsEmitName": "Address",
           "NormalizedSignature": "Address|:System.Net.IPAddress|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1112,7 +1112,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Net.NetworkInformation.GatewayIPAddressInformation[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1126,7 +1126,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1140,7 +1140,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1154,7 +1154,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.GatewayIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1168,7 +1168,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Net.NetworkInformation.GatewayIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1182,7 +1182,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1196,7 +1196,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1211,7 +1211,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1226,7 +1226,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1241,7 +1241,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1256,7 +1256,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1271,7 +1271,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1288,7 +1288,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1302,7 +1302,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1316,7 +1316,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Net.NetworkInformation.GatewayIPAddressInformation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1330,7 +1330,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1345,7 +1345,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly$view",
+          "TsEmitName": "IsReadOnly$view",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1376,7 +1376,7 @@
       "Properties": [
         {
           "ClrName": "AddressMaskRepliesReceived",
-          "TsEmitName": "addressMaskRepliesReceived",
+          "TsEmitName": "AddressMaskRepliesReceived",
           "NormalizedSignature": "AddressMaskRepliesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1390,7 +1390,7 @@
         },
         {
           "ClrName": "AddressMaskRepliesSent",
-          "TsEmitName": "addressMaskRepliesSent",
+          "TsEmitName": "AddressMaskRepliesSent",
           "NormalizedSignature": "AddressMaskRepliesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1404,7 +1404,7 @@
         },
         {
           "ClrName": "AddressMaskRequestsReceived",
-          "TsEmitName": "addressMaskRequestsReceived",
+          "TsEmitName": "AddressMaskRequestsReceived",
           "NormalizedSignature": "AddressMaskRequestsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1418,7 +1418,7 @@
         },
         {
           "ClrName": "AddressMaskRequestsSent",
-          "TsEmitName": "addressMaskRequestsSent",
+          "TsEmitName": "AddressMaskRequestsSent",
           "NormalizedSignature": "AddressMaskRequestsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1432,7 +1432,7 @@
         },
         {
           "ClrName": "DestinationUnreachableMessagesReceived",
-          "TsEmitName": "destinationUnreachableMessagesReceived",
+          "TsEmitName": "DestinationUnreachableMessagesReceived",
           "NormalizedSignature": "DestinationUnreachableMessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1446,7 +1446,7 @@
         },
         {
           "ClrName": "DestinationUnreachableMessagesSent",
-          "TsEmitName": "destinationUnreachableMessagesSent",
+          "TsEmitName": "DestinationUnreachableMessagesSent",
           "NormalizedSignature": "DestinationUnreachableMessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1460,7 +1460,7 @@
         },
         {
           "ClrName": "EchoRepliesReceived",
-          "TsEmitName": "echoRepliesReceived",
+          "TsEmitName": "EchoRepliesReceived",
           "NormalizedSignature": "EchoRepliesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1474,7 +1474,7 @@
         },
         {
           "ClrName": "EchoRepliesSent",
-          "TsEmitName": "echoRepliesSent",
+          "TsEmitName": "EchoRepliesSent",
           "NormalizedSignature": "EchoRepliesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1488,7 +1488,7 @@
         },
         {
           "ClrName": "EchoRequestsReceived",
-          "TsEmitName": "echoRequestsReceived",
+          "TsEmitName": "EchoRequestsReceived",
           "NormalizedSignature": "EchoRequestsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1502,7 +1502,7 @@
         },
         {
           "ClrName": "EchoRequestsSent",
-          "TsEmitName": "echoRequestsSent",
+          "TsEmitName": "EchoRequestsSent",
           "NormalizedSignature": "EchoRequestsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1516,7 +1516,7 @@
         },
         {
           "ClrName": "ErrorsReceived",
-          "TsEmitName": "errorsReceived",
+          "TsEmitName": "ErrorsReceived",
           "NormalizedSignature": "ErrorsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1530,7 +1530,7 @@
         },
         {
           "ClrName": "ErrorsSent",
-          "TsEmitName": "errorsSent",
+          "TsEmitName": "ErrorsSent",
           "NormalizedSignature": "ErrorsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1544,7 +1544,7 @@
         },
         {
           "ClrName": "MessagesReceived",
-          "TsEmitName": "messagesReceived",
+          "TsEmitName": "MessagesReceived",
           "NormalizedSignature": "MessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1558,7 +1558,7 @@
         },
         {
           "ClrName": "MessagesSent",
-          "TsEmitName": "messagesSent",
+          "TsEmitName": "MessagesSent",
           "NormalizedSignature": "MessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1572,7 +1572,7 @@
         },
         {
           "ClrName": "ParameterProblemsReceived",
-          "TsEmitName": "parameterProblemsReceived",
+          "TsEmitName": "ParameterProblemsReceived",
           "NormalizedSignature": "ParameterProblemsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1586,7 +1586,7 @@
         },
         {
           "ClrName": "ParameterProblemsSent",
-          "TsEmitName": "parameterProblemsSent",
+          "TsEmitName": "ParameterProblemsSent",
           "NormalizedSignature": "ParameterProblemsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1600,7 +1600,7 @@
         },
         {
           "ClrName": "RedirectsReceived",
-          "TsEmitName": "redirectsReceived",
+          "TsEmitName": "RedirectsReceived",
           "NormalizedSignature": "RedirectsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1614,7 +1614,7 @@
         },
         {
           "ClrName": "RedirectsSent",
-          "TsEmitName": "redirectsSent",
+          "TsEmitName": "RedirectsSent",
           "NormalizedSignature": "RedirectsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1628,7 +1628,7 @@
         },
         {
           "ClrName": "SourceQuenchesReceived",
-          "TsEmitName": "sourceQuenchesReceived",
+          "TsEmitName": "SourceQuenchesReceived",
           "NormalizedSignature": "SourceQuenchesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1642,7 +1642,7 @@
         },
         {
           "ClrName": "SourceQuenchesSent",
-          "TsEmitName": "sourceQuenchesSent",
+          "TsEmitName": "SourceQuenchesSent",
           "NormalizedSignature": "SourceQuenchesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1656,7 +1656,7 @@
         },
         {
           "ClrName": "TimeExceededMessagesReceived",
-          "TsEmitName": "timeExceededMessagesReceived",
+          "TsEmitName": "TimeExceededMessagesReceived",
           "NormalizedSignature": "TimeExceededMessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1670,7 +1670,7 @@
         },
         {
           "ClrName": "TimeExceededMessagesSent",
-          "TsEmitName": "timeExceededMessagesSent",
+          "TsEmitName": "TimeExceededMessagesSent",
           "NormalizedSignature": "TimeExceededMessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1684,7 +1684,7 @@
         },
         {
           "ClrName": "TimestampRepliesReceived",
-          "TsEmitName": "timestampRepliesReceived",
+          "TsEmitName": "TimestampRepliesReceived",
           "NormalizedSignature": "TimestampRepliesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1698,7 +1698,7 @@
         },
         {
           "ClrName": "TimestampRepliesSent",
-          "TsEmitName": "timestampRepliesSent",
+          "TsEmitName": "TimestampRepliesSent",
           "NormalizedSignature": "TimestampRepliesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1712,7 +1712,7 @@
         },
         {
           "ClrName": "TimestampRequestsReceived",
-          "TsEmitName": "timestampRequestsReceived",
+          "TsEmitName": "TimestampRequestsReceived",
           "NormalizedSignature": "TimestampRequestsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1726,7 +1726,7 @@
         },
         {
           "ClrName": "TimestampRequestsSent",
-          "TsEmitName": "timestampRequestsSent",
+          "TsEmitName": "TimestampRequestsSent",
           "NormalizedSignature": "TimestampRequestsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1756,7 +1756,7 @@
       "Properties": [
         {
           "ClrName": "DestinationUnreachableMessagesReceived",
-          "TsEmitName": "destinationUnreachableMessagesReceived",
+          "TsEmitName": "DestinationUnreachableMessagesReceived",
           "NormalizedSignature": "DestinationUnreachableMessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1770,7 +1770,7 @@
         },
         {
           "ClrName": "DestinationUnreachableMessagesSent",
-          "TsEmitName": "destinationUnreachableMessagesSent",
+          "TsEmitName": "DestinationUnreachableMessagesSent",
           "NormalizedSignature": "DestinationUnreachableMessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1784,7 +1784,7 @@
         },
         {
           "ClrName": "EchoRepliesReceived",
-          "TsEmitName": "echoRepliesReceived",
+          "TsEmitName": "EchoRepliesReceived",
           "NormalizedSignature": "EchoRepliesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1798,7 +1798,7 @@
         },
         {
           "ClrName": "EchoRepliesSent",
-          "TsEmitName": "echoRepliesSent",
+          "TsEmitName": "EchoRepliesSent",
           "NormalizedSignature": "EchoRepliesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1812,7 +1812,7 @@
         },
         {
           "ClrName": "EchoRequestsReceived",
-          "TsEmitName": "echoRequestsReceived",
+          "TsEmitName": "EchoRequestsReceived",
           "NormalizedSignature": "EchoRequestsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1826,7 +1826,7 @@
         },
         {
           "ClrName": "EchoRequestsSent",
-          "TsEmitName": "echoRequestsSent",
+          "TsEmitName": "EchoRequestsSent",
           "NormalizedSignature": "EchoRequestsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1840,7 +1840,7 @@
         },
         {
           "ClrName": "ErrorsReceived",
-          "TsEmitName": "errorsReceived",
+          "TsEmitName": "ErrorsReceived",
           "NormalizedSignature": "ErrorsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1854,7 +1854,7 @@
         },
         {
           "ClrName": "ErrorsSent",
-          "TsEmitName": "errorsSent",
+          "TsEmitName": "ErrorsSent",
           "NormalizedSignature": "ErrorsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1868,7 +1868,7 @@
         },
         {
           "ClrName": "MembershipQueriesReceived",
-          "TsEmitName": "membershipQueriesReceived",
+          "TsEmitName": "MembershipQueriesReceived",
           "NormalizedSignature": "MembershipQueriesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1882,7 +1882,7 @@
         },
         {
           "ClrName": "MembershipQueriesSent",
-          "TsEmitName": "membershipQueriesSent",
+          "TsEmitName": "MembershipQueriesSent",
           "NormalizedSignature": "MembershipQueriesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1896,7 +1896,7 @@
         },
         {
           "ClrName": "MembershipReductionsReceived",
-          "TsEmitName": "membershipReductionsReceived",
+          "TsEmitName": "MembershipReductionsReceived",
           "NormalizedSignature": "MembershipReductionsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1910,7 +1910,7 @@
         },
         {
           "ClrName": "MembershipReductionsSent",
-          "TsEmitName": "membershipReductionsSent",
+          "TsEmitName": "MembershipReductionsSent",
           "NormalizedSignature": "MembershipReductionsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1924,7 +1924,7 @@
         },
         {
           "ClrName": "MembershipReportsReceived",
-          "TsEmitName": "membershipReportsReceived",
+          "TsEmitName": "MembershipReportsReceived",
           "NormalizedSignature": "MembershipReportsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1938,7 +1938,7 @@
         },
         {
           "ClrName": "MembershipReportsSent",
-          "TsEmitName": "membershipReportsSent",
+          "TsEmitName": "MembershipReportsSent",
           "NormalizedSignature": "MembershipReportsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1952,7 +1952,7 @@
         },
         {
           "ClrName": "MessagesReceived",
-          "TsEmitName": "messagesReceived",
+          "TsEmitName": "MessagesReceived",
           "NormalizedSignature": "MessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1966,7 +1966,7 @@
         },
         {
           "ClrName": "MessagesSent",
-          "TsEmitName": "messagesSent",
+          "TsEmitName": "MessagesSent",
           "NormalizedSignature": "MessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1980,7 +1980,7 @@
         },
         {
           "ClrName": "NeighborAdvertisementsReceived",
-          "TsEmitName": "neighborAdvertisementsReceived",
+          "TsEmitName": "NeighborAdvertisementsReceived",
           "NormalizedSignature": "NeighborAdvertisementsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1994,7 +1994,7 @@
         },
         {
           "ClrName": "NeighborAdvertisementsSent",
-          "TsEmitName": "neighborAdvertisementsSent",
+          "TsEmitName": "NeighborAdvertisementsSent",
           "NormalizedSignature": "NeighborAdvertisementsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2008,7 +2008,7 @@
         },
         {
           "ClrName": "NeighborSolicitsReceived",
-          "TsEmitName": "neighborSolicitsReceived",
+          "TsEmitName": "NeighborSolicitsReceived",
           "NormalizedSignature": "NeighborSolicitsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2022,7 +2022,7 @@
         },
         {
           "ClrName": "NeighborSolicitsSent",
-          "TsEmitName": "neighborSolicitsSent",
+          "TsEmitName": "NeighborSolicitsSent",
           "NormalizedSignature": "NeighborSolicitsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2036,7 +2036,7 @@
         },
         {
           "ClrName": "PacketTooBigMessagesReceived",
-          "TsEmitName": "packetTooBigMessagesReceived",
+          "TsEmitName": "PacketTooBigMessagesReceived",
           "NormalizedSignature": "PacketTooBigMessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2050,7 +2050,7 @@
         },
         {
           "ClrName": "PacketTooBigMessagesSent",
-          "TsEmitName": "packetTooBigMessagesSent",
+          "TsEmitName": "PacketTooBigMessagesSent",
           "NormalizedSignature": "PacketTooBigMessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2064,7 +2064,7 @@
         },
         {
           "ClrName": "ParameterProblemsReceived",
-          "TsEmitName": "parameterProblemsReceived",
+          "TsEmitName": "ParameterProblemsReceived",
           "NormalizedSignature": "ParameterProblemsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2078,7 +2078,7 @@
         },
         {
           "ClrName": "ParameterProblemsSent",
-          "TsEmitName": "parameterProblemsSent",
+          "TsEmitName": "ParameterProblemsSent",
           "NormalizedSignature": "ParameterProblemsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2092,7 +2092,7 @@
         },
         {
           "ClrName": "RedirectsReceived",
-          "TsEmitName": "redirectsReceived",
+          "TsEmitName": "RedirectsReceived",
           "NormalizedSignature": "RedirectsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2106,7 +2106,7 @@
         },
         {
           "ClrName": "RedirectsSent",
-          "TsEmitName": "redirectsSent",
+          "TsEmitName": "RedirectsSent",
           "NormalizedSignature": "RedirectsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2120,7 +2120,7 @@
         },
         {
           "ClrName": "RouterAdvertisementsReceived",
-          "TsEmitName": "routerAdvertisementsReceived",
+          "TsEmitName": "RouterAdvertisementsReceived",
           "NormalizedSignature": "RouterAdvertisementsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2134,7 +2134,7 @@
         },
         {
           "ClrName": "RouterAdvertisementsSent",
-          "TsEmitName": "routerAdvertisementsSent",
+          "TsEmitName": "RouterAdvertisementsSent",
           "NormalizedSignature": "RouterAdvertisementsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2148,7 +2148,7 @@
         },
         {
           "ClrName": "RouterSolicitsReceived",
-          "TsEmitName": "routerSolicitsReceived",
+          "TsEmitName": "RouterSolicitsReceived",
           "NormalizedSignature": "RouterSolicitsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2162,7 +2162,7 @@
         },
         {
           "ClrName": "RouterSolicitsSent",
-          "TsEmitName": "routerSolicitsSent",
+          "TsEmitName": "RouterSolicitsSent",
           "NormalizedSignature": "RouterSolicitsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2176,7 +2176,7 @@
         },
         {
           "ClrName": "TimeExceededMessagesReceived",
-          "TsEmitName": "timeExceededMessagesReceived",
+          "TsEmitName": "TimeExceededMessagesReceived",
           "NormalizedSignature": "TimeExceededMessagesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2190,7 +2190,7 @@
         },
         {
           "ClrName": "TimeExceededMessagesSent",
-          "TsEmitName": "timeExceededMessagesSent",
+          "TsEmitName": "TimeExceededMessagesSent",
           "NormalizedSignature": "TimeExceededMessagesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2219,7 +2219,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Net.IPAddress[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2233,7 +2233,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Net.IPAddress):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2247,7 +2247,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Net.IPAddress):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2261,7 +2261,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Net.IPAddress,System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2275,7 +2275,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Net.IPAddress):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2289,7 +2289,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2303,7 +2303,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2318,7 +2318,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2333,7 +2333,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2348,7 +2348,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2363,7 +2363,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2378,7 +2378,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2395,7 +2395,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2409,7 +2409,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2423,7 +2423,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Net.IPAddress|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2437,7 +2437,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2452,7 +2452,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly$view",
+          "TsEmitName": "IsReadOnly$view",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2483,7 +2483,7 @@
       "Properties": [
         {
           "ClrName": "Address",
-          "TsEmitName": "address",
+          "TsEmitName": "Address",
           "NormalizedSignature": "Address|:System.Net.IPAddress|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2497,7 +2497,7 @@
         },
         {
           "ClrName": "IsDnsEligible",
-          "TsEmitName": "isDnsEligible",
+          "TsEmitName": "IsDnsEligible",
           "NormalizedSignature": "IsDnsEligible|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2511,7 +2511,7 @@
         },
         {
           "ClrName": "IsTransient",
-          "TsEmitName": "isTransient",
+          "TsEmitName": "IsTransient",
           "NormalizedSignature": "IsTransient|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2540,7 +2540,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Net.NetworkInformation.IPAddressInformation[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2554,7 +2554,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Net.NetworkInformation.IPAddressInformation):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2568,7 +2568,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Net.NetworkInformation.IPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2582,7 +2582,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.IPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2596,7 +2596,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Net.NetworkInformation.IPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2610,7 +2610,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2624,7 +2624,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2639,7 +2639,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2654,7 +2654,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2669,7 +2669,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2684,7 +2684,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2699,7 +2699,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2716,7 +2716,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2730,7 +2730,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2744,7 +2744,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Net.NetworkInformation.IPAddressInformation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2758,7 +2758,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2773,7 +2773,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly$view",
+          "TsEmitName": "IsReadOnly$view",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2803,7 +2803,7 @@
       "Methods": [
         {
           "ClrName": "GetIPGlobalProperties",
-          "TsEmitName": "getIPGlobalProperties",
+          "TsEmitName": "GetIPGlobalProperties",
           "NormalizedSignature": "GetIPGlobalProperties|():System.Net.NetworkInformation.IPGlobalProperties|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2817,7 +2817,7 @@
         },
         {
           "ClrName": "GetActiveUdpListeners",
-          "TsEmitName": "getActiveUdpListeners",
+          "TsEmitName": "GetActiveUdpListeners",
           "NormalizedSignature": "GetActiveUdpListeners|():System.Net.IPEndPoint[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2831,7 +2831,7 @@
         },
         {
           "ClrName": "GetActiveTcpListeners",
-          "TsEmitName": "getActiveTcpListeners",
+          "TsEmitName": "GetActiveTcpListeners",
           "NormalizedSignature": "GetActiveTcpListeners|():System.Net.IPEndPoint[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2845,7 +2845,7 @@
         },
         {
           "ClrName": "GetActiveTcpConnections",
-          "TsEmitName": "getActiveTcpConnections",
+          "TsEmitName": "GetActiveTcpConnections",
           "NormalizedSignature": "GetActiveTcpConnections|():System.Net.NetworkInformation.TcpConnectionInformation[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2859,7 +2859,7 @@
         },
         {
           "ClrName": "BeginGetUnicastAddresses",
-          "TsEmitName": "beginGetUnicastAddresses",
+          "TsEmitName": "BeginGetUnicastAddresses",
           "NormalizedSignature": "BeginGetUnicastAddresses|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2873,7 +2873,7 @@
         },
         {
           "ClrName": "EndGetUnicastAddresses",
-          "TsEmitName": "endGetUnicastAddresses",
+          "TsEmitName": "EndGetUnicastAddresses",
           "NormalizedSignature": "EndGetUnicastAddresses|(System.IAsyncResult):System.Net.NetworkInformation.UnicastIPAddressInformationCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2887,7 +2887,7 @@
         },
         {
           "ClrName": "GetTcpIPv4Statistics",
-          "TsEmitName": "getTcpIPv4Statistics",
+          "TsEmitName": "GetTcpIPv4Statistics",
           "NormalizedSignature": "GetTcpIPv4Statistics|():System.Net.NetworkInformation.TcpStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2901,7 +2901,7 @@
         },
         {
           "ClrName": "GetTcpIPv6Statistics",
-          "TsEmitName": "getTcpIPv6Statistics",
+          "TsEmitName": "GetTcpIPv6Statistics",
           "NormalizedSignature": "GetTcpIPv6Statistics|():System.Net.NetworkInformation.TcpStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2915,7 +2915,7 @@
         },
         {
           "ClrName": "GetUdpIPv4Statistics",
-          "TsEmitName": "getUdpIPv4Statistics",
+          "TsEmitName": "GetUdpIPv4Statistics",
           "NormalizedSignature": "GetUdpIPv4Statistics|():System.Net.NetworkInformation.UdpStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2929,7 +2929,7 @@
         },
         {
           "ClrName": "GetUdpIPv6Statistics",
-          "TsEmitName": "getUdpIPv6Statistics",
+          "TsEmitName": "GetUdpIPv6Statistics",
           "NormalizedSignature": "GetUdpIPv6Statistics|():System.Net.NetworkInformation.UdpStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2943,7 +2943,7 @@
         },
         {
           "ClrName": "GetIcmpV4Statistics",
-          "TsEmitName": "getIcmpV4Statistics",
+          "TsEmitName": "GetIcmpV4Statistics",
           "NormalizedSignature": "GetIcmpV4Statistics|():System.Net.NetworkInformation.IcmpV4Statistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2957,7 +2957,7 @@
         },
         {
           "ClrName": "GetIcmpV6Statistics",
-          "TsEmitName": "getIcmpV6Statistics",
+          "TsEmitName": "GetIcmpV6Statistics",
           "NormalizedSignature": "GetIcmpV6Statistics|():System.Net.NetworkInformation.IcmpV6Statistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2971,7 +2971,7 @@
         },
         {
           "ClrName": "GetIPv4GlobalStatistics",
-          "TsEmitName": "getIPv4GlobalStatistics",
+          "TsEmitName": "GetIPv4GlobalStatistics",
           "NormalizedSignature": "GetIPv4GlobalStatistics|():System.Net.NetworkInformation.IPGlobalStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2985,7 +2985,7 @@
         },
         {
           "ClrName": "GetIPv6GlobalStatistics",
-          "TsEmitName": "getIPv6GlobalStatistics",
+          "TsEmitName": "GetIPv6GlobalStatistics",
           "NormalizedSignature": "GetIPv6GlobalStatistics|():System.Net.NetworkInformation.IPGlobalStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2999,7 +2999,7 @@
         },
         {
           "ClrName": "GetUnicastAddresses",
-          "TsEmitName": "getUnicastAddresses",
+          "TsEmitName": "GetUnicastAddresses",
           "NormalizedSignature": "GetUnicastAddresses|():System.Net.NetworkInformation.UnicastIPAddressInformationCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3013,7 +3013,7 @@
         },
         {
           "ClrName": "GetUnicastAddressesAsync",
-          "TsEmitName": "getUnicastAddressesAsync",
+          "TsEmitName": "GetUnicastAddressesAsync",
           "NormalizedSignature": "GetUnicastAddressesAsync|():System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.UnicastIPAddressInformationCollection,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3029,7 +3029,7 @@
       "Properties": [
         {
           "ClrName": "DhcpScopeName",
-          "TsEmitName": "dhcpScopeName",
+          "TsEmitName": "DhcpScopeName",
           "NormalizedSignature": "DhcpScopeName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3043,7 +3043,7 @@
         },
         {
           "ClrName": "DomainName",
-          "TsEmitName": "domainName",
+          "TsEmitName": "DomainName",
           "NormalizedSignature": "DomainName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3057,7 +3057,7 @@
         },
         {
           "ClrName": "HostName",
-          "TsEmitName": "hostName",
+          "TsEmitName": "HostName",
           "NormalizedSignature": "HostName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3071,7 +3071,7 @@
         },
         {
           "ClrName": "IsWinsProxy",
-          "TsEmitName": "isWinsProxy",
+          "TsEmitName": "IsWinsProxy",
           "NormalizedSignature": "IsWinsProxy|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3085,7 +3085,7 @@
         },
         {
           "ClrName": "NodeType",
-          "TsEmitName": "nodeType",
+          "TsEmitName": "NodeType",
           "NormalizedSignature": "NodeType|:System.Net.NetworkInformation.NetBiosNodeType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3115,7 +3115,7 @@
       "Properties": [
         {
           "ClrName": "DefaultTtl",
-          "TsEmitName": "defaultTtl",
+          "TsEmitName": "DefaultTtl",
           "NormalizedSignature": "DefaultTtl|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3129,7 +3129,7 @@
         },
         {
           "ClrName": "ForwardingEnabled",
-          "TsEmitName": "forwardingEnabled",
+          "TsEmitName": "ForwardingEnabled",
           "NormalizedSignature": "ForwardingEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3143,7 +3143,7 @@
         },
         {
           "ClrName": "NumberOfInterfaces",
-          "TsEmitName": "numberOfInterfaces",
+          "TsEmitName": "NumberOfInterfaces",
           "NormalizedSignature": "NumberOfInterfaces|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3157,7 +3157,7 @@
         },
         {
           "ClrName": "NumberOfIPAddresses",
-          "TsEmitName": "numberOfIPAddresses",
+          "TsEmitName": "NumberOfIPAddresses",
           "NormalizedSignature": "NumberOfIPAddresses|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3171,7 +3171,7 @@
         },
         {
           "ClrName": "OutputPacketRequests",
-          "TsEmitName": "outputPacketRequests",
+          "TsEmitName": "OutputPacketRequests",
           "NormalizedSignature": "OutputPacketRequests|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3185,7 +3185,7 @@
         },
         {
           "ClrName": "OutputPacketRoutingDiscards",
-          "TsEmitName": "outputPacketRoutingDiscards",
+          "TsEmitName": "OutputPacketRoutingDiscards",
           "NormalizedSignature": "OutputPacketRoutingDiscards|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3199,7 +3199,7 @@
         },
         {
           "ClrName": "OutputPacketsDiscarded",
-          "TsEmitName": "outputPacketsDiscarded",
+          "TsEmitName": "OutputPacketsDiscarded",
           "NormalizedSignature": "OutputPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3213,7 +3213,7 @@
         },
         {
           "ClrName": "OutputPacketsWithNoRoute",
-          "TsEmitName": "outputPacketsWithNoRoute",
+          "TsEmitName": "OutputPacketsWithNoRoute",
           "NormalizedSignature": "OutputPacketsWithNoRoute|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3227,7 +3227,7 @@
         },
         {
           "ClrName": "PacketFragmentFailures",
-          "TsEmitName": "packetFragmentFailures",
+          "TsEmitName": "PacketFragmentFailures",
           "NormalizedSignature": "PacketFragmentFailures|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3241,7 +3241,7 @@
         },
         {
           "ClrName": "PacketReassembliesRequired",
-          "TsEmitName": "packetReassembliesRequired",
+          "TsEmitName": "PacketReassembliesRequired",
           "NormalizedSignature": "PacketReassembliesRequired|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3255,7 +3255,7 @@
         },
         {
           "ClrName": "PacketReassemblyFailures",
-          "TsEmitName": "packetReassemblyFailures",
+          "TsEmitName": "PacketReassemblyFailures",
           "NormalizedSignature": "PacketReassemblyFailures|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3269,7 +3269,7 @@
         },
         {
           "ClrName": "PacketReassemblyTimeout",
-          "TsEmitName": "packetReassemblyTimeout",
+          "TsEmitName": "PacketReassemblyTimeout",
           "NormalizedSignature": "PacketReassemblyTimeout|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3283,7 +3283,7 @@
         },
         {
           "ClrName": "PacketsFragmented",
-          "TsEmitName": "packetsFragmented",
+          "TsEmitName": "PacketsFragmented",
           "NormalizedSignature": "PacketsFragmented|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3297,7 +3297,7 @@
         },
         {
           "ClrName": "PacketsReassembled",
-          "TsEmitName": "packetsReassembled",
+          "TsEmitName": "PacketsReassembled",
           "NormalizedSignature": "PacketsReassembled|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3311,7 +3311,7 @@
         },
         {
           "ClrName": "ReceivedPackets",
-          "TsEmitName": "receivedPackets",
+          "TsEmitName": "ReceivedPackets",
           "NormalizedSignature": "ReceivedPackets|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3325,7 +3325,7 @@
         },
         {
           "ClrName": "ReceivedPacketsDelivered",
-          "TsEmitName": "receivedPacketsDelivered",
+          "TsEmitName": "ReceivedPacketsDelivered",
           "NormalizedSignature": "ReceivedPacketsDelivered|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3339,7 +3339,7 @@
         },
         {
           "ClrName": "ReceivedPacketsDiscarded",
-          "TsEmitName": "receivedPacketsDiscarded",
+          "TsEmitName": "ReceivedPacketsDiscarded",
           "NormalizedSignature": "ReceivedPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3353,7 +3353,7 @@
         },
         {
           "ClrName": "ReceivedPacketsForwarded",
-          "TsEmitName": "receivedPacketsForwarded",
+          "TsEmitName": "ReceivedPacketsForwarded",
           "NormalizedSignature": "ReceivedPacketsForwarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3367,7 +3367,7 @@
         },
         {
           "ClrName": "ReceivedPacketsWithAddressErrors",
-          "TsEmitName": "receivedPacketsWithAddressErrors",
+          "TsEmitName": "ReceivedPacketsWithAddressErrors",
           "NormalizedSignature": "ReceivedPacketsWithAddressErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3381,7 +3381,7 @@
         },
         {
           "ClrName": "ReceivedPacketsWithHeadersErrors",
-          "TsEmitName": "receivedPacketsWithHeadersErrors",
+          "TsEmitName": "ReceivedPacketsWithHeadersErrors",
           "NormalizedSignature": "ReceivedPacketsWithHeadersErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3395,7 +3395,7 @@
         },
         {
           "ClrName": "ReceivedPacketsWithUnknownProtocol",
-          "TsEmitName": "receivedPacketsWithUnknownProtocol",
+          "TsEmitName": "ReceivedPacketsWithUnknownProtocol",
           "NormalizedSignature": "ReceivedPacketsWithUnknownProtocol|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3409,7 +3409,7 @@
         },
         {
           "ClrName": "NumberOfRoutes",
-          "TsEmitName": "numberOfRoutes",
+          "TsEmitName": "NumberOfRoutes",
           "NormalizedSignature": "NumberOfRoutes|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3438,7 +3438,7 @@
       "Methods": [
         {
           "ClrName": "GetIPv4Properties",
-          "TsEmitName": "getIPv4Properties",
+          "TsEmitName": "GetIPv4Properties",
           "NormalizedSignature": "GetIPv4Properties|():System.Net.NetworkInformation.IPv4InterfaceProperties|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3452,7 +3452,7 @@
         },
         {
           "ClrName": "GetIPv6Properties",
-          "TsEmitName": "getIPv6Properties",
+          "TsEmitName": "GetIPv6Properties",
           "NormalizedSignature": "GetIPv6Properties|():System.Net.NetworkInformation.IPv6InterfaceProperties|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3468,7 +3468,7 @@
       "Properties": [
         {
           "ClrName": "IsDnsEnabled",
-          "TsEmitName": "isDnsEnabled",
+          "TsEmitName": "IsDnsEnabled",
           "NormalizedSignature": "IsDnsEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3482,7 +3482,7 @@
         },
         {
           "ClrName": "DnsSuffix",
-          "TsEmitName": "dnsSuffix",
+          "TsEmitName": "DnsSuffix",
           "NormalizedSignature": "DnsSuffix|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3496,7 +3496,7 @@
         },
         {
           "ClrName": "IsDynamicDnsEnabled",
-          "TsEmitName": "isDynamicDnsEnabled",
+          "TsEmitName": "IsDynamicDnsEnabled",
           "NormalizedSignature": "IsDynamicDnsEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3510,7 +3510,7 @@
         },
         {
           "ClrName": "UnicastAddresses",
-          "TsEmitName": "unicastAddresses",
+          "TsEmitName": "UnicastAddresses",
           "NormalizedSignature": "UnicastAddresses|:System.Net.NetworkInformation.UnicastIPAddressInformationCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3524,7 +3524,7 @@
         },
         {
           "ClrName": "MulticastAddresses",
-          "TsEmitName": "multicastAddresses",
+          "TsEmitName": "MulticastAddresses",
           "NormalizedSignature": "MulticastAddresses|:System.Net.NetworkInformation.MulticastIPAddressInformationCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3538,7 +3538,7 @@
         },
         {
           "ClrName": "AnycastAddresses",
-          "TsEmitName": "anycastAddresses",
+          "TsEmitName": "AnycastAddresses",
           "NormalizedSignature": "AnycastAddresses|:System.Net.NetworkInformation.IPAddressInformationCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3552,7 +3552,7 @@
         },
         {
           "ClrName": "DnsAddresses",
-          "TsEmitName": "dnsAddresses",
+          "TsEmitName": "DnsAddresses",
           "NormalizedSignature": "DnsAddresses|:System.Net.NetworkInformation.IPAddressCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3566,7 +3566,7 @@
         },
         {
           "ClrName": "GatewayAddresses",
-          "TsEmitName": "gatewayAddresses",
+          "TsEmitName": "GatewayAddresses",
           "NormalizedSignature": "GatewayAddresses|:System.Net.NetworkInformation.GatewayIPAddressInformationCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3580,7 +3580,7 @@
         },
         {
           "ClrName": "DhcpServerAddresses",
-          "TsEmitName": "dhcpServerAddresses",
+          "TsEmitName": "DhcpServerAddresses",
           "NormalizedSignature": "DhcpServerAddresses|:System.Net.NetworkInformation.IPAddressCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3594,7 +3594,7 @@
         },
         {
           "ClrName": "WinsServersAddresses",
-          "TsEmitName": "winsServersAddresses",
+          "TsEmitName": "WinsServersAddresses",
           "NormalizedSignature": "WinsServersAddresses|:System.Net.NetworkInformation.IPAddressCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3624,7 +3624,7 @@
       "Properties": [
         {
           "ClrName": "BytesReceived",
-          "TsEmitName": "bytesReceived",
+          "TsEmitName": "BytesReceived",
           "NormalizedSignature": "BytesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3638,7 +3638,7 @@
         },
         {
           "ClrName": "BytesSent",
-          "TsEmitName": "bytesSent",
+          "TsEmitName": "BytesSent",
           "NormalizedSignature": "BytesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3652,7 +3652,7 @@
         },
         {
           "ClrName": "IncomingPacketsDiscarded",
-          "TsEmitName": "incomingPacketsDiscarded",
+          "TsEmitName": "IncomingPacketsDiscarded",
           "NormalizedSignature": "IncomingPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3666,7 +3666,7 @@
         },
         {
           "ClrName": "IncomingPacketsWithErrors",
-          "TsEmitName": "incomingPacketsWithErrors",
+          "TsEmitName": "IncomingPacketsWithErrors",
           "NormalizedSignature": "IncomingPacketsWithErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3680,7 +3680,7 @@
         },
         {
           "ClrName": "IncomingUnknownProtocolPackets",
-          "TsEmitName": "incomingUnknownProtocolPackets",
+          "TsEmitName": "IncomingUnknownProtocolPackets",
           "NormalizedSignature": "IncomingUnknownProtocolPackets|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3694,7 +3694,7 @@
         },
         {
           "ClrName": "NonUnicastPacketsReceived",
-          "TsEmitName": "nonUnicastPacketsReceived",
+          "TsEmitName": "NonUnicastPacketsReceived",
           "NormalizedSignature": "NonUnicastPacketsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3708,7 +3708,7 @@
         },
         {
           "ClrName": "NonUnicastPacketsSent",
-          "TsEmitName": "nonUnicastPacketsSent",
+          "TsEmitName": "NonUnicastPacketsSent",
           "NormalizedSignature": "NonUnicastPacketsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3722,7 +3722,7 @@
         },
         {
           "ClrName": "OutgoingPacketsDiscarded",
-          "TsEmitName": "outgoingPacketsDiscarded",
+          "TsEmitName": "OutgoingPacketsDiscarded",
           "NormalizedSignature": "OutgoingPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3736,7 +3736,7 @@
         },
         {
           "ClrName": "OutgoingPacketsWithErrors",
-          "TsEmitName": "outgoingPacketsWithErrors",
+          "TsEmitName": "OutgoingPacketsWithErrors",
           "NormalizedSignature": "OutgoingPacketsWithErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3750,7 +3750,7 @@
         },
         {
           "ClrName": "OutputQueueLength",
-          "TsEmitName": "outputQueueLength",
+          "TsEmitName": "OutputQueueLength",
           "NormalizedSignature": "OutputQueueLength|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3764,7 +3764,7 @@
         },
         {
           "ClrName": "UnicastPacketsReceived",
-          "TsEmitName": "unicastPacketsReceived",
+          "TsEmitName": "UnicastPacketsReceived",
           "NormalizedSignature": "UnicastPacketsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3778,7 +3778,7 @@
         },
         {
           "ClrName": "UnicastPacketsSent",
-          "TsEmitName": "unicastPacketsSent",
+          "TsEmitName": "UnicastPacketsSent",
           "NormalizedSignature": "UnicastPacketsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3808,7 +3808,7 @@
       "Properties": [
         {
           "ClrName": "UsesWins",
-          "TsEmitName": "usesWins",
+          "TsEmitName": "UsesWins",
           "NormalizedSignature": "UsesWins|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3822,7 +3822,7 @@
         },
         {
           "ClrName": "IsDhcpEnabled",
-          "TsEmitName": "isDhcpEnabled",
+          "TsEmitName": "IsDhcpEnabled",
           "NormalizedSignature": "IsDhcpEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3836,7 +3836,7 @@
         },
         {
           "ClrName": "IsAutomaticPrivateAddressingActive",
-          "TsEmitName": "isAutomaticPrivateAddressingActive",
+          "TsEmitName": "IsAutomaticPrivateAddressingActive",
           "NormalizedSignature": "IsAutomaticPrivateAddressingActive|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3850,7 +3850,7 @@
         },
         {
           "ClrName": "IsAutomaticPrivateAddressingEnabled",
-          "TsEmitName": "isAutomaticPrivateAddressingEnabled",
+          "TsEmitName": "IsAutomaticPrivateAddressingEnabled",
           "NormalizedSignature": "IsAutomaticPrivateAddressingEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3864,7 +3864,7 @@
         },
         {
           "ClrName": "Index",
-          "TsEmitName": "index",
+          "TsEmitName": "Index",
           "NormalizedSignature": "Index|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3878,7 +3878,7 @@
         },
         {
           "ClrName": "IsForwardingEnabled",
-          "TsEmitName": "isForwardingEnabled",
+          "TsEmitName": "IsForwardingEnabled",
           "NormalizedSignature": "IsForwardingEnabled|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3892,7 +3892,7 @@
         },
         {
           "ClrName": "Mtu",
-          "TsEmitName": "mtu",
+          "TsEmitName": "Mtu",
           "NormalizedSignature": "Mtu|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3922,7 +3922,7 @@
       "Properties": [
         {
           "ClrName": "BytesReceived",
-          "TsEmitName": "bytesReceived",
+          "TsEmitName": "BytesReceived",
           "NormalizedSignature": "BytesReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3936,7 +3936,7 @@
         },
         {
           "ClrName": "BytesSent",
-          "TsEmitName": "bytesSent",
+          "TsEmitName": "BytesSent",
           "NormalizedSignature": "BytesSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3950,7 +3950,7 @@
         },
         {
           "ClrName": "IncomingPacketsDiscarded",
-          "TsEmitName": "incomingPacketsDiscarded",
+          "TsEmitName": "IncomingPacketsDiscarded",
           "NormalizedSignature": "IncomingPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3964,7 +3964,7 @@
         },
         {
           "ClrName": "IncomingPacketsWithErrors",
-          "TsEmitName": "incomingPacketsWithErrors",
+          "TsEmitName": "IncomingPacketsWithErrors",
           "NormalizedSignature": "IncomingPacketsWithErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3978,7 +3978,7 @@
         },
         {
           "ClrName": "IncomingUnknownProtocolPackets",
-          "TsEmitName": "incomingUnknownProtocolPackets",
+          "TsEmitName": "IncomingUnknownProtocolPackets",
           "NormalizedSignature": "IncomingUnknownProtocolPackets|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3992,7 +3992,7 @@
         },
         {
           "ClrName": "NonUnicastPacketsReceived",
-          "TsEmitName": "nonUnicastPacketsReceived",
+          "TsEmitName": "NonUnicastPacketsReceived",
           "NormalizedSignature": "NonUnicastPacketsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4006,7 +4006,7 @@
         },
         {
           "ClrName": "NonUnicastPacketsSent",
-          "TsEmitName": "nonUnicastPacketsSent",
+          "TsEmitName": "NonUnicastPacketsSent",
           "NormalizedSignature": "NonUnicastPacketsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4020,7 +4020,7 @@
         },
         {
           "ClrName": "OutgoingPacketsDiscarded",
-          "TsEmitName": "outgoingPacketsDiscarded",
+          "TsEmitName": "OutgoingPacketsDiscarded",
           "NormalizedSignature": "OutgoingPacketsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4034,7 +4034,7 @@
         },
         {
           "ClrName": "OutgoingPacketsWithErrors",
-          "TsEmitName": "outgoingPacketsWithErrors",
+          "TsEmitName": "OutgoingPacketsWithErrors",
           "NormalizedSignature": "OutgoingPacketsWithErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4048,7 +4048,7 @@
         },
         {
           "ClrName": "OutputQueueLength",
-          "TsEmitName": "outputQueueLength",
+          "TsEmitName": "OutputQueueLength",
           "NormalizedSignature": "OutputQueueLength|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4062,7 +4062,7 @@
         },
         {
           "ClrName": "UnicastPacketsReceived",
-          "TsEmitName": "unicastPacketsReceived",
+          "TsEmitName": "UnicastPacketsReceived",
           "NormalizedSignature": "UnicastPacketsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4076,7 +4076,7 @@
         },
         {
           "ClrName": "UnicastPacketsSent",
-          "TsEmitName": "unicastPacketsSent",
+          "TsEmitName": "UnicastPacketsSent",
           "NormalizedSignature": "UnicastPacketsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4105,7 +4105,7 @@
       "Methods": [
         {
           "ClrName": "GetScopeId",
-          "TsEmitName": "getScopeId",
+          "TsEmitName": "GetScopeId",
           "NormalizedSignature": "GetScopeId|(System.Net.NetworkInformation.ScopeLevel):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4121,7 +4121,7 @@
       "Properties": [
         {
           "ClrName": "Index",
-          "TsEmitName": "index",
+          "TsEmitName": "Index",
           "NormalizedSignature": "Index|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4135,7 +4135,7 @@
         },
         {
           "ClrName": "Mtu",
-          "TsEmitName": "mtu",
+          "TsEmitName": "Mtu",
           "NormalizedSignature": "Mtu|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4165,7 +4165,7 @@
       "Properties": [
         {
           "ClrName": "AddressPreferredLifetime",
-          "TsEmitName": "addressPreferredLifetime",
+          "TsEmitName": "AddressPreferredLifetime",
           "NormalizedSignature": "AddressPreferredLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4179,7 +4179,7 @@
         },
         {
           "ClrName": "AddressValidLifetime",
-          "TsEmitName": "addressValidLifetime",
+          "TsEmitName": "AddressValidLifetime",
           "NormalizedSignature": "AddressValidLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4193,7 +4193,7 @@
         },
         {
           "ClrName": "DhcpLeaseLifetime",
-          "TsEmitName": "dhcpLeaseLifetime",
+          "TsEmitName": "DhcpLeaseLifetime",
           "NormalizedSignature": "DhcpLeaseLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4207,7 +4207,7 @@
         },
         {
           "ClrName": "DuplicateAddressDetectionState",
-          "TsEmitName": "duplicateAddressDetectionState",
+          "TsEmitName": "DuplicateAddressDetectionState",
           "NormalizedSignature": "DuplicateAddressDetectionState|:System.Net.NetworkInformation.DuplicateAddressDetectionState|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4221,7 +4221,7 @@
         },
         {
           "ClrName": "PrefixOrigin",
-          "TsEmitName": "prefixOrigin",
+          "TsEmitName": "PrefixOrigin",
           "NormalizedSignature": "PrefixOrigin|:System.Net.NetworkInformation.PrefixOrigin|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4235,7 +4235,7 @@
         },
         {
           "ClrName": "SuffixOrigin",
-          "TsEmitName": "suffixOrigin",
+          "TsEmitName": "SuffixOrigin",
           "NormalizedSignature": "SuffixOrigin|:System.Net.NetworkInformation.SuffixOrigin|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4264,7 +4264,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Net.NetworkInformation.MulticastIPAddressInformation[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4278,7 +4278,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4292,7 +4292,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4306,7 +4306,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.MulticastIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4320,7 +4320,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Net.NetworkInformation.MulticastIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4334,7 +4334,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4348,7 +4348,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4363,7 +4363,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4378,7 +4378,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4393,7 +4393,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4408,7 +4408,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4423,7 +4423,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4440,7 +4440,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4454,7 +4454,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4468,7 +4468,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Net.NetworkInformation.MulticastIPAddressInformation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4482,7 +4482,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4497,7 +4497,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly$view",
+          "TsEmitName": "IsReadOnly$view",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4527,7 +4527,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.EventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4541,7 +4541,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.EventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4555,7 +4555,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4569,7 +4569,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4584,7 +4584,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4599,7 +4599,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4613,7 +4613,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4649,7 +4649,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4663,7 +4663,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Net.NetworkInformation.NetworkAvailabilityEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4677,7 +4677,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4691,7 +4691,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4706,7 +4706,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4721,7 +4721,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4735,7 +4735,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4772,7 +4772,7 @@
       "Properties": [
         {
           "ClrName": "IsAvailable",
-          "TsEmitName": "isAvailable",
+          "TsEmitName": "IsAvailable",
           "NormalizedSignature": "IsAvailable|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4801,7 +4801,7 @@
       "Methods": [
         {
           "ClrName": "RegisterNetworkChange",
-          "TsEmitName": "registerNetworkChange",
+          "TsEmitName": "RegisterNetworkChange",
           "NormalizedSignature": "RegisterNetworkChange|(System.Net.NetworkInformation.NetworkChange):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4819,13 +4819,13 @@
       "Events": [
         {
           "ClrName": "NetworkAddressChanged",
-          "TsEmitName": "networkAddressChanged",
+          "TsEmitName": "NetworkAddressChanged",
           "NormalizedSignature": "NetworkAddressChanged|System.Net.NetworkInformation.NetworkAddressChangedEventHandler|static=true",
           "IsStatic": true
         },
         {
           "ClrName": "NetworkAvailabilityChanged",
-          "TsEmitName": "networkAvailabilityChanged",
+          "TsEmitName": "NetworkAvailabilityChanged",
           "NormalizedSignature": "NetworkAvailabilityChanged|System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler|static=true",
           "IsStatic": true
         }
@@ -4850,7 +4850,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4865,7 +4865,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4881,7 +4881,7 @@
       "Properties": [
         {
           "ClrName": "ErrorCode",
-          "TsEmitName": "errorCode",
+          "TsEmitName": "ErrorCode",
           "NormalizedSignature": "ErrorCode|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4921,7 +4921,7 @@
       "Methods": [
         {
           "ClrName": "GetAllNetworkInterfaces",
-          "TsEmitName": "getAllNetworkInterfaces",
+          "TsEmitName": "GetAllNetworkInterfaces",
           "NormalizedSignature": "GetAllNetworkInterfaces|():System.Net.NetworkInformation.NetworkInterface[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4935,7 +4935,7 @@
         },
         {
           "ClrName": "GetIsNetworkAvailable",
-          "TsEmitName": "getIsNetworkAvailable",
+          "TsEmitName": "GetIsNetworkAvailable",
           "NormalizedSignature": "GetIsNetworkAvailable|():System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4949,7 +4949,7 @@
         },
         {
           "ClrName": "GetIPProperties",
-          "TsEmitName": "getIPProperties",
+          "TsEmitName": "GetIPProperties",
           "NormalizedSignature": "GetIPProperties|():System.Net.NetworkInformation.IPInterfaceProperties|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4963,7 +4963,7 @@
         },
         {
           "ClrName": "GetIPStatistics",
-          "TsEmitName": "getIPStatistics",
+          "TsEmitName": "GetIPStatistics",
           "NormalizedSignature": "GetIPStatistics|():System.Net.NetworkInformation.IPInterfaceStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4977,7 +4977,7 @@
         },
         {
           "ClrName": "GetIPv4Statistics",
-          "TsEmitName": "getIPv4Statistics",
+          "TsEmitName": "GetIPv4Statistics",
           "NormalizedSignature": "GetIPv4Statistics|():System.Net.NetworkInformation.IPv4InterfaceStatistics|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4991,7 +4991,7 @@
         },
         {
           "ClrName": "GetPhysicalAddress",
-          "TsEmitName": "getPhysicalAddress",
+          "TsEmitName": "GetPhysicalAddress",
           "NormalizedSignature": "GetPhysicalAddress|():System.Net.NetworkInformation.PhysicalAddress|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5005,7 +5005,7 @@
         },
         {
           "ClrName": "Supports",
-          "TsEmitName": "supports",
+          "TsEmitName": "Supports",
           "NormalizedSignature": "Supports|(System.Net.NetworkInformation.NetworkInterfaceComponent):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5021,7 +5021,7 @@
       "Properties": [
         {
           "ClrName": "IPv6LoopbackInterfaceIndex",
-          "TsEmitName": "iPv6LoopbackInterfaceIndex",
+          "TsEmitName": "IPv6LoopbackInterfaceIndex",
           "NormalizedSignature": "IPv6LoopbackInterfaceIndex|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5035,7 +5035,7 @@
         },
         {
           "ClrName": "LoopbackInterfaceIndex",
-          "TsEmitName": "loopbackInterfaceIndex",
+          "TsEmitName": "LoopbackInterfaceIndex",
           "NormalizedSignature": "LoopbackInterfaceIndex|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5049,7 +5049,7 @@
         },
         {
           "ClrName": "Id",
-          "TsEmitName": "id",
+          "TsEmitName": "Id",
           "NormalizedSignature": "Id|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5063,7 +5063,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5077,7 +5077,7 @@
         },
         {
           "ClrName": "Description",
-          "TsEmitName": "description",
+          "TsEmitName": "Description",
           "NormalizedSignature": "Description|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5091,7 +5091,7 @@
         },
         {
           "ClrName": "OperationalStatus",
-          "TsEmitName": "operationalStatus",
+          "TsEmitName": "OperationalStatus",
           "NormalizedSignature": "OperationalStatus|:System.Net.NetworkInformation.OperationalStatus|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5105,7 +5105,7 @@
         },
         {
           "ClrName": "Speed",
-          "TsEmitName": "speed",
+          "TsEmitName": "Speed",
           "NormalizedSignature": "Speed|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5119,7 +5119,7 @@
         },
         {
           "ClrName": "IsReceiveOnly",
-          "TsEmitName": "isReceiveOnly",
+          "TsEmitName": "IsReceiveOnly",
           "NormalizedSignature": "IsReceiveOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5133,7 +5133,7 @@
         },
         {
           "ClrName": "SupportsMulticast",
-          "TsEmitName": "supportsMulticast",
+          "TsEmitName": "SupportsMulticast",
           "NormalizedSignature": "SupportsMulticast|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5147,7 +5147,7 @@
         },
         {
           "ClrName": "NetworkInterfaceType",
-          "TsEmitName": "networkInterfaceType",
+          "TsEmitName": "NetworkInterfaceType",
           "NormalizedSignature": "NetworkInterfaceType|:System.Net.NetworkInformation.NetworkInterfaceType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5176,7 +5176,7 @@
       "Methods": [
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5190,7 +5190,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5204,7 +5204,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5218,7 +5218,7 @@
         },
         {
           "ClrName": "GetAddressBytes",
-          "TsEmitName": "getAddressBytes",
+          "TsEmitName": "GetAddressBytes",
           "NormalizedSignature": "GetAddressBytes|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5232,7 +5232,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse",
+          "TsEmitName": "Parse",
           "NormalizedSignature": "Parse|(System.String):System.Net.NetworkInformation.PhysicalAddress|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5246,7 +5246,7 @@
         },
         {
           "ClrName": "Parse",
-          "TsEmitName": "parse2",
+          "TsEmitName": "Parse2",
           "NormalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.NetworkInformation.PhysicalAddress|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5260,7 +5260,7 @@
         },
         {
           "ClrName": "TryParse",
-          "TsEmitName": "tryParse",
+          "TsEmitName": "TryParse",
           "NormalizedSignature": "TryParse|(System.String,System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5274,7 +5274,7 @@
         },
         {
           "ClrName": "TryParse",
-          "TsEmitName": "tryParse2",
+          "TsEmitName": "TryParse2",
           "NormalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5291,7 +5291,7 @@
       "Fields": [
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Net.NetworkInformation.PhysicalAddress|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -5319,7 +5319,7 @@
       "Methods": [
         {
           "ClrName": "Send",
-          "TsEmitName": "send",
+          "TsEmitName": "Send",
           "NormalizedSignature": "Send|(System.String):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5333,7 +5333,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send2",
+          "TsEmitName": "Send2",
           "NormalizedSignature": "Send|(System.String,System.Int32):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5347,7 +5347,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send3",
+          "TsEmitName": "Send3",
           "NormalizedSignature": "Send|(System.Net.IPAddress):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5361,7 +5361,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send4",
+          "TsEmitName": "Send4",
           "NormalizedSignature": "Send|(System.Net.IPAddress,System.Int32):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5375,7 +5375,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send5",
+          "TsEmitName": "Send5",
           "NormalizedSignature": "Send|(System.String,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5389,7 +5389,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send6",
+          "TsEmitName": "Send6",
           "NormalizedSignature": "Send|(System.Net.IPAddress,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5403,7 +5403,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send7",
+          "TsEmitName": "Send7",
           "NormalizedSignature": "Send|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5417,7 +5417,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send8",
+          "TsEmitName": "Send8",
           "NormalizedSignature": "Send|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5431,7 +5431,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send9",
+          "TsEmitName": "Send9",
           "NormalizedSignature": "Send|(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5445,7 +5445,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send10",
+          "TsEmitName": "Send10",
           "NormalizedSignature": "Send|(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5459,7 +5459,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync",
+          "TsEmitName": "SendAsync",
           "NormalizedSignature": "SendAsync|(System.String,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5473,7 +5473,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync2",
+          "TsEmitName": "SendAsync2",
           "NormalizedSignature": "SendAsync|(System.String,System.Int32,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5487,7 +5487,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync3",
+          "TsEmitName": "SendAsync3",
           "NormalizedSignature": "SendAsync|(System.Net.IPAddress,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5501,7 +5501,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync4",
+          "TsEmitName": "SendAsync4",
           "NormalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5515,7 +5515,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync5",
+          "TsEmitName": "SendAsync5",
           "NormalizedSignature": "SendAsync|(System.String,System.Int32,System.Byte[],System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5529,7 +5529,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync6",
+          "TsEmitName": "SendAsync6",
           "NormalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5543,7 +5543,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync7",
+          "TsEmitName": "SendAsync7",
           "NormalizedSignature": "SendAsync|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5557,7 +5557,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync8",
+          "TsEmitName": "SendAsync8",
           "NormalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5571,7 +5571,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync",
+          "TsEmitName": "SendPingAsync",
           "NormalizedSignature": "SendPingAsync|(System.Net.IPAddress):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5585,7 +5585,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync2",
+          "TsEmitName": "SendPingAsync2",
           "NormalizedSignature": "SendPingAsync|(System.String):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5599,7 +5599,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync3",
+          "TsEmitName": "SendPingAsync3",
           "NormalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5613,7 +5613,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync4",
+          "TsEmitName": "SendPingAsync4",
           "NormalizedSignature": "SendPingAsync|(System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5627,7 +5627,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync5",
+          "TsEmitName": "SendPingAsync5",
           "NormalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5641,7 +5641,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync6",
+          "TsEmitName": "SendPingAsync6",
           "NormalizedSignature": "SendPingAsync|(System.String,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5655,7 +5655,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync7",
+          "TsEmitName": "SendPingAsync7",
           "NormalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5669,7 +5669,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync8",
+          "TsEmitName": "SendPingAsync8",
           "NormalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5683,7 +5683,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync9",
+          "TsEmitName": "SendPingAsync9",
           "NormalizedSignature": "SendPingAsync|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5697,7 +5697,7 @@
         },
         {
           "ClrName": "SendPingAsync",
-          "TsEmitName": "sendPingAsync10",
+          "TsEmitName": "SendPingAsync10",
           "NormalizedSignature": "SendPingAsync|(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5711,7 +5711,7 @@
         },
         {
           "ClrName": "SendAsyncCancel",
-          "TsEmitName": "sendAsyncCancel",
+          "TsEmitName": "SendAsyncCancel",
           "NormalizedSignature": "SendAsyncCancel|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5725,7 +5725,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5740,7 +5740,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5756,7 +5756,7 @@
       "Properties": [
         {
           "ClrName": "Site",
-          "TsEmitName": "site",
+          "TsEmitName": "Site",
           "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5774,7 +5774,7 @@
       "Events": [
         {
           "ClrName": "PingCompleted",
-          "TsEmitName": "pingCompleted",
+          "TsEmitName": "PingCompleted",
           "NormalizedSignature": "PingCompleted|System.Net.NetworkInformation.PingCompletedEventHandler|static=false",
           "IsStatic": false
         }
@@ -5800,7 +5800,7 @@
       "Properties": [
         {
           "ClrName": "Reply",
-          "TsEmitName": "reply",
+          "TsEmitName": "Reply",
           "NormalizedSignature": "Reply|:System.Net.NetworkInformation.PingReply|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5829,7 +5829,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5843,7 +5843,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Net.NetworkInformation.PingCompletedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5857,7 +5857,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5871,7 +5871,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5886,7 +5886,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5901,7 +5901,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5915,7 +5915,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5951,7 +5951,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5966,7 +5966,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6008,7 +6008,7 @@
       "Properties": [
         {
           "ClrName": "Ttl",
-          "TsEmitName": "ttl",
+          "TsEmitName": "Ttl",
           "NormalizedSignature": "Ttl|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6022,7 +6022,7 @@
         },
         {
           "ClrName": "DontFragment",
-          "TsEmitName": "dontFragment",
+          "TsEmitName": "DontFragment",
           "NormalizedSignature": "DontFragment|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6063,7 +6063,7 @@
       "Properties": [
         {
           "ClrName": "Status",
-          "TsEmitName": "status",
+          "TsEmitName": "Status",
           "NormalizedSignature": "Status|:System.Net.NetworkInformation.IPStatus|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6077,7 +6077,7 @@
         },
         {
           "ClrName": "Address",
-          "TsEmitName": "address",
+          "TsEmitName": "Address",
           "NormalizedSignature": "Address|:System.Net.IPAddress|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6091,7 +6091,7 @@
         },
         {
           "ClrName": "RoundtripTime",
-          "TsEmitName": "roundtripTime",
+          "TsEmitName": "RoundtripTime",
           "NormalizedSignature": "RoundtripTime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6105,7 +6105,7 @@
         },
         {
           "ClrName": "Options",
-          "TsEmitName": "options",
+          "TsEmitName": "Options",
           "NormalizedSignature": "Options|:System.Net.NetworkInformation.PingOptions|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6119,7 +6119,7 @@
         },
         {
           "ClrName": "Buffer",
-          "TsEmitName": "buffer",
+          "TsEmitName": "Buffer",
           "NormalizedSignature": "Buffer|:System.Byte[]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6149,7 +6149,7 @@
       "Properties": [
         {
           "ClrName": "LocalEndPoint",
-          "TsEmitName": "localEndPoint",
+          "TsEmitName": "LocalEndPoint",
           "NormalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6163,7 +6163,7 @@
         },
         {
           "ClrName": "RemoteEndPoint",
-          "TsEmitName": "remoteEndPoint",
+          "TsEmitName": "RemoteEndPoint",
           "NormalizedSignature": "RemoteEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6177,7 +6177,7 @@
         },
         {
           "ClrName": "State",
-          "TsEmitName": "state",
+          "TsEmitName": "State",
           "NormalizedSignature": "State|:System.Net.NetworkInformation.TcpState|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6207,7 +6207,7 @@
       "Properties": [
         {
           "ClrName": "ConnectionsAccepted",
-          "TsEmitName": "connectionsAccepted",
+          "TsEmitName": "ConnectionsAccepted",
           "NormalizedSignature": "ConnectionsAccepted|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6221,7 +6221,7 @@
         },
         {
           "ClrName": "ConnectionsInitiated",
-          "TsEmitName": "connectionsInitiated",
+          "TsEmitName": "ConnectionsInitiated",
           "NormalizedSignature": "ConnectionsInitiated|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6235,7 +6235,7 @@
         },
         {
           "ClrName": "CumulativeConnections",
-          "TsEmitName": "cumulativeConnections",
+          "TsEmitName": "CumulativeConnections",
           "NormalizedSignature": "CumulativeConnections|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6249,7 +6249,7 @@
         },
         {
           "ClrName": "CurrentConnections",
-          "TsEmitName": "currentConnections",
+          "TsEmitName": "CurrentConnections",
           "NormalizedSignature": "CurrentConnections|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6263,7 +6263,7 @@
         },
         {
           "ClrName": "ErrorsReceived",
-          "TsEmitName": "errorsReceived",
+          "TsEmitName": "ErrorsReceived",
           "NormalizedSignature": "ErrorsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6277,7 +6277,7 @@
         },
         {
           "ClrName": "FailedConnectionAttempts",
-          "TsEmitName": "failedConnectionAttempts",
+          "TsEmitName": "FailedConnectionAttempts",
           "NormalizedSignature": "FailedConnectionAttempts|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6291,7 +6291,7 @@
         },
         {
           "ClrName": "MaximumConnections",
-          "TsEmitName": "maximumConnections",
+          "TsEmitName": "MaximumConnections",
           "NormalizedSignature": "MaximumConnections|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6305,7 +6305,7 @@
         },
         {
           "ClrName": "MaximumTransmissionTimeout",
-          "TsEmitName": "maximumTransmissionTimeout",
+          "TsEmitName": "MaximumTransmissionTimeout",
           "NormalizedSignature": "MaximumTransmissionTimeout|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6319,7 +6319,7 @@
         },
         {
           "ClrName": "MinimumTransmissionTimeout",
-          "TsEmitName": "minimumTransmissionTimeout",
+          "TsEmitName": "MinimumTransmissionTimeout",
           "NormalizedSignature": "MinimumTransmissionTimeout|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6333,7 +6333,7 @@
         },
         {
           "ClrName": "ResetConnections",
-          "TsEmitName": "resetConnections",
+          "TsEmitName": "ResetConnections",
           "NormalizedSignature": "ResetConnections|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6347,7 +6347,7 @@
         },
         {
           "ClrName": "SegmentsReceived",
-          "TsEmitName": "segmentsReceived",
+          "TsEmitName": "SegmentsReceived",
           "NormalizedSignature": "SegmentsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6361,7 +6361,7 @@
         },
         {
           "ClrName": "SegmentsResent",
-          "TsEmitName": "segmentsResent",
+          "TsEmitName": "SegmentsResent",
           "NormalizedSignature": "SegmentsResent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6375,7 +6375,7 @@
         },
         {
           "ClrName": "SegmentsSent",
-          "TsEmitName": "segmentsSent",
+          "TsEmitName": "SegmentsSent",
           "NormalizedSignature": "SegmentsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6389,7 +6389,7 @@
         },
         {
           "ClrName": "ResetsSent",
-          "TsEmitName": "resetsSent",
+          "TsEmitName": "ResetsSent",
           "NormalizedSignature": "ResetsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6419,7 +6419,7 @@
       "Properties": [
         {
           "ClrName": "DatagramsReceived",
-          "TsEmitName": "datagramsReceived",
+          "TsEmitName": "DatagramsReceived",
           "NormalizedSignature": "DatagramsReceived|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6433,7 +6433,7 @@
         },
         {
           "ClrName": "DatagramsSent",
-          "TsEmitName": "datagramsSent",
+          "TsEmitName": "DatagramsSent",
           "NormalizedSignature": "DatagramsSent|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6447,7 +6447,7 @@
         },
         {
           "ClrName": "IncomingDatagramsDiscarded",
-          "TsEmitName": "incomingDatagramsDiscarded",
+          "TsEmitName": "IncomingDatagramsDiscarded",
           "NormalizedSignature": "IncomingDatagramsDiscarded|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6461,7 +6461,7 @@
         },
         {
           "ClrName": "IncomingDatagramsWithErrors",
-          "TsEmitName": "incomingDatagramsWithErrors",
+          "TsEmitName": "IncomingDatagramsWithErrors",
           "NormalizedSignature": "IncomingDatagramsWithErrors|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6475,7 +6475,7 @@
         },
         {
           "ClrName": "UdpListeners",
-          "TsEmitName": "udpListeners",
+          "TsEmitName": "UdpListeners",
           "NormalizedSignature": "UdpListeners|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6505,7 +6505,7 @@
       "Properties": [
         {
           "ClrName": "AddressPreferredLifetime",
-          "TsEmitName": "addressPreferredLifetime",
+          "TsEmitName": "AddressPreferredLifetime",
           "NormalizedSignature": "AddressPreferredLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6519,7 +6519,7 @@
         },
         {
           "ClrName": "AddressValidLifetime",
-          "TsEmitName": "addressValidLifetime",
+          "TsEmitName": "AddressValidLifetime",
           "NormalizedSignature": "AddressValidLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6533,7 +6533,7 @@
         },
         {
           "ClrName": "DhcpLeaseLifetime",
-          "TsEmitName": "dhcpLeaseLifetime",
+          "TsEmitName": "DhcpLeaseLifetime",
           "NormalizedSignature": "DhcpLeaseLifetime|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6547,7 +6547,7 @@
         },
         {
           "ClrName": "DuplicateAddressDetectionState",
-          "TsEmitName": "duplicateAddressDetectionState",
+          "TsEmitName": "DuplicateAddressDetectionState",
           "NormalizedSignature": "DuplicateAddressDetectionState|:System.Net.NetworkInformation.DuplicateAddressDetectionState|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6561,7 +6561,7 @@
         },
         {
           "ClrName": "PrefixOrigin",
-          "TsEmitName": "prefixOrigin",
+          "TsEmitName": "PrefixOrigin",
           "NormalizedSignature": "PrefixOrigin|:System.Net.NetworkInformation.PrefixOrigin|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6575,7 +6575,7 @@
         },
         {
           "ClrName": "SuffixOrigin",
-          "TsEmitName": "suffixOrigin",
+          "TsEmitName": "SuffixOrigin",
           "NormalizedSignature": "SuffixOrigin|:System.Net.NetworkInformation.SuffixOrigin|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6589,7 +6589,7 @@
         },
         {
           "ClrName": "IPv4Mask",
-          "TsEmitName": "iPv4Mask",
+          "TsEmitName": "IPv4Mask",
           "NormalizedSignature": "IPv4Mask|:System.Net.IPAddress|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6603,7 +6603,7 @@
         },
         {
           "ClrName": "PrefixLength",
-          "TsEmitName": "prefixLength",
+          "TsEmitName": "PrefixLength",
           "NormalizedSignature": "PrefixLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6632,7 +6632,7 @@
       "Methods": [
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Net.NetworkInformation.UnicastIPAddressInformation[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6646,7 +6646,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6660,7 +6660,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6674,7 +6674,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Net.NetworkInformation.UnicastIPAddressInformation,System.Net.NetworkInformation,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6688,7 +6688,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Net.NetworkInformation.UnicastIPAddressInformation):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6702,7 +6702,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6716,7 +6716,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6731,7 +6731,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6746,7 +6746,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6761,7 +6761,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6776,7 +6776,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6791,7 +6791,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6808,7 +6808,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6822,7 +6822,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6836,7 +6836,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Net.NetworkInformation.UnicastIPAddressInformation|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6850,7 +6850,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6865,7 +6865,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly$view",
+          "TsEmitName": "IsReadOnly$view",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",

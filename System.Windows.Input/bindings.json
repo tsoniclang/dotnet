@@ -9,7 +9,7 @@
       "Methods": [
         {
           "ClrName": "CanExecute",
-          "TsEmitName": "canExecute",
+          "TsEmitName": "CanExecute",
           "MetadataToken": 100663318,
           "CanonicalSignature": "(System.Object):System.Boolean",
           "NormalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "Execute",
-          "TsEmitName": "execute",
+          "TsEmitName": "Execute",
           "MetadataToken": 100663319,
           "CanonicalSignature": "(System.Object):System.Void",
           "NormalizedSignature": "Execute|(System.Object):System.Void|static=false",
@@ -37,7 +37,7 @@
       "Events": [
         {
           "ClrName": "CanExecuteChanged",
-          "TsEmitName": "canExecuteChanged",
+          "TsEmitName": "CanExecuteChanged",
           "MetadataToken": 335544321,
           "NormalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "IsStatic": false,
@@ -48,7 +48,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "canExecute",
+          "TsName": "CanExecute",
           "IsStatic": false,
           "TsSignatureId": "CanExecute|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -58,7 +58,7 @@
           }
         },
         {
-          "TsName": "execute",
+          "TsName": "Execute",
           "IsStatic": false,
           "TsSignatureId": "Execute|(System.Object):System.Void|static=false",
           "Target": {
@@ -70,7 +70,7 @@
       ],
       "ExposedEvents": [
         {
-          "TsName": "canExecuteChanged",
+          "TsName": "CanExecuteChanged",
           "IsStatic": false,
           "TsSignatureId": "CanExecuteChanged|System.EventHandler|static=false",
           "Target": {

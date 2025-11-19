@@ -6,7 +6,7 @@
 import * as Internal from './internal/index.js';
 
 // Cross-namespace type imports for constraints
-import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IFloatingPointConstants_1, IFloatingPointIeee754_1, IMultiplyOperators_3, IShiftOperators_3, ISignedNumber_1, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from '../System.Numerics/internal/index.js';
+import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IMultiplyOperators_3, IShiftOperators_3, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from '../System.Numerics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, IEquatable_1, Int16, Int32, Int64, IntPtr, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from '../System/internal/index.js';
 
 export * from './internal/index.js';

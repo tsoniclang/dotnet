@@ -17,7 +17,7 @@
       "Properties": [
         {
           "ClrName": "Tool",
-          "TsEmitName": "tool",
+          "TsEmitName": "Tool",
           "NormalizedSignature": "Tool|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -31,7 +31,7 @@
         },
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "NormalizedSignature": "Version|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -66,7 +66,7 @@
       "Methods": [
         {
           "ClrName": "Close",
-          "TsEmitName": "close",
+          "TsEmitName": "Close",
           "NormalizedSignature": "Close|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -80,7 +80,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -94,7 +94,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "NormalizedSignature": "Flush|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -108,7 +108,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync",
+          "TsEmitName": "FlushAsync",
           "NormalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -122,7 +122,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync2",
+          "TsEmitName": "FlushAsync2",
           "NormalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -136,7 +136,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write8",
+          "TsEmitName": "Write8",
           "NormalizedSignature": "Write|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -150,7 +150,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write9",
+          "TsEmitName": "Write9",
           "NormalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -164,7 +164,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write10",
+          "TsEmitName": "Write10",
           "NormalizedSignature": "Write|(System.Char):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -178,7 +178,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write11",
+          "TsEmitName": "Write11",
           "NormalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -192,7 +192,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write12",
+          "TsEmitName": "Write12",
           "NormalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -206,7 +206,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write13",
+          "TsEmitName": "Write13",
           "NormalizedSignature": "Write|(System.Double):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -220,7 +220,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write14",
+          "TsEmitName": "Write14",
           "NormalizedSignature": "Write|(System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write15",
+          "TsEmitName": "Write15",
           "NormalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -248,7 +248,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write16",
+          "TsEmitName": "Write16",
           "NormalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -262,7 +262,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write17",
+          "TsEmitName": "Write17",
           "NormalizedSignature": "Write|(System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -276,7 +276,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write18",
+          "TsEmitName": "Write18",
           "NormalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -290,7 +290,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write19",
+          "TsEmitName": "Write19",
           "NormalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -304,7 +304,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write20",
+          "TsEmitName": "Write20",
           "NormalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -318,7 +318,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write21",
+          "TsEmitName": "Write21",
           "NormalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -332,7 +332,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync3",
+          "TsEmitName": "WriteAsync3",
           "NormalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync4",
+          "TsEmitName": "WriteAsync4",
           "NormalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -360,7 +360,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync5",
+          "TsEmitName": "WriteAsync5",
           "NormalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -374,7 +374,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync6",
+          "TsEmitName": "WriteAsync6",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -388,7 +388,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync7",
+          "TsEmitName": "WriteAsync7",
           "NormalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -402,7 +402,7 @@
         },
         {
           "ClrName": "WriteLineNoTabs",
-          "TsEmitName": "writeLineNoTabs",
+          "TsEmitName": "WriteLineNoTabs",
           "NormalizedSignature": "WriteLineNoTabs|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -416,7 +416,7 @@
         },
         {
           "ClrName": "WriteLineNoTabsAsync",
-          "TsEmitName": "writeLineNoTabsAsync",
+          "TsEmitName": "WriteLineNoTabsAsync",
           "NormalizedSignature": "WriteLineNoTabsAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -430,7 +430,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine7",
+          "TsEmitName": "WriteLine7",
           "NormalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -444,7 +444,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine8",
+          "TsEmitName": "WriteLine8",
           "NormalizedSignature": "WriteLine|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -458,7 +458,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine9",
+          "TsEmitName": "WriteLine9",
           "NormalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -472,7 +472,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine10",
+          "TsEmitName": "WriteLine10",
           "NormalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -486,7 +486,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine11",
+          "TsEmitName": "WriteLine11",
           "NormalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -500,7 +500,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine12",
+          "TsEmitName": "WriteLine12",
           "NormalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine13",
+          "TsEmitName": "WriteLine13",
           "NormalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -528,7 +528,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine14",
+          "TsEmitName": "WriteLine14",
           "NormalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine15",
+          "TsEmitName": "WriteLine15",
           "NormalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -556,7 +556,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine16",
+          "TsEmitName": "WriteLine16",
           "NormalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -570,7 +570,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine17",
+          "TsEmitName": "WriteLine17",
           "NormalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -584,7 +584,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine18",
+          "TsEmitName": "WriteLine18",
           "NormalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -598,7 +598,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine19",
+          "TsEmitName": "WriteLine19",
           "NormalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine20",
+          "TsEmitName": "WriteLine20",
           "NormalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine21",
+          "TsEmitName": "WriteLine21",
           "NormalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -640,7 +640,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine22",
+          "TsEmitName": "WriteLine22",
           "NormalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -654,7 +654,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync3",
+          "TsEmitName": "WriteLineAsync3",
           "NormalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -668,7 +668,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync4",
+          "TsEmitName": "WriteLineAsync4",
           "NormalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -682,7 +682,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync5",
+          "TsEmitName": "WriteLineAsync5",
           "NormalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -696,7 +696,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync6",
+          "TsEmitName": "WriteLineAsync6",
           "NormalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -710,7 +710,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync7",
+          "TsEmitName": "WriteLineAsync7",
           "NormalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -724,7 +724,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync8",
+          "TsEmitName": "WriteLineAsync8",
           "NormalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -738,7 +738,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -753,7 +753,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -768,7 +768,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -782,7 +782,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -796,7 +796,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write2",
+          "TsEmitName": "Write2",
           "NormalizedSignature": "Write|(System.UInt32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -810,7 +810,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write3",
+          "TsEmitName": "Write3",
           "NormalizedSignature": "Write|(System.UInt64):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -824,7 +824,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write4",
+          "TsEmitName": "Write4",
           "NormalizedSignature": "Write|(System.Decimal):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write5",
+          "TsEmitName": "Write5",
           "NormalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write6",
+          "TsEmitName": "Write6",
           "NormalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -866,7 +866,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write7",
+          "TsEmitName": "Write7",
           "NormalizedSignature": "Write|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -880,7 +880,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync",
+          "TsEmitName": "WriteAsync",
           "NormalizedSignature": "WriteAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -894,7 +894,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync2",
+          "TsEmitName": "WriteAsync2",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -908,7 +908,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine",
+          "TsEmitName": "WriteLine",
           "NormalizedSignature": "WriteLine|(System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -922,7 +922,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine2",
+          "TsEmitName": "WriteLine2",
           "NormalizedSignature": "WriteLine|(System.UInt64):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine3",
+          "TsEmitName": "WriteLine3",
           "NormalizedSignature": "WriteLine|(System.Decimal):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -950,7 +950,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine4",
+          "TsEmitName": "WriteLine4",
           "NormalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -964,7 +964,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine5",
+          "TsEmitName": "WriteLine5",
           "NormalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -978,7 +978,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine6",
+          "TsEmitName": "WriteLine6",
           "NormalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -992,7 +992,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync",
+          "TsEmitName": "WriteLineAsync",
           "NormalizedSignature": "WriteLineAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1006,7 +1006,7 @@
         },
         {
           "ClrName": "WriteLineAsync",
-          "TsEmitName": "writeLineAsync2",
+          "TsEmitName": "WriteLineAsync2",
           "NormalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1022,7 +1022,7 @@
       "Properties": [
         {
           "ClrName": "Encoding",
-          "TsEmitName": "encoding",
+          "TsEmitName": "Encoding",
           "NormalizedSignature": "Encoding|:System.Text.Encoding|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1036,7 +1036,7 @@
         },
         {
           "ClrName": "NewLine",
-          "TsEmitName": "newLine",
+          "TsEmitName": "NewLine",
           "NormalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1050,7 +1050,7 @@
         },
         {
           "ClrName": "Indent",
-          "TsEmitName": "indent",
+          "TsEmitName": "Indent",
           "NormalizedSignature": "Indent|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1064,7 +1064,7 @@
         },
         {
           "ClrName": "InnerWriter",
-          "TsEmitName": "innerWriter",
+          "TsEmitName": "InnerWriter",
           "NormalizedSignature": "InnerWriter|:System.IO.TextWriter|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1080,7 +1080,7 @@
       "Fields": [
         {
           "ClrName": "DefaultTabString",
-          "TsEmitName": "defaultTabString",
+          "TsEmitName": "DefaultTabString",
           "NormalizedSignature": "DefaultTabString|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,

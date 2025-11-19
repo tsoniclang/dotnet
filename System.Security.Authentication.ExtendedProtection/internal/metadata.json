@@ -1,8 +1,8 @@
 {
   "Namespace": "System.Security.Authentication.ExtendedProtection",
   "ContributingAssemblies": [
-    "System.ComponentModel.TypeConverter",
     "System.Net.Security",
+    "System.ComponentModel.TypeConverter",
     "System.Net.Primitives"
   ],
   "Types": [
@@ -28,7 +28,7 @@
         },
         {
           "ClrName": "Unknown",
-          "TsEmitName": "unknown_",
+          "TsEmitName": "Unknown",
           "NormalizedSignature": "Unknown|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -36,7 +36,7 @@
         },
         {
           "ClrName": "Unique",
-          "TsEmitName": "unique",
+          "TsEmitName": "Unique",
           "NormalizedSignature": "Unique|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -44,7 +44,7 @@
         },
         {
           "ClrName": "Endpoint",
-          "TsEmitName": "endpoint",
+          "TsEmitName": "Endpoint",
           "NormalizedSignature": "Endpoint|System.Security.Authentication.ExtendedProtection.ChannelBindingKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -76,7 +76,7 @@
         },
         {
           "ClrName": "Never",
-          "TsEmitName": "never_",
+          "TsEmitName": "Never",
           "NormalizedSignature": "Never|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -84,7 +84,7 @@
         },
         {
           "ClrName": "WhenSupported",
-          "TsEmitName": "whenSupported",
+          "TsEmitName": "WhenSupported",
           "NormalizedSignature": "WhenSupported|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -92,7 +92,7 @@
         },
         {
           "ClrName": "Always",
-          "TsEmitName": "always",
+          "TsEmitName": "Always",
           "NormalizedSignature": "Always|System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -124,7 +124,7 @@
         },
         {
           "ClrName": "TransportSelected",
-          "TsEmitName": "transportSelected",
+          "TsEmitName": "TransportSelected",
           "NormalizedSignature": "TransportSelected|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -132,7 +132,7 @@
         },
         {
           "ClrName": "TrustedProxy",
-          "TsEmitName": "trustedProxy",
+          "TsEmitName": "TrustedProxy",
           "NormalizedSignature": "TrustedProxy|System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -169,7 +169,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -185,7 +185,7 @@
       "Properties": [
         {
           "ClrName": "Size",
-          "TsEmitName": "size",
+          "TsEmitName": "Size",
           "NormalizedSignature": "Size|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -214,7 +214,7 @@
       "Methods": [
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -228,7 +228,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -245,7 +245,7 @@
       "Properties": [
         {
           "ClrName": "CustomServiceNames",
-          "TsEmitName": "customServiceNames",
+          "TsEmitName": "CustomServiceNames",
           "NormalizedSignature": "CustomServiceNames|:System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -259,7 +259,7 @@
         },
         {
           "ClrName": "PolicyEnforcement",
-          "TsEmitName": "policyEnforcement",
+          "TsEmitName": "PolicyEnforcement",
           "NormalizedSignature": "PolicyEnforcement|:System.Security.Authentication.ExtendedProtection.PolicyEnforcement|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -273,7 +273,7 @@
         },
         {
           "ClrName": "ProtectionScenario",
-          "TsEmitName": "protectionScenario",
+          "TsEmitName": "ProtectionScenario",
           "NormalizedSignature": "ProtectionScenario|:System.Security.Authentication.ExtendedProtection.ProtectionScenario|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -287,7 +287,7 @@
         },
         {
           "ClrName": "CustomChannelBinding",
-          "TsEmitName": "customChannelBinding",
+          "TsEmitName": "CustomChannelBinding",
           "NormalizedSignature": "CustomChannelBinding|:System.Security.Authentication.ExtendedProtection.ChannelBinding|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -301,7 +301,7 @@
         },
         {
           "ClrName": "OSSupportsExtendedProtection",
-          "TsEmitName": "osSupportsExtendedProtection",
+          "TsEmitName": "OSSupportsExtendedProtection",
           "NormalizedSignature": "OSSupportsExtendedProtection|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -351,7 +351,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -365,7 +365,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -379,7 +379,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -393,7 +393,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -429,7 +429,7 @@
       "Methods": [
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -443,7 +443,7 @@
         },
         {
           "ClrName": "Merge",
-          "TsEmitName": "merge",
+          "TsEmitName": "Merge",
           "NormalizedSignature": "Merge|(System.String):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -457,7 +457,7 @@
         },
         {
           "ClrName": "Merge",
-          "TsEmitName": "merge2",
+          "TsEmitName": "Merge2",
           "NormalizedSignature": "Merge|(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -471,7 +471,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -486,7 +486,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -501,7 +501,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -515,7 +515,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -531,7 +531,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -546,7 +546,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -561,7 +561,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",

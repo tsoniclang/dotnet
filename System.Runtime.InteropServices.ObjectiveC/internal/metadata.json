@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "MsgSend",
-          "TsEmitName": "msgSend",
+          "TsEmitName": "MsgSend",
           "NormalizedSignature": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "MsgSendFpret",
-          "TsEmitName": "msgSendFpret",
+          "TsEmitName": "MsgSendFpret",
           "NormalizedSignature": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "MsgSendStret",
-          "TsEmitName": "msgSendStret",
+          "TsEmitName": "MsgSendStret",
           "NormalizedSignature": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "MsgSendSuper",
-          "TsEmitName": "msgSendSuper",
+          "TsEmitName": "MsgSendSuper",
           "NormalizedSignature": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "MsgSendSuperStret",
-          "TsEmitName": "msgSendSuperStret",
+          "TsEmitName": "MsgSendSuperStret",
           "NormalizedSignature": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -80,7 +80,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -94,7 +94,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -108,7 +108,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -122,7 +122,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -137,7 +137,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -152,7 +152,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -166,7 +166,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -223,7 +223,7 @@
       "Methods": [
         {
           "ClrName": "Initialize",
-          "TsEmitName": "initialize",
+          "TsEmitName": "Initialize",
           "NormalizedSignature": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -237,7 +237,7 @@
         },
         {
           "ClrName": "CreateReferenceTrackingHandle",
-          "TsEmitName": "createReferenceTrackingHandle",
+          "TsEmitName": "CreateReferenceTrackingHandle",
           "NormalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -251,7 +251,7 @@
         },
         {
           "ClrName": "SetMessageSendCallback",
-          "TsEmitName": "setMessageSendCallback",
+          "TsEmitName": "SetMessageSendCallback",
           "NormalizedSignature": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -265,7 +265,7 @@
         },
         {
           "ClrName": "SetMessageSendPendingException",
-          "TsEmitName": "setMessageSendPendingException",
+          "TsEmitName": "SetMessageSendPendingException",
           "NormalizedSignature": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

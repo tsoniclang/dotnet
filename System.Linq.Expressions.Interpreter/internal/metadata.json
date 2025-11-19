@@ -16,7 +16,7 @@
       "Methods": [
         {
           "ClrName": "Run",
-          "TsEmitName": "run",
+          "TsEmitName": "Run",
           "NormalizedSignature": "Run|(System.Object[]):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "ClrName": "RunVoid",
-          "TsEmitName": "runVoid",
+          "TsEmitName": "RunVoid",
           "NormalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

@@ -17,7 +17,7 @@
       "Properties": [
         {
           "ClrName": "Data",
-          "TsEmitName": "data",
+          "TsEmitName": "Data",
           "NormalizedSignature": "Data|:T|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -31,7 +31,7 @@
         },
         {
           "ClrName": "EventType",
-          "TsEmitName": "eventType",
+          "TsEmitName": "EventType",
           "NormalizedSignature": "EventType|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -45,7 +45,7 @@
         },
         {
           "ClrName": "EventId",
-          "TsEmitName": "eventId",
+          "TsEmitName": "EventId",
           "NormalizedSignature": "EventId|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -59,7 +59,7 @@
         },
         {
           "ClrName": "ReconnectionInterval",
-          "TsEmitName": "reconnectionInterval",
+          "TsEmitName": "ReconnectionInterval",
           "NormalizedSignature": "ReconnectionInterval|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -94,7 +94,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -108,7 +108,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -122,7 +122,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -136,7 +136,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -151,7 +151,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -166,7 +166,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -180,7 +180,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -216,7 +216,7 @@
       "Methods": [
         {
           "ClrName": "Enumerate",
-          "TsEmitName": "enumerate",
+          "TsEmitName": "Enumerate",
           "NormalizedSignature": "Enumerate|():IEnumerable_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -230,7 +230,7 @@
         },
         {
           "ClrName": "EnumerateAsync",
-          "TsEmitName": "enumerateAsync",
+          "TsEmitName": "EnumerateAsync",
           "NormalizedSignature": "EnumerateAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -246,7 +246,7 @@
       "Properties": [
         {
           "ClrName": "LastEventId",
-          "TsEmitName": "lastEventId",
+          "TsEmitName": "LastEventId",
           "NormalizedSignature": "LastEventId|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -260,7 +260,7 @@
         },
         {
           "ClrName": "ReconnectionInterval",
-          "TsEmitName": "reconnectionInterval",
+          "TsEmitName": "ReconnectionInterval",
           "NormalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -289,7 +289,7 @@
       "Methods": [
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync",
+          "TsEmitName": "WriteAsync",
           "NormalizedSignature": "WriteAsync|(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -303,7 +303,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync2",
+          "TsEmitName": "WriteAsync2",
           "NormalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -333,7 +333,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -347,7 +347,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "NormalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -364,7 +364,7 @@
       "Fields": [
         {
           "ClrName": "EventTypeDefault",
-          "TsEmitName": "eventTypeDefault",
+          "TsEmitName": "EventTypeDefault",
           "NormalizedSignature": "EventTypeDefault|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,

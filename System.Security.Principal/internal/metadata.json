@@ -1,9 +1,9 @@
 {
   "Namespace": "System.Security.Principal",
   "ContributingAssemblies": [
-    "System.Security.Claims",
+    "System.Security.Principal.Windows",
     "System.Private.CoreLib",
-    "System.Security.Principal.Windows"
+    "System.Security.Claims"
   ],
   "Types": [
     {
@@ -28,7 +28,7 @@
         },
         {
           "ClrName": "UnauthenticatedPrincipal",
-          "TsEmitName": "unauthenticatedPrincipal",
+          "TsEmitName": "UnauthenticatedPrincipal",
           "NormalizedSignature": "UnauthenticatedPrincipal|System.Security.Principal.PrincipalPolicy|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -36,7 +36,7 @@
         },
         {
           "ClrName": "NoPrincipal",
-          "TsEmitName": "noPrincipal",
+          "TsEmitName": "NoPrincipal",
           "NormalizedSignature": "NoPrincipal|System.Security.Principal.PrincipalPolicy|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -44,7 +44,7 @@
         },
         {
           "ClrName": "WindowsPrincipal",
-          "TsEmitName": "windowsPrincipal",
+          "TsEmitName": "WindowsPrincipal",
           "NormalizedSignature": "WindowsPrincipal|System.Security.Principal.PrincipalPolicy|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -76,7 +76,7 @@
         },
         {
           "ClrName": "AssignPrimary",
-          "TsEmitName": "assignPrimary",
+          "TsEmitName": "AssignPrimary",
           "NormalizedSignature": "AssignPrimary|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -84,7 +84,7 @@
         },
         {
           "ClrName": "Duplicate",
-          "TsEmitName": "duplicate",
+          "TsEmitName": "Duplicate",
           "NormalizedSignature": "Duplicate|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -92,7 +92,7 @@
         },
         {
           "ClrName": "Impersonate",
-          "TsEmitName": "impersonate",
+          "TsEmitName": "Impersonate",
           "NormalizedSignature": "Impersonate|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -100,7 +100,7 @@
         },
         {
           "ClrName": "Query",
-          "TsEmitName": "query",
+          "TsEmitName": "Query",
           "NormalizedSignature": "Query|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -108,7 +108,7 @@
         },
         {
           "ClrName": "QuerySource",
-          "TsEmitName": "querySource",
+          "TsEmitName": "QuerySource",
           "NormalizedSignature": "QuerySource|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -116,7 +116,7 @@
         },
         {
           "ClrName": "AdjustPrivileges",
-          "TsEmitName": "adjustPrivileges",
+          "TsEmitName": "AdjustPrivileges",
           "NormalizedSignature": "AdjustPrivileges|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -124,7 +124,7 @@
         },
         {
           "ClrName": "AdjustGroups",
-          "TsEmitName": "adjustGroups",
+          "TsEmitName": "AdjustGroups",
           "NormalizedSignature": "AdjustGroups|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -132,7 +132,7 @@
         },
         {
           "ClrName": "AdjustDefault",
-          "TsEmitName": "adjustDefault",
+          "TsEmitName": "AdjustDefault",
           "NormalizedSignature": "AdjustDefault|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -140,7 +140,7 @@
         },
         {
           "ClrName": "AdjustSessionId",
-          "TsEmitName": "adjustSessionId",
+          "TsEmitName": "AdjustSessionId",
           "NormalizedSignature": "AdjustSessionId|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -148,7 +148,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -156,7 +156,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -164,7 +164,7 @@
         },
         {
           "ClrName": "AllAccess",
-          "TsEmitName": "allAccess",
+          "TsEmitName": "AllAccess",
           "NormalizedSignature": "AllAccess|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -172,7 +172,7 @@
         },
         {
           "ClrName": "MaximumAllowed",
-          "TsEmitName": "maximumAllowed",
+          "TsEmitName": "MaximumAllowed",
           "NormalizedSignature": "MaximumAllowed|System.Security.Principal.TokenAccessLevels|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -204,7 +204,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Security.Principal.TokenImpersonationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -212,7 +212,7 @@
         },
         {
           "ClrName": "Anonymous",
-          "TsEmitName": "anonymous",
+          "TsEmitName": "Anonymous",
           "NormalizedSignature": "Anonymous|System.Security.Principal.TokenImpersonationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -220,7 +220,7 @@
         },
         {
           "ClrName": "Identification",
-          "TsEmitName": "identification",
+          "TsEmitName": "Identification",
           "NormalizedSignature": "Identification|System.Security.Principal.TokenImpersonationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -228,7 +228,7 @@
         },
         {
           "ClrName": "Impersonation",
-          "TsEmitName": "impersonation",
+          "TsEmitName": "Impersonation",
           "NormalizedSignature": "Impersonation|System.Security.Principal.TokenImpersonationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -236,7 +236,7 @@
         },
         {
           "ClrName": "Delegation",
-          "TsEmitName": "delegation",
+          "TsEmitName": "Delegation",
           "NormalizedSignature": "Delegation|System.Security.Principal.TokenImpersonationLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -268,7 +268,7 @@
         },
         {
           "ClrName": "NullSid",
-          "TsEmitName": "nullSid",
+          "TsEmitName": "NullSid",
           "NormalizedSignature": "NullSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -276,7 +276,7 @@
         },
         {
           "ClrName": "WorldSid",
-          "TsEmitName": "worldSid",
+          "TsEmitName": "WorldSid",
           "NormalizedSignature": "WorldSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -284,7 +284,7 @@
         },
         {
           "ClrName": "LocalSid",
-          "TsEmitName": "localSid",
+          "TsEmitName": "LocalSid",
           "NormalizedSignature": "LocalSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -292,7 +292,7 @@
         },
         {
           "ClrName": "CreatorOwnerSid",
-          "TsEmitName": "creatorOwnerSid",
+          "TsEmitName": "CreatorOwnerSid",
           "NormalizedSignature": "CreatorOwnerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -300,7 +300,7 @@
         },
         {
           "ClrName": "CreatorGroupSid",
-          "TsEmitName": "creatorGroupSid",
+          "TsEmitName": "CreatorGroupSid",
           "NormalizedSignature": "CreatorGroupSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -308,7 +308,7 @@
         },
         {
           "ClrName": "CreatorOwnerServerSid",
-          "TsEmitName": "creatorOwnerServerSid",
+          "TsEmitName": "CreatorOwnerServerSid",
           "NormalizedSignature": "CreatorOwnerServerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -316,7 +316,7 @@
         },
         {
           "ClrName": "CreatorGroupServerSid",
-          "TsEmitName": "creatorGroupServerSid",
+          "TsEmitName": "CreatorGroupServerSid",
           "NormalizedSignature": "CreatorGroupServerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -324,7 +324,7 @@
         },
         {
           "ClrName": "NTAuthoritySid",
-          "TsEmitName": "ntAuthoritySid",
+          "TsEmitName": "NTAuthoritySid",
           "NormalizedSignature": "NTAuthoritySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -332,7 +332,7 @@
         },
         {
           "ClrName": "DialupSid",
-          "TsEmitName": "dialupSid",
+          "TsEmitName": "DialupSid",
           "NormalizedSignature": "DialupSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -340,7 +340,7 @@
         },
         {
           "ClrName": "NetworkSid",
-          "TsEmitName": "networkSid",
+          "TsEmitName": "NetworkSid",
           "NormalizedSignature": "NetworkSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -348,7 +348,7 @@
         },
         {
           "ClrName": "BatchSid",
-          "TsEmitName": "batchSid",
+          "TsEmitName": "BatchSid",
           "NormalizedSignature": "BatchSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -356,7 +356,7 @@
         },
         {
           "ClrName": "InteractiveSid",
-          "TsEmitName": "interactiveSid",
+          "TsEmitName": "InteractiveSid",
           "NormalizedSignature": "InteractiveSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -364,7 +364,7 @@
         },
         {
           "ClrName": "ServiceSid",
-          "TsEmitName": "serviceSid",
+          "TsEmitName": "ServiceSid",
           "NormalizedSignature": "ServiceSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -372,7 +372,7 @@
         },
         {
           "ClrName": "AnonymousSid",
-          "TsEmitName": "anonymousSid",
+          "TsEmitName": "AnonymousSid",
           "NormalizedSignature": "AnonymousSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -380,7 +380,7 @@
         },
         {
           "ClrName": "ProxySid",
-          "TsEmitName": "proxySid",
+          "TsEmitName": "ProxySid",
           "NormalizedSignature": "ProxySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -388,7 +388,7 @@
         },
         {
           "ClrName": "EnterpriseControllersSid",
-          "TsEmitName": "enterpriseControllersSid",
+          "TsEmitName": "EnterpriseControllersSid",
           "NormalizedSignature": "EnterpriseControllersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -396,7 +396,7 @@
         },
         {
           "ClrName": "SelfSid",
-          "TsEmitName": "selfSid",
+          "TsEmitName": "SelfSid",
           "NormalizedSignature": "SelfSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -404,7 +404,7 @@
         },
         {
           "ClrName": "AuthenticatedUserSid",
-          "TsEmitName": "authenticatedUserSid",
+          "TsEmitName": "AuthenticatedUserSid",
           "NormalizedSignature": "AuthenticatedUserSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -412,7 +412,7 @@
         },
         {
           "ClrName": "RestrictedCodeSid",
-          "TsEmitName": "restrictedCodeSid",
+          "TsEmitName": "RestrictedCodeSid",
           "NormalizedSignature": "RestrictedCodeSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -420,7 +420,7 @@
         },
         {
           "ClrName": "TerminalServerSid",
-          "TsEmitName": "terminalServerSid",
+          "TsEmitName": "TerminalServerSid",
           "NormalizedSignature": "TerminalServerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -428,7 +428,7 @@
         },
         {
           "ClrName": "RemoteLogonIdSid",
-          "TsEmitName": "remoteLogonIdSid",
+          "TsEmitName": "RemoteLogonIdSid",
           "NormalizedSignature": "RemoteLogonIdSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -436,7 +436,7 @@
         },
         {
           "ClrName": "LogonIdsSid",
-          "TsEmitName": "logonIdsSid",
+          "TsEmitName": "LogonIdsSid",
           "NormalizedSignature": "LogonIdsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -444,7 +444,7 @@
         },
         {
           "ClrName": "LocalSystemSid",
-          "TsEmitName": "localSystemSid",
+          "TsEmitName": "LocalSystemSid",
           "NormalizedSignature": "LocalSystemSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -452,7 +452,7 @@
         },
         {
           "ClrName": "LocalServiceSid",
-          "TsEmitName": "localServiceSid",
+          "TsEmitName": "LocalServiceSid",
           "NormalizedSignature": "LocalServiceSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -460,7 +460,7 @@
         },
         {
           "ClrName": "NetworkServiceSid",
-          "TsEmitName": "networkServiceSid",
+          "TsEmitName": "NetworkServiceSid",
           "NormalizedSignature": "NetworkServiceSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -468,7 +468,7 @@
         },
         {
           "ClrName": "BuiltinDomainSid",
-          "TsEmitName": "builtinDomainSid",
+          "TsEmitName": "BuiltinDomainSid",
           "NormalizedSignature": "BuiltinDomainSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -476,7 +476,7 @@
         },
         {
           "ClrName": "BuiltinAdministratorsSid",
-          "TsEmitName": "builtinAdministratorsSid",
+          "TsEmitName": "BuiltinAdministratorsSid",
           "NormalizedSignature": "BuiltinAdministratorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -484,7 +484,7 @@
         },
         {
           "ClrName": "BuiltinUsersSid",
-          "TsEmitName": "builtinUsersSid",
+          "TsEmitName": "BuiltinUsersSid",
           "NormalizedSignature": "BuiltinUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -492,7 +492,7 @@
         },
         {
           "ClrName": "BuiltinGuestsSid",
-          "TsEmitName": "builtinGuestsSid",
+          "TsEmitName": "BuiltinGuestsSid",
           "NormalizedSignature": "BuiltinGuestsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -500,7 +500,7 @@
         },
         {
           "ClrName": "BuiltinPowerUsersSid",
-          "TsEmitName": "builtinPowerUsersSid",
+          "TsEmitName": "BuiltinPowerUsersSid",
           "NormalizedSignature": "BuiltinPowerUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -508,7 +508,7 @@
         },
         {
           "ClrName": "BuiltinAccountOperatorsSid",
-          "TsEmitName": "builtinAccountOperatorsSid",
+          "TsEmitName": "BuiltinAccountOperatorsSid",
           "NormalizedSignature": "BuiltinAccountOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -516,7 +516,7 @@
         },
         {
           "ClrName": "BuiltinSystemOperatorsSid",
-          "TsEmitName": "builtinSystemOperatorsSid",
+          "TsEmitName": "BuiltinSystemOperatorsSid",
           "NormalizedSignature": "BuiltinSystemOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -524,7 +524,7 @@
         },
         {
           "ClrName": "BuiltinPrintOperatorsSid",
-          "TsEmitName": "builtinPrintOperatorsSid",
+          "TsEmitName": "BuiltinPrintOperatorsSid",
           "NormalizedSignature": "BuiltinPrintOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -532,7 +532,7 @@
         },
         {
           "ClrName": "BuiltinBackupOperatorsSid",
-          "TsEmitName": "builtinBackupOperatorsSid",
+          "TsEmitName": "BuiltinBackupOperatorsSid",
           "NormalizedSignature": "BuiltinBackupOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "BuiltinReplicatorSid",
-          "TsEmitName": "builtinReplicatorSid",
+          "TsEmitName": "BuiltinReplicatorSid",
           "NormalizedSignature": "BuiltinReplicatorSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -548,7 +548,7 @@
         },
         {
           "ClrName": "BuiltinPreWindows2000CompatibleAccessSid",
-          "TsEmitName": "builtinPreWindows2000CompatibleAccessSid",
+          "TsEmitName": "BuiltinPreWindows2000CompatibleAccessSid",
           "NormalizedSignature": "BuiltinPreWindows2000CompatibleAccessSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -556,7 +556,7 @@
         },
         {
           "ClrName": "BuiltinRemoteDesktopUsersSid",
-          "TsEmitName": "builtinRemoteDesktopUsersSid",
+          "TsEmitName": "BuiltinRemoteDesktopUsersSid",
           "NormalizedSignature": "BuiltinRemoteDesktopUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -564,7 +564,7 @@
         },
         {
           "ClrName": "BuiltinNetworkConfigurationOperatorsSid",
-          "TsEmitName": "builtinNetworkConfigurationOperatorsSid",
+          "TsEmitName": "BuiltinNetworkConfigurationOperatorsSid",
           "NormalizedSignature": "BuiltinNetworkConfigurationOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -572,7 +572,7 @@
         },
         {
           "ClrName": "AccountAdministratorSid",
-          "TsEmitName": "accountAdministratorSid",
+          "TsEmitName": "AccountAdministratorSid",
           "NormalizedSignature": "AccountAdministratorSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -580,7 +580,7 @@
         },
         {
           "ClrName": "AccountGuestSid",
-          "TsEmitName": "accountGuestSid",
+          "TsEmitName": "AccountGuestSid",
           "NormalizedSignature": "AccountGuestSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -588,7 +588,7 @@
         },
         {
           "ClrName": "AccountKrbtgtSid",
-          "TsEmitName": "accountKrbtgtSid",
+          "TsEmitName": "AccountKrbtgtSid",
           "NormalizedSignature": "AccountKrbtgtSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -596,7 +596,7 @@
         },
         {
           "ClrName": "AccountDomainAdminsSid",
-          "TsEmitName": "accountDomainAdminsSid",
+          "TsEmitName": "AccountDomainAdminsSid",
           "NormalizedSignature": "AccountDomainAdminsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -604,7 +604,7 @@
         },
         {
           "ClrName": "AccountDomainUsersSid",
-          "TsEmitName": "accountDomainUsersSid",
+          "TsEmitName": "AccountDomainUsersSid",
           "NormalizedSignature": "AccountDomainUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "AccountDomainGuestsSid",
-          "TsEmitName": "accountDomainGuestsSid",
+          "TsEmitName": "AccountDomainGuestsSid",
           "NormalizedSignature": "AccountDomainGuestsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -620,7 +620,7 @@
         },
         {
           "ClrName": "AccountComputersSid",
-          "TsEmitName": "accountComputersSid",
+          "TsEmitName": "AccountComputersSid",
           "NormalizedSignature": "AccountComputersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -628,7 +628,7 @@
         },
         {
           "ClrName": "AccountControllersSid",
-          "TsEmitName": "accountControllersSid",
+          "TsEmitName": "AccountControllersSid",
           "NormalizedSignature": "AccountControllersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -636,7 +636,7 @@
         },
         {
           "ClrName": "AccountCertAdminsSid",
-          "TsEmitName": "accountCertAdminsSid",
+          "TsEmitName": "AccountCertAdminsSid",
           "NormalizedSignature": "AccountCertAdminsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -644,7 +644,7 @@
         },
         {
           "ClrName": "AccountSchemaAdminsSid",
-          "TsEmitName": "accountSchemaAdminsSid",
+          "TsEmitName": "AccountSchemaAdminsSid",
           "NormalizedSignature": "AccountSchemaAdminsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -652,7 +652,7 @@
         },
         {
           "ClrName": "AccountEnterpriseAdminsSid",
-          "TsEmitName": "accountEnterpriseAdminsSid",
+          "TsEmitName": "AccountEnterpriseAdminsSid",
           "NormalizedSignature": "AccountEnterpriseAdminsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -660,7 +660,7 @@
         },
         {
           "ClrName": "AccountPolicyAdminsSid",
-          "TsEmitName": "accountPolicyAdminsSid",
+          "TsEmitName": "AccountPolicyAdminsSid",
           "NormalizedSignature": "AccountPolicyAdminsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -668,7 +668,7 @@
         },
         {
           "ClrName": "AccountRasAndIasServersSid",
-          "TsEmitName": "accountRasAndIasServersSid",
+          "TsEmitName": "AccountRasAndIasServersSid",
           "NormalizedSignature": "AccountRasAndIasServersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -676,7 +676,7 @@
         },
         {
           "ClrName": "NtlmAuthenticationSid",
-          "TsEmitName": "ntlmAuthenticationSid",
+          "TsEmitName": "NtlmAuthenticationSid",
           "NormalizedSignature": "NtlmAuthenticationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -684,7 +684,7 @@
         },
         {
           "ClrName": "DigestAuthenticationSid",
-          "TsEmitName": "digestAuthenticationSid",
+          "TsEmitName": "DigestAuthenticationSid",
           "NormalizedSignature": "DigestAuthenticationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -692,7 +692,7 @@
         },
         {
           "ClrName": "SChannelAuthenticationSid",
-          "TsEmitName": "sChannelAuthenticationSid",
+          "TsEmitName": "SChannelAuthenticationSid",
           "NormalizedSignature": "SChannelAuthenticationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -700,7 +700,7 @@
         },
         {
           "ClrName": "ThisOrganizationSid",
-          "TsEmitName": "thisOrganizationSid",
+          "TsEmitName": "ThisOrganizationSid",
           "NormalizedSignature": "ThisOrganizationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -708,7 +708,7 @@
         },
         {
           "ClrName": "OtherOrganizationSid",
-          "TsEmitName": "otherOrganizationSid",
+          "TsEmitName": "OtherOrganizationSid",
           "NormalizedSignature": "OtherOrganizationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -716,7 +716,7 @@
         },
         {
           "ClrName": "BuiltinIncomingForestTrustBuildersSid",
-          "TsEmitName": "builtinIncomingForestTrustBuildersSid",
+          "TsEmitName": "BuiltinIncomingForestTrustBuildersSid",
           "NormalizedSignature": "BuiltinIncomingForestTrustBuildersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -724,7 +724,7 @@
         },
         {
           "ClrName": "BuiltinPerformanceMonitoringUsersSid",
-          "TsEmitName": "builtinPerformanceMonitoringUsersSid",
+          "TsEmitName": "BuiltinPerformanceMonitoringUsersSid",
           "NormalizedSignature": "BuiltinPerformanceMonitoringUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -732,7 +732,7 @@
         },
         {
           "ClrName": "BuiltinPerformanceLoggingUsersSid",
-          "TsEmitName": "builtinPerformanceLoggingUsersSid",
+          "TsEmitName": "BuiltinPerformanceLoggingUsersSid",
           "NormalizedSignature": "BuiltinPerformanceLoggingUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -740,7 +740,7 @@
         },
         {
           "ClrName": "BuiltinAuthorizationAccessSid",
-          "TsEmitName": "builtinAuthorizationAccessSid",
+          "TsEmitName": "BuiltinAuthorizationAccessSid",
           "NormalizedSignature": "BuiltinAuthorizationAccessSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -748,7 +748,7 @@
         },
         {
           "ClrName": "MaxDefined",
-          "TsEmitName": "maxDefined",
+          "TsEmitName": "MaxDefined",
           "NormalizedSignature": "MaxDefined|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -756,7 +756,7 @@
         },
         {
           "ClrName": "WinBuiltinTerminalServerLicenseServersSid",
-          "TsEmitName": "winBuiltinTerminalServerLicenseServersSid",
+          "TsEmitName": "WinBuiltinTerminalServerLicenseServersSid",
           "NormalizedSignature": "WinBuiltinTerminalServerLicenseServersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -764,7 +764,7 @@
         },
         {
           "ClrName": "WinBuiltinDCOMUsersSid",
-          "TsEmitName": "winBuiltinDCOMUsersSid",
+          "TsEmitName": "WinBuiltinDCOMUsersSid",
           "NormalizedSignature": "WinBuiltinDCOMUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -772,7 +772,7 @@
         },
         {
           "ClrName": "WinBuiltinIUsersSid",
-          "TsEmitName": "winBuiltinIUsersSid",
+          "TsEmitName": "WinBuiltinIUsersSid",
           "NormalizedSignature": "WinBuiltinIUsersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -780,7 +780,7 @@
         },
         {
           "ClrName": "WinIUserSid",
-          "TsEmitName": "winIUserSid",
+          "TsEmitName": "WinIUserSid",
           "NormalizedSignature": "WinIUserSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -788,7 +788,7 @@
         },
         {
           "ClrName": "WinBuiltinCryptoOperatorsSid",
-          "TsEmitName": "winBuiltinCryptoOperatorsSid",
+          "TsEmitName": "WinBuiltinCryptoOperatorsSid",
           "NormalizedSignature": "WinBuiltinCryptoOperatorsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -796,7 +796,7 @@
         },
         {
           "ClrName": "WinUntrustedLabelSid",
-          "TsEmitName": "winUntrustedLabelSid",
+          "TsEmitName": "WinUntrustedLabelSid",
           "NormalizedSignature": "WinUntrustedLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -804,7 +804,7 @@
         },
         {
           "ClrName": "WinLowLabelSid",
-          "TsEmitName": "winLowLabelSid",
+          "TsEmitName": "WinLowLabelSid",
           "NormalizedSignature": "WinLowLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -812,7 +812,7 @@
         },
         {
           "ClrName": "WinMediumLabelSid",
-          "TsEmitName": "winMediumLabelSid",
+          "TsEmitName": "WinMediumLabelSid",
           "NormalizedSignature": "WinMediumLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -820,7 +820,7 @@
         },
         {
           "ClrName": "WinHighLabelSid",
-          "TsEmitName": "winHighLabelSid",
+          "TsEmitName": "WinHighLabelSid",
           "NormalizedSignature": "WinHighLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -828,7 +828,7 @@
         },
         {
           "ClrName": "WinSystemLabelSid",
-          "TsEmitName": "winSystemLabelSid",
+          "TsEmitName": "WinSystemLabelSid",
           "NormalizedSignature": "WinSystemLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -836,7 +836,7 @@
         },
         {
           "ClrName": "WinWriteRestrictedCodeSid",
-          "TsEmitName": "winWriteRestrictedCodeSid",
+          "TsEmitName": "WinWriteRestrictedCodeSid",
           "NormalizedSignature": "WinWriteRestrictedCodeSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -844,7 +844,7 @@
         },
         {
           "ClrName": "WinCreatorOwnerRightsSid",
-          "TsEmitName": "winCreatorOwnerRightsSid",
+          "TsEmitName": "WinCreatorOwnerRightsSid",
           "NormalizedSignature": "WinCreatorOwnerRightsSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "WinCacheablePrincipalsGroupSid",
-          "TsEmitName": "winCacheablePrincipalsGroupSid",
+          "TsEmitName": "WinCacheablePrincipalsGroupSid",
           "NormalizedSignature": "WinCacheablePrincipalsGroupSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -860,7 +860,7 @@
         },
         {
           "ClrName": "WinNonCacheablePrincipalsGroupSid",
-          "TsEmitName": "winNonCacheablePrincipalsGroupSid",
+          "TsEmitName": "WinNonCacheablePrincipalsGroupSid",
           "NormalizedSignature": "WinNonCacheablePrincipalsGroupSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -868,7 +868,7 @@
         },
         {
           "ClrName": "WinEnterpriseReadonlyControllersSid",
-          "TsEmitName": "winEnterpriseReadonlyControllersSid",
+          "TsEmitName": "WinEnterpriseReadonlyControllersSid",
           "NormalizedSignature": "WinEnterpriseReadonlyControllersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -876,7 +876,7 @@
         },
         {
           "ClrName": "WinAccountReadonlyControllersSid",
-          "TsEmitName": "winAccountReadonlyControllersSid",
+          "TsEmitName": "WinAccountReadonlyControllersSid",
           "NormalizedSignature": "WinAccountReadonlyControllersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -884,7 +884,7 @@
         },
         {
           "ClrName": "WinBuiltinEventLogReadersGroup",
-          "TsEmitName": "winBuiltinEventLogReadersGroup",
+          "TsEmitName": "WinBuiltinEventLogReadersGroup",
           "NormalizedSignature": "WinBuiltinEventLogReadersGroup|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -892,7 +892,7 @@
         },
         {
           "ClrName": "WinNewEnterpriseReadonlyControllersSid",
-          "TsEmitName": "winNewEnterpriseReadonlyControllersSid",
+          "TsEmitName": "WinNewEnterpriseReadonlyControllersSid",
           "NormalizedSignature": "WinNewEnterpriseReadonlyControllersSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -900,7 +900,7 @@
         },
         {
           "ClrName": "WinBuiltinCertSvcDComAccessGroup",
-          "TsEmitName": "winBuiltinCertSvcDComAccessGroup",
+          "TsEmitName": "WinBuiltinCertSvcDComAccessGroup",
           "NormalizedSignature": "WinBuiltinCertSvcDComAccessGroup|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -908,7 +908,7 @@
         },
         {
           "ClrName": "WinMediumPlusLabelSid",
-          "TsEmitName": "winMediumPlusLabelSid",
+          "TsEmitName": "WinMediumPlusLabelSid",
           "NormalizedSignature": "WinMediumPlusLabelSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -916,7 +916,7 @@
         },
         {
           "ClrName": "WinLocalLogonSid",
-          "TsEmitName": "winLocalLogonSid",
+          "TsEmitName": "WinLocalLogonSid",
           "NormalizedSignature": "WinLocalLogonSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -924,7 +924,7 @@
         },
         {
           "ClrName": "WinConsoleLogonSid",
-          "TsEmitName": "winConsoleLogonSid",
+          "TsEmitName": "WinConsoleLogonSid",
           "NormalizedSignature": "WinConsoleLogonSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -932,7 +932,7 @@
         },
         {
           "ClrName": "WinThisOrganizationCertificateSid",
-          "TsEmitName": "winThisOrganizationCertificateSid",
+          "TsEmitName": "WinThisOrganizationCertificateSid",
           "NormalizedSignature": "WinThisOrganizationCertificateSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -940,7 +940,7 @@
         },
         {
           "ClrName": "WinApplicationPackageAuthoritySid",
-          "TsEmitName": "winApplicationPackageAuthoritySid",
+          "TsEmitName": "WinApplicationPackageAuthoritySid",
           "NormalizedSignature": "WinApplicationPackageAuthoritySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -948,7 +948,7 @@
         },
         {
           "ClrName": "WinBuiltinAnyPackageSid",
-          "TsEmitName": "winBuiltinAnyPackageSid",
+          "TsEmitName": "WinBuiltinAnyPackageSid",
           "NormalizedSignature": "WinBuiltinAnyPackageSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -956,7 +956,7 @@
         },
         {
           "ClrName": "WinCapabilityInternetClientSid",
-          "TsEmitName": "winCapabilityInternetClientSid",
+          "TsEmitName": "WinCapabilityInternetClientSid",
           "NormalizedSignature": "WinCapabilityInternetClientSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -964,7 +964,7 @@
         },
         {
           "ClrName": "WinCapabilityInternetClientServerSid",
-          "TsEmitName": "winCapabilityInternetClientServerSid",
+          "TsEmitName": "WinCapabilityInternetClientServerSid",
           "NormalizedSignature": "WinCapabilityInternetClientServerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -972,7 +972,7 @@
         },
         {
           "ClrName": "WinCapabilityPrivateNetworkClientServerSid",
-          "TsEmitName": "winCapabilityPrivateNetworkClientServerSid",
+          "TsEmitName": "WinCapabilityPrivateNetworkClientServerSid",
           "NormalizedSignature": "WinCapabilityPrivateNetworkClientServerSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -980,7 +980,7 @@
         },
         {
           "ClrName": "WinCapabilityPicturesLibrarySid",
-          "TsEmitName": "winCapabilityPicturesLibrarySid",
+          "TsEmitName": "WinCapabilityPicturesLibrarySid",
           "NormalizedSignature": "WinCapabilityPicturesLibrarySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -988,7 +988,7 @@
         },
         {
           "ClrName": "WinCapabilityVideosLibrarySid",
-          "TsEmitName": "winCapabilityVideosLibrarySid",
+          "TsEmitName": "WinCapabilityVideosLibrarySid",
           "NormalizedSignature": "WinCapabilityVideosLibrarySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -996,7 +996,7 @@
         },
         {
           "ClrName": "WinCapabilityMusicLibrarySid",
-          "TsEmitName": "winCapabilityMusicLibrarySid",
+          "TsEmitName": "WinCapabilityMusicLibrarySid",
           "NormalizedSignature": "WinCapabilityMusicLibrarySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1004,7 +1004,7 @@
         },
         {
           "ClrName": "WinCapabilityDocumentsLibrarySid",
-          "TsEmitName": "winCapabilityDocumentsLibrarySid",
+          "TsEmitName": "WinCapabilityDocumentsLibrarySid",
           "NormalizedSignature": "WinCapabilityDocumentsLibrarySid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1012,7 +1012,7 @@
         },
         {
           "ClrName": "WinCapabilitySharedUserCertificatesSid",
-          "TsEmitName": "winCapabilitySharedUserCertificatesSid",
+          "TsEmitName": "WinCapabilitySharedUserCertificatesSid",
           "NormalizedSignature": "WinCapabilitySharedUserCertificatesSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1020,7 +1020,7 @@
         },
         {
           "ClrName": "WinCapabilityEnterpriseAuthenticationSid",
-          "TsEmitName": "winCapabilityEnterpriseAuthenticationSid",
+          "TsEmitName": "WinCapabilityEnterpriseAuthenticationSid",
           "NormalizedSignature": "WinCapabilityEnterpriseAuthenticationSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1028,7 +1028,7 @@
         },
         {
           "ClrName": "WinCapabilityRemovableStorageSid",
-          "TsEmitName": "winCapabilityRemovableStorageSid",
+          "TsEmitName": "WinCapabilityRemovableStorageSid",
           "NormalizedSignature": "WinCapabilityRemovableStorageSid|System.Security.Principal.WellKnownSidType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1060,7 +1060,7 @@
         },
         {
           "ClrName": "Normal",
-          "TsEmitName": "normal",
+          "TsEmitName": "Normal",
           "NormalizedSignature": "Normal|System.Security.Principal.WindowsAccountType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1068,7 +1068,7 @@
         },
         {
           "ClrName": "Guest",
-          "TsEmitName": "guest",
+          "TsEmitName": "Guest",
           "NormalizedSignature": "Guest|System.Security.Principal.WindowsAccountType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1076,7 +1076,7 @@
         },
         {
           "ClrName": "System",
-          "TsEmitName": "system",
+          "TsEmitName": "System",
           "NormalizedSignature": "System|System.Security.Principal.WindowsAccountType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1084,7 +1084,7 @@
         },
         {
           "ClrName": "Anonymous",
-          "TsEmitName": "anonymous",
+          "TsEmitName": "Anonymous",
           "NormalizedSignature": "Anonymous|System.Security.Principal.WindowsAccountType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1116,7 +1116,7 @@
         },
         {
           "ClrName": "Administrator",
-          "TsEmitName": "administrator",
+          "TsEmitName": "Administrator",
           "NormalizedSignature": "Administrator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1124,7 +1124,7 @@
         },
         {
           "ClrName": "User",
-          "TsEmitName": "user",
+          "TsEmitName": "User",
           "NormalizedSignature": "User|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1132,7 +1132,7 @@
         },
         {
           "ClrName": "Guest",
-          "TsEmitName": "guest",
+          "TsEmitName": "Guest",
           "NormalizedSignature": "Guest|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1140,7 +1140,7 @@
         },
         {
           "ClrName": "PowerUser",
-          "TsEmitName": "powerUser",
+          "TsEmitName": "PowerUser",
           "NormalizedSignature": "PowerUser|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1148,7 +1148,7 @@
         },
         {
           "ClrName": "AccountOperator",
-          "TsEmitName": "accountOperator",
+          "TsEmitName": "AccountOperator",
           "NormalizedSignature": "AccountOperator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1156,7 +1156,7 @@
         },
         {
           "ClrName": "SystemOperator",
-          "TsEmitName": "systemOperator",
+          "TsEmitName": "SystemOperator",
           "NormalizedSignature": "SystemOperator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1164,7 +1164,7 @@
         },
         {
           "ClrName": "PrintOperator",
-          "TsEmitName": "printOperator",
+          "TsEmitName": "PrintOperator",
           "NormalizedSignature": "PrintOperator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1172,7 +1172,7 @@
         },
         {
           "ClrName": "BackupOperator",
-          "TsEmitName": "backupOperator",
+          "TsEmitName": "BackupOperator",
           "NormalizedSignature": "BackupOperator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1180,7 +1180,7 @@
         },
         {
           "ClrName": "Replicator",
-          "TsEmitName": "replicator",
+          "TsEmitName": "Replicator",
           "NormalizedSignature": "Replicator|System.Security.Principal.WindowsBuiltInRole|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1203,7 +1203,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1217,7 +1217,7 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType",
+          "TsEmitName": "AuthenticationType",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1231,7 +1231,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated",
+          "TsEmitName": "IsAuthenticated",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1260,7 +1260,7 @@
       "Methods": [
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole",
+          "TsEmitName": "IsInRole",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1276,7 +1276,7 @@
       "Properties": [
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity",
+          "TsEmitName": "Identity",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1305,7 +1305,7 @@
       "Methods": [
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1321,7 +1321,7 @@
       "Properties": [
         {
           "ClrName": "Claims",
-          "TsEmitName": "claims",
+          "TsEmitName": "Claims",
           "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1335,7 +1335,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1349,7 +1349,7 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType",
+          "TsEmitName": "AuthenticationType",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1363,7 +1363,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated",
+          "TsEmitName": "IsAuthenticated",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1377,7 +1377,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name$view",
+          "TsEmitName": "Name$view",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1392,7 +1392,7 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType$view",
+          "TsEmitName": "AuthenticationType$view",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1407,7 +1407,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated$view",
+          "TsEmitName": "IsAuthenticated$view",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1448,7 +1448,7 @@
       "Methods": [
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole",
+          "TsEmitName": "IsInRole",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1462,7 +1462,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole$view",
+          "TsEmitName": "IsInRole$view",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1479,7 +1479,7 @@
       "Properties": [
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity",
+          "TsEmitName": "Identity",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1493,7 +1493,7 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity$view",
+          "TsEmitName": "Identity$view",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1529,7 +1529,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1543,7 +1543,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1560,7 +1560,7 @@
       "Properties": [
         {
           "ClrName": "UnmappedIdentities",
-          "TsEmitName": "unmappedIdentities",
+          "TsEmitName": "UnmappedIdentities",
           "NormalizedSignature": "UnmappedIdentities|:System.Security.Principal.IdentityReferenceCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1605,7 +1605,7 @@
       "Methods": [
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1619,7 +1619,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1633,7 +1633,7 @@
         },
         {
           "ClrName": "IsValidTargetType",
-          "TsEmitName": "isValidTargetType",
+          "TsEmitName": "IsValidTargetType",
           "NormalizedSignature": "IsValidTargetType|(System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1647,7 +1647,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1661,7 +1661,7 @@
         },
         {
           "ClrName": "Translate",
-          "TsEmitName": "translate",
+          "TsEmitName": "Translate",
           "NormalizedSignature": "Translate|(System.Type):System.Security.Principal.IdentityReference|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1677,7 +1677,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1706,7 +1706,7 @@
       "Methods": [
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Security.Principal.IdentityReference):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1720,7 +1720,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1734,7 +1734,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Security.Principal.IdentityReference):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1748,7 +1748,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Security.Principal.IdentityReference[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1762,7 +1762,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Security.Principal.IdentityReference,System.Security.Principal.Windows,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1776,7 +1776,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Security.Principal.IdentityReference):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1790,7 +1790,7 @@
         },
         {
           "ClrName": "Translate",
-          "TsEmitName": "translate",
+          "TsEmitName": "Translate",
           "NormalizedSignature": "Translate|(System.Type):System.Security.Principal.IdentityReferenceCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1804,7 +1804,7 @@
         },
         {
           "ClrName": "Translate",
-          "TsEmitName": "translate2",
+          "TsEmitName": "Translate2",
           "NormalizedSignature": "Translate|(System.Type,System.Boolean):System.Security.Principal.IdentityReferenceCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1818,7 +1818,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1833,7 +1833,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1848,7 +1848,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1863,7 +1863,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1878,7 +1878,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1893,7 +1893,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1910,7 +1910,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1924,7 +1924,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Security.Principal.IdentityReference|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1938,7 +1938,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1953,7 +1953,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1994,7 +1994,7 @@
       "Methods": [
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2008,7 +2008,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2022,7 +2022,7 @@
         },
         {
           "ClrName": "IsValidTargetType",
-          "TsEmitName": "isValidTargetType",
+          "TsEmitName": "IsValidTargetType",
           "NormalizedSignature": "IsValidTargetType|(System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2036,7 +2036,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2050,7 +2050,7 @@
         },
         {
           "ClrName": "Translate",
-          "TsEmitName": "translate",
+          "TsEmitName": "Translate",
           "NormalizedSignature": "Translate|(System.Type):System.Security.Principal.IdentityReference|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2066,7 +2066,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2106,7 +2106,7 @@
       "Methods": [
         {
           "ClrName": "CompareTo",
-          "TsEmitName": "compareTo",
+          "TsEmitName": "CompareTo",
           "NormalizedSignature": "CompareTo|(System.Security.Principal.SecurityIdentifier):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2120,7 +2120,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2134,7 +2134,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Security.Principal.SecurityIdentifier):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2148,7 +2148,7 @@
         },
         {
           "ClrName": "GetBinaryForm",
-          "TsEmitName": "getBinaryForm",
+          "TsEmitName": "GetBinaryForm",
           "NormalizedSignature": "GetBinaryForm|(System.Byte[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2162,7 +2162,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2176,7 +2176,7 @@
         },
         {
           "ClrName": "IsAccountSid",
-          "TsEmitName": "isAccountSid",
+          "TsEmitName": "IsAccountSid",
           "NormalizedSignature": "IsAccountSid|():System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2190,7 +2190,7 @@
         },
         {
           "ClrName": "IsEqualDomainSid",
-          "TsEmitName": "isEqualDomainSid",
+          "TsEmitName": "IsEqualDomainSid",
           "NormalizedSignature": "IsEqualDomainSid|(System.Security.Principal.SecurityIdentifier):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2204,7 +2204,7 @@
         },
         {
           "ClrName": "IsValidTargetType",
-          "TsEmitName": "isValidTargetType",
+          "TsEmitName": "IsValidTargetType",
           "NormalizedSignature": "IsValidTargetType|(System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2218,7 +2218,7 @@
         },
         {
           "ClrName": "IsWellKnown",
-          "TsEmitName": "isWellKnown",
+          "TsEmitName": "IsWellKnown",
           "NormalizedSignature": "IsWellKnown|(System.Security.Principal.WellKnownSidType):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2232,7 +2232,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2246,7 +2246,7 @@
         },
         {
           "ClrName": "Translate",
-          "TsEmitName": "translate",
+          "TsEmitName": "Translate",
           "NormalizedSignature": "Translate|(System.Type):System.Security.Principal.IdentityReference|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2260,7 +2260,7 @@
         },
         {
           "ClrName": "CompareTo",
-          "TsEmitName": "compareTo$view",
+          "TsEmitName": "CompareTo$view",
           "NormalizedSignature": "CompareTo|(T):System.Int32|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2277,7 +2277,7 @@
       "Properties": [
         {
           "ClrName": "AccountDomainSid",
-          "TsEmitName": "accountDomainSid",
+          "TsEmitName": "AccountDomainSid",
           "NormalizedSignature": "AccountDomainSid|:System.Security.Principal.SecurityIdentifier|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         },
         {
           "ClrName": "BinaryLength",
-          "TsEmitName": "binaryLength",
+          "TsEmitName": "BinaryLength",
           "NormalizedSignature": "BinaryLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2305,7 +2305,7 @@
         },
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2321,7 +2321,7 @@
       "Fields": [
         {
           "ClrName": "MaxBinaryLength",
-          "TsEmitName": "maxBinaryLength",
+          "TsEmitName": "MaxBinaryLength",
           "NormalizedSignature": "MaxBinaryLength|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -2329,7 +2329,7 @@
         },
         {
           "ClrName": "MinBinaryLength",
-          "TsEmitName": "minBinaryLength",
+          "TsEmitName": "MinBinaryLength",
           "NormalizedSignature": "MinBinaryLength|System.Int32|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -2372,7 +2372,7 @@
       "Methods": [
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2386,7 +2386,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2400,7 +2400,7 @@
         },
         {
           "ClrName": "GetAnonymous",
-          "TsEmitName": "getAnonymous",
+          "TsEmitName": "GetAnonymous",
           "NormalizedSignature": "GetAnonymous|():System.Security.Principal.WindowsIdentity|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2414,7 +2414,7 @@
         },
         {
           "ClrName": "GetCurrent",
-          "TsEmitName": "getCurrent",
+          "TsEmitName": "GetCurrent",
           "NormalizedSignature": "GetCurrent|():System.Security.Principal.WindowsIdentity|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
         },
         {
           "ClrName": "GetCurrent",
-          "TsEmitName": "getCurrent2",
+          "TsEmitName": "GetCurrent2",
           "NormalizedSignature": "GetCurrent|(System.Boolean):System.Security.Principal.WindowsIdentity|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2442,7 +2442,7 @@
         },
         {
           "ClrName": "GetCurrent",
-          "TsEmitName": "getCurrent3",
+          "TsEmitName": "GetCurrent3",
           "NormalizedSignature": "GetCurrent|(System.Security.Principal.TokenAccessLevels):System.Security.Principal.WindowsIdentity|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2456,7 +2456,7 @@
         },
         {
           "ClrName": "RunImpersonated",
-          "TsEmitName": "runImpersonated",
+          "TsEmitName": "RunImpersonated",
           "NormalizedSignature": "RunImpersonated|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2470,7 +2470,7 @@
         },
         {
           "ClrName": "RunImpersonatedAsync",
-          "TsEmitName": "runImpersonatedAsync",
+          "TsEmitName": "RunImpersonatedAsync",
           "NormalizedSignature": "RunImpersonatedAsync|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2484,7 +2484,7 @@
         },
         {
           "ClrName": "RunImpersonatedAsync",
-          "TsEmitName": "runImpersonatedAsync2",
+          "TsEmitName": "RunImpersonatedAsync2",
           "NormalizedSignature": "RunImpersonatedAsync|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):Task_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2498,7 +2498,7 @@
         },
         {
           "ClrName": "RunImpersonated",
-          "TsEmitName": "runImpersonated2",
+          "TsEmitName": "RunImpersonated2",
           "NormalizedSignature": "RunImpersonated|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2512,7 +2512,7 @@
         },
         {
           "ClrName": "OnDeserialization",
-          "TsEmitName": "onDeserialization",
+          "TsEmitName": "OnDeserialization",
           "NormalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2527,7 +2527,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2542,7 +2542,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2559,7 +2559,7 @@
       "Properties": [
         {
           "ClrName": "AccessToken",
-          "TsEmitName": "accessToken",
+          "TsEmitName": "AccessToken",
           "NormalizedSignature": "AccessToken|:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2573,7 +2573,7 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType",
+          "TsEmitName": "AuthenticationType",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2587,7 +2587,7 @@
         },
         {
           "ClrName": "Claims",
-          "TsEmitName": "claims",
+          "TsEmitName": "Claims",
           "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2601,7 +2601,7 @@
         },
         {
           "ClrName": "DeviceClaims",
-          "TsEmitName": "deviceClaims",
+          "TsEmitName": "DeviceClaims",
           "NormalizedSignature": "DeviceClaims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2615,7 +2615,7 @@
         },
         {
           "ClrName": "Groups",
-          "TsEmitName": "groups",
+          "TsEmitName": "Groups",
           "NormalizedSignature": "Groups|:System.Security.Principal.IdentityReferenceCollection|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2629,7 +2629,7 @@
         },
         {
           "ClrName": "ImpersonationLevel",
-          "TsEmitName": "impersonationLevel",
+          "TsEmitName": "ImpersonationLevel",
           "NormalizedSignature": "ImpersonationLevel|:System.Security.Principal.TokenImpersonationLevel|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2643,7 +2643,7 @@
         },
         {
           "ClrName": "IsAnonymous",
-          "TsEmitName": "isAnonymous",
+          "TsEmitName": "IsAnonymous",
           "NormalizedSignature": "IsAnonymous|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2657,7 +2657,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated",
+          "TsEmitName": "IsAuthenticated",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2671,7 +2671,7 @@
         },
         {
           "ClrName": "IsGuest",
-          "TsEmitName": "isGuest",
+          "TsEmitName": "IsGuest",
           "NormalizedSignature": "IsGuest|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2685,7 +2685,7 @@
         },
         {
           "ClrName": "IsSystem",
-          "TsEmitName": "isSystem",
+          "TsEmitName": "IsSystem",
           "NormalizedSignature": "IsSystem|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2699,7 +2699,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2713,7 +2713,7 @@
         },
         {
           "ClrName": "Owner",
-          "TsEmitName": "owner",
+          "TsEmitName": "Owner",
           "NormalizedSignature": "Owner|:System.Security.Principal.SecurityIdentifier|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2727,7 +2727,7 @@
         },
         {
           "ClrName": "Token",
-          "TsEmitName": "token",
+          "TsEmitName": "Token",
           "NormalizedSignature": "Token|:System.IntPtr|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2741,7 +2741,7 @@
         },
         {
           "ClrName": "User",
-          "TsEmitName": "user",
+          "TsEmitName": "User",
           "NormalizedSignature": "User|:System.Security.Principal.SecurityIdentifier|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2755,7 +2755,7 @@
         },
         {
           "ClrName": "UserClaims",
-          "TsEmitName": "userClaims",
+          "TsEmitName": "UserClaims",
           "NormalizedSignature": "UserClaims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2769,7 +2769,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name$view",
+          "TsEmitName": "Name$view",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2784,7 +2784,7 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType$view",
+          "TsEmitName": "AuthenticationType$view",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2799,7 +2799,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated$view",
+          "TsEmitName": "IsAuthenticated$view",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2816,7 +2816,7 @@
       "Fields": [
         {
           "ClrName": "DefaultIssuer",
-          "TsEmitName": "defaultIssuer",
+          "TsEmitName": "DefaultIssuer",
           "NormalizedSignature": "DefaultIssuer|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -2869,7 +2869,7 @@
       "Methods": [
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole",
+          "TsEmitName": "IsInRole",
           "NormalizedSignature": "IsInRole|(System.Int32):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2883,7 +2883,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole2",
+          "TsEmitName": "IsInRole2",
           "NormalizedSignature": "IsInRole|(System.Security.Principal.SecurityIdentifier):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2897,7 +2897,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole3",
+          "TsEmitName": "IsInRole3",
           "NormalizedSignature": "IsInRole|(System.Security.Principal.WindowsBuiltInRole):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2911,7 +2911,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole4",
+          "TsEmitName": "IsInRole4",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2925,7 +2925,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole$view",
+          "TsEmitName": "IsInRole$view",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2942,7 +2942,7 @@
       "Properties": [
         {
           "ClrName": "DeviceClaims",
-          "TsEmitName": "deviceClaims",
+          "TsEmitName": "DeviceClaims",
           "NormalizedSignature": "DeviceClaims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2956,7 +2956,7 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity",
+          "TsEmitName": "Identity",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2970,7 +2970,7 @@
         },
         {
           "ClrName": "UserClaims",
-          "TsEmitName": "userClaims",
+          "TsEmitName": "UserClaims",
           "NormalizedSignature": "UserClaims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2984,7 +2984,7 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity$view",
+          "TsEmitName": "Identity$view",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",

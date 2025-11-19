@@ -16,7 +16,7 @@
       "Methods": [
         {
           "ClrName": "Unwrap",
-          "TsEmitName": "unwrap",
+          "TsEmitName": "Unwrap",
           "NormalizedSignature": "Unwrap|():System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
