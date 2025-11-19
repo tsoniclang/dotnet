@@ -9,8 +9,8 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
-          "MetadataToken": 100682867,
+          "TsEmitName": "Dispose",
+          "MetadataToken": 100682847,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -38,17 +38,17 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682867
+            "MetadataToken": 100682847
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -58,7 +58,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -68,7 +68,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -78,7 +78,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -88,7 +88,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -98,7 +98,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -108,7 +108,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -127,8 +127,8 @@
       "Methods": [
         {
           "ClrName": "ResolveAssemblyToPath",
-          "TsEmitName": "resolveAssemblyToPath",
-          "MetadataToken": 100682898,
+          "TsEmitName": "ResolveAssemblyToPath",
+          "MetadataToken": 100682878,
           "CanonicalSignature": "(System.Reflection.AssemblyName):System.String",
           "NormalizedSignature": "ResolveAssemblyToPath|(System.Reflection.AssemblyName):System.String|static=false",
           "EmitScope": "ClassSurface",
@@ -139,8 +139,8 @@
         },
         {
           "ClrName": "ResolveUnmanagedDllToPath",
-          "TsEmitName": "resolveUnmanagedDllToPath",
-          "MetadataToken": 100682899,
+          "TsEmitName": "ResolveUnmanagedDllToPath",
+          "MetadataToken": 100682879,
           "CanonicalSignature": "(System.String):System.String",
           "NormalizedSignature": "ResolveUnmanagedDllToPath|(System.String):System.String|static=false",
           "EmitScope": "ClassSurface",
@@ -155,7 +155,7 @@
       "Events": [],
       "Constructors": [
         {
-          "MetadataToken": 100682897,
+          "MetadataToken": 100682877,
           "CanonicalSignature": "(System.String):void",
           "NormalizedSignature": "constructor|(System.String):void|static=false",
           "IsStatic": false,
@@ -166,27 +166,27 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "resolveAssemblyToPath",
+          "TsName": "ResolveAssemblyToPath",
           "IsStatic": false,
           "TsSignatureId": "ResolveAssemblyToPath|(System.Reflection.AssemblyName):System.String|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682898
+            "MetadataToken": 100682878
           }
         },
         {
-          "TsName": "resolveUnmanagedDllToPath",
+          "TsName": "ResolveUnmanagedDllToPath",
           "IsStatic": false,
           "TsSignatureId": "ResolveUnmanagedDllToPath|(System.String):System.String|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682899
+            "MetadataToken": 100682879
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -196,7 +196,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -206,7 +206,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -216,7 +216,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -226,7 +226,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -236,7 +236,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -253,7 +253,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyDependencyResolver",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682897
+            "MetadataToken": 100682877
           }
         }
       ]
@@ -266,8 +266,8 @@
       "Methods": [
         {
           "ClrName": "GetLoadContext",
-          "TsEmitName": "getLoadContext",
-          "MetadataToken": 100682788,
+          "TsEmitName": "GetLoadContext",
+          "MetadataToken": 100682768,
           "CanonicalSignature": "(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext",
           "NormalizedSignature": "GetLoadContext|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext|static=true",
           "EmitScope": "ClassSurface",
@@ -278,8 +278,8 @@
         },
         {
           "ClrName": "SetProfileOptimizationRoot",
-          "TsEmitName": "setProfileOptimizationRoot",
-          "MetadataToken": 100682789,
+          "TsEmitName": "SetProfileOptimizationRoot",
+          "MetadataToken": 100682769,
           "CanonicalSignature": "(System.String):System.Void",
           "NormalizedSignature": "SetProfileOptimizationRoot|(System.String):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -290,8 +290,8 @@
         },
         {
           "ClrName": "StartProfileOptimization",
-          "TsEmitName": "startProfileOptimization",
-          "MetadataToken": 100682790,
+          "TsEmitName": "StartProfileOptimization",
+          "MetadataToken": 100682770,
           "CanonicalSignature": "(System.String):System.Void",
           "NormalizedSignature": "StartProfileOptimization|(System.String):System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -302,8 +302,8 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
-          "MetadataToken": 100682827,
+          "TsEmitName": "ToString",
+          "MetadataToken": 100682807,
           "CanonicalSignature": "():System.String",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "EmitScope": "ClassSurface",
@@ -314,8 +314,8 @@
         },
         {
           "ClrName": "GetAssemblyName",
-          "TsEmitName": "getAssemblyName",
-          "MetadataToken": 100682829,
+          "TsEmitName": "GetAssemblyName",
+          "MetadataToken": 100682809,
           "CanonicalSignature": "(System.String):System.Reflection.AssemblyName",
           "NormalizedSignature": "GetAssemblyName|(System.String):System.Reflection.AssemblyName|static=true",
           "EmitScope": "ClassSurface",
@@ -326,8 +326,8 @@
         },
         {
           "ClrName": "LoadFromAssemblyName",
-          "TsEmitName": "loadFromAssemblyName",
-          "MetadataToken": 100682831,
+          "TsEmitName": "LoadFromAssemblyName",
+          "MetadataToken": 100682811,
           "CanonicalSignature": "(System.Reflection.AssemblyName):System.Reflection.Assembly",
           "NormalizedSignature": "LoadFromAssemblyName|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
           "EmitScope": "ClassSurface",
@@ -338,8 +338,8 @@
         },
         {
           "ClrName": "LoadFromAssemblyPath",
-          "TsEmitName": "loadFromAssemblyPath",
-          "MetadataToken": 100682832,
+          "TsEmitName": "LoadFromAssemblyPath",
+          "MetadataToken": 100682812,
           "CanonicalSignature": "(System.String):System.Reflection.Assembly",
           "NormalizedSignature": "LoadFromAssemblyPath|(System.String):System.Reflection.Assembly|static=false",
           "EmitScope": "ClassSurface",
@@ -350,8 +350,8 @@
         },
         {
           "ClrName": "LoadFromNativeImagePath",
-          "TsEmitName": "loadFromNativeImagePath",
-          "MetadataToken": 100682833,
+          "TsEmitName": "LoadFromNativeImagePath",
+          "MetadataToken": 100682813,
           "CanonicalSignature": "(System.String,System.String):System.Reflection.Assembly",
           "NormalizedSignature": "LoadFromNativeImagePath|(System.String,System.String):System.Reflection.Assembly|static=false",
           "EmitScope": "ClassSurface",
@@ -362,8 +362,8 @@
         },
         {
           "ClrName": "LoadFromStream",
-          "TsEmitName": "loadFromStream",
-          "MetadataToken": 100682834,
+          "TsEmitName": "LoadFromStream",
+          "MetadataToken": 100682814,
           "CanonicalSignature": "(System.IO.Stream):System.Reflection.Assembly",
           "NormalizedSignature": "LoadFromStream|(System.IO.Stream):System.Reflection.Assembly|static=false",
           "EmitScope": "ClassSurface",
@@ -374,8 +374,8 @@
         },
         {
           "ClrName": "LoadFromStream",
-          "TsEmitName": "loadFromStream2",
-          "MetadataToken": 100682835,
+          "TsEmitName": "LoadFromStream2",
+          "MetadataToken": 100682815,
           "CanonicalSignature": "(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly",
           "NormalizedSignature": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
           "EmitScope": "ClassSurface",
@@ -386,8 +386,8 @@
         },
         {
           "ClrName": "Unload",
-          "TsEmitName": "unload",
-          "MetadataToken": 100682838,
+          "TsEmitName": "Unload",
+          "MetadataToken": 100682818,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Unload|():System.Void|static=false",
           "EmitScope": "ClassSurface",
@@ -398,8 +398,8 @@
         },
         {
           "ClrName": "EnterContextualReflection",
-          "TsEmitName": "enterContextualReflection",
-          "MetadataToken": 100682843,
+          "TsEmitName": "EnterContextualReflection",
+          "MetadataToken": 100682823,
           "CanonicalSignature": "():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
           "NormalizedSignature": "EnterContextualReflection|():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=false",
           "EmitScope": "ClassSurface",
@@ -410,8 +410,8 @@
         },
         {
           "ClrName": "EnterContextualReflection",
-          "TsEmitName": "enterContextualReflection",
-          "MetadataToken": 100682844,
+          "TsEmitName": "EnterContextualReflection",
+          "MetadataToken": 100682824,
           "CanonicalSignature": "(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope",
           "NormalizedSignature": "EnterContextualReflection|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=true",
           "EmitScope": "ClassSurface",
@@ -424,8 +424,8 @@
       "Properties": [
         {
           "ClrName": "Assemblies",
-          "TsEmitName": "assemblies",
-          "MetadataToken": 385879348,
+          "TsEmitName": "Assemblies",
+          "MetadataToken": 385879344,
           "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Assemblies|:System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -437,8 +437,8 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
-          "MetadataToken": 385879349,
+          "TsEmitName": "Default",
+          "MetadataToken": 385879345,
           "CanonicalSignature": ":System.Runtime.Loader.AssemblyLoadContext",
           "NormalizedSignature": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "EmitScope": "ClassSurface",
@@ -450,8 +450,8 @@
         },
         {
           "ClrName": "IsCollectible",
-          "TsEmitName": "isCollectible",
-          "MetadataToken": 385879350,
+          "TsEmitName": "IsCollectible",
+          "MetadataToken": 385879346,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsCollectible|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -463,8 +463,8 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
-          "MetadataToken": 385879351,
+          "TsEmitName": "Name",
+          "MetadataToken": 385879347,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "EmitScope": "ClassSurface",
@@ -476,8 +476,8 @@
         },
         {
           "ClrName": "All",
-          "TsEmitName": "all",
-          "MetadataToken": 385879352,
+          "TsEmitName": "All",
+          "MetadataToken": 385879348,
           "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "All|:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "EmitScope": "ClassSurface",
@@ -489,8 +489,8 @@
         },
         {
           "ClrName": "CurrentContextualReflectionContext",
-          "TsEmitName": "currentContextualReflectionContext",
-          "MetadataToken": 385879353,
+          "TsEmitName": "CurrentContextualReflectionContext",
+          "MetadataToken": 385879349,
           "CanonicalSignature": ":System.Runtime.Loader.AssemblyLoadContext",
           "NormalizedSignature": "CurrentContextualReflectionContext|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "EmitScope": "ClassSurface",
@@ -505,7 +505,7 @@
       "Events": [
         {
           "ClrName": "ResolvingUnmanagedDll",
-          "TsEmitName": "resolvingUnmanagedDll",
+          "TsEmitName": "ResolvingUnmanagedDll",
           "MetadataToken": 335544338,
           "NormalizedSignature": "ResolvingUnmanagedDll|System.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false,
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "Resolving",
-          "TsEmitName": "resolving",
+          "TsEmitName": "Resolving",
           "MetadataToken": 335544339,
           "NormalizedSignature": "Resolving|System.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false,
@@ -523,7 +523,7 @@
         },
         {
           "ClrName": "Unloading",
-          "TsEmitName": "unloading",
+          "TsEmitName": "Unloading",
           "MetadataToken": 335544340,
           "NormalizedSignature": "Unloading|System.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false,
@@ -533,7 +533,7 @@
       ],
       "Constructors": [
         {
-          "MetadataToken": 100682804,
+          "MetadataToken": 100682784,
           "CanonicalSignature": "(System.String,System.Boolean):void",
           "NormalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
           "IsStatic": false,
@@ -544,137 +544,137 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "getLoadContext",
+          "TsName": "GetLoadContext",
           "IsStatic": true,
           "TsSignatureId": "GetLoadContext|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext|static=true",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682788
+            "MetadataToken": 100682768
           }
         },
         {
-          "TsName": "setProfileOptimizationRoot",
+          "TsName": "SetProfileOptimizationRoot",
           "IsStatic": false,
           "TsSignatureId": "SetProfileOptimizationRoot|(System.String):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682789
+            "MetadataToken": 100682769
           }
         },
         {
-          "TsName": "startProfileOptimization",
+          "TsName": "StartProfileOptimization",
           "IsStatic": false,
           "TsSignatureId": "StartProfileOptimization|(System.String):System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682790
+            "MetadataToken": 100682770
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682827
+            "MetadataToken": 100682807
           }
         },
         {
-          "TsName": "getAssemblyName",
+          "TsName": "GetAssemblyName",
           "IsStatic": true,
           "TsSignatureId": "GetAssemblyName|(System.String):System.Reflection.AssemblyName|static=true",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682829
+            "MetadataToken": 100682809
           }
         },
         {
-          "TsName": "loadFromAssemblyName",
+          "TsName": "LoadFromAssemblyName",
           "IsStatic": false,
           "TsSignatureId": "LoadFromAssemblyName|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682831
+            "MetadataToken": 100682811
           }
         },
         {
-          "TsName": "loadFromAssemblyPath",
+          "TsName": "LoadFromAssemblyPath",
           "IsStatic": false,
           "TsSignatureId": "LoadFromAssemblyPath|(System.String):System.Reflection.Assembly|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682832
+            "MetadataToken": 100682812
           }
         },
         {
-          "TsName": "loadFromNativeImagePath",
+          "TsName": "LoadFromNativeImagePath",
           "IsStatic": false,
           "TsSignatureId": "LoadFromNativeImagePath|(System.String,System.String):System.Reflection.Assembly|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682833
+            "MetadataToken": 100682813
           }
         },
         {
-          "TsName": "loadFromStream",
+          "TsName": "LoadFromStream",
           "IsStatic": false,
           "TsSignatureId": "LoadFromStream|(System.IO.Stream):System.Reflection.Assembly|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682834
+            "MetadataToken": 100682814
           }
         },
         {
-          "TsName": "loadFromStream2",
+          "TsName": "LoadFromStream2",
           "IsStatic": false,
           "TsSignatureId": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682835
+            "MetadataToken": 100682815
           }
         },
         {
-          "TsName": "unload",
+          "TsName": "Unload",
           "IsStatic": false,
           "TsSignatureId": "Unload|():System.Void|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682838
+            "MetadataToken": 100682818
           }
         },
         {
-          "TsName": "enterContextualReflection",
+          "TsName": "EnterContextualReflection",
           "IsStatic": false,
           "TsSignatureId": "EnterContextualReflection|():System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=false",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682843
+            "MetadataToken": 100682823
           }
         },
         {
-          "TsName": "enterContextualReflection",
+          "TsName": "EnterContextualReflection",
           "IsStatic": true,
           "TsSignatureId": "EnterContextualReflection|(System.Reflection.Assembly):System.Runtime.Loader.AssemblyLoadContext\u002BContextualReflectionScope|static=true",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682844
+            "MetadataToken": 100682824
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -684,7 +684,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -694,7 +694,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -704,7 +704,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -714,7 +714,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -726,9 +726,49 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "assemblies",
+          "TsName": "Assemblies",
           "IsStatic": false,
           "TsSignatureId": "Assemblies|:System.Collections.Generic.IEnumerable_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385879344
+          }
+        },
+        {
+          "TsName": "Default",
+          "IsStatic": true,
+          "TsSignatureId": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385879345
+          }
+        },
+        {
+          "TsName": "IsCollectible",
+          "IsStatic": false,
+          "TsSignatureId": "IsCollectible|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385879346
+          }
+        },
+        {
+          "TsName": "Name",
+          "IsStatic": false,
+          "TsSignatureId": "Name|:System.String|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385879347
+          }
+        },
+        {
+          "TsName": "All",
+          "IsStatic": true,
+          "TsSignatureId": "All|:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -736,59 +776,19 @@
           }
         },
         {
-          "TsName": "default_",
-          "IsStatic": true,
-          "TsSignatureId": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879349
-          }
-        },
-        {
-          "TsName": "isCollectible",
-          "IsStatic": false,
-          "TsSignatureId": "IsCollectible|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879350
-          }
-        },
-        {
-          "TsName": "name",
-          "IsStatic": false,
-          "TsSignatureId": "Name|:System.String|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879351
-          }
-        },
-        {
-          "TsName": "all",
-          "IsStatic": true,
-          "TsSignatureId": "All|:System.Collections.Generic.IEnumerable_1[[System.Runtime.Loader.AssemblyLoadContext,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879352
-          }
-        },
-        {
-          "TsName": "currentContextualReflectionContext",
+          "TsName": "CurrentContextualReflectionContext",
           "IsStatic": true,
           "TsSignatureId": "CurrentContextualReflectionContext|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879353
+            "MetadataToken": 385879349
           }
         }
       ],
       "ExposedEvents": [
         {
-          "TsName": "resolvingUnmanagedDll",
+          "TsName": "ResolvingUnmanagedDll",
           "IsStatic": false,
           "TsSignatureId": "ResolvingUnmanagedDll|System.Func\u00603[[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -798,7 +798,7 @@
           }
         },
         {
-          "TsName": "resolving",
+          "TsName": "Resolving",
           "IsStatic": false,
           "TsSignatureId": "Resolving|System.Func\u00603[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.AssemblyName, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Assembly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -808,7 +808,7 @@
           }
         },
         {
-          "TsName": "unloading",
+          "TsName": "Unloading",
           "IsStatic": false,
           "TsSignatureId": "Unloading|System.Action\u00601[[System.Runtime.Loader.AssemblyLoadContext, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -825,7 +825,7 @@
           "Target": {
             "DeclaringClrType": "System.Runtime.Loader.AssemblyLoadContext",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682804
+            "MetadataToken": 100682784
           }
         }
       ]

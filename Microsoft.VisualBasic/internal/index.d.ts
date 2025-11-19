@@ -40,192 +40,192 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AppWinStyle {
-    hide = 0,
-    normalFocus = 1,
-    minimizedFocus = 2,
-    maximizedFocus = 3,
-    normalNoFocus = 4,
-    minimizedNoFocus = 6
+    Hide = 0,
+    NormalFocus = 1,
+    MinimizedFocus = 2,
+    MaximizedFocus = 3,
+    NormalNoFocus = 4,
+    MinimizedNoFocus = 6
 }
 
 
 export enum CallType {
-    method = 1,
-    get_ = 2,
-    let_ = 4,
-    set_ = 8
+    Method = 1,
+    Get = 2,
+    Let = 4,
+    Set = 8
 }
 
 
 export enum CompareMethod {
-    binary = 0,
-    text = 1
+    Binary = 0,
+    Text = 1
 }
 
 
 export enum DateFormat {
-    generalDate = 0,
-    longDate = 1,
-    shortDate = 2,
-    longTime = 3,
-    shortTime = 4
+    GeneralDate = 0,
+    LongDate = 1,
+    ShortDate = 2,
+    LongTime = 3,
+    ShortTime = 4
 }
 
 
 export enum DateInterval {
-    year = 0,
-    quarter = 1,
-    month = 2,
-    dayOfYear = 3,
-    day = 4,
-    weekOfYear = 5,
-    weekday = 6,
-    hour = 7,
-    minute = 8,
-    second = 9
+    Year = 0,
+    Quarter = 1,
+    Month = 2,
+    DayOfYear = 3,
+    Day = 4,
+    WeekOfYear = 5,
+    Weekday = 6,
+    Hour = 7,
+    Minute = 8,
+    Second = 9
 }
 
 
 export enum DueDate {
-    endOfPeriod = 0,
-    begOfPeriod = 1
+    EndOfPeriod = 0,
+    BegOfPeriod = 1
 }
 
 
 export enum FileAttribute {
-    normal = 0,
-    readOnly = 1,
-    hidden = 2,
-    system = 4,
-    volume = 8,
-    directory = 16,
-    archive = 32
+    Normal = 0,
+    ReadOnly = 1,
+    Hidden = 2,
+    System = 4,
+    Volume = 8,
+    Directory = 16,
+    Archive = 32
 }
 
 
 export enum FirstDayOfWeek {
-    system = 0,
-    sunday = 1,
-    monday = 2,
-    tuesday = 3,
-    wednesday = 4,
-    thursday = 5,
-    friday = 6,
-    saturday = 7
+    System = 0,
+    Sunday = 1,
+    Monday = 2,
+    Tuesday = 3,
+    Wednesday = 4,
+    Thursday = 5,
+    Friday = 6,
+    Saturday = 7
 }
 
 
 export enum FirstWeekOfYear {
-    system = 0,
-    jan1 = 1,
-    firstFourDays = 2,
-    firstFullWeek = 3
+    System = 0,
+    Jan1 = 1,
+    FirstFourDays = 2,
+    FirstFullWeek = 3
 }
 
 
 export enum MsgBoxResult {
-    ok = 1,
-    cancel = 2,
-    abort = 3,
-    retry = 4,
-    ignore = 5,
-    yes = 6,
-    no = 7
+    Ok = 1,
+    Cancel = 2,
+    Abort = 3,
+    Retry = 4,
+    Ignore = 5,
+    Yes = 6,
+    No = 7
 }
 
 
 export enum MsgBoxStyle {
-    okOnly = 0,
-    okCancel = 1,
-    abortRetryIgnore = 2,
-    yesNoCancel = 3,
-    yesNo = 4,
-    retryCancel = 5,
-    critical = 16,
-    question = 32,
-    exclamation = 48,
-    information = 64,
-    defaultButton1 = 0,
-    defaultButton2 = 256,
-    defaultButton3 = 512,
-    applicationModal = 0,
-    systemModal = 4096,
-    msgBoxHelp = 16384,
-    msgBoxRight = 524288,
-    msgBoxRtlReading = 1048576,
-    msgBoxSetForeground = 65536
+    OkOnly = 0,
+    OkCancel = 1,
+    AbortRetryIgnore = 2,
+    YesNoCancel = 3,
+    YesNo = 4,
+    RetryCancel = 5,
+    Critical = 16,
+    Question = 32,
+    Exclamation = 48,
+    Information = 64,
+    DefaultButton1 = 0,
+    DefaultButton2 = 256,
+    DefaultButton3 = 512,
+    ApplicationModal = 0,
+    SystemModal = 4096,
+    MsgBoxHelp = 16384,
+    MsgBoxRight = 524288,
+    MsgBoxRtlReading = 1048576,
+    MsgBoxSetForeground = 65536
 }
 
 
 export enum OpenAccess {
-    default_ = -1,
-    read = 1,
-    readWrite = 3,
-    write = 2
+    Default = -1,
+    Read = 1,
+    ReadWrite = 3,
+    Write = 2
 }
 
 
 export enum OpenMode {
-    input = 1,
-    output = 2,
-    random = 4,
-    append = 8,
-    binary = 32
+    Input = 1,
+    Output = 2,
+    Random = 4,
+    Append = 8,
+    Binary = 32
 }
 
 
 export enum OpenShare {
-    default_ = -1,
-    shared = 3,
-    lockRead = 2,
-    lockReadWrite = 0,
-    lockWrite = 1
+    Default = -1,
+    Shared = 3,
+    LockRead = 2,
+    LockReadWrite = 0,
+    LockWrite = 1
 }
 
 
 export enum TriState {
-    false_ = 0,
-    true_ = -1,
-    useDefault = -2
+    False = 0,
+    True = -1,
+    UseDefault = -2
 }
 
 
 export enum VariantType {
-    empty = 0,
-    null_ = 1,
-    short = 2,
-    integer = 3,
-    single = 4,
-    double = 5,
-    currency = 6,
-    date = 7,
-    string_ = 8,
-    object_ = 9,
-    error = 10,
-    boolean_ = 11,
-    variant = 12,
-    dataObject = 13,
-    decimal = 14,
-    byte = 17,
-    char = 18,
-    long = 20,
-    userDefinedType = 36,
-    array = 8192
+    Empty = 0,
+    Null = 1,
+    Short = 2,
+    Integer = 3,
+    Single = 4,
+    Double = 5,
+    Currency = 6,
+    Date = 7,
+    String = 8,
+    Object = 9,
+    Error = 10,
+    Boolean = 11,
+    Variant = 12,
+    DataObject = 13,
+    Decimal = 14,
+    Byte = 17,
+    Char = 18,
+    Long = 20,
+    UserDefinedType = 36,
+    Array = 8192
 }
 
 
 export enum VbStrConv {
-    none = 0,
-    uppercase = 1,
-    lowercase = 2,
-    properCase = 3,
-    wide = 4,
-    narrow = 8,
-    katakana = 16,
-    hiragana = 32,
-    simplifiedChinese = 256,
-    traditionalChinese = 512,
-    linguisticCasing = 1024
+    None = 0,
+    Uppercase = 1,
+    Lowercase = 2,
+    ProperCase = 3,
+    Wide = 4,
+    Narrow = 8,
+    Katakana = 16,
+    Hiragana = 32,
+    SimplifiedChinese = 256,
+    TraditionalChinese = 512,
+    LinguisticCasing = 1024
 }
 
 
@@ -245,16 +245,16 @@ export type TabInfo = TabInfo$instance;
 
 export class Collection$instance {
     constructor();
-    readonly count: int;
-    add(Item: any, Key?: string, Before?: any, After?: any): void;
-    clear(): void;
-    contains(Key: string): boolean;
+    readonly Count: int;
+    Add(Item: any, Key?: string, Before?: any, After?: any): void;
+    Clear(): void;
+    Contains(Key: string): boolean;
     get_Item(Index: int): any;
     get_Item(Key: string): any;
     get_Item(Index: any): any;
-    getEnumerator(): IEnumerator;
-    remove(Key: string): void;
-    remove(Index: int): void;
+    GetEnumerator(): IEnumerator;
+    Remove(Key: string): void;
+    Remove(Index: int): void;
 }
 
 
@@ -272,10 +272,10 @@ export class ComClassAttribute$instance extends System_Internal.Attribute$instan
     constructor(_ClassID: string);
     constructor(_ClassID: string, _InterfaceID: string);
     constructor(_ClassID: string, _InterfaceID: string, _EventId: string);
-    readonly classID: string;
-    readonly eventID: string;
-    readonly interfaceID: string;
-    interfaceShadows: boolean;
+    readonly ClassID: string;
+    readonly EventID: string;
+    readonly InterfaceID: string;
+    InterfaceShadows: boolean;
 }
 
 
@@ -484,16 +484,16 @@ export class DateAndTime$instance {
 export type DateAndTime = DateAndTime$instance;
 
 export class ErrObject$instance {
-    description: string;
-    readonly erl: int;
-    helpContext: int;
-    helpFile: string;
-    readonly lastDllError: int;
-    number_: int;
-    source: string;
-    clear(): void;
-    getException(): Exception;
-    raise(Number: int, Source?: any, Description?: any, HelpFile?: any, HelpContext?: any): void;
+    Description: string;
+    readonly Erl: int;
+    HelpContext: int;
+    HelpFile: string;
+    readonly LastDllError: int;
+    Number: int;
+    Source: string;
+    Clear(): void;
+    GetException(): Exception;
+    Raise(Number: int, Source?: any, Description?: any, HelpFile?: any, HelpContext?: any): void;
 }
 
 
@@ -665,10 +665,10 @@ export type Interaction = Interaction$instance;
 
 export class MyGroupCollectionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(typeToCollect: string, createInstanceMethodName: string, disposeInstanceMethodName: string, defaultInstanceAlias: string);
-    readonly createMethod: string;
-    readonly defaultInstanceAlias: string;
-    readonly disposeMethod: string;
-    readonly myGroupName: string;
+    readonly CreateMethod: string;
+    readonly DefaultInstanceAlias: string;
+    readonly DisposeMethod: string;
+    readonly MyGroupName: string;
 }
 
 
@@ -740,8 +740,8 @@ export type Strings = Strings$instance;
 export class VBFixedArrayAttribute$instance extends System_Internal.Attribute$instance {
     constructor(UpperBound1: int);
     constructor(UpperBound1: int, UpperBound2: int);
-    readonly bounds: int[];
-    readonly length: int;
+    readonly Bounds: int[];
+    readonly Length: int;
 }
 
 
@@ -749,7 +749,7 @@ export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
 export class VBFixedStringAttribute$instance extends System_Internal.Attribute$instance {
     constructor(Length: int);
-    readonly length: int;
+    readonly Length: int;
 }
 
 

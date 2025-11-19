@@ -9,8 +9,8 @@
       "Methods": [
         {
           "ClrName": "ReadDoubleBigEndian",
-          "TsEmitName": "readDoubleBigEndian",
-          "MetadataToken": 100678668,
+          "TsEmitName": "ReadDoubleBigEndian",
+          "MetadataToken": 100678647,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
           "NormalizedSignature": "ReadDoubleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double|static=true",
           "EmitScope": "ClassSurface",
@@ -21,8 +21,8 @@
         },
         {
           "ClrName": "ReadHalfBigEndian",
-          "TsEmitName": "readHalfBigEndian",
-          "MetadataToken": 100678669,
+          "TsEmitName": "ReadHalfBigEndian",
+          "MetadataToken": 100678648,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half",
           "NormalizedSignature": "ReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
           "EmitScope": "ClassSurface",
@@ -33,8 +33,8 @@
         },
         {
           "ClrName": "ReadInt16BigEndian",
-          "TsEmitName": "readInt16BigEndian",
-          "MetadataToken": 100678670,
+          "TsEmitName": "ReadInt16BigEndian",
+          "MetadataToken": 100678649,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16",
           "NormalizedSignature": "ReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
           "EmitScope": "ClassSurface",
@@ -45,8 +45,8 @@
         },
         {
           "ClrName": "ReadInt32BigEndian",
-          "TsEmitName": "readInt32BigEndian",
-          "MetadataToken": 100678671,
+          "TsEmitName": "ReadInt32BigEndian",
+          "MetadataToken": 100678650,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "NormalizedSignature": "ReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "EmitScope": "ClassSurface",
@@ -57,8 +57,8 @@
         },
         {
           "ClrName": "ReadInt64BigEndian",
-          "TsEmitName": "readInt64BigEndian",
-          "MetadataToken": 100678672,
+          "TsEmitName": "ReadInt64BigEndian",
+          "MetadataToken": 100678651,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
           "NormalizedSignature": "ReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
           "EmitScope": "ClassSurface",
@@ -69,8 +69,8 @@
         },
         {
           "ClrName": "ReadInt128BigEndian",
-          "TsEmitName": "readInt128BigEndian",
-          "MetadataToken": 100678673,
+          "TsEmitName": "ReadInt128BigEndian",
+          "MetadataToken": 100678652,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128",
           "NormalizedSignature": "ReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
           "EmitScope": "ClassSurface",
@@ -81,8 +81,8 @@
         },
         {
           "ClrName": "ReadIntPtrBigEndian",
-          "TsEmitName": "readIntPtrBigEndian",
-          "MetadataToken": 100678674,
+          "TsEmitName": "ReadIntPtrBigEndian",
+          "MetadataToken": 100678653,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr",
           "NormalizedSignature": "ReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -93,8 +93,8 @@
         },
         {
           "ClrName": "ReadSingleBigEndian",
-          "TsEmitName": "readSingleBigEndian",
-          "MetadataToken": 100678675,
+          "TsEmitName": "ReadSingleBigEndian",
+          "MetadataToken": 100678654,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
           "NormalizedSignature": "ReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
           "EmitScope": "ClassSurface",
@@ -105,8 +105,8 @@
         },
         {
           "ClrName": "ReadUInt16BigEndian",
-          "TsEmitName": "readUInt16BigEndian",
-          "MetadataToken": 100678676,
+          "TsEmitName": "ReadUInt16BigEndian",
+          "MetadataToken": 100678655,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16",
           "NormalizedSignature": "ReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
           "EmitScope": "ClassSurface",
@@ -117,8 +117,8 @@
         },
         {
           "ClrName": "ReadUInt32BigEndian",
-          "TsEmitName": "readUInt32BigEndian",
-          "MetadataToken": 100678677,
+          "TsEmitName": "ReadUInt32BigEndian",
+          "MetadataToken": 100678656,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32",
           "NormalizedSignature": "ReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
           "EmitScope": "ClassSurface",
@@ -129,8 +129,8 @@
         },
         {
           "ClrName": "ReadUInt64BigEndian",
-          "TsEmitName": "readUInt64BigEndian",
-          "MetadataToken": 100678678,
+          "TsEmitName": "ReadUInt64BigEndian",
+          "MetadataToken": 100678657,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64",
           "NormalizedSignature": "ReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
           "EmitScope": "ClassSurface",
@@ -141,8 +141,8 @@
         },
         {
           "ClrName": "ReadUInt128BigEndian",
-          "TsEmitName": "readUInt128BigEndian",
-          "MetadataToken": 100678679,
+          "TsEmitName": "ReadUInt128BigEndian",
+          "MetadataToken": 100678658,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128",
           "NormalizedSignature": "ReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
           "EmitScope": "ClassSurface",
@@ -153,8 +153,8 @@
         },
         {
           "ClrName": "ReadUIntPtrBigEndian",
-          "TsEmitName": "readUIntPtrBigEndian",
-          "MetadataToken": 100678680,
+          "TsEmitName": "ReadUIntPtrBigEndian",
+          "MetadataToken": 100678659,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr",
           "NormalizedSignature": "ReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -165,8 +165,8 @@
         },
         {
           "ClrName": "TryReadDoubleBigEndian",
-          "TsEmitName": "tryReadDoubleBigEndian",
-          "MetadataToken": 100678681,
+          "TsEmitName": "TryReadDoubleBigEndian",
+          "MetadataToken": 100678660,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean",
           "NormalizedSignature": "TryReadDoubleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -177,8 +177,8 @@
         },
         {
           "ClrName": "TryReadHalfBigEndian",
-          "TsEmitName": "tryReadHalfBigEndian",
-          "MetadataToken": 100678682,
+          "TsEmitName": "TryReadHalfBigEndian",
+          "MetadataToken": 100678661,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean",
           "NormalizedSignature": "TryReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -189,8 +189,8 @@
         },
         {
           "ClrName": "TryReadInt16BigEndian",
-          "TsEmitName": "tryReadInt16BigEndian",
-          "MetadataToken": 100678683,
+          "TsEmitName": "TryReadInt16BigEndian",
+          "MetadataToken": 100678662,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -201,8 +201,8 @@
         },
         {
           "ClrName": "TryReadInt32BigEndian",
-          "TsEmitName": "tryReadInt32BigEndian",
-          "MetadataToken": 100678684,
+          "TsEmitName": "TryReadInt32BigEndian",
+          "MetadataToken": 100678663,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -213,8 +213,8 @@
         },
         {
           "ClrName": "TryReadInt64BigEndian",
-          "TsEmitName": "tryReadInt64BigEndian",
-          "MetadataToken": 100678685,
+          "TsEmitName": "TryReadInt64BigEndian",
+          "MetadataToken": 100678664,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -225,8 +225,8 @@
         },
         {
           "ClrName": "TryReadInt128BigEndian",
-          "TsEmitName": "tryReadInt128BigEndian",
-          "MetadataToken": 100678686,
+          "TsEmitName": "TryReadInt128BigEndian",
+          "MetadataToken": 100678665,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -237,8 +237,8 @@
         },
         {
           "ClrName": "TryReadIntPtrBigEndian",
-          "TsEmitName": "tryReadIntPtrBigEndian",
-          "MetadataToken": 100678687,
+          "TsEmitName": "TryReadIntPtrBigEndian",
+          "MetadataToken": 100678666,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean",
           "NormalizedSignature": "TryReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -249,8 +249,8 @@
         },
         {
           "ClrName": "TryReadSingleBigEndian",
-          "TsEmitName": "tryReadSingleBigEndian",
-          "MetadataToken": 100678688,
+          "TsEmitName": "TryReadSingleBigEndian",
+          "MetadataToken": 100678667,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean",
           "NormalizedSignature": "TryReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -261,8 +261,8 @@
         },
         {
           "ClrName": "TryReadUInt16BigEndian",
-          "TsEmitName": "tryReadUInt16BigEndian",
-          "MetadataToken": 100678689,
+          "TsEmitName": "TryReadUInt16BigEndian",
+          "MetadataToken": 100678668,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -273,8 +273,8 @@
         },
         {
           "ClrName": "TryReadUInt32BigEndian",
-          "TsEmitName": "tryReadUInt32BigEndian",
-          "MetadataToken": 100678690,
+          "TsEmitName": "TryReadUInt32BigEndian",
+          "MetadataToken": 100678669,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -285,8 +285,8 @@
         },
         {
           "ClrName": "TryReadUInt64BigEndian",
-          "TsEmitName": "tryReadUInt64BigEndian",
-          "MetadataToken": 100678691,
+          "TsEmitName": "TryReadUInt64BigEndian",
+          "MetadataToken": 100678670,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -297,8 +297,8 @@
         },
         {
           "ClrName": "TryReadUInt128BigEndian",
-          "TsEmitName": "tryReadUInt128BigEndian",
-          "MetadataToken": 100678692,
+          "TsEmitName": "TryReadUInt128BigEndian",
+          "MetadataToken": 100678671,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -309,8 +309,8 @@
         },
         {
           "ClrName": "TryReadUIntPtrBigEndian",
-          "TsEmitName": "tryReadUIntPtrBigEndian",
-          "MetadataToken": 100678693,
+          "TsEmitName": "TryReadUIntPtrBigEndian",
+          "MetadataToken": 100678672,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -321,8 +321,8 @@
         },
         {
           "ClrName": "ReadDoubleLittleEndian",
-          "TsEmitName": "readDoubleLittleEndian",
-          "MetadataToken": 100678694,
+          "TsEmitName": "ReadDoubleLittleEndian",
+          "MetadataToken": 100678673,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
           "NormalizedSignature": "ReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double|static=true",
           "EmitScope": "ClassSurface",
@@ -333,8 +333,8 @@
         },
         {
           "ClrName": "ReadHalfLittleEndian",
-          "TsEmitName": "readHalfLittleEndian",
-          "MetadataToken": 100678695,
+          "TsEmitName": "ReadHalfLittleEndian",
+          "MetadataToken": 100678674,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half",
           "NormalizedSignature": "ReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
           "EmitScope": "ClassSurface",
@@ -345,8 +345,8 @@
         },
         {
           "ClrName": "ReadInt16LittleEndian",
-          "TsEmitName": "readInt16LittleEndian",
-          "MetadataToken": 100678696,
+          "TsEmitName": "ReadInt16LittleEndian",
+          "MetadataToken": 100678675,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16",
           "NormalizedSignature": "ReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
           "EmitScope": "ClassSurface",
@@ -357,8 +357,8 @@
         },
         {
           "ClrName": "ReadInt32LittleEndian",
-          "TsEmitName": "readInt32LittleEndian",
-          "MetadataToken": 100678697,
+          "TsEmitName": "ReadInt32LittleEndian",
+          "MetadataToken": 100678676,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "NormalizedSignature": "ReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "EmitScope": "ClassSurface",
@@ -369,8 +369,8 @@
         },
         {
           "ClrName": "ReadInt64LittleEndian",
-          "TsEmitName": "readInt64LittleEndian",
-          "MetadataToken": 100678698,
+          "TsEmitName": "ReadInt64LittleEndian",
+          "MetadataToken": 100678677,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
           "NormalizedSignature": "ReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
           "EmitScope": "ClassSurface",
@@ -381,8 +381,8 @@
         },
         {
           "ClrName": "ReadInt128LittleEndian",
-          "TsEmitName": "readInt128LittleEndian",
-          "MetadataToken": 100678699,
+          "TsEmitName": "ReadInt128LittleEndian",
+          "MetadataToken": 100678678,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128",
           "NormalizedSignature": "ReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
           "EmitScope": "ClassSurface",
@@ -393,8 +393,8 @@
         },
         {
           "ClrName": "ReadIntPtrLittleEndian",
-          "TsEmitName": "readIntPtrLittleEndian",
-          "MetadataToken": 100678700,
+          "TsEmitName": "ReadIntPtrLittleEndian",
+          "MetadataToken": 100678679,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr",
           "NormalizedSignature": "ReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -405,8 +405,8 @@
         },
         {
           "ClrName": "ReadSingleLittleEndian",
-          "TsEmitName": "readSingleLittleEndian",
-          "MetadataToken": 100678701,
+          "TsEmitName": "ReadSingleLittleEndian",
+          "MetadataToken": 100678680,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
           "NormalizedSignature": "ReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
           "EmitScope": "ClassSurface",
@@ -417,8 +417,8 @@
         },
         {
           "ClrName": "ReadUInt16LittleEndian",
-          "TsEmitName": "readUInt16LittleEndian",
-          "MetadataToken": 100678702,
+          "TsEmitName": "ReadUInt16LittleEndian",
+          "MetadataToken": 100678681,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16",
           "NormalizedSignature": "ReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
           "EmitScope": "ClassSurface",
@@ -429,8 +429,8 @@
         },
         {
           "ClrName": "ReadUInt32LittleEndian",
-          "TsEmitName": "readUInt32LittleEndian",
-          "MetadataToken": 100678703,
+          "TsEmitName": "ReadUInt32LittleEndian",
+          "MetadataToken": 100678682,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32",
           "NormalizedSignature": "ReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
           "EmitScope": "ClassSurface",
@@ -441,8 +441,8 @@
         },
         {
           "ClrName": "ReadUInt64LittleEndian",
-          "TsEmitName": "readUInt64LittleEndian",
-          "MetadataToken": 100678704,
+          "TsEmitName": "ReadUInt64LittleEndian",
+          "MetadataToken": 100678683,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64",
           "NormalizedSignature": "ReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
           "EmitScope": "ClassSurface",
@@ -453,8 +453,8 @@
         },
         {
           "ClrName": "ReadUInt128LittleEndian",
-          "TsEmitName": "readUInt128LittleEndian",
-          "MetadataToken": 100678705,
+          "TsEmitName": "ReadUInt128LittleEndian",
+          "MetadataToken": 100678684,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128",
           "NormalizedSignature": "ReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
           "EmitScope": "ClassSurface",
@@ -465,8 +465,8 @@
         },
         {
           "ClrName": "ReadUIntPtrLittleEndian",
-          "TsEmitName": "readUIntPtrLittleEndian",
-          "MetadataToken": 100678706,
+          "TsEmitName": "ReadUIntPtrLittleEndian",
+          "MetadataToken": 100678685,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr",
           "NormalizedSignature": "ReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -477,8 +477,8 @@
         },
         {
           "ClrName": "TryReadDoubleLittleEndian",
-          "TsEmitName": "tryReadDoubleLittleEndian",
-          "MetadataToken": 100678707,
+          "TsEmitName": "TryReadDoubleLittleEndian",
+          "MetadataToken": 100678686,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean",
           "NormalizedSignature": "TryReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -489,8 +489,8 @@
         },
         {
           "ClrName": "TryReadHalfLittleEndian",
-          "TsEmitName": "tryReadHalfLittleEndian",
-          "MetadataToken": 100678708,
+          "TsEmitName": "TryReadHalfLittleEndian",
+          "MetadataToken": 100678687,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean",
           "NormalizedSignature": "TryReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -501,8 +501,8 @@
         },
         {
           "ClrName": "TryReadInt16LittleEndian",
-          "TsEmitName": "tryReadInt16LittleEndian",
-          "MetadataToken": 100678709,
+          "TsEmitName": "TryReadInt16LittleEndian",
+          "MetadataToken": 100678688,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -513,8 +513,8 @@
         },
         {
           "ClrName": "TryReadInt32LittleEndian",
-          "TsEmitName": "tryReadInt32LittleEndian",
-          "MetadataToken": 100678710,
+          "TsEmitName": "TryReadInt32LittleEndian",
+          "MetadataToken": 100678689,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -525,8 +525,8 @@
         },
         {
           "ClrName": "TryReadInt64LittleEndian",
-          "TsEmitName": "tryReadInt64LittleEndian",
-          "MetadataToken": 100678711,
+          "TsEmitName": "TryReadInt64LittleEndian",
+          "MetadataToken": 100678690,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -537,8 +537,8 @@
         },
         {
           "ClrName": "TryReadInt128LittleEndian",
-          "TsEmitName": "tryReadInt128LittleEndian",
-          "MetadataToken": 100678712,
+          "TsEmitName": "TryReadInt128LittleEndian",
+          "MetadataToken": 100678691,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean",
           "NormalizedSignature": "TryReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -549,8 +549,8 @@
         },
         {
           "ClrName": "TryReadIntPtrLittleEndian",
-          "TsEmitName": "tryReadIntPtrLittleEndian",
-          "MetadataToken": 100678713,
+          "TsEmitName": "TryReadIntPtrLittleEndian",
+          "MetadataToken": 100678692,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean",
           "NormalizedSignature": "TryReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -561,8 +561,8 @@
         },
         {
           "ClrName": "TryReadSingleLittleEndian",
-          "TsEmitName": "tryReadSingleLittleEndian",
-          "MetadataToken": 100678714,
+          "TsEmitName": "TryReadSingleLittleEndian",
+          "MetadataToken": 100678693,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean",
           "NormalizedSignature": "TryReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -573,8 +573,8 @@
         },
         {
           "ClrName": "TryReadUInt16LittleEndian",
-          "TsEmitName": "tryReadUInt16LittleEndian",
-          "MetadataToken": 100678715,
+          "TsEmitName": "TryReadUInt16LittleEndian",
+          "MetadataToken": 100678694,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -585,8 +585,8 @@
         },
         {
           "ClrName": "TryReadUInt32LittleEndian",
-          "TsEmitName": "tryReadUInt32LittleEndian",
-          "MetadataToken": 100678716,
+          "TsEmitName": "TryReadUInt32LittleEndian",
+          "MetadataToken": 100678695,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -597,8 +597,8 @@
         },
         {
           "ClrName": "TryReadUInt64LittleEndian",
-          "TsEmitName": "tryReadUInt64LittleEndian",
-          "MetadataToken": 100678717,
+          "TsEmitName": "TryReadUInt64LittleEndian",
+          "MetadataToken": 100678696,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -609,8 +609,8 @@
         },
         {
           "ClrName": "TryReadUInt128LittleEndian",
-          "TsEmitName": "tryReadUInt128LittleEndian",
-          "MetadataToken": 100678718,
+          "TsEmitName": "TryReadUInt128LittleEndian",
+          "MetadataToken": 100678697,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -621,8 +621,8 @@
         },
         {
           "ClrName": "TryReadUIntPtrLittleEndian",
-          "TsEmitName": "tryReadUIntPtrLittleEndian",
-          "MetadataToken": 100678719,
+          "TsEmitName": "TryReadUIntPtrLittleEndian",
+          "MetadataToken": 100678698,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean",
           "NormalizedSignature": "TryReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -633,8 +633,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness",
-          "MetadataToken": 100678720,
+          "TsEmitName": "ReverseEndianness",
+          "MetadataToken": 100678699,
           "CanonicalSignature": "(System.SByte):System.SByte",
           "NormalizedSignature": "ReverseEndianness|(System.SByte):System.SByte|static=true",
           "EmitScope": "ClassSurface",
@@ -645,8 +645,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness2",
-          "MetadataToken": 100678721,
+          "TsEmitName": "ReverseEndianness2",
+          "MetadataToken": 100678700,
           "CanonicalSignature": "(System.Int16):System.Int16",
           "NormalizedSignature": "ReverseEndianness|(System.Int16):System.Int16|static=true",
           "EmitScope": "ClassSurface",
@@ -657,8 +657,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness3",
-          "MetadataToken": 100678722,
+          "TsEmitName": "ReverseEndianness3",
+          "MetadataToken": 100678701,
           "CanonicalSignature": "(System.Int32):System.Int32",
           "NormalizedSignature": "ReverseEndianness|(System.Int32):System.Int32|static=true",
           "EmitScope": "ClassSurface",
@@ -669,8 +669,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness4",
-          "MetadataToken": 100678723,
+          "TsEmitName": "ReverseEndianness4",
+          "MetadataToken": 100678702,
           "CanonicalSignature": "(System.Int64):System.Int64",
           "NormalizedSignature": "ReverseEndianness|(System.Int64):System.Int64|static=true",
           "EmitScope": "ClassSurface",
@@ -681,8 +681,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness5",
-          "MetadataToken": 100678724,
+          "TsEmitName": "ReverseEndianness5",
+          "MetadataToken": 100678703,
           "CanonicalSignature": "(System.IntPtr):System.IntPtr",
           "NormalizedSignature": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -693,8 +693,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness6",
-          "MetadataToken": 100678725,
+          "TsEmitName": "ReverseEndianness6",
+          "MetadataToken": 100678704,
           "CanonicalSignature": "(System.Int128):System.Int128",
           "NormalizedSignature": "ReverseEndianness|(System.Int128):System.Int128|static=true",
           "EmitScope": "ClassSurface",
@@ -705,8 +705,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness7",
-          "MetadataToken": 100678726,
+          "TsEmitName": "ReverseEndianness7",
+          "MetadataToken": 100678705,
           "CanonicalSignature": "(System.Byte):System.Byte",
           "NormalizedSignature": "ReverseEndianness|(System.Byte):System.Byte|static=true",
           "EmitScope": "ClassSurface",
@@ -717,8 +717,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness8",
-          "MetadataToken": 100678727,
+          "TsEmitName": "ReverseEndianness8",
+          "MetadataToken": 100678706,
           "CanonicalSignature": "(System.UInt16):System.UInt16",
           "NormalizedSignature": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
           "EmitScope": "ClassSurface",
@@ -729,8 +729,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness9",
-          "MetadataToken": 100678729,
+          "TsEmitName": "ReverseEndianness9",
+          "MetadataToken": 100678708,
           "CanonicalSignature": "(System.UInt32):System.UInt32",
           "NormalizedSignature": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
           "EmitScope": "ClassSurface",
@@ -741,8 +741,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness10",
-          "MetadataToken": 100678730,
+          "TsEmitName": "ReverseEndianness10",
+          "MetadataToken": 100678709,
           "CanonicalSignature": "(System.UInt64):System.UInt64",
           "NormalizedSignature": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
           "EmitScope": "ClassSurface",
@@ -753,8 +753,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness11",
-          "MetadataToken": 100678731,
+          "TsEmitName": "ReverseEndianness11",
+          "MetadataToken": 100678710,
           "CanonicalSignature": "(System.UIntPtr):System.UIntPtr",
           "NormalizedSignature": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
           "EmitScope": "ClassSurface",
@@ -765,8 +765,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness12",
-          "MetadataToken": 100678732,
+          "TsEmitName": "ReverseEndianness12",
+          "MetadataToken": 100678711,
           "CanonicalSignature": "(System.UInt128):System.UInt128",
           "NormalizedSignature": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
           "EmitScope": "ClassSurface",
@@ -777,8 +777,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness13",
-          "MetadataToken": 100678733,
+          "TsEmitName": "ReverseEndianness13",
+          "MetadataToken": 100678712,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -789,8 +789,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness14",
-          "MetadataToken": 100678734,
+          "TsEmitName": "ReverseEndianness14",
+          "MetadataToken": 100678713,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -801,8 +801,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness15",
-          "MetadataToken": 100678735,
+          "TsEmitName": "ReverseEndianness15",
+          "MetadataToken": 100678714,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -813,8 +813,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness16",
-          "MetadataToken": 100678736,
+          "TsEmitName": "ReverseEndianness16",
+          "MetadataToken": 100678715,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -825,8 +825,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness17",
-          "MetadataToken": 100678737,
+          "TsEmitName": "ReverseEndianness17",
+          "MetadataToken": 100678716,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -837,8 +837,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness18",
-          "MetadataToken": 100678738,
+          "TsEmitName": "ReverseEndianness18",
+          "MetadataToken": 100678717,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -849,8 +849,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness19",
-          "MetadataToken": 100678739,
+          "TsEmitName": "ReverseEndianness19",
+          "MetadataToken": 100678718,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -861,8 +861,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness20",
-          "MetadataToken": 100678740,
+          "TsEmitName": "ReverseEndianness20",
+          "MetadataToken": 100678719,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -873,8 +873,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness21",
-          "MetadataToken": 100678742,
+          "TsEmitName": "ReverseEndianness21",
+          "MetadataToken": 100678721,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -885,8 +885,8 @@
         },
         {
           "ClrName": "ReverseEndianness",
-          "TsEmitName": "reverseEndianness22",
-          "MetadataToken": 100678743,
+          "TsEmitName": "ReverseEndianness22",
+          "MetadataToken": 100678722,
           "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "NormalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -897,8 +897,8 @@
         },
         {
           "ClrName": "WriteDoubleBigEndian",
-          "TsEmitName": "writeDoubleBigEndian",
-          "MetadataToken": 100678745,
+          "TsEmitName": "WriteDoubleBigEndian",
+          "MetadataToken": 100678724,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
           "NormalizedSignature": "WriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -909,8 +909,8 @@
         },
         {
           "ClrName": "WriteHalfBigEndian",
-          "TsEmitName": "writeHalfBigEndian",
-          "MetadataToken": 100678746,
+          "TsEmitName": "WriteHalfBigEndian",
+          "MetadataToken": 100678725,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void",
           "NormalizedSignature": "WriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -921,8 +921,8 @@
         },
         {
           "ClrName": "WriteInt16BigEndian",
-          "TsEmitName": "writeInt16BigEndian",
-          "MetadataToken": 100678747,
+          "TsEmitName": "WriteInt16BigEndian",
+          "MetadataToken": 100678726,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void",
           "NormalizedSignature": "WriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -933,8 +933,8 @@
         },
         {
           "ClrName": "WriteInt32BigEndian",
-          "TsEmitName": "writeInt32BigEndian",
-          "MetadataToken": 100678748,
+          "TsEmitName": "WriteInt32BigEndian",
+          "MetadataToken": 100678727,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
           "NormalizedSignature": "WriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -945,8 +945,8 @@
         },
         {
           "ClrName": "WriteInt64BigEndian",
-          "TsEmitName": "writeInt64BigEndian",
-          "MetadataToken": 100678749,
+          "TsEmitName": "WriteInt64BigEndian",
+          "MetadataToken": 100678728,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
           "NormalizedSignature": "WriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -957,8 +957,8 @@
         },
         {
           "ClrName": "WriteInt128BigEndian",
-          "TsEmitName": "writeInt128BigEndian",
-          "MetadataToken": 100678750,
+          "TsEmitName": "WriteInt128BigEndian",
+          "MetadataToken": 100678729,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void",
           "NormalizedSignature": "WriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -969,8 +969,8 @@
         },
         {
           "ClrName": "WriteIntPtrBigEndian",
-          "TsEmitName": "writeIntPtrBigEndian",
-          "MetadataToken": 100678751,
+          "TsEmitName": "WriteIntPtrBigEndian",
+          "MetadataToken": 100678730,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void",
           "NormalizedSignature": "WriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -981,8 +981,8 @@
         },
         {
           "ClrName": "WriteSingleBigEndian",
-          "TsEmitName": "writeSingleBigEndian",
-          "MetadataToken": 100678752,
+          "TsEmitName": "WriteSingleBigEndian",
+          "MetadataToken": 100678731,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
           "NormalizedSignature": "WriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -993,8 +993,8 @@
         },
         {
           "ClrName": "WriteUInt16BigEndian",
-          "TsEmitName": "writeUInt16BigEndian",
-          "MetadataToken": 100678753,
+          "TsEmitName": "WriteUInt16BigEndian",
+          "MetadataToken": 100678732,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void",
           "NormalizedSignature": "WriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1005,8 +1005,8 @@
         },
         {
           "ClrName": "WriteUInt32BigEndian",
-          "TsEmitName": "writeUInt32BigEndian",
-          "MetadataToken": 100678754,
+          "TsEmitName": "WriteUInt32BigEndian",
+          "MetadataToken": 100678733,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
           "NormalizedSignature": "WriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1017,8 +1017,8 @@
         },
         {
           "ClrName": "WriteUInt64BigEndian",
-          "TsEmitName": "writeUInt64BigEndian",
-          "MetadataToken": 100678755,
+          "TsEmitName": "WriteUInt64BigEndian",
+          "MetadataToken": 100678734,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
           "NormalizedSignature": "WriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1029,8 +1029,8 @@
         },
         {
           "ClrName": "WriteUInt128BigEndian",
-          "TsEmitName": "writeUInt128BigEndian",
-          "MetadataToken": 100678756,
+          "TsEmitName": "WriteUInt128BigEndian",
+          "MetadataToken": 100678735,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void",
           "NormalizedSignature": "WriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1041,8 +1041,8 @@
         },
         {
           "ClrName": "WriteUIntPtrBigEndian",
-          "TsEmitName": "writeUIntPtrBigEndian",
-          "MetadataToken": 100678757,
+          "TsEmitName": "WriteUIntPtrBigEndian",
+          "MetadataToken": 100678736,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void",
           "NormalizedSignature": "WriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1053,8 +1053,8 @@
         },
         {
           "ClrName": "TryWriteDoubleBigEndian",
-          "TsEmitName": "tryWriteDoubleBigEndian",
-          "MetadataToken": 100678758,
+          "TsEmitName": "TryWriteDoubleBigEndian",
+          "MetadataToken": 100678737,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean",
           "NormalizedSignature": "TryWriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1065,8 +1065,8 @@
         },
         {
           "ClrName": "TryWriteHalfBigEndian",
-          "TsEmitName": "tryWriteHalfBigEndian",
-          "MetadataToken": 100678759,
+          "TsEmitName": "TryWriteHalfBigEndian",
+          "MetadataToken": 100678738,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean",
           "NormalizedSignature": "TryWriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1077,8 +1077,8 @@
         },
         {
           "ClrName": "TryWriteInt16BigEndian",
-          "TsEmitName": "tryWriteInt16BigEndian",
-          "MetadataToken": 100678760,
+          "TsEmitName": "TryWriteInt16BigEndian",
+          "MetadataToken": 100678739,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean",
           "NormalizedSignature": "TryWriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1089,8 +1089,8 @@
         },
         {
           "ClrName": "TryWriteInt32BigEndian",
-          "TsEmitName": "tryWriteInt32BigEndian",
-          "MetadataToken": 100678761,
+          "TsEmitName": "TryWriteInt32BigEndian",
+          "MetadataToken": 100678740,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
           "NormalizedSignature": "TryWriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1101,8 +1101,8 @@
         },
         {
           "ClrName": "TryWriteInt64BigEndian",
-          "TsEmitName": "tryWriteInt64BigEndian",
-          "MetadataToken": 100678762,
+          "TsEmitName": "TryWriteInt64BigEndian",
+          "MetadataToken": 100678741,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean",
           "NormalizedSignature": "TryWriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1113,8 +1113,8 @@
         },
         {
           "ClrName": "TryWriteInt128BigEndian",
-          "TsEmitName": "tryWriteInt128BigEndian",
-          "MetadataToken": 100678763,
+          "TsEmitName": "TryWriteInt128BigEndian",
+          "MetadataToken": 100678742,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean",
           "NormalizedSignature": "TryWriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1125,8 +1125,8 @@
         },
         {
           "ClrName": "TryWriteIntPtrBigEndian",
-          "TsEmitName": "tryWriteIntPtrBigEndian",
-          "MetadataToken": 100678764,
+          "TsEmitName": "TryWriteIntPtrBigEndian",
+          "MetadataToken": 100678743,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean",
           "NormalizedSignature": "TryWriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1137,8 +1137,8 @@
         },
         {
           "ClrName": "TryWriteSingleBigEndian",
-          "TsEmitName": "tryWriteSingleBigEndian",
-          "MetadataToken": 100678765,
+          "TsEmitName": "TryWriteSingleBigEndian",
+          "MetadataToken": 100678744,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean",
           "NormalizedSignature": "TryWriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1149,8 +1149,8 @@
         },
         {
           "ClrName": "TryWriteUInt16BigEndian",
-          "TsEmitName": "tryWriteUInt16BigEndian",
-          "MetadataToken": 100678766,
+          "TsEmitName": "TryWriteUInt16BigEndian",
+          "MetadataToken": 100678745,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean",
           "NormalizedSignature": "TryWriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1161,8 +1161,8 @@
         },
         {
           "ClrName": "TryWriteUInt32BigEndian",
-          "TsEmitName": "tryWriteUInt32BigEndian",
-          "MetadataToken": 100678767,
+          "TsEmitName": "TryWriteUInt32BigEndian",
+          "MetadataToken": 100678746,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean",
           "NormalizedSignature": "TryWriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1173,8 +1173,8 @@
         },
         {
           "ClrName": "TryWriteUInt64BigEndian",
-          "TsEmitName": "tryWriteUInt64BigEndian",
-          "MetadataToken": 100678768,
+          "TsEmitName": "TryWriteUInt64BigEndian",
+          "MetadataToken": 100678747,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean",
           "NormalizedSignature": "TryWriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1185,8 +1185,8 @@
         },
         {
           "ClrName": "TryWriteUInt128BigEndian",
-          "TsEmitName": "tryWriteUInt128BigEndian",
-          "MetadataToken": 100678769,
+          "TsEmitName": "TryWriteUInt128BigEndian",
+          "MetadataToken": 100678748,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean",
           "NormalizedSignature": "TryWriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1197,8 +1197,8 @@
         },
         {
           "ClrName": "TryWriteUIntPtrBigEndian",
-          "TsEmitName": "tryWriteUIntPtrBigEndian",
-          "MetadataToken": 100678770,
+          "TsEmitName": "TryWriteUIntPtrBigEndian",
+          "MetadataToken": 100678749,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean",
           "NormalizedSignature": "TryWriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1209,8 +1209,8 @@
         },
         {
           "ClrName": "WriteDoubleLittleEndian",
-          "TsEmitName": "writeDoubleLittleEndian",
-          "MetadataToken": 100678771,
+          "TsEmitName": "WriteDoubleLittleEndian",
+          "MetadataToken": 100678750,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
           "NormalizedSignature": "WriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1221,8 +1221,8 @@
         },
         {
           "ClrName": "WriteHalfLittleEndian",
-          "TsEmitName": "writeHalfLittleEndian",
-          "MetadataToken": 100678772,
+          "TsEmitName": "WriteHalfLittleEndian",
+          "MetadataToken": 100678751,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void",
           "NormalizedSignature": "WriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1233,8 +1233,8 @@
         },
         {
           "ClrName": "WriteInt16LittleEndian",
-          "TsEmitName": "writeInt16LittleEndian",
-          "MetadataToken": 100678773,
+          "TsEmitName": "WriteInt16LittleEndian",
+          "MetadataToken": 100678752,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void",
           "NormalizedSignature": "WriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1245,8 +1245,8 @@
         },
         {
           "ClrName": "WriteInt32LittleEndian",
-          "TsEmitName": "writeInt32LittleEndian",
-          "MetadataToken": 100678774,
+          "TsEmitName": "WriteInt32LittleEndian",
+          "MetadataToken": 100678753,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
           "NormalizedSignature": "WriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1257,8 +1257,8 @@
         },
         {
           "ClrName": "WriteInt64LittleEndian",
-          "TsEmitName": "writeInt64LittleEndian",
-          "MetadataToken": 100678775,
+          "TsEmitName": "WriteInt64LittleEndian",
+          "MetadataToken": 100678754,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
           "NormalizedSignature": "WriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1269,8 +1269,8 @@
         },
         {
           "ClrName": "WriteInt128LittleEndian",
-          "TsEmitName": "writeInt128LittleEndian",
-          "MetadataToken": 100678776,
+          "TsEmitName": "WriteInt128LittleEndian",
+          "MetadataToken": 100678755,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void",
           "NormalizedSignature": "WriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1281,8 +1281,8 @@
         },
         {
           "ClrName": "WriteIntPtrLittleEndian",
-          "TsEmitName": "writeIntPtrLittleEndian",
-          "MetadataToken": 100678777,
+          "TsEmitName": "WriteIntPtrLittleEndian",
+          "MetadataToken": 100678756,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void",
           "NormalizedSignature": "WriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1293,8 +1293,8 @@
         },
         {
           "ClrName": "WriteSingleLittleEndian",
-          "TsEmitName": "writeSingleLittleEndian",
-          "MetadataToken": 100678778,
+          "TsEmitName": "WriteSingleLittleEndian",
+          "MetadataToken": 100678757,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
           "NormalizedSignature": "WriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1305,8 +1305,8 @@
         },
         {
           "ClrName": "WriteUInt16LittleEndian",
-          "TsEmitName": "writeUInt16LittleEndian",
-          "MetadataToken": 100678779,
+          "TsEmitName": "WriteUInt16LittleEndian",
+          "MetadataToken": 100678758,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void",
           "NormalizedSignature": "WriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1317,8 +1317,8 @@
         },
         {
           "ClrName": "WriteUInt32LittleEndian",
-          "TsEmitName": "writeUInt32LittleEndian",
-          "MetadataToken": 100678780,
+          "TsEmitName": "WriteUInt32LittleEndian",
+          "MetadataToken": 100678759,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
           "NormalizedSignature": "WriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1329,8 +1329,8 @@
         },
         {
           "ClrName": "WriteUInt64LittleEndian",
-          "TsEmitName": "writeUInt64LittleEndian",
-          "MetadataToken": 100678781,
+          "TsEmitName": "WriteUInt64LittleEndian",
+          "MetadataToken": 100678760,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
           "NormalizedSignature": "WriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1341,8 +1341,8 @@
         },
         {
           "ClrName": "WriteUInt128LittleEndian",
-          "TsEmitName": "writeUInt128LittleEndian",
-          "MetadataToken": 100678782,
+          "TsEmitName": "WriteUInt128LittleEndian",
+          "MetadataToken": 100678761,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void",
           "NormalizedSignature": "WriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1353,8 +1353,8 @@
         },
         {
           "ClrName": "WriteUIntPtrLittleEndian",
-          "TsEmitName": "writeUIntPtrLittleEndian",
-          "MetadataToken": 100678783,
+          "TsEmitName": "WriteUIntPtrLittleEndian",
+          "MetadataToken": 100678762,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void",
           "NormalizedSignature": "WriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
           "EmitScope": "ClassSurface",
@@ -1365,8 +1365,8 @@
         },
         {
           "ClrName": "TryWriteDoubleLittleEndian",
-          "TsEmitName": "tryWriteDoubleLittleEndian",
-          "MetadataToken": 100678784,
+          "TsEmitName": "TryWriteDoubleLittleEndian",
+          "MetadataToken": 100678763,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean",
           "NormalizedSignature": "TryWriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1377,8 +1377,8 @@
         },
         {
           "ClrName": "TryWriteHalfLittleEndian",
-          "TsEmitName": "tryWriteHalfLittleEndian",
-          "MetadataToken": 100678785,
+          "TsEmitName": "TryWriteHalfLittleEndian",
+          "MetadataToken": 100678764,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean",
           "NormalizedSignature": "TryWriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1389,8 +1389,8 @@
         },
         {
           "ClrName": "TryWriteInt16LittleEndian",
-          "TsEmitName": "tryWriteInt16LittleEndian",
-          "MetadataToken": 100678786,
+          "TsEmitName": "TryWriteInt16LittleEndian",
+          "MetadataToken": 100678765,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean",
           "NormalizedSignature": "TryWriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1401,8 +1401,8 @@
         },
         {
           "ClrName": "TryWriteInt32LittleEndian",
-          "TsEmitName": "tryWriteInt32LittleEndian",
-          "MetadataToken": 100678787,
+          "TsEmitName": "TryWriteInt32LittleEndian",
+          "MetadataToken": 100678766,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
           "NormalizedSignature": "TryWriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1413,8 +1413,8 @@
         },
         {
           "ClrName": "TryWriteInt64LittleEndian",
-          "TsEmitName": "tryWriteInt64LittleEndian",
-          "MetadataToken": 100678788,
+          "TsEmitName": "TryWriteInt64LittleEndian",
+          "MetadataToken": 100678767,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean",
           "NormalizedSignature": "TryWriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1425,8 +1425,8 @@
         },
         {
           "ClrName": "TryWriteInt128LittleEndian",
-          "TsEmitName": "tryWriteInt128LittleEndian",
-          "MetadataToken": 100678789,
+          "TsEmitName": "TryWriteInt128LittleEndian",
+          "MetadataToken": 100678768,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean",
           "NormalizedSignature": "TryWriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1437,8 +1437,8 @@
         },
         {
           "ClrName": "TryWriteIntPtrLittleEndian",
-          "TsEmitName": "tryWriteIntPtrLittleEndian",
-          "MetadataToken": 100678790,
+          "TsEmitName": "TryWriteIntPtrLittleEndian",
+          "MetadataToken": 100678769,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean",
           "NormalizedSignature": "TryWriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1449,8 +1449,8 @@
         },
         {
           "ClrName": "TryWriteSingleLittleEndian",
-          "TsEmitName": "tryWriteSingleLittleEndian",
-          "MetadataToken": 100678791,
+          "TsEmitName": "TryWriteSingleLittleEndian",
+          "MetadataToken": 100678770,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean",
           "NormalizedSignature": "TryWriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1461,8 +1461,8 @@
         },
         {
           "ClrName": "TryWriteUInt16LittleEndian",
-          "TsEmitName": "tryWriteUInt16LittleEndian",
-          "MetadataToken": 100678792,
+          "TsEmitName": "TryWriteUInt16LittleEndian",
+          "MetadataToken": 100678771,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean",
           "NormalizedSignature": "TryWriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1473,8 +1473,8 @@
         },
         {
           "ClrName": "TryWriteUInt32LittleEndian",
-          "TsEmitName": "tryWriteUInt32LittleEndian",
-          "MetadataToken": 100678793,
+          "TsEmitName": "TryWriteUInt32LittleEndian",
+          "MetadataToken": 100678772,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean",
           "NormalizedSignature": "TryWriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1485,8 +1485,8 @@
         },
         {
           "ClrName": "TryWriteUInt64LittleEndian",
-          "TsEmitName": "tryWriteUInt64LittleEndian",
-          "MetadataToken": 100678794,
+          "TsEmitName": "TryWriteUInt64LittleEndian",
+          "MetadataToken": 100678773,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean",
           "NormalizedSignature": "TryWriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1497,8 +1497,8 @@
         },
         {
           "ClrName": "TryWriteUInt128LittleEndian",
-          "TsEmitName": "tryWriteUInt128LittleEndian",
-          "MetadataToken": 100678795,
+          "TsEmitName": "TryWriteUInt128LittleEndian",
+          "MetadataToken": 100678774,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean",
           "NormalizedSignature": "TryWriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1509,8 +1509,8 @@
         },
         {
           "ClrName": "TryWriteUIntPtrLittleEndian",
-          "TsEmitName": "tryWriteUIntPtrLittleEndian",
-          "MetadataToken": 100678796,
+          "TsEmitName": "TryWriteUIntPtrLittleEndian",
+          "MetadataToken": 100678775,
           "CanonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean",
           "NormalizedSignature": "TryWriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
           "EmitScope": "ClassSurface",
@@ -1526,9 +1526,219 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "readDoubleBigEndian",
+          "TsName": "ReadDoubleBigEndian",
           "IsStatic": true,
           "TsSignatureId": "ReadDoubleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678647
+          }
+        },
+        {
+          "TsName": "ReadHalfBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678648
+          }
+        },
+        {
+          "TsName": "ReadInt16BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678649
+          }
+        },
+        {
+          "TsName": "ReadInt32BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678650
+          }
+        },
+        {
+          "TsName": "ReadInt64BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678651
+          }
+        },
+        {
+          "TsName": "ReadInt128BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678652
+          }
+        },
+        {
+          "TsName": "ReadIntPtrBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678653
+          }
+        },
+        {
+          "TsName": "ReadSingleBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678654
+          }
+        },
+        {
+          "TsName": "ReadUInt16BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678655
+          }
+        },
+        {
+          "TsName": "ReadUInt32BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678656
+          }
+        },
+        {
+          "TsName": "ReadUInt64BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678657
+          }
+        },
+        {
+          "TsName": "ReadUInt128BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678658
+          }
+        },
+        {
+          "TsName": "ReadUIntPtrBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "ReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678659
+          }
+        },
+        {
+          "TsName": "TryReadDoubleBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadDoubleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678660
+          }
+        },
+        {
+          "TsName": "TryReadHalfBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678661
+          }
+        },
+        {
+          "TsName": "TryReadInt16BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678662
+          }
+        },
+        {
+          "TsName": "TryReadInt32BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678663
+          }
+        },
+        {
+          "TsName": "TryReadInt64BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678664
+          }
+        },
+        {
+          "TsName": "TryReadInt128BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678665
+          }
+        },
+        {
+          "TsName": "TryReadIntPtrBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678666
+          }
+        },
+        {
+          "TsName": "TryReadSingleBigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678667
+          }
+        },
+        {
+          "TsName": "TryReadUInt16BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1536,9 +1746,9 @@
           }
         },
         {
-          "TsName": "readHalfBigEndian",
+          "TsName": "TryReadUInt32BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
+          "TsSignatureId": "TryReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1546,9 +1756,9 @@
           }
         },
         {
-          "TsName": "readInt16BigEndian",
+          "TsName": "TryReadUInt64BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
+          "TsSignatureId": "TryReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1556,9 +1766,9 @@
           }
         },
         {
-          "TsName": "readInt32BigEndian",
+          "TsName": "TryReadUInt128BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
+          "TsSignatureId": "TryReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1566,9 +1776,9 @@
           }
         },
         {
-          "TsName": "readInt64BigEndian",
+          "TsName": "TryReadUIntPtrBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
+          "TsSignatureId": "TryReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1576,9 +1786,9 @@
           }
         },
         {
-          "TsName": "readInt128BigEndian",
+          "TsName": "ReadDoubleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
+          "TsSignatureId": "ReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1586,9 +1796,9 @@
           }
         },
         {
-          "TsName": "readIntPtrBigEndian",
+          "TsName": "ReadHalfLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
+          "TsSignatureId": "ReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1596,9 +1806,9 @@
           }
         },
         {
-          "TsName": "readSingleBigEndian",
+          "TsName": "ReadInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
+          "TsSignatureId": "ReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1606,9 +1816,9 @@
           }
         },
         {
-          "TsName": "readUInt16BigEndian",
+          "TsName": "ReadInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
+          "TsSignatureId": "ReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1616,9 +1826,9 @@
           }
         },
         {
-          "TsName": "readUInt32BigEndian",
+          "TsName": "ReadInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
+          "TsSignatureId": "ReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1626,9 +1836,9 @@
           }
         },
         {
-          "TsName": "readUInt64BigEndian",
+          "TsName": "ReadInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
+          "TsSignatureId": "ReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1636,9 +1846,9 @@
           }
         },
         {
-          "TsName": "readUInt128BigEndian",
+          "TsName": "ReadIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
+          "TsSignatureId": "ReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1646,9 +1856,9 @@
           }
         },
         {
-          "TsName": "readUIntPtrBigEndian",
+          "TsName": "ReadSingleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
+          "TsSignatureId": "ReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1656,9 +1866,9 @@
           }
         },
         {
-          "TsName": "tryReadDoubleBigEndian",
+          "TsName": "ReadUInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadDoubleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1666,9 +1876,9 @@
           }
         },
         {
-          "TsName": "tryReadHalfBigEndian",
+          "TsName": "ReadUInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadHalfBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1676,9 +1886,9 @@
           }
         },
         {
-          "TsName": "tryReadInt16BigEndian",
+          "TsName": "ReadUInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1686,9 +1896,9 @@
           }
         },
         {
-          "TsName": "tryReadInt32BigEndian",
+          "TsName": "ReadUInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1696,9 +1906,9 @@
           }
         },
         {
-          "TsName": "tryReadInt64BigEndian",
+          "TsName": "ReadUIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1706,9 +1916,9 @@
           }
         },
         {
-          "TsName": "tryReadInt128BigEndian",
+          "TsName": "TryReadDoubleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1716,9 +1926,9 @@
           }
         },
         {
-          "TsName": "tryReadIntPtrBigEndian",
+          "TsName": "TryReadHalfLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1726,9 +1936,9 @@
           }
         },
         {
-          "TsName": "tryReadSingleBigEndian",
+          "TsName": "TryReadInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadSingleBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1736,9 +1946,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt16BigEndian",
+          "TsName": "TryReadInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt16BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1746,9 +1956,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt32BigEndian",
+          "TsName": "TryReadInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt32BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1756,9 +1966,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt64BigEndian",
+          "TsName": "TryReadInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt64BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1766,9 +1976,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt128BigEndian",
+          "TsName": "TryReadIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt128BigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1776,9 +1986,9 @@
           }
         },
         {
-          "TsName": "tryReadUIntPtrBigEndian",
+          "TsName": "TryReadSingleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUIntPtrBigEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
+          "TsSignatureId": "TryReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1786,9 +1996,9 @@
           }
         },
         {
-          "TsName": "readDoubleLittleEndian",
+          "TsName": "TryReadUInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double|static=true",
+          "TsSignatureId": "TryReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1796,9 +2006,9 @@
           }
         },
         {
-          "TsName": "readHalfLittleEndian",
+          "TsName": "TryReadUInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half|static=true",
+          "TsSignatureId": "TryReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1806,9 +2016,9 @@
           }
         },
         {
-          "TsName": "readInt16LittleEndian",
+          "TsName": "TryReadUInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16|static=true",
+          "TsSignatureId": "TryReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1816,9 +2026,9 @@
           }
         },
         {
-          "TsName": "readInt32LittleEndian",
+          "TsName": "TryReadUInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
+          "TsSignatureId": "TryReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1826,9 +2036,9 @@
           }
         },
         {
-          "TsName": "readInt64LittleEndian",
+          "TsName": "TryReadUIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64|static=true",
+          "TsSignatureId": "TryReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1836,9 +2046,9 @@
           }
         },
         {
-          "TsName": "readInt128LittleEndian",
+          "TsName": "ReverseEndianness",
           "IsStatic": true,
-          "TsSignatureId": "ReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.SByte):System.SByte|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1846,9 +2056,9 @@
           }
         },
         {
-          "TsName": "readIntPtrLittleEndian",
+          "TsName": "ReverseEndianness2",
           "IsStatic": true,
-          "TsSignatureId": "ReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.Int16):System.Int16|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1856,9 +2066,9 @@
           }
         },
         {
-          "TsName": "readSingleLittleEndian",
+          "TsName": "ReverseEndianness3",
           "IsStatic": true,
-          "TsSignatureId": "ReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.Int32):System.Int32|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1866,9 +2076,9 @@
           }
         },
         {
-          "TsName": "readUInt16LittleEndian",
+          "TsName": "ReverseEndianness4",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.Int64):System.Int64|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1876,9 +2086,9 @@
           }
         },
         {
-          "TsName": "readUInt32LittleEndian",
+          "TsName": "ReverseEndianness5",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1886,9 +2096,9 @@
           }
         },
         {
-          "TsName": "readUInt64LittleEndian",
+          "TsName": "ReverseEndianness6",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.Int128):System.Int128|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1896,9 +2106,9 @@
           }
         },
         {
-          "TsName": "readUInt128LittleEndian",
+          "TsName": "ReverseEndianness7",
           "IsStatic": true,
-          "TsSignatureId": "ReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.Byte):System.Byte|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1906,9 +2116,9 @@
           }
         },
         {
-          "TsName": "readUIntPtrLittleEndian",
+          "TsName": "ReverseEndianness8",
           "IsStatic": true,
-          "TsSignatureId": "ReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1916,19 +2126,9 @@
           }
         },
         {
-          "TsName": "tryReadDoubleLittleEndian",
+          "TsName": "ReverseEndianness9",
           "IsStatic": true,
-          "TsSignatureId": "TryReadDoubleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678707
-          }
-        },
-        {
-          "TsName": "tryReadHalfLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryReadHalfLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1936,9 +2136,9 @@
           }
         },
         {
-          "TsName": "tryReadInt16LittleEndian",
+          "TsName": "ReverseEndianness10",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1946,9 +2146,9 @@
           }
         },
         {
-          "TsName": "tryReadInt32LittleEndian",
+          "TsName": "ReverseEndianness11",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1956,9 +2156,9 @@
           }
         },
         {
-          "TsName": "tryReadInt64LittleEndian",
+          "TsName": "ReverseEndianness12",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1966,9 +2166,9 @@
           }
         },
         {
-          "TsName": "tryReadInt128LittleEndian",
+          "TsName": "ReverseEndianness13",
           "IsStatic": true,
-          "TsSignatureId": "TryReadInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1976,9 +2176,9 @@
           }
         },
         {
-          "TsName": "tryReadIntPtrLittleEndian",
+          "TsName": "ReverseEndianness14",
           "IsStatic": true,
-          "TsSignatureId": "TryReadIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1986,9 +2186,9 @@
           }
         },
         {
-          "TsName": "tryReadSingleLittleEndian",
+          "TsName": "ReverseEndianness15",
           "IsStatic": true,
-          "TsSignatureId": "TryReadSingleLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1996,9 +2196,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt16LittleEndian",
+          "TsName": "ReverseEndianness16",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt16LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2006,9 +2206,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt32LittleEndian",
+          "TsName": "ReverseEndianness17",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt32LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2016,9 +2216,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt64LittleEndian",
+          "TsName": "ReverseEndianness18",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt64LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2026,9 +2226,9 @@
           }
         },
         {
-          "TsName": "tryReadUInt128LittleEndian",
+          "TsName": "ReverseEndianness19",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUInt128LittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2036,9 +2236,9 @@
           }
         },
         {
-          "TsName": "tryReadUIntPtrLittleEndian",
+          "TsName": "ReverseEndianness20",
           "IsStatic": true,
-          "TsSignatureId": "TryReadUIntPtrLittleEndian|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2046,19 +2246,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness",
+          "TsName": "ReverseEndianness21",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.SByte):System.SByte|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678720
-          }
-        },
-        {
-          "TsName": "reverseEndianness2",
-          "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.Int16):System.Int16|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2066,9 +2256,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness3",
+          "TsName": "ReverseEndianness22",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.Int32):System.Int32|static=true",
+          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2076,19 +2266,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness4",
+          "TsName": "WriteDoubleBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.Int64):System.Int64|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678723
-          }
-        },
-        {
-          "TsName": "reverseEndianness5",
-          "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
+          "TsSignatureId": "WriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2096,9 +2276,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness6",
+          "TsName": "WriteHalfBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.Int128):System.Int128|static=true",
+          "TsSignatureId": "WriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2106,9 +2286,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness7",
+          "TsName": "WriteInt16BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.Byte):System.Byte|static=true",
+          "TsSignatureId": "WriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2116,9 +2296,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness8",
+          "TsName": "WriteInt32BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
+          "TsSignatureId": "WriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2126,9 +2306,19 @@
           }
         },
         {
-          "TsName": "reverseEndianness9",
+          "TsName": "WriteInt64BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
+          "TsSignatureId": "WriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678728
+          }
+        },
+        {
+          "TsName": "WriteInt128BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "WriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2136,9 +2326,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness10",
+          "TsName": "WriteIntPtrBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
+          "TsSignatureId": "WriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2146,9 +2336,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness11",
+          "TsName": "WriteSingleBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
+          "TsSignatureId": "WriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2156,9 +2346,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness12",
+          "TsName": "WriteUInt16BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
+          "TsSignatureId": "WriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2166,9 +2356,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness13",
+          "TsName": "WriteUInt32BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "WriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2176,9 +2366,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness14",
+          "TsName": "WriteUInt64BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "WriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2186,9 +2376,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness15",
+          "TsName": "WriteUInt128BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "WriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2196,9 +2386,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness16",
+          "TsName": "WriteUIntPtrBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "WriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2206,9 +2396,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness17",
+          "TsName": "TryWriteDoubleBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2216,9 +2406,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness18",
+          "TsName": "TryWriteHalfBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2226,9 +2416,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness19",
+          "TsName": "TryWriteInt16BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2236,9 +2426,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness20",
+          "TsName": "TryWriteInt32BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2246,9 +2436,19 @@
           }
         },
         {
-          "TsName": "reverseEndianness21",
+          "TsName": "TryWriteInt64BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678741
+          }
+        },
+        {
+          "TsName": "TryWriteInt128BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryWriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2256,9 +2456,9 @@
           }
         },
         {
-          "TsName": "reverseEndianness22",
+          "TsName": "TryWriteIntPtrBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
+          "TsSignatureId": "TryWriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2266,9 +2466,19 @@
           }
         },
         {
-          "TsName": "writeDoubleBigEndian",
+          "TsName": "TryWriteSingleBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
+          "TsSignatureId": "TryWriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
+          "Target": {
+            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 100678744
+          }
+        },
+        {
+          "TsName": "TryWriteUInt16BigEndian",
+          "IsStatic": true,
+          "TsSignatureId": "TryWriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2276,9 +2486,9 @@
           }
         },
         {
-          "TsName": "writeHalfBigEndian",
+          "TsName": "TryWriteUInt32BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2286,9 +2496,9 @@
           }
         },
         {
-          "TsName": "writeInt16BigEndian",
+          "TsName": "TryWriteUInt64BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2296,9 +2506,9 @@
           }
         },
         {
-          "TsName": "writeInt32BigEndian",
+          "TsName": "TryWriteUInt128BigEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2306,9 +2516,9 @@
           }
         },
         {
-          "TsName": "writeInt64BigEndian",
+          "TsName": "TryWriteUIntPtrBigEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
+          "TsSignatureId": "TryWriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2316,9 +2526,9 @@
           }
         },
         {
-          "TsName": "writeInt128BigEndian",
+          "TsName": "WriteDoubleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
+          "TsSignatureId": "WriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2326,9 +2536,9 @@
           }
         },
         {
-          "TsName": "writeIntPtrBigEndian",
+          "TsName": "WriteHalfLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
+          "TsSignatureId": "WriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2336,9 +2546,9 @@
           }
         },
         {
-          "TsName": "writeSingleBigEndian",
+          "TsName": "WriteInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
+          "TsSignatureId": "WriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2346,9 +2556,9 @@
           }
         },
         {
-          "TsName": "writeUInt16BigEndian",
+          "TsName": "WriteInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
+          "TsSignatureId": "WriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2356,9 +2566,9 @@
           }
         },
         {
-          "TsName": "writeUInt32BigEndian",
+          "TsName": "WriteInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
+          "TsSignatureId": "WriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2366,9 +2576,9 @@
           }
         },
         {
-          "TsName": "writeUInt64BigEndian",
+          "TsName": "WriteInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
+          "TsSignatureId": "WriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2376,9 +2586,9 @@
           }
         },
         {
-          "TsName": "writeUInt128BigEndian",
+          "TsName": "WriteIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
+          "TsSignatureId": "WriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2386,9 +2596,9 @@
           }
         },
         {
-          "TsName": "writeUIntPtrBigEndian",
+          "TsName": "WriteSingleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
+          "TsSignatureId": "WriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2396,9 +2606,9 @@
           }
         },
         {
-          "TsName": "tryWriteDoubleBigEndian",
+          "TsName": "WriteUInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteDoubleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
+          "TsSignatureId": "WriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2406,9 +2616,9 @@
           }
         },
         {
-          "TsName": "tryWriteHalfBigEndian",
+          "TsName": "WriteUInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteHalfBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
+          "TsSignatureId": "WriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2416,9 +2626,9 @@
           }
         },
         {
-          "TsName": "tryWriteInt16BigEndian",
+          "TsName": "WriteUInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
+          "TsSignatureId": "WriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2426,9 +2636,9 @@
           }
         },
         {
-          "TsName": "tryWriteInt32BigEndian",
+          "TsName": "WriteUInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
+          "TsSignatureId": "WriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2436,9 +2646,9 @@
           }
         },
         {
-          "TsName": "tryWriteInt64BigEndian",
+          "TsName": "WriteUIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
+          "TsSignatureId": "WriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2446,9 +2656,9 @@
           }
         },
         {
-          "TsName": "tryWriteInt128BigEndian",
+          "TsName": "TryWriteDoubleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2456,9 +2666,9 @@
           }
         },
         {
-          "TsName": "tryWriteIntPtrBigEndian",
+          "TsName": "TryWriteHalfLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2466,9 +2676,9 @@
           }
         },
         {
-          "TsName": "tryWriteSingleBigEndian",
+          "TsName": "TryWriteInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteSingleBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2476,9 +2686,9 @@
           }
         },
         {
-          "TsName": "tryWriteUInt16BigEndian",
+          "TsName": "TryWriteInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt16BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2486,9 +2696,9 @@
           }
         },
         {
-          "TsName": "tryWriteUInt32BigEndian",
+          "TsName": "TryWriteInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt32BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2496,9 +2706,9 @@
           }
         },
         {
-          "TsName": "tryWriteUInt64BigEndian",
+          "TsName": "TryWriteInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt64BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2506,9 +2716,9 @@
           }
         },
         {
-          "TsName": "tryWriteUInt128BigEndian",
+          "TsName": "TryWriteIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt128BigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2516,9 +2726,9 @@
           }
         },
         {
-          "TsName": "tryWriteUIntPtrBigEndian",
+          "TsName": "TryWriteSingleLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "TryWriteUIntPtrBigEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
+          "TsSignatureId": "TryWriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2526,9 +2736,9 @@
           }
         },
         {
-          "TsName": "writeDoubleLittleEndian",
+          "TsName": "TryWriteUInt16LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2536,9 +2746,9 @@
           }
         },
         {
-          "TsName": "writeHalfLittleEndian",
+          "TsName": "TryWriteUInt32LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2546,9 +2756,9 @@
           }
         },
         {
-          "TsName": "writeInt16LittleEndian",
+          "TsName": "TryWriteUInt64LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2556,9 +2766,9 @@
           }
         },
         {
-          "TsName": "writeInt32LittleEndian",
+          "TsName": "TryWriteUInt128LittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=true",
+          "TsSignatureId": "TryWriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2566,9 +2776,9 @@
           }
         },
         {
-          "TsName": "writeInt64LittleEndian",
+          "TsName": "TryWriteUIntPtrLittleEndian",
           "IsStatic": true,
-          "TsSignatureId": "WriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
+          "TsSignatureId": "TryWriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
           "Target": {
             "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -2576,217 +2786,7 @@
           }
         },
         {
-          "TsName": "writeInt128LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678776
-          }
-        },
-        {
-          "TsName": "writeIntPtrLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678777
-          }
-        },
-        {
-          "TsName": "writeSingleLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678778
-          }
-        },
-        {
-          "TsName": "writeUInt16LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678779
-          }
-        },
-        {
-          "TsName": "writeUInt32LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678780
-          }
-        },
-        {
-          "TsName": "writeUInt64LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678781
-          }
-        },
-        {
-          "TsName": "writeUInt128LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678782
-          }
-        },
-        {
-          "TsName": "writeUIntPtrLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "WriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678783
-          }
-        },
-        {
-          "TsName": "tryWriteDoubleLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteDoubleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678784
-          }
-        },
-        {
-          "TsName": "tryWriteHalfLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteHalfLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678785
-          }
-        },
-        {
-          "TsName": "tryWriteInt16LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678786
-          }
-        },
-        {
-          "TsName": "tryWriteInt32LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678787
-          }
-        },
-        {
-          "TsName": "tryWriteInt64LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678788
-          }
-        },
-        {
-          "TsName": "tryWriteInt128LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678789
-          }
-        },
-        {
-          "TsName": "tryWriteIntPtrLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678790
-          }
-        },
-        {
-          "TsName": "tryWriteSingleLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteSingleLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678791
-          }
-        },
-        {
-          "TsName": "tryWriteUInt16LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt16LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678792
-          }
-        },
-        {
-          "TsName": "tryWriteUInt32LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt32LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678793
-          }
-        },
-        {
-          "TsName": "tryWriteUInt64LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt64LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678794
-          }
-        },
-        {
-          "TsName": "tryWriteUInt128LittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteUInt128LittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678795
-          }
-        },
-        {
-          "TsName": "tryWriteUIntPtrLittleEndian",
-          "IsStatic": true,
-          "TsSignatureId": "TryWriteUIntPtrLittleEndian|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100678796
-          }
-        },
-        {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2796,7 +2796,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2806,7 +2806,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2816,7 +2816,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2826,7 +2826,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2836,7 +2836,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {

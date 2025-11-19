@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Disable",
-          "TsEmitName": "disable",
+          "TsEmitName": "Disable",
           "NormalizedSignature": "Disable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Recursive",
-          "TsEmitName": "recursive",
+          "TsEmitName": "Recursive",
           "NormalizedSignature": "Recursive|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "Detachable",
-          "TsEmitName": "detachable",
+          "TsEmitName": "Detachable",
           "NormalizedSignature": "Detachable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "Admin",
-          "TsEmitName": "admin",
+          "TsEmitName": "Admin",
           "NormalizedSignature": "Admin|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "Operational",
-          "TsEmitName": "operational",
+          "TsEmitName": "Operational",
           "NormalizedSignature": "Operational|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "Analytic",
-          "TsEmitName": "analytic",
+          "TsEmitName": "Analytic",
           "NormalizedSignature": "Analytic|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "Debug",
-          "TsEmitName": "debug",
+          "TsEmitName": "Debug",
           "NormalizedSignature": "Debug|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "ClrName": "Update",
-          "TsEmitName": "update",
+          "TsEmitName": "Update",
           "NormalizedSignature": "Update|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "SendManifest",
-          "TsEmitName": "sendManifest",
+          "TsEmitName": "SendManifest",
           "NormalizedSignature": "SendManifest|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "Enable",
-          "TsEmitName": "enable",
+          "TsEmitName": "Enable",
           "NormalizedSignature": "Enable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "Disable",
-          "TsEmitName": "disable",
+          "TsEmitName": "Disable",
           "NormalizedSignature": "Disable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
+          "TsEmitName": "Default",
           "NormalizedSignature": "Default|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "ClrName": "String",
-          "TsEmitName": "string_",
+          "TsEmitName": "String",
           "NormalizedSignature": "String|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "NormalizedSignature": "Boolean|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "ClrName": "Hexadecimal",
-          "TsEmitName": "hexadecimal",
+          "TsEmitName": "Hexadecimal",
           "NormalizedSignature": "Hexadecimal|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "Xml",
-          "TsEmitName": "xml",
+          "TsEmitName": "Xml",
           "NormalizedSignature": "Xml|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "ClrName": "Json",
-          "TsEmitName": "json",
+          "TsEmitName": "Json",
           "NormalizedSignature": "Json|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "ClrName": "HResult",
-          "TsEmitName": "hResult",
+          "TsEmitName": "HResult",
           "NormalizedSignature": "HResult|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventFieldTags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -314,7 +314,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "ClrName": "All",
-          "TsEmitName": "all",
+          "TsEmitName": "All",
           "NormalizedSignature": "All|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "MicrosoftTelemetry",
-          "TsEmitName": "microsoftTelemetry",
+          "TsEmitName": "MicrosoftTelemetry",
           "NormalizedSignature": "MicrosoftTelemetry|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -338,7 +338,7 @@
         },
         {
           "ClrName": "WdiContext",
-          "TsEmitName": "wdiContext",
+          "TsEmitName": "WdiContext",
           "NormalizedSignature": "WdiContext|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "WdiDiagnostic",
-          "TsEmitName": "wdiDiagnostic",
+          "TsEmitName": "WdiDiagnostic",
           "NormalizedSignature": "WdiDiagnostic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -354,7 +354,7 @@
         },
         {
           "ClrName": "Sqm",
-          "TsEmitName": "sqm",
+          "TsEmitName": "Sqm",
           "NormalizedSignature": "Sqm|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -362,7 +362,7 @@
         },
         {
           "ClrName": "AuditFailure",
-          "TsEmitName": "auditFailure",
+          "TsEmitName": "AuditFailure",
           "NormalizedSignature": "AuditFailure|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -370,7 +370,7 @@
         },
         {
           "ClrName": "AuditSuccess",
-          "TsEmitName": "auditSuccess",
+          "TsEmitName": "AuditSuccess",
           "NormalizedSignature": "AuditSuccess|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -378,7 +378,7 @@
         },
         {
           "ClrName": "CorrelationHint",
-          "TsEmitName": "correlationHint",
+          "TsEmitName": "CorrelationHint",
           "NormalizedSignature": "CorrelationHint|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -386,7 +386,7 @@
         },
         {
           "ClrName": "EventLogClassic",
-          "TsEmitName": "eventLogClassic",
+          "TsEmitName": "EventLogClassic",
           "NormalizedSignature": "EventLogClassic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -418,7 +418,7 @@
         },
         {
           "ClrName": "LogAlways",
-          "TsEmitName": "logAlways",
+          "TsEmitName": "LogAlways",
           "NormalizedSignature": "LogAlways|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -426,7 +426,7 @@
         },
         {
           "ClrName": "Critical",
-          "TsEmitName": "critical",
+          "TsEmitName": "Critical",
           "NormalizedSignature": "Critical|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -434,7 +434,7 @@
         },
         {
           "ClrName": "Error",
-          "TsEmitName": "error",
+          "TsEmitName": "Error",
           "NormalizedSignature": "Error|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "Warning",
-          "TsEmitName": "warning",
+          "TsEmitName": "Warning",
           "NormalizedSignature": "Warning|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -450,7 +450,7 @@
         },
         {
           "ClrName": "Informational",
-          "TsEmitName": "informational",
+          "TsEmitName": "Informational",
           "NormalizedSignature": "Informational|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -458,7 +458,7 @@
         },
         {
           "ClrName": "Verbose",
-          "TsEmitName": "verbose",
+          "TsEmitName": "Verbose",
           "NormalizedSignature": "Verbose|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -490,7 +490,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -498,7 +498,7 @@
         },
         {
           "ClrName": "Strict",
-          "TsEmitName": "strict",
+          "TsEmitName": "Strict",
           "NormalizedSignature": "Strict|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -506,7 +506,7 @@
         },
         {
           "ClrName": "AllCultures",
-          "TsEmitName": "allCultures",
+          "TsEmitName": "AllCultures",
           "NormalizedSignature": "AllCultures|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "OnlyIfNeededForRegistration",
-          "TsEmitName": "onlyIfNeededForRegistration",
+          "TsEmitName": "OnlyIfNeededForRegistration",
           "NormalizedSignature": "OnlyIfNeededForRegistration|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -522,7 +522,7 @@
         },
         {
           "ClrName": "AllowEventSourceOverride",
-          "TsEmitName": "allowEventSourceOverride",
+          "TsEmitName": "AllowEventSourceOverride",
           "NormalizedSignature": "AllowEventSourceOverride|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -554,7 +554,7 @@
         },
         {
           "ClrName": "Info",
-          "TsEmitName": "info",
+          "TsEmitName": "Info",
           "NormalizedSignature": "Info|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -562,7 +562,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -570,7 +570,7 @@
         },
         {
           "ClrName": "Stop",
-          "TsEmitName": "stop",
+          "TsEmitName": "Stop",
           "NormalizedSignature": "Stop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -578,7 +578,7 @@
         },
         {
           "ClrName": "DataCollectionStart",
-          "TsEmitName": "dataCollectionStart",
+          "TsEmitName": "DataCollectionStart",
           "NormalizedSignature": "DataCollectionStart|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -586,7 +586,7 @@
         },
         {
           "ClrName": "DataCollectionStop",
-          "TsEmitName": "dataCollectionStop",
+          "TsEmitName": "DataCollectionStop",
           "NormalizedSignature": "DataCollectionStop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -594,7 +594,7 @@
         },
         {
           "ClrName": "Extension",
-          "TsEmitName": "extension",
+          "TsEmitName": "Extension",
           "NormalizedSignature": "Extension|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -602,7 +602,7 @@
         },
         {
           "ClrName": "Reply",
-          "TsEmitName": "reply",
+          "TsEmitName": "Reply",
           "NormalizedSignature": "Reply|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -610,7 +610,7 @@
         },
         {
           "ClrName": "Resume",
-          "TsEmitName": "resume",
+          "TsEmitName": "Resume",
           "NormalizedSignature": "Resume|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -618,7 +618,7 @@
         },
         {
           "ClrName": "Suspend",
-          "TsEmitName": "suspend",
+          "TsEmitName": "Suspend",
           "NormalizedSignature": "Suspend|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "Send",
-          "TsEmitName": "send",
+          "TsEmitName": "Send",
           "NormalizedSignature": "Send|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -634,7 +634,7 @@
         },
         {
           "ClrName": "Receive",
-          "TsEmitName": "receive",
+          "TsEmitName": "Receive",
           "NormalizedSignature": "Receive|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -666,7 +666,7 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
+          "TsEmitName": "Default",
           "NormalizedSignature": "Default|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -674,7 +674,7 @@
         },
         {
           "ClrName": "ThrowOnEventWriteErrors",
-          "TsEmitName": "throwOnEventWriteErrors",
+          "TsEmitName": "ThrowOnEventWriteErrors",
           "NormalizedSignature": "ThrowOnEventWriteErrors|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -682,7 +682,7 @@
         },
         {
           "ClrName": "EtwManifestEventFormat",
-          "TsEmitName": "etwManifestEventFormat",
+          "TsEmitName": "EtwManifestEventFormat",
           "NormalizedSignature": "EtwManifestEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -690,7 +690,7 @@
         },
         {
           "ClrName": "EtwSelfDescribingEventFormat",
-          "TsEmitName": "etwSelfDescribingEventFormat",
+          "TsEmitName": "EtwSelfDescribingEventFormat",
           "NormalizedSignature": "EtwSelfDescribingEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -722,7 +722,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventTags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -754,7 +754,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Diagnostics.Tracing.EventTask|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -792,7 +792,7 @@
       "Properties": [
         {
           "ClrName": "Level",
-          "TsEmitName": "level",
+          "TsEmitName": "Level",
           "NormalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -806,7 +806,7 @@
         },
         {
           "ClrName": "Opcode",
-          "TsEmitName": "opcode",
+          "TsEmitName": "Opcode",
           "NormalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -820,7 +820,7 @@
         },
         {
           "ClrName": "Keywords",
-          "TsEmitName": "keywords",
+          "TsEmitName": "Keywords",
           "NormalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -834,7 +834,7 @@
         },
         {
           "ClrName": "Tags",
-          "TsEmitName": "tags",
+          "TsEmitName": "Tags",
           "NormalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -848,7 +848,7 @@
         },
         {
           "ClrName": "ActivityOptions",
-          "TsEmitName": "activityOptions",
+          "TsEmitName": "ActivityOptions",
           "NormalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -877,7 +877,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -891,7 +891,7 @@
         },
         {
           "ClrName": "AddMetadata",
-          "TsEmitName": "addMetadata",
+          "TsEmitName": "AddMetadata",
           "NormalizedSignature": "AddMetadata|(System.String,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -905,7 +905,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -922,7 +922,7 @@
       "Properties": [
         {
           "ClrName": "DisplayName",
-          "TsEmitName": "displayName",
+          "TsEmitName": "DisplayName",
           "NormalizedSignature": "DisplayName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         },
         {
           "ClrName": "DisplayUnits",
-          "TsEmitName": "displayUnits",
+          "TsEmitName": "DisplayUnits",
           "NormalizedSignature": "DisplayUnits|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -950,7 +950,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -964,7 +964,7 @@
         },
         {
           "ClrName": "EventSource",
-          "TsEmitName": "eventSource",
+          "TsEmitName": "EventSource",
           "NormalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -994,7 +994,7 @@
       "Properties": [
         {
           "ClrName": "EventId",
-          "TsEmitName": "eventId",
+          "TsEmitName": "EventId",
           "NormalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1008,7 +1008,7 @@
         },
         {
           "ClrName": "Level",
-          "TsEmitName": "level",
+          "TsEmitName": "Level",
           "NormalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1022,7 +1022,7 @@
         },
         {
           "ClrName": "Keywords",
-          "TsEmitName": "keywords",
+          "TsEmitName": "Keywords",
           "NormalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1036,7 +1036,7 @@
         },
         {
           "ClrName": "Opcode",
-          "TsEmitName": "opcode",
+          "TsEmitName": "Opcode",
           "NormalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1050,7 +1050,7 @@
         },
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1064,7 +1064,7 @@
         },
         {
           "ClrName": "Channel",
-          "TsEmitName": "channel",
+          "TsEmitName": "Channel",
           "NormalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1078,7 +1078,7 @@
         },
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "NormalizedSignature": "Version|:System.Byte|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1092,7 +1092,7 @@
         },
         {
           "ClrName": "Message",
-          "TsEmitName": "message",
+          "TsEmitName": "Message",
           "NormalizedSignature": "Message|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1106,7 +1106,7 @@
         },
         {
           "ClrName": "Tags",
-          "TsEmitName": "tags",
+          "TsEmitName": "Tags",
           "NormalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1120,7 +1120,7 @@
         },
         {
           "ClrName": "ActivityOptions",
-          "TsEmitName": "activityOptions",
+          "TsEmitName": "ActivityOptions",
           "NormalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1155,7 +1155,7 @@
       "Methods": [
         {
           "ClrName": "EnableEvent",
-          "TsEmitName": "enableEvent",
+          "TsEmitName": "EnableEvent",
           "NormalizedSignature": "EnableEvent|(System.Int32):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1169,7 +1169,7 @@
         },
         {
           "ClrName": "DisableEvent",
-          "TsEmitName": "disableEvent",
+          "TsEmitName": "DisableEvent",
           "NormalizedSignature": "DisableEvent|(System.Int32):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1185,7 +1185,7 @@
       "Properties": [
         {
           "ClrName": "Command",
-          "TsEmitName": "command",
+          "TsEmitName": "Command",
           "NormalizedSignature": "Command|:System.Diagnostics.Tracing.EventCommand|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1199,7 +1199,7 @@
         },
         {
           "ClrName": "Arguments",
-          "TsEmitName": "arguments",
+          "TsEmitName": "Arguments",
           "NormalizedSignature": "Arguments|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1228,7 +1228,7 @@
       "Methods": [
         {
           "ClrName": "WriteMetric",
-          "TsEmitName": "writeMetric",
+          "TsEmitName": "WriteMetric",
           "NormalizedSignature": "WriteMetric|(System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         },
         {
           "ClrName": "WriteMetric",
-          "TsEmitName": "writeMetric2",
+          "TsEmitName": "WriteMetric2",
           "NormalizedSignature": "WriteMetric|(System.Double):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1256,7 +1256,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1270,7 +1270,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1285,7 +1285,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1322,7 +1322,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1358,7 +1358,7 @@
       "Properties": [
         {
           "ClrName": "Tags",
-          "TsEmitName": "tags",
+          "TsEmitName": "Tags",
           "NormalizedSignature": "Tags|:System.Diagnostics.Tracing.EventFieldTags|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1372,7 +1372,7 @@
         },
         {
           "ClrName": "Format",
-          "TsEmitName": "format",
+          "TsEmitName": "Format",
           "NormalizedSignature": "Format|:System.Diagnostics.Tracing.EventFieldFormat|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1442,7 +1442,7 @@
         },
         {
           "ClrName": "EnableEvents",
-          "TsEmitName": "enableEvents",
+          "TsEmitName": "EnableEvents",
           "NormalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1456,7 +1456,7 @@
         },
         {
           "ClrName": "EnableEvents",
-          "TsEmitName": "enableEvents2",
+          "TsEmitName": "EnableEvents2",
           "NormalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1470,7 +1470,7 @@
         },
         {
           "ClrName": "EnableEvents",
-          "TsEmitName": "enableEvents3",
+          "TsEmitName": "EnableEvents3",
           "NormalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1484,7 +1484,7 @@
         },
         {
           "ClrName": "DisableEvents",
-          "TsEmitName": "disableEvents",
+          "TsEmitName": "DisableEvents",
           "NormalizedSignature": "DisableEvents|(System.Diagnostics.Tracing.EventSource):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1498,7 +1498,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1517,13 +1517,13 @@
       "Events": [
         {
           "ClrName": "EventSourceCreated",
-          "TsEmitName": "eventSourceCreated",
+          "TsEmitName": "EventSourceCreated",
           "NormalizedSignature": "EventSourceCreated|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventSourceCreatedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false
         },
         {
           "ClrName": "EventWritten",
-          "TsEmitName": "eventWritten",
+          "TsEmitName": "EventWritten",
           "NormalizedSignature": "EventWritten|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventWrittenEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false
         }
@@ -1542,7 +1542,7 @@
       "Methods": [
         {
           "ClrName": "IsEnabled",
-          "TsEmitName": "isEnabled",
+          "TsEmitName": "IsEnabled",
           "NormalizedSignature": "IsEnabled|():System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1556,7 +1556,7 @@
         },
         {
           "ClrName": "IsEnabled",
-          "TsEmitName": "isEnabled2",
+          "TsEmitName": "IsEnabled2",
           "NormalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1570,7 +1570,7 @@
         },
         {
           "ClrName": "IsEnabled",
-          "TsEmitName": "isEnabled3",
+          "TsEmitName": "IsEnabled3",
           "NormalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1584,7 +1584,7 @@
         },
         {
           "ClrName": "GetGuid",
-          "TsEmitName": "getGuid",
+          "TsEmitName": "GetGuid",
           "NormalizedSignature": "GetGuid|(System.Type):System.Guid|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1598,7 +1598,7 @@
         },
         {
           "ClrName": "GetName",
-          "TsEmitName": "getName",
+          "TsEmitName": "GetName",
           "NormalizedSignature": "GetName|(System.Type):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1612,7 +1612,7 @@
         },
         {
           "ClrName": "GenerateManifest",
-          "TsEmitName": "generateManifest",
+          "TsEmitName": "GenerateManifest",
           "NormalizedSignature": "GenerateManifest|(System.Type,System.String):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1626,7 +1626,7 @@
         },
         {
           "ClrName": "GenerateManifest",
-          "TsEmitName": "generateManifest2",
+          "TsEmitName": "GenerateManifest2",
           "NormalizedSignature": "GenerateManifest|(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
         },
         {
           "ClrName": "GetSources",
-          "TsEmitName": "getSources",
+          "TsEmitName": "GetSources",
           "NormalizedSignature": "GetSources|():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1654,7 +1654,7 @@
         },
         {
           "ClrName": "SendCommand",
-          "TsEmitName": "sendCommand",
+          "TsEmitName": "SendCommand",
           "NormalizedSignature": "SendCommand|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
         },
         {
           "ClrName": "GetTrait",
-          "TsEmitName": "getTrait",
+          "TsEmitName": "GetTrait",
           "NormalizedSignature": "GetTrait|(System.String):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1682,7 +1682,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1696,7 +1696,7 @@
         },
         {
           "ClrName": "SetCurrentThreadActivityId",
-          "TsEmitName": "setCurrentThreadActivityId",
+          "TsEmitName": "SetCurrentThreadActivityId",
           "NormalizedSignature": "SetCurrentThreadActivityId|(System.Guid):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1710,7 +1710,7 @@
         },
         {
           "ClrName": "SetCurrentThreadActivityId",
-          "TsEmitName": "setCurrentThreadActivityId2",
+          "TsEmitName": "SetCurrentThreadActivityId2",
           "NormalizedSignature": "SetCurrentThreadActivityId|(System.Guid,System.Guid\u0026):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1724,7 +1724,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1738,7 +1738,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1752,7 +1752,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write2",
+          "TsEmitName": "Write2",
           "NormalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1766,7 +1766,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write3",
+          "TsEmitName": "Write3",
           "NormalizedSignature": "Write|(System.String,T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1780,7 +1780,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write4",
+          "TsEmitName": "Write4",
           "NormalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1794,7 +1794,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write5",
+          "TsEmitName": "Write5",
           "NormalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1808,7 +1808,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write6",
+          "TsEmitName": "Write6",
           "NormalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1839,7 +1839,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
         },
         {
           "ClrName": "Guid",
-          "TsEmitName": "guid",
+          "TsEmitName": "Guid",
           "NormalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1867,7 +1867,7 @@
         },
         {
           "ClrName": "Settings",
-          "TsEmitName": "settings",
+          "TsEmitName": "Settings",
           "NormalizedSignature": "Settings|:System.Diagnostics.Tracing.EventSourceSettings|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1881,7 +1881,7 @@
         },
         {
           "ClrName": "ConstructionException",
-          "TsEmitName": "constructionException",
+          "TsEmitName": "ConstructionException",
           "NormalizedSignature": "ConstructionException|:System.Exception|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1895,7 +1895,7 @@
         },
         {
           "ClrName": "CurrentThreadActivityId",
-          "TsEmitName": "currentThreadActivityId",
+          "TsEmitName": "CurrentThreadActivityId",
           "NormalizedSignature": "CurrentThreadActivityId|:System.Guid|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1912,7 +1912,7 @@
       "Events": [
         {
           "ClrName": "EventCommandExecuted",
-          "TsEmitName": "eventCommandExecuted",
+          "TsEmitName": "EventCommandExecuted",
           "NormalizedSignature": "EventCommandExecuted|System.EventHandler\u00601[[System.Diagnostics.Tracing.EventCommandEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "IsStatic": false
         }
@@ -1948,7 +1948,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1962,7 +1962,7 @@
         },
         {
           "ClrName": "Guid",
-          "TsEmitName": "guid",
+          "TsEmitName": "Guid",
           "NormalizedSignature": "Guid|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1976,7 +1976,7 @@
         },
         {
           "ClrName": "LocalizationResources",
-          "TsEmitName": "localizationResources",
+          "TsEmitName": "LocalizationResources",
           "NormalizedSignature": "LocalizationResources|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2012,7 +2012,7 @@
       "Properties": [
         {
           "ClrName": "EventSource",
-          "TsEmitName": "eventSource",
+          "TsEmitName": "EventSource",
           "NormalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2047,7 +2047,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2062,7 +2062,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2109,7 +2109,7 @@
       "Properties": [
         {
           "ClrName": "EventName",
-          "TsEmitName": "eventName",
+          "TsEmitName": "EventName",
           "NormalizedSignature": "EventName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2123,7 +2123,7 @@
         },
         {
           "ClrName": "EventId",
-          "TsEmitName": "eventId",
+          "TsEmitName": "EventId",
           "NormalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2137,7 +2137,7 @@
         },
         {
           "ClrName": "ActivityId",
-          "TsEmitName": "activityId",
+          "TsEmitName": "ActivityId",
           "NormalizedSignature": "ActivityId|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2151,7 +2151,7 @@
         },
         {
           "ClrName": "RelatedActivityId",
-          "TsEmitName": "relatedActivityId",
+          "TsEmitName": "RelatedActivityId",
           "NormalizedSignature": "RelatedActivityId|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2165,7 +2165,7 @@
         },
         {
           "ClrName": "Payload",
-          "TsEmitName": "payload",
+          "TsEmitName": "Payload",
           "NormalizedSignature": "Payload|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2179,7 +2179,7 @@
         },
         {
           "ClrName": "PayloadNames",
-          "TsEmitName": "payloadNames",
+          "TsEmitName": "PayloadNames",
           "NormalizedSignature": "PayloadNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2193,7 +2193,7 @@
         },
         {
           "ClrName": "EventSource",
-          "TsEmitName": "eventSource",
+          "TsEmitName": "EventSource",
           "NormalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2207,7 +2207,7 @@
         },
         {
           "ClrName": "Keywords",
-          "TsEmitName": "keywords",
+          "TsEmitName": "Keywords",
           "NormalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2221,7 +2221,7 @@
         },
         {
           "ClrName": "Opcode",
-          "TsEmitName": "opcode",
+          "TsEmitName": "Opcode",
           "NormalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2235,7 +2235,7 @@
         },
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2249,7 +2249,7 @@
         },
         {
           "ClrName": "Tags",
-          "TsEmitName": "tags",
+          "TsEmitName": "Tags",
           "NormalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2263,7 +2263,7 @@
         },
         {
           "ClrName": "Message",
-          "TsEmitName": "message",
+          "TsEmitName": "Message",
           "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2277,7 +2277,7 @@
         },
         {
           "ClrName": "Channel",
-          "TsEmitName": "channel",
+          "TsEmitName": "Channel",
           "NormalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         },
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "NormalizedSignature": "Version|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2305,7 +2305,7 @@
         },
         {
           "ClrName": "Level",
-          "TsEmitName": "level",
+          "TsEmitName": "Level",
           "NormalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2319,7 +2319,7 @@
         },
         {
           "ClrName": "OSThreadId",
-          "TsEmitName": "osThreadId",
+          "TsEmitName": "OSThreadId",
           "NormalizedSignature": "OSThreadId|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2333,7 +2333,7 @@
         },
         {
           "ClrName": "TimeStamp",
-          "TsEmitName": "timeStamp",
+          "TsEmitName": "TimeStamp",
           "NormalizedSignature": "TimeStamp|:System.DateTime|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2362,7 +2362,7 @@
       "Methods": [
         {
           "ClrName": "Increment",
-          "TsEmitName": "increment",
+          "TsEmitName": "Increment",
           "NormalizedSignature": "Increment|(System.Double):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2376,7 +2376,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2390,7 +2390,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2405,7 +2405,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2421,7 +2421,7 @@
       "Properties": [
         {
           "ClrName": "DisplayRateTimeScale",
-          "TsEmitName": "displayRateTimeScale",
+          "TsEmitName": "DisplayRateTimeScale",
           "NormalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2456,7 +2456,7 @@
       "Methods": [
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2470,7 +2470,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2485,7 +2485,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2501,7 +2501,7 @@
       "Properties": [
         {
           "ClrName": "DisplayRateTimeScale",
-          "TsEmitName": "displayRateTimeScale",
+          "TsEmitName": "DisplayRateTimeScale",
           "NormalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2557,7 +2557,7 @@
       "Methods": [
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2571,7 +2571,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2586,7 +2586,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",

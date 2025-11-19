@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "MD5",
-          "TsEmitName": "md5",
+          "TsEmitName": "MD5",
           "NormalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "SHA1",
-          "TsEmitName": "sha1",
+          "TsEmitName": "SHA1",
           "NormalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "SHA256",
-          "TsEmitName": "sha256",
+          "TsEmitName": "SHA256",
           "NormalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "SHA384",
-          "TsEmitName": "sha384",
+          "TsEmitName": "SHA384",
           "NormalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "SHA512",
-          "TsEmitName": "sha512",
+          "TsEmitName": "SHA512",
           "NormalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "SameMachine",
-          "TsEmitName": "sameMachine",
+          "TsEmitName": "SameMachine",
           "NormalizedSignature": "SameMachine|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "SameProcess",
-          "TsEmitName": "sameProcess",
+          "TsEmitName": "SameProcess",
           "NormalizedSignature": "SameProcess|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "SameDomain",
-          "TsEmitName": "sameDomain",
+          "TsEmitName": "SameDomain",
           "NormalizedSignature": "SameDomain|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,

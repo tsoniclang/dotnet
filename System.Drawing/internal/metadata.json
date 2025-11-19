@@ -27,7 +27,7 @@
         },
         {
           "ClrName": "ActiveBorder",
-          "TsEmitName": "activeBorder",
+          "TsEmitName": "ActiveBorder",
           "NormalizedSignature": "ActiveBorder|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "ClrName": "ActiveCaption",
-          "TsEmitName": "activeCaption",
+          "TsEmitName": "ActiveCaption",
           "NormalizedSignature": "ActiveCaption|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "ClrName": "ActiveCaptionText",
-          "TsEmitName": "activeCaptionText",
+          "TsEmitName": "ActiveCaptionText",
           "NormalizedSignature": "ActiveCaptionText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "ClrName": "AppWorkspace",
-          "TsEmitName": "appWorkspace",
+          "TsEmitName": "AppWorkspace",
           "NormalizedSignature": "AppWorkspace|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -59,7 +59,7 @@
         },
         {
           "ClrName": "Control",
-          "TsEmitName": "control",
+          "TsEmitName": "Control",
           "NormalizedSignature": "Control|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -67,7 +67,7 @@
         },
         {
           "ClrName": "ControlDark",
-          "TsEmitName": "controlDark",
+          "TsEmitName": "ControlDark",
           "NormalizedSignature": "ControlDark|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -75,7 +75,7 @@
         },
         {
           "ClrName": "ControlDarkDark",
-          "TsEmitName": "controlDarkDark",
+          "TsEmitName": "ControlDarkDark",
           "NormalizedSignature": "ControlDarkDark|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "ClrName": "ControlLight",
-          "TsEmitName": "controlLight",
+          "TsEmitName": "ControlLight",
           "NormalizedSignature": "ControlLight|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "ClrName": "ControlLightLight",
-          "TsEmitName": "controlLightLight",
+          "TsEmitName": "ControlLightLight",
           "NormalizedSignature": "ControlLightLight|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "ClrName": "ControlText",
-          "TsEmitName": "controlText",
+          "TsEmitName": "ControlText",
           "NormalizedSignature": "ControlText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -107,7 +107,7 @@
         },
         {
           "ClrName": "Desktop",
-          "TsEmitName": "desktop",
+          "TsEmitName": "Desktop",
           "NormalizedSignature": "Desktop|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -115,7 +115,7 @@
         },
         {
           "ClrName": "GrayText",
-          "TsEmitName": "grayText",
+          "TsEmitName": "GrayText",
           "NormalizedSignature": "GrayText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -123,7 +123,7 @@
         },
         {
           "ClrName": "Highlight",
-          "TsEmitName": "highlight",
+          "TsEmitName": "Highlight",
           "NormalizedSignature": "Highlight|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -131,7 +131,7 @@
         },
         {
           "ClrName": "HighlightText",
-          "TsEmitName": "highlightText",
+          "TsEmitName": "HighlightText",
           "NormalizedSignature": "HighlightText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -139,7 +139,7 @@
         },
         {
           "ClrName": "HotTrack",
-          "TsEmitName": "hotTrack",
+          "TsEmitName": "HotTrack",
           "NormalizedSignature": "HotTrack|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -147,7 +147,7 @@
         },
         {
           "ClrName": "InactiveBorder",
-          "TsEmitName": "inactiveBorder",
+          "TsEmitName": "InactiveBorder",
           "NormalizedSignature": "InactiveBorder|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -155,7 +155,7 @@
         },
         {
           "ClrName": "InactiveCaption",
-          "TsEmitName": "inactiveCaption",
+          "TsEmitName": "InactiveCaption",
           "NormalizedSignature": "InactiveCaption|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -163,7 +163,7 @@
         },
         {
           "ClrName": "InactiveCaptionText",
-          "TsEmitName": "inactiveCaptionText",
+          "TsEmitName": "InactiveCaptionText",
           "NormalizedSignature": "InactiveCaptionText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -171,7 +171,7 @@
         },
         {
           "ClrName": "Info",
-          "TsEmitName": "info",
+          "TsEmitName": "Info",
           "NormalizedSignature": "Info|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -179,7 +179,7 @@
         },
         {
           "ClrName": "InfoText",
-          "TsEmitName": "infoText",
+          "TsEmitName": "InfoText",
           "NormalizedSignature": "InfoText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -187,7 +187,7 @@
         },
         {
           "ClrName": "Menu",
-          "TsEmitName": "menu",
+          "TsEmitName": "Menu",
           "NormalizedSignature": "Menu|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -195,7 +195,7 @@
         },
         {
           "ClrName": "MenuText",
-          "TsEmitName": "menuText",
+          "TsEmitName": "MenuText",
           "NormalizedSignature": "MenuText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -203,7 +203,7 @@
         },
         {
           "ClrName": "ScrollBar",
-          "TsEmitName": "scrollBar",
+          "TsEmitName": "ScrollBar",
           "NormalizedSignature": "ScrollBar|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -211,7 +211,7 @@
         },
         {
           "ClrName": "Window",
-          "TsEmitName": "window",
+          "TsEmitName": "Window",
           "NormalizedSignature": "Window|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -219,7 +219,7 @@
         },
         {
           "ClrName": "WindowFrame",
-          "TsEmitName": "windowFrame",
+          "TsEmitName": "WindowFrame",
           "NormalizedSignature": "WindowFrame|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -227,7 +227,7 @@
         },
         {
           "ClrName": "WindowText",
-          "TsEmitName": "windowText",
+          "TsEmitName": "WindowText",
           "NormalizedSignature": "WindowText|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -235,7 +235,7 @@
         },
         {
           "ClrName": "Transparent",
-          "TsEmitName": "transparent",
+          "TsEmitName": "Transparent",
           "NormalizedSignature": "Transparent|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -243,7 +243,7 @@
         },
         {
           "ClrName": "AliceBlue",
-          "TsEmitName": "aliceBlue",
+          "TsEmitName": "AliceBlue",
           "NormalizedSignature": "AliceBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -251,7 +251,7 @@
         },
         {
           "ClrName": "AntiqueWhite",
-          "TsEmitName": "antiqueWhite",
+          "TsEmitName": "AntiqueWhite",
           "NormalizedSignature": "AntiqueWhite|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -259,7 +259,7 @@
         },
         {
           "ClrName": "Aqua",
-          "TsEmitName": "aqua",
+          "TsEmitName": "Aqua",
           "NormalizedSignature": "Aqua|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -267,7 +267,7 @@
         },
         {
           "ClrName": "Aquamarine",
-          "TsEmitName": "aquamarine",
+          "TsEmitName": "Aquamarine",
           "NormalizedSignature": "Aquamarine|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -275,7 +275,7 @@
         },
         {
           "ClrName": "Azure",
-          "TsEmitName": "azure",
+          "TsEmitName": "Azure",
           "NormalizedSignature": "Azure|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -283,7 +283,7 @@
         },
         {
           "ClrName": "Beige",
-          "TsEmitName": "beige",
+          "TsEmitName": "Beige",
           "NormalizedSignature": "Beige|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -291,7 +291,7 @@
         },
         {
           "ClrName": "Bisque",
-          "TsEmitName": "bisque",
+          "TsEmitName": "Bisque",
           "NormalizedSignature": "Bisque|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -299,7 +299,7 @@
         },
         {
           "ClrName": "Black",
-          "TsEmitName": "black",
+          "TsEmitName": "Black",
           "NormalizedSignature": "Black|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -307,7 +307,7 @@
         },
         {
           "ClrName": "BlanchedAlmond",
-          "TsEmitName": "blanchedAlmond",
+          "TsEmitName": "BlanchedAlmond",
           "NormalizedSignature": "BlanchedAlmond|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -315,7 +315,7 @@
         },
         {
           "ClrName": "Blue",
-          "TsEmitName": "blue",
+          "TsEmitName": "Blue",
           "NormalizedSignature": "Blue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -323,7 +323,7 @@
         },
         {
           "ClrName": "BlueViolet",
-          "TsEmitName": "blueViolet",
+          "TsEmitName": "BlueViolet",
           "NormalizedSignature": "BlueViolet|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -331,7 +331,7 @@
         },
         {
           "ClrName": "Brown",
-          "TsEmitName": "brown",
+          "TsEmitName": "Brown",
           "NormalizedSignature": "Brown|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -339,7 +339,7 @@
         },
         {
           "ClrName": "BurlyWood",
-          "TsEmitName": "burlyWood",
+          "TsEmitName": "BurlyWood",
           "NormalizedSignature": "BurlyWood|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -347,7 +347,7 @@
         },
         {
           "ClrName": "CadetBlue",
-          "TsEmitName": "cadetBlue",
+          "TsEmitName": "CadetBlue",
           "NormalizedSignature": "CadetBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -355,7 +355,7 @@
         },
         {
           "ClrName": "Chartreuse",
-          "TsEmitName": "chartreuse",
+          "TsEmitName": "Chartreuse",
           "NormalizedSignature": "Chartreuse|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -363,7 +363,7 @@
         },
         {
           "ClrName": "Chocolate",
-          "TsEmitName": "chocolate",
+          "TsEmitName": "Chocolate",
           "NormalizedSignature": "Chocolate|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -371,7 +371,7 @@
         },
         {
           "ClrName": "Coral",
-          "TsEmitName": "coral",
+          "TsEmitName": "Coral",
           "NormalizedSignature": "Coral|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -379,7 +379,7 @@
         },
         {
           "ClrName": "CornflowerBlue",
-          "TsEmitName": "cornflowerBlue",
+          "TsEmitName": "CornflowerBlue",
           "NormalizedSignature": "CornflowerBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -387,7 +387,7 @@
         },
         {
           "ClrName": "Cornsilk",
-          "TsEmitName": "cornsilk",
+          "TsEmitName": "Cornsilk",
           "NormalizedSignature": "Cornsilk|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -395,7 +395,7 @@
         },
         {
           "ClrName": "Crimson",
-          "TsEmitName": "crimson",
+          "TsEmitName": "Crimson",
           "NormalizedSignature": "Crimson|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -403,7 +403,7 @@
         },
         {
           "ClrName": "Cyan",
-          "TsEmitName": "cyan",
+          "TsEmitName": "Cyan",
           "NormalizedSignature": "Cyan|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -411,7 +411,7 @@
         },
         {
           "ClrName": "DarkBlue",
-          "TsEmitName": "darkBlue",
+          "TsEmitName": "DarkBlue",
           "NormalizedSignature": "DarkBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -419,7 +419,7 @@
         },
         {
           "ClrName": "DarkCyan",
-          "TsEmitName": "darkCyan",
+          "TsEmitName": "DarkCyan",
           "NormalizedSignature": "DarkCyan|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -427,7 +427,7 @@
         },
         {
           "ClrName": "DarkGoldenrod",
-          "TsEmitName": "darkGoldenrod",
+          "TsEmitName": "DarkGoldenrod",
           "NormalizedSignature": "DarkGoldenrod|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -435,7 +435,7 @@
         },
         {
           "ClrName": "DarkGray",
-          "TsEmitName": "darkGray",
+          "TsEmitName": "DarkGray",
           "NormalizedSignature": "DarkGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -443,7 +443,7 @@
         },
         {
           "ClrName": "DarkGreen",
-          "TsEmitName": "darkGreen",
+          "TsEmitName": "DarkGreen",
           "NormalizedSignature": "DarkGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -451,7 +451,7 @@
         },
         {
           "ClrName": "DarkKhaki",
-          "TsEmitName": "darkKhaki",
+          "TsEmitName": "DarkKhaki",
           "NormalizedSignature": "DarkKhaki|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -459,7 +459,7 @@
         },
         {
           "ClrName": "DarkMagenta",
-          "TsEmitName": "darkMagenta",
+          "TsEmitName": "DarkMagenta",
           "NormalizedSignature": "DarkMagenta|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -467,7 +467,7 @@
         },
         {
           "ClrName": "DarkOliveGreen",
-          "TsEmitName": "darkOliveGreen",
+          "TsEmitName": "DarkOliveGreen",
           "NormalizedSignature": "DarkOliveGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -475,7 +475,7 @@
         },
         {
           "ClrName": "DarkOrange",
-          "TsEmitName": "darkOrange",
+          "TsEmitName": "DarkOrange",
           "NormalizedSignature": "DarkOrange|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -483,7 +483,7 @@
         },
         {
           "ClrName": "DarkOrchid",
-          "TsEmitName": "darkOrchid",
+          "TsEmitName": "DarkOrchid",
           "NormalizedSignature": "DarkOrchid|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -491,7 +491,7 @@
         },
         {
           "ClrName": "DarkRed",
-          "TsEmitName": "darkRed",
+          "TsEmitName": "DarkRed",
           "NormalizedSignature": "DarkRed|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -499,7 +499,7 @@
         },
         {
           "ClrName": "DarkSalmon",
-          "TsEmitName": "darkSalmon",
+          "TsEmitName": "DarkSalmon",
           "NormalizedSignature": "DarkSalmon|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -507,7 +507,7 @@
         },
         {
           "ClrName": "DarkSeaGreen",
-          "TsEmitName": "darkSeaGreen",
+          "TsEmitName": "DarkSeaGreen",
           "NormalizedSignature": "DarkSeaGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -515,7 +515,7 @@
         },
         {
           "ClrName": "DarkSlateBlue",
-          "TsEmitName": "darkSlateBlue",
+          "TsEmitName": "DarkSlateBlue",
           "NormalizedSignature": "DarkSlateBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -523,7 +523,7 @@
         },
         {
           "ClrName": "DarkSlateGray",
-          "TsEmitName": "darkSlateGray",
+          "TsEmitName": "DarkSlateGray",
           "NormalizedSignature": "DarkSlateGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -531,7 +531,7 @@
         },
         {
           "ClrName": "DarkTurquoise",
-          "TsEmitName": "darkTurquoise",
+          "TsEmitName": "DarkTurquoise",
           "NormalizedSignature": "DarkTurquoise|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -539,7 +539,7 @@
         },
         {
           "ClrName": "DarkViolet",
-          "TsEmitName": "darkViolet",
+          "TsEmitName": "DarkViolet",
           "NormalizedSignature": "DarkViolet|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -547,7 +547,7 @@
         },
         {
           "ClrName": "DeepPink",
-          "TsEmitName": "deepPink",
+          "TsEmitName": "DeepPink",
           "NormalizedSignature": "DeepPink|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -555,7 +555,7 @@
         },
         {
           "ClrName": "DeepSkyBlue",
-          "TsEmitName": "deepSkyBlue",
+          "TsEmitName": "DeepSkyBlue",
           "NormalizedSignature": "DeepSkyBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -563,7 +563,7 @@
         },
         {
           "ClrName": "DimGray",
-          "TsEmitName": "dimGray",
+          "TsEmitName": "DimGray",
           "NormalizedSignature": "DimGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -571,7 +571,7 @@
         },
         {
           "ClrName": "DodgerBlue",
-          "TsEmitName": "dodgerBlue",
+          "TsEmitName": "DodgerBlue",
           "NormalizedSignature": "DodgerBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -579,7 +579,7 @@
         },
         {
           "ClrName": "Firebrick",
-          "TsEmitName": "firebrick",
+          "TsEmitName": "Firebrick",
           "NormalizedSignature": "Firebrick|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -587,7 +587,7 @@
         },
         {
           "ClrName": "FloralWhite",
-          "TsEmitName": "floralWhite",
+          "TsEmitName": "FloralWhite",
           "NormalizedSignature": "FloralWhite|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -595,7 +595,7 @@
         },
         {
           "ClrName": "ForestGreen",
-          "TsEmitName": "forestGreen",
+          "TsEmitName": "ForestGreen",
           "NormalizedSignature": "ForestGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -603,7 +603,7 @@
         },
         {
           "ClrName": "Fuchsia",
-          "TsEmitName": "fuchsia",
+          "TsEmitName": "Fuchsia",
           "NormalizedSignature": "Fuchsia|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -611,7 +611,7 @@
         },
         {
           "ClrName": "Gainsboro",
-          "TsEmitName": "gainsboro",
+          "TsEmitName": "Gainsboro",
           "NormalizedSignature": "Gainsboro|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -619,7 +619,7 @@
         },
         {
           "ClrName": "GhostWhite",
-          "TsEmitName": "ghostWhite",
+          "TsEmitName": "GhostWhite",
           "NormalizedSignature": "GhostWhite|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -627,7 +627,7 @@
         },
         {
           "ClrName": "Gold",
-          "TsEmitName": "gold",
+          "TsEmitName": "Gold",
           "NormalizedSignature": "Gold|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -635,7 +635,7 @@
         },
         {
           "ClrName": "Goldenrod",
-          "TsEmitName": "goldenrod",
+          "TsEmitName": "Goldenrod",
           "NormalizedSignature": "Goldenrod|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -643,7 +643,7 @@
         },
         {
           "ClrName": "Gray",
-          "TsEmitName": "gray",
+          "TsEmitName": "Gray",
           "NormalizedSignature": "Gray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -651,7 +651,7 @@
         },
         {
           "ClrName": "Green",
-          "TsEmitName": "green",
+          "TsEmitName": "Green",
           "NormalizedSignature": "Green|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -659,7 +659,7 @@
         },
         {
           "ClrName": "GreenYellow",
-          "TsEmitName": "greenYellow",
+          "TsEmitName": "GreenYellow",
           "NormalizedSignature": "GreenYellow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -667,7 +667,7 @@
         },
         {
           "ClrName": "Honeydew",
-          "TsEmitName": "honeydew",
+          "TsEmitName": "Honeydew",
           "NormalizedSignature": "Honeydew|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -675,7 +675,7 @@
         },
         {
           "ClrName": "HotPink",
-          "TsEmitName": "hotPink",
+          "TsEmitName": "HotPink",
           "NormalizedSignature": "HotPink|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -683,7 +683,7 @@
         },
         {
           "ClrName": "IndianRed",
-          "TsEmitName": "indianRed",
+          "TsEmitName": "IndianRed",
           "NormalizedSignature": "IndianRed|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -691,7 +691,7 @@
         },
         {
           "ClrName": "Indigo",
-          "TsEmitName": "indigo",
+          "TsEmitName": "Indigo",
           "NormalizedSignature": "Indigo|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -699,7 +699,7 @@
         },
         {
           "ClrName": "Ivory",
-          "TsEmitName": "ivory",
+          "TsEmitName": "Ivory",
           "NormalizedSignature": "Ivory|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -707,7 +707,7 @@
         },
         {
           "ClrName": "Khaki",
-          "TsEmitName": "khaki",
+          "TsEmitName": "Khaki",
           "NormalizedSignature": "Khaki|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -715,7 +715,7 @@
         },
         {
           "ClrName": "Lavender",
-          "TsEmitName": "lavender",
+          "TsEmitName": "Lavender",
           "NormalizedSignature": "Lavender|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -723,7 +723,7 @@
         },
         {
           "ClrName": "LavenderBlush",
-          "TsEmitName": "lavenderBlush",
+          "TsEmitName": "LavenderBlush",
           "NormalizedSignature": "LavenderBlush|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -731,7 +731,7 @@
         },
         {
           "ClrName": "LawnGreen",
-          "TsEmitName": "lawnGreen",
+          "TsEmitName": "LawnGreen",
           "NormalizedSignature": "LawnGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -739,7 +739,7 @@
         },
         {
           "ClrName": "LemonChiffon",
-          "TsEmitName": "lemonChiffon",
+          "TsEmitName": "LemonChiffon",
           "NormalizedSignature": "LemonChiffon|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -747,7 +747,7 @@
         },
         {
           "ClrName": "LightBlue",
-          "TsEmitName": "lightBlue",
+          "TsEmitName": "LightBlue",
           "NormalizedSignature": "LightBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -755,7 +755,7 @@
         },
         {
           "ClrName": "LightCoral",
-          "TsEmitName": "lightCoral",
+          "TsEmitName": "LightCoral",
           "NormalizedSignature": "LightCoral|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -763,7 +763,7 @@
         },
         {
           "ClrName": "LightCyan",
-          "TsEmitName": "lightCyan",
+          "TsEmitName": "LightCyan",
           "NormalizedSignature": "LightCyan|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -771,7 +771,7 @@
         },
         {
           "ClrName": "LightGoldenrodYellow",
-          "TsEmitName": "lightGoldenrodYellow",
+          "TsEmitName": "LightGoldenrodYellow",
           "NormalizedSignature": "LightGoldenrodYellow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -779,7 +779,7 @@
         },
         {
           "ClrName": "LightGray",
-          "TsEmitName": "lightGray",
+          "TsEmitName": "LightGray",
           "NormalizedSignature": "LightGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -787,7 +787,7 @@
         },
         {
           "ClrName": "LightGreen",
-          "TsEmitName": "lightGreen",
+          "TsEmitName": "LightGreen",
           "NormalizedSignature": "LightGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -795,7 +795,7 @@
         },
         {
           "ClrName": "LightPink",
-          "TsEmitName": "lightPink",
+          "TsEmitName": "LightPink",
           "NormalizedSignature": "LightPink|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -803,7 +803,7 @@
         },
         {
           "ClrName": "LightSalmon",
-          "TsEmitName": "lightSalmon",
+          "TsEmitName": "LightSalmon",
           "NormalizedSignature": "LightSalmon|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -811,7 +811,7 @@
         },
         {
           "ClrName": "LightSeaGreen",
-          "TsEmitName": "lightSeaGreen",
+          "TsEmitName": "LightSeaGreen",
           "NormalizedSignature": "LightSeaGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -819,7 +819,7 @@
         },
         {
           "ClrName": "LightSkyBlue",
-          "TsEmitName": "lightSkyBlue",
+          "TsEmitName": "LightSkyBlue",
           "NormalizedSignature": "LightSkyBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -827,7 +827,7 @@
         },
         {
           "ClrName": "LightSlateGray",
-          "TsEmitName": "lightSlateGray",
+          "TsEmitName": "LightSlateGray",
           "NormalizedSignature": "LightSlateGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -835,7 +835,7 @@
         },
         {
           "ClrName": "LightSteelBlue",
-          "TsEmitName": "lightSteelBlue",
+          "TsEmitName": "LightSteelBlue",
           "NormalizedSignature": "LightSteelBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -843,7 +843,7 @@
         },
         {
           "ClrName": "LightYellow",
-          "TsEmitName": "lightYellow",
+          "TsEmitName": "LightYellow",
           "NormalizedSignature": "LightYellow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -851,7 +851,7 @@
         },
         {
           "ClrName": "Lime",
-          "TsEmitName": "lime",
+          "TsEmitName": "Lime",
           "NormalizedSignature": "Lime|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -859,7 +859,7 @@
         },
         {
           "ClrName": "LimeGreen",
-          "TsEmitName": "limeGreen",
+          "TsEmitName": "LimeGreen",
           "NormalizedSignature": "LimeGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -867,7 +867,7 @@
         },
         {
           "ClrName": "Linen",
-          "TsEmitName": "linen",
+          "TsEmitName": "Linen",
           "NormalizedSignature": "Linen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -875,7 +875,7 @@
         },
         {
           "ClrName": "Magenta",
-          "TsEmitName": "magenta",
+          "TsEmitName": "Magenta",
           "NormalizedSignature": "Magenta|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -883,7 +883,7 @@
         },
         {
           "ClrName": "Maroon",
-          "TsEmitName": "maroon",
+          "TsEmitName": "Maroon",
           "NormalizedSignature": "Maroon|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -891,7 +891,7 @@
         },
         {
           "ClrName": "MediumAquamarine",
-          "TsEmitName": "mediumAquamarine",
+          "TsEmitName": "MediumAquamarine",
           "NormalizedSignature": "MediumAquamarine|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -899,7 +899,7 @@
         },
         {
           "ClrName": "MediumBlue",
-          "TsEmitName": "mediumBlue",
+          "TsEmitName": "MediumBlue",
           "NormalizedSignature": "MediumBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -907,7 +907,7 @@
         },
         {
           "ClrName": "MediumOrchid",
-          "TsEmitName": "mediumOrchid",
+          "TsEmitName": "MediumOrchid",
           "NormalizedSignature": "MediumOrchid|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -915,7 +915,7 @@
         },
         {
           "ClrName": "MediumPurple",
-          "TsEmitName": "mediumPurple",
+          "TsEmitName": "MediumPurple",
           "NormalizedSignature": "MediumPurple|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -923,7 +923,7 @@
         },
         {
           "ClrName": "MediumSeaGreen",
-          "TsEmitName": "mediumSeaGreen",
+          "TsEmitName": "MediumSeaGreen",
           "NormalizedSignature": "MediumSeaGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -931,7 +931,7 @@
         },
         {
           "ClrName": "MediumSlateBlue",
-          "TsEmitName": "mediumSlateBlue",
+          "TsEmitName": "MediumSlateBlue",
           "NormalizedSignature": "MediumSlateBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -939,7 +939,7 @@
         },
         {
           "ClrName": "MediumSpringGreen",
-          "TsEmitName": "mediumSpringGreen",
+          "TsEmitName": "MediumSpringGreen",
           "NormalizedSignature": "MediumSpringGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -947,7 +947,7 @@
         },
         {
           "ClrName": "MediumTurquoise",
-          "TsEmitName": "mediumTurquoise",
+          "TsEmitName": "MediumTurquoise",
           "NormalizedSignature": "MediumTurquoise|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -955,7 +955,7 @@
         },
         {
           "ClrName": "MediumVioletRed",
-          "TsEmitName": "mediumVioletRed",
+          "TsEmitName": "MediumVioletRed",
           "NormalizedSignature": "MediumVioletRed|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -963,7 +963,7 @@
         },
         {
           "ClrName": "MidnightBlue",
-          "TsEmitName": "midnightBlue",
+          "TsEmitName": "MidnightBlue",
           "NormalizedSignature": "MidnightBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -971,7 +971,7 @@
         },
         {
           "ClrName": "MintCream",
-          "TsEmitName": "mintCream",
+          "TsEmitName": "MintCream",
           "NormalizedSignature": "MintCream|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -979,7 +979,7 @@
         },
         {
           "ClrName": "MistyRose",
-          "TsEmitName": "mistyRose",
+          "TsEmitName": "MistyRose",
           "NormalizedSignature": "MistyRose|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -987,7 +987,7 @@
         },
         {
           "ClrName": "Moccasin",
-          "TsEmitName": "moccasin",
+          "TsEmitName": "Moccasin",
           "NormalizedSignature": "Moccasin|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -995,7 +995,7 @@
         },
         {
           "ClrName": "NavajoWhite",
-          "TsEmitName": "navajoWhite",
+          "TsEmitName": "NavajoWhite",
           "NormalizedSignature": "NavajoWhite|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1003,7 +1003,7 @@
         },
         {
           "ClrName": "Navy",
-          "TsEmitName": "navy",
+          "TsEmitName": "Navy",
           "NormalizedSignature": "Navy|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1011,7 +1011,7 @@
         },
         {
           "ClrName": "OldLace",
-          "TsEmitName": "oldLace",
+          "TsEmitName": "OldLace",
           "NormalizedSignature": "OldLace|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1019,7 +1019,7 @@
         },
         {
           "ClrName": "Olive",
-          "TsEmitName": "olive",
+          "TsEmitName": "Olive",
           "NormalizedSignature": "Olive|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1027,7 +1027,7 @@
         },
         {
           "ClrName": "OliveDrab",
-          "TsEmitName": "oliveDrab",
+          "TsEmitName": "OliveDrab",
           "NormalizedSignature": "OliveDrab|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1035,7 +1035,7 @@
         },
         {
           "ClrName": "Orange",
-          "TsEmitName": "orange",
+          "TsEmitName": "Orange",
           "NormalizedSignature": "Orange|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1043,7 +1043,7 @@
         },
         {
           "ClrName": "OrangeRed",
-          "TsEmitName": "orangeRed",
+          "TsEmitName": "OrangeRed",
           "NormalizedSignature": "OrangeRed|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1051,7 +1051,7 @@
         },
         {
           "ClrName": "Orchid",
-          "TsEmitName": "orchid",
+          "TsEmitName": "Orchid",
           "NormalizedSignature": "Orchid|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1059,7 +1059,7 @@
         },
         {
           "ClrName": "PaleGoldenrod",
-          "TsEmitName": "paleGoldenrod",
+          "TsEmitName": "PaleGoldenrod",
           "NormalizedSignature": "PaleGoldenrod|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1067,7 +1067,7 @@
         },
         {
           "ClrName": "PaleGreen",
-          "TsEmitName": "paleGreen",
+          "TsEmitName": "PaleGreen",
           "NormalizedSignature": "PaleGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1075,7 +1075,7 @@
         },
         {
           "ClrName": "PaleTurquoise",
-          "TsEmitName": "paleTurquoise",
+          "TsEmitName": "PaleTurquoise",
           "NormalizedSignature": "PaleTurquoise|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1083,7 +1083,7 @@
         },
         {
           "ClrName": "PaleVioletRed",
-          "TsEmitName": "paleVioletRed",
+          "TsEmitName": "PaleVioletRed",
           "NormalizedSignature": "PaleVioletRed|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1091,7 +1091,7 @@
         },
         {
           "ClrName": "PapayaWhip",
-          "TsEmitName": "papayaWhip",
+          "TsEmitName": "PapayaWhip",
           "NormalizedSignature": "PapayaWhip|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1099,7 +1099,7 @@
         },
         {
           "ClrName": "PeachPuff",
-          "TsEmitName": "peachPuff",
+          "TsEmitName": "PeachPuff",
           "NormalizedSignature": "PeachPuff|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1107,7 +1107,7 @@
         },
         {
           "ClrName": "Peru",
-          "TsEmitName": "peru",
+          "TsEmitName": "Peru",
           "NormalizedSignature": "Peru|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1115,7 +1115,7 @@
         },
         {
           "ClrName": "Pink",
-          "TsEmitName": "pink",
+          "TsEmitName": "Pink",
           "NormalizedSignature": "Pink|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1123,7 +1123,7 @@
         },
         {
           "ClrName": "Plum",
-          "TsEmitName": "plum",
+          "TsEmitName": "Plum",
           "NormalizedSignature": "Plum|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1131,7 +1131,7 @@
         },
         {
           "ClrName": "PowderBlue",
-          "TsEmitName": "powderBlue",
+          "TsEmitName": "PowderBlue",
           "NormalizedSignature": "PowderBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1139,7 +1139,7 @@
         },
         {
           "ClrName": "Purple",
-          "TsEmitName": "purple",
+          "TsEmitName": "Purple",
           "NormalizedSignature": "Purple|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1147,7 +1147,7 @@
         },
         {
           "ClrName": "Red",
-          "TsEmitName": "red",
+          "TsEmitName": "Red",
           "NormalizedSignature": "Red|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1155,7 +1155,7 @@
         },
         {
           "ClrName": "RosyBrown",
-          "TsEmitName": "rosyBrown",
+          "TsEmitName": "RosyBrown",
           "NormalizedSignature": "RosyBrown|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1163,7 +1163,7 @@
         },
         {
           "ClrName": "RoyalBlue",
-          "TsEmitName": "royalBlue",
+          "TsEmitName": "RoyalBlue",
           "NormalizedSignature": "RoyalBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1171,7 +1171,7 @@
         },
         {
           "ClrName": "SaddleBrown",
-          "TsEmitName": "saddleBrown",
+          "TsEmitName": "SaddleBrown",
           "NormalizedSignature": "SaddleBrown|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1179,7 +1179,7 @@
         },
         {
           "ClrName": "Salmon",
-          "TsEmitName": "salmon",
+          "TsEmitName": "Salmon",
           "NormalizedSignature": "Salmon|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1187,7 +1187,7 @@
         },
         {
           "ClrName": "SandyBrown",
-          "TsEmitName": "sandyBrown",
+          "TsEmitName": "SandyBrown",
           "NormalizedSignature": "SandyBrown|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1195,7 +1195,7 @@
         },
         {
           "ClrName": "SeaGreen",
-          "TsEmitName": "seaGreen",
+          "TsEmitName": "SeaGreen",
           "NormalizedSignature": "SeaGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1203,7 +1203,7 @@
         },
         {
           "ClrName": "SeaShell",
-          "TsEmitName": "seaShell",
+          "TsEmitName": "SeaShell",
           "NormalizedSignature": "SeaShell|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1211,7 +1211,7 @@
         },
         {
           "ClrName": "Sienna",
-          "TsEmitName": "sienna",
+          "TsEmitName": "Sienna",
           "NormalizedSignature": "Sienna|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1219,7 +1219,7 @@
         },
         {
           "ClrName": "Silver",
-          "TsEmitName": "silver",
+          "TsEmitName": "Silver",
           "NormalizedSignature": "Silver|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1227,7 +1227,7 @@
         },
         {
           "ClrName": "SkyBlue",
-          "TsEmitName": "skyBlue",
+          "TsEmitName": "SkyBlue",
           "NormalizedSignature": "SkyBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1235,7 +1235,7 @@
         },
         {
           "ClrName": "SlateBlue",
-          "TsEmitName": "slateBlue",
+          "TsEmitName": "SlateBlue",
           "NormalizedSignature": "SlateBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1243,7 +1243,7 @@
         },
         {
           "ClrName": "SlateGray",
-          "TsEmitName": "slateGray",
+          "TsEmitName": "SlateGray",
           "NormalizedSignature": "SlateGray|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1251,7 +1251,7 @@
         },
         {
           "ClrName": "Snow",
-          "TsEmitName": "snow",
+          "TsEmitName": "Snow",
           "NormalizedSignature": "Snow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1259,7 +1259,7 @@
         },
         {
           "ClrName": "SpringGreen",
-          "TsEmitName": "springGreen",
+          "TsEmitName": "SpringGreen",
           "NormalizedSignature": "SpringGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1267,7 +1267,7 @@
         },
         {
           "ClrName": "SteelBlue",
-          "TsEmitName": "steelBlue",
+          "TsEmitName": "SteelBlue",
           "NormalizedSignature": "SteelBlue|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1275,7 +1275,7 @@
         },
         {
           "ClrName": "Tan",
-          "TsEmitName": "tan",
+          "TsEmitName": "Tan",
           "NormalizedSignature": "Tan|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1283,7 +1283,7 @@
         },
         {
           "ClrName": "Teal",
-          "TsEmitName": "teal",
+          "TsEmitName": "Teal",
           "NormalizedSignature": "Teal|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1291,7 +1291,7 @@
         },
         {
           "ClrName": "Thistle",
-          "TsEmitName": "thistle",
+          "TsEmitName": "Thistle",
           "NormalizedSignature": "Thistle|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1299,7 +1299,7 @@
         },
         {
           "ClrName": "Tomato",
-          "TsEmitName": "tomato",
+          "TsEmitName": "Tomato",
           "NormalizedSignature": "Tomato|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1307,7 +1307,7 @@
         },
         {
           "ClrName": "Turquoise",
-          "TsEmitName": "turquoise",
+          "TsEmitName": "Turquoise",
           "NormalizedSignature": "Turquoise|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1315,7 +1315,7 @@
         },
         {
           "ClrName": "Violet",
-          "TsEmitName": "violet",
+          "TsEmitName": "Violet",
           "NormalizedSignature": "Violet|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1323,7 +1323,7 @@
         },
         {
           "ClrName": "Wheat",
-          "TsEmitName": "wheat",
+          "TsEmitName": "Wheat",
           "NormalizedSignature": "Wheat|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1331,7 +1331,7 @@
         },
         {
           "ClrName": "White",
-          "TsEmitName": "white",
+          "TsEmitName": "White",
           "NormalizedSignature": "White|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1339,7 +1339,7 @@
         },
         {
           "ClrName": "WhiteSmoke",
-          "TsEmitName": "whiteSmoke",
+          "TsEmitName": "WhiteSmoke",
           "NormalizedSignature": "WhiteSmoke|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1347,7 +1347,7 @@
         },
         {
           "ClrName": "Yellow",
-          "TsEmitName": "yellow",
+          "TsEmitName": "Yellow",
           "NormalizedSignature": "Yellow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1355,7 +1355,7 @@
         },
         {
           "ClrName": "YellowGreen",
-          "TsEmitName": "yellowGreen",
+          "TsEmitName": "YellowGreen",
           "NormalizedSignature": "YellowGreen|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1363,7 +1363,7 @@
         },
         {
           "ClrName": "ButtonFace",
-          "TsEmitName": "buttonFace",
+          "TsEmitName": "ButtonFace",
           "NormalizedSignature": "ButtonFace|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1371,7 +1371,7 @@
         },
         {
           "ClrName": "ButtonHighlight",
-          "TsEmitName": "buttonHighlight",
+          "TsEmitName": "ButtonHighlight",
           "NormalizedSignature": "ButtonHighlight|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1379,7 +1379,7 @@
         },
         {
           "ClrName": "ButtonShadow",
-          "TsEmitName": "buttonShadow",
+          "TsEmitName": "ButtonShadow",
           "NormalizedSignature": "ButtonShadow|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1387,7 +1387,7 @@
         },
         {
           "ClrName": "GradientActiveCaption",
-          "TsEmitName": "gradientActiveCaption",
+          "TsEmitName": "GradientActiveCaption",
           "NormalizedSignature": "GradientActiveCaption|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1395,7 +1395,7 @@
         },
         {
           "ClrName": "GradientInactiveCaption",
-          "TsEmitName": "gradientInactiveCaption",
+          "TsEmitName": "GradientInactiveCaption",
           "NormalizedSignature": "GradientInactiveCaption|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1403,7 +1403,7 @@
         },
         {
           "ClrName": "MenuBar",
-          "TsEmitName": "menuBar",
+          "TsEmitName": "MenuBar",
           "NormalizedSignature": "MenuBar|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1411,7 +1411,7 @@
         },
         {
           "ClrName": "MenuHighlight",
-          "TsEmitName": "menuHighlight",
+          "TsEmitName": "MenuHighlight",
           "NormalizedSignature": "MenuHighlight|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1419,7 +1419,7 @@
         },
         {
           "ClrName": "RebeccaPurple",
-          "TsEmitName": "rebeccaPurple",
+          "TsEmitName": "RebeccaPurple",
           "NormalizedSignature": "RebeccaPurple|System.Drawing.KnownColor|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -1441,7 +1441,7 @@
       "Methods": [
         {
           "ClrName": "FromArgb",
-          "TsEmitName": "fromArgb",
+          "TsEmitName": "FromArgb",
           "NormalizedSignature": "FromArgb|(System.Int32):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1455,7 +1455,7 @@
         },
         {
           "ClrName": "FromArgb",
-          "TsEmitName": "fromArgb2",
+          "TsEmitName": "FromArgb2",
           "NormalizedSignature": "FromArgb|(System.Int32,System.Int32,System.Int32,System.Int32):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1469,7 +1469,7 @@
         },
         {
           "ClrName": "FromArgb",
-          "TsEmitName": "fromArgb3",
+          "TsEmitName": "FromArgb3",
           "NormalizedSignature": "FromArgb|(System.Int32,System.Drawing.Color):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1483,7 +1483,7 @@
         },
         {
           "ClrName": "FromArgb",
-          "TsEmitName": "fromArgb4",
+          "TsEmitName": "FromArgb4",
           "NormalizedSignature": "FromArgb|(System.Int32,System.Int32,System.Int32):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1497,7 +1497,7 @@
         },
         {
           "ClrName": "FromKnownColor",
-          "TsEmitName": "fromKnownColor",
+          "TsEmitName": "FromKnownColor",
           "NormalizedSignature": "FromKnownColor|(System.Drawing.KnownColor):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1511,7 +1511,7 @@
         },
         {
           "ClrName": "FromName",
-          "TsEmitName": "fromName",
+          "TsEmitName": "FromName",
           "NormalizedSignature": "FromName|(System.String):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1525,7 +1525,7 @@
         },
         {
           "ClrName": "GetBrightness",
-          "TsEmitName": "getBrightness",
+          "TsEmitName": "GetBrightness",
           "NormalizedSignature": "GetBrightness|():System.Single|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1539,7 +1539,7 @@
         },
         {
           "ClrName": "GetHue",
-          "TsEmitName": "getHue",
+          "TsEmitName": "GetHue",
           "NormalizedSignature": "GetHue|():System.Single|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1553,7 +1553,7 @@
         },
         {
           "ClrName": "GetSaturation",
-          "TsEmitName": "getSaturation",
+          "TsEmitName": "GetSaturation",
           "NormalizedSignature": "GetSaturation|():System.Single|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1567,7 +1567,7 @@
         },
         {
           "ClrName": "ToArgb",
-          "TsEmitName": "toArgb",
+          "TsEmitName": "ToArgb",
           "NormalizedSignature": "ToArgb|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1581,7 +1581,7 @@
         },
         {
           "ClrName": "ToKnownColor",
-          "TsEmitName": "toKnownColor",
+          "TsEmitName": "ToKnownColor",
           "NormalizedSignature": "ToKnownColor|():System.Drawing.KnownColor|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1595,7 +1595,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1609,7 +1609,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1623,7 +1623,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.Color):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1637,7 +1637,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1651,7 +1651,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1668,7 +1668,7 @@
       "Properties": [
         {
           "ClrName": "Transparent",
-          "TsEmitName": "transparent",
+          "TsEmitName": "Transparent",
           "NormalizedSignature": "Transparent|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1682,7 +1682,7 @@
         },
         {
           "ClrName": "AliceBlue",
-          "TsEmitName": "aliceBlue",
+          "TsEmitName": "AliceBlue",
           "NormalizedSignature": "AliceBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1696,7 +1696,7 @@
         },
         {
           "ClrName": "AntiqueWhite",
-          "TsEmitName": "antiqueWhite",
+          "TsEmitName": "AntiqueWhite",
           "NormalizedSignature": "AntiqueWhite|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1710,7 +1710,7 @@
         },
         {
           "ClrName": "Aqua",
-          "TsEmitName": "aqua",
+          "TsEmitName": "Aqua",
           "NormalizedSignature": "Aqua|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1724,7 +1724,7 @@
         },
         {
           "ClrName": "Aquamarine",
-          "TsEmitName": "aquamarine",
+          "TsEmitName": "Aquamarine",
           "NormalizedSignature": "Aquamarine|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1738,7 +1738,7 @@
         },
         {
           "ClrName": "Azure",
-          "TsEmitName": "azure",
+          "TsEmitName": "Azure",
           "NormalizedSignature": "Azure|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1752,7 +1752,7 @@
         },
         {
           "ClrName": "Beige",
-          "TsEmitName": "beige",
+          "TsEmitName": "Beige",
           "NormalizedSignature": "Beige|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1766,7 +1766,7 @@
         },
         {
           "ClrName": "Bisque",
-          "TsEmitName": "bisque",
+          "TsEmitName": "Bisque",
           "NormalizedSignature": "Bisque|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1780,7 +1780,7 @@
         },
         {
           "ClrName": "Black",
-          "TsEmitName": "black",
+          "TsEmitName": "Black",
           "NormalizedSignature": "Black|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1794,7 +1794,7 @@
         },
         {
           "ClrName": "BlanchedAlmond",
-          "TsEmitName": "blanchedAlmond",
+          "TsEmitName": "BlanchedAlmond",
           "NormalizedSignature": "BlanchedAlmond|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1808,7 +1808,7 @@
         },
         {
           "ClrName": "Blue",
-          "TsEmitName": "blue",
+          "TsEmitName": "Blue",
           "NormalizedSignature": "Blue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         },
         {
           "ClrName": "BlueViolet",
-          "TsEmitName": "blueViolet",
+          "TsEmitName": "BlueViolet",
           "NormalizedSignature": "BlueViolet|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1836,7 +1836,7 @@
         },
         {
           "ClrName": "Brown",
-          "TsEmitName": "brown",
+          "TsEmitName": "Brown",
           "NormalizedSignature": "Brown|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1850,7 +1850,7 @@
         },
         {
           "ClrName": "BurlyWood",
-          "TsEmitName": "burlyWood",
+          "TsEmitName": "BurlyWood",
           "NormalizedSignature": "BurlyWood|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1864,7 +1864,7 @@
         },
         {
           "ClrName": "CadetBlue",
-          "TsEmitName": "cadetBlue",
+          "TsEmitName": "CadetBlue",
           "NormalizedSignature": "CadetBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1878,7 +1878,7 @@
         },
         {
           "ClrName": "Chartreuse",
-          "TsEmitName": "chartreuse",
+          "TsEmitName": "Chartreuse",
           "NormalizedSignature": "Chartreuse|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1892,7 +1892,7 @@
         },
         {
           "ClrName": "Chocolate",
-          "TsEmitName": "chocolate",
+          "TsEmitName": "Chocolate",
           "NormalizedSignature": "Chocolate|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1906,7 +1906,7 @@
         },
         {
           "ClrName": "Coral",
-          "TsEmitName": "coral",
+          "TsEmitName": "Coral",
           "NormalizedSignature": "Coral|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1920,7 +1920,7 @@
         },
         {
           "ClrName": "CornflowerBlue",
-          "TsEmitName": "cornflowerBlue",
+          "TsEmitName": "CornflowerBlue",
           "NormalizedSignature": "CornflowerBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1934,7 +1934,7 @@
         },
         {
           "ClrName": "Cornsilk",
-          "TsEmitName": "cornsilk",
+          "TsEmitName": "Cornsilk",
           "NormalizedSignature": "Cornsilk|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1948,7 +1948,7 @@
         },
         {
           "ClrName": "Crimson",
-          "TsEmitName": "crimson",
+          "TsEmitName": "Crimson",
           "NormalizedSignature": "Crimson|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1962,7 +1962,7 @@
         },
         {
           "ClrName": "Cyan",
-          "TsEmitName": "cyan",
+          "TsEmitName": "Cyan",
           "NormalizedSignature": "Cyan|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1976,7 +1976,7 @@
         },
         {
           "ClrName": "DarkBlue",
-          "TsEmitName": "darkBlue",
+          "TsEmitName": "DarkBlue",
           "NormalizedSignature": "DarkBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1990,7 +1990,7 @@
         },
         {
           "ClrName": "DarkCyan",
-          "TsEmitName": "darkCyan",
+          "TsEmitName": "DarkCyan",
           "NormalizedSignature": "DarkCyan|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2004,7 +2004,7 @@
         },
         {
           "ClrName": "DarkGoldenrod",
-          "TsEmitName": "darkGoldenrod",
+          "TsEmitName": "DarkGoldenrod",
           "NormalizedSignature": "DarkGoldenrod|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2018,7 +2018,7 @@
         },
         {
           "ClrName": "DarkGray",
-          "TsEmitName": "darkGray",
+          "TsEmitName": "DarkGray",
           "NormalizedSignature": "DarkGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2032,7 +2032,7 @@
         },
         {
           "ClrName": "DarkGreen",
-          "TsEmitName": "darkGreen",
+          "TsEmitName": "DarkGreen",
           "NormalizedSignature": "DarkGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2046,7 +2046,7 @@
         },
         {
           "ClrName": "DarkKhaki",
-          "TsEmitName": "darkKhaki",
+          "TsEmitName": "DarkKhaki",
           "NormalizedSignature": "DarkKhaki|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2060,7 +2060,7 @@
         },
         {
           "ClrName": "DarkMagenta",
-          "TsEmitName": "darkMagenta",
+          "TsEmitName": "DarkMagenta",
           "NormalizedSignature": "DarkMagenta|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2074,7 +2074,7 @@
         },
         {
           "ClrName": "DarkOliveGreen",
-          "TsEmitName": "darkOliveGreen",
+          "TsEmitName": "DarkOliveGreen",
           "NormalizedSignature": "DarkOliveGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2088,7 +2088,7 @@
         },
         {
           "ClrName": "DarkOrange",
-          "TsEmitName": "darkOrange",
+          "TsEmitName": "DarkOrange",
           "NormalizedSignature": "DarkOrange|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2102,7 +2102,7 @@
         },
         {
           "ClrName": "DarkOrchid",
-          "TsEmitName": "darkOrchid",
+          "TsEmitName": "DarkOrchid",
           "NormalizedSignature": "DarkOrchid|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2116,7 +2116,7 @@
         },
         {
           "ClrName": "DarkRed",
-          "TsEmitName": "darkRed",
+          "TsEmitName": "DarkRed",
           "NormalizedSignature": "DarkRed|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2130,7 +2130,7 @@
         },
         {
           "ClrName": "DarkSalmon",
-          "TsEmitName": "darkSalmon",
+          "TsEmitName": "DarkSalmon",
           "NormalizedSignature": "DarkSalmon|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2144,7 +2144,7 @@
         },
         {
           "ClrName": "DarkSeaGreen",
-          "TsEmitName": "darkSeaGreen",
+          "TsEmitName": "DarkSeaGreen",
           "NormalizedSignature": "DarkSeaGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2158,7 +2158,7 @@
         },
         {
           "ClrName": "DarkSlateBlue",
-          "TsEmitName": "darkSlateBlue",
+          "TsEmitName": "DarkSlateBlue",
           "NormalizedSignature": "DarkSlateBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2172,7 +2172,7 @@
         },
         {
           "ClrName": "DarkSlateGray",
-          "TsEmitName": "darkSlateGray",
+          "TsEmitName": "DarkSlateGray",
           "NormalizedSignature": "DarkSlateGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2186,7 +2186,7 @@
         },
         {
           "ClrName": "DarkTurquoise",
-          "TsEmitName": "darkTurquoise",
+          "TsEmitName": "DarkTurquoise",
           "NormalizedSignature": "DarkTurquoise|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2200,7 +2200,7 @@
         },
         {
           "ClrName": "DarkViolet",
-          "TsEmitName": "darkViolet",
+          "TsEmitName": "DarkViolet",
           "NormalizedSignature": "DarkViolet|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2214,7 +2214,7 @@
         },
         {
           "ClrName": "DeepPink",
-          "TsEmitName": "deepPink",
+          "TsEmitName": "DeepPink",
           "NormalizedSignature": "DeepPink|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2228,7 +2228,7 @@
         },
         {
           "ClrName": "DeepSkyBlue",
-          "TsEmitName": "deepSkyBlue",
+          "TsEmitName": "DeepSkyBlue",
           "NormalizedSignature": "DeepSkyBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2242,7 +2242,7 @@
         },
         {
           "ClrName": "DimGray",
-          "TsEmitName": "dimGray",
+          "TsEmitName": "DimGray",
           "NormalizedSignature": "DimGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2256,7 +2256,7 @@
         },
         {
           "ClrName": "DodgerBlue",
-          "TsEmitName": "dodgerBlue",
+          "TsEmitName": "DodgerBlue",
           "NormalizedSignature": "DodgerBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2270,7 +2270,7 @@
         },
         {
           "ClrName": "Firebrick",
-          "TsEmitName": "firebrick",
+          "TsEmitName": "Firebrick",
           "NormalizedSignature": "Firebrick|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2284,7 +2284,7 @@
         },
         {
           "ClrName": "FloralWhite",
-          "TsEmitName": "floralWhite",
+          "TsEmitName": "FloralWhite",
           "NormalizedSignature": "FloralWhite|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2298,7 +2298,7 @@
         },
         {
           "ClrName": "ForestGreen",
-          "TsEmitName": "forestGreen",
+          "TsEmitName": "ForestGreen",
           "NormalizedSignature": "ForestGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2312,7 +2312,7 @@
         },
         {
           "ClrName": "Fuchsia",
-          "TsEmitName": "fuchsia",
+          "TsEmitName": "Fuchsia",
           "NormalizedSignature": "Fuchsia|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2326,7 +2326,7 @@
         },
         {
           "ClrName": "Gainsboro",
-          "TsEmitName": "gainsboro",
+          "TsEmitName": "Gainsboro",
           "NormalizedSignature": "Gainsboro|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2340,7 +2340,7 @@
         },
         {
           "ClrName": "GhostWhite",
-          "TsEmitName": "ghostWhite",
+          "TsEmitName": "GhostWhite",
           "NormalizedSignature": "GhostWhite|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2354,7 +2354,7 @@
         },
         {
           "ClrName": "Gold",
-          "TsEmitName": "gold",
+          "TsEmitName": "Gold",
           "NormalizedSignature": "Gold|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2368,7 +2368,7 @@
         },
         {
           "ClrName": "Goldenrod",
-          "TsEmitName": "goldenrod",
+          "TsEmitName": "Goldenrod",
           "NormalizedSignature": "Goldenrod|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2382,7 +2382,7 @@
         },
         {
           "ClrName": "Gray",
-          "TsEmitName": "gray",
+          "TsEmitName": "Gray",
           "NormalizedSignature": "Gray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2396,7 +2396,7 @@
         },
         {
           "ClrName": "Green",
-          "TsEmitName": "green",
+          "TsEmitName": "Green",
           "NormalizedSignature": "Green|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2410,7 +2410,7 @@
         },
         {
           "ClrName": "GreenYellow",
-          "TsEmitName": "greenYellow",
+          "TsEmitName": "GreenYellow",
           "NormalizedSignature": "GreenYellow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2424,7 +2424,7 @@
         },
         {
           "ClrName": "Honeydew",
-          "TsEmitName": "honeydew",
+          "TsEmitName": "Honeydew",
           "NormalizedSignature": "Honeydew|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2438,7 +2438,7 @@
         },
         {
           "ClrName": "HotPink",
-          "TsEmitName": "hotPink",
+          "TsEmitName": "HotPink",
           "NormalizedSignature": "HotPink|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2452,7 +2452,7 @@
         },
         {
           "ClrName": "IndianRed",
-          "TsEmitName": "indianRed",
+          "TsEmitName": "IndianRed",
           "NormalizedSignature": "IndianRed|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2466,7 +2466,7 @@
         },
         {
           "ClrName": "Indigo",
-          "TsEmitName": "indigo",
+          "TsEmitName": "Indigo",
           "NormalizedSignature": "Indigo|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2480,7 +2480,7 @@
         },
         {
           "ClrName": "Ivory",
-          "TsEmitName": "ivory",
+          "TsEmitName": "Ivory",
           "NormalizedSignature": "Ivory|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2494,7 +2494,7 @@
         },
         {
           "ClrName": "Khaki",
-          "TsEmitName": "khaki",
+          "TsEmitName": "Khaki",
           "NormalizedSignature": "Khaki|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2508,7 +2508,7 @@
         },
         {
           "ClrName": "Lavender",
-          "TsEmitName": "lavender",
+          "TsEmitName": "Lavender",
           "NormalizedSignature": "Lavender|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2522,7 +2522,7 @@
         },
         {
           "ClrName": "LavenderBlush",
-          "TsEmitName": "lavenderBlush",
+          "TsEmitName": "LavenderBlush",
           "NormalizedSignature": "LavenderBlush|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2536,7 +2536,7 @@
         },
         {
           "ClrName": "LawnGreen",
-          "TsEmitName": "lawnGreen",
+          "TsEmitName": "LawnGreen",
           "NormalizedSignature": "LawnGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2550,7 +2550,7 @@
         },
         {
           "ClrName": "LemonChiffon",
-          "TsEmitName": "lemonChiffon",
+          "TsEmitName": "LemonChiffon",
           "NormalizedSignature": "LemonChiffon|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2564,7 +2564,7 @@
         },
         {
           "ClrName": "LightBlue",
-          "TsEmitName": "lightBlue",
+          "TsEmitName": "LightBlue",
           "NormalizedSignature": "LightBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2578,7 +2578,7 @@
         },
         {
           "ClrName": "LightCoral",
-          "TsEmitName": "lightCoral",
+          "TsEmitName": "LightCoral",
           "NormalizedSignature": "LightCoral|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2592,7 +2592,7 @@
         },
         {
           "ClrName": "LightCyan",
-          "TsEmitName": "lightCyan",
+          "TsEmitName": "LightCyan",
           "NormalizedSignature": "LightCyan|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2606,7 +2606,7 @@
         },
         {
           "ClrName": "LightGoldenrodYellow",
-          "TsEmitName": "lightGoldenrodYellow",
+          "TsEmitName": "LightGoldenrodYellow",
           "NormalizedSignature": "LightGoldenrodYellow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2620,7 +2620,7 @@
         },
         {
           "ClrName": "LightGreen",
-          "TsEmitName": "lightGreen",
+          "TsEmitName": "LightGreen",
           "NormalizedSignature": "LightGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2634,7 +2634,7 @@
         },
         {
           "ClrName": "LightGray",
-          "TsEmitName": "lightGray",
+          "TsEmitName": "LightGray",
           "NormalizedSignature": "LightGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2648,7 +2648,7 @@
         },
         {
           "ClrName": "LightPink",
-          "TsEmitName": "lightPink",
+          "TsEmitName": "LightPink",
           "NormalizedSignature": "LightPink|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2662,7 +2662,7 @@
         },
         {
           "ClrName": "LightSalmon",
-          "TsEmitName": "lightSalmon",
+          "TsEmitName": "LightSalmon",
           "NormalizedSignature": "LightSalmon|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2676,7 +2676,7 @@
         },
         {
           "ClrName": "LightSeaGreen",
-          "TsEmitName": "lightSeaGreen",
+          "TsEmitName": "LightSeaGreen",
           "NormalizedSignature": "LightSeaGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2690,7 +2690,7 @@
         },
         {
           "ClrName": "LightSkyBlue",
-          "TsEmitName": "lightSkyBlue",
+          "TsEmitName": "LightSkyBlue",
           "NormalizedSignature": "LightSkyBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2704,7 +2704,7 @@
         },
         {
           "ClrName": "LightSlateGray",
-          "TsEmitName": "lightSlateGray",
+          "TsEmitName": "LightSlateGray",
           "NormalizedSignature": "LightSlateGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2718,7 +2718,7 @@
         },
         {
           "ClrName": "LightSteelBlue",
-          "TsEmitName": "lightSteelBlue",
+          "TsEmitName": "LightSteelBlue",
           "NormalizedSignature": "LightSteelBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2732,7 +2732,7 @@
         },
         {
           "ClrName": "LightYellow",
-          "TsEmitName": "lightYellow",
+          "TsEmitName": "LightYellow",
           "NormalizedSignature": "LightYellow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2746,7 +2746,7 @@
         },
         {
           "ClrName": "Lime",
-          "TsEmitName": "lime",
+          "TsEmitName": "Lime",
           "NormalizedSignature": "Lime|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2760,7 +2760,7 @@
         },
         {
           "ClrName": "LimeGreen",
-          "TsEmitName": "limeGreen",
+          "TsEmitName": "LimeGreen",
           "NormalizedSignature": "LimeGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2774,7 +2774,7 @@
         },
         {
           "ClrName": "Linen",
-          "TsEmitName": "linen",
+          "TsEmitName": "Linen",
           "NormalizedSignature": "Linen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2788,7 +2788,7 @@
         },
         {
           "ClrName": "Magenta",
-          "TsEmitName": "magenta",
+          "TsEmitName": "Magenta",
           "NormalizedSignature": "Magenta|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2802,7 +2802,7 @@
         },
         {
           "ClrName": "Maroon",
-          "TsEmitName": "maroon",
+          "TsEmitName": "Maroon",
           "NormalizedSignature": "Maroon|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2816,7 +2816,7 @@
         },
         {
           "ClrName": "MediumAquamarine",
-          "TsEmitName": "mediumAquamarine",
+          "TsEmitName": "MediumAquamarine",
           "NormalizedSignature": "MediumAquamarine|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2830,7 +2830,7 @@
         },
         {
           "ClrName": "MediumBlue",
-          "TsEmitName": "mediumBlue",
+          "TsEmitName": "MediumBlue",
           "NormalizedSignature": "MediumBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2844,7 +2844,7 @@
         },
         {
           "ClrName": "MediumOrchid",
-          "TsEmitName": "mediumOrchid",
+          "TsEmitName": "MediumOrchid",
           "NormalizedSignature": "MediumOrchid|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2858,7 +2858,7 @@
         },
         {
           "ClrName": "MediumPurple",
-          "TsEmitName": "mediumPurple",
+          "TsEmitName": "MediumPurple",
           "NormalizedSignature": "MediumPurple|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2872,7 +2872,7 @@
         },
         {
           "ClrName": "MediumSeaGreen",
-          "TsEmitName": "mediumSeaGreen",
+          "TsEmitName": "MediumSeaGreen",
           "NormalizedSignature": "MediumSeaGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2886,7 +2886,7 @@
         },
         {
           "ClrName": "MediumSlateBlue",
-          "TsEmitName": "mediumSlateBlue",
+          "TsEmitName": "MediumSlateBlue",
           "NormalizedSignature": "MediumSlateBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2900,7 +2900,7 @@
         },
         {
           "ClrName": "MediumSpringGreen",
-          "TsEmitName": "mediumSpringGreen",
+          "TsEmitName": "MediumSpringGreen",
           "NormalizedSignature": "MediumSpringGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2914,7 +2914,7 @@
         },
         {
           "ClrName": "MediumTurquoise",
-          "TsEmitName": "mediumTurquoise",
+          "TsEmitName": "MediumTurquoise",
           "NormalizedSignature": "MediumTurquoise|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2928,7 +2928,7 @@
         },
         {
           "ClrName": "MediumVioletRed",
-          "TsEmitName": "mediumVioletRed",
+          "TsEmitName": "MediumVioletRed",
           "NormalizedSignature": "MediumVioletRed|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2942,7 +2942,7 @@
         },
         {
           "ClrName": "MidnightBlue",
-          "TsEmitName": "midnightBlue",
+          "TsEmitName": "MidnightBlue",
           "NormalizedSignature": "MidnightBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2956,7 +2956,7 @@
         },
         {
           "ClrName": "MintCream",
-          "TsEmitName": "mintCream",
+          "TsEmitName": "MintCream",
           "NormalizedSignature": "MintCream|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2970,7 +2970,7 @@
         },
         {
           "ClrName": "MistyRose",
-          "TsEmitName": "mistyRose",
+          "TsEmitName": "MistyRose",
           "NormalizedSignature": "MistyRose|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2984,7 +2984,7 @@
         },
         {
           "ClrName": "Moccasin",
-          "TsEmitName": "moccasin",
+          "TsEmitName": "Moccasin",
           "NormalizedSignature": "Moccasin|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2998,7 +2998,7 @@
         },
         {
           "ClrName": "NavajoWhite",
-          "TsEmitName": "navajoWhite",
+          "TsEmitName": "NavajoWhite",
           "NormalizedSignature": "NavajoWhite|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3012,7 +3012,7 @@
         },
         {
           "ClrName": "Navy",
-          "TsEmitName": "navy",
+          "TsEmitName": "Navy",
           "NormalizedSignature": "Navy|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3026,7 +3026,7 @@
         },
         {
           "ClrName": "OldLace",
-          "TsEmitName": "oldLace",
+          "TsEmitName": "OldLace",
           "NormalizedSignature": "OldLace|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3040,7 +3040,7 @@
         },
         {
           "ClrName": "Olive",
-          "TsEmitName": "olive",
+          "TsEmitName": "Olive",
           "NormalizedSignature": "Olive|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3054,7 +3054,7 @@
         },
         {
           "ClrName": "OliveDrab",
-          "TsEmitName": "oliveDrab",
+          "TsEmitName": "OliveDrab",
           "NormalizedSignature": "OliveDrab|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3068,7 +3068,7 @@
         },
         {
           "ClrName": "Orange",
-          "TsEmitName": "orange",
+          "TsEmitName": "Orange",
           "NormalizedSignature": "Orange|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3082,7 +3082,7 @@
         },
         {
           "ClrName": "OrangeRed",
-          "TsEmitName": "orangeRed",
+          "TsEmitName": "OrangeRed",
           "NormalizedSignature": "OrangeRed|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3096,7 +3096,7 @@
         },
         {
           "ClrName": "Orchid",
-          "TsEmitName": "orchid",
+          "TsEmitName": "Orchid",
           "NormalizedSignature": "Orchid|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3110,7 +3110,7 @@
         },
         {
           "ClrName": "PaleGoldenrod",
-          "TsEmitName": "paleGoldenrod",
+          "TsEmitName": "PaleGoldenrod",
           "NormalizedSignature": "PaleGoldenrod|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3124,7 +3124,7 @@
         },
         {
           "ClrName": "PaleGreen",
-          "TsEmitName": "paleGreen",
+          "TsEmitName": "PaleGreen",
           "NormalizedSignature": "PaleGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3138,7 +3138,7 @@
         },
         {
           "ClrName": "PaleTurquoise",
-          "TsEmitName": "paleTurquoise",
+          "TsEmitName": "PaleTurquoise",
           "NormalizedSignature": "PaleTurquoise|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3152,7 +3152,7 @@
         },
         {
           "ClrName": "PaleVioletRed",
-          "TsEmitName": "paleVioletRed",
+          "TsEmitName": "PaleVioletRed",
           "NormalizedSignature": "PaleVioletRed|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3166,7 +3166,7 @@
         },
         {
           "ClrName": "PapayaWhip",
-          "TsEmitName": "papayaWhip",
+          "TsEmitName": "PapayaWhip",
           "NormalizedSignature": "PapayaWhip|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3180,7 +3180,7 @@
         },
         {
           "ClrName": "PeachPuff",
-          "TsEmitName": "peachPuff",
+          "TsEmitName": "PeachPuff",
           "NormalizedSignature": "PeachPuff|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3194,7 +3194,7 @@
         },
         {
           "ClrName": "Peru",
-          "TsEmitName": "peru",
+          "TsEmitName": "Peru",
           "NormalizedSignature": "Peru|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3208,7 +3208,7 @@
         },
         {
           "ClrName": "Pink",
-          "TsEmitName": "pink",
+          "TsEmitName": "Pink",
           "NormalizedSignature": "Pink|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3222,7 +3222,7 @@
         },
         {
           "ClrName": "Plum",
-          "TsEmitName": "plum",
+          "TsEmitName": "Plum",
           "NormalizedSignature": "Plum|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3236,7 +3236,7 @@
         },
         {
           "ClrName": "PowderBlue",
-          "TsEmitName": "powderBlue",
+          "TsEmitName": "PowderBlue",
           "NormalizedSignature": "PowderBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3250,7 +3250,7 @@
         },
         {
           "ClrName": "Purple",
-          "TsEmitName": "purple",
+          "TsEmitName": "Purple",
           "NormalizedSignature": "Purple|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3264,7 +3264,7 @@
         },
         {
           "ClrName": "RebeccaPurple",
-          "TsEmitName": "rebeccaPurple",
+          "TsEmitName": "RebeccaPurple",
           "NormalizedSignature": "RebeccaPurple|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3278,7 +3278,7 @@
         },
         {
           "ClrName": "Red",
-          "TsEmitName": "red",
+          "TsEmitName": "Red",
           "NormalizedSignature": "Red|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3292,7 +3292,7 @@
         },
         {
           "ClrName": "RosyBrown",
-          "TsEmitName": "rosyBrown",
+          "TsEmitName": "RosyBrown",
           "NormalizedSignature": "RosyBrown|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3306,7 +3306,7 @@
         },
         {
           "ClrName": "RoyalBlue",
-          "TsEmitName": "royalBlue",
+          "TsEmitName": "RoyalBlue",
           "NormalizedSignature": "RoyalBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3320,7 +3320,7 @@
         },
         {
           "ClrName": "SaddleBrown",
-          "TsEmitName": "saddleBrown",
+          "TsEmitName": "SaddleBrown",
           "NormalizedSignature": "SaddleBrown|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3334,7 +3334,7 @@
         },
         {
           "ClrName": "Salmon",
-          "TsEmitName": "salmon",
+          "TsEmitName": "Salmon",
           "NormalizedSignature": "Salmon|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3348,7 +3348,7 @@
         },
         {
           "ClrName": "SandyBrown",
-          "TsEmitName": "sandyBrown",
+          "TsEmitName": "SandyBrown",
           "NormalizedSignature": "SandyBrown|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3362,7 +3362,7 @@
         },
         {
           "ClrName": "SeaGreen",
-          "TsEmitName": "seaGreen",
+          "TsEmitName": "SeaGreen",
           "NormalizedSignature": "SeaGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3376,7 +3376,7 @@
         },
         {
           "ClrName": "SeaShell",
-          "TsEmitName": "seaShell",
+          "TsEmitName": "SeaShell",
           "NormalizedSignature": "SeaShell|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3390,7 +3390,7 @@
         },
         {
           "ClrName": "Sienna",
-          "TsEmitName": "sienna",
+          "TsEmitName": "Sienna",
           "NormalizedSignature": "Sienna|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3404,7 +3404,7 @@
         },
         {
           "ClrName": "Silver",
-          "TsEmitName": "silver",
+          "TsEmitName": "Silver",
           "NormalizedSignature": "Silver|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3418,7 +3418,7 @@
         },
         {
           "ClrName": "SkyBlue",
-          "TsEmitName": "skyBlue",
+          "TsEmitName": "SkyBlue",
           "NormalizedSignature": "SkyBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3432,7 +3432,7 @@
         },
         {
           "ClrName": "SlateBlue",
-          "TsEmitName": "slateBlue",
+          "TsEmitName": "SlateBlue",
           "NormalizedSignature": "SlateBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3446,7 +3446,7 @@
         },
         {
           "ClrName": "SlateGray",
-          "TsEmitName": "slateGray",
+          "TsEmitName": "SlateGray",
           "NormalizedSignature": "SlateGray|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3460,7 +3460,7 @@
         },
         {
           "ClrName": "Snow",
-          "TsEmitName": "snow",
+          "TsEmitName": "Snow",
           "NormalizedSignature": "Snow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3474,7 +3474,7 @@
         },
         {
           "ClrName": "SpringGreen",
-          "TsEmitName": "springGreen",
+          "TsEmitName": "SpringGreen",
           "NormalizedSignature": "SpringGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3488,7 +3488,7 @@
         },
         {
           "ClrName": "SteelBlue",
-          "TsEmitName": "steelBlue",
+          "TsEmitName": "SteelBlue",
           "NormalizedSignature": "SteelBlue|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3502,7 +3502,7 @@
         },
         {
           "ClrName": "Tan",
-          "TsEmitName": "tan",
+          "TsEmitName": "Tan",
           "NormalizedSignature": "Tan|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3516,7 +3516,7 @@
         },
         {
           "ClrName": "Teal",
-          "TsEmitName": "teal",
+          "TsEmitName": "Teal",
           "NormalizedSignature": "Teal|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3530,7 +3530,7 @@
         },
         {
           "ClrName": "Thistle",
-          "TsEmitName": "thistle",
+          "TsEmitName": "Thistle",
           "NormalizedSignature": "Thistle|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3544,7 +3544,7 @@
         },
         {
           "ClrName": "Tomato",
-          "TsEmitName": "tomato",
+          "TsEmitName": "Tomato",
           "NormalizedSignature": "Tomato|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3558,7 +3558,7 @@
         },
         {
           "ClrName": "Turquoise",
-          "TsEmitName": "turquoise",
+          "TsEmitName": "Turquoise",
           "NormalizedSignature": "Turquoise|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3572,7 +3572,7 @@
         },
         {
           "ClrName": "Violet",
-          "TsEmitName": "violet",
+          "TsEmitName": "Violet",
           "NormalizedSignature": "Violet|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3586,7 +3586,7 @@
         },
         {
           "ClrName": "Wheat",
-          "TsEmitName": "wheat",
+          "TsEmitName": "Wheat",
           "NormalizedSignature": "Wheat|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3600,7 +3600,7 @@
         },
         {
           "ClrName": "White",
-          "TsEmitName": "white",
+          "TsEmitName": "White",
           "NormalizedSignature": "White|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3614,7 +3614,7 @@
         },
         {
           "ClrName": "WhiteSmoke",
-          "TsEmitName": "whiteSmoke",
+          "TsEmitName": "WhiteSmoke",
           "NormalizedSignature": "WhiteSmoke|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3628,7 +3628,7 @@
         },
         {
           "ClrName": "Yellow",
-          "TsEmitName": "yellow",
+          "TsEmitName": "Yellow",
           "NormalizedSignature": "Yellow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3642,7 +3642,7 @@
         },
         {
           "ClrName": "YellowGreen",
-          "TsEmitName": "yellowGreen",
+          "TsEmitName": "YellowGreen",
           "NormalizedSignature": "YellowGreen|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3656,7 +3656,7 @@
         },
         {
           "ClrName": "R",
-          "TsEmitName": "r",
+          "TsEmitName": "R",
           "NormalizedSignature": "R|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3670,7 +3670,7 @@
         },
         {
           "ClrName": "G",
-          "TsEmitName": "g",
+          "TsEmitName": "G",
           "NormalizedSignature": "G|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3684,7 +3684,7 @@
         },
         {
           "ClrName": "B",
-          "TsEmitName": "b",
+          "TsEmitName": "B",
           "NormalizedSignature": "B|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3698,7 +3698,7 @@
         },
         {
           "ClrName": "A",
-          "TsEmitName": "a",
+          "TsEmitName": "A",
           "NormalizedSignature": "A|:System.Byte|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3712,7 +3712,7 @@
         },
         {
           "ClrName": "IsKnownColor",
-          "TsEmitName": "isKnownColor",
+          "TsEmitName": "IsKnownColor",
           "NormalizedSignature": "IsKnownColor|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3726,7 +3726,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3740,7 +3740,7 @@
         },
         {
           "ClrName": "IsNamedColor",
-          "TsEmitName": "isNamedColor",
+          "TsEmitName": "IsNamedColor",
           "NormalizedSignature": "IsNamedColor|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3754,7 +3754,7 @@
         },
         {
           "ClrName": "IsSystemColor",
-          "TsEmitName": "isSystemColor",
+          "TsEmitName": "IsSystemColor",
           "NormalizedSignature": "IsSystemColor|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3768,7 +3768,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3784,7 +3784,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.Color|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -3806,7 +3806,7 @@
       "Methods": [
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Drawing.Point,System.Drawing.Size):System.Drawing.Point|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3820,7 +3820,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract",
+          "TsEmitName": "Subtract",
           "NormalizedSignature": "Subtract|(System.Drawing.Point,System.Drawing.Size):System.Drawing.Point|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3834,7 +3834,7 @@
         },
         {
           "ClrName": "Ceiling",
-          "TsEmitName": "ceiling",
+          "TsEmitName": "Ceiling",
           "NormalizedSignature": "Ceiling|(System.Drawing.PointF):System.Drawing.Point|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3848,7 +3848,7 @@
         },
         {
           "ClrName": "Truncate",
-          "TsEmitName": "truncate",
+          "TsEmitName": "Truncate",
           "NormalizedSignature": "Truncate|(System.Drawing.PointF):System.Drawing.Point|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3862,7 +3862,7 @@
         },
         {
           "ClrName": "Round",
-          "TsEmitName": "round",
+          "TsEmitName": "Round",
           "NormalizedSignature": "Round|(System.Drawing.PointF):System.Drawing.Point|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3876,7 +3876,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3890,7 +3890,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.Point):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3904,7 +3904,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3918,7 +3918,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset",
+          "TsEmitName": "Offset",
           "NormalizedSignature": "Offset|(System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3932,7 +3932,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset2",
+          "TsEmitName": "Offset2",
           "NormalizedSignature": "Offset|(System.Drawing.Point):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3946,7 +3946,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3960,7 +3960,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3977,7 +3977,7 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3991,7 +3991,7 @@
         },
         {
           "ClrName": "X",
-          "TsEmitName": "x",
+          "TsEmitName": "X",
           "NormalizedSignature": "X|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4005,7 +4005,7 @@
         },
         {
           "ClrName": "Y",
-          "TsEmitName": "y",
+          "TsEmitName": "Y",
           "NormalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4021,7 +4021,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.Point|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4059,7 +4059,7 @@
       "Methods": [
         {
           "ClrName": "ToVector2",
-          "TsEmitName": "toVector2",
+          "TsEmitName": "ToVector2",
           "NormalizedSignature": "ToVector2|():System.Numerics.Vector2|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4073,7 +4073,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Drawing.PointF,System.Drawing.Size):System.Drawing.PointF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4087,7 +4087,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract",
+          "TsEmitName": "Subtract",
           "NormalizedSignature": "Subtract|(System.Drawing.PointF,System.Drawing.Size):System.Drawing.PointF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4101,7 +4101,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "NormalizedSignature": "Add|(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4115,7 +4115,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract2",
+          "TsEmitName": "Subtract2",
           "NormalizedSignature": "Subtract|(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4129,7 +4129,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4143,7 +4143,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.PointF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4157,7 +4157,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4171,7 +4171,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4185,7 +4185,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4202,7 +4202,7 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4216,7 +4216,7 @@
         },
         {
           "ClrName": "X",
-          "TsEmitName": "x",
+          "TsEmitName": "X",
           "NormalizedSignature": "X|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4230,7 +4230,7 @@
         },
         {
           "ClrName": "Y",
-          "TsEmitName": "y",
+          "TsEmitName": "Y",
           "NormalizedSignature": "Y|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4246,7 +4246,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.PointF|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4279,7 +4279,7 @@
       "Methods": [
         {
           "ClrName": "FromLTRB",
-          "TsEmitName": "fromLTRB",
+          "TsEmitName": "FromLTRB",
           "NormalizedSignature": "FromLTRB|(System.Int32,System.Int32,System.Int32,System.Int32):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4293,7 +4293,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4307,7 +4307,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.Rectangle):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4321,7 +4321,7 @@
         },
         {
           "ClrName": "Ceiling",
-          "TsEmitName": "ceiling",
+          "TsEmitName": "Ceiling",
           "NormalizedSignature": "Ceiling|(System.Drawing.RectangleF):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4335,7 +4335,7 @@
         },
         {
           "ClrName": "Truncate",
-          "TsEmitName": "truncate",
+          "TsEmitName": "Truncate",
           "NormalizedSignature": "Truncate|(System.Drawing.RectangleF):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4349,7 +4349,7 @@
         },
         {
           "ClrName": "Round",
-          "TsEmitName": "round",
+          "TsEmitName": "Round",
           "NormalizedSignature": "Round|(System.Drawing.RectangleF):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4363,7 +4363,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Int32,System.Int32):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4377,7 +4377,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains2",
+          "TsEmitName": "Contains2",
           "NormalizedSignature": "Contains|(System.Drawing.Point):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4391,7 +4391,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains3",
+          "TsEmitName": "Contains3",
           "NormalizedSignature": "Contains|(System.Drawing.Rectangle):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4405,7 +4405,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4419,7 +4419,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate",
+          "TsEmitName": "Inflate",
           "NormalizedSignature": "Inflate|(System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4433,7 +4433,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate2",
+          "TsEmitName": "Inflate2",
           "NormalizedSignature": "Inflate|(System.Drawing.Size):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4447,7 +4447,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate",
+          "TsEmitName": "Inflate",
           "NormalizedSignature": "Inflate|(System.Drawing.Rectangle,System.Int32,System.Int32):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4461,7 +4461,7 @@
         },
         {
           "ClrName": "Intersect",
-          "TsEmitName": "intersect",
+          "TsEmitName": "Intersect",
           "NormalizedSignature": "Intersect|(System.Drawing.Rectangle):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4475,7 +4475,7 @@
         },
         {
           "ClrName": "Intersect",
-          "TsEmitName": "intersect",
+          "TsEmitName": "Intersect",
           "NormalizedSignature": "Intersect|(System.Drawing.Rectangle,System.Drawing.Rectangle):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4489,7 +4489,7 @@
         },
         {
           "ClrName": "IntersectsWith",
-          "TsEmitName": "intersectsWith",
+          "TsEmitName": "IntersectsWith",
           "NormalizedSignature": "IntersectsWith|(System.Drawing.Rectangle):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4503,7 +4503,7 @@
         },
         {
           "ClrName": "Union",
-          "TsEmitName": "union",
+          "TsEmitName": "Union",
           "NormalizedSignature": "Union|(System.Drawing.Rectangle,System.Drawing.Rectangle):System.Drawing.Rectangle|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4517,7 +4517,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset",
+          "TsEmitName": "Offset",
           "NormalizedSignature": "Offset|(System.Drawing.Point):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4531,7 +4531,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset2",
+          "TsEmitName": "Offset2",
           "NormalizedSignature": "Offset|(System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4545,7 +4545,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4559,7 +4559,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4576,7 +4576,7 @@
       "Properties": [
         {
           "ClrName": "Location",
-          "TsEmitName": "location",
+          "TsEmitName": "Location",
           "NormalizedSignature": "Location|:System.Drawing.Point|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4590,7 +4590,7 @@
         },
         {
           "ClrName": "Size",
-          "TsEmitName": "size",
+          "TsEmitName": "Size",
           "NormalizedSignature": "Size|:System.Drawing.Size|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4604,7 +4604,7 @@
         },
         {
           "ClrName": "X",
-          "TsEmitName": "x",
+          "TsEmitName": "X",
           "NormalizedSignature": "X|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4618,7 +4618,7 @@
         },
         {
           "ClrName": "Y",
-          "TsEmitName": "y",
+          "TsEmitName": "Y",
           "NormalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4632,7 +4632,7 @@
         },
         {
           "ClrName": "Width",
-          "TsEmitName": "width",
+          "TsEmitName": "Width",
           "NormalizedSignature": "Width|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4646,7 +4646,7 @@
         },
         {
           "ClrName": "Height",
-          "TsEmitName": "height",
+          "TsEmitName": "Height",
           "NormalizedSignature": "Height|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4660,7 +4660,7 @@
         },
         {
           "ClrName": "Left",
-          "TsEmitName": "left",
+          "TsEmitName": "Left",
           "NormalizedSignature": "Left|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4674,7 +4674,7 @@
         },
         {
           "ClrName": "Top",
-          "TsEmitName": "top",
+          "TsEmitName": "Top",
           "NormalizedSignature": "Top|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4688,7 +4688,7 @@
         },
         {
           "ClrName": "Right",
-          "TsEmitName": "right",
+          "TsEmitName": "Right",
           "NormalizedSignature": "Right|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4702,7 +4702,7 @@
         },
         {
           "ClrName": "Bottom",
-          "TsEmitName": "bottom",
+          "TsEmitName": "Bottom",
           "NormalizedSignature": "Bottom|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4716,7 +4716,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4732,7 +4732,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.Rectangle|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -4765,7 +4765,7 @@
       "Methods": [
         {
           "ClrName": "ToVector4",
-          "TsEmitName": "toVector4",
+          "TsEmitName": "ToVector4",
           "NormalizedSignature": "ToVector4|():System.Numerics.Vector4|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4779,7 +4779,7 @@
         },
         {
           "ClrName": "FromLTRB",
-          "TsEmitName": "fromLTRB",
+          "TsEmitName": "FromLTRB",
           "NormalizedSignature": "FromLTRB|(System.Single,System.Single,System.Single,System.Single):System.Drawing.RectangleF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4793,7 +4793,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4807,7 +4807,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.RectangleF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4821,7 +4821,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(System.Single,System.Single):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4835,7 +4835,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains2",
+          "TsEmitName": "Contains2",
           "NormalizedSignature": "Contains|(System.Drawing.PointF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4849,7 +4849,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains3",
+          "TsEmitName": "Contains3",
           "NormalizedSignature": "Contains|(System.Drawing.RectangleF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4863,7 +4863,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4877,7 +4877,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate",
+          "TsEmitName": "Inflate",
           "NormalizedSignature": "Inflate|(System.Single,System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4891,7 +4891,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate2",
+          "TsEmitName": "Inflate2",
           "NormalizedSignature": "Inflate|(System.Drawing.SizeF):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4905,7 +4905,7 @@
         },
         {
           "ClrName": "Inflate",
-          "TsEmitName": "inflate",
+          "TsEmitName": "Inflate",
           "NormalizedSignature": "Inflate|(System.Drawing.RectangleF,System.Single,System.Single):System.Drawing.RectangleF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4919,7 +4919,7 @@
         },
         {
           "ClrName": "Intersect",
-          "TsEmitName": "intersect",
+          "TsEmitName": "Intersect",
           "NormalizedSignature": "Intersect|(System.Drawing.RectangleF):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4933,7 +4933,7 @@
         },
         {
           "ClrName": "Intersect",
-          "TsEmitName": "intersect",
+          "TsEmitName": "Intersect",
           "NormalizedSignature": "Intersect|(System.Drawing.RectangleF,System.Drawing.RectangleF):System.Drawing.RectangleF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4947,7 +4947,7 @@
         },
         {
           "ClrName": "IntersectsWith",
-          "TsEmitName": "intersectsWith",
+          "TsEmitName": "IntersectsWith",
           "NormalizedSignature": "IntersectsWith|(System.Drawing.RectangleF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4961,7 +4961,7 @@
         },
         {
           "ClrName": "Union",
-          "TsEmitName": "union",
+          "TsEmitName": "Union",
           "NormalizedSignature": "Union|(System.Drawing.RectangleF,System.Drawing.RectangleF):System.Drawing.RectangleF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4975,7 +4975,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset",
+          "TsEmitName": "Offset",
           "NormalizedSignature": "Offset|(System.Drawing.PointF):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4989,7 +4989,7 @@
         },
         {
           "ClrName": "Offset",
-          "TsEmitName": "offset2",
+          "TsEmitName": "Offset2",
           "NormalizedSignature": "Offset|(System.Single,System.Single):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5003,7 +5003,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5017,7 +5017,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5034,7 +5034,7 @@
       "Properties": [
         {
           "ClrName": "Location",
-          "TsEmitName": "location",
+          "TsEmitName": "Location",
           "NormalizedSignature": "Location|:System.Drawing.PointF|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5048,7 +5048,7 @@
         },
         {
           "ClrName": "Size",
-          "TsEmitName": "size",
+          "TsEmitName": "Size",
           "NormalizedSignature": "Size|:System.Drawing.SizeF|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5062,7 +5062,7 @@
         },
         {
           "ClrName": "X",
-          "TsEmitName": "x",
+          "TsEmitName": "X",
           "NormalizedSignature": "X|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5076,7 +5076,7 @@
         },
         {
           "ClrName": "Y",
-          "TsEmitName": "y",
+          "TsEmitName": "Y",
           "NormalizedSignature": "Y|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5090,7 +5090,7 @@
         },
         {
           "ClrName": "Width",
-          "TsEmitName": "width",
+          "TsEmitName": "Width",
           "NormalizedSignature": "Width|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5104,7 +5104,7 @@
         },
         {
           "ClrName": "Height",
-          "TsEmitName": "height",
+          "TsEmitName": "Height",
           "NormalizedSignature": "Height|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5118,7 +5118,7 @@
         },
         {
           "ClrName": "Left",
-          "TsEmitName": "left",
+          "TsEmitName": "Left",
           "NormalizedSignature": "Left|:System.Single|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5132,7 +5132,7 @@
         },
         {
           "ClrName": "Top",
-          "TsEmitName": "top",
+          "TsEmitName": "Top",
           "NormalizedSignature": "Top|:System.Single|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5146,7 +5146,7 @@
         },
         {
           "ClrName": "Right",
-          "TsEmitName": "right",
+          "TsEmitName": "Right",
           "NormalizedSignature": "Right|:System.Single|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5160,7 +5160,7 @@
         },
         {
           "ClrName": "Bottom",
-          "TsEmitName": "bottom",
+          "TsEmitName": "Bottom",
           "NormalizedSignature": "Bottom|:System.Single|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5174,7 +5174,7 @@
         },
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5190,7 +5190,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.RectangleF|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -5228,7 +5228,7 @@
       "Methods": [
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Drawing.Size,System.Drawing.Size):System.Drawing.Size|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5242,7 +5242,7 @@
         },
         {
           "ClrName": "Ceiling",
-          "TsEmitName": "ceiling",
+          "TsEmitName": "Ceiling",
           "NormalizedSignature": "Ceiling|(System.Drawing.SizeF):System.Drawing.Size|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5256,7 +5256,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract",
+          "TsEmitName": "Subtract",
           "NormalizedSignature": "Subtract|(System.Drawing.Size,System.Drawing.Size):System.Drawing.Size|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5270,7 +5270,7 @@
         },
         {
           "ClrName": "Truncate",
-          "TsEmitName": "truncate",
+          "TsEmitName": "Truncate",
           "NormalizedSignature": "Truncate|(System.Drawing.SizeF):System.Drawing.Size|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5284,7 +5284,7 @@
         },
         {
           "ClrName": "Round",
-          "TsEmitName": "round",
+          "TsEmitName": "Round",
           "NormalizedSignature": "Round|(System.Drawing.SizeF):System.Drawing.Size|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5298,7 +5298,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5312,7 +5312,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.Size):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5326,7 +5326,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5340,7 +5340,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5354,7 +5354,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5371,7 +5371,7 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5385,7 +5385,7 @@
         },
         {
           "ClrName": "Width",
-          "TsEmitName": "width",
+          "TsEmitName": "Width",
           "NormalizedSignature": "Width|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5399,7 +5399,7 @@
         },
         {
           "ClrName": "Height",
-          "TsEmitName": "height",
+          "TsEmitName": "Height",
           "NormalizedSignature": "Height|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5415,7 +5415,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.Size|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -5448,7 +5448,7 @@
       "Methods": [
         {
           "ClrName": "ToVector2",
-          "TsEmitName": "toVector2",
+          "TsEmitName": "ToVector2",
           "NormalizedSignature": "ToVector2|():System.Numerics.Vector2|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5462,7 +5462,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Drawing.SizeF,System.Drawing.SizeF):System.Drawing.SizeF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5476,7 +5476,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract",
+          "TsEmitName": "Subtract",
           "NormalizedSignature": "Subtract|(System.Drawing.SizeF,System.Drawing.SizeF):System.Drawing.SizeF|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5490,7 +5490,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5504,7 +5504,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Drawing.SizeF):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5518,7 +5518,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5532,7 +5532,7 @@
         },
         {
           "ClrName": "ToPointF",
-          "TsEmitName": "toPointF",
+          "TsEmitName": "ToPointF",
           "NormalizedSignature": "ToPointF|():System.Drawing.PointF|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5546,7 +5546,7 @@
         },
         {
           "ClrName": "ToSize",
-          "TsEmitName": "toSize",
+          "TsEmitName": "ToSize",
           "NormalizedSignature": "ToSize|():System.Drawing.Size|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5560,7 +5560,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5574,7 +5574,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5591,7 +5591,7 @@
       "Properties": [
         {
           "ClrName": "IsEmpty",
-          "TsEmitName": "isEmpty",
+          "TsEmitName": "IsEmpty",
           "NormalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5605,7 +5605,7 @@
         },
         {
           "ClrName": "Width",
-          "TsEmitName": "width",
+          "TsEmitName": "Width",
           "NormalizedSignature": "Width|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5619,7 +5619,7 @@
         },
         {
           "ClrName": "Height",
-          "TsEmitName": "height",
+          "TsEmitName": "Height",
           "NormalizedSignature": "Height|:System.Single|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5635,7 +5635,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Drawing.SizeF|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -5678,7 +5678,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom2",
+          "TsEmitName": "CanConvertFrom2",
           "NormalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5692,7 +5692,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5706,7 +5706,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom2",
+          "TsEmitName": "ConvertFrom2",
           "NormalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5720,7 +5720,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5734,7 +5734,7 @@
         },
         {
           "ClrName": "GetStandardValues",
-          "TsEmitName": "getStandardValues2",
+          "TsEmitName": "GetStandardValues2",
           "NormalizedSignature": "GetStandardValues|(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5748,7 +5748,7 @@
         },
         {
           "ClrName": "GetStandardValuesSupported",
-          "TsEmitName": "getStandardValuesSupported2",
+          "TsEmitName": "GetStandardValuesSupported2",
           "NormalizedSignature": "GetStandardValuesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5762,7 +5762,7 @@
         },
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom",
+          "TsEmitName": "CanConvertFrom",
           "NormalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5776,7 +5776,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5790,7 +5790,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom",
+          "TsEmitName": "ConvertFrom",
           "NormalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5804,7 +5804,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5818,7 +5818,7 @@
         },
         {
           "ClrName": "GetStandardValues",
-          "TsEmitName": "getStandardValues",
+          "TsEmitName": "GetStandardValues",
           "NormalizedSignature": "GetStandardValues|():System.Collections.ICollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5832,7 +5832,7 @@
         },
         {
           "ClrName": "GetStandardValuesSupported",
-          "TsEmitName": "getStandardValuesSupported",
+          "TsEmitName": "GetStandardValuesSupported",
           "NormalizedSignature": "GetStandardValuesSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5868,7 +5868,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom2",
+          "TsEmitName": "CanConvertFrom2",
           "NormalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5882,7 +5882,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5896,7 +5896,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom2",
+          "TsEmitName": "ConvertFrom2",
           "NormalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5910,7 +5910,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5924,7 +5924,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance2",
+          "TsEmitName": "CreateInstance2",
           "NormalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5938,7 +5938,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported2",
+          "TsEmitName": "GetCreateInstanceSupported2",
           "NormalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5952,7 +5952,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties3",
+          "TsEmitName": "GetProperties3",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5966,7 +5966,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported2",
+          "TsEmitName": "GetPropertiesSupported2",
           "NormalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5980,7 +5980,7 @@
         },
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom",
+          "TsEmitName": "CanConvertFrom",
           "NormalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -5994,7 +5994,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6008,7 +6008,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom",
+          "TsEmitName": "ConvertFrom",
           "NormalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6022,7 +6022,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6036,7 +6036,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance",
+          "TsEmitName": "CreateInstance",
           "NormalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6050,7 +6050,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported",
+          "TsEmitName": "GetCreateInstanceSupported",
           "NormalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6064,7 +6064,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties",
+          "TsEmitName": "GetProperties",
           "NormalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6078,7 +6078,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties2",
+          "TsEmitName": "GetProperties2",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6092,7 +6092,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported",
+          "TsEmitName": "GetPropertiesSupported",
           "NormalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6128,7 +6128,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom2",
+          "TsEmitName": "CanConvertFrom2",
           "NormalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6142,7 +6142,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6156,7 +6156,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom2",
+          "TsEmitName": "ConvertFrom2",
           "NormalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6170,7 +6170,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6184,7 +6184,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance2",
+          "TsEmitName": "CreateInstance2",
           "NormalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6198,7 +6198,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported2",
+          "TsEmitName": "GetCreateInstanceSupported2",
           "NormalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6212,7 +6212,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties3",
+          "TsEmitName": "GetProperties3",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6226,7 +6226,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported2",
+          "TsEmitName": "GetPropertiesSupported2",
           "NormalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6240,7 +6240,7 @@
         },
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom",
+          "TsEmitName": "CanConvertFrom",
           "NormalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6254,7 +6254,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6268,7 +6268,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom",
+          "TsEmitName": "ConvertFrom",
           "NormalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6282,7 +6282,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6296,7 +6296,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance",
+          "TsEmitName": "CreateInstance",
           "NormalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6310,7 +6310,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported",
+          "TsEmitName": "GetCreateInstanceSupported",
           "NormalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6324,7 +6324,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties",
+          "TsEmitName": "GetProperties",
           "NormalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6338,7 +6338,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties2",
+          "TsEmitName": "GetProperties2",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6352,7 +6352,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported",
+          "TsEmitName": "GetPropertiesSupported",
           "NormalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6388,7 +6388,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom2",
+          "TsEmitName": "CanConvertFrom2",
           "NormalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6402,7 +6402,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6416,7 +6416,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom2",
+          "TsEmitName": "ConvertFrom2",
           "NormalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6430,7 +6430,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6444,7 +6444,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance2",
+          "TsEmitName": "CreateInstance2",
           "NormalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6458,7 +6458,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported2",
+          "TsEmitName": "GetCreateInstanceSupported2",
           "NormalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6472,7 +6472,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties3",
+          "TsEmitName": "GetProperties3",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6486,7 +6486,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported2",
+          "TsEmitName": "GetPropertiesSupported2",
           "NormalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6500,7 +6500,7 @@
         },
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom",
+          "TsEmitName": "CanConvertFrom",
           "NormalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6514,7 +6514,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6528,7 +6528,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom",
+          "TsEmitName": "ConvertFrom",
           "NormalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6542,7 +6542,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6556,7 +6556,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance",
+          "TsEmitName": "CreateInstance",
           "NormalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6570,7 +6570,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported",
+          "TsEmitName": "GetCreateInstanceSupported",
           "NormalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6584,7 +6584,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties",
+          "TsEmitName": "GetProperties",
           "NormalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6598,7 +6598,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties2",
+          "TsEmitName": "GetProperties2",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6612,7 +6612,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported",
+          "TsEmitName": "GetPropertiesSupported",
           "NormalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6648,7 +6648,7 @@
       "Methods": [
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom2",
+          "TsEmitName": "CanConvertFrom2",
           "NormalizedSignature": "CanConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6662,7 +6662,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo2",
+          "TsEmitName": "CanConvertTo2",
           "NormalizedSignature": "CanConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6676,7 +6676,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom2",
+          "TsEmitName": "ConvertFrom2",
           "NormalizedSignature": "ConvertFrom|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6690,7 +6690,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo2",
+          "TsEmitName": "ConvertTo2",
           "NormalizedSignature": "ConvertTo|(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6704,7 +6704,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance2",
+          "TsEmitName": "CreateInstance2",
           "NormalizedSignature": "CreateInstance|(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6718,7 +6718,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported2",
+          "TsEmitName": "GetCreateInstanceSupported2",
           "NormalizedSignature": "GetCreateInstanceSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6732,7 +6732,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties3",
+          "TsEmitName": "GetProperties3",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6746,7 +6746,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported2",
+          "TsEmitName": "GetPropertiesSupported2",
           "NormalizedSignature": "GetPropertiesSupported|(System.ComponentModel.ITypeDescriptorContext):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6760,7 +6760,7 @@
         },
         {
           "ClrName": "CanConvertFrom",
-          "TsEmitName": "canConvertFrom",
+          "TsEmitName": "CanConvertFrom",
           "NormalizedSignature": "CanConvertFrom|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6774,7 +6774,7 @@
         },
         {
           "ClrName": "CanConvertTo",
-          "TsEmitName": "canConvertTo",
+          "TsEmitName": "CanConvertTo",
           "NormalizedSignature": "CanConvertTo|(System.Type):System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6788,7 +6788,7 @@
         },
         {
           "ClrName": "ConvertFrom",
-          "TsEmitName": "convertFrom",
+          "TsEmitName": "ConvertFrom",
           "NormalizedSignature": "ConvertFrom|(System.Object):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6802,7 +6802,7 @@
         },
         {
           "ClrName": "ConvertTo",
-          "TsEmitName": "convertTo",
+          "TsEmitName": "ConvertTo",
           "NormalizedSignature": "ConvertTo|(System.Object,System.Type):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6816,7 +6816,7 @@
         },
         {
           "ClrName": "CreateInstance",
-          "TsEmitName": "createInstance",
+          "TsEmitName": "CreateInstance",
           "NormalizedSignature": "CreateInstance|(System.Collections.IDictionary):System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6830,7 +6830,7 @@
         },
         {
           "ClrName": "GetCreateInstanceSupported",
-          "TsEmitName": "getCreateInstanceSupported",
+          "TsEmitName": "GetCreateInstanceSupported",
           "NormalizedSignature": "GetCreateInstanceSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6844,7 +6844,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties",
+          "TsEmitName": "GetProperties",
           "NormalizedSignature": "GetProperties|(System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6858,7 +6858,7 @@
         },
         {
           "ClrName": "GetProperties",
-          "TsEmitName": "getProperties2",
+          "TsEmitName": "GetProperties2",
           "NormalizedSignature": "GetProperties|(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6872,7 +6872,7 @@
         },
         {
           "ClrName": "GetPropertiesSupported",
-          "TsEmitName": "getPropertiesSupported",
+          "TsEmitName": "GetPropertiesSupported",
           "NormalizedSignature": "GetPropertiesSupported|():System.Boolean|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6908,7 +6908,7 @@
       "Methods": [
         {
           "ClrName": "ToWin32",
-          "TsEmitName": "toWin32",
+          "TsEmitName": "ToWin32",
           "NormalizedSignature": "ToWin32|(System.Drawing.Color):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6922,7 +6922,7 @@
         },
         {
           "ClrName": "ToOle",
-          "TsEmitName": "toOle",
+          "TsEmitName": "ToOle",
           "NormalizedSignature": "ToOle|(System.Drawing.Color):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6936,7 +6936,7 @@
         },
         {
           "ClrName": "FromOle",
-          "TsEmitName": "fromOle",
+          "TsEmitName": "FromOle",
           "NormalizedSignature": "FromOle|(System.Int32):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6950,7 +6950,7 @@
         },
         {
           "ClrName": "FromWin32",
-          "TsEmitName": "fromWin32",
+          "TsEmitName": "FromWin32",
           "NormalizedSignature": "FromWin32|(System.Int32):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6964,7 +6964,7 @@
         },
         {
           "ClrName": "FromHtml",
-          "TsEmitName": "fromHtml",
+          "TsEmitName": "FromHtml",
           "NormalizedSignature": "FromHtml|(System.String):System.Drawing.Color|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6978,7 +6978,7 @@
         },
         {
           "ClrName": "ToHtml",
-          "TsEmitName": "toHtml",
+          "TsEmitName": "ToHtml",
           "NormalizedSignature": "ToHtml|(System.Drawing.Color):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7009,7 +7009,7 @@
       "Properties": [
         {
           "ClrName": "ActiveBorder",
-          "TsEmitName": "activeBorder",
+          "TsEmitName": "ActiveBorder",
           "NormalizedSignature": "ActiveBorder|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7023,7 +7023,7 @@
         },
         {
           "ClrName": "ActiveCaption",
-          "TsEmitName": "activeCaption",
+          "TsEmitName": "ActiveCaption",
           "NormalizedSignature": "ActiveCaption|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7037,7 +7037,7 @@
         },
         {
           "ClrName": "ActiveCaptionText",
-          "TsEmitName": "activeCaptionText",
+          "TsEmitName": "ActiveCaptionText",
           "NormalizedSignature": "ActiveCaptionText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7051,7 +7051,7 @@
         },
         {
           "ClrName": "AppWorkspace",
-          "TsEmitName": "appWorkspace",
+          "TsEmitName": "AppWorkspace",
           "NormalizedSignature": "AppWorkspace|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7065,7 +7065,7 @@
         },
         {
           "ClrName": "ButtonFace",
-          "TsEmitName": "buttonFace",
+          "TsEmitName": "ButtonFace",
           "NormalizedSignature": "ButtonFace|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7079,7 +7079,7 @@
         },
         {
           "ClrName": "ButtonHighlight",
-          "TsEmitName": "buttonHighlight",
+          "TsEmitName": "ButtonHighlight",
           "NormalizedSignature": "ButtonHighlight|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7093,7 +7093,7 @@
         },
         {
           "ClrName": "ButtonShadow",
-          "TsEmitName": "buttonShadow",
+          "TsEmitName": "ButtonShadow",
           "NormalizedSignature": "ButtonShadow|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7107,7 +7107,7 @@
         },
         {
           "ClrName": "Control",
-          "TsEmitName": "control",
+          "TsEmitName": "Control",
           "NormalizedSignature": "Control|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7121,7 +7121,7 @@
         },
         {
           "ClrName": "ControlDark",
-          "TsEmitName": "controlDark",
+          "TsEmitName": "ControlDark",
           "NormalizedSignature": "ControlDark|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7135,7 +7135,7 @@
         },
         {
           "ClrName": "ControlDarkDark",
-          "TsEmitName": "controlDarkDark",
+          "TsEmitName": "ControlDarkDark",
           "NormalizedSignature": "ControlDarkDark|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7149,7 +7149,7 @@
         },
         {
           "ClrName": "ControlLight",
-          "TsEmitName": "controlLight",
+          "TsEmitName": "ControlLight",
           "NormalizedSignature": "ControlLight|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7163,7 +7163,7 @@
         },
         {
           "ClrName": "ControlLightLight",
-          "TsEmitName": "controlLightLight",
+          "TsEmitName": "ControlLightLight",
           "NormalizedSignature": "ControlLightLight|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7177,7 +7177,7 @@
         },
         {
           "ClrName": "ControlText",
-          "TsEmitName": "controlText",
+          "TsEmitName": "ControlText",
           "NormalizedSignature": "ControlText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7191,7 +7191,7 @@
         },
         {
           "ClrName": "Desktop",
-          "TsEmitName": "desktop",
+          "TsEmitName": "Desktop",
           "NormalizedSignature": "Desktop|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7205,7 +7205,7 @@
         },
         {
           "ClrName": "GradientActiveCaption",
-          "TsEmitName": "gradientActiveCaption",
+          "TsEmitName": "GradientActiveCaption",
           "NormalizedSignature": "GradientActiveCaption|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7219,7 +7219,7 @@
         },
         {
           "ClrName": "GradientInactiveCaption",
-          "TsEmitName": "gradientInactiveCaption",
+          "TsEmitName": "GradientInactiveCaption",
           "NormalizedSignature": "GradientInactiveCaption|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7233,7 +7233,7 @@
         },
         {
           "ClrName": "GrayText",
-          "TsEmitName": "grayText",
+          "TsEmitName": "GrayText",
           "NormalizedSignature": "GrayText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7247,7 +7247,7 @@
         },
         {
           "ClrName": "Highlight",
-          "TsEmitName": "highlight",
+          "TsEmitName": "Highlight",
           "NormalizedSignature": "Highlight|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7261,7 +7261,7 @@
         },
         {
           "ClrName": "HighlightText",
-          "TsEmitName": "highlightText",
+          "TsEmitName": "HighlightText",
           "NormalizedSignature": "HighlightText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7275,7 +7275,7 @@
         },
         {
           "ClrName": "HotTrack",
-          "TsEmitName": "hotTrack",
+          "TsEmitName": "HotTrack",
           "NormalizedSignature": "HotTrack|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7289,7 +7289,7 @@
         },
         {
           "ClrName": "InactiveBorder",
-          "TsEmitName": "inactiveBorder",
+          "TsEmitName": "InactiveBorder",
           "NormalizedSignature": "InactiveBorder|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7303,7 +7303,7 @@
         },
         {
           "ClrName": "InactiveCaption",
-          "TsEmitName": "inactiveCaption",
+          "TsEmitName": "InactiveCaption",
           "NormalizedSignature": "InactiveCaption|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7317,7 +7317,7 @@
         },
         {
           "ClrName": "InactiveCaptionText",
-          "TsEmitName": "inactiveCaptionText",
+          "TsEmitName": "InactiveCaptionText",
           "NormalizedSignature": "InactiveCaptionText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7331,7 +7331,7 @@
         },
         {
           "ClrName": "Info",
-          "TsEmitName": "info",
+          "TsEmitName": "Info",
           "NormalizedSignature": "Info|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7345,7 +7345,7 @@
         },
         {
           "ClrName": "InfoText",
-          "TsEmitName": "infoText",
+          "TsEmitName": "InfoText",
           "NormalizedSignature": "InfoText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7359,7 +7359,7 @@
         },
         {
           "ClrName": "Menu",
-          "TsEmitName": "menu",
+          "TsEmitName": "Menu",
           "NormalizedSignature": "Menu|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7373,7 +7373,7 @@
         },
         {
           "ClrName": "MenuBar",
-          "TsEmitName": "menuBar",
+          "TsEmitName": "MenuBar",
           "NormalizedSignature": "MenuBar|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7387,7 +7387,7 @@
         },
         {
           "ClrName": "MenuHighlight",
-          "TsEmitName": "menuHighlight",
+          "TsEmitName": "MenuHighlight",
           "NormalizedSignature": "MenuHighlight|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7401,7 +7401,7 @@
         },
         {
           "ClrName": "MenuText",
-          "TsEmitName": "menuText",
+          "TsEmitName": "MenuText",
           "NormalizedSignature": "MenuText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7415,7 +7415,7 @@
         },
         {
           "ClrName": "ScrollBar",
-          "TsEmitName": "scrollBar",
+          "TsEmitName": "ScrollBar",
           "NormalizedSignature": "ScrollBar|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7429,7 +7429,7 @@
         },
         {
           "ClrName": "Window",
-          "TsEmitName": "window",
+          "TsEmitName": "Window",
           "NormalizedSignature": "Window|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7443,7 +7443,7 @@
         },
         {
           "ClrName": "WindowFrame",
-          "TsEmitName": "windowFrame",
+          "TsEmitName": "WindowFrame",
           "NormalizedSignature": "WindowFrame|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7457,7 +7457,7 @@
         },
         {
           "ClrName": "WindowText",
-          "TsEmitName": "windowText",
+          "TsEmitName": "WindowText",
           "NormalizedSignature": "WindowText|:System.Drawing.Color|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7471,7 +7471,7 @@
         },
         {
           "ClrName": "UseAlternativeColorSet",
-          "TsEmitName": "useAlternativeColorSet",
+          "TsEmitName": "UseAlternativeColorSet",
           "NormalizedSignature": "UseAlternativeColorSet|:System.Boolean|static=true|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

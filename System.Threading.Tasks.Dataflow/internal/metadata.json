@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "Accepted",
-          "TsEmitName": "accepted",
+          "TsEmitName": "Accepted",
           "NormalizedSignature": "Accepted|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Declined",
-          "TsEmitName": "declined",
+          "TsEmitName": "Declined",
           "NormalizedSignature": "Declined|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Postponed",
-          "TsEmitName": "postponed",
+          "TsEmitName": "Postponed",
           "NormalizedSignature": "Postponed|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "NotAvailable",
-          "TsEmitName": "notAvailable",
+          "TsEmitName": "NotAvailable",
           "NormalizedSignature": "NotAvailable|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "ClrName": "DecliningPermanently",
-          "TsEmitName": "decliningPermanently",
+          "TsEmitName": "DecliningPermanently",
           "NormalizedSignature": "DecliningPermanently|System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -80,7 +80,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -94,7 +94,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -110,7 +110,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -139,7 +139,7 @@
       "Methods": [
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -153,7 +153,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -167,7 +167,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -181,7 +181,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -209,7 +209,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -223,7 +223,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -239,7 +239,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -268,7 +268,7 @@
       "Methods": [
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -282,7 +282,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -296,7 +296,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -310,7 +310,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -324,7 +324,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -338,7 +338,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -352,7 +352,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -366,7 +366,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -382,7 +382,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -411,7 +411,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -425,7 +425,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -439,7 +439,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -453,7 +453,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -467,7 +467,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -481,7 +481,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -497,7 +497,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -526,7 +526,7 @@
       "Methods": [
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -554,7 +554,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -570,7 +570,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -599,7 +599,7 @@
       "Methods": [
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Threading.Tasks.Dataflow.DataflowMessageHeader):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -613,7 +613,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -627,7 +627,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -641,7 +641,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -658,7 +658,7 @@
       "Properties": [
         {
           "ClrName": "IsValid",
-          "TsEmitName": "isValid",
+          "TsEmitName": "IsValid",
           "NormalizedSignature": "IsValid|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -672,7 +672,7 @@
         },
         {
           "ClrName": "Id",
-          "TsEmitName": "id",
+          "TsEmitName": "Id",
           "NormalizedSignature": "Id|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -707,7 +707,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -721,7 +721,7 @@
         },
         {
           "ClrName": "Post",
-          "TsEmitName": "post",
+          "TsEmitName": "Post",
           "NormalizedSignature": "Post|(TInput):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -735,7 +735,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -749,7 +749,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -764,7 +764,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -779,7 +779,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -796,7 +796,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -810,7 +810,7 @@
         },
         {
           "ClrName": "InputCount",
-          "TsEmitName": "inputCount",
+          "TsEmitName": "InputCount",
           "NormalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -824,7 +824,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -875,7 +875,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -889,7 +889,7 @@
         },
         {
           "ClrName": "TriggerBatch",
-          "TsEmitName": "triggerBatch",
+          "TsEmitName": "TriggerBatch",
           "NormalizedSignature": "TriggerBatch|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -903,7 +903,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -917,7 +917,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,T[]\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -931,7 +931,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -945,7 +945,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -959,7 +959,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -974,7 +974,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -989,7 +989,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1004,7 +1004,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1019,7 +1019,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1034,7 +1034,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1049,7 +1049,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1064,7 +1064,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1079,7 +1079,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1096,7 +1096,7 @@
       "Properties": [
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1110,7 +1110,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1124,7 +1124,7 @@
         },
         {
           "ClrName": "BatchSize",
-          "TsEmitName": "batchSize",
+          "TsEmitName": "BatchSize",
           "NormalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1138,7 +1138,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1179,7 +1179,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1193,7 +1193,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,Tuple_2\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1207,7 +1207,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1221,7 +1221,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1235,7 +1235,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1249,7 +1249,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1264,7 +1264,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1279,7 +1279,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1294,7 +1294,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1309,7 +1309,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1324,7 +1324,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1339,7 +1339,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1354,7 +1354,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1371,7 +1371,7 @@
       "Properties": [
         {
           "ClrName": "BatchSize",
-          "TsEmitName": "batchSize",
+          "TsEmitName": "BatchSize",
           "NormalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1385,7 +1385,7 @@
         },
         {
           "ClrName": "Target1",
-          "TsEmitName": "target1",
+          "TsEmitName": "Target1",
           "NormalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1399,7 +1399,7 @@
         },
         {
           "ClrName": "Target2",
-          "TsEmitName": "target2",
+          "TsEmitName": "Target2",
           "NormalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1413,7 +1413,7 @@
         },
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1427,7 +1427,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1441,7 +1441,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1482,7 +1482,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1496,7 +1496,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,Tuple_3\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1510,7 +1510,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1524,7 +1524,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1538,7 +1538,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1552,7 +1552,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1567,7 +1567,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1582,7 +1582,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1597,7 +1597,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1612,7 +1612,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1627,7 +1627,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1642,7 +1642,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1657,7 +1657,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1674,7 +1674,7 @@
       "Properties": [
         {
           "ClrName": "BatchSize",
-          "TsEmitName": "batchSize",
+          "TsEmitName": "BatchSize",
           "NormalizedSignature": "BatchSize|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1688,7 +1688,7 @@
         },
         {
           "ClrName": "Target1",
-          "TsEmitName": "target1",
+          "TsEmitName": "Target1",
           "NormalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1702,7 +1702,7 @@
         },
         {
           "ClrName": "Target2",
-          "TsEmitName": "target2",
+          "TsEmitName": "Target2",
           "NormalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1716,7 +1716,7 @@
         },
         {
           "ClrName": "Target3",
-          "TsEmitName": "target3",
+          "TsEmitName": "Target3",
           "NormalizedSignature": "Target3|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1730,7 +1730,7 @@
         },
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1744,7 +1744,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1758,7 +1758,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1799,7 +1799,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1813,7 +1813,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1827,7 +1827,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1841,7 +1841,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1855,7 +1855,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1870,7 +1870,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1885,7 +1885,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1900,7 +1900,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1915,7 +1915,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1930,7 +1930,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1945,7 +1945,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1960,7 +1960,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1975,7 +1975,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1992,7 +1992,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2006,7 +2006,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2047,7 +2047,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2061,7 +2061,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2075,7 +2075,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2089,7 +2089,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2103,7 +2103,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2117,7 +2117,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2132,7 +2132,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2147,7 +2147,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2162,7 +2162,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2177,7 +2177,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2192,7 +2192,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2207,7 +2207,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2222,7 +2222,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2237,7 +2237,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2254,7 +2254,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2268,7 +2268,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2282,7 +2282,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2324,7 +2324,7 @@
       "Properties": [
         {
           "ClrName": "TaskScheduler",
-          "TsEmitName": "taskScheduler",
+          "TsEmitName": "TaskScheduler",
           "NormalizedSignature": "TaskScheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2338,7 +2338,7 @@
         },
         {
           "ClrName": "CancellationToken",
-          "TsEmitName": "cancellationToken",
+          "TsEmitName": "CancellationToken",
           "NormalizedSignature": "CancellationToken|:System.Threading.CancellationToken|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2352,7 +2352,7 @@
         },
         {
           "ClrName": "MaxMessagesPerTask",
-          "TsEmitName": "maxMessagesPerTask",
+          "TsEmitName": "MaxMessagesPerTask",
           "NormalizedSignature": "MaxMessagesPerTask|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2366,7 +2366,7 @@
         },
         {
           "ClrName": "BoundedCapacity",
-          "TsEmitName": "boundedCapacity",
+          "TsEmitName": "BoundedCapacity",
           "NormalizedSignature": "BoundedCapacity|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2380,7 +2380,7 @@
         },
         {
           "ClrName": "NameFormat",
-          "TsEmitName": "nameFormat",
+          "TsEmitName": "NameFormat",
           "NormalizedSignature": "NameFormat|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2394,7 +2394,7 @@
         },
         {
           "ClrName": "EnsureOrdered",
-          "TsEmitName": "ensureOrdered",
+          "TsEmitName": "EnsureOrdered",
           "NormalizedSignature": "EnsureOrdered|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2410,7 +2410,7 @@
       "Fields": [
         {
           "ClrName": "Unbounded",
-          "TsEmitName": "unbounded",
+          "TsEmitName": "Unbounded",
           "NormalizedSignature": "Unbounded|System.Int32|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -2439,7 +2439,7 @@
       "Properties": [
         {
           "ClrName": "PropagateCompletion",
-          "TsEmitName": "propagateCompletion",
+          "TsEmitName": "PropagateCompletion",
           "NormalizedSignature": "PropagateCompletion|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2453,7 +2453,7 @@
         },
         {
           "ClrName": "MaxMessages",
-          "TsEmitName": "maxMessages",
+          "TsEmitName": "MaxMessages",
           "NormalizedSignature": "MaxMessages|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2467,7 +2467,7 @@
         },
         {
           "ClrName": "Append",
-          "TsEmitName": "append",
+          "TsEmitName": "Append",
           "NormalizedSignature": "Append|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2503,7 +2503,7 @@
       "Properties": [
         {
           "ClrName": "MaxDegreeOfParallelism",
-          "TsEmitName": "maxDegreeOfParallelism",
+          "TsEmitName": "MaxDegreeOfParallelism",
           "NormalizedSignature": "MaxDegreeOfParallelism|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2517,7 +2517,7 @@
         },
         {
           "ClrName": "SingleProducerConstrained",
-          "TsEmitName": "singleProducerConstrained",
+          "TsEmitName": "SingleProducerConstrained",
           "NormalizedSignature": "SingleProducerConstrained|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2553,7 +2553,7 @@
       "Properties": [
         {
           "ClrName": "Greedy",
-          "TsEmitName": "greedy",
+          "TsEmitName": "Greedy",
           "NormalizedSignature": "Greedy|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2567,7 +2567,7 @@
         },
         {
           "ClrName": "MaxNumberOfGroups",
-          "TsEmitName": "maxNumberOfGroups",
+          "TsEmitName": "MaxNumberOfGroups",
           "NormalizedSignature": "MaxNumberOfGroups|:System.Int64|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2602,7 +2602,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2616,7 +2616,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,Tuple_2\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2630,7 +2630,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2644,7 +2644,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2658,7 +2658,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2672,7 +2672,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2687,7 +2687,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2702,7 +2702,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2717,7 +2717,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2732,7 +2732,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2747,7 +2747,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2762,7 +2762,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2777,7 +2777,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2794,7 +2794,7 @@
       "Properties": [
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2808,7 +2808,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2822,7 +2822,7 @@
         },
         {
           "ClrName": "Target1",
-          "TsEmitName": "target1",
+          "TsEmitName": "Target1",
           "NormalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2836,7 +2836,7 @@
         },
         {
           "ClrName": "Target2",
-          "TsEmitName": "target2",
+          "TsEmitName": "Target2",
           "NormalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2850,7 +2850,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2891,7 +2891,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2905,7 +2905,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,Tuple_3\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2919,7 +2919,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2933,7 +2933,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2947,7 +2947,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2961,7 +2961,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2976,7 +2976,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2991,7 +2991,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3006,7 +3006,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3021,7 +3021,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3036,7 +3036,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3051,7 +3051,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3066,7 +3066,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3083,7 +3083,7 @@
       "Properties": [
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3111,7 +3111,7 @@
         },
         {
           "ClrName": "Target1",
-          "TsEmitName": "target1",
+          "TsEmitName": "Target1",
           "NormalizedSignature": "Target1|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3125,7 +3125,7 @@
         },
         {
           "ClrName": "Target2",
-          "TsEmitName": "target2",
+          "TsEmitName": "Target2",
           "NormalizedSignature": "Target2|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3139,7 +3139,7 @@
         },
         {
           "ClrName": "Target3",
-          "TsEmitName": "target3",
+          "TsEmitName": "Target3",
           "NormalizedSignature": "Target3|:ITargetBlock_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3153,7 +3153,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3194,7 +3194,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3208,7 +3208,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3222,7 +3222,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3236,7 +3236,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3250,7 +3250,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3264,7 +3264,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3279,7 +3279,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3294,7 +3294,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3309,7 +3309,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3324,7 +3324,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3339,7 +3339,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3354,7 +3354,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3369,7 +3369,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3384,7 +3384,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3401,7 +3401,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3415,7 +3415,7 @@
         },
         {
           "ClrName": "InputCount",
-          "TsEmitName": "inputCount",
+          "TsEmitName": "InputCount",
           "NormalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3429,7 +3429,7 @@
         },
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3443,7 +3443,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3484,7 +3484,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3498,7 +3498,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3512,7 +3512,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3526,7 +3526,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3540,7 +3540,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3554,7 +3554,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3569,7 +3569,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3584,7 +3584,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3599,7 +3599,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3614,7 +3614,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3629,7 +3629,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3644,7 +3644,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3659,7 +3659,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3674,7 +3674,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll$view",
+          "TsEmitName": "TryReceiveAll$view",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3691,7 +3691,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3705,7 +3705,7 @@
         },
         {
           "ClrName": "InputCount",
-          "TsEmitName": "inputCount",
+          "TsEmitName": "InputCount",
           "NormalizedSignature": "InputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3719,7 +3719,7 @@
         },
         {
           "ClrName": "OutputCount",
-          "TsEmitName": "outputCount",
+          "TsEmitName": "OutputCount",
           "NormalizedSignature": "OutputCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3733,7 +3733,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3774,7 +3774,7 @@
       "Methods": [
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3788,7 +3788,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(Predicate_1,T\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3802,7 +3802,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3816,7 +3816,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3830,7 +3830,7 @@
         },
         {
           "ClrName": "OfferMessage",
-          "TsEmitName": "offerMessage",
+          "TsEmitName": "OfferMessage",
           "NormalizedSignature": "OfferMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,TInput,ISourceBlock_1,System.Boolean):System.Threading.Tasks.Dataflow.DataflowMessageStatus|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3845,7 +3845,7 @@
         },
         {
           "ClrName": "Fault",
-          "TsEmitName": "fault",
+          "TsEmitName": "Fault",
           "NormalizedSignature": "Fault|(System.Exception):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3860,7 +3860,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo$view",
+          "TsEmitName": "LinkTo$view",
           "NormalizedSignature": "LinkTo|(ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions):System.IDisposable|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3875,7 +3875,7 @@
         },
         {
           "ClrName": "ConsumeMessage",
-          "TsEmitName": "consumeMessage",
+          "TsEmitName": "ConsumeMessage",
           "NormalizedSignature": "ConsumeMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1,System.Boolean\u0026):TOutput|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3890,7 +3890,7 @@
         },
         {
           "ClrName": "ReserveMessage",
-          "TsEmitName": "reserveMessage",
+          "TsEmitName": "ReserveMessage",
           "NormalizedSignature": "ReserveMessage|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3905,7 +3905,7 @@
         },
         {
           "ClrName": "ReleaseReservation",
-          "TsEmitName": "releaseReservation",
+          "TsEmitName": "ReleaseReservation",
           "NormalizedSignature": "ReleaseReservation|(System.Threading.Tasks.Dataflow.DataflowMessageHeader,ITargetBlock_1):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3920,7 +3920,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive$view",
+          "TsEmitName": "TryReceive$view",
           "NormalizedSignature": "TryReceive|(Predicate_1,TOutput\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3935,7 +3935,7 @@
         },
         {
           "ClrName": "TryReceiveAll",
-          "TsEmitName": "tryReceiveAll",
+          "TsEmitName": "TryReceiveAll",
           "NormalizedSignature": "TryReceiveAll|(IList_1\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3950,7 +3950,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete$view",
+          "TsEmitName": "Complete$view",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3967,7 +3967,7 @@
       "Properties": [
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion",
+          "TsEmitName": "Completion",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3981,7 +3981,7 @@
         },
         {
           "ClrName": "Completion",
-          "TsEmitName": "completion$view",
+          "TsEmitName": "Completion$view",
           "NormalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4022,7 +4022,7 @@
       "Methods": [
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo",
+          "TsEmitName": "LinkTo",
           "NormalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1):System.IDisposable|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4036,7 +4036,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo2",
+          "TsEmitName": "LinkTo2",
           "NormalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4050,7 +4050,7 @@
         },
         {
           "ClrName": "LinkTo",
-          "TsEmitName": "linkTo3",
+          "TsEmitName": "LinkTo3",
           "NormalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4064,7 +4064,7 @@
         },
         {
           "ClrName": "Post",
-          "TsEmitName": "post",
+          "TsEmitName": "Post",
           "NormalizedSignature": "Post|(ITargetBlock_1,TInput):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4078,7 +4078,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync",
+          "TsEmitName": "SendAsync",
           "NormalizedSignature": "SendAsync|(ITargetBlock_1,TInput):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4092,7 +4092,7 @@
         },
         {
           "ClrName": "SendAsync",
-          "TsEmitName": "sendAsync2",
+          "TsEmitName": "SendAsync2",
           "NormalizedSignature": "SendAsync|(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4106,7 +4106,7 @@
         },
         {
           "ClrName": "TryReceive",
-          "TsEmitName": "tryReceive",
+          "TsEmitName": "TryReceive",
           "NormalizedSignature": "TryReceive|(IReceivableSourceBlock_1,TOutput\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4120,7 +4120,7 @@
         },
         {
           "ClrName": "ReceiveAsync",
-          "TsEmitName": "receiveAsync",
+          "TsEmitName": "ReceiveAsync",
           "NormalizedSignature": "ReceiveAsync|(ISourceBlock_1):Task_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4134,7 +4134,7 @@
         },
         {
           "ClrName": "ReceiveAsync",
-          "TsEmitName": "receiveAsync2",
+          "TsEmitName": "ReceiveAsync2",
           "NormalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.Threading.CancellationToken):Task_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4148,7 +4148,7 @@
         },
         {
           "ClrName": "ReceiveAsync",
-          "TsEmitName": "receiveAsync3",
+          "TsEmitName": "ReceiveAsync3",
           "NormalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan):Task_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4162,7 +4162,7 @@
         },
         {
           "ClrName": "ReceiveAsync",
-          "TsEmitName": "receiveAsync4",
+          "TsEmitName": "ReceiveAsync4",
           "NormalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4176,7 +4176,7 @@
         },
         {
           "ClrName": "Receive",
-          "TsEmitName": "receive",
+          "TsEmitName": "Receive",
           "NormalizedSignature": "Receive|(ISourceBlock_1):TOutput|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4190,7 +4190,7 @@
         },
         {
           "ClrName": "Receive",
-          "TsEmitName": "receive2",
+          "TsEmitName": "Receive2",
           "NormalizedSignature": "Receive|(ISourceBlock_1,System.Threading.CancellationToken):TOutput|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4204,7 +4204,7 @@
         },
         {
           "ClrName": "Receive",
-          "TsEmitName": "receive3",
+          "TsEmitName": "Receive3",
           "NormalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan):TOutput|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4218,7 +4218,7 @@
         },
         {
           "ClrName": "Receive",
-          "TsEmitName": "receive4",
+          "TsEmitName": "Receive4",
           "NormalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4232,7 +4232,7 @@
         },
         {
           "ClrName": "OutputAvailableAsync",
-          "TsEmitName": "outputAvailableAsync",
+          "TsEmitName": "OutputAvailableAsync",
           "NormalizedSignature": "OutputAvailableAsync|(ISourceBlock_1):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4246,7 +4246,7 @@
         },
         {
           "ClrName": "OutputAvailableAsync",
-          "TsEmitName": "outputAvailableAsync2",
+          "TsEmitName": "OutputAvailableAsync2",
           "NormalizedSignature": "OutputAvailableAsync|(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4260,7 +4260,7 @@
         },
         {
           "ClrName": "Encapsulate",
-          "TsEmitName": "encapsulate",
+          "TsEmitName": "Encapsulate",
           "NormalizedSignature": "Encapsulate|(ITargetBlock_1,ISourceBlock_1):IPropagatorBlock_2|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4274,7 +4274,7 @@
         },
         {
           "ClrName": "Choose",
-          "TsEmitName": "choose",
+          "TsEmitName": "Choose",
           "NormalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4288,7 +4288,7 @@
         },
         {
           "ClrName": "Choose",
-          "TsEmitName": "choose2",
+          "TsEmitName": "Choose2",
           "NormalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4302,7 +4302,7 @@
         },
         {
           "ClrName": "Choose",
-          "TsEmitName": "choose3",
+          "TsEmitName": "Choose3",
           "NormalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4316,7 +4316,7 @@
         },
         {
           "ClrName": "Choose",
-          "TsEmitName": "choose4",
+          "TsEmitName": "Choose4",
           "NormalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4330,7 +4330,7 @@
         },
         {
           "ClrName": "AsObservable",
-          "TsEmitName": "asObservable",
+          "TsEmitName": "AsObservable",
           "NormalizedSignature": "AsObservable|(ISourceBlock_1):IObservable_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4344,7 +4344,7 @@
         },
         {
           "ClrName": "AsObserver",
-          "TsEmitName": "asObserver",
+          "TsEmitName": "AsObserver",
           "NormalizedSignature": "AsObserver|(ITargetBlock_1):IObserver_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4358,7 +4358,7 @@
         },
         {
           "ClrName": "NullTarget",
-          "TsEmitName": "nullTarget",
+          "TsEmitName": "NullTarget",
           "NormalizedSignature": "NullTarget|():ITargetBlock_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4372,7 +4372,7 @@
         },
         {
           "ClrName": "ReceiveAllAsync",
-          "TsEmitName": "receiveAllAsync",
+          "TsEmitName": "ReceiveAllAsync",
           "NormalizedSignature": "ReceiveAllAsync|(IReceivableSourceBlock_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

@@ -55,284 +55,284 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AcceptRejectRule {
-    none = 0,
-    cascade = 1
+    None = 0,
+    Cascade = 1
 }
 
 
 export enum CommandBehavior {
-    default_ = 0,
-    singleResult = 1,
-    schemaOnly = 2,
-    keyInfo = 4,
-    singleRow = 8,
-    sequentialAccess = 16,
-    closeConnection = 32
+    Default = 0,
+    SingleResult = 1,
+    SchemaOnly = 2,
+    KeyInfo = 4,
+    SingleRow = 8,
+    SequentialAccess = 16,
+    CloseConnection = 32
 }
 
 
 export enum CommandType {
-    text = 1,
-    storedProcedure = 4,
-    tableDirect = 512
+    Text = 1,
+    StoredProcedure = 4,
+    TableDirect = 512
 }
 
 
 export enum ConflictOption {
-    compareAllSearchableValues = 1,
-    compareRowVersion = 2,
-    overwriteChanges = 3
+    CompareAllSearchableValues = 1,
+    CompareRowVersion = 2,
+    OverwriteChanges = 3
 }
 
 
 export enum ConnectionState {
-    closed = 0,
-    open = 1,
-    connecting = 2,
-    executing = 4,
-    fetching = 8,
-    broken = 16
+    Closed = 0,
+    Open = 1,
+    Connecting = 2,
+    Executing = 4,
+    Fetching = 8,
+    Broken = 16
 }
 
 
 export enum DataRowAction {
-    nothing = 0,
-    delete_ = 1,
-    change = 2,
-    rollback = 4,
-    commit = 8,
-    add = 16,
-    changeOriginal = 32,
-    changeCurrentAndOriginal = 64
+    Nothing = 0,
+    Delete = 1,
+    Change = 2,
+    Rollback = 4,
+    Commit = 8,
+    Add = 16,
+    ChangeOriginal = 32,
+    ChangeCurrentAndOriginal = 64
 }
 
 
 export enum DataRowState {
-    detached = 1,
-    unchanged = 2,
-    added = 4,
-    deleted = 8,
-    modified = 16
+    Detached = 1,
+    Unchanged = 2,
+    Added = 4,
+    Deleted = 8,
+    Modified = 16
 }
 
 
 export enum DataRowVersion {
-    original = 256,
-    current = 512,
-    proposed = 1024,
-    default_ = 1536
+    Original = 256,
+    Current = 512,
+    Proposed = 1024,
+    Default = 1536
 }
 
 
 export enum DataSetDateTime {
-    local = 1,
-    unspecified = 2,
-    unspecifiedLocal = 3,
-    utc = 4
+    Local = 1,
+    Unspecified = 2,
+    UnspecifiedLocal = 3,
+    Utc = 4
 }
 
 
 export enum DataViewRowState {
-    none = 0,
-    unchanged = 2,
-    added = 4,
-    deleted = 8,
-    modifiedCurrent = 16,
-    modifiedOriginal = 32,
-    originalRows = 42,
-    currentRows = 22
+    None = 0,
+    Unchanged = 2,
+    Added = 4,
+    Deleted = 8,
+    ModifiedCurrent = 16,
+    ModifiedOriginal = 32,
+    OriginalRows = 42,
+    CurrentRows = 22
 }
 
 
 export enum DbType {
-    ansiString = 0,
-    binary = 1,
-    byte = 2,
-    boolean_ = 3,
-    currency = 4,
-    date = 5,
-    dateTime = 6,
-    decimal = 7,
-    double = 8,
-    guid = 9,
-    int16 = 10,
-    int32 = 11,
-    int64 = 12,
-    object_ = 13,
-    sByte = 14,
-    single = 15,
-    string_ = 16,
-    time = 17,
-    uInt16 = 18,
-    uInt32 = 19,
-    uInt64 = 20,
-    varNumeric = 21,
-    ansiStringFixedLength = 22,
-    stringFixedLength = 23,
-    xml = 25,
-    dateTime2 = 26,
-    dateTimeOffset = 27
+    AnsiString = 0,
+    Binary = 1,
+    Byte = 2,
+    Boolean = 3,
+    Currency = 4,
+    Date = 5,
+    DateTime = 6,
+    Decimal = 7,
+    Double = 8,
+    Guid = 9,
+    Int16 = 10,
+    Int32 = 11,
+    Int64 = 12,
+    Object = 13,
+    SByte = 14,
+    Single = 15,
+    String = 16,
+    Time = 17,
+    UInt16 = 18,
+    UInt32 = 19,
+    UInt64 = 20,
+    VarNumeric = 21,
+    AnsiStringFixedLength = 22,
+    StringFixedLength = 23,
+    Xml = 25,
+    DateTime2 = 26,
+    DateTimeOffset = 27
 }
 
 
 export enum IsolationLevel {
-    unspecified = -1,
-    chaos = 16,
-    readUncommitted = 256,
-    readCommitted = 4096,
-    repeatableRead = 65536,
-    serializable = 1048576,
-    snapshot = 16777216
+    Unspecified = -1,
+    Chaos = 16,
+    ReadUncommitted = 256,
+    ReadCommitted = 4096,
+    RepeatableRead = 65536,
+    Serializable = 1048576,
+    Snapshot = 16777216
 }
 
 
 export enum KeyRestrictionBehavior {
-    allowOnly = 0,
-    preventUsage = 1
+    AllowOnly = 0,
+    PreventUsage = 1
 }
 
 
 export enum LoadOption {
-    overwriteChanges = 1,
-    preserveChanges = 2,
-    upsert = 3
+    OverwriteChanges = 1,
+    PreserveChanges = 2,
+    Upsert = 3
 }
 
 
 export enum MappingType {
-    element = 1,
-    attribute = 2,
-    simpleContent = 3,
-    hidden = 4
+    Element = 1,
+    Attribute = 2,
+    SimpleContent = 3,
+    Hidden = 4
 }
 
 
 export enum MissingMappingAction {
-    passthrough = 1,
-    ignore = 2,
-    error = 3
+    Passthrough = 1,
+    Ignore = 2,
+    Error = 3
 }
 
 
 export enum MissingSchemaAction {
-    add = 1,
-    ignore = 2,
-    error = 3,
-    addWithKey = 4
+    Add = 1,
+    Ignore = 2,
+    Error = 3,
+    AddWithKey = 4
 }
 
 
 export enum ParameterDirection {
-    input = 1,
-    output = 2,
-    inputOutput = 3,
-    returnValue = 6
+    Input = 1,
+    Output = 2,
+    InputOutput = 3,
+    ReturnValue = 6
 }
 
 
 export enum Rule {
-    none = 0,
-    cascade = 1,
-    setNull = 2,
-    setDefault = 3
+    None = 0,
+    Cascade = 1,
+    SetNull = 2,
+    SetDefault = 3
 }
 
 
 export enum SchemaSerializationMode {
-    includeSchema = 1,
-    excludeSchema = 2
+    IncludeSchema = 1,
+    ExcludeSchema = 2
 }
 
 
 export enum SchemaType {
-    source = 1,
-    mapped = 2
+    Source = 1,
+    Mapped = 2
 }
 
 
 export enum SerializationFormat {
-    xml = 0,
-    binary = 1
+    Xml = 0,
+    Binary = 1
 }
 
 
 export enum SqlDbType {
-    bigInt = 0,
-    binary = 1,
-    bit = 2,
-    char = 3,
-    dateTime = 4,
-    decimal = 5,
-    float = 6,
-    image = 7,
-    int = 8,
-    money = 9,
-    nChar = 10,
-    nText = 11,
-    nVarChar = 12,
-    real = 13,
-    uniqueIdentifier = 14,
-    smallDateTime = 15,
-    smallInt = 16,
-    smallMoney = 17,
-    text = 18,
-    timestamp = 19,
-    tinyInt = 20,
-    varBinary = 21,
-    varChar = 22,
-    variant = 23,
-    xml = 25,
-    udt = 29,
-    structured = 30,
-    date = 31,
-    time = 32,
-    dateTime2 = 33,
-    dateTimeOffset = 34,
-    json = 35,
-    vector = 36
+    BigInt = 0,
+    Binary = 1,
+    Bit = 2,
+    Char = 3,
+    DateTime = 4,
+    Decimal = 5,
+    Float = 6,
+    Image = 7,
+    Int = 8,
+    Money = 9,
+    NChar = 10,
+    NText = 11,
+    NVarChar = 12,
+    Real = 13,
+    UniqueIdentifier = 14,
+    SmallDateTime = 15,
+    SmallInt = 16,
+    SmallMoney = 17,
+    Text = 18,
+    Timestamp = 19,
+    TinyInt = 20,
+    VarBinary = 21,
+    VarChar = 22,
+    Variant = 23,
+    Xml = 25,
+    Udt = 29,
+    Structured = 30,
+    Date = 31,
+    Time = 32,
+    DateTime2 = 33,
+    DateTimeOffset = 34,
+    Json = 35,
+    Vector = 36
 }
 
 
 export enum StatementType {
-    select = 0,
-    insert = 1,
-    update = 2,
-    delete_ = 3,
-    batch = 4
+    Select = 0,
+    Insert = 1,
+    Update = 2,
+    Delete = 3,
+    Batch = 4
 }
 
 
 export enum UpdateRowSource {
-    none = 0,
-    outputParameters = 1,
-    firstReturnedRecord = 2,
-    both = 3
+    None = 0,
+    OutputParameters = 1,
+    FirstReturnedRecord = 2,
+    Both = 3
 }
 
 
 export enum UpdateStatus {
-    continue_ = 0,
-    errorsOccurred = 1,
-    skipCurrentRow = 2,
-    skipAllRemainingRows = 3
+    Continue = 0,
+    ErrorsOccurred = 1,
+    SkipCurrentRow = 2,
+    SkipAllRemainingRows = 3
 }
 
 
 export enum XmlReadMode {
-    auto = 0,
-    readSchema = 1,
-    ignoreSchema = 2,
-    inferSchema = 3,
-    diffGram = 4,
-    fragment = 5,
-    inferTypedSchema = 6
+    Auto = 0,
+    ReadSchema = 1,
+    IgnoreSchema = 2,
+    InferSchema = 3,
+    DiffGram = 4,
+    Fragment = 5,
+    InferTypedSchema = 6
 }
 
 
 export enum XmlWriteMode {
-    writeSchema = 0,
-    ignoreSchema = 1,
-    diffGram = 2
+    WriteSchema = 0,
+    IgnoreSchema = 1,
+    DiffGram = 2
 }
 
 
@@ -598,34 +598,34 @@ export interface ITableMappingCollection$instance {
 export type ITableMappingCollection = ITableMappingCollection$instance;
 
 export abstract class Constraint$instance {
-    constraintName: string;
-    readonly extendedProperties: PropertyCollection;
-    readonly table: DataTable;
-    toString(): string;
+    ConstraintName: string;
+    readonly ExtendedProperties: PropertyCollection;
+    readonly Table: DataTable;
+    ToString(): string;
 }
 
 
 export type Constraint = Constraint$instance;
 
 export class ConstraintCollection$instance extends InternalDataCollectionBase$instance {
-    add(constraint: Constraint): void;
-    add(name: string, columns: DataColumn[], primaryKey: boolean): Constraint;
-    add(name: string, column: DataColumn, primaryKey: boolean): Constraint;
-    add(name: string, primaryKeyColumn: DataColumn, foreignKeyColumn: DataColumn): Constraint;
-    add(name: string, primaryKeyColumns: DataColumn[], foreignKeyColumns: DataColumn[]): Constraint;
-    addRange(constraints: Constraint[]): void;
-    canRemove(constraint: Constraint): boolean;
-    clear(): void;
-    contains(name: string): boolean;
-    copyTo(ar: ClrArray, index: int): void;
+    Add(constraint: Constraint): void;
+    Add(name: string, columns: DataColumn[], primaryKey: boolean): Constraint;
+    Add(name: string, column: DataColumn, primaryKey: boolean): Constraint;
+    Add(name: string, primaryKeyColumn: DataColumn, foreignKeyColumn: DataColumn): Constraint;
+    Add(name: string, primaryKeyColumns: DataColumn[], foreignKeyColumns: DataColumn[]): Constraint;
+    AddRange(constraints: Constraint[]): void;
+    CanRemove(constraint: Constraint): boolean;
+    Clear(): void;
+    Contains(name: string): boolean;
+    CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): Constraint;
     get_Item(name: string): Constraint;
-    getEnumerator(): IEnumerator;
-    indexOf(constraint: Constraint): int;
-    indexOf(constraintName: string): int;
-    remove(constraint: Constraint): void;
-    remove(name: string): void;
-    removeAt(index: int): void;
+    GetEnumerator(): IEnumerator;
+    IndexOf(constraint: Constraint): int;
+    IndexOf(constraintName: string): int;
+    Remove(constraint: Constraint): void;
+    Remove(name: string): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -641,7 +641,7 @@ export class ConstraintException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -658,29 +658,29 @@ export class DataColumn$instance extends System_ComponentModel_Internal.MarshalB
     constructor(columnName: string, dataType: Type);
     constructor(columnName: string, dataType: Type, expr: string);
     constructor(columnName: string, dataType: Type, expr: string, type_: MappingType);
-    allowDBNull: boolean;
-    autoIncrement: boolean;
-    autoIncrementSeed: long;
-    autoIncrementStep: long;
-    caption: string;
-    columnMapping: MappingType;
-    columnName: string;
-    dataType: Type;
-    dateTimeMode: DataSetDateTime;
-    defaultValue: any;
-    expression: string;
-    readonly extendedProperties: PropertyCollection;
-    maxLength: int;
-    namespace_: string;
-    readonly ordinal: int;
-    prefix: string;
-    readOnly: boolean;
-    readonly table: DataTable;
-    unique: boolean;
-    dispose(): void;
-    getService(service: Type): any;
-    setOrdinal(ordinal: int): void;
-    toString(): string;
+    AllowDBNull: boolean;
+    AutoIncrement: boolean;
+    AutoIncrementSeed: long;
+    AutoIncrementStep: long;
+    Caption: string;
+    ColumnMapping: MappingType;
+    ColumnName: string;
+    DataType: Type;
+    DateTimeMode: DataSetDateTime;
+    DefaultValue: any;
+    Expression: string;
+    readonly ExtendedProperties: PropertyCollection;
+    MaxLength: int;
+    Namespace: string;
+    readonly Ordinal: int;
+    Prefix: string;
+    ReadOnly: boolean;
+    readonly Table: DataTable;
+    Unique: boolean;
+    Dispose(): void;
+    GetService(service: Type): any;
+    SetOrdinal(ordinal: int): void;
+    ToString(): string;
 }
 
 
@@ -695,9 +695,9 @@ export type DataColumn = DataColumn$instance & __DataColumn$views;
 
 export class DataColumnChangeEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(row: DataRow, column: DataColumn, value: any);
-    readonly column: DataColumn;
-    proposedValue: any;
-    readonly row: DataRow;
+    readonly Column: DataColumn;
+    ProposedValue: any;
+    readonly Row: DataRow;
 }
 
 
@@ -705,11 +705,11 @@ export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
 export class DataColumnChangeEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataColumnChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataColumnChangeEventArgs): void;
+    BeginInvoke(sender: any, e: DataColumnChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DataColumnChangeEventArgs): void;
 }
 
 
@@ -722,24 +722,24 @@ export type DataColumnChangeEventHandler = DataColumnChangeEventHandler$instance
 
 
 export class DataColumnCollection$instance extends InternalDataCollectionBase$instance {
-    add(column: DataColumn): void;
-    add(columnName: string, type_: Type, expression: string): DataColumn;
-    add(columnName: string, type_: Type): DataColumn;
-    add(columnName: string): DataColumn;
-    add(): DataColumn;
-    addRange(columns: DataColumn[]): void;
-    canRemove(column: DataColumn): boolean;
-    clear(): void;
-    contains(name: string): boolean;
-    copyTo(ar: ClrArray, index: int): void;
+    Add(column: DataColumn): void;
+    Add(columnName: string, type_: Type, expression: string): DataColumn;
+    Add(columnName: string, type_: Type): DataColumn;
+    Add(columnName: string): DataColumn;
+    Add(): DataColumn;
+    AddRange(columns: DataColumn[]): void;
+    CanRemove(column: DataColumn): boolean;
+    Clear(): void;
+    Contains(name: string): boolean;
+    CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataColumn;
     get_Item(name: string): DataColumn;
-    getEnumerator(): IEnumerator;
-    indexOf(column: DataColumn): int;
-    indexOf(columnName: string): int;
-    remove(column: DataColumn): void;
-    remove(name: string): void;
-    removeAt(index: int): void;
+    GetEnumerator(): IEnumerator;
+    IndexOf(column: DataColumn): int;
+    IndexOf(columnName: string): int;
+    Remove(column: DataColumn): void;
+    Remove(name: string): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -755,7 +755,7 @@ export class DataException$instance extends System_Internal.SystemException$inst
     constructor();
     constructor(s: string);
     constructor(s: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -773,43 +773,43 @@ export class DataRelation$instance {
     constructor(relationName: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean);
     constructor(relationName: string, parentTableName: string, childTableName: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean);
     constructor(relationName: string, parentTableName: string, parentTableNamespace: string, childTableName: string, childTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean);
-    readonly childColumns: DataColumn[];
-    readonly childKeyConstraint: ForeignKeyConstraint;
-    readonly childTable: DataTable;
-    readonly dataSet: DataSet;
-    readonly extendedProperties: PropertyCollection;
-    nested: boolean;
-    readonly parentColumns: DataColumn[];
-    readonly parentKeyConstraint: UniqueConstraint;
-    readonly parentTable: DataTable;
-    relationName: string;
-    toString(): string;
+    readonly ChildColumns: DataColumn[];
+    readonly ChildKeyConstraint: ForeignKeyConstraint;
+    readonly ChildTable: DataTable;
+    readonly DataSet: DataSet;
+    readonly ExtendedProperties: PropertyCollection;
+    Nested: boolean;
+    readonly ParentColumns: DataColumn[];
+    readonly ParentKeyConstraint: UniqueConstraint;
+    readonly ParentTable: DataTable;
+    RelationName: string;
+    ToString(): string;
 }
 
 
 export type DataRelation = DataRelation$instance;
 
 export abstract class DataRelationCollection$instance extends InternalDataCollectionBase$instance {
-    add(relation: DataRelation): void;
-    add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
-    add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation;
-    add(parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
-    add(name: string, parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
-    add(name: string, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation;
-    add(parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
-    addRange(relations: DataRelation[]): void;
-    canRemove(relation: DataRelation): boolean;
-    clear(): void;
-    contains(name: string): boolean;
-    copyTo(ar: ClrArray, index: int): void;
+    Add(relation: DataRelation): void;
+    Add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
+    Add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation;
+    Add(parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
+    Add(name: string, parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
+    Add(name: string, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation;
+    Add(parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
+    AddRange(relations: DataRelation[]): void;
+    CanRemove(relation: DataRelation): boolean;
+    Clear(): void;
+    Contains(name: string): boolean;
+    CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataRelation;
     get_Item(name: string): DataRelation;
-    getEnumerator(): IEnumerator;
-    indexOf(relation: DataRelation): int;
-    indexOf(relationName: string): int;
-    remove(relation: DataRelation): void;
-    remove(name: string): void;
-    removeAt(index: int): void;
+    GetEnumerator(): IEnumerator;
+    IndexOf(relation: DataRelation): int;
+    IndexOf(relationName: string): int;
+    Remove(relation: DataRelation): void;
+    Remove(name: string): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -822,55 +822,55 @@ export type DataRelationCollection = DataRelationCollection$instance & __DataRel
 
 
 export class DataRow$instance {
-    readonly hasErrors: boolean;
-    itemArray: any[];
-    rowError: string;
-    readonly rowState: DataRowState;
-    readonly table: DataTable;
-    acceptChanges(): void;
-    beginEdit(): void;
-    cancelEdit(): void;
-    clearErrors(): void;
-    delete_(): void;
-    endEdit(): void;
+    readonly HasErrors: boolean;
+    ItemArray: any[];
+    RowError: string;
+    readonly RowState: DataRowState;
+    readonly Table: DataTable;
+    AcceptChanges(): void;
+    BeginEdit(): void;
+    CancelEdit(): void;
+    ClearErrors(): void;
+    Delete(): void;
+    EndEdit(): void;
     get_Item(columnIndex: int): any;
     get_Item(columnName: string): any;
     get_Item(column: DataColumn): any;
     get_Item(columnIndex: int, version: DataRowVersion): any;
     get_Item(columnName: string, version: DataRowVersion): any;
     get_Item(column: DataColumn, version: DataRowVersion): any;
-    getChildRows(relationName: string): DataRow[];
-    getChildRows(relationName: string, version: DataRowVersion): DataRow[];
-    getChildRows(relation: DataRelation): DataRow[];
-    getChildRows(relation: DataRelation, version: DataRowVersion): DataRow[];
-    getColumnError(columnIndex: int): string;
-    getColumnError(columnName: string): string;
-    getColumnError(column: DataColumn): string;
-    getColumnsInError(): DataColumn[];
-    getParentRow(relationName: string): DataRow;
-    getParentRow(relationName: string, version: DataRowVersion): DataRow;
-    getParentRow(relation: DataRelation): DataRow;
-    getParentRow(relation: DataRelation, version: DataRowVersion): DataRow;
-    getParentRows(relationName: string): DataRow[];
-    getParentRows(relationName: string, version: DataRowVersion): DataRow[];
-    getParentRows(relation: DataRelation): DataRow[];
-    getParentRows(relation: DataRelation, version: DataRowVersion): DataRow[];
-    hasVersion(version: DataRowVersion): boolean;
-    isNull(columnIndex: int): boolean;
-    isNull(columnName: string): boolean;
-    isNull(column: DataColumn): boolean;
-    isNull(column: DataColumn, version: DataRowVersion): boolean;
-    rejectChanges(): void;
+    GetChildRows(relationName: string): DataRow[];
+    GetChildRows(relationName: string, version: DataRowVersion): DataRow[];
+    GetChildRows(relation: DataRelation): DataRow[];
+    GetChildRows(relation: DataRelation, version: DataRowVersion): DataRow[];
+    GetColumnError(columnIndex: int): string;
+    GetColumnError(columnName: string): string;
+    GetColumnError(column: DataColumn): string;
+    GetColumnsInError(): DataColumn[];
+    GetParentRow(relationName: string): DataRow;
+    GetParentRow(relationName: string, version: DataRowVersion): DataRow;
+    GetParentRow(relation: DataRelation): DataRow;
+    GetParentRow(relation: DataRelation, version: DataRowVersion): DataRow;
+    GetParentRows(relationName: string): DataRow[];
+    GetParentRows(relationName: string, version: DataRowVersion): DataRow[];
+    GetParentRows(relation: DataRelation): DataRow[];
+    GetParentRows(relation: DataRelation, version: DataRowVersion): DataRow[];
+    HasVersion(version: DataRowVersion): boolean;
+    IsNull(columnIndex: int): boolean;
+    IsNull(columnName: string): boolean;
+    IsNull(column: DataColumn): boolean;
+    IsNull(column: DataColumn, version: DataRowVersion): boolean;
+    RejectChanges(): void;
     set_Item(columnIndex: int, value: any): void;
     set_Item(columnName: string, value: any): void;
     set_Item(column: DataColumn, value: any): void;
-    setAdded(): void;
-    setColumnError(columnIndex: int, error: string): void;
-    setColumnError(columnName: string, error: string): void;
-    setColumnError(column: DataColumn, error: string): void;
-    setModified(): void;
-    setParentRow(parentRow: DataRow): void;
-    setParentRow(parentRow: DataRow, relation: DataRelation): void;
+    SetAdded(): void;
+    SetColumnError(columnIndex: int, error: string): void;
+    SetColumnError(columnName: string, error: string): void;
+    SetColumnError(column: DataColumn, error: string): void;
+    SetModified(): void;
+    SetParentRow(parentRow: DataRow): void;
+    SetParentRow(parentRow: DataRow, relation: DataRelation): void;
 }
 
 
@@ -884,8 +884,8 @@ export type DataRowBuilder = DataRowBuilder$instance;
 
 export class DataRowChangeEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(row: DataRow, action: DataRowAction);
-    readonly action: DataRowAction;
-    readonly row: DataRow;
+    readonly Action: DataRowAction;
+    readonly Row: DataRow;
 }
 
 
@@ -893,11 +893,11 @@ export type DataRowChangeEventArgs = DataRowChangeEventArgs$instance;
 
 export class DataRowChangeEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataRowChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataRowChangeEventArgs): void;
+    BeginInvoke(sender: any, e: DataRowChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DataRowChangeEventArgs): void;
 }
 
 
@@ -910,21 +910,21 @@ export type DataRowChangeEventHandler = DataRowChangeEventHandler$instance & __D
 
 
 export class DataRowCollection$instance extends InternalDataCollectionBase$instance {
-    readonly count: int;
-    readonly item: DataRow;
-    add(row: DataRow): void;
-    add(values: any[]): DataRow;
-    clear(): void;
-    contains(key: any): boolean;
-    contains(keys: any[]): boolean;
-    copyTo(ar: ClrArray, index: int): void;
-    find(key: any): DataRow;
-    find(keys: any[]): DataRow;
-    getEnumerator(): IEnumerator;
-    indexOf(row: DataRow): int;
-    insertAt(row: DataRow, pos: int): void;
-    remove(row: DataRow): void;
-    removeAt(index: int): void;
+    readonly Count: int;
+    readonly Item: DataRow;
+    Add(row: DataRow): void;
+    Add(values: any[]): DataRow;
+    Clear(): void;
+    Contains(key: any): boolean;
+    Contains(keys: any[]): boolean;
+    CopyTo(ar: ClrArray, index: int): void;
+    Find(key: any): DataRow;
+    Find(keys: any[]): DataRow;
+    GetEnumerator(): IEnumerator;
+    IndexOf(row: DataRow): int;
+    InsertAt(row: DataRow, pos: int): void;
+    Remove(row: DataRow): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -937,8 +937,8 @@ export type DataRowCollection = DataRowCollection$instance & __DataRowCollection
 
 
 export class DataRowComparer_1$instance<TRow extends DataRow> {
-    equals(leftRow: TRow, rightRow: TRow): boolean;
-    getHashCode(row: TRow): int;
+    Equals(leftRow: TRow, rightRow: TRow): boolean;
+    GetHashCode(row: TRow): int;
     static readonly Default: unknown;
 }
 
@@ -951,23 +951,23 @@ export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance
 
 
 export class DataRowView$instance {
-    readonly dataView: DataView;
-    readonly isEdit: boolean;
-    readonly isNew: boolean;
-    readonly row: DataRow;
-    readonly rowVersion: DataRowVersion;
-    beginEdit(): void;
-    cancelEdit(): void;
-    createChildView(relation: DataRelation, followParent: boolean): DataView;
-    createChildView(relation: DataRelation): DataView;
-    createChildView(relationName: string, followParent: boolean): DataView;
-    createChildView(relationName: string): DataView;
-    delete_(): void;
-    endEdit(): void;
-    equals(other: any): boolean;
+    readonly DataView: DataView;
+    readonly IsEdit: boolean;
+    readonly IsNew: boolean;
+    readonly Row: DataRow;
+    readonly RowVersion: DataRowVersion;
+    BeginEdit(): void;
+    CancelEdit(): void;
+    CreateChildView(relation: DataRelation, followParent: boolean): DataView;
+    CreateChildView(relation: DataRelation): DataView;
+    CreateChildView(relationName: string, followParent: boolean): DataView;
+    CreateChildView(relationName: string): DataView;
+    Delete(): void;
+    EndEdit(): void;
+    Equals(other: any): boolean;
     get_Item(ndx: int): any;
     get_Item(property: string): any;
-    getHashCode(): int;
+    GetHashCode(): int;
     set_Item(ndx: int, value: any): void;
     set_Item(property: string, value: any): void;
 }
@@ -985,82 +985,82 @@ export type DataRowView = DataRowView$instance & __DataRowView$views;
 export class DataSet$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
     constructor();
     constructor(dataSetName: string);
-    caseSensitive: boolean;
-    dataSetName: string;
-    readonly defaultViewManager: DataViewManager;
-    enforceConstraints: boolean;
-    readonly extendedProperties: PropertyCollection;
-    readonly hasErrors: boolean;
-    readonly isInitialized: boolean;
-    locale: CultureInfo;
-    namespace_: string;
-    prefix: string;
-    readonly relations: DataRelationCollection;
-    remotingFormat: SerializationFormat;
-    schemaSerializationMode: SchemaSerializationMode;
-    site: ISite;
-    readonly tables: DataTableCollection;
-    acceptChanges(): void;
-    beginInit(): void;
-    clear(): void;
-    clone(): DataSet;
-    copy(): DataSet;
-    createDataReader(): DataTableReader;
-    createDataReader(dataTables: DataTable[]): DataTableReader;
-    dispose(): void;
-    endInit(): void;
-    getChanges(): DataSet;
-    getChanges(rowStates: DataRowState): DataSet;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type): any;
-    getXml(): string;
-    getXmlSchema(): string;
-    hasChanges(): boolean;
-    hasChanges(rowStates: DataRowState): boolean;
-    inferXmlSchema(reader: XmlReader, nsArray: string[]): void;
-    inferXmlSchema(stream: Stream, nsArray: string[]): void;
-    inferXmlSchema(reader: TextReader, nsArray: string[]): void;
-    inferXmlSchema(fileName: string, nsArray: string[]): void;
-    load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler, tables: DataTable[]): void;
-    load(reader: IDataReader, loadOption: LoadOption, tables: DataTable[]): void;
-    load(reader: IDataReader, loadOption: LoadOption, tables: string[]): void;
-    merge(dataSet: DataSet): void;
-    merge(dataSet: DataSet, preserveChanges: boolean): void;
-    merge(dataSet: DataSet, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
-    merge(table: DataTable): void;
-    merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
-    merge(rows: DataRow[]): void;
-    merge(rows: DataRow[], preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
-    readXml(reader: XmlReader): XmlReadMode;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
-    readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader, mode: XmlReadMode): XmlReadMode;
-    readXml(stream: Stream, mode: XmlReadMode): XmlReadMode;
-    readXml(reader: TextReader, mode: XmlReadMode): XmlReadMode;
-    readXml(fileName: string, mode: XmlReadMode): XmlReadMode;
-    readXmlSchema(reader: XmlReader): void;
-    readXmlSchema(stream: Stream): void;
-    readXmlSchema(reader: TextReader): void;
-    readXmlSchema(fileName: string): void;
-    rejectChanges(): void;
-    reset(): void;
-    writeXml(stream: Stream): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: XmlWriter): void;
-    writeXml(fileName: string): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
-    writeXml(fileName: string, mode: XmlWriteMode): void;
-    writeXmlSchema(stream: Stream): void;
-    writeXmlSchema(stream: Stream, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
-    writeXmlSchema(fileName: string): void;
-    writeXmlSchema(fileName: string, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
-    writeXmlSchema(writer: TextWriter): void;
-    writeXmlSchema(writer: TextWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
-    writeXmlSchema(writer: XmlWriter): void;
-    writeXmlSchema(writer: XmlWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
+    CaseSensitive: boolean;
+    DataSetName: string;
+    readonly DefaultViewManager: DataViewManager;
+    EnforceConstraints: boolean;
+    readonly ExtendedProperties: PropertyCollection;
+    readonly HasErrors: boolean;
+    readonly IsInitialized: boolean;
+    Locale: CultureInfo;
+    Namespace: string;
+    Prefix: string;
+    readonly Relations: DataRelationCollection;
+    RemotingFormat: SerializationFormat;
+    SchemaSerializationMode: SchemaSerializationMode;
+    Site: ISite;
+    readonly Tables: DataTableCollection;
+    AcceptChanges(): void;
+    BeginInit(): void;
+    Clear(): void;
+    Clone(): DataSet;
+    Copy(): DataSet;
+    CreateDataReader(): DataTableReader;
+    CreateDataReader(dataTables: DataTable[]): DataTableReader;
+    Dispose(): void;
+    EndInit(): void;
+    GetChanges(): DataSet;
+    GetChanges(rowStates: DataRowState): DataSet;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetService(service: Type): any;
+    GetXml(): string;
+    GetXmlSchema(): string;
+    HasChanges(): boolean;
+    HasChanges(rowStates: DataRowState): boolean;
+    InferXmlSchema(reader: XmlReader, nsArray: string[]): void;
+    InferXmlSchema(stream: Stream, nsArray: string[]): void;
+    InferXmlSchema(reader: TextReader, nsArray: string[]): void;
+    InferXmlSchema(fileName: string, nsArray: string[]): void;
+    Load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler, tables: DataTable[]): void;
+    Load(reader: IDataReader, loadOption: LoadOption, tables: DataTable[]): void;
+    Load(reader: IDataReader, loadOption: LoadOption, tables: string[]): void;
+    Merge(dataSet: DataSet): void;
+    Merge(dataSet: DataSet, preserveChanges: boolean): void;
+    Merge(dataSet: DataSet, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
+    Merge(table: DataTable): void;
+    Merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
+    Merge(rows: DataRow[]): void;
+    Merge(rows: DataRow[], preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
+    ReadXml(reader: XmlReader): XmlReadMode;
+    ReadXml(stream: Stream): XmlReadMode;
+    ReadXml(reader: TextReader): XmlReadMode;
+    ReadXml(fileName: string): XmlReadMode;
+    ReadXml(reader: XmlReader, mode: XmlReadMode): XmlReadMode;
+    ReadXml(stream: Stream, mode: XmlReadMode): XmlReadMode;
+    ReadXml(reader: TextReader, mode: XmlReadMode): XmlReadMode;
+    ReadXml(fileName: string, mode: XmlReadMode): XmlReadMode;
+    ReadXmlSchema(reader: XmlReader): void;
+    ReadXmlSchema(stream: Stream): void;
+    ReadXmlSchema(reader: TextReader): void;
+    ReadXmlSchema(fileName: string): void;
+    RejectChanges(): void;
+    Reset(): void;
+    WriteXml(stream: Stream): void;
+    WriteXml(writer: TextWriter): void;
+    WriteXml(writer: XmlWriter): void;
+    WriteXml(fileName: string): void;
+    WriteXml(stream: Stream, mode: XmlWriteMode): void;
+    WriteXml(writer: TextWriter, mode: XmlWriteMode): void;
+    WriteXml(writer: XmlWriter, mode: XmlWriteMode): void;
+    WriteXml(fileName: string, mode: XmlWriteMode): void;
+    WriteXmlSchema(stream: Stream): void;
+    WriteXmlSchema(stream: Stream, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
+    WriteXmlSchema(fileName: string): void;
+    WriteXmlSchema(fileName: string, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
+    WriteXmlSchema(writer: TextWriter): void;
+    WriteXmlSchema(writer: TextWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
+    WriteXmlSchema(writer: XmlWriter): void;
+    WriteXmlSchema(writer: XmlWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
     static GetDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
 
@@ -1081,7 +1081,7 @@ export type DataSet = DataSet$instance & __DataSet$views;
 
 export class DataSysDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
     constructor(description: string);
-    readonly description: string;
+    readonly Description: string;
 }
 
 
@@ -1091,91 +1091,91 @@ export class DataTable$instance extends System_ComponentModel_Internal.MarshalBy
     constructor();
     constructor(tableName: string);
     constructor(tableName: string, tableNamespace: string);
-    caseSensitive: boolean;
-    readonly childRelations: DataRelationCollection;
-    readonly columns: DataColumnCollection;
-    readonly constraints: ConstraintCollection;
-    readonly dataSet: DataSet;
-    readonly defaultView: DataView;
-    displayExpression: string;
-    readonly extendedProperties: PropertyCollection;
-    readonly hasErrors: boolean;
-    readonly isInitialized: boolean;
-    locale: CultureInfo;
-    minimumCapacity: int;
-    namespace_: string;
-    readonly parentRelations: DataRelationCollection;
-    prefix: string;
-    primaryKey: DataColumn[];
-    remotingFormat: SerializationFormat;
-    readonly rows: DataRowCollection;
-    site: ISite;
-    tableName: string;
-    acceptChanges(): void;
-    beginInit(): void;
-    beginLoadData(): void;
-    clear(): void;
-    clone(): DataTable;
-    compute(expression: string, filter: string): any;
-    copy(): DataTable;
-    createDataReader(): DataTableReader;
-    dispose(): void;
-    endInit(): void;
-    endLoadData(): void;
-    getChanges(): DataTable;
-    getChanges(rowStates: DataRowState): DataTable;
-    getErrors(): DataRow[];
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type): any;
-    importRow(row: DataRow): void;
-    load(reader: IDataReader): void;
-    load(reader: IDataReader, loadOption: LoadOption): void;
-    load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler): void;
-    loadDataRow(values: any[], fAcceptChanges: boolean): DataRow;
-    loadDataRow(values: any[], loadOption: LoadOption): DataRow;
-    merge(table: DataTable): void;
-    merge(table: DataTable, preserveChanges: boolean): void;
-    merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
-    newRow(): DataRow;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
-    readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader): XmlReadMode;
-    readXmlSchema(stream: Stream): void;
-    readXmlSchema(reader: TextReader): void;
-    readXmlSchema(fileName: string): void;
-    readXmlSchema(reader: XmlReader): void;
-    rejectChanges(): void;
-    reset(): void;
-    select(): DataRow[];
-    select(filterExpression: string): DataRow[];
-    select(filterExpression: string, sort: string): DataRow[];
-    select(filterExpression: string, sort: string, recordStates: DataViewRowState): DataRow[];
-    toString(): string;
-    writeXml(stream: Stream): void;
-    writeXml(stream: Stream, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter): void;
-    writeXml(writer: XmlWriter, writeHierarchy: boolean): void;
-    writeXml(fileName: string): void;
-    writeXml(fileName: string, writeHierarchy: boolean): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(fileName: string, mode: XmlWriteMode): void;
-    writeXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXmlSchema(stream: Stream): void;
-    writeXmlSchema(stream: Stream, writeHierarchy: boolean): void;
-    writeXmlSchema(writer: TextWriter): void;
-    writeXmlSchema(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXmlSchema(writer: XmlWriter): void;
-    writeXmlSchema(writer: XmlWriter, writeHierarchy: boolean): void;
-    writeXmlSchema(fileName: string): void;
-    writeXmlSchema(fileName: string, writeHierarchy: boolean): void;
+    CaseSensitive: boolean;
+    readonly ChildRelations: DataRelationCollection;
+    readonly Columns: DataColumnCollection;
+    readonly Constraints: ConstraintCollection;
+    readonly DataSet: DataSet;
+    readonly DefaultView: DataView;
+    DisplayExpression: string;
+    readonly ExtendedProperties: PropertyCollection;
+    readonly HasErrors: boolean;
+    readonly IsInitialized: boolean;
+    Locale: CultureInfo;
+    MinimumCapacity: int;
+    Namespace: string;
+    readonly ParentRelations: DataRelationCollection;
+    Prefix: string;
+    PrimaryKey: DataColumn[];
+    RemotingFormat: SerializationFormat;
+    readonly Rows: DataRowCollection;
+    Site: ISite;
+    TableName: string;
+    AcceptChanges(): void;
+    BeginInit(): void;
+    BeginLoadData(): void;
+    Clear(): void;
+    Clone(): DataTable;
+    Compute(expression: string, filter: string): any;
+    Copy(): DataTable;
+    CreateDataReader(): DataTableReader;
+    Dispose(): void;
+    EndInit(): void;
+    EndLoadData(): void;
+    GetChanges(): DataTable;
+    GetChanges(rowStates: DataRowState): DataTable;
+    GetErrors(): DataRow[];
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetService(service: Type): any;
+    ImportRow(row: DataRow): void;
+    Load(reader: IDataReader): void;
+    Load(reader: IDataReader, loadOption: LoadOption): void;
+    Load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler): void;
+    LoadDataRow(values: any[], fAcceptChanges: boolean): DataRow;
+    LoadDataRow(values: any[], loadOption: LoadOption): DataRow;
+    Merge(table: DataTable): void;
+    Merge(table: DataTable, preserveChanges: boolean): void;
+    Merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
+    NewRow(): DataRow;
+    ReadXml(stream: Stream): XmlReadMode;
+    ReadXml(reader: TextReader): XmlReadMode;
+    ReadXml(fileName: string): XmlReadMode;
+    ReadXml(reader: XmlReader): XmlReadMode;
+    ReadXmlSchema(stream: Stream): void;
+    ReadXmlSchema(reader: TextReader): void;
+    ReadXmlSchema(fileName: string): void;
+    ReadXmlSchema(reader: XmlReader): void;
+    RejectChanges(): void;
+    Reset(): void;
+    Select(): DataRow[];
+    Select(filterExpression: string): DataRow[];
+    Select(filterExpression: string, sort: string): DataRow[];
+    Select(filterExpression: string, sort: string, recordStates: DataViewRowState): DataRow[];
+    ToString(): string;
+    WriteXml(stream: Stream): void;
+    WriteXml(stream: Stream, writeHierarchy: boolean): void;
+    WriteXml(writer: TextWriter): void;
+    WriteXml(writer: TextWriter, writeHierarchy: boolean): void;
+    WriteXml(writer: XmlWriter): void;
+    WriteXml(writer: XmlWriter, writeHierarchy: boolean): void;
+    WriteXml(fileName: string): void;
+    WriteXml(fileName: string, writeHierarchy: boolean): void;
+    WriteXml(stream: Stream, mode: XmlWriteMode): void;
+    WriteXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(writer: TextWriter, mode: XmlWriteMode): void;
+    WriteXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(writer: XmlWriter, mode: XmlWriteMode): void;
+    WriteXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(fileName: string, mode: XmlWriteMode): void;
+    WriteXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXmlSchema(stream: Stream): void;
+    WriteXmlSchema(stream: Stream, writeHierarchy: boolean): void;
+    WriteXmlSchema(writer: TextWriter): void;
+    WriteXmlSchema(writer: TextWriter, writeHierarchy: boolean): void;
+    WriteXmlSchema(writer: XmlWriter): void;
+    WriteXmlSchema(writer: XmlWriter, writeHierarchy: boolean): void;
+    WriteXmlSchema(fileName: string): void;
+    WriteXmlSchema(fileName: string, writeHierarchy: boolean): void;
     static GetDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
 
@@ -1196,9 +1196,9 @@ export type DataTable = DataTable$instance & __DataTable$views;
 
 export class DataTableClearEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(dataTable: DataTable);
-    readonly table: DataTable;
-    readonly tableName: string;
-    readonly tableNamespace: string;
+    readonly Table: DataTable;
+    readonly TableName: string;
+    readonly TableNamespace: string;
 }
 
 
@@ -1206,11 +1206,11 @@ export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
 export class DataTableClearEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataTableClearEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataTableClearEventArgs): void;
+    BeginInvoke(sender: any, e: DataTableClearEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DataTableClearEventArgs): void;
 }
 
 
@@ -1223,27 +1223,27 @@ export type DataTableClearEventHandler = DataTableClearEventHandler$instance & _
 
 
 export class DataTableCollection$instance extends InternalDataCollectionBase$instance {
-    add(table: DataTable): void;
-    add(name: string): DataTable;
-    add(name: string, tableNamespace: string): DataTable;
-    add(): DataTable;
-    addRange(tables: DataTable[]): void;
-    canRemove(table: DataTable): boolean;
-    clear(): void;
-    contains(name: string): boolean;
-    contains(name: string, tableNamespace: string): boolean;
-    copyTo(ar: ClrArray, index: int): void;
+    Add(table: DataTable): void;
+    Add(name: string): DataTable;
+    Add(name: string, tableNamespace: string): DataTable;
+    Add(): DataTable;
+    AddRange(tables: DataTable[]): void;
+    CanRemove(table: DataTable): boolean;
+    Clear(): void;
+    Contains(name: string): boolean;
+    Contains(name: string, tableNamespace: string): boolean;
+    CopyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataTable;
     get_Item(name: string): DataTable;
     get_Item(name: string, tableNamespace: string): DataTable;
-    getEnumerator(): IEnumerator;
-    indexOf(table: DataTable): int;
-    indexOf(tableName: string): int;
-    indexOf(tableName: string, tableNamespace: string): int;
-    remove(table: DataTable): void;
-    remove(name: string): void;
-    remove(name: string, tableNamespace: string): void;
-    removeAt(index: int): void;
+    GetEnumerator(): IEnumerator;
+    IndexOf(table: DataTable): int;
+    IndexOf(tableName: string): int;
+    IndexOf(tableName: string, tableNamespace: string): int;
+    Remove(table: DataTable): void;
+    Remove(name: string): void;
+    Remove(name: string, tableNamespace: string): void;
+    RemoveAt(index: int): void;
 }
 
 
@@ -1257,7 +1257,7 @@ export type DataTableCollection = DataTableCollection$instance & __DataTableColl
 
 export class DataTableNewRowEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(dataRow: DataRow);
-    readonly row: DataRow;
+    readonly Row: DataRow;
 }
 
 
@@ -1265,11 +1265,11 @@ export type DataTableNewRowEventArgs = DataTableNewRowEventArgs$instance;
 
 export class DataTableNewRowEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataTableNewRowEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataTableNewRowEventArgs): void;
+    BeginInvoke(sender: any, e: DataTableNewRowEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: DataTableNewRowEventArgs): void;
 }
 
 
@@ -1284,46 +1284,46 @@ export type DataTableNewRowEventHandler = DataTableNewRowEventHandler$instance &
 export class DataTableReader$instance extends System_Data_Common_Internal.DbDataReader$instance {
     constructor(dataTable: DataTable);
     constructor(dataTables: DataTable[]);
-    readonly depth: int;
-    readonly fieldCount: int;
-    readonly hasRows: boolean;
-    readonly isClosed: boolean;
-    readonly recordsAffected: int;
-    close(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
+    readonly Depth: int;
+    readonly FieldCount: int;
+    readonly HasRows: boolean;
+    readonly IsClosed: boolean;
+    readonly RecordsAffected: int;
+    Close(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
     get_Item(ordinal: int): any;
     get_Item(name: string): any;
-    getBoolean(ordinal: int): boolean;
-    getByte(ordinal: int): byte;
-    getBytes(ordinal: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
-    getChar(ordinal: int): string;
-    getChars(ordinal: int, dataIndex: long, buffer: string[], bufferIndex: int, length: int): long;
-    getData(ordinal: int): DbDataReader;
-    getData(i: int): IDataReader;
-    getDataTypeName(ordinal: int): string;
-    getDateTime(ordinal: int): DateTime;
-    getDecimal(ordinal: int): decimal;
-    getDouble(ordinal: int): double;
-    getEnumerator(): IEnumerator;
-    getFieldType(ordinal: int): Type;
-    getFloat(ordinal: int): float;
-    getGuid(ordinal: int): Guid;
-    getInt16(ordinal: int): short;
-    getInt32(ordinal: int): int;
-    getInt64(ordinal: int): long;
-    getName(ordinal: int): string;
-    getOrdinal(name: string): int;
-    getProviderSpecificFieldType(ordinal: int): Type;
-    getProviderSpecificValue(ordinal: int): any;
-    getProviderSpecificValues(values: any[]): int;
-    getSchemaTable(): DataTable;
-    getString(ordinal: int): string;
-    getValue(ordinal: int): any;
-    getValues(values: any[]): int;
-    isDBNull(ordinal: int): boolean;
-    nextResult(): boolean;
-    read(): boolean;
+    GetBoolean(ordinal: int): boolean;
+    GetByte(ordinal: int): byte;
+    GetBytes(ordinal: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
+    GetChar(ordinal: int): string;
+    GetChars(ordinal: int, dataIndex: long, buffer: string[], bufferIndex: int, length: int): long;
+    GetData(ordinal: int): DbDataReader;
+    GetData(i: int): IDataReader;
+    GetDataTypeName(ordinal: int): string;
+    GetDateTime(ordinal: int): DateTime;
+    GetDecimal(ordinal: int): decimal;
+    GetDouble(ordinal: int): double;
+    GetEnumerator(): IEnumerator;
+    GetFieldType(ordinal: int): Type;
+    GetFloat(ordinal: int): float;
+    GetGuid(ordinal: int): Guid;
+    GetInt16(ordinal: int): short;
+    GetInt32(ordinal: int): int;
+    GetInt64(ordinal: int): long;
+    GetName(ordinal: int): string;
+    GetOrdinal(name: string): int;
+    GetProviderSpecificFieldType(ordinal: int): Type;
+    GetProviderSpecificValue(ordinal: int): any;
+    GetProviderSpecificValues(values: any[]): int;
+    GetSchemaTable(): DataTable;
+    GetString(ordinal: int): string;
+    GetValue(ordinal: int): any;
+    GetValues(values: any[]): int;
+    IsDBNull(ordinal: int): boolean;
+    NextResult(): boolean;
+    Read(): boolean;
 }
 
 
@@ -1342,36 +1342,36 @@ export class DataView$instance extends System_ComponentModel_Internal.MarshalByV
     constructor();
     constructor(table: DataTable);
     constructor(table: DataTable, RowFilter: string, Sort: string, RowState: DataViewRowState);
-    allowDelete: boolean;
-    allowEdit: boolean;
-    allowNew: boolean;
-    applyDefaultSort: boolean;
-    readonly count: int;
-    readonly dataViewManager: DataViewManager;
-    readonly isInitialized: boolean;
-    readonly item: DataRowView;
-    rowFilter: string;
-    rowStateFilter: DataViewRowState;
-    sort: string;
-    table: DataTable;
-    addNew(): DataRowView;
-    beginInit(): void;
-    copyTo(array: ClrArray, index: int): void;
-    delete_(index: int): void;
-    dispose(): void;
-    endInit(): void;
-    equals(view: DataView): boolean;
-    equals(obj: any): boolean;
-    find(key: any): int;
-    find(key: any[]): int;
-    findRows(key: any): DataRowView[];
-    findRows(key: any[]): DataRowView[];
-    getEnumerator(): IEnumerator;
-    getService(service: Type): any;
-    toTable(): DataTable;
-    toTable(tableName: string): DataTable;
-    toTable(distinct: boolean, columnNames: string[]): DataTable;
-    toTable(tableName: string, distinct: boolean, columnNames: string[]): DataTable;
+    AllowDelete: boolean;
+    AllowEdit: boolean;
+    AllowNew: boolean;
+    ApplyDefaultSort: boolean;
+    readonly Count: int;
+    readonly DataViewManager: DataViewManager;
+    readonly IsInitialized: boolean;
+    readonly Item: DataRowView;
+    RowFilter: string;
+    RowStateFilter: DataViewRowState;
+    Sort: string;
+    Table: DataTable;
+    AddNew(): DataRowView;
+    BeginInit(): void;
+    CopyTo(array: ClrArray, index: int): void;
+    Delete(index: int): void;
+    Dispose(): void;
+    EndInit(): void;
+    Equals(view: DataView): boolean;
+    Equals(obj: any): boolean;
+    Find(key: any): int;
+    Find(key: any[]): int;
+    FindRows(key: any): DataRowView[];
+    FindRows(key: any[]): DataRowView[];
+    GetEnumerator(): IEnumerator;
+    GetService(service: Type): any;
+    ToTable(): DataTable;
+    ToTable(tableName: string): DataTable;
+    ToTable(distinct: boolean, columnNames: string[]): DataTable;
+    ToTable(tableName: string, distinct: boolean, columnNames: string[]): DataTable;
 }
 
 
@@ -1395,12 +1395,12 @@ export type DataView = DataView$instance & __DataView$views;
 export class DataViewManager$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
     constructor();
     constructor(dataSet: DataSet);
-    dataSet: DataSet;
-    dataViewSettingCollectionString: string;
-    readonly dataViewSettings: DataViewSettingCollection;
-    createDataView(table: DataTable): DataView;
-    dispose(): void;
-    getService(service: Type): any;
+    DataSet: DataSet;
+    DataViewSettingCollectionString: string;
+    readonly DataViewSettings: DataViewSettingCollection;
+    CreateDataView(table: DataTable): DataView;
+    Dispose(): void;
+    GetService(service: Type): any;
 }
 
 
@@ -1419,28 +1419,28 @@ export type DataViewManager = DataViewManager$instance & __DataViewManager$views
 
 
 export class DataViewSetting$instance {
-    applyDefaultSort: boolean;
-    readonly dataViewManager: DataViewManager;
-    rowFilter: string;
-    rowStateFilter: DataViewRowState;
-    sort: string;
-    readonly table: DataTable;
+    ApplyDefaultSort: boolean;
+    readonly DataViewManager: DataViewManager;
+    RowFilter: string;
+    RowStateFilter: DataViewRowState;
+    Sort: string;
+    readonly Table: DataTable;
 }
 
 
 export type DataViewSetting = DataViewSetting$instance;
 
 export class DataViewSettingCollection$instance {
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly syncRoot: any;
-    copyTo(ar: ClrArray, index: int): void;
-    copyTo(ar: DataViewSetting[], index: int): void;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly SyncRoot: any;
+    CopyTo(ar: ClrArray, index: int): void;
+    CopyTo(ar: DataViewSetting[], index: int): void;
     get_Item(table: DataTable): DataViewSetting;
     get_Item(tableName: string): DataViewSetting;
     get_Item(index: int): DataViewSetting;
-    getEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator;
     set_Item(table: DataTable, value: DataViewSetting): void;
     set_Item(index: int, value: DataViewSetting): void;
 }
@@ -1459,11 +1459,11 @@ export class DBConcurrencyException$instance extends System_Internal.SystemExcep
     constructor(message: string);
     constructor(message: string, inner: Exception);
     constructor(message: string, inner: Exception, dataRows: DataRow[]);
-    row: DataRow;
-    readonly rowCount: int;
-    copyToRows(array: DataRow[]): void;
-    copyToRows(array: DataRow[], arrayIndex: int): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Row: DataRow;
+    readonly RowCount: int;
+    CopyToRows(array: DataRow[]): void;
+    CopyToRows(array: DataRow[], arrayIndex: int): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1478,7 +1478,7 @@ export class DeletedRowInaccessibleException$instance extends DataException$inst
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1493,7 +1493,7 @@ export class DuplicateNameException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1516,7 +1516,7 @@ export type EnumerableRowCollection = EnumerableRowCollection$instance & __Enume
 
 
 export class EnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection$instance {
-    getEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -1532,7 +1532,7 @@ export class EvaluateException$instance extends InvalidExpressionException$insta
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1545,10 +1545,10 @@ export type EvaluateException = EvaluateException$instance & __EvaluateException
 
 export class FillErrorEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(dataTable: DataTable, values: any[]);
-    continue_: boolean;
-    readonly dataTable: DataTable;
-    errors: Exception;
-    readonly values: any[];
+    Continue: boolean;
+    readonly DataTable: DataTable;
+    Errors: Exception;
+    readonly Values: any[];
 }
 
 
@@ -1556,11 +1556,11 @@ export type FillErrorEventArgs = FillErrorEventArgs$instance;
 
 export class FillErrorEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: FillErrorEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: FillErrorEventArgs): void;
+    BeginInvoke(sender: any, e: FillErrorEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: FillErrorEventArgs): void;
 }
 
 
@@ -1579,15 +1579,15 @@ export class ForeignKeyConstraint$instance extends Constraint$instance {
     constructor(constraintName: string, parentColumns: DataColumn[], childColumns: DataColumn[]);
     constructor(constraintName: string, parentTableName: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule);
     constructor(constraintName: string, parentTableName: string, parentTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule);
-    acceptRejectRule: AcceptRejectRule;
-    readonly columns: DataColumn[];
-    deleteRule: Rule;
-    readonly relatedColumns: DataColumn[];
-    readonly relatedTable: DataTable;
-    readonly table: DataTable;
-    updateRule: Rule;
-    equals(key: any): boolean;
-    getHashCode(): int;
+    AcceptRejectRule: AcceptRejectRule;
+    readonly Columns: DataColumn[];
+    DeleteRule: Rule;
+    readonly RelatedColumns: DataColumn[];
+    readonly RelatedTable: DataTable;
+    readonly Table: DataTable;
+    UpdateRule: Rule;
+    Equals(key: any): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1597,7 +1597,7 @@ export class InRowChangingEventException$instance extends DataException$instance
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1610,12 +1610,12 @@ export type InRowChangingEventException = InRowChangingEventException$instance &
 
 export class InternalDataCollectionBase$instance {
     constructor();
-    readonly count: int;
-    readonly isReadOnly: boolean;
-    readonly isSynchronized: boolean;
-    readonly syncRoot: any;
-    copyTo(ar: ClrArray, index: int): void;
-    getEnumerator(): IEnumerator;
+    readonly Count: int;
+    readonly IsReadOnly: boolean;
+    readonly IsSynchronized: boolean;
+    readonly SyncRoot: any;
+    CopyTo(ar: ClrArray, index: int): void;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -1631,7 +1631,7 @@ export class InvalidConstraintException$instance extends DataException$instance 
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1646,7 +1646,7 @@ export class InvalidExpressionException$instance extends DataException$instance 
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1659,8 +1659,8 @@ export type InvalidExpressionException = InvalidExpressionException$instance & _
 
 export class MergeFailedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(table: DataTable, conflict: string);
-    readonly conflict: string;
-    readonly table: DataTable;
+    readonly Conflict: string;
+    readonly Table: DataTable;
 }
 
 
@@ -1668,11 +1668,11 @@ export type MergeFailedEventArgs = MergeFailedEventArgs$instance;
 
 export class MergeFailedEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: MergeFailedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: MergeFailedEventArgs): void;
+    BeginInvoke(sender: any, e: MergeFailedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: MergeFailedEventArgs): void;
 }
 
 
@@ -1688,7 +1688,7 @@ export class MissingPrimaryKeyException$instance extends DataException$instance 
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1703,7 +1703,7 @@ export class NoNullAllowedException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1715,8 +1715,8 @@ export type NoNullAllowedException = NoNullAllowedException$instance & __NoNullA
 
 
 export class OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection_1$instance<TRow> {
-    getEnumerator(): IEnumerator_1<TRow>;
-    getEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<TRow>;
+    GetEnumerator(): IEnumerator;
 }
 
 
@@ -1730,16 +1730,16 @@ export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollect
 
 export class PropertyCollection$instance extends System_Collections_Internal.Hashtable$instance {
     constructor();
-    add(key: any, value: any): void;
-    clear(): void;
-    clone(): any;
-    contains(key: any): boolean;
-    copyTo(array: ClrArray, arrayIndex: int): void;
-    getEnumerator(): IDictionaryEnumerator;
-    getEnumerator(): IEnumerator;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: any): void;
-    remove(key: any): void;
+    Add(key: any, value: any): void;
+    Clear(): void;
+    Clone(): any;
+    Contains(key: any): boolean;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
+    GetEnumerator(): IDictionaryEnumerator;
+    GetEnumerator(): IEnumerator;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    OnDeserialization(sender: any): void;
+    Remove(key: any): void;
 }
 
 
@@ -1759,7 +1759,7 @@ export class ReadOnlyException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1774,7 +1774,7 @@ export class RowNotInTableException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1787,8 +1787,8 @@ export type RowNotInTableException = RowNotInTableException$instance & __RowNotI
 
 export class StateChangeEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(originalState: ConnectionState, currentState: ConnectionState);
-    readonly currentState: ConnectionState;
-    readonly originalState: ConnectionState;
+    readonly CurrentState: ConnectionState;
+    readonly OriginalState: ConnectionState;
 }
 
 
@@ -1796,11 +1796,11 @@ export type StateChangeEventArgs = StateChangeEventArgs$instance;
 
 export class StateChangeEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: StateChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: StateChangeEventArgs): void;
+    BeginInvoke(sender: any, e: StateChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: StateChangeEventArgs): void;
 }
 
 
@@ -1814,7 +1814,7 @@ export type StateChangeEventHandler = StateChangeEventHandler$instance & __State
 
 export class StatementCompletedEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(recordCount: int);
-    readonly recordCount: int;
+    readonly RecordCount: int;
 }
 
 
@@ -1822,11 +1822,11 @@ export type StatementCompletedEventArgs = StatementCompletedEventArgs$instance;
 
 export class StatementCompletedEventHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: StatementCompletedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: StatementCompletedEventArgs): void;
+    BeginInvoke(sender: any, e: StatementCompletedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(result: IAsyncResult): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(sender: any, e: StatementCompletedEventArgs): void;
 }
 
 
@@ -1842,7 +1842,7 @@ export class StrongTypingException$instance extends DataException$instance {
     constructor();
     constructor(message: string);
     constructor(s: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1857,7 +1857,7 @@ export class SyntaxErrorException$instance extends InvalidExpressionException$in
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1869,35 +1869,35 @@ export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxError
 
 
 export abstract class TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance {
-    beginInit(): void;
-    cast<TResult>(): EnumerableRowCollection_1<TResult>;
-    dispose(): void;
-    getEnumerator(): IEnumerator_1<T>;
-    getList(): IList;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getSchema(): XmlSchema;
-    getService(serviceType: Type): any;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
-    readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader): XmlReadMode;
-    readXml(reader: XmlReader): void;
-    writeXml(stream: Stream): void;
-    writeXml(stream: Stream, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter): void;
-    writeXml(writer: XmlWriter, writeHierarchy: boolean): void;
-    writeXml(fileName: string): void;
-    writeXml(fileName: string, writeHierarchy: boolean): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(fileName: string, mode: XmlWriteMode): void;
-    writeXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    BeginInit(): void;
+    Cast<TResult>(): EnumerableRowCollection_1<TResult>;
+    Dispose(): void;
+    GetEnumerator(): IEnumerator_1<T>;
+    GetList(): IList;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetSchema(): XmlSchema;
+    GetService(serviceType: Type): any;
+    ReadXml(stream: Stream): XmlReadMode;
+    ReadXml(reader: TextReader): XmlReadMode;
+    ReadXml(fileName: string): XmlReadMode;
+    ReadXml(reader: XmlReader): XmlReadMode;
+    ReadXml(reader: XmlReader): void;
+    WriteXml(stream: Stream): void;
+    WriteXml(stream: Stream, writeHierarchy: boolean): void;
+    WriteXml(writer: TextWriter): void;
+    WriteXml(writer: TextWriter, writeHierarchy: boolean): void;
+    WriteXml(writer: XmlWriter): void;
+    WriteXml(writer: XmlWriter, writeHierarchy: boolean): void;
+    WriteXml(fileName: string): void;
+    WriteXml(fileName: string, writeHierarchy: boolean): void;
+    WriteXml(stream: Stream, mode: XmlWriteMode): void;
+    WriteXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(writer: TextWriter, mode: XmlWriteMode): void;
+    WriteXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(writer: XmlWriter, mode: XmlWriteMode): void;
+    WriteXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    WriteXml(fileName: string, mode: XmlWriteMode): void;
+    WriteXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
 }
 
 
@@ -1927,11 +1927,11 @@ export class UniqueConstraint$instance extends Constraint$instance {
     constructor(column: DataColumn, isPrimaryKey: boolean);
     constructor(name: string, columns: DataColumn[], isPrimaryKey: boolean);
     constructor(columns: DataColumn[], isPrimaryKey: boolean);
-    readonly columns: DataColumn[];
-    readonly isPrimaryKey: boolean;
-    readonly table: DataTable;
-    equals(key2: any): boolean;
-    getHashCode(): int;
+    readonly Columns: DataColumn[];
+    readonly IsPrimaryKey: boolean;
+    readonly Table: DataTable;
+    Equals(key2: any): boolean;
+    GetHashCode(): int;
 }
 
 
@@ -1941,7 +1941,7 @@ export class VersionNotFoundException$instance extends DataException$instance {
     constructor();
     constructor(s: string);
     constructor(message: string, innerException: Exception);
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

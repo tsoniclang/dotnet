@@ -16,7 +16,7 @@
       "Methods": [
         {
           "ClrName": "GetMetaObject",
-          "TsEmitName": "getMetaObject",
+          "TsEmitName": "GetMetaObject",
           "NormalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -47,7 +47,7 @@
       "Properties": [
         {
           "ClrName": "InvokeOnGet",
-          "TsEmitName": "invokeOnGet",
+          "TsEmitName": "InvokeOnGet",
           "NormalizedSignature": "InvokeOnGet|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -76,7 +76,7 @@
       "Methods": [
         {
           "ClrName": "FallbackBinaryOperation",
-          "TsEmitName": "fallbackBinaryOperation",
+          "TsEmitName": "FallbackBinaryOperation",
           "NormalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "FallbackBinaryOperation",
-          "TsEmitName": "fallbackBinaryOperation2",
+          "TsEmitName": "FallbackBinaryOperation2",
           "NormalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -104,7 +104,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -118,7 +118,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -134,7 +134,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -148,7 +148,7 @@
         },
         {
           "ClrName": "Operation",
-          "TsEmitName": "operation",
+          "TsEmitName": "Operation",
           "NormalizedSignature": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -177,7 +177,7 @@
       "Methods": [
         {
           "ClrName": "Merge",
-          "TsEmitName": "merge",
+          "TsEmitName": "Merge",
           "NormalizedSignature": "Merge|(System.Dynamic.BindingRestrictions):System.Dynamic.BindingRestrictions|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -191,7 +191,7 @@
         },
         {
           "ClrName": "GetTypeRestriction",
-          "TsEmitName": "getTypeRestriction",
+          "TsEmitName": "GetTypeRestriction",
           "NormalizedSignature": "GetTypeRestriction|(System.Linq.Expressions.Expression,System.Type):System.Dynamic.BindingRestrictions|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -205,7 +205,7 @@
         },
         {
           "ClrName": "GetInstanceRestriction",
-          "TsEmitName": "getInstanceRestriction",
+          "TsEmitName": "GetInstanceRestriction",
           "NormalizedSignature": "GetInstanceRestriction|(System.Linq.Expressions.Expression,System.Object):System.Dynamic.BindingRestrictions|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -219,7 +219,7 @@
         },
         {
           "ClrName": "GetExpressionRestriction",
-          "TsEmitName": "getExpressionRestriction",
+          "TsEmitName": "GetExpressionRestriction",
           "NormalizedSignature": "GetExpressionRestriction|(System.Linq.Expressions.Expression):System.Dynamic.BindingRestrictions|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -233,7 +233,7 @@
         },
         {
           "ClrName": "Combine",
-          "TsEmitName": "combine",
+          "TsEmitName": "Combine",
           "NormalizedSignature": "Combine|(System.Collections.Generic.IList_1[[System.Dynamic.DynamicMetaObject,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Dynamic.BindingRestrictions|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -247,7 +247,7 @@
         },
         {
           "ClrName": "ToExpression",
-          "TsEmitName": "toExpression",
+          "TsEmitName": "ToExpression",
           "NormalizedSignature": "ToExpression|():System.Linq.Expressions.Expression|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -264,7 +264,7 @@
       "Fields": [
         {
           "ClrName": "Empty",
-          "TsEmitName": "empty",
+          "TsEmitName": "Empty",
           "NormalizedSignature": "Empty|System.Dynamic.BindingRestrictions|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -286,7 +286,7 @@
       "Methods": [
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -300,7 +300,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -316,7 +316,7 @@
       "Properties": [
         {
           "ClrName": "ArgumentCount",
-          "TsEmitName": "argumentCount",
+          "TsEmitName": "ArgumentCount",
           "NormalizedSignature": "ArgumentCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "ArgumentNames",
-          "TsEmitName": "argumentNames",
+          "TsEmitName": "ArgumentNames",
           "NormalizedSignature": "ArgumentNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -370,7 +370,7 @@
       "Methods": [
         {
           "ClrName": "FallbackConvert",
-          "TsEmitName": "fallbackConvert",
+          "TsEmitName": "FallbackConvert",
           "NormalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -384,7 +384,7 @@
         },
         {
           "ClrName": "FallbackConvert",
-          "TsEmitName": "fallbackConvert2",
+          "TsEmitName": "FallbackConvert2",
           "NormalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -398,7 +398,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -412,7 +412,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -428,7 +428,7 @@
       "Properties": [
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "Explicit",
-          "TsEmitName": "explicit",
+          "TsEmitName": "Explicit",
           "NormalizedSignature": "Explicit|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -456,7 +456,7 @@
         },
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -485,7 +485,7 @@
       "Methods": [
         {
           "ClrName": "FallbackCreateInstance",
-          "TsEmitName": "fallbackCreateInstance",
+          "TsEmitName": "FallbackCreateInstance",
           "NormalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -499,7 +499,7 @@
         },
         {
           "ClrName": "FallbackCreateInstance",
-          "TsEmitName": "fallbackCreateInstance2",
+          "TsEmitName": "FallbackCreateInstance2",
           "NormalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -513,7 +513,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -527,7 +527,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -543,7 +543,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -586,7 +586,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -600,7 +600,7 @@
         },
         {
           "ClrName": "FallbackDeleteIndex",
-          "TsEmitName": "fallbackDeleteIndex",
+          "TsEmitName": "FallbackDeleteIndex",
           "NormalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -614,7 +614,7 @@
         },
         {
           "ClrName": "FallbackDeleteIndex",
-          "TsEmitName": "fallbackDeleteIndex2",
+          "TsEmitName": "FallbackDeleteIndex2",
           "NormalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -628,7 +628,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -644,7 +644,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -658,7 +658,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -687,7 +687,7 @@
       "Methods": [
         {
           "ClrName": "FallbackDeleteMember",
-          "TsEmitName": "fallbackDeleteMember",
+          "TsEmitName": "FallbackDeleteMember",
           "NormalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -701,7 +701,7 @@
         },
         {
           "ClrName": "FallbackDeleteMember",
-          "TsEmitName": "fallbackDeleteMember2",
+          "TsEmitName": "FallbackDeleteMember2",
           "NormalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -715,7 +715,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -729,7 +729,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -745,7 +745,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -759,7 +759,7 @@
         },
         {
           "ClrName": "IgnoreCase",
-          "TsEmitName": "ignoreCase",
+          "TsEmitName": "IgnoreCase",
           "NormalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -773,7 +773,7 @@
         },
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -802,7 +802,7 @@
       "Methods": [
         {
           "ClrName": "BindConvert",
-          "TsEmitName": "bindConvert",
+          "TsEmitName": "BindConvert",
           "NormalizedSignature": "BindConvert|(System.Dynamic.ConvertBinder):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -816,7 +816,7 @@
         },
         {
           "ClrName": "BindGetMember",
-          "TsEmitName": "bindGetMember",
+          "TsEmitName": "BindGetMember",
           "NormalizedSignature": "BindGetMember|(System.Dynamic.GetMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -830,7 +830,7 @@
         },
         {
           "ClrName": "BindSetMember",
-          "TsEmitName": "bindSetMember",
+          "TsEmitName": "BindSetMember",
           "NormalizedSignature": "BindSetMember|(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -844,7 +844,7 @@
         },
         {
           "ClrName": "BindDeleteMember",
-          "TsEmitName": "bindDeleteMember",
+          "TsEmitName": "BindDeleteMember",
           "NormalizedSignature": "BindDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -858,7 +858,7 @@
         },
         {
           "ClrName": "BindGetIndex",
-          "TsEmitName": "bindGetIndex",
+          "TsEmitName": "BindGetIndex",
           "NormalizedSignature": "BindGetIndex|(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -872,7 +872,7 @@
         },
         {
           "ClrName": "BindSetIndex",
-          "TsEmitName": "bindSetIndex",
+          "TsEmitName": "BindSetIndex",
           "NormalizedSignature": "BindSetIndex|(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -886,7 +886,7 @@
         },
         {
           "ClrName": "BindDeleteIndex",
-          "TsEmitName": "bindDeleteIndex",
+          "TsEmitName": "BindDeleteIndex",
           "NormalizedSignature": "BindDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -900,7 +900,7 @@
         },
         {
           "ClrName": "BindInvokeMember",
-          "TsEmitName": "bindInvokeMember",
+          "TsEmitName": "BindInvokeMember",
           "NormalizedSignature": "BindInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -914,7 +914,7 @@
         },
         {
           "ClrName": "BindInvoke",
-          "TsEmitName": "bindInvoke",
+          "TsEmitName": "BindInvoke",
           "NormalizedSignature": "BindInvoke|(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -928,7 +928,7 @@
         },
         {
           "ClrName": "BindCreateInstance",
-          "TsEmitName": "bindCreateInstance",
+          "TsEmitName": "BindCreateInstance",
           "NormalizedSignature": "BindCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -942,7 +942,7 @@
         },
         {
           "ClrName": "BindUnaryOperation",
-          "TsEmitName": "bindUnaryOperation",
+          "TsEmitName": "BindUnaryOperation",
           "NormalizedSignature": "BindUnaryOperation|(System.Dynamic.UnaryOperationBinder):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -956,7 +956,7 @@
         },
         {
           "ClrName": "BindBinaryOperation",
-          "TsEmitName": "bindBinaryOperation",
+          "TsEmitName": "BindBinaryOperation",
           "NormalizedSignature": "BindBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -970,7 +970,7 @@
         },
         {
           "ClrName": "GetDynamicMemberNames",
-          "TsEmitName": "getDynamicMemberNames",
+          "TsEmitName": "GetDynamicMemberNames",
           "NormalizedSignature": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -984,7 +984,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Object,System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1000,7 +1000,7 @@
       "Properties": [
         {
           "ClrName": "Expression",
-          "TsEmitName": "expression",
+          "TsEmitName": "Expression",
           "NormalizedSignature": "Expression|:System.Linq.Expressions.Expression|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1014,7 +1014,7 @@
         },
         {
           "ClrName": "Restrictions",
-          "TsEmitName": "restrictions",
+          "TsEmitName": "Restrictions",
           "NormalizedSignature": "Restrictions|:System.Dynamic.BindingRestrictions|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1028,7 +1028,7 @@
         },
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1042,7 +1042,7 @@
         },
         {
           "ClrName": "HasValue",
-          "TsEmitName": "hasValue",
+          "TsEmitName": "HasValue",
           "NormalizedSignature": "HasValue|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1056,7 +1056,7 @@
         },
         {
           "ClrName": "RuntimeType",
-          "TsEmitName": "runtimeType",
+          "TsEmitName": "RuntimeType",
           "NormalizedSignature": "RuntimeType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1070,7 +1070,7 @@
         },
         {
           "ClrName": "LimitType",
-          "TsEmitName": "limitType",
+          "TsEmitName": "LimitType",
           "NormalizedSignature": "LimitType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1086,7 +1086,7 @@
       "Fields": [
         {
           "ClrName": "EmptyMetaObjects",
-          "TsEmitName": "emptyMetaObjects",
+          "TsEmitName": "EmptyMetaObjects",
           "NormalizedSignature": "EmptyMetaObjects|System.Dynamic.DynamicMetaObject[]|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1119,7 +1119,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1133,7 +1133,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind3",
+          "TsEmitName": "Bind3",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1147,7 +1147,7 @@
         },
         {
           "ClrName": "GetUpdateExpression",
-          "TsEmitName": "getUpdateExpression",
+          "TsEmitName": "GetUpdateExpression",
           "NormalizedSignature": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1161,7 +1161,7 @@
         },
         {
           "ClrName": "Defer",
-          "TsEmitName": "defer",
+          "TsEmitName": "Defer",
           "NormalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1175,7 +1175,7 @@
         },
         {
           "ClrName": "Defer",
-          "TsEmitName": "defer2",
+          "TsEmitName": "Defer2",
           "NormalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1189,7 +1189,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1205,7 +1205,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1234,7 +1234,7 @@
       "Methods": [
         {
           "ClrName": "TryGetMember",
-          "TsEmitName": "tryGetMember",
+          "TsEmitName": "TryGetMember",
           "NormalizedSignature": "TryGetMember|(System.Dynamic.GetMemberBinder,System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1248,7 +1248,7 @@
         },
         {
           "ClrName": "TrySetMember",
-          "TsEmitName": "trySetMember",
+          "TsEmitName": "TrySetMember",
           "NormalizedSignature": "TrySetMember|(System.Dynamic.SetMemberBinder,System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1262,7 +1262,7 @@
         },
         {
           "ClrName": "TryDeleteMember",
-          "TsEmitName": "tryDeleteMember",
+          "TsEmitName": "TryDeleteMember",
           "NormalizedSignature": "TryDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1276,7 +1276,7 @@
         },
         {
           "ClrName": "TryInvokeMember",
-          "TsEmitName": "tryInvokeMember",
+          "TsEmitName": "TryInvokeMember",
           "NormalizedSignature": "TryInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1290,7 +1290,7 @@
         },
         {
           "ClrName": "TryConvert",
-          "TsEmitName": "tryConvert",
+          "TsEmitName": "TryConvert",
           "NormalizedSignature": "TryConvert|(System.Dynamic.ConvertBinder,System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1304,7 +1304,7 @@
         },
         {
           "ClrName": "TryCreateInstance",
-          "TsEmitName": "tryCreateInstance",
+          "TsEmitName": "TryCreateInstance",
           "NormalizedSignature": "TryCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1318,7 +1318,7 @@
         },
         {
           "ClrName": "TryInvoke",
-          "TsEmitName": "tryInvoke",
+          "TsEmitName": "TryInvoke",
           "NormalizedSignature": "TryInvoke|(System.Dynamic.InvokeBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1332,7 +1332,7 @@
         },
         {
           "ClrName": "TryBinaryOperation",
-          "TsEmitName": "tryBinaryOperation",
+          "TsEmitName": "TryBinaryOperation",
           "NormalizedSignature": "TryBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Object,System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1346,7 +1346,7 @@
         },
         {
           "ClrName": "TryUnaryOperation",
-          "TsEmitName": "tryUnaryOperation",
+          "TsEmitName": "TryUnaryOperation",
           "NormalizedSignature": "TryUnaryOperation|(System.Dynamic.UnaryOperationBinder,System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1360,7 +1360,7 @@
         },
         {
           "ClrName": "TryGetIndex",
-          "TsEmitName": "tryGetIndex",
+          "TsEmitName": "TryGetIndex",
           "NormalizedSignature": "TryGetIndex|(System.Dynamic.GetIndexBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1374,7 +1374,7 @@
         },
         {
           "ClrName": "TrySetIndex",
-          "TsEmitName": "trySetIndex",
+          "TsEmitName": "TrySetIndex",
           "NormalizedSignature": "TrySetIndex|(System.Dynamic.SetIndexBinder,System.Object[],System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1388,7 +1388,7 @@
         },
         {
           "ClrName": "TryDeleteIndex",
-          "TsEmitName": "tryDeleteIndex",
+          "TsEmitName": "TryDeleteIndex",
           "NormalizedSignature": "TryDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Object[]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1402,7 +1402,7 @@
         },
         {
           "ClrName": "GetDynamicMemberNames",
-          "TsEmitName": "getDynamicMemberNames",
+          "TsEmitName": "GetDynamicMemberNames",
           "NormalizedSignature": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1416,7 +1416,7 @@
         },
         {
           "ClrName": "GetMetaObject",
-          "TsEmitName": "getMetaObject",
+          "TsEmitName": "GetMetaObject",
           "NormalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1430,7 +1430,7 @@
         },
         {
           "ClrName": "GetMetaObject",
-          "TsEmitName": "getMetaObject$view",
+          "TsEmitName": "GetMetaObject$view",
           "NormalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1461,7 +1461,7 @@
       "Methods": [
         {
           "ClrName": "GetMetaObject",
-          "TsEmitName": "getMetaObject",
+          "TsEmitName": "GetMetaObject",
           "NormalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1476,7 +1476,7 @@
         },
         {
           "ClrName": "ContainsKey",
-          "TsEmitName": "containsKey",
+          "TsEmitName": "ContainsKey",
           "NormalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1491,7 +1491,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1506,7 +1506,7 @@
         },
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1521,7 +1521,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1536,7 +1536,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1551,7 +1551,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1566,7 +1566,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1581,7 +1581,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1596,7 +1596,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1613,7 +1613,7 @@
       "Properties": [
         {
           "ClrName": "Keys",
-          "TsEmitName": "keys",
+          "TsEmitName": "Keys",
           "NormalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1628,7 +1628,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1643,7 +1643,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1658,7 +1658,7 @@
         },
         {
           "ClrName": "Values",
-          "TsEmitName": "values",
+          "TsEmitName": "Values",
           "NormalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1694,7 +1694,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1708,7 +1708,7 @@
         },
         {
           "ClrName": "FallbackGetIndex",
-          "TsEmitName": "fallbackGetIndex",
+          "TsEmitName": "FallbackGetIndex",
           "NormalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1722,7 +1722,7 @@
         },
         {
           "ClrName": "FallbackGetIndex",
-          "TsEmitName": "fallbackGetIndex2",
+          "TsEmitName": "FallbackGetIndex2",
           "NormalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1736,7 +1736,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1752,7 +1752,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1766,7 +1766,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1795,7 +1795,7 @@
       "Methods": [
         {
           "ClrName": "FallbackGetMember",
-          "TsEmitName": "fallbackGetMember",
+          "TsEmitName": "FallbackGetMember",
           "NormalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1809,7 +1809,7 @@
         },
         {
           "ClrName": "FallbackGetMember",
-          "TsEmitName": "fallbackGetMember2",
+          "TsEmitName": "FallbackGetMember2",
           "NormalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1823,7 +1823,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1837,7 +1837,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1867,7 +1867,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1881,7 +1881,7 @@
         },
         {
           "ClrName": "IgnoreCase",
-          "TsEmitName": "ignoreCase",
+          "TsEmitName": "IgnoreCase",
           "NormalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1910,7 +1910,7 @@
       "Methods": [
         {
           "ClrName": "FallbackInvoke",
-          "TsEmitName": "fallbackInvoke",
+          "TsEmitName": "FallbackInvoke",
           "NormalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1924,7 +1924,7 @@
         },
         {
           "ClrName": "FallbackInvoke",
-          "TsEmitName": "fallbackInvoke2",
+          "TsEmitName": "FallbackInvoke2",
           "NormalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1938,7 +1938,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1952,7 +1952,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1968,7 +1968,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1982,7 +1982,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2011,7 +2011,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2025,7 +2025,7 @@
         },
         {
           "ClrName": "FallbackInvokeMember",
-          "TsEmitName": "fallbackInvokeMember",
+          "TsEmitName": "FallbackInvokeMember",
           "NormalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2039,7 +2039,7 @@
         },
         {
           "ClrName": "FallbackInvokeMember",
-          "TsEmitName": "fallbackInvokeMember2",
+          "TsEmitName": "FallbackInvokeMember2",
           "NormalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2053,7 +2053,7 @@
         },
         {
           "ClrName": "FallbackInvoke",
-          "TsEmitName": "fallbackInvoke",
+          "TsEmitName": "FallbackInvoke",
           "NormalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2083,7 +2083,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2097,7 +2097,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2111,7 +2111,7 @@
         },
         {
           "ClrName": "IgnoreCase",
-          "TsEmitName": "ignoreCase",
+          "TsEmitName": "IgnoreCase",
           "NormalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2125,7 +2125,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2154,7 +2154,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2168,7 +2168,7 @@
         },
         {
           "ClrName": "FallbackSetIndex",
-          "TsEmitName": "fallbackSetIndex",
+          "TsEmitName": "FallbackSetIndex",
           "NormalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2182,7 +2182,7 @@
         },
         {
           "ClrName": "FallbackSetIndex",
-          "TsEmitName": "fallbackSetIndex2",
+          "TsEmitName": "FallbackSetIndex2",
           "NormalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2196,7 +2196,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2212,7 +2212,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2226,7 +2226,7 @@
         },
         {
           "ClrName": "CallInfo",
-          "TsEmitName": "callInfo",
+          "TsEmitName": "CallInfo",
           "NormalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2255,7 +2255,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2269,7 +2269,7 @@
         },
         {
           "ClrName": "FallbackSetMember",
-          "TsEmitName": "fallbackSetMember",
+          "TsEmitName": "FallbackSetMember",
           "NormalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2283,7 +2283,7 @@
         },
         {
           "ClrName": "FallbackSetMember",
-          "TsEmitName": "fallbackSetMember2",
+          "TsEmitName": "FallbackSetMember2",
           "NormalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2297,7 +2297,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2313,7 +2313,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2327,7 +2327,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2341,7 +2341,7 @@
         },
         {
           "ClrName": "IgnoreCase",
-          "TsEmitName": "ignoreCase",
+          "TsEmitName": "IgnoreCase",
           "NormalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2370,7 +2370,7 @@
       "Methods": [
         {
           "ClrName": "FallbackUnaryOperation",
-          "TsEmitName": "fallbackUnaryOperation",
+          "TsEmitName": "FallbackUnaryOperation",
           "NormalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2384,7 +2384,7 @@
         },
         {
           "ClrName": "FallbackUnaryOperation",
-          "TsEmitName": "fallbackUnaryOperation2",
+          "TsEmitName": "FallbackUnaryOperation2",
           "NormalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2398,7 +2398,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind2",
+          "TsEmitName": "Bind2",
           "NormalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2412,7 +2412,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
       "Properties": [
         {
           "ClrName": "ReturnType",
-          "TsEmitName": "returnType",
+          "TsEmitName": "ReturnType",
           "NormalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2442,7 +2442,7 @@
         },
         {
           "ClrName": "Operation",
-          "TsEmitName": "operation",
+          "TsEmitName": "Operation",
           "NormalizedSignature": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

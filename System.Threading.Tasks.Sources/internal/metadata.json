@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "UseSchedulingContext",
-          "TsEmitName": "useSchedulingContext",
+          "TsEmitName": "UseSchedulingContext",
           "NormalizedSignature": "UseSchedulingContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "FlowExecutionContext",
-          "TsEmitName": "flowExecutionContext",
+          "TsEmitName": "FlowExecutionContext",
           "NormalizedSignature": "FlowExecutionContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "Pending",
-          "TsEmitName": "pending",
+          "TsEmitName": "Pending",
           "NormalizedSignature": "Pending|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "ClrName": "Succeeded",
-          "TsEmitName": "succeeded",
+          "TsEmitName": "Succeeded",
           "NormalizedSignature": "Succeeded|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "Faulted",
-          "TsEmitName": "faulted",
+          "TsEmitName": "Faulted",
           "NormalizedSignature": "Faulted|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "Canceled",
-          "TsEmitName": "canceled",
+          "TsEmitName": "Canceled",
           "NormalizedSignature": "Canceled|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -120,7 +120,7 @@
       "Methods": [
         {
           "ClrName": "GetStatus",
-          "TsEmitName": "getStatus",
+          "TsEmitName": "GetStatus",
           "NormalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -134,7 +134,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -148,7 +148,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|(System.Int16):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -178,7 +178,7 @@
       "Methods": [
         {
           "ClrName": "GetStatus",
-          "TsEmitName": "getStatus",
+          "TsEmitName": "GetStatus",
           "NormalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -192,7 +192,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -206,7 +206,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|(System.Int16):TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -236,7 +236,7 @@
       "Methods": [
         {
           "ClrName": "Reset",
-          "TsEmitName": "reset",
+          "TsEmitName": "Reset",
           "NormalizedSignature": "Reset|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -250,7 +250,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -264,7 +264,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -278,7 +278,7 @@
         },
         {
           "ClrName": "GetStatus",
-          "TsEmitName": "getStatus",
+          "TsEmitName": "GetStatus",
           "NormalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -292,7 +292,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|(System.Int16):TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -306,7 +306,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -322,7 +322,7 @@
       "Properties": [
         {
           "ClrName": "RunContinuationsAsynchronously",
-          "TsEmitName": "runContinuationsAsynchronously",
+          "TsEmitName": "RunContinuationsAsynchronously",
           "NormalizedSignature": "RunContinuationsAsynchronously|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -336,7 +336,7 @@
         },
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "NormalizedSignature": "Version|:System.Int16|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

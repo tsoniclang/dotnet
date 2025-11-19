@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity",
+          "TsEmitName": "Identity",
           "NormalizedSignature": "Identity|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Computed",
-          "TsEmitName": "computed",
+          "TsEmitName": "Computed",
           "NormalizedSignature": "Computed|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -65,7 +65,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -79,7 +79,7 @@
         },
         {
           "ClrName": "Order",
-          "TsEmitName": "order",
+          "TsEmitName": "Order",
           "NormalizedSignature": "Order|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -93,7 +93,7 @@
         },
         {
           "ClrName": "TypeName",
-          "TsEmitName": "typeName",
+          "TsEmitName": "TypeName",
           "NormalizedSignature": "TypeName|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -155,7 +155,7 @@
       "Properties": [
         {
           "ClrName": "DatabaseGeneratedOption",
-          "TsEmitName": "databaseGeneratedOption",
+          "TsEmitName": "DatabaseGeneratedOption",
           "NormalizedSignature": "DatabaseGeneratedOption|:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -191,7 +191,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -227,7 +227,7 @@
       "Properties": [
         {
           "ClrName": "Property",
-          "TsEmitName": "property",
+          "TsEmitName": "Property",
           "NormalizedSignature": "Property|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -284,7 +284,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -298,7 +298,7 @@
         },
         {
           "ClrName": "Schema",
-          "TsEmitName": "schema",
+          "TsEmitName": "Schema",
           "NormalizedSignature": "Schema|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

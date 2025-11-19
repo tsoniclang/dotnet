@@ -17,7 +17,7 @@
       "Properties": [
         {
           "ClrName": "ValueSerializerType",
-          "TsEmitName": "valueSerializerType",
+          "TsEmitName": "ValueSerializerType",
           "NormalizedSignature": "ValueSerializerType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -31,7 +31,7 @@
         },
         {
           "ClrName": "ValueSerializerTypeName",
-          "TsEmitName": "valueSerializerTypeName",
+          "TsEmitName": "ValueSerializerTypeName",
           "NormalizedSignature": "ValueSerializerTypeName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

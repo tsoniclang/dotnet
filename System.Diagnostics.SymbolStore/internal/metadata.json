@@ -1,8 +1,8 @@
 {
   "Namespace": "System.Diagnostics.SymbolStore",
   "ContributingAssemblies": [
-    "System.Private.CoreLib",
-    "System.Diagnostics.StackTrace"
+    "System.Diagnostics.StackTrace",
+    "System.Private.CoreLib"
   ],
   "Types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "ClrName": "ILOffset",
-          "TsEmitName": "ilOffset",
+          "TsEmitName": "ILOffset",
           "NormalizedSignature": "ILOffset|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "ClrName": "NativeRVA",
-          "TsEmitName": "nativeRVA",
+          "TsEmitName": "NativeRVA",
           "NormalizedSignature": "NativeRVA|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "ClrName": "NativeRegister",
-          "TsEmitName": "nativeRegister",
+          "TsEmitName": "NativeRegister",
           "NormalizedSignature": "NativeRegister|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "ClrName": "NativeRegisterRelative",
-          "TsEmitName": "nativeRegisterRelative",
+          "TsEmitName": "NativeRegisterRelative",
           "NormalizedSignature": "NativeRegisterRelative|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -59,7 +59,7 @@
         },
         {
           "ClrName": "NativeOffset",
-          "TsEmitName": "nativeOffset",
+          "TsEmitName": "NativeOffset",
           "NormalizedSignature": "NativeOffset|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -67,7 +67,7 @@
         },
         {
           "ClrName": "NativeRegisterRegister",
-          "TsEmitName": "nativeRegisterRegister",
+          "TsEmitName": "NativeRegisterRegister",
           "NormalizedSignature": "NativeRegisterRegister|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -75,7 +75,7 @@
         },
         {
           "ClrName": "NativeRegisterStack",
-          "TsEmitName": "nativeRegisterStack",
+          "TsEmitName": "NativeRegisterStack",
           "NormalizedSignature": "NativeRegisterStack|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "ClrName": "NativeStackRegister",
-          "TsEmitName": "nativeStackRegister",
+          "TsEmitName": "NativeStackRegister",
           "NormalizedSignature": "NativeStackRegister|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "ClrName": "BitField",
-          "TsEmitName": "bitField",
+          "TsEmitName": "BitField",
           "NormalizedSignature": "BitField|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "ClrName": "NativeSectionOffset",
-          "TsEmitName": "nativeSectionOffset",
+          "TsEmitName": "NativeSectionOffset",
           "NormalizedSignature": "NativeSectionOffset|System.Diagnostics.SymbolStore.SymAddressKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -121,7 +121,7 @@
       "Methods": [
         {
           "ClrName": "GetReader",
-          "TsEmitName": "getReader",
+          "TsEmitName": "GetReader",
           "NormalizedSignature": "GetReader|(System.Int32,System.String,System.String):System.Diagnostics.SymbolStore.ISymbolReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -151,7 +151,7 @@
       "Methods": [
         {
           "ClrName": "GetReader",
-          "TsEmitName": "getReader",
+          "TsEmitName": "GetReader",
           "NormalizedSignature": "GetReader|(System.IntPtr,System.String,System.String):System.Diagnostics.SymbolStore.ISymbolReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -181,7 +181,7 @@
       "Methods": [
         {
           "ClrName": "GetCheckSum",
-          "TsEmitName": "getCheckSum",
+          "TsEmitName": "GetCheckSum",
           "NormalizedSignature": "GetCheckSum|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -195,7 +195,7 @@
         },
         {
           "ClrName": "FindClosestLine",
-          "TsEmitName": "findClosestLine",
+          "TsEmitName": "FindClosestLine",
           "NormalizedSignature": "FindClosestLine|(System.Int32):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -209,7 +209,7 @@
         },
         {
           "ClrName": "GetSourceRange",
-          "TsEmitName": "getSourceRange",
+          "TsEmitName": "GetSourceRange",
           "NormalizedSignature": "GetSourceRange|(System.Int32,System.Int32,System.Int32,System.Int32):System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -225,7 +225,7 @@
       "Properties": [
         {
           "ClrName": "URL",
-          "TsEmitName": "url",
+          "TsEmitName": "URL",
           "NormalizedSignature": "URL|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -239,7 +239,7 @@
         },
         {
           "ClrName": "DocumentType",
-          "TsEmitName": "documentType",
+          "TsEmitName": "DocumentType",
           "NormalizedSignature": "DocumentType|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -253,7 +253,7 @@
         },
         {
           "ClrName": "Language",
-          "TsEmitName": "language",
+          "TsEmitName": "Language",
           "NormalizedSignature": "Language|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -267,7 +267,7 @@
         },
         {
           "ClrName": "LanguageVendor",
-          "TsEmitName": "languageVendor",
+          "TsEmitName": "LanguageVendor",
           "NormalizedSignature": "LanguageVendor|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -281,7 +281,7 @@
         },
         {
           "ClrName": "CheckSumAlgorithmId",
-          "TsEmitName": "checkSumAlgorithmId",
+          "TsEmitName": "CheckSumAlgorithmId",
           "NormalizedSignature": "CheckSumAlgorithmId|:System.Guid|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -295,7 +295,7 @@
         },
         {
           "ClrName": "HasEmbeddedSource",
-          "TsEmitName": "hasEmbeddedSource",
+          "TsEmitName": "HasEmbeddedSource",
           "NormalizedSignature": "HasEmbeddedSource|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -309,7 +309,7 @@
         },
         {
           "ClrName": "SourceLength",
-          "TsEmitName": "sourceLength",
+          "TsEmitName": "SourceLength",
           "NormalizedSignature": "SourceLength|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -338,7 +338,7 @@
       "Methods": [
         {
           "ClrName": "SetCheckSum",
-          "TsEmitName": "setCheckSum",
+          "TsEmitName": "SetCheckSum",
           "NormalizedSignature": "SetCheckSum|(System.Guid,System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -352,7 +352,7 @@
         },
         {
           "ClrName": "SetSource",
-          "TsEmitName": "setSource",
+          "TsEmitName": "SetSource",
           "NormalizedSignature": "SetSource|(System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -382,7 +382,7 @@
       "Methods": [
         {
           "ClrName": "GetSequencePoints",
-          "TsEmitName": "getSequencePoints",
+          "TsEmitName": "GetSequencePoints",
           "NormalizedSignature": "GetSequencePoints|(System.Int32[],System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[],System.Int32[],System.Int32[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         },
         {
           "ClrName": "GetScope",
-          "TsEmitName": "getScope",
+          "TsEmitName": "GetScope",
           "NormalizedSignature": "GetScope|(System.Int32):System.Diagnostics.SymbolStore.ISymbolScope|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -410,7 +410,7 @@
         },
         {
           "ClrName": "GetOffset",
-          "TsEmitName": "getOffset",
+          "TsEmitName": "GetOffset",
           "NormalizedSignature": "GetOffset|(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -424,7 +424,7 @@
         },
         {
           "ClrName": "GetRanges",
-          "TsEmitName": "getRanges",
+          "TsEmitName": "GetRanges",
           "NormalizedSignature": "GetRanges|(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Int32[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -438,7 +438,7 @@
         },
         {
           "ClrName": "GetParameters",
-          "TsEmitName": "getParameters",
+          "TsEmitName": "GetParameters",
           "NormalizedSignature": "GetParameters|():System.Diagnostics.SymbolStore.ISymbolVariable[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         },
         {
           "ClrName": "GetNamespace",
-          "TsEmitName": "getNamespace",
+          "TsEmitName": "GetNamespace",
           "NormalizedSignature": "GetNamespace|():System.Diagnostics.SymbolStore.ISymbolNamespace|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -466,7 +466,7 @@
         },
         {
           "ClrName": "GetSourceStartEnd",
-          "TsEmitName": "getSourceStartEnd",
+          "TsEmitName": "GetSourceStartEnd",
           "NormalizedSignature": "GetSourceStartEnd|(System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -482,7 +482,7 @@
       "Properties": [
         {
           "ClrName": "Token",
-          "TsEmitName": "token",
+          "TsEmitName": "Token",
           "NormalizedSignature": "Token|:System.Diagnostics.SymbolStore.SymbolToken|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -496,7 +496,7 @@
         },
         {
           "ClrName": "SequencePointCount",
-          "TsEmitName": "sequencePointCount",
+          "TsEmitName": "SequencePointCount",
           "NormalizedSignature": "SequencePointCount|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -510,7 +510,7 @@
         },
         {
           "ClrName": "RootScope",
-          "TsEmitName": "rootScope",
+          "TsEmitName": "RootScope",
           "NormalizedSignature": "RootScope|:System.Diagnostics.SymbolStore.ISymbolScope|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -539,7 +539,7 @@
       "Methods": [
         {
           "ClrName": "GetNamespaces",
-          "TsEmitName": "getNamespaces",
+          "TsEmitName": "GetNamespaces",
           "NormalizedSignature": "GetNamespaces|():System.Diagnostics.SymbolStore.ISymbolNamespace[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -553,7 +553,7 @@
         },
         {
           "ClrName": "GetVariables",
-          "TsEmitName": "getVariables",
+          "TsEmitName": "GetVariables",
           "NormalizedSignature": "GetVariables|():System.Diagnostics.SymbolStore.ISymbolVariable[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -569,7 +569,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -598,7 +598,7 @@
       "Methods": [
         {
           "ClrName": "GetDocument",
-          "TsEmitName": "getDocument",
+          "TsEmitName": "GetDocument",
           "NormalizedSignature": "GetDocument|(System.String,System.Guid,System.Guid,System.Guid):System.Diagnostics.SymbolStore.ISymbolDocument|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "GetDocuments",
-          "TsEmitName": "getDocuments",
+          "TsEmitName": "GetDocuments",
           "NormalizedSignature": "GetDocuments|():System.Diagnostics.SymbolStore.ISymbolDocument[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "GetMethod",
-          "TsEmitName": "getMethod",
+          "TsEmitName": "GetMethod",
           "NormalizedSignature": "GetMethod|(System.Diagnostics.SymbolStore.SymbolToken):System.Diagnostics.SymbolStore.ISymbolMethod|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -640,7 +640,7 @@
         },
         {
           "ClrName": "GetMethod",
-          "TsEmitName": "getMethod2",
+          "TsEmitName": "GetMethod2",
           "NormalizedSignature": "GetMethod|(System.Diagnostics.SymbolStore.SymbolToken,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -654,7 +654,7 @@
         },
         {
           "ClrName": "GetVariables",
-          "TsEmitName": "getVariables",
+          "TsEmitName": "GetVariables",
           "NormalizedSignature": "GetVariables|(System.Diagnostics.SymbolStore.SymbolToken):System.Diagnostics.SymbolStore.ISymbolVariable[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -668,7 +668,7 @@
         },
         {
           "ClrName": "GetGlobalVariables",
-          "TsEmitName": "getGlobalVariables",
+          "TsEmitName": "GetGlobalVariables",
           "NormalizedSignature": "GetGlobalVariables|():System.Diagnostics.SymbolStore.ISymbolVariable[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -682,7 +682,7 @@
         },
         {
           "ClrName": "GetMethodFromDocumentPosition",
-          "TsEmitName": "getMethodFromDocumentPosition",
+          "TsEmitName": "GetMethodFromDocumentPosition",
           "NormalizedSignature": "GetMethodFromDocumentPosition|(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -696,7 +696,7 @@
         },
         {
           "ClrName": "GetSymAttribute",
-          "TsEmitName": "getSymAttribute",
+          "TsEmitName": "GetSymAttribute",
           "NormalizedSignature": "GetSymAttribute|(System.Diagnostics.SymbolStore.SymbolToken,System.String):System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -710,7 +710,7 @@
         },
         {
           "ClrName": "GetNamespaces",
-          "TsEmitName": "getNamespaces",
+          "TsEmitName": "GetNamespaces",
           "NormalizedSignature": "GetNamespaces|():System.Diagnostics.SymbolStore.ISymbolNamespace[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -726,7 +726,7 @@
       "Properties": [
         {
           "ClrName": "UserEntryPoint",
-          "TsEmitName": "userEntryPoint",
+          "TsEmitName": "UserEntryPoint",
           "NormalizedSignature": "UserEntryPoint|:System.Diagnostics.SymbolStore.SymbolToken|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -755,7 +755,7 @@
       "Methods": [
         {
           "ClrName": "GetChildren",
-          "TsEmitName": "getChildren",
+          "TsEmitName": "GetChildren",
           "NormalizedSignature": "GetChildren|():System.Diagnostics.SymbolStore.ISymbolScope[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -769,7 +769,7 @@
         },
         {
           "ClrName": "GetLocals",
-          "TsEmitName": "getLocals",
+          "TsEmitName": "GetLocals",
           "NormalizedSignature": "GetLocals|():System.Diagnostics.SymbolStore.ISymbolVariable[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -783,7 +783,7 @@
         },
         {
           "ClrName": "GetNamespaces",
-          "TsEmitName": "getNamespaces",
+          "TsEmitName": "GetNamespaces",
           "NormalizedSignature": "GetNamespaces|():System.Diagnostics.SymbolStore.ISymbolNamespace[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -799,7 +799,7 @@
       "Properties": [
         {
           "ClrName": "Method",
-          "TsEmitName": "method",
+          "TsEmitName": "Method",
           "NormalizedSignature": "Method|:System.Diagnostics.SymbolStore.ISymbolMethod|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -813,7 +813,7 @@
         },
         {
           "ClrName": "Parent",
-          "TsEmitName": "parent",
+          "TsEmitName": "Parent",
           "NormalizedSignature": "Parent|:System.Diagnostics.SymbolStore.ISymbolScope|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -827,7 +827,7 @@
         },
         {
           "ClrName": "StartOffset",
-          "TsEmitName": "startOffset",
+          "TsEmitName": "StartOffset",
           "NormalizedSignature": "StartOffset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -841,7 +841,7 @@
         },
         {
           "ClrName": "EndOffset",
-          "TsEmitName": "endOffset",
+          "TsEmitName": "EndOffset",
           "NormalizedSignature": "EndOffset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -870,7 +870,7 @@
       "Methods": [
         {
           "ClrName": "GetSignature",
-          "TsEmitName": "getSignature",
+          "TsEmitName": "GetSignature",
           "NormalizedSignature": "GetSignature|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -886,7 +886,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -900,7 +900,7 @@
         },
         {
           "ClrName": "Attributes",
-          "TsEmitName": "attributes",
+          "TsEmitName": "Attributes",
           "NormalizedSignature": "Attributes|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -914,7 +914,7 @@
         },
         {
           "ClrName": "AddressKind",
-          "TsEmitName": "addressKind",
+          "TsEmitName": "AddressKind",
           "NormalizedSignature": "AddressKind|:System.Diagnostics.SymbolStore.SymAddressKind|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -928,7 +928,7 @@
         },
         {
           "ClrName": "AddressField1",
-          "TsEmitName": "addressField1",
+          "TsEmitName": "AddressField1",
           "NormalizedSignature": "AddressField1|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -942,7 +942,7 @@
         },
         {
           "ClrName": "AddressField2",
-          "TsEmitName": "addressField2",
+          "TsEmitName": "AddressField2",
           "NormalizedSignature": "AddressField2|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -956,7 +956,7 @@
         },
         {
           "ClrName": "AddressField3",
-          "TsEmitName": "addressField3",
+          "TsEmitName": "AddressField3",
           "NormalizedSignature": "AddressField3|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -970,7 +970,7 @@
         },
         {
           "ClrName": "StartOffset",
-          "TsEmitName": "startOffset",
+          "TsEmitName": "StartOffset",
           "NormalizedSignature": "StartOffset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -984,7 +984,7 @@
         },
         {
           "ClrName": "EndOffset",
-          "TsEmitName": "endOffset",
+          "TsEmitName": "EndOffset",
           "NormalizedSignature": "EndOffset|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1013,7 +1013,7 @@
       "Methods": [
         {
           "ClrName": "Initialize",
-          "TsEmitName": "initialize",
+          "TsEmitName": "Initialize",
           "NormalizedSignature": "Initialize|(System.IntPtr,System.String,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1027,7 +1027,7 @@
         },
         {
           "ClrName": "DefineDocument",
-          "TsEmitName": "defineDocument",
+          "TsEmitName": "DefineDocument",
           "NormalizedSignature": "DefineDocument|(System.String,System.Guid,System.Guid,System.Guid):System.Diagnostics.SymbolStore.ISymbolDocumentWriter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1041,7 +1041,7 @@
         },
         {
           "ClrName": "SetUserEntryPoint",
-          "TsEmitName": "setUserEntryPoint",
+          "TsEmitName": "SetUserEntryPoint",
           "NormalizedSignature": "SetUserEntryPoint|(System.Diagnostics.SymbolStore.SymbolToken):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1055,7 +1055,7 @@
         },
         {
           "ClrName": "CloseMethod",
-          "TsEmitName": "closeMethod",
+          "TsEmitName": "CloseMethod",
           "NormalizedSignature": "CloseMethod|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1069,7 +1069,7 @@
         },
         {
           "ClrName": "DefineSequencePoints",
-          "TsEmitName": "defineSequencePoints",
+          "TsEmitName": "DefineSequencePoints",
           "NormalizedSignature": "DefineSequencePoints|(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1083,7 +1083,7 @@
         },
         {
           "ClrName": "OpenScope",
-          "TsEmitName": "openScope",
+          "TsEmitName": "OpenScope",
           "NormalizedSignature": "OpenScope|(System.Int32):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1097,7 +1097,7 @@
         },
         {
           "ClrName": "CloseScope",
-          "TsEmitName": "closeScope",
+          "TsEmitName": "CloseScope",
           "NormalizedSignature": "CloseScope|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1111,7 +1111,7 @@
         },
         {
           "ClrName": "SetScopeRange",
-          "TsEmitName": "setScopeRange",
+          "TsEmitName": "SetScopeRange",
           "NormalizedSignature": "SetScopeRange|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1125,7 +1125,7 @@
         },
         {
           "ClrName": "DefineLocalVariable",
-          "TsEmitName": "defineLocalVariable",
+          "TsEmitName": "DefineLocalVariable",
           "NormalizedSignature": "DefineLocalVariable|(System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1139,7 +1139,7 @@
         },
         {
           "ClrName": "DefineParameter",
-          "TsEmitName": "defineParameter",
+          "TsEmitName": "DefineParameter",
           "NormalizedSignature": "DefineParameter|(System.String,System.Reflection.ParameterAttributes,System.Int32,System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1153,7 +1153,7 @@
         },
         {
           "ClrName": "DefineField",
-          "TsEmitName": "defineField",
+          "TsEmitName": "DefineField",
           "NormalizedSignature": "DefineField|(System.Diagnostics.SymbolStore.SymbolToken,System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1167,7 +1167,7 @@
         },
         {
           "ClrName": "DefineGlobalVariable",
-          "TsEmitName": "defineGlobalVariable",
+          "TsEmitName": "DefineGlobalVariable",
           "NormalizedSignature": "DefineGlobalVariable|(System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1181,7 +1181,7 @@
         },
         {
           "ClrName": "SetSymAttribute",
-          "TsEmitName": "setSymAttribute",
+          "TsEmitName": "SetSymAttribute",
           "NormalizedSignature": "SetSymAttribute|(System.Diagnostics.SymbolStore.SymbolToken,System.String,System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1195,7 +1195,7 @@
         },
         {
           "ClrName": "OpenNamespace",
-          "TsEmitName": "openNamespace",
+          "TsEmitName": "OpenNamespace",
           "NormalizedSignature": "OpenNamespace|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1209,7 +1209,7 @@
         },
         {
           "ClrName": "SetMethodSourceRange",
-          "TsEmitName": "setMethodSourceRange",
+          "TsEmitName": "SetMethodSourceRange",
           "NormalizedSignature": "SetMethodSourceRange|(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32,System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1223,7 +1223,7 @@
         },
         {
           "ClrName": "SetUnderlyingWriter",
-          "TsEmitName": "setUnderlyingWriter",
+          "TsEmitName": "SetUnderlyingWriter",
           "NormalizedSignature": "SetUnderlyingWriter|(System.IntPtr):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1253,7 +1253,7 @@
       "Methods": [
         {
           "ClrName": "GetToken",
-          "TsEmitName": "getToken",
+          "TsEmitName": "GetToken",
           "NormalizedSignature": "GetToken|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1267,7 +1267,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1281,7 +1281,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1295,7 +1295,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Diagnostics.SymbolStore.SymbolToken):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1309,7 +1309,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1348,7 +1348,7 @@
       "Fields": [
         {
           "ClrName": "Text",
-          "TsEmitName": "text",
+          "TsEmitName": "Text",
           "NormalizedSignature": "Text|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1378,7 +1378,7 @@
       "Fields": [
         {
           "ClrName": "C",
-          "TsEmitName": "c",
+          "TsEmitName": "C",
           "NormalizedSignature": "C|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1386,7 +1386,7 @@
         },
         {
           "ClrName": "CPlusPlus",
-          "TsEmitName": "cPlusPlus",
+          "TsEmitName": "CPlusPlus",
           "NormalizedSignature": "CPlusPlus|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1394,7 +1394,7 @@
         },
         {
           "ClrName": "CSharp",
-          "TsEmitName": "cSharp",
+          "TsEmitName": "CSharp",
           "NormalizedSignature": "CSharp|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1402,7 +1402,7 @@
         },
         {
           "ClrName": "Basic",
-          "TsEmitName": "basic",
+          "TsEmitName": "Basic",
           "NormalizedSignature": "Basic|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1410,7 +1410,7 @@
         },
         {
           "ClrName": "Java",
-          "TsEmitName": "java",
+          "TsEmitName": "Java",
           "NormalizedSignature": "Java|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1418,7 +1418,7 @@
         },
         {
           "ClrName": "Cobol",
-          "TsEmitName": "cobol",
+          "TsEmitName": "Cobol",
           "NormalizedSignature": "Cobol|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1426,7 +1426,7 @@
         },
         {
           "ClrName": "Pascal",
-          "TsEmitName": "pascal",
+          "TsEmitName": "Pascal",
           "NormalizedSignature": "Pascal|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1434,7 +1434,7 @@
         },
         {
           "ClrName": "ILAssembly",
-          "TsEmitName": "ilAssembly",
+          "TsEmitName": "ILAssembly",
           "NormalizedSignature": "ILAssembly|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1442,7 +1442,7 @@
         },
         {
           "ClrName": "JScript",
-          "TsEmitName": "jScript",
+          "TsEmitName": "JScript",
           "NormalizedSignature": "JScript|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1450,7 +1450,7 @@
         },
         {
           "ClrName": "SMC",
-          "TsEmitName": "smc",
+          "TsEmitName": "SMC",
           "NormalizedSignature": "SMC|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1458,7 +1458,7 @@
         },
         {
           "ClrName": "MCPlusPlus",
-          "TsEmitName": "mcPlusPlus",
+          "TsEmitName": "MCPlusPlus",
           "NormalizedSignature": "MCPlusPlus|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -1488,7 +1488,7 @@
       "Fields": [
         {
           "ClrName": "Microsoft",
-          "TsEmitName": "microsoft",
+          "TsEmitName": "Microsoft",
           "NormalizedSignature": "Microsoft|System.Guid|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,

@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Both",
-          "TsEmitName": "both",
+          "TsEmitName": "Both",
           "NormalizedSignature": "Both|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "Success",
-          "TsEmitName": "success",
+          "TsEmitName": "Success",
           "NormalizedSignature": "Success|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "ClrName": "InternalError",
-          "TsEmitName": "internalError",
+          "TsEmitName": "InternalError",
           "NormalizedSignature": "InternalError|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "ConnectionAborted",
-          "TsEmitName": "connectionAborted",
+          "TsEmitName": "ConnectionAborted",
           "NormalizedSignature": "ConnectionAborted|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "StreamAborted",
-          "TsEmitName": "streamAborted",
+          "TsEmitName": "StreamAborted",
           "NormalizedSignature": "StreamAborted|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "ClrName": "ConnectionTimeout",
-          "TsEmitName": "connectionTimeout",
+          "TsEmitName": "ConnectionTimeout",
           "NormalizedSignature": "ConnectionTimeout|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "ConnectionRefused",
-          "TsEmitName": "connectionRefused",
+          "TsEmitName": "ConnectionRefused",
           "NormalizedSignature": "ConnectionRefused|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "ClrName": "VersionNegotiationError",
-          "TsEmitName": "versionNegotiationError",
+          "TsEmitName": "VersionNegotiationError",
           "NormalizedSignature": "VersionNegotiationError|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "ClrName": "ConnectionIdle",
-          "TsEmitName": "connectionIdle",
+          "TsEmitName": "ConnectionIdle",
           "NormalizedSignature": "ConnectionIdle|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "ClrName": "OperationAborted",
-          "TsEmitName": "operationAborted",
+          "TsEmitName": "OperationAborted",
           "NormalizedSignature": "OperationAborted|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "ClrName": "AlpnInUse",
-          "TsEmitName": "alpnInUse",
+          "TsEmitName": "AlpnInUse",
           "NormalizedSignature": "AlpnInUse|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "TransportError",
-          "TsEmitName": "transportError",
+          "TsEmitName": "TransportError",
           "NormalizedSignature": "TransportError|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "CallbackError",
-          "TsEmitName": "callbackError",
+          "TsEmitName": "CallbackError",
           "NormalizedSignature": "CallbackError|System.Net.Quic.QuicError|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "ClrName": "Unidirectional",
-          "TsEmitName": "unidirectional",
+          "TsEmitName": "Unidirectional",
           "NormalizedSignature": "Unidirectional|System.Net.Quic.QuicStreamType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "Bidirectional",
-          "TsEmitName": "bidirectional",
+          "TsEmitName": "Bidirectional",
           "NormalizedSignature": "Bidirectional|System.Net.Quic.QuicStreamType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -225,7 +225,7 @@
       "Properties": [
         {
           "ClrName": "BidirectionalIncrement",
-          "TsEmitName": "bidirectionalIncrement",
+          "TsEmitName": "BidirectionalIncrement",
           "NormalizedSignature": "BidirectionalIncrement|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -239,7 +239,7 @@
         },
         {
           "ClrName": "UnidirectionalIncrement",
-          "TsEmitName": "unidirectionalIncrement",
+          "TsEmitName": "UnidirectionalIncrement",
           "NormalizedSignature": "UnidirectionalIncrement|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -269,7 +269,7 @@
       "Properties": [
         {
           "ClrName": "ClientAuthenticationOptions",
-          "TsEmitName": "clientAuthenticationOptions",
+          "TsEmitName": "ClientAuthenticationOptions",
           "NormalizedSignature": "ClientAuthenticationOptions|:System.Net.Security.SslClientAuthenticationOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -283,7 +283,7 @@
         },
         {
           "ClrName": "RemoteEndPoint",
-          "TsEmitName": "remoteEndPoint",
+          "TsEmitName": "RemoteEndPoint",
           "NormalizedSignature": "RemoteEndPoint|:System.Net.EndPoint|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -297,7 +297,7 @@
         },
         {
           "ClrName": "LocalEndPoint",
-          "TsEmitName": "localEndPoint",
+          "TsEmitName": "LocalEndPoint",
           "NormalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -332,7 +332,7 @@
       "Methods": [
         {
           "ClrName": "ConnectAsync",
-          "TsEmitName": "connectAsync",
+          "TsEmitName": "ConnectAsync",
           "NormalizedSignature": "ConnectAsync|(System.Net.Quic.QuicClientConnectionOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -360,7 +360,7 @@
         },
         {
           "ClrName": "OpenOutboundStreamAsync",
-          "TsEmitName": "openOutboundStreamAsync",
+          "TsEmitName": "OpenOutboundStreamAsync",
           "NormalizedSignature": "OpenOutboundStreamAsync|(System.Net.Quic.QuicStreamType,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -374,7 +374,7 @@
         },
         {
           "ClrName": "AcceptInboundStreamAsync",
-          "TsEmitName": "acceptInboundStreamAsync",
+          "TsEmitName": "AcceptInboundStreamAsync",
           "NormalizedSignature": "AcceptInboundStreamAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -388,7 +388,7 @@
         },
         {
           "ClrName": "CloseAsync",
-          "TsEmitName": "closeAsync",
+          "TsEmitName": "CloseAsync",
           "NormalizedSignature": "CloseAsync|(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -402,7 +402,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -416,7 +416,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -433,7 +433,7 @@
       "Properties": [
         {
           "ClrName": "IsSupported",
-          "TsEmitName": "isSupported",
+          "TsEmitName": "IsSupported",
           "NormalizedSignature": "IsSupported|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -447,7 +447,7 @@
         },
         {
           "ClrName": "RemoteEndPoint",
-          "TsEmitName": "remoteEndPoint",
+          "TsEmitName": "RemoteEndPoint",
           "NormalizedSignature": "RemoteEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -461,7 +461,7 @@
         },
         {
           "ClrName": "LocalEndPoint",
-          "TsEmitName": "localEndPoint",
+          "TsEmitName": "LocalEndPoint",
           "NormalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -475,7 +475,7 @@
         },
         {
           "ClrName": "TargetHostName",
-          "TsEmitName": "targetHostName",
+          "TsEmitName": "TargetHostName",
           "NormalizedSignature": "TargetHostName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -489,7 +489,7 @@
         },
         {
           "ClrName": "RemoteCertificate",
-          "TsEmitName": "remoteCertificate",
+          "TsEmitName": "RemoteCertificate",
           "NormalizedSignature": "RemoteCertificate|:System.Security.Cryptography.X509Certificates.X509Certificate|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -503,7 +503,7 @@
         },
         {
           "ClrName": "NegotiatedApplicationProtocol",
-          "TsEmitName": "negotiatedApplicationProtocol",
+          "TsEmitName": "NegotiatedApplicationProtocol",
           "NormalizedSignature": "NegotiatedApplicationProtocol|:System.Net.Security.SslApplicationProtocol|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -517,7 +517,7 @@
         },
         {
           "ClrName": "NegotiatedCipherSuite",
-          "TsEmitName": "negotiatedCipherSuite",
+          "TsEmitName": "NegotiatedCipherSuite",
           "NormalizedSignature": "NegotiatedCipherSuite|:System.Net.Security.TlsCipherSuite|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -531,7 +531,7 @@
         },
         {
           "ClrName": "SslProtocol",
-          "TsEmitName": "sslProtocol",
+          "TsEmitName": "SslProtocol",
           "NormalizedSignature": "SslProtocol|:System.Security.Authentication.SslProtocols|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -561,7 +561,7 @@
       "Properties": [
         {
           "ClrName": "MaxInboundBidirectionalStreams",
-          "TsEmitName": "maxInboundBidirectionalStreams",
+          "TsEmitName": "MaxInboundBidirectionalStreams",
           "NormalizedSignature": "MaxInboundBidirectionalStreams|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -575,7 +575,7 @@
         },
         {
           "ClrName": "MaxInboundUnidirectionalStreams",
-          "TsEmitName": "maxInboundUnidirectionalStreams",
+          "TsEmitName": "MaxInboundUnidirectionalStreams",
           "NormalizedSignature": "MaxInboundUnidirectionalStreams|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -589,7 +589,7 @@
         },
         {
           "ClrName": "IdleTimeout",
-          "TsEmitName": "idleTimeout",
+          "TsEmitName": "IdleTimeout",
           "NormalizedSignature": "IdleTimeout|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -603,7 +603,7 @@
         },
         {
           "ClrName": "DefaultStreamErrorCode",
-          "TsEmitName": "defaultStreamErrorCode",
+          "TsEmitName": "DefaultStreamErrorCode",
           "NormalizedSignature": "DefaultStreamErrorCode|:System.Int64|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -617,7 +617,7 @@
         },
         {
           "ClrName": "DefaultCloseErrorCode",
-          "TsEmitName": "defaultCloseErrorCode",
+          "TsEmitName": "DefaultCloseErrorCode",
           "NormalizedSignature": "DefaultCloseErrorCode|:System.Int64|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -631,7 +631,7 @@
         },
         {
           "ClrName": "InitialReceiveWindowSizes",
-          "TsEmitName": "initialReceiveWindowSizes",
+          "TsEmitName": "InitialReceiveWindowSizes",
           "NormalizedSignature": "InitialReceiveWindowSizes|:System.Net.Quic.QuicReceiveWindowSizes|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -645,7 +645,7 @@
         },
         {
           "ClrName": "KeepAliveInterval",
-          "TsEmitName": "keepAliveInterval",
+          "TsEmitName": "KeepAliveInterval",
           "NormalizedSignature": "KeepAliveInterval|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -659,7 +659,7 @@
         },
         {
           "ClrName": "HandshakeTimeout",
-          "TsEmitName": "handshakeTimeout",
+          "TsEmitName": "HandshakeTimeout",
           "NormalizedSignature": "HandshakeTimeout|:System.TimeSpan|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -673,7 +673,7 @@
         },
         {
           "ClrName": "StreamCapacityCallback",
-          "TsEmitName": "streamCapacityCallback",
+          "TsEmitName": "StreamCapacityCallback",
           "NormalizedSignature": "StreamCapacityCallback|:System.Action_2[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Quic.QuicStreamCapacityChangedArgs,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -702,7 +702,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -717,7 +717,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -733,7 +733,7 @@
       "Properties": [
         {
           "ClrName": "QuicError",
-          "TsEmitName": "quicError",
+          "TsEmitName": "QuicError",
           "NormalizedSignature": "QuicError|:System.Net.Quic.QuicError|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -747,7 +747,7 @@
         },
         {
           "ClrName": "ApplicationErrorCode",
-          "TsEmitName": "applicationErrorCode",
+          "TsEmitName": "ApplicationErrorCode",
           "NormalizedSignature": "ApplicationErrorCode|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -761,7 +761,7 @@
         },
         {
           "ClrName": "TransportErrorCode",
-          "TsEmitName": "transportErrorCode",
+          "TsEmitName": "TransportErrorCode",
           "NormalizedSignature": "TransportErrorCode|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -796,7 +796,7 @@
       "Methods": [
         {
           "ClrName": "ListenAsync",
-          "TsEmitName": "listenAsync",
+          "TsEmitName": "ListenAsync",
           "NormalizedSignature": "ListenAsync|(System.Net.Quic.QuicListenerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicListener,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -810,7 +810,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -824,7 +824,7 @@
         },
         {
           "ClrName": "AcceptConnectionAsync",
-          "TsEmitName": "acceptConnectionAsync",
+          "TsEmitName": "AcceptConnectionAsync",
           "NormalizedSignature": "AcceptConnectionAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -869,7 +869,7 @@
       "Properties": [
         {
           "ClrName": "IsSupported",
-          "TsEmitName": "isSupported",
+          "TsEmitName": "IsSupported",
           "NormalizedSignature": "IsSupported|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -883,7 +883,7 @@
         },
         {
           "ClrName": "LocalEndPoint",
-          "TsEmitName": "localEndPoint",
+          "TsEmitName": "LocalEndPoint",
           "NormalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -913,7 +913,7 @@
       "Properties": [
         {
           "ClrName": "ListenEndPoint",
-          "TsEmitName": "listenEndPoint",
+          "TsEmitName": "ListenEndPoint",
           "NormalizedSignature": "ListenEndPoint|:System.Net.IPEndPoint|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -927,7 +927,7 @@
         },
         {
           "ClrName": "ApplicationProtocols",
-          "TsEmitName": "applicationProtocols",
+          "TsEmitName": "ApplicationProtocols",
           "NormalizedSignature": "ApplicationProtocols|:System.Collections.Generic.List_1[[System.Net.Security.SslApplicationProtocol,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -941,7 +941,7 @@
         },
         {
           "ClrName": "ListenBacklog",
-          "TsEmitName": "listenBacklog",
+          "TsEmitName": "ListenBacklog",
           "NormalizedSignature": "ListenBacklog|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -955,7 +955,7 @@
         },
         {
           "ClrName": "ConnectionOptionsCallback",
-          "TsEmitName": "connectionOptionsCallback",
+          "TsEmitName": "ConnectionOptionsCallback",
           "NormalizedSignature": "ConnectionOptionsCallback|:System.Func_4[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Security.SslClientHelloInfo,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Threading.CancellationToken,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicServerConnectionOptions,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -991,7 +991,7 @@
       "Properties": [
         {
           "ClrName": "Connection",
-          "TsEmitName": "connection",
+          "TsEmitName": "Connection",
           "NormalizedSignature": "Connection|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1005,7 +1005,7 @@
         },
         {
           "ClrName": "LocallyInitiatedBidirectionalStream",
-          "TsEmitName": "locallyInitiatedBidirectionalStream",
+          "TsEmitName": "LocallyInitiatedBidirectionalStream",
           "NormalizedSignature": "LocallyInitiatedBidirectionalStream|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1019,7 +1019,7 @@
         },
         {
           "ClrName": "RemotelyInitiatedBidirectionalStream",
-          "TsEmitName": "remotelyInitiatedBidirectionalStream",
+          "TsEmitName": "RemotelyInitiatedBidirectionalStream",
           "NormalizedSignature": "RemotelyInitiatedBidirectionalStream|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1033,7 +1033,7 @@
         },
         {
           "ClrName": "UnidirectionalStream",
-          "TsEmitName": "unidirectionalStream",
+          "TsEmitName": "UnidirectionalStream",
           "NormalizedSignature": "UnidirectionalStream|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1069,7 +1069,7 @@
       "Properties": [
         {
           "ClrName": "ServerAuthenticationOptions",
-          "TsEmitName": "serverAuthenticationOptions",
+          "TsEmitName": "ServerAuthenticationOptions",
           "NormalizedSignature": "ServerAuthenticationOptions|:System.Net.Security.SslServerAuthenticationOptions|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1104,7 +1104,7 @@
       "Methods": [
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1118,7 +1118,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync4",
+          "TsEmitName": "ReadAsync4",
           "NormalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1132,7 +1132,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync3",
+          "TsEmitName": "WriteAsync3",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync4",
+          "TsEmitName": "WriteAsync4",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1160,7 +1160,7 @@
         },
         {
           "ClrName": "Abort",
-          "TsEmitName": "abort",
+          "TsEmitName": "Abort",
           "NormalizedSignature": "Abort|(System.Net.Quic.QuicAbortDirection,System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1174,7 +1174,7 @@
         },
         {
           "ClrName": "CompleteWrites",
-          "TsEmitName": "completeWrites",
+          "TsEmitName": "CompleteWrites",
           "NormalizedSignature": "CompleteWrites|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1188,7 +1188,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1202,7 +1202,7 @@
         },
         {
           "ClrName": "Seek",
-          "TsEmitName": "seek",
+          "TsEmitName": "Seek",
           "NormalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1216,7 +1216,7 @@
         },
         {
           "ClrName": "SetLength",
-          "TsEmitName": "setLength",
+          "TsEmitName": "SetLength",
           "NormalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1230,7 +1230,7 @@
         },
         {
           "ClrName": "BeginRead",
-          "TsEmitName": "beginRead",
+          "TsEmitName": "BeginRead",
           "NormalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1244,7 +1244,7 @@
         },
         {
           "ClrName": "EndRead",
-          "TsEmitName": "endRead",
+          "TsEmitName": "EndRead",
           "NormalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1258,7 +1258,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read2",
+          "TsEmitName": "Read2",
           "NormalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1272,7 +1272,7 @@
         },
         {
           "ClrName": "ReadByte",
-          "TsEmitName": "readByte",
+          "TsEmitName": "ReadByte",
           "NormalizedSignature": "ReadByte|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1286,7 +1286,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read3",
+          "TsEmitName": "Read3",
           "NormalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1300,7 +1300,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync5",
+          "TsEmitName": "ReadAsync5",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1314,7 +1314,7 @@
         },
         {
           "ClrName": "BeginWrite",
-          "TsEmitName": "beginWrite",
+          "TsEmitName": "BeginWrite",
           "NormalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1328,7 +1328,7 @@
         },
         {
           "ClrName": "EndWrite",
-          "TsEmitName": "endWrite",
+          "TsEmitName": "EndWrite",
           "NormalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1342,7 +1342,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write2",
+          "TsEmitName": "Write2",
           "NormalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1356,7 +1356,7 @@
         },
         {
           "ClrName": "WriteByte",
-          "TsEmitName": "writeByte",
+          "TsEmitName": "WriteByte",
           "NormalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1370,7 +1370,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write3",
+          "TsEmitName": "Write3",
           "NormalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1384,7 +1384,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync5",
+          "TsEmitName": "WriteAsync5",
           "NormalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1398,7 +1398,7 @@
         },
         {
           "ClrName": "Flush",
-          "TsEmitName": "flush",
+          "TsEmitName": "Flush",
           "NormalizedSignature": "Flush|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1412,7 +1412,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync2",
+          "TsEmitName": "FlushAsync2",
           "NormalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1426,7 +1426,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1441,7 +1441,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync$view",
+          "TsEmitName": "DisposeAsync$view",
           "NormalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1456,7 +1456,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1470,7 +1470,7 @@
         },
         {
           "ClrName": "FlushAsync",
-          "TsEmitName": "flushAsync",
+          "TsEmitName": "FlushAsync",
           "NormalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1484,7 +1484,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1498,7 +1498,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync",
+          "TsEmitName": "ReadAsync",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1512,7 +1512,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync2",
+          "TsEmitName": "ReadAsync2",
           "NormalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1526,7 +1526,7 @@
         },
         {
           "ClrName": "ReadAsync",
-          "TsEmitName": "readAsync3",
+          "TsEmitName": "ReadAsync3",
           "NormalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1540,7 +1540,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1554,7 +1554,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync",
+          "TsEmitName": "WriteAsync",
           "NormalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1568,7 +1568,7 @@
         },
         {
           "ClrName": "WriteAsync",
-          "TsEmitName": "writeAsync2",
+          "TsEmitName": "WriteAsync2",
           "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -1584,7 +1584,7 @@
       "Properties": [
         {
           "ClrName": "Id",
-          "TsEmitName": "id",
+          "TsEmitName": "Id",
           "NormalizedSignature": "Id|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1598,7 +1598,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "NormalizedSignature": "Type|:System.Net.Quic.QuicStreamType|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1612,7 +1612,7 @@
         },
         {
           "ClrName": "ReadsClosed",
-          "TsEmitName": "readsClosed",
+          "TsEmitName": "ReadsClosed",
           "NormalizedSignature": "ReadsClosed|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1626,7 +1626,7 @@
         },
         {
           "ClrName": "WritesClosed",
-          "TsEmitName": "writesClosed",
+          "TsEmitName": "WritesClosed",
           "NormalizedSignature": "WritesClosed|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
         },
         {
           "ClrName": "CanSeek",
-          "TsEmitName": "canSeek",
+          "TsEmitName": "CanSeek",
           "NormalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1654,7 +1654,7 @@
         },
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
         },
         {
           "ClrName": "Position",
-          "TsEmitName": "position",
+          "TsEmitName": "Position",
           "NormalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1682,7 +1682,7 @@
         },
         {
           "ClrName": "CanTimeout",
-          "TsEmitName": "canTimeout",
+          "TsEmitName": "CanTimeout",
           "NormalizedSignature": "CanTimeout|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1696,7 +1696,7 @@
         },
         {
           "ClrName": "ReadTimeout",
-          "TsEmitName": "readTimeout",
+          "TsEmitName": "ReadTimeout",
           "NormalizedSignature": "ReadTimeout|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1710,7 +1710,7 @@
         },
         {
           "ClrName": "WriteTimeout",
-          "TsEmitName": "writeTimeout",
+          "TsEmitName": "WriteTimeout",
           "NormalizedSignature": "WriteTimeout|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1724,7 +1724,7 @@
         },
         {
           "ClrName": "CanRead",
-          "TsEmitName": "canRead",
+          "TsEmitName": "CanRead",
           "NormalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1738,7 +1738,7 @@
         },
         {
           "ClrName": "CanWrite",
-          "TsEmitName": "canWrite",
+          "TsEmitName": "CanWrite",
           "NormalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

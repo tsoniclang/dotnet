@@ -41,18 +41,18 @@ export type CLROf<T> =
 export class Utf8_TryWriteInterpolatedStringHandler$instance {
     constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, shouldAppend: TSByRef<boolean>);
     constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, provider: IFormatProvider, shouldAppend: TSByRef<boolean>);
-    appendFormatted<T>(value: T): boolean;
-    appendFormatted<T>(value: T, format: string): boolean;
-    appendFormatted<T>(value: T, alignment: int): boolean;
-    appendFormatted<T>(value: T, alignment: int, format: string): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>): boolean;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>, alignment?: int, format?: string): boolean;
-    appendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    appendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>, alignment?: int, format?: string): boolean;
-    appendFormatted(value: string): boolean;
-    appendFormatted(value: string, alignment?: int, format?: string): boolean;
-    appendFormatted(value: any, alignment?: int, format?: string): boolean;
-    appendLiteral(value: string): boolean;
+    AppendFormatted<T>(value: T): boolean;
+    AppendFormatted<T>(value: T, format: string): boolean;
+    AppendFormatted<T>(value: T, alignment: int): boolean;
+    AppendFormatted<T>(value: T, alignment: int, format: string): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<string>>): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<CLROf<string>>, alignment?: int, format?: string): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    AppendFormatted(utf8Value: ReadOnlySpan_1<CLROf<byte>>, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: string): boolean;
+    AppendFormatted(value: string, alignment?: int, format?: string): boolean;
+    AppendFormatted(value: any, alignment?: int, format?: string): boolean;
+    AppendLiteral(value: string): boolean;
 }
 
 
@@ -60,8 +60,8 @@ export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedSt
 
 export class UnicodeRange$instance {
     constructor(firstCodePoint: int, length: int);
-    readonly firstCodePoint: int;
-    readonly length: int;
+    readonly FirstCodePoint: int;
+    readonly Length: int;
     static Create(firstCharacter: string, lastCharacter: string): UnicodeRange;
 }
 

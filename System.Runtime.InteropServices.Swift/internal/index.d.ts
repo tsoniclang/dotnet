@@ -39,7 +39,7 @@ export type CLROf<T> =
 
 export class SwiftError$instance {
     constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    readonly Value: TSUnsafePointer<void>;
 }
 
 
@@ -47,7 +47,7 @@ export type SwiftError = SwiftError$instance;
 
 export class SwiftIndirectResult$instance {
     constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    readonly Value: TSUnsafePointer<void>;
 }
 
 
@@ -55,7 +55,7 @@ export type SwiftIndirectResult = SwiftIndirectResult$instance;
 
 export class SwiftSelf$instance {
     constructor(value: TSUnsafePointer<void>);
-    readonly value: TSUnsafePointer<void>;
+    readonly Value: TSUnsafePointer<void>;
 }
 
 
@@ -63,7 +63,7 @@ export type SwiftSelf = SwiftSelf$instance;
 
 export class SwiftSelf_1$instance<T extends any> {
     constructor(value: T);
-    readonly value: T;
+    readonly Value: T;
 }
 
 

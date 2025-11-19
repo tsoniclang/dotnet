@@ -9,7 +9,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "MetadataToken": 100663446,
           "CanonicalSignature": "(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent",
           "NormalizedSignature": "Create|(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create2",
+          "TsEmitName": "Create2",
           "MetadataToken": 100663447,
           "CanonicalSignature": "(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent",
           "NormalizedSignature": "Create|(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
@@ -33,7 +33,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create3",
+          "TsEmitName": "Create3",
           "MetadataToken": 100663448,
           "CanonicalSignature": "(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
           "NormalizedSignature": "Create|(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
@@ -45,7 +45,7 @@
         },
         {
           "ClrName": "Create",
-          "TsEmitName": "create4",
+          "TsEmitName": "Create4",
           "MetadataToken": 100663449,
           "CanonicalSignature": "(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent",
           "NormalizedSignature": "Create|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
@@ -57,7 +57,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "MetadataToken": 100668530,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -69,7 +69,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "MetadataToken": 0,
           "CanonicalSignature": "():System.Void",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
@@ -83,7 +83,7 @@
       "Properties": [
         {
           "ClrName": "ObjectType",
-          "TsEmitName": "objectType",
+          "TsEmitName": "ObjectType",
           "MetadataToken": 385875976,
           "CanonicalSignature": ":System.Type",
           "NormalizedSignature": "ObjectType|:System.Type|static=false|accessor=get",
@@ -96,7 +96,7 @@
         },
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "MetadataToken": 385875977,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
@@ -113,7 +113,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "create",
+          "TsName": "Create",
           "IsStatic": true,
           "TsSignatureId": "Create|(T,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
           "Target": {
@@ -123,7 +123,7 @@
           }
         },
         {
-          "TsName": "create2",
+          "TsName": "Create2",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue,System.Text.Json.JsonSerializerOptions):System.Net.Http.Json.JsonContent|static=true",
           "Target": {
@@ -133,7 +133,7 @@
           }
         },
         {
-          "TsName": "create3",
+          "TsName": "Create3",
           "IsStatic": true,
           "TsSignatureId": "Create|(T,JsonTypeInfo_1,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
           "Target": {
@@ -143,7 +143,7 @@
           }
         },
         {
-          "TsName": "create4",
+          "TsName": "Create4",
           "IsStatic": true,
           "TsSignatureId": "Create|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Net.Http.Headers.MediaTypeHeaderValue):System.Net.Http.Json.JsonContent|static=true",
           "Target": {
@@ -153,7 +153,7 @@
           }
         },
         {
-          "TsName": "dispose$view",
+          "TsName": "Dispose$view",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -163,7 +163,7 @@
           }
         },
         {
-          "TsName": "dispose",
+          "TsName": "Dispose",
           "IsStatic": false,
           "TsSignatureId": "Dispose|():System.Void|static=false",
           "Target": {
@@ -173,7 +173,7 @@
           }
         },
         {
-          "TsName": "readAsStringAsync",
+          "TsName": "ReadAsStringAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStringAsync|():System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -183,7 +183,7 @@
           }
         },
         {
-          "TsName": "readAsStringAsync2",
+          "TsName": "ReadAsStringAsync2",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStringAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -193,7 +193,7 @@
           }
         },
         {
-          "TsName": "readAsByteArrayAsync",
+          "TsName": "ReadAsByteArrayAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAsByteArrayAsync|():System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -203,7 +203,7 @@
           }
         },
         {
-          "TsName": "readAsByteArrayAsync2",
+          "TsName": "ReadAsByteArrayAsync2",
           "IsStatic": false,
           "TsSignatureId": "ReadAsByteArrayAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -213,7 +213,7 @@
           }
         },
         {
-          "TsName": "readAsStream",
+          "TsName": "ReadAsStream",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStream|():System.IO.Stream|static=false",
           "Target": {
@@ -223,7 +223,7 @@
           }
         },
         {
-          "TsName": "readAsStream2",
+          "TsName": "ReadAsStream2",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStream|(System.Threading.CancellationToken):System.IO.Stream|static=false",
           "Target": {
@@ -233,7 +233,7 @@
           }
         },
         {
-          "TsName": "readAsStreamAsync",
+          "TsName": "ReadAsStreamAsync",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStreamAsync|():System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -243,7 +243,7 @@
           }
         },
         {
-          "TsName": "readAsStreamAsync2",
+          "TsName": "ReadAsStreamAsync2",
           "IsStatic": false,
           "TsSignatureId": "ReadAsStreamAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Target": {
@@ -253,7 +253,7 @@
           }
         },
         {
-          "TsName": "copyTo",
+          "TsName": "CopyTo",
           "IsStatic": false,
           "TsSignatureId": "CopyTo|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Void|static=false",
           "Target": {
@@ -263,7 +263,7 @@
           }
         },
         {
-          "TsName": "copyToAsync",
+          "TsName": "CopyToAsync",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -273,7 +273,7 @@
           }
         },
         {
-          "TsName": "copyToAsync2",
+          "TsName": "CopyToAsync2",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -283,7 +283,7 @@
           }
         },
         {
-          "TsName": "copyToAsync3",
+          "TsName": "CopyToAsync3",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -293,7 +293,7 @@
           }
         },
         {
-          "TsName": "copyToAsync4",
+          "TsName": "CopyToAsync4",
           "IsStatic": false,
           "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -303,7 +303,7 @@
           }
         },
         {
-          "TsName": "loadIntoBufferAsync",
+          "TsName": "LoadIntoBufferAsync",
           "IsStatic": false,
           "TsSignatureId": "LoadIntoBufferAsync|():System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -313,7 +313,7 @@
           }
         },
         {
-          "TsName": "loadIntoBufferAsync2",
+          "TsName": "LoadIntoBufferAsync2",
           "IsStatic": false,
           "TsSignatureId": "LoadIntoBufferAsync|(System.Int64):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -323,7 +323,7 @@
           }
         },
         {
-          "TsName": "loadIntoBufferAsync3",
+          "TsName": "LoadIntoBufferAsync3",
           "IsStatic": false,
           "TsSignatureId": "LoadIntoBufferAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -333,7 +333,7 @@
           }
         },
         {
-          "TsName": "loadIntoBufferAsync4",
+          "TsName": "LoadIntoBufferAsync4",
           "IsStatic": false,
           "TsSignatureId": "LoadIntoBufferAsync|(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "Target": {
@@ -343,7 +343,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -353,7 +353,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -363,7 +363,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -373,7 +373,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -383,7 +383,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -393,7 +393,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -405,7 +405,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "objectType",
+          "TsName": "ObjectType",
           "IsStatic": false,
           "TsSignatureId": "ObjectType|:System.Type|static=false|accessor=get",
           "Target": {
@@ -415,7 +415,7 @@
           }
         },
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:System.Object|static=false|accessor=get",
           "Target": {
@@ -425,7 +425,7 @@
           }
         },
         {
-          "TsName": "headers",
+          "TsName": "Headers",
           "IsStatic": false,
           "TsSignatureId": "Headers|:System.Net.Http.Headers.HttpContentHeaders|static=false|accessor=get",
           "Target": {
@@ -444,7 +444,7 @@
       "Methods": [
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable",
           "MetadataToken": 100663308,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -456,7 +456,7 @@
         },
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable2",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable2",
           "MetadataToken": 100663309,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -468,7 +468,7 @@
         },
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable3",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable3",
           "MetadataToken": 100663310,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -480,7 +480,7 @@
         },
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable4",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable4",
           "MetadataToken": 100663311,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -492,7 +492,7 @@
         },
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable5",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable5",
           "MetadataToken": 100663312,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -504,7 +504,7 @@
         },
         {
           "ClrName": "GetFromJsonAsAsyncEnumerable",
-          "TsEmitName": "getFromJsonAsAsyncEnumerable6",
+          "TsEmitName": "GetFromJsonAsAsyncEnumerable6",
           "MetadataToken": 100663313,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -516,7 +516,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync",
+          "TsEmitName": "DeleteFromJsonAsync",
           "MetadataToken": 100663324,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -528,7 +528,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync2",
+          "TsEmitName": "DeleteFromJsonAsync2",
           "MetadataToken": 100663325,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -540,7 +540,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync3",
+          "TsEmitName": "DeleteFromJsonAsync3",
           "MetadataToken": 100663326,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
@@ -552,7 +552,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync4",
+          "TsEmitName": "DeleteFromJsonAsync4",
           "MetadataToken": 100663327,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
@@ -564,7 +564,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync5",
+          "TsEmitName": "DeleteFromJsonAsync5",
           "MetadataToken": 100663328,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -576,7 +576,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync6",
+          "TsEmitName": "DeleteFromJsonAsync6",
           "MetadataToken": 100663329,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -588,7 +588,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync7",
+          "TsEmitName": "DeleteFromJsonAsync7",
           "MetadataToken": 100663330,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
@@ -600,7 +600,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync8",
+          "TsEmitName": "DeleteFromJsonAsync8",
           "MetadataToken": 100663331,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync9",
+          "TsEmitName": "DeleteFromJsonAsync9",
           "MetadataToken": 100663332,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -624,7 +624,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync10",
+          "TsEmitName": "DeleteFromJsonAsync10",
           "MetadataToken": 100663333,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -636,7 +636,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync11",
+          "TsEmitName": "DeleteFromJsonAsync11",
           "MetadataToken": 100663334,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
@@ -648,7 +648,7 @@
         },
         {
           "ClrName": "DeleteFromJsonAsync",
-          "TsEmitName": "deleteFromJsonAsync12",
+          "TsEmitName": "DeleteFromJsonAsync12",
           "MetadataToken": 100663335,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
@@ -660,7 +660,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync",
+          "TsEmitName": "GetFromJsonAsync",
           "MetadataToken": 100663336,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -672,7 +672,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync2",
+          "TsEmitName": "GetFromJsonAsync2",
           "MetadataToken": 100663337,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -684,7 +684,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync3",
+          "TsEmitName": "GetFromJsonAsync3",
           "MetadataToken": 100663338,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
@@ -696,7 +696,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync4",
+          "TsEmitName": "GetFromJsonAsync4",
           "MetadataToken": 100663339,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
@@ -708,7 +708,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync5",
+          "TsEmitName": "GetFromJsonAsync5",
           "MetadataToken": 100663340,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -720,7 +720,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync6",
+          "TsEmitName": "GetFromJsonAsync6",
           "MetadataToken": 100663341,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -732,7 +732,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync7",
+          "TsEmitName": "GetFromJsonAsync7",
           "MetadataToken": 100663342,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
@@ -744,7 +744,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync8",
+          "TsEmitName": "GetFromJsonAsync8",
           "MetadataToken": 100663343,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
@@ -756,7 +756,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync9",
+          "TsEmitName": "GetFromJsonAsync9",
           "MetadataToken": 100663344,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -768,7 +768,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync10",
+          "TsEmitName": "GetFromJsonAsync10",
           "MetadataToken": 100663345,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -780,7 +780,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync11",
+          "TsEmitName": "GetFromJsonAsync11",
           "MetadataToken": 100663346,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
@@ -792,7 +792,7 @@
         },
         {
           "ClrName": "GetFromJsonAsync",
-          "TsEmitName": "getFromJsonAsync12",
+          "TsEmitName": "GetFromJsonAsync12",
           "MetadataToken": 100663347,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
@@ -804,7 +804,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync",
+          "TsEmitName": "PostAsJsonAsync",
           "MetadataToken": 100663348,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -816,7 +816,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync2",
+          "TsEmitName": "PostAsJsonAsync2",
           "MetadataToken": 100663349,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -828,7 +828,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync3",
+          "TsEmitName": "PostAsJsonAsync3",
           "MetadataToken": 100663350,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -840,7 +840,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync4",
+          "TsEmitName": "PostAsJsonAsync4",
           "MetadataToken": 100663351,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -852,7 +852,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync5",
+          "TsEmitName": "PostAsJsonAsync5",
           "MetadataToken": 100663352,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -864,7 +864,7 @@
         },
         {
           "ClrName": "PostAsJsonAsync",
-          "TsEmitName": "postAsJsonAsync6",
+          "TsEmitName": "PostAsJsonAsync6",
           "MetadataToken": 100663353,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -876,7 +876,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync",
+          "TsEmitName": "PutAsJsonAsync",
           "MetadataToken": 100663354,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -888,7 +888,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync2",
+          "TsEmitName": "PutAsJsonAsync2",
           "MetadataToken": 100663355,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -900,7 +900,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync3",
+          "TsEmitName": "PutAsJsonAsync3",
           "MetadataToken": 100663356,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -912,7 +912,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync4",
+          "TsEmitName": "PutAsJsonAsync4",
           "MetadataToken": 100663357,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -924,7 +924,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync5",
+          "TsEmitName": "PutAsJsonAsync5",
           "MetadataToken": 100663358,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -936,7 +936,7 @@
         },
         {
           "ClrName": "PutAsJsonAsync",
-          "TsEmitName": "putAsJsonAsync6",
+          "TsEmitName": "PutAsJsonAsync6",
           "MetadataToken": 100663359,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -948,7 +948,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync",
+          "TsEmitName": "PatchAsJsonAsync",
           "MetadataToken": 100663360,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -960,7 +960,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync2",
+          "TsEmitName": "PatchAsJsonAsync2",
           "MetadataToken": 100663361,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -972,7 +972,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync3",
+          "TsEmitName": "PatchAsJsonAsync3",
           "MetadataToken": 100663362,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -984,7 +984,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync4",
+          "TsEmitName": "PatchAsJsonAsync4",
           "MetadataToken": 100663363,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -996,7 +996,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync5",
+          "TsEmitName": "PatchAsJsonAsync5",
           "MetadataToken": 100663364,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -1008,7 +1008,7 @@
         },
         {
           "ClrName": "PatchAsJsonAsync",
-          "TsEmitName": "patchAsJsonAsync6",
+          "TsEmitName": "PatchAsJsonAsync6",
           "MetadataToken": 100663365,
           "CanonicalSignature": "(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -1025,7 +1025,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getFromJsonAsAsyncEnumerable",
+          "TsName": "GetFromJsonAsAsyncEnumerable",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1035,7 +1035,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsAsyncEnumerable2",
+          "TsName": "GetFromJsonAsAsyncEnumerable2",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1045,7 +1045,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsAsyncEnumerable3",
+          "TsName": "GetFromJsonAsAsyncEnumerable3",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1055,7 +1055,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsAsyncEnumerable4",
+          "TsName": "GetFromJsonAsAsyncEnumerable4",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1065,7 +1065,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsAsyncEnumerable5",
+          "TsName": "GetFromJsonAsAsyncEnumerable5",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1075,7 +1075,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsAsyncEnumerable6",
+          "TsName": "GetFromJsonAsAsyncEnumerable6",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsAsyncEnumerable|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1085,7 +1085,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync",
+          "TsName": "DeleteFromJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1095,7 +1095,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync2",
+          "TsName": "DeleteFromJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1105,7 +1105,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync3",
+          "TsName": "DeleteFromJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1115,7 +1115,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync4",
+          "TsName": "DeleteFromJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1125,7 +1125,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync5",
+          "TsName": "DeleteFromJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1135,7 +1135,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync6",
+          "TsName": "DeleteFromJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1145,7 +1145,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync7",
+          "TsName": "DeleteFromJsonAsync7",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1155,7 +1155,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync8",
+          "TsName": "DeleteFromJsonAsync8",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1165,7 +1165,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync9",
+          "TsName": "DeleteFromJsonAsync9",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1175,7 +1175,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync10",
+          "TsName": "DeleteFromJsonAsync10",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1185,7 +1185,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync11",
+          "TsName": "DeleteFromJsonAsync11",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1195,7 +1195,7 @@
           }
         },
         {
-          "TsName": "deleteFromJsonAsync12",
+          "TsName": "DeleteFromJsonAsync12",
           "IsStatic": true,
           "TsSignatureId": "DeleteFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1205,7 +1205,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync",
+          "TsName": "GetFromJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1215,7 +1215,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync2",
+          "TsName": "GetFromJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1225,7 +1225,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync3",
+          "TsName": "GetFromJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1235,7 +1235,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync4",
+          "TsName": "GetFromJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1245,7 +1245,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync5",
+          "TsName": "GetFromJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1255,7 +1255,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync6",
+          "TsName": "GetFromJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1265,7 +1265,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync7",
+          "TsName": "GetFromJsonAsync7",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1275,7 +1275,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync8",
+          "TsName": "GetFromJsonAsync8",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1285,7 +1285,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync9",
+          "TsName": "GetFromJsonAsync9",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1295,7 +1295,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync10",
+          "TsName": "GetFromJsonAsync10",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1305,7 +1305,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync11",
+          "TsName": "GetFromJsonAsync11",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1315,7 +1315,7 @@
           }
         },
         {
-          "TsName": "getFromJsonAsync12",
+          "TsName": "GetFromJsonAsync12",
           "IsStatic": true,
           "TsSignatureId": "GetFromJsonAsync|(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1325,7 +1325,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync",
+          "TsName": "PostAsJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1335,7 +1335,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync2",
+          "TsName": "PostAsJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1345,7 +1345,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync3",
+          "TsName": "PostAsJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1355,7 +1355,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync4",
+          "TsName": "PostAsJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1365,7 +1365,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync5",
+          "TsName": "PostAsJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1375,7 +1375,7 @@
           }
         },
         {
-          "TsName": "postAsJsonAsync6",
+          "TsName": "PostAsJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "PostAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1385,7 +1385,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync",
+          "TsName": "PutAsJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1395,7 +1395,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync2",
+          "TsName": "PutAsJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1405,7 +1405,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync3",
+          "TsName": "PutAsJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1415,7 +1415,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync4",
+          "TsName": "PutAsJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1425,7 +1425,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync5",
+          "TsName": "PutAsJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1435,7 +1435,7 @@
           }
         },
         {
-          "TsName": "putAsJsonAsync6",
+          "TsName": "PutAsJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "PutAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1445,7 +1445,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync",
+          "TsName": "PatchAsJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1455,7 +1455,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync2",
+          "TsName": "PatchAsJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1465,7 +1465,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync3",
+          "TsName": "PatchAsJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1475,7 +1475,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync4",
+          "TsName": "PatchAsJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1485,7 +1485,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync5",
+          "TsName": "PatchAsJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.String,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1495,7 +1495,7 @@
           }
         },
         {
-          "TsName": "patchAsJsonAsync6",
+          "TsName": "PatchAsJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "PatchAsJsonAsync|(System.Net.Http.HttpClient,System.Uri,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "Target": {
@@ -1505,7 +1505,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1515,7 +1515,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1525,7 +1525,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1535,7 +1535,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1545,7 +1545,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1555,7 +1555,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -1574,7 +1574,7 @@
       "Methods": [
         {
           "ClrName": "ReadFromJsonAsAsyncEnumerable",
-          "TsEmitName": "readFromJsonAsAsyncEnumerable",
+          "TsEmitName": "ReadFromJsonAsAsyncEnumerable",
           "MetadataToken": 100663399,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -1586,7 +1586,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsAsyncEnumerable",
-          "TsEmitName": "readFromJsonAsAsyncEnumerable2",
+          "TsEmitName": "ReadFromJsonAsAsyncEnumerable2",
           "MetadataToken": 100663400,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -1598,7 +1598,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsAsyncEnumerable",
-          "TsEmitName": "readFromJsonAsAsyncEnumerable3",
+          "TsEmitName": "ReadFromJsonAsAsyncEnumerable3",
           "MetadataToken": 100663401,
           "CanonicalSignature": "(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "NormalizedSignature": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
@@ -1610,7 +1610,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync",
+          "TsEmitName": "ReadFromJsonAsync",
           "MetadataToken": 100663404,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -1622,7 +1622,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync2",
+          "TsEmitName": "ReadFromJsonAsync2",
           "MetadataToken": 100663405,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -1634,7 +1634,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync3",
+          "TsEmitName": "ReadFromJsonAsync3",
           "MetadataToken": 100663406,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
@@ -1646,7 +1646,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync4",
+          "TsEmitName": "ReadFromJsonAsync4",
           "MetadataToken": 100663407,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1|static=true",
@@ -1658,7 +1658,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync5",
+          "TsEmitName": "ReadFromJsonAsync5",
           "MetadataToken": 100663410,
           "CanonicalSignature": "(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -1670,7 +1670,7 @@
         },
         {
           "ClrName": "ReadFromJsonAsync",
-          "TsEmitName": "readFromJsonAsync6",
+          "TsEmitName": "ReadFromJsonAsync6",
           "MetadataToken": 100663411,
           "CanonicalSignature": "(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1",
           "NormalizedSignature": "ReadFromJsonAsync|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
@@ -1687,7 +1687,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "readFromJsonAsAsyncEnumerable",
+          "TsName": "ReadFromJsonAsAsyncEnumerable",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1697,7 +1697,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsAsyncEnumerable2",
+          "TsName": "ReadFromJsonAsAsyncEnumerable2",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1707,7 +1707,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsAsyncEnumerable3",
+          "TsName": "ReadFromJsonAsAsyncEnumerable3",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsAsyncEnumerable|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "Target": {
@@ -1717,7 +1717,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync",
+          "TsName": "ReadFromJsonAsync",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1727,7 +1727,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync2",
+          "TsName": "ReadFromJsonAsync2",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1737,7 +1737,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync3",
+          "TsName": "ReadFromJsonAsync3",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1747,7 +1747,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync4",
+          "TsName": "ReadFromJsonAsync4",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1757,7 +1757,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync5",
+          "TsName": "ReadFromJsonAsync5",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Target": {
@@ -1767,7 +1767,7 @@
           }
         },
         {
-          "TsName": "readFromJsonAsync6",
+          "TsName": "ReadFromJsonAsync6",
           "IsStatic": true,
           "TsSignatureId": "ReadFromJsonAsync|(System.Net.Http.HttpContent,JsonTypeInfo_1,System.Threading.CancellationToken):Task_1|static=true",
           "Target": {
@@ -1777,7 +1777,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1787,7 +1787,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1797,7 +1797,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1807,7 +1807,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1817,7 +1817,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1827,7 +1827,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {

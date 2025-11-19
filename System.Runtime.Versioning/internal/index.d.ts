@@ -35,27 +35,27 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ComponentGuaranteesOptions {
-    none = 0,
-    exchange = 1,
-    stable = 2,
-    sideBySide = 4
+    None = 0,
+    Exchange = 1,
+    Stable = 2,
+    SideBySide = 4
 }
 
 
 export enum ResourceScope {
-    none = 0,
-    machine = 1,
-    process = 2,
-    appDomain = 4,
-    library = 8,
-    private_ = 16,
-    assembly = 32
+    None = 0,
+    Machine = 1,
+    Process = 2,
+    AppDomain = 4,
+    Library = 8,
+    Private = 16,
+    Assembly = 32
 }
 
 
 export class ComponentGuaranteesAttribute$instance extends System_Internal.Attribute$instance {
     constructor(guarantees: ComponentGuaranteesOptions);
-    readonly guarantees: ComponentGuaranteesOptions;
+    readonly Guarantees: ComponentGuaranteesOptions;
 }
 
 
@@ -65,14 +65,14 @@ export class FrameworkName$instance {
     constructor(identifier: string, version: Version);
     constructor(identifier: string, version: Version, profile: string);
     constructor(frameworkName: string);
-    readonly fullName: string;
-    readonly identifier: string;
-    readonly profile: string;
-    readonly version: Version;
-    equals(obj: any): boolean;
-    equals(other: FrameworkName): boolean;
-    getHashCode(): int;
-    toString(): string;
+    readonly FullName: string;
+    readonly Identifier: string;
+    readonly Profile: string;
+    readonly Version: Version;
+    Equals(obj: any): boolean;
+    Equals(other: FrameworkName): boolean;
+    GetHashCode(): int;
+    ToString(): string;
 }
 
 
@@ -89,15 +89,15 @@ export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 export class ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
     constructor(platformName: string);
     constructor(platformName: string, message: string);
-    readonly message: string;
-    url: string;
+    readonly Message: string;
+    Url: string;
 }
 
 
 export type ObsoletedOSPlatformAttribute = ObsoletedOSPlatformAttribute$instance;
 
 export abstract class OSPlatformAttribute$instance extends System_Internal.Attribute$instance {
-    readonly platformName: string;
+    readonly PlatformName: string;
 }
 
 
@@ -106,8 +106,8 @@ export type OSPlatformAttribute = OSPlatformAttribute$instance;
 export class RequiresPreviewFeaturesAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
     constructor(message: string);
-    readonly message: string;
-    url: string;
+    readonly Message: string;
+    Url: string;
 }
 
 
@@ -116,8 +116,8 @@ export type RequiresPreviewFeaturesAttribute = RequiresPreviewFeaturesAttribute$
 export class ResourceConsumptionAttribute$instance extends System_Internal.Attribute$instance {
     constructor(resourceScope: ResourceScope);
     constructor(resourceScope: ResourceScope, consumptionScope: ResourceScope);
-    readonly consumptionScope: ResourceScope;
-    readonly resourceScope: ResourceScope;
+    readonly ConsumptionScope: ResourceScope;
+    readonly ResourceScope: ResourceScope;
 }
 
 
@@ -125,7 +125,7 @@ export type ResourceConsumptionAttribute = ResourceConsumptionAttribute$instance
 
 export class ResourceExposureAttribute$instance extends System_Internal.Attribute$instance {
     constructor(exposureLevel: ResourceScope);
-    readonly resourceExposureLevel: ResourceScope;
+    readonly ResourceExposureLevel: ResourceScope;
 }
 
 
@@ -147,8 +147,8 @@ export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribut
 
 export class TargetFrameworkAttribute$instance extends System_Internal.Attribute$instance {
     constructor(frameworkName: string);
-    frameworkDisplayName: string;
-    readonly frameworkName: string;
+    FrameworkDisplayName: string;
+    readonly FrameworkName: string;
 }
 
 
@@ -164,7 +164,7 @@ export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 export class UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
     constructor(platformName: string);
     constructor(platformName: string, message: string);
-    readonly message: string;
+    readonly Message: string;
 }
 
 

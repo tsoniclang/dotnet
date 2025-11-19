@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "BER",
-          "TsEmitName": "ber",
+          "TsEmitName": "BER",
           "NormalizedSignature": "BER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "CER",
-          "TsEmitName": "cer",
+          "TsEmitName": "CER",
           "NormalizedSignature": "CER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "DER",
-          "TsEmitName": "der",
+          "TsEmitName": "DER",
           "NormalizedSignature": "DER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "ClrName": "Universal",
-          "TsEmitName": "universal",
+          "TsEmitName": "Universal",
           "NormalizedSignature": "Universal|System.Formats.Asn1.TagClass|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "ClrName": "Application",
-          "TsEmitName": "application",
+          "TsEmitName": "Application",
           "NormalizedSignature": "Application|System.Formats.Asn1.TagClass|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "ClrName": "ContextSpecific",
-          "TsEmitName": "contextSpecific",
+          "TsEmitName": "ContextSpecific",
           "NormalizedSignature": "ContextSpecific|System.Formats.Asn1.TagClass|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "Private",
-          "TsEmitName": "private_",
+          "TsEmitName": "Private",
           "NormalizedSignature": "Private|System.Formats.Asn1.TagClass|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "ClrName": "EndOfContents",
-          "TsEmitName": "endOfContents",
+          "TsEmitName": "EndOfContents",
           "NormalizedSignature": "EndOfContents|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "NormalizedSignature": "Boolean|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "ClrName": "Integer",
-          "TsEmitName": "integer",
+          "TsEmitName": "Integer",
           "NormalizedSignature": "Integer|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "ClrName": "BitString",
-          "TsEmitName": "bitString",
+          "TsEmitName": "BitString",
           "NormalizedSignature": "BitString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "ClrName": "OctetString",
-          "TsEmitName": "octetString",
+          "TsEmitName": "OctetString",
           "NormalizedSignature": "OctetString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "Null",
-          "TsEmitName": "null_",
+          "TsEmitName": "Null",
           "NormalizedSignature": "Null|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "ClrName": "ObjectIdentifier",
-          "TsEmitName": "objectIdentifier",
+          "TsEmitName": "ObjectIdentifier",
           "NormalizedSignature": "ObjectIdentifier|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "ClrName": "ObjectDescriptor",
-          "TsEmitName": "objectDescriptor",
+          "TsEmitName": "ObjectDescriptor",
           "NormalizedSignature": "ObjectDescriptor|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "ClrName": "External",
-          "TsEmitName": "external",
+          "TsEmitName": "External",
           "NormalizedSignature": "External|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "InstanceOf",
-          "TsEmitName": "instanceOf",
+          "TsEmitName": "InstanceOf",
           "NormalizedSignature": "InstanceOf|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "ClrName": "Real",
-          "TsEmitName": "real",
+          "TsEmitName": "Real",
           "NormalizedSignature": "Real|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "ClrName": "Enumerated",
-          "TsEmitName": "enumerated",
+          "TsEmitName": "Enumerated",
           "NormalizedSignature": "Enumerated|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "ClrName": "Embedded",
-          "TsEmitName": "embedded",
+          "TsEmitName": "Embedded",
           "NormalizedSignature": "Embedded|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "ClrName": "UTF8String",
-          "TsEmitName": "utf8String",
+          "TsEmitName": "UTF8String",
           "NormalizedSignature": "UTF8String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "ClrName": "RelativeObjectIdentifier",
-          "TsEmitName": "relativeObjectIdentifier",
+          "TsEmitName": "RelativeObjectIdentifier",
           "NormalizedSignature": "RelativeObjectIdentifier|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "ClrName": "Time",
-          "TsEmitName": "time",
+          "TsEmitName": "Time",
           "NormalizedSignature": "Time|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -258,7 +258,7 @@
         },
         {
           "ClrName": "Sequence",
-          "TsEmitName": "sequence",
+          "TsEmitName": "Sequence",
           "NormalizedSignature": "Sequence|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -266,7 +266,7 @@
         },
         {
           "ClrName": "SequenceOf",
-          "TsEmitName": "sequenceOf",
+          "TsEmitName": "SequenceOf",
           "NormalizedSignature": "SequenceOf|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "ClrName": "Set",
-          "TsEmitName": "set_",
+          "TsEmitName": "Set",
           "NormalizedSignature": "Set|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "ClrName": "SetOf",
-          "TsEmitName": "setOf",
+          "TsEmitName": "SetOf",
           "NormalizedSignature": "SetOf|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -290,7 +290,7 @@
         },
         {
           "ClrName": "NumericString",
-          "TsEmitName": "numericString",
+          "TsEmitName": "NumericString",
           "NormalizedSignature": "NumericString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -298,7 +298,7 @@
         },
         {
           "ClrName": "PrintableString",
-          "TsEmitName": "printableString",
+          "TsEmitName": "PrintableString",
           "NormalizedSignature": "PrintableString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -306,7 +306,7 @@
         },
         {
           "ClrName": "TeletexString",
-          "TsEmitName": "teletexString",
+          "TsEmitName": "TeletexString",
           "NormalizedSignature": "TeletexString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -314,7 +314,7 @@
         },
         {
           "ClrName": "T61String",
-          "TsEmitName": "t61String",
+          "TsEmitName": "T61String",
           "NormalizedSignature": "T61String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "ClrName": "VideotexString",
-          "TsEmitName": "videotexString",
+          "TsEmitName": "VideotexString",
           "NormalizedSignature": "VideotexString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "ClrName": "IA5String",
-          "TsEmitName": "ia5String",
+          "TsEmitName": "IA5String",
           "NormalizedSignature": "IA5String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -338,7 +338,7 @@
         },
         {
           "ClrName": "UtcTime",
-          "TsEmitName": "utcTime",
+          "TsEmitName": "UtcTime",
           "NormalizedSignature": "UtcTime|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "GeneralizedTime",
-          "TsEmitName": "generalizedTime",
+          "TsEmitName": "GeneralizedTime",
           "NormalizedSignature": "GeneralizedTime|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -354,7 +354,7 @@
         },
         {
           "ClrName": "GraphicString",
-          "TsEmitName": "graphicString",
+          "TsEmitName": "GraphicString",
           "NormalizedSignature": "GraphicString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -362,7 +362,7 @@
         },
         {
           "ClrName": "VisibleString",
-          "TsEmitName": "visibleString",
+          "TsEmitName": "VisibleString",
           "NormalizedSignature": "VisibleString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -370,7 +370,7 @@
         },
         {
           "ClrName": "ISO646String",
-          "TsEmitName": "iso646String",
+          "TsEmitName": "ISO646String",
           "NormalizedSignature": "ISO646String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -378,7 +378,7 @@
         },
         {
           "ClrName": "GeneralString",
-          "TsEmitName": "generalString",
+          "TsEmitName": "GeneralString",
           "NormalizedSignature": "GeneralString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -386,7 +386,7 @@
         },
         {
           "ClrName": "UniversalString",
-          "TsEmitName": "universalString",
+          "TsEmitName": "UniversalString",
           "NormalizedSignature": "UniversalString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -394,7 +394,7 @@
         },
         {
           "ClrName": "UnrestrictedCharacterString",
-          "TsEmitName": "unrestrictedCharacterString",
+          "TsEmitName": "UnrestrictedCharacterString",
           "NormalizedSignature": "UnrestrictedCharacterString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -402,7 +402,7 @@
         },
         {
           "ClrName": "BMPString",
-          "TsEmitName": "bmpString",
+          "TsEmitName": "BMPString",
           "NormalizedSignature": "BMPString|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -410,7 +410,7 @@
         },
         {
           "ClrName": "Date",
-          "TsEmitName": "date",
+          "TsEmitName": "Date",
           "NormalizedSignature": "Date|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -418,7 +418,7 @@
         },
         {
           "ClrName": "TimeOfDay",
-          "TsEmitName": "timeOfDay",
+          "TsEmitName": "TimeOfDay",
           "NormalizedSignature": "TimeOfDay|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -426,7 +426,7 @@
         },
         {
           "ClrName": "DateTime",
-          "TsEmitName": "dateTime",
+          "TsEmitName": "DateTime",
           "NormalizedSignature": "DateTime|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -434,7 +434,7 @@
         },
         {
           "ClrName": "Duration",
-          "TsEmitName": "duration",
+          "TsEmitName": "Duration",
           "NormalizedSignature": "Duration|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "ObjectIdentifierIRI",
-          "TsEmitName": "objectIdentifierIRI",
+          "TsEmitName": "ObjectIdentifierIRI",
           "NormalizedSignature": "ObjectIdentifierIRI|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -450,7 +450,7 @@
         },
         {
           "ClrName": "RelativeObjectIdentifierIRI",
-          "TsEmitName": "relativeObjectIdentifierIRI",
+          "TsEmitName": "RelativeObjectIdentifierIRI",
           "NormalizedSignature": "RelativeObjectIdentifierIRI|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -472,7 +472,7 @@
       "Methods": [
         {
           "ClrName": "AsConstructed",
-          "TsEmitName": "asConstructed",
+          "TsEmitName": "AsConstructed",
           "NormalizedSignature": "AsConstructed|():System.Formats.Asn1.Asn1Tag|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -486,7 +486,7 @@
         },
         {
           "ClrName": "AsPrimitive",
-          "TsEmitName": "asPrimitive",
+          "TsEmitName": "AsPrimitive",
           "NormalizedSignature": "AsPrimitive|():System.Formats.Asn1.Asn1Tag|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -500,7 +500,7 @@
         },
         {
           "ClrName": "TryDecode",
-          "TsEmitName": "tryDecode",
+          "TsEmitName": "TryDecode",
           "NormalizedSignature": "TryDecode|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.Asn1Tag\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "Decode",
-          "TsEmitName": "decode",
+          "TsEmitName": "Decode",
           "NormalizedSignature": "Decode|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Formats.Asn1.Asn1Tag|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -528,7 +528,7 @@
         },
         {
           "ClrName": "CalculateEncodedSize",
-          "TsEmitName": "calculateEncodedSize",
+          "TsEmitName": "CalculateEncodedSize",
           "NormalizedSignature": "CalculateEncodedSize|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         },
         {
           "ClrName": "TryEncode",
-          "TsEmitName": "tryEncode",
+          "TsEmitName": "TryEncode",
           "NormalizedSignature": "TryEncode|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -556,7 +556,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode",
+          "TsEmitName": "Encode",
           "NormalizedSignature": "Encode|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -570,7 +570,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Formats.Asn1.Asn1Tag):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -584,7 +584,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals2",
+          "TsEmitName": "Equals2",
           "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -598,7 +598,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -612,7 +612,7 @@
         },
         {
           "ClrName": "HasSameClassAndValue",
-          "TsEmitName": "hasSameClassAndValue",
+          "TsEmitName": "HasSameClassAndValue",
           "NormalizedSignature": "HasSameClassAndValue|(System.Formats.Asn1.Asn1Tag):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -640,7 +640,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals$view",
+          "TsEmitName": "Equals$view",
           "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -657,7 +657,7 @@
       "Properties": [
         {
           "ClrName": "TagClass",
-          "TsEmitName": "tagClass",
+          "TsEmitName": "TagClass",
           "NormalizedSignature": "TagClass|:System.Formats.Asn1.TagClass|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -671,7 +671,7 @@
         },
         {
           "ClrName": "IsConstructed",
-          "TsEmitName": "isConstructed",
+          "TsEmitName": "IsConstructed",
           "NormalizedSignature": "IsConstructed|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -685,7 +685,7 @@
         },
         {
           "ClrName": "TagValue",
-          "TsEmitName": "tagValue",
+          "TsEmitName": "TagValue",
           "NormalizedSignature": "TagValue|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -701,7 +701,7 @@
       "Fields": [
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "NormalizedSignature": "Boolean|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -709,7 +709,7 @@
         },
         {
           "ClrName": "Integer",
-          "TsEmitName": "integer",
+          "TsEmitName": "Integer",
           "NormalizedSignature": "Integer|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -717,7 +717,7 @@
         },
         {
           "ClrName": "PrimitiveBitString",
-          "TsEmitName": "primitiveBitString",
+          "TsEmitName": "PrimitiveBitString",
           "NormalizedSignature": "PrimitiveBitString|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -725,7 +725,7 @@
         },
         {
           "ClrName": "ConstructedBitString",
-          "TsEmitName": "constructedBitString",
+          "TsEmitName": "ConstructedBitString",
           "NormalizedSignature": "ConstructedBitString|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -733,7 +733,7 @@
         },
         {
           "ClrName": "PrimitiveOctetString",
-          "TsEmitName": "primitiveOctetString",
+          "TsEmitName": "PrimitiveOctetString",
           "NormalizedSignature": "PrimitiveOctetString|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -741,7 +741,7 @@
         },
         {
           "ClrName": "ConstructedOctetString",
-          "TsEmitName": "constructedOctetString",
+          "TsEmitName": "ConstructedOctetString",
           "NormalizedSignature": "ConstructedOctetString|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -749,7 +749,7 @@
         },
         {
           "ClrName": "Null",
-          "TsEmitName": "null_",
+          "TsEmitName": "Null",
           "NormalizedSignature": "Null|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -757,7 +757,7 @@
         },
         {
           "ClrName": "ObjectIdentifier",
-          "TsEmitName": "objectIdentifier",
+          "TsEmitName": "ObjectIdentifier",
           "NormalizedSignature": "ObjectIdentifier|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -765,7 +765,7 @@
         },
         {
           "ClrName": "Enumerated",
-          "TsEmitName": "enumerated",
+          "TsEmitName": "Enumerated",
           "NormalizedSignature": "Enumerated|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -773,7 +773,7 @@
         },
         {
           "ClrName": "Sequence",
-          "TsEmitName": "sequence",
+          "TsEmitName": "Sequence",
           "NormalizedSignature": "Sequence|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -781,7 +781,7 @@
         },
         {
           "ClrName": "SetOf",
-          "TsEmitName": "setOf",
+          "TsEmitName": "SetOf",
           "NormalizedSignature": "SetOf|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -789,7 +789,7 @@
         },
         {
           "ClrName": "UtcTime",
-          "TsEmitName": "utcTime",
+          "TsEmitName": "UtcTime",
           "NormalizedSignature": "UtcTime|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -797,7 +797,7 @@
         },
         {
           "ClrName": "GeneralizedTime",
-          "TsEmitName": "generalizedTime",
+          "TsEmitName": "GeneralizedTime",
           "NormalizedSignature": "GeneralizedTime|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "IsStatic": true,
           "IsReadOnly": true,
@@ -831,7 +831,7 @@
       "Properties": [
         {
           "ClrName": "UtcTimeTwoDigitYearMax",
-          "TsEmitName": "utcTimeTwoDigitYearMax",
+          "TsEmitName": "UtcTimeTwoDigitYearMax",
           "NormalizedSignature": "UtcTimeTwoDigitYearMax|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -845,7 +845,7 @@
         },
         {
           "ClrName": "SkipSetSortOrderVerification",
-          "TsEmitName": "skipSetSortOrderVerification",
+          "TsEmitName": "SkipSetSortOrderVerification",
           "NormalizedSignature": "SkipSetSortOrderVerification|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -874,7 +874,7 @@
       "Methods": [
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -888,7 +888,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -919,7 +919,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -934,7 +934,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -980,7 +980,7 @@
       "Methods": [
         {
           "ClrName": "ThrowIfNotEmpty",
-          "TsEmitName": "throwIfNotEmpty",
+          "TsEmitName": "ThrowIfNotEmpty",
           "NormalizedSignature": "ThrowIfNotEmpty|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -994,7 +994,7 @@
         },
         {
           "ClrName": "PeekTag",
-          "TsEmitName": "peekTag",
+          "TsEmitName": "PeekTag",
           "NormalizedSignature": "PeekTag|():System.Formats.Asn1.Asn1Tag|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1008,7 +1008,7 @@
         },
         {
           "ClrName": "PeekEncodedValue",
-          "TsEmitName": "peekEncodedValue",
+          "TsEmitName": "PeekEncodedValue",
           "NormalizedSignature": "PeekEncodedValue|():System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1022,7 +1022,7 @@
         },
         {
           "ClrName": "PeekContentBytes",
-          "TsEmitName": "peekContentBytes",
+          "TsEmitName": "PeekContentBytes",
           "NormalizedSignature": "PeekContentBytes|():System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1036,7 +1036,7 @@
         },
         {
           "ClrName": "ReadEncodedValue",
-          "TsEmitName": "readEncodedValue",
+          "TsEmitName": "ReadEncodedValue",
           "NormalizedSignature": "ReadEncodedValue|():System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1050,7 +1050,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Formats.Asn1.AsnReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1064,7 +1064,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveBitString",
-          "TsEmitName": "tryReadPrimitiveBitString",
+          "TsEmitName": "TryReadPrimitiveBitString",
           "NormalizedSignature": "TryReadPrimitiveBitString|(System.Int32\u0026,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1078,7 +1078,7 @@
         },
         {
           "ClrName": "TryReadBitString",
-          "TsEmitName": "tryReadBitString",
+          "TsEmitName": "TryReadBitString",
           "NormalizedSignature": "TryReadBitString|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1092,7 +1092,7 @@
         },
         {
           "ClrName": "ReadBitString",
-          "TsEmitName": "readBitString",
+          "TsEmitName": "ReadBitString",
           "NormalizedSignature": "ReadBitString|(System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1106,7 +1106,7 @@
         },
         {
           "ClrName": "ReadBoolean",
-          "TsEmitName": "readBoolean",
+          "TsEmitName": "ReadBoolean",
           "NormalizedSignature": "ReadBoolean|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1120,7 +1120,7 @@
         },
         {
           "ClrName": "ReadEnumeratedBytes",
-          "TsEmitName": "readEnumeratedBytes",
+          "TsEmitName": "ReadEnumeratedBytes",
           "NormalizedSignature": "ReadEnumeratedBytes|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1134,7 +1134,7 @@
         },
         {
           "ClrName": "ReadEnumeratedValue",
-          "TsEmitName": "readEnumeratedValue",
+          "TsEmitName": "ReadEnumeratedValue",
           "NormalizedSignature": "ReadEnumeratedValue|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):TEnum|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1148,7 +1148,7 @@
         },
         {
           "ClrName": "ReadEnumeratedValue",
-          "TsEmitName": "readEnumeratedValue2",
+          "TsEmitName": "ReadEnumeratedValue2",
           "NormalizedSignature": "ReadEnumeratedValue|(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1162,7 +1162,7 @@
         },
         {
           "ClrName": "ReadGeneralizedTime",
-          "TsEmitName": "readGeneralizedTime",
+          "TsEmitName": "ReadGeneralizedTime",
           "NormalizedSignature": "ReadGeneralizedTime|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1176,7 +1176,7 @@
         },
         {
           "ClrName": "ReadIntegerBytes",
-          "TsEmitName": "readIntegerBytes",
+          "TsEmitName": "ReadIntegerBytes",
           "NormalizedSignature": "ReadIntegerBytes|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1190,7 +1190,7 @@
         },
         {
           "ClrName": "ReadInteger",
-          "TsEmitName": "readInteger",
+          "TsEmitName": "ReadInteger",
           "NormalizedSignature": "ReadInteger|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Numerics.BigInteger|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1204,7 +1204,7 @@
         },
         {
           "ClrName": "TryReadInt32",
-          "TsEmitName": "tryReadInt32",
+          "TsEmitName": "TryReadInt32",
           "NormalizedSignature": "TryReadInt32|(System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1218,7 +1218,7 @@
         },
         {
           "ClrName": "TryReadUInt32",
-          "TsEmitName": "tryReadUInt32",
+          "TsEmitName": "TryReadUInt32",
           "NormalizedSignature": "TryReadUInt32|(System.UInt32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1232,7 +1232,7 @@
         },
         {
           "ClrName": "TryReadInt64",
-          "TsEmitName": "tryReadInt64",
+          "TsEmitName": "TryReadInt64",
           "NormalizedSignature": "TryReadInt64|(System.Int64\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1246,7 +1246,7 @@
         },
         {
           "ClrName": "TryReadUInt64",
-          "TsEmitName": "tryReadUInt64",
+          "TsEmitName": "TryReadUInt64",
           "NormalizedSignature": "TryReadUInt64|(System.UInt64\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1260,7 +1260,7 @@
         },
         {
           "ClrName": "ReadNamedBitListValue",
-          "TsEmitName": "readNamedBitListValue",
+          "TsEmitName": "ReadNamedBitListValue",
           "NormalizedSignature": "ReadNamedBitListValue|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):TFlagsEnum|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1274,7 +1274,7 @@
         },
         {
           "ClrName": "ReadNamedBitListValue",
-          "TsEmitName": "readNamedBitListValue2",
+          "TsEmitName": "ReadNamedBitListValue2",
           "NormalizedSignature": "ReadNamedBitListValue|(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1288,7 +1288,7 @@
         },
         {
           "ClrName": "ReadNamedBitList",
-          "TsEmitName": "readNamedBitList",
+          "TsEmitName": "ReadNamedBitList",
           "NormalizedSignature": "ReadNamedBitList|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.BitArray|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1302,7 +1302,7 @@
         },
         {
           "ClrName": "ReadNull",
-          "TsEmitName": "readNull",
+          "TsEmitName": "ReadNull",
           "NormalizedSignature": "ReadNull|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1316,7 +1316,7 @@
         },
         {
           "ClrName": "TryReadOctetString",
-          "TsEmitName": "tryReadOctetString",
+          "TsEmitName": "TryReadOctetString",
           "NormalizedSignature": "TryReadOctetString|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1330,7 +1330,7 @@
         },
         {
           "ClrName": "ReadOctetString",
-          "TsEmitName": "readOctetString",
+          "TsEmitName": "ReadOctetString",
           "NormalizedSignature": "ReadOctetString|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1344,7 +1344,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveOctetString",
-          "TsEmitName": "tryReadPrimitiveOctetString",
+          "TsEmitName": "TryReadPrimitiveOctetString",
           "NormalizedSignature": "TryReadPrimitiveOctetString|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1358,7 +1358,7 @@
         },
         {
           "ClrName": "ReadObjectIdentifier",
-          "TsEmitName": "readObjectIdentifier",
+          "TsEmitName": "ReadObjectIdentifier",
           "NormalizedSignature": "ReadObjectIdentifier|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1372,7 +1372,7 @@
         },
         {
           "ClrName": "ReadSequence",
-          "TsEmitName": "readSequence",
+          "TsEmitName": "ReadSequence",
           "NormalizedSignature": "ReadSequence|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1386,7 +1386,7 @@
         },
         {
           "ClrName": "ReadSetOf",
-          "TsEmitName": "readSetOf",
+          "TsEmitName": "ReadSetOf",
           "NormalizedSignature": "ReadSetOf|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1400,7 +1400,7 @@
         },
         {
           "ClrName": "ReadSetOf",
-          "TsEmitName": "readSetOf2",
+          "TsEmitName": "ReadSetOf2",
           "NormalizedSignature": "ReadSetOf|(System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnReader|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1414,7 +1414,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveCharacterStringBytes",
-          "TsEmitName": "tryReadPrimitiveCharacterStringBytes",
+          "TsEmitName": "TryReadPrimitiveCharacterStringBytes",
           "NormalizedSignature": "TryReadPrimitiveCharacterStringBytes|(System.Formats.Asn1.Asn1Tag,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
         },
         {
           "ClrName": "TryReadCharacterStringBytes",
-          "TsEmitName": "tryReadCharacterStringBytes",
+          "TsEmitName": "TryReadCharacterStringBytes",
           "NormalizedSignature": "TryReadCharacterStringBytes|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.Asn1Tag,System.Int32\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1442,7 +1442,7 @@
         },
         {
           "ClrName": "TryReadCharacterString",
-          "TsEmitName": "tryReadCharacterString",
+          "TsEmitName": "TryReadCharacterString",
           "NormalizedSignature": "TryReadCharacterString|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.UniversalTagNumber,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1456,7 +1456,7 @@
         },
         {
           "ClrName": "ReadCharacterString",
-          "TsEmitName": "readCharacterString",
+          "TsEmitName": "ReadCharacterString",
           "NormalizedSignature": "ReadCharacterString|(System.Formats.Asn1.UniversalTagNumber,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1470,7 +1470,7 @@
         },
         {
           "ClrName": "ReadUtcTime",
-          "TsEmitName": "readUtcTime",
+          "TsEmitName": "ReadUtcTime",
           "NormalizedSignature": "ReadUtcTime|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1484,7 +1484,7 @@
         },
         {
           "ClrName": "ReadUtcTime",
-          "TsEmitName": "readUtcTime2",
+          "TsEmitName": "ReadUtcTime2",
           "NormalizedSignature": "ReadUtcTime|(System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1500,7 +1500,7 @@
       "Properties": [
         {
           "ClrName": "RuleSet",
-          "TsEmitName": "ruleSet",
+          "TsEmitName": "RuleSet",
           "NormalizedSignature": "RuleSet|:System.Formats.Asn1.AsnEncodingRules|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1514,7 +1514,7 @@
         },
         {
           "ClrName": "HasData",
-          "TsEmitName": "hasData",
+          "TsEmitName": "HasData",
           "NormalizedSignature": "HasData|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1549,7 +1549,7 @@
       "Methods": [
         {
           "ClrName": "Reset",
-          "TsEmitName": "reset",
+          "TsEmitName": "Reset",
           "NormalizedSignature": "Reset|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1563,7 +1563,7 @@
         },
         {
           "ClrName": "GetEncodedLength",
-          "TsEmitName": "getEncodedLength",
+          "TsEmitName": "GetEncodedLength",
           "NormalizedSignature": "GetEncodedLength|():System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1577,7 +1577,7 @@
         },
         {
           "ClrName": "TryEncode",
-          "TsEmitName": "tryEncode",
+          "TsEmitName": "TryEncode",
           "NormalizedSignature": "TryEncode|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1591,7 +1591,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode",
+          "TsEmitName": "Encode",
           "NormalizedSignature": "Encode|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1605,7 +1605,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode2",
+          "TsEmitName": "Encode2",
           "NormalizedSignature": "Encode|():System.Byte[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1619,7 +1619,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode3",
+          "TsEmitName": "Encode3",
           "NormalizedSignature": "Encode|(Func_2):TReturn|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1633,7 +1633,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode4",
+          "TsEmitName": "Encode4",
           "NormalizedSignature": "Encode|(TState,Func_3):TReturn|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1647,7 +1647,7 @@
         },
         {
           "ClrName": "Encode",
-          "TsEmitName": "encode5",
+          "TsEmitName": "Encode5",
           "NormalizedSignature": "Encode|(TState,Action_2):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1661,7 +1661,7 @@
         },
         {
           "ClrName": "EncodedValueEquals",
-          "TsEmitName": "encodedValueEquals",
+          "TsEmitName": "EncodedValueEquals",
           "NormalizedSignature": "EncodedValueEquals|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1675,7 +1675,7 @@
         },
         {
           "ClrName": "EncodedValueEquals",
-          "TsEmitName": "encodedValueEquals2",
+          "TsEmitName": "EncodedValueEquals2",
           "NormalizedSignature": "EncodedValueEquals|(System.Formats.Asn1.AsnWriter):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1689,7 +1689,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(System.Formats.Asn1.AsnWriter):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1703,7 +1703,7 @@
         },
         {
           "ClrName": "WriteEncodedValue",
-          "TsEmitName": "writeEncodedValue",
+          "TsEmitName": "WriteEncodedValue",
           "NormalizedSignature": "WriteEncodedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1717,7 +1717,7 @@
         },
         {
           "ClrName": "WriteBitString",
-          "TsEmitName": "writeBitString",
+          "TsEmitName": "WriteBitString",
           "NormalizedSignature": "WriteBitString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1731,7 +1731,7 @@
         },
         {
           "ClrName": "WriteBoolean",
-          "TsEmitName": "writeBoolean",
+          "TsEmitName": "WriteBoolean",
           "NormalizedSignature": "WriteBoolean|(System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1745,7 +1745,7 @@
         },
         {
           "ClrName": "WriteEnumeratedValue",
-          "TsEmitName": "writeEnumeratedValue",
+          "TsEmitName": "WriteEnumeratedValue",
           "NormalizedSignature": "WriteEnumeratedValue|(System.Enum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1759,7 +1759,7 @@
         },
         {
           "ClrName": "WriteEnumeratedValue",
-          "TsEmitName": "writeEnumeratedValue2",
+          "TsEmitName": "WriteEnumeratedValue2",
           "NormalizedSignature": "WriteEnumeratedValue|(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1773,7 +1773,7 @@
         },
         {
           "ClrName": "WriteGeneralizedTime",
-          "TsEmitName": "writeGeneralizedTime",
+          "TsEmitName": "WriteGeneralizedTime",
           "NormalizedSignature": "WriteGeneralizedTime|(System.DateTimeOffset,System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1787,7 +1787,7 @@
         },
         {
           "ClrName": "WriteInteger",
-          "TsEmitName": "writeInteger",
+          "TsEmitName": "WriteInteger",
           "NormalizedSignature": "WriteInteger|(System.Int64,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1801,7 +1801,7 @@
         },
         {
           "ClrName": "WriteInteger",
-          "TsEmitName": "writeInteger2",
+          "TsEmitName": "WriteInteger2",
           "NormalizedSignature": "WriteInteger|(System.UInt64,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1815,7 +1815,7 @@
         },
         {
           "ClrName": "WriteInteger",
-          "TsEmitName": "writeInteger3",
+          "TsEmitName": "WriteInteger3",
           "NormalizedSignature": "WriteInteger|(System.Numerics.BigInteger,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1829,7 +1829,7 @@
         },
         {
           "ClrName": "WriteInteger",
-          "TsEmitName": "writeInteger4",
+          "TsEmitName": "WriteInteger4",
           "NormalizedSignature": "WriteInteger|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1843,7 +1843,7 @@
         },
         {
           "ClrName": "WriteIntegerUnsigned",
-          "TsEmitName": "writeIntegerUnsigned",
+          "TsEmitName": "WriteIntegerUnsigned",
           "NormalizedSignature": "WriteIntegerUnsigned|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1857,7 +1857,7 @@
         },
         {
           "ClrName": "WriteNamedBitList",
-          "TsEmitName": "writeNamedBitList",
+          "TsEmitName": "WriteNamedBitList",
           "NormalizedSignature": "WriteNamedBitList|(System.Enum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1871,7 +1871,7 @@
         },
         {
           "ClrName": "WriteNamedBitList",
-          "TsEmitName": "writeNamedBitList2",
+          "TsEmitName": "WriteNamedBitList2",
           "NormalizedSignature": "WriteNamedBitList|(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1885,7 +1885,7 @@
         },
         {
           "ClrName": "WriteNamedBitList",
-          "TsEmitName": "writeNamedBitList3",
+          "TsEmitName": "WriteNamedBitList3",
           "NormalizedSignature": "WriteNamedBitList|(System.Collections.BitArray,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1899,7 +1899,7 @@
         },
         {
           "ClrName": "WriteNull",
-          "TsEmitName": "writeNull",
+          "TsEmitName": "WriteNull",
           "NormalizedSignature": "WriteNull|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1913,7 +1913,7 @@
         },
         {
           "ClrName": "PushOctetString",
-          "TsEmitName": "pushOctetString",
+          "TsEmitName": "PushOctetString",
           "NormalizedSignature": "PushOctetString|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnWriter\u002BScope|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1927,7 +1927,7 @@
         },
         {
           "ClrName": "PopOctetString",
-          "TsEmitName": "popOctetString",
+          "TsEmitName": "PopOctetString",
           "NormalizedSignature": "PopOctetString|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1941,7 +1941,7 @@
         },
         {
           "ClrName": "WriteOctetString",
-          "TsEmitName": "writeOctetString",
+          "TsEmitName": "WriteOctetString",
           "NormalizedSignature": "WriteOctetString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1955,7 +1955,7 @@
         },
         {
           "ClrName": "WriteObjectIdentifier",
-          "TsEmitName": "writeObjectIdentifier",
+          "TsEmitName": "WriteObjectIdentifier",
           "NormalizedSignature": "WriteObjectIdentifier|(System.String,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1969,7 +1969,7 @@
         },
         {
           "ClrName": "WriteObjectIdentifier",
-          "TsEmitName": "writeObjectIdentifier2",
+          "TsEmitName": "WriteObjectIdentifier2",
           "NormalizedSignature": "WriteObjectIdentifier|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1983,7 +1983,7 @@
         },
         {
           "ClrName": "PushSequence",
-          "TsEmitName": "pushSequence",
+          "TsEmitName": "PushSequence",
           "NormalizedSignature": "PushSequence|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnWriter\u002BScope|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1997,7 +1997,7 @@
         },
         {
           "ClrName": "PopSequence",
-          "TsEmitName": "popSequence",
+          "TsEmitName": "PopSequence",
           "NormalizedSignature": "PopSequence|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2011,7 +2011,7 @@
         },
         {
           "ClrName": "PushSetOf",
-          "TsEmitName": "pushSetOf",
+          "TsEmitName": "PushSetOf",
           "NormalizedSignature": "PushSetOf|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnWriter\u002BScope|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2025,7 +2025,7 @@
         },
         {
           "ClrName": "PopSetOf",
-          "TsEmitName": "popSetOf",
+          "TsEmitName": "PopSetOf",
           "NormalizedSignature": "PopSetOf|(System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2039,7 +2039,7 @@
         },
         {
           "ClrName": "WriteCharacterString",
-          "TsEmitName": "writeCharacterString",
+          "TsEmitName": "WriteCharacterString",
           "NormalizedSignature": "WriteCharacterString|(System.Formats.Asn1.UniversalTagNumber,System.String,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2053,7 +2053,7 @@
         },
         {
           "ClrName": "WriteCharacterString",
-          "TsEmitName": "writeCharacterString2",
+          "TsEmitName": "WriteCharacterString2",
           "NormalizedSignature": "WriteCharacterString|(System.Formats.Asn1.UniversalTagNumber,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         },
         {
           "ClrName": "WriteUtcTime",
-          "TsEmitName": "writeUtcTime",
+          "TsEmitName": "WriteUtcTime",
           "NormalizedSignature": "WriteUtcTime|(System.DateTimeOffset,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2081,7 +2081,7 @@
         },
         {
           "ClrName": "WriteUtcTime",
-          "TsEmitName": "writeUtcTime2",
+          "TsEmitName": "WriteUtcTime2",
           "NormalizedSignature": "WriteUtcTime|(System.DateTimeOffset,System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2097,7 +2097,7 @@
       "Properties": [
         {
           "ClrName": "RuleSet",
-          "TsEmitName": "ruleSet",
+          "TsEmitName": "RuleSet",
           "NormalizedSignature": "RuleSet|:System.Formats.Asn1.AsnEncodingRules|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2137,7 +2137,7 @@
       "Methods": [
         {
           "ClrName": "TryReadEncodedValue",
-          "TsEmitName": "tryReadEncodedValue",
+          "TsEmitName": "TryReadEncodedValue",
           "NormalizedSignature": "TryReadEncodedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag\u0026,System.Int32\u0026,System.Int32\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2151,7 +2151,7 @@
         },
         {
           "ClrName": "ReadEncodedValue",
-          "TsEmitName": "readEncodedValue",
+          "TsEmitName": "ReadEncodedValue",
           "NormalizedSignature": "ReadEncodedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Int32\u0026):System.Formats.Asn1.Asn1Tag|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2165,7 +2165,7 @@
         },
         {
           "ClrName": "DecodeLength",
-          "TsEmitName": "decodeLength",
+          "TsEmitName": "DecodeLength",
           "NormalizedSignature": "DecodeLength|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026):System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2179,7 +2179,7 @@
         },
         {
           "ClrName": "TryDecodeLength",
-          "TsEmitName": "tryDecodeLength",
+          "TsEmitName": "TryDecodeLength",
           "NormalizedSignature": "TryDecodeLength|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2193,7 +2193,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveBitString",
-          "TsEmitName": "tryReadPrimitiveBitString",
+          "TsEmitName": "TryReadPrimitiveBitString",
           "NormalizedSignature": "TryReadPrimitiveBitString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2207,7 +2207,7 @@
         },
         {
           "ClrName": "TryReadBitString",
-          "TsEmitName": "tryReadBitString",
+          "TsEmitName": "TryReadBitString",
           "NormalizedSignature": "TryReadBitString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2221,7 +2221,7 @@
         },
         {
           "ClrName": "ReadBitString",
-          "TsEmitName": "readBitString",
+          "TsEmitName": "ReadBitString",
           "NormalizedSignature": "ReadBitString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Byte[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2235,7 +2235,7 @@
         },
         {
           "ClrName": "ReadBoolean",
-          "TsEmitName": "readBoolean",
+          "TsEmitName": "ReadBoolean",
           "NormalizedSignature": "ReadBoolean|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2249,7 +2249,7 @@
         },
         {
           "ClrName": "ReadEnumeratedBytes",
-          "TsEmitName": "readEnumeratedBytes",
+          "TsEmitName": "ReadEnumeratedBytes",
           "NormalizedSignature": "ReadEnumeratedBytes|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2263,7 +2263,7 @@
         },
         {
           "ClrName": "ReadEnumeratedValue",
-          "TsEmitName": "readEnumeratedValue",
+          "TsEmitName": "ReadEnumeratedValue",
           "NormalizedSignature": "ReadEnumeratedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):TEnum|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2277,7 +2277,7 @@
         },
         {
           "ClrName": "ReadEnumeratedValue",
-          "TsEmitName": "readEnumeratedValue2",
+          "TsEmitName": "ReadEnumeratedValue2",
           "NormalizedSignature": "ReadEnumeratedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         },
         {
           "ClrName": "ReadGeneralizedTime",
-          "TsEmitName": "readGeneralizedTime",
+          "TsEmitName": "ReadGeneralizedTime",
           "NormalizedSignature": "ReadGeneralizedTime|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2305,7 +2305,7 @@
         },
         {
           "ClrName": "ReadIntegerBytes",
-          "TsEmitName": "readIntegerBytes",
+          "TsEmitName": "ReadIntegerBytes",
           "NormalizedSignature": "ReadIntegerBytes|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2319,7 +2319,7 @@
         },
         {
           "ClrName": "ReadInteger",
-          "TsEmitName": "readInteger",
+          "TsEmitName": "ReadInteger",
           "NormalizedSignature": "ReadInteger|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Numerics.BigInteger|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2333,7 +2333,7 @@
         },
         {
           "ClrName": "TryReadInt32",
-          "TsEmitName": "tryReadInt32",
+          "TsEmitName": "TryReadInt32",
           "NormalizedSignature": "TryReadInt32|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2347,7 +2347,7 @@
         },
         {
           "ClrName": "TryReadUInt32",
-          "TsEmitName": "tryReadUInt32",
+          "TsEmitName": "TryReadUInt32",
           "NormalizedSignature": "TryReadUInt32|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.UInt32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2361,7 +2361,7 @@
         },
         {
           "ClrName": "TryReadInt64",
-          "TsEmitName": "tryReadInt64",
+          "TsEmitName": "TryReadInt64",
           "NormalizedSignature": "TryReadInt64|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int64\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2375,7 +2375,7 @@
         },
         {
           "ClrName": "TryReadUInt64",
-          "TsEmitName": "tryReadUInt64",
+          "TsEmitName": "TryReadUInt64",
           "NormalizedSignature": "TryReadUInt64|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.UInt64\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2389,7 +2389,7 @@
         },
         {
           "ClrName": "ReadNamedBitListValue",
-          "TsEmitName": "readNamedBitListValue",
+          "TsEmitName": "ReadNamedBitListValue",
           "NormalizedSignature": "ReadNamedBitListValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):TFlagsEnum|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2403,7 +2403,7 @@
         },
         {
           "ClrName": "ReadNamedBitListValue",
-          "TsEmitName": "readNamedBitListValue2",
+          "TsEmitName": "ReadNamedBitListValue2",
           "NormalizedSignature": "ReadNamedBitListValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2417,7 +2417,7 @@
         },
         {
           "ClrName": "ReadNamedBitList",
-          "TsEmitName": "readNamedBitList",
+          "TsEmitName": "ReadNamedBitList",
           "NormalizedSignature": "ReadNamedBitList|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.BitArray|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2431,7 +2431,7 @@
         },
         {
           "ClrName": "ReadNull",
-          "TsEmitName": "readNull",
+          "TsEmitName": "ReadNull",
           "NormalizedSignature": "ReadNull|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2445,7 +2445,7 @@
         },
         {
           "ClrName": "TryReadOctetString",
-          "TsEmitName": "tryReadOctetString",
+          "TsEmitName": "TryReadOctetString",
           "NormalizedSignature": "TryReadOctetString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2459,7 +2459,7 @@
         },
         {
           "ClrName": "ReadOctetString",
-          "TsEmitName": "readOctetString",
+          "TsEmitName": "ReadOctetString",
           "NormalizedSignature": "ReadOctetString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Byte[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2473,7 +2473,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveOctetString",
-          "TsEmitName": "tryReadPrimitiveOctetString",
+          "TsEmitName": "TryReadPrimitiveOctetString",
           "NormalizedSignature": "TryReadPrimitiveOctetString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2487,7 +2487,7 @@
         },
         {
           "ClrName": "ReadObjectIdentifier",
-          "TsEmitName": "readObjectIdentifier",
+          "TsEmitName": "ReadObjectIdentifier",
           "NormalizedSignature": "ReadObjectIdentifier|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2501,7 +2501,7 @@
         },
         {
           "ClrName": "ReadSequence",
-          "TsEmitName": "readSequence",
+          "TsEmitName": "ReadSequence",
           "NormalizedSignature": "ReadSequence|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2515,7 +2515,7 @@
         },
         {
           "ClrName": "ReadSetOf",
-          "TsEmitName": "readSetOf",
+          "TsEmitName": "ReadSetOf",
           "NormalizedSignature": "ReadSetOf|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2529,7 +2529,7 @@
         },
         {
           "ClrName": "TryReadPrimitiveCharacterStringBytes",
-          "TsEmitName": "tryReadPrimitiveCharacterStringBytes",
+          "TsEmitName": "TryReadPrimitiveCharacterStringBytes",
           "NormalizedSignature": "TryReadPrimitiveCharacterStringBytes|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2543,7 +2543,7 @@
         },
         {
           "ClrName": "TryReadCharacterStringBytes",
-          "TsEmitName": "tryReadCharacterStringBytes",
+          "TsEmitName": "TryReadCharacterStringBytes",
           "NormalizedSignature": "TryReadCharacterStringBytes|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag,System.Int32\u0026,System.Int32\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2557,7 +2557,7 @@
         },
         {
           "ClrName": "TryReadCharacterString",
-          "TsEmitName": "tryReadCharacterString",
+          "TsEmitName": "TryReadCharacterString",
           "NormalizedSignature": "TryReadCharacterString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.UniversalTagNumber,System.Int32\u0026,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2571,7 +2571,7 @@
         },
         {
           "ClrName": "ReadCharacterString",
-          "TsEmitName": "readCharacterString",
+          "TsEmitName": "ReadCharacterString",
           "NormalizedSignature": "ReadCharacterString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.UniversalTagNumber,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2585,7 +2585,7 @@
         },
         {
           "ClrName": "ReadUtcTime",
-          "TsEmitName": "readUtcTime",
+          "TsEmitName": "ReadUtcTime",
           "NormalizedSignature": "ReadUtcTime|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Int32\u0026,System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

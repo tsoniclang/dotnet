@@ -16,7 +16,7 @@
       "Methods": [
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine",
+          "TsEmitName": "WriteLine",
           "NormalizedSignature": "WriteLine|(System.String):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine2",
+          "TsEmitName": "WriteLine2",
           "NormalizedSignature": "WriteLine|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -44,7 +44,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.String):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -74,7 +74,7 @@
       "Methods": [
         {
           "ClrName": "WriteLine",
-          "TsEmitName": "writeLine",
+          "TsEmitName": "WriteLine",
           "NormalizedSignature": "WriteLine|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -88,7 +88,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.String):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

@@ -9,7 +9,7 @@
       "Methods": [
         {
           "ClrName": "Run",
-          "TsEmitName": "run",
+          "TsEmitName": "Run",
           "MetadataToken": 100666475,
           "CanonicalSignature": "(System.Object[]):System.Object",
           "NormalizedSignature": "Run|(System.Object[]):System.Object|static=false",
@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "RunVoid",
-          "TsEmitName": "runVoid",
+          "TsEmitName": "RunVoid",
           "MetadataToken": 100666476,
           "CanonicalSignature": "(System.Object[]):System.Object",
           "NormalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
@@ -38,7 +38,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "run",
+          "TsName": "Run",
           "IsStatic": false,
           "TsSignatureId": "Run|(System.Object[]):System.Object|static=false",
           "Target": {
@@ -48,7 +48,7 @@
           }
         },
         {
-          "TsName": "runVoid",
+          "TsName": "RunVoid",
           "IsStatic": false,
           "TsSignatureId": "RunVoid|(System.Object[]):System.Object|static=false",
           "Target": {
@@ -58,7 +58,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -68,7 +68,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -78,7 +78,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -88,7 +88,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -98,7 +98,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -108,7 +108,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {

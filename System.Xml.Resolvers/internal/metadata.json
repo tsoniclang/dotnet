@@ -26,7 +26,7 @@
         },
         {
           "ClrName": "None",
-          "TsEmitName": "none",
+          "TsEmitName": "None",
           "NormalizedSignature": "None|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "ClrName": "Xhtml10",
-          "TsEmitName": "xhtml10",
+          "TsEmitName": "Xhtml10",
           "NormalizedSignature": "Xhtml10|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "ClrName": "Rss091",
-          "TsEmitName": "rss091",
+          "TsEmitName": "Rss091",
           "NormalizedSignature": "Rss091|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "ClrName": "All",
-          "TsEmitName": "all",
+          "TsEmitName": "All",
           "NormalizedSignature": "All|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -72,7 +72,7 @@
       "Methods": [
         {
           "ClrName": "ResolveUri",
-          "TsEmitName": "resolveUri",
+          "TsEmitName": "ResolveUri",
           "NormalizedSignature": "ResolveUri|(System.Uri,System.String):System.Uri|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -86,7 +86,7 @@
         },
         {
           "ClrName": "GetEntity",
-          "TsEmitName": "getEntity",
+          "TsEmitName": "GetEntity",
           "NormalizedSignature": "GetEntity|(System.Uri,System.String,System.Type):System.Object|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -100,7 +100,7 @@
         },
         {
           "ClrName": "SupportsType",
-          "TsEmitName": "supportsType",
+          "TsEmitName": "SupportsType",
           "NormalizedSignature": "SupportsType|(System.Uri,System.Type):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -114,7 +114,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(System.Uri,System.Byte[]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -128,7 +128,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "NormalizedSignature": "Add|(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -142,7 +142,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add3",
+          "TsEmitName": "Add3",
           "NormalizedSignature": "Add|(System.Uri,System.IO.Stream):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -156,7 +156,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add4",
+          "TsEmitName": "Add4",
           "NormalizedSignature": "Add|(System.Uri,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -170,7 +170,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(System.Uri):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -184,7 +184,7 @@
         },
         {
           "ClrName": "GetEntityAsync",
-          "TsEmitName": "getEntityAsync2",
+          "TsEmitName": "GetEntityAsync2",
           "NormalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -198,7 +198,7 @@
         },
         {
           "ClrName": "GetEntityAsync",
-          "TsEmitName": "getEntityAsync",
+          "TsEmitName": "GetEntityAsync",
           "NormalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -214,7 +214,7 @@
       "Properties": [
         {
           "ClrName": "Credentials",
-          "TsEmitName": "credentials",
+          "TsEmitName": "Credentials",
           "NormalizedSignature": "Credentials|:System.Net.ICredentials|static=false|accessor=set",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -228,7 +228,7 @@
         },
         {
           "ClrName": "PreloadedUris",
-          "TsEmitName": "preloadedUris",
+          "TsEmitName": "PreloadedUris",
           "NormalizedSignature": "PreloadedUris|:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

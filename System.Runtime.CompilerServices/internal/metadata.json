@@ -1,9 +1,9 @@
 {
   "Namespace": "System.Runtime.CompilerServices",
   "ContributingAssemblies": [
-    "System.Runtime.InteropServices",
     "System.Private.CoreLib",
     "System.Linq.Expressions",
+    "System.Runtime.InteropServices",
     "System.Runtime.CompilerServices.VisualC"
   ],
   "Types": [
@@ -29,7 +29,7 @@
         },
         {
           "ClrName": "NoStringInterning",
-          "TsEmitName": "noStringInterning",
+          "TsEmitName": "NoStringInterning",
           "NormalizedSignature": "NoStringInterning|System.Runtime.CompilerServices.CompilationRelaxations|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -61,7 +61,7 @@
         },
         {
           "ClrName": "Default",
-          "TsEmitName": "default_",
+          "TsEmitName": "Default",
           "NormalizedSignature": "Default|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -69,7 +69,7 @@
         },
         {
           "ClrName": "Always",
-          "TsEmitName": "always",
+          "TsEmitName": "Always",
           "NormalizedSignature": "Always|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -77,7 +77,7 @@
         },
         {
           "ClrName": "Sometimes",
-          "TsEmitName": "sometimes",
+          "TsEmitName": "Sometimes",
           "NormalizedSignature": "Sometimes|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -109,7 +109,7 @@
         },
         {
           "ClrName": "IL",
-          "TsEmitName": "il",
+          "TsEmitName": "IL",
           "NormalizedSignature": "IL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -117,7 +117,7 @@
         },
         {
           "ClrName": "Native",
-          "TsEmitName": "native",
+          "TsEmitName": "Native",
           "NormalizedSignature": "Native|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -125,7 +125,7 @@
         },
         {
           "ClrName": "OPTIL",
-          "TsEmitName": "optil",
+          "TsEmitName": "OPTIL",
           "NormalizedSignature": "OPTIL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -133,7 +133,7 @@
         },
         {
           "ClrName": "Runtime",
-          "TsEmitName": "runtime",
+          "TsEmitName": "Runtime",
           "NormalizedSignature": "Runtime|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -165,7 +165,7 @@
         },
         {
           "ClrName": "Unmanaged",
-          "TsEmitName": "unmanaged",
+          "TsEmitName": "Unmanaged",
           "NormalizedSignature": "Unmanaged|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -173,7 +173,7 @@
         },
         {
           "ClrName": "NoInlining",
-          "TsEmitName": "noInlining",
+          "TsEmitName": "NoInlining",
           "NormalizedSignature": "NoInlining|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -181,7 +181,7 @@
         },
         {
           "ClrName": "ForwardRef",
-          "TsEmitName": "forwardRef",
+          "TsEmitName": "ForwardRef",
           "NormalizedSignature": "ForwardRef|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -189,7 +189,7 @@
         },
         {
           "ClrName": "Synchronized",
-          "TsEmitName": "synchronized",
+          "TsEmitName": "Synchronized",
           "NormalizedSignature": "Synchronized|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -197,7 +197,7 @@
         },
         {
           "ClrName": "NoOptimization",
-          "TsEmitName": "noOptimization",
+          "TsEmitName": "NoOptimization",
           "NormalizedSignature": "NoOptimization|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -205,7 +205,7 @@
         },
         {
           "ClrName": "PreserveSig",
-          "TsEmitName": "preserveSig",
+          "TsEmitName": "PreserveSig",
           "NormalizedSignature": "PreserveSig|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -213,7 +213,7 @@
         },
         {
           "ClrName": "AggressiveInlining",
-          "TsEmitName": "aggressiveInlining",
+          "TsEmitName": "AggressiveInlining",
           "NormalizedSignature": "AggressiveInlining|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -221,7 +221,7 @@
         },
         {
           "ClrName": "AggressiveOptimization",
-          "TsEmitName": "aggressiveOptimization",
+          "TsEmitName": "AggressiveOptimization",
           "NormalizedSignature": "AggressiveOptimization|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -229,7 +229,7 @@
         },
         {
           "ClrName": "Async",
-          "TsEmitName": "async_",
+          "TsEmitName": "Async",
           "NormalizedSignature": "Async|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -237,7 +237,7 @@
         },
         {
           "ClrName": "InternalCall",
-          "TsEmitName": "internalCall",
+          "TsEmitName": "InternalCall",
           "NormalizedSignature": "InternalCall|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -269,7 +269,7 @@
         },
         {
           "ClrName": "Constructor",
-          "TsEmitName": "constructor_",
+          "TsEmitName": "Constructor",
           "NormalizedSignature": "Constructor|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -277,7 +277,7 @@
         },
         {
           "ClrName": "Method",
-          "TsEmitName": "method",
+          "TsEmitName": "Method",
           "NormalizedSignature": "Method|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -285,7 +285,7 @@
         },
         {
           "ClrName": "StaticMethod",
-          "TsEmitName": "staticMethod",
+          "TsEmitName": "StaticMethod",
           "NormalizedSignature": "StaticMethod|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -293,7 +293,7 @@
         },
         {
           "ClrName": "Field",
-          "TsEmitName": "field",
+          "TsEmitName": "Field",
           "NormalizedSignature": "Field|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -301,7 +301,7 @@
         },
         {
           "ClrName": "StaticField",
-          "TsEmitName": "staticField",
+          "TsEmitName": "StaticField",
           "NormalizedSignature": "StaticField|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -323,7 +323,7 @@
       "Methods": [
         {
           "ClrName": "MoveNext",
-          "TsEmitName": "moveNext",
+          "TsEmitName": "MoveNext",
           "NormalizedSignature": "MoveNext|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -337,7 +337,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -367,7 +367,7 @@
       "Methods": [
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -397,7 +397,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -428,7 +428,7 @@
       "Properties": [
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -442,7 +442,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Object|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -472,7 +472,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -502,7 +502,7 @@
       "Properties": [
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -516,7 +516,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -545,7 +545,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():System.Runtime.CompilerServices.AsyncIteratorMethodBuilder|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -559,7 +559,7 @@
         },
         {
           "ClrName": "MoveNext",
-          "TsEmitName": "moveNext",
+          "TsEmitName": "MoveNext",
           "NormalizedSignature": "MoveNext|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -573,7 +573,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -587,7 +587,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -601,7 +601,7 @@
         },
         {
           "ClrName": "Complete",
-          "TsEmitName": "complete",
+          "TsEmitName": "Complete",
           "NormalizedSignature": "Complete|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -631,7 +631,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():System.Runtime.CompilerServices.AsyncTaskMethodBuilder|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -645,7 +645,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -659,7 +659,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -673,7 +673,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -687,7 +687,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -701,7 +701,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -715,7 +715,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -731,7 +731,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:System.Threading.Tasks.Task|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -760,7 +760,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():AsyncTaskMethodBuilder_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -774,7 +774,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -788,7 +788,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -802,7 +802,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -816,7 +816,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -830,7 +830,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -844,7 +844,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -860,7 +860,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:Task_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -889,7 +889,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -903,7 +903,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -917,7 +917,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -931,7 +931,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -945,7 +945,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -959,7 +959,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -973,7 +973,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -989,7 +989,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:System.Threading.Tasks.ValueTask|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1018,7 +1018,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():AsyncValueTaskMethodBuilder_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1032,7 +1032,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1046,7 +1046,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1060,7 +1060,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1074,7 +1074,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1088,7 +1088,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1102,7 +1102,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1118,7 +1118,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:ValueTask_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1147,7 +1147,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():System.Runtime.CompilerServices.AsyncVoidMethodBuilder|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1161,7 +1161,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1175,7 +1175,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1189,7 +1189,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1203,7 +1203,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1217,7 +1217,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1231,7 +1231,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1261,7 +1261,7 @@
       "Methods": [
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1291,7 +1291,7 @@
       "Methods": [
         {
           "ClrName": "ConfigureAwait",
-          "TsEmitName": "configureAwait",
+          "TsEmitName": "ConfigureAwait",
           "NormalizedSignature": "ConfigureAwait|(System.Boolean):ConfiguredCancelableAsyncEnumerable_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1305,7 +1305,7 @@
         },
         {
           "ClrName": "WithCancellation",
-          "TsEmitName": "withCancellation",
+          "TsEmitName": "WithCancellation",
           "NormalizedSignature": "WithCancellation|(System.Threading.CancellationToken):ConfiguredCancelableAsyncEnumerable_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1319,7 +1319,7 @@
         },
         {
           "ClrName": "GetAsyncEnumerator",
-          "TsEmitName": "getAsyncEnumerator",
+          "TsEmitName": "GetAsyncEnumerator",
           "NormalizedSignature": "GetAsyncEnumerator|():Enumerator|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1349,7 +1349,7 @@
       "Methods": [
         {
           "ClrName": "MoveNextAsync",
-          "TsEmitName": "moveNextAsync",
+          "TsEmitName": "MoveNextAsync",
           "NormalizedSignature": "MoveNextAsync|():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1363,7 +1363,7 @@
         },
         {
           "ClrName": "DisposeAsync",
-          "TsEmitName": "disposeAsync",
+          "TsEmitName": "DisposeAsync",
           "NormalizedSignature": "DisposeAsync|():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1379,7 +1379,7 @@
       "Properties": [
         {
           "ClrName": "Current",
-          "TsEmitName": "current",
+          "TsEmitName": "Current",
           "NormalizedSignature": "Current|:T|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1408,7 +1408,7 @@
       "Methods": [
         {
           "ClrName": "GetAwaiter",
-          "TsEmitName": "getAwaiter",
+          "TsEmitName": "GetAwaiter",
           "NormalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.ConfiguredTaskAwaitable\u002BConfiguredTaskAwaiter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1438,7 +1438,7 @@
       "Methods": [
         {
           "ClrName": "GetAwaiter",
-          "TsEmitName": "getAwaiter",
+          "TsEmitName": "GetAwaiter",
           "NormalizedSignature": "GetAwaiter|():ConfiguredTaskAwaiter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1468,7 +1468,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1482,7 +1482,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1496,7 +1496,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1510,7 +1510,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1525,7 +1525,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1542,7 +1542,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1571,7 +1571,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1585,7 +1585,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1599,7 +1599,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1613,7 +1613,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1628,7 +1628,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1645,7 +1645,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1674,7 +1674,7 @@
       "Methods": [
         {
           "ClrName": "GetAwaiter",
-          "TsEmitName": "getAwaiter",
+          "TsEmitName": "GetAwaiter",
           "NormalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable\u002BConfiguredValueTaskAwaiter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1704,7 +1704,7 @@
       "Methods": [
         {
           "ClrName": "GetAwaiter",
-          "TsEmitName": "getAwaiter",
+          "TsEmitName": "GetAwaiter",
           "NormalizedSignature": "GetAwaiter|():ConfiguredValueTaskAwaiter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1734,7 +1734,7 @@
       "Methods": [
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1748,7 +1748,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1762,7 +1762,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1776,7 +1776,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1791,7 +1791,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1808,7 +1808,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1837,7 +1837,7 @@
       "Methods": [
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1851,7 +1851,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1865,7 +1865,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1879,7 +1879,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1894,7 +1894,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -1911,7 +1911,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1940,7 +1940,7 @@
       "Methods": [
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "NormalizedSignature": "ToString|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1954,7 +1954,7 @@
         },
         {
           "ClrName": "ToStringAndClear",
-          "TsEmitName": "toStringAndClear",
+          "TsEmitName": "ToStringAndClear",
           "NormalizedSignature": "ToStringAndClear|():System.String|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1968,7 +1968,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1982,7 +1982,7 @@
         },
         {
           "ClrName": "AppendLiteral",
-          "TsEmitName": "appendLiteral",
+          "TsEmitName": "AppendLiteral",
           "NormalizedSignature": "AppendLiteral|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -1996,7 +1996,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted",
+          "TsEmitName": "AppendFormatted",
           "NormalizedSignature": "AppendFormatted|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2010,7 +2010,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted2",
+          "TsEmitName": "AppendFormatted2",
           "NormalizedSignature": "AppendFormatted|(T,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2024,7 +2024,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted3",
+          "TsEmitName": "AppendFormatted3",
           "NormalizedSignature": "AppendFormatted|(T,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2038,7 +2038,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted4",
+          "TsEmitName": "AppendFormatted4",
           "NormalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2052,7 +2052,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted5",
+          "TsEmitName": "AppendFormatted5",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2066,7 +2066,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted6",
+          "TsEmitName": "AppendFormatted6",
           "NormalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2080,7 +2080,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted7",
+          "TsEmitName": "AppendFormatted7",
           "NormalizedSignature": "AppendFormatted|(System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2094,7 +2094,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted8",
+          "TsEmitName": "AppendFormatted8",
           "NormalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2108,7 +2108,7 @@
         },
         {
           "ClrName": "AppendFormatted",
-          "TsEmitName": "appendFormatted9",
+          "TsEmitName": "AppendFormatted9",
           "NormalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2124,7 +2124,7 @@
       "Properties": [
         {
           "ClrName": "Text",
-          "TsEmitName": "text",
+          "TsEmitName": "Text",
           "NormalizedSignature": "Text|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2394,7 +2394,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2408,7 +2408,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2422,7 +2422,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2436,7 +2436,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2450,7 +2450,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2464,7 +2464,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2478,7 +2478,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2494,7 +2494,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:System.Threading.Tasks.ValueTask|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2523,7 +2523,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|():PoolingAsyncValueTaskMethodBuilder_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2537,7 +2537,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|(TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2551,7 +2551,7 @@
         },
         {
           "ClrName": "SetStateMachine",
-          "TsEmitName": "setStateMachine",
+          "TsEmitName": "SetStateMachine",
           "NormalizedSignature": "SetStateMachine|(System.Runtime.CompilerServices.IAsyncStateMachine):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2565,7 +2565,7 @@
         },
         {
           "ClrName": "SetResult",
-          "TsEmitName": "setResult",
+          "TsEmitName": "SetResult",
           "NormalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2579,7 +2579,7 @@
         },
         {
           "ClrName": "SetException",
-          "TsEmitName": "setException",
+          "TsEmitName": "SetException",
           "NormalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2593,7 +2593,7 @@
         },
         {
           "ClrName": "AwaitOnCompleted",
-          "TsEmitName": "awaitOnCompleted",
+          "TsEmitName": "AwaitOnCompleted",
           "NormalizedSignature": "AwaitOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2607,7 +2607,7 @@
         },
         {
           "ClrName": "AwaitUnsafeOnCompleted",
-          "TsEmitName": "awaitUnsafeOnCompleted",
+          "TsEmitName": "AwaitUnsafeOnCompleted",
           "NormalizedSignature": "AwaitUnsafeOnCompleted|(TAwaiter\u0026,TStateMachine\u0026):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2623,7 +2623,7 @@
       "Properties": [
         {
           "ClrName": "Task",
-          "TsEmitName": "task",
+          "TsEmitName": "Task",
           "NormalizedSignature": "Task|:ValueTask_1|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2652,7 +2652,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2666,7 +2666,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2680,7 +2680,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2694,7 +2694,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2709,7 +2709,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2726,7 +2726,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2755,7 +2755,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2769,7 +2769,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2783,7 +2783,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2797,7 +2797,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2812,7 +2812,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2829,7 +2829,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2858,7 +2858,7 @@
       "Methods": [
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2872,7 +2872,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2886,7 +2886,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2900,7 +2900,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2915,7 +2915,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -2932,7 +2932,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2961,7 +2961,7 @@
       "Methods": [
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():TResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2975,7 +2975,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -2989,7 +2989,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3003,7 +3003,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3018,7 +3018,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3035,7 +3035,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3064,7 +3064,7 @@
       "Methods": [
         {
           "ClrName": "GetAwaiter",
-          "TsEmitName": "getAwaiter",
+          "TsEmitName": "GetAwaiter",
           "NormalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.YieldAwaitable\u002BYieldAwaiter|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3094,7 +3094,7 @@
       "Methods": [
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted",
+          "TsEmitName": "OnCompleted",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3108,7 +3108,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted",
+          "TsEmitName": "UnsafeOnCompleted",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3122,7 +3122,7 @@
         },
         {
           "ClrName": "GetResult",
-          "TsEmitName": "getResult",
+          "TsEmitName": "GetResult",
           "NormalizedSignature": "GetResult|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3136,7 +3136,7 @@
         },
         {
           "ClrName": "UnsafeOnCompleted",
-          "TsEmitName": "unsafeOnCompleted$view",
+          "TsEmitName": "UnsafeOnCompleted$view",
           "NormalizedSignature": "UnsafeOnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3151,7 +3151,7 @@
         },
         {
           "ClrName": "OnCompleted",
-          "TsEmitName": "onCompleted$view",
+          "TsEmitName": "OnCompleted$view",
           "NormalizedSignature": "OnCompleted|(System.Action):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -3168,7 +3168,7 @@
       "Properties": [
         {
           "ClrName": "IsCompleted",
-          "TsEmitName": "isCompleted",
+          "TsEmitName": "IsCompleted",
           "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3198,7 +3198,7 @@
       "Properties": [
         {
           "ClrName": "PropertyName",
-          "TsEmitName": "propertyName",
+          "TsEmitName": "PropertyName",
           "NormalizedSignature": "PropertyName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3255,7 +3255,7 @@
       "Properties": [
         {
           "ClrName": "BuilderType",
-          "TsEmitName": "builderType",
+          "TsEmitName": "BuilderType",
           "NormalizedSignature": "BuilderType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3459,7 +3459,7 @@
       "Properties": [
         {
           "ClrName": "ParameterName",
-          "TsEmitName": "parameterName",
+          "TsEmitName": "ParameterName",
           "NormalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3557,7 +3557,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Type,System.Runtime.CompilerServices.CallSiteBinder):System.Runtime.CompilerServices.CallSite|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3573,7 +3573,7 @@
       "Properties": [
         {
           "ClrName": "Binder",
-          "TsEmitName": "binder",
+          "TsEmitName": "Binder",
           "NormalizedSignature": "Binder|:System.Runtime.CompilerServices.CallSiteBinder|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3602,7 +3602,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.Runtime.CompilerServices.CallSiteBinder):CallSite_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3618,7 +3618,7 @@
       "Properties": [
         {
           "ClrName": "Update",
-          "TsEmitName": "update",
+          "TsEmitName": "Update",
           "NormalizedSignature": "Update|:T|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3634,7 +3634,7 @@
       "Fields": [
         {
           "ClrName": "Target",
-          "TsEmitName": "target",
+          "TsEmitName": "Target",
           "NormalizedSignature": "Target|T|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": false,
@@ -3656,7 +3656,7 @@
       "Methods": [
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3670,7 +3670,7 @@
         },
         {
           "ClrName": "BindDelegate",
-          "TsEmitName": "bindDelegate",
+          "TsEmitName": "BindDelegate",
           "NormalizedSignature": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3686,7 +3686,7 @@
       "Properties": [
         {
           "ClrName": "UpdateLabel",
-          "TsEmitName": "updateLabel",
+          "TsEmitName": "UpdateLabel",
           "NormalizedSignature": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3717,7 +3717,7 @@
       "Fields": [
         {
           "ClrName": "Constants",
-          "TsEmitName": "constants",
+          "TsEmitName": "Constants",
           "NormalizedSignature": "Constants|System.Object[]|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": true,
@@ -3725,7 +3725,7 @@
         },
         {
           "ClrName": "Locals",
-          "TsEmitName": "locals",
+          "TsEmitName": "Locals",
           "NormalizedSignature": "Locals|System.Object[]|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": true,
@@ -3754,7 +3754,7 @@
       "Properties": [
         {
           "ClrName": "BuilderType",
-          "TsEmitName": "builderType",
+          "TsEmitName": "BuilderType",
           "NormalizedSignature": "BuilderType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3768,7 +3768,7 @@
         },
         {
           "ClrName": "MethodName",
-          "TsEmitName": "methodName",
+          "TsEmitName": "MethodName",
           "NormalizedSignature": "MethodName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3804,7 +3804,7 @@
       "Properties": [
         {
           "ClrName": "CompilationRelaxations",
-          "TsEmitName": "compilationRelaxations",
+          "TsEmitName": "CompilationRelaxations",
           "NormalizedSignature": "CompilationRelaxations|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3845,7 +3845,7 @@
       "Properties": [
         {
           "ClrName": "FeatureName",
-          "TsEmitName": "featureName",
+          "TsEmitName": "FeatureName",
           "NormalizedSignature": "FeatureName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3859,7 +3859,7 @@
         },
         {
           "ClrName": "IsOptional",
-          "TsEmitName": "isOptional",
+          "TsEmitName": "IsOptional",
           "NormalizedSignature": "IsOptional|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3875,7 +3875,7 @@
       "Fields": [
         {
           "ClrName": "RefStructs",
-          "TsEmitName": "refStructs",
+          "TsEmitName": "RefStructs",
           "NormalizedSignature": "RefStructs|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -3883,7 +3883,7 @@
         },
         {
           "ClrName": "RequiredMembers",
-          "TsEmitName": "requiredMembers",
+          "TsEmitName": "RequiredMembers",
           "NormalizedSignature": "RequiredMembers|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -3974,7 +3974,7 @@
       "Methods": [
         {
           "ClrName": "TryGetValue",
-          "TsEmitName": "tryGetValue",
+          "TsEmitName": "TryGetValue",
           "NormalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -3988,7 +3988,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4002,7 +4002,7 @@
         },
         {
           "ClrName": "TryAdd",
-          "TsEmitName": "tryAdd",
+          "TsEmitName": "TryAdd",
           "NormalizedSignature": "TryAdd|(TKey,TValue):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4016,7 +4016,7 @@
         },
         {
           "ClrName": "AddOrUpdate",
-          "TsEmitName": "addOrUpdate",
+          "TsEmitName": "AddOrUpdate",
           "NormalizedSignature": "AddOrUpdate|(TKey,TValue):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4030,7 +4030,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(TKey):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4044,7 +4044,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove2",
+          "TsEmitName": "Remove2",
           "NormalizedSignature": "Remove|(TKey,TValue\u0026):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4058,7 +4058,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4072,7 +4072,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd",
+          "TsEmitName": "GetOrAdd",
           "NormalizedSignature": "GetOrAdd|(TKey,TValue):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4086,7 +4086,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd2",
+          "TsEmitName": "GetOrAdd2",
           "NormalizedSignature": "GetOrAdd|(TKey,Func_2):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4100,7 +4100,7 @@
         },
         {
           "ClrName": "GetOrAdd",
-          "TsEmitName": "getOrAdd3",
+          "TsEmitName": "GetOrAdd3",
           "NormalizedSignature": "GetOrAdd|(TKey,Func_3,TArg):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4114,7 +4114,7 @@
         },
         {
           "ClrName": "GetValue",
-          "TsEmitName": "getValue",
+          "TsEmitName": "GetValue",
           "NormalizedSignature": "GetValue|(TKey,CreateValueCallback):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4128,7 +4128,7 @@
         },
         {
           "ClrName": "GetOrCreateValue",
-          "TsEmitName": "getOrCreateValue",
+          "TsEmitName": "GetOrCreateValue",
           "NormalizedSignature": "GetOrCreateValue|(TKey):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4142,7 +4142,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4157,7 +4157,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4194,7 +4194,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(TKey):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4208,7 +4208,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(TKey,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4222,7 +4222,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):TValue|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4236,7 +4236,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4251,7 +4251,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -4266,7 +4266,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4280,7 +4280,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -4359,7 +4359,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4389,7 +4389,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4424,7 +4424,7 @@
       "Methods": [
         {
           "ClrName": "CreatePdbGenerator",
-          "TsEmitName": "createPdbGenerator",
+          "TsEmitName": "CreatePdbGenerator",
           "NormalizedSignature": "CreatePdbGenerator|():System.Runtime.CompilerServices.DebugInfoGenerator|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4438,7 +4438,7 @@
         },
         {
           "ClrName": "MarkSequencePoint",
-          "TsEmitName": "markSequencePoint",
+          "TsEmitName": "MarkSequencePoint",
           "NormalizedSignature": "MarkSequencePoint|(System.Linq.Expressions.LambdaExpression,System.Int32,System.Linq.Expressions.DebugInfoExpression):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4469,7 +4469,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Decimal|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4510,7 +4510,7 @@
       "Properties": [
         {
           "ClrName": "LoadHint",
-          "TsEmitName": "loadHint",
+          "TsEmitName": "LoadHint",
           "NormalizedSignature": "LoadHint|:System.Runtime.CompilerServices.LoadHint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4546,7 +4546,7 @@
       "Properties": [
         {
           "ClrName": "DependentAssembly",
-          "TsEmitName": "dependentAssembly",
+          "TsEmitName": "DependentAssembly",
           "NormalizedSignature": "DependentAssembly|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4560,7 +4560,7 @@
         },
         {
           "ClrName": "LoadHint",
-          "TsEmitName": "loadHint",
+          "TsEmitName": "LoadHint",
           "NormalizedSignature": "LoadHint|:System.Runtime.CompilerServices.LoadHint|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4659,7 +4659,7 @@
       "Properties": [
         {
           "ClrName": "TransformFlags",
-          "TsEmitName": "transformFlags",
+          "TsEmitName": "TransformFlags",
           "NormalizedSignature": "TransformFlags|:System.Collections.Generic.IList_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4742,7 +4742,7 @@
       "Properties": [
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4799,7 +4799,7 @@
       "Properties": [
         {
           "ClrName": "ElementType",
-          "TsEmitName": "elementType",
+          "TsEmitName": "ElementType",
           "NormalizedSignature": "ElementType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4813,7 +4813,7 @@
         },
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4870,7 +4870,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4927,7 +4927,7 @@
       "Properties": [
         {
           "ClrName": "Length",
-          "TsEmitName": "length",
+          "TsEmitName": "Length",
           "NormalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4963,7 +4963,7 @@
       "Properties": [
         {
           "ClrName": "AssemblyName",
-          "TsEmitName": "assemblyName",
+          "TsEmitName": "AssemblyName",
           "NormalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -4977,7 +4977,7 @@
         },
         {
           "ClrName": "AllInternalsVisible",
-          "TsEmitName": "allInternalsVisible",
+          "TsEmitName": "AllInternalsVisible",
           "NormalizedSignature": "AllInternalsVisible|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5013,7 +5013,7 @@
       "Properties": [
         {
           "ClrName": "Arguments",
-          "TsEmitName": "arguments",
+          "TsEmitName": "Arguments",
           "NormalizedSignature": "Arguments|:System.String[]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5159,7 +5159,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5183,6 +5183,27 @@
       ]
     },
     {
+      "ClrName": "System.Runtime.CompilerServices.MetadataUpdateDeletedAttribute",
+      "TsEmitName": "MetadataUpdateDeletedAttribute",
+      "Kind": "Class",
+      "Accessibility": "Public",
+      "IsAbstract": false,
+      "IsSealed": true,
+      "IsStatic": false,
+      "Arity": 0,
+      "Methods": [],
+      "Properties": [],
+      "Fields": [],
+      "Events": [],
+      "Constructors": [
+        {
+          "NormalizedSignature": "constructor|():void|static=false",
+          "IsStatic": false,
+          "ParameterCount": 0
+        }
+      ]
+    },
+    {
       "ClrName": "System.Runtime.CompilerServices.MetadataUpdateOriginalTypeAttribute",
       "TsEmitName": "MetadataUpdateOriginalTypeAttribute",
       "Kind": "Class",
@@ -5195,7 +5216,7 @@
       "Properties": [
         {
           "ClrName": "OriginalType",
-          "TsEmitName": "originalType",
+          "TsEmitName": "OriginalType",
           "NormalizedSignature": "OriginalType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5231,7 +5252,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|:System.Runtime.CompilerServices.MethodImplOptions|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5247,7 +5268,7 @@
       "Fields": [
         {
           "ClrName": "MethodCodeType",
-          "TsEmitName": "methodCodeType",
+          "TsEmitName": "MethodCodeType",
           "NormalizedSignature": "MethodCodeType|System.Runtime.CompilerServices.MethodCodeType|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": false,
@@ -5329,7 +5350,7 @@
       "Fields": [
         {
           "ClrName": "NullableFlags",
-          "TsEmitName": "nullableFlags",
+          "TsEmitName": "NullableFlags",
           "NormalizedSignature": "NullableFlags|System.Byte[]|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": true,
@@ -5364,7 +5385,7 @@
       "Fields": [
         {
           "ClrName": "Flag",
-          "TsEmitName": "flag",
+          "TsEmitName": "Flag",
           "NormalizedSignature": "Flag|System.Byte|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": true,
@@ -5394,7 +5415,7 @@
       "Fields": [
         {
           "ClrName": "IncludesInternals",
-          "TsEmitName": "includesInternals",
+          "TsEmitName": "IncludesInternals",
           "NormalizedSignature": "IncludesInternals|System.Boolean|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": true,
@@ -5423,7 +5444,7 @@
       "Properties": [
         {
           "ClrName": "Priority",
-          "TsEmitName": "priority",
+          "TsEmitName": "Priority",
           "NormalizedSignature": "Priority|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5500,7 +5521,7 @@
       "Methods": [
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf",
+          "TsEmitName": "IndexOf",
           "NormalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5514,7 +5535,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert",
+          "TsEmitName": "Insert",
           "NormalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5528,7 +5549,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt",
+          "TsEmitName": "RemoveAt",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5542,7 +5563,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5556,7 +5577,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear",
+          "TsEmitName": "Clear",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5570,7 +5591,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains",
+          "TsEmitName": "Contains",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5584,7 +5605,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo",
+          "TsEmitName": "CopyTo",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5598,7 +5619,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove",
+          "TsEmitName": "Remove",
           "NormalizedSignature": "Remove|(T):System.Boolean|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5612,7 +5633,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator",
+          "TsEmitName": "GetEnumerator",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5626,7 +5647,7 @@
         },
         {
           "ClrName": "Reverse",
-          "TsEmitName": "reverse",
+          "TsEmitName": "Reverse",
           "NormalizedSignature": "Reverse|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5640,7 +5661,7 @@
         },
         {
           "ClrName": "Reverse",
-          "TsEmitName": "reverse2",
+          "TsEmitName": "Reverse2",
           "NormalizedSignature": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5654,7 +5675,7 @@
         },
         {
           "ClrName": "ToArray",
-          "TsEmitName": "toArray",
+          "TsEmitName": "ToArray",
           "NormalizedSignature": "ToArray|():T[]|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5668,7 +5689,7 @@
         },
         {
           "ClrName": "ToReadOnlyCollection",
-          "TsEmitName": "toReadOnlyCollection",
+          "TsEmitName": "ToReadOnlyCollection",
           "NormalizedSignature": "ToReadOnlyCollection|():ReadOnlyCollection_1|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5682,7 +5703,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5697,7 +5718,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5712,7 +5733,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5727,7 +5748,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert$view",
+          "TsEmitName": "Insert$view",
           "NormalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5742,7 +5763,7 @@
         },
         {
           "ClrName": "Remove",
-          "TsEmitName": "remove$view",
+          "TsEmitName": "Remove$view",
           "NormalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5757,7 +5778,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5772,7 +5793,7 @@
         },
         {
           "ClrName": "IndexOf",
-          "TsEmitName": "indexOf$view",
+          "TsEmitName": "IndexOf$view",
           "NormalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5787,7 +5808,7 @@
         },
         {
           "ClrName": "Insert",
-          "TsEmitName": "insert$view",
+          "TsEmitName": "Insert$view",
           "NormalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5802,7 +5823,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt$view",
+          "TsEmitName": "RemoveAt$view",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5817,7 +5838,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add$view",
+          "TsEmitName": "Add$view",
           "NormalizedSignature": "Add|(T):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5832,7 +5853,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5847,7 +5868,7 @@
         },
         {
           "ClrName": "Contains",
-          "TsEmitName": "contains$view",
+          "TsEmitName": "Contains$view",
           "NormalizedSignature": "Contains|(T):System.Boolean|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5862,7 +5883,7 @@
         },
         {
           "ClrName": "CopyTo",
-          "TsEmitName": "copyTo$view",
+          "TsEmitName": "CopyTo$view",
           "NormalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5877,7 +5898,7 @@
         },
         {
           "ClrName": "GetEnumerator",
-          "TsEmitName": "getEnumerator$view",
+          "TsEmitName": "GetEnumerator$view",
           "NormalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5892,7 +5913,7 @@
         },
         {
           "ClrName": "Clear",
-          "TsEmitName": "clear$view",
+          "TsEmitName": "Clear$view",
           "NormalizedSignature": "Clear|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5907,7 +5928,7 @@
         },
         {
           "ClrName": "RemoveAt",
-          "TsEmitName": "removeAt$view",
+          "TsEmitName": "RemoveAt$view",
           "NormalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5924,7 +5945,7 @@
       "Properties": [
         {
           "ClrName": "Capacity",
-          "TsEmitName": "capacity",
+          "TsEmitName": "Capacity",
           "NormalizedSignature": "Capacity|:System.Int32|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5938,7 +5959,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count",
+          "TsEmitName": "Count",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5952,7 +5973,7 @@
         },
         {
           "ClrName": "Item",
-          "TsEmitName": "item",
+          "TsEmitName": "Item",
           "NormalizedSignature": "Item|[System.Int32]:T|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -5966,7 +5987,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5981,7 +6002,7 @@
         },
         {
           "ClrName": "SyncRoot",
-          "TsEmitName": "syncRoot",
+          "TsEmitName": "SyncRoot",
           "NormalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -5996,7 +6017,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6011,7 +6032,7 @@
         },
         {
           "ClrName": "IsReadOnly",
-          "TsEmitName": "isReadOnly",
+          "TsEmitName": "IsReadOnly",
           "NormalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6026,7 +6047,7 @@
         },
         {
           "ClrName": "IsFixedSize",
-          "TsEmitName": "isFixedSize",
+          "TsEmitName": "IsFixedSize",
           "NormalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6041,7 +6062,7 @@
         },
         {
           "ClrName": "Count",
-          "TsEmitName": "count$view",
+          "TsEmitName": "Count$view",
           "NormalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6056,7 +6077,7 @@
         },
         {
           "ClrName": "IsSynchronized",
-          "TsEmitName": "isSynchronized",
+          "TsEmitName": "IsSynchronized",
           "NormalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6103,7 +6124,7 @@
       "Properties": [
         {
           "ClrName": "Description",
-          "TsEmitName": "description",
+          "TsEmitName": "Description",
           "NormalizedSignature": "Description|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6144,7 +6165,7 @@
       "Properties": [
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "NormalizedSignature": "Version|:System.Int32|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6180,7 +6201,7 @@
       "Properties": [
         {
           "ClrName": "RequiredContract",
-          "TsEmitName": "requiredContract",
+          "TsEmitName": "RequiredContract",
           "NormalizedSignature": "RequiredContract|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6273,7 +6294,7 @@
       "Properties": [
         {
           "ClrName": "WrapNonExceptionThrows",
-          "TsEmitName": "wrapNonExceptionThrows",
+          "TsEmitName": "WrapNonExceptionThrows",
           "NormalizedSignature": "WrapNonExceptionThrows|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6308,7 +6329,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Boolean):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6322,7 +6343,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6336,7 +6357,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6350,7 +6371,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6365,7 +6386,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6380,7 +6401,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6394,7 +6415,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6430,7 +6451,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6444,7 +6465,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6458,7 +6479,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6472,7 +6493,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6487,7 +6508,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6502,7 +6523,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6516,7 +6537,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -6552,7 +6573,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6566,7 +6587,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6583,7 +6604,7 @@
       "Properties": [
         {
           "ClrName": "WrappedException",
-          "TsEmitName": "wrappedException",
+          "TsEmitName": "WrappedException",
           "NormalizedSignature": "WrappedException|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6703,7 +6724,7 @@
       "Properties": [
         {
           "ClrName": "StateMachineType",
-          "TsEmitName": "stateMachineType",
+          "TsEmitName": "StateMachineType",
           "NormalizedSignature": "StateMachineType|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6760,7 +6781,7 @@
       "Properties": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value$view",
+          "TsEmitName": "Value$view",
           "NormalizedSignature": "Value|:System.Object|static=false|accessor=getset",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6777,7 +6798,7 @@
       "Fields": [
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "NormalizedSignature": "Value|T|static=false|const=false",
           "IsStatic": false,
           "IsReadOnly": false,
@@ -6831,7 +6852,7 @@
       "Methods": [
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6845,7 +6866,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -6862,7 +6883,7 @@
       "Properties": [
         {
           "ClrName": "UnmatchedValue",
-          "TsEmitName": "unmatchedValue",
+          "TsEmitName": "UnmatchedValue",
           "NormalizedSignature": "UnmatchedValue|:System.Object|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6876,7 +6897,7 @@
         },
         {
           "ClrName": "Message",
-          "TsEmitName": "message",
+          "TsEmitName": "Message",
           "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6932,7 +6953,7 @@
       "Properties": [
         {
           "ClrName": "TransformNames",
-          "TsEmitName": "transformNames",
+          "TsEmitName": "TransformNames",
           "NormalizedSignature": "TransformNames|:System.Collections.Generic.IList_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -6968,7 +6989,7 @@
       "Properties": [
         {
           "ClrName": "AssemblyFullName",
-          "TsEmitName": "assemblyFullName",
+          "TsEmitName": "AssemblyFullName",
           "NormalizedSignature": "AssemblyFullName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7004,7 +7025,7 @@
       "Properties": [
         {
           "ClrName": "Destination",
-          "TsEmitName": "destination",
+          "TsEmitName": "Destination",
           "NormalizedSignature": "Destination|:System.Type|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7040,7 +7061,7 @@
       "Properties": [
         {
           "ClrName": "Kind",
-          "TsEmitName": "kind",
+          "TsEmitName": "Kind",
           "NormalizedSignature": "Kind|:System.Runtime.CompilerServices.UnsafeAccessorKind|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7054,7 +7075,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7090,7 +7111,7 @@
       "Properties": [
         {
           "ClrName": "TypeName",
-          "TsEmitName": "typeName",
+          "TsEmitName": "TypeName",
           "NormalizedSignature": "TypeName|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7146,7 +7167,7 @@
       "Methods": [
         {
           "ClrName": "AwaitAwaiter",
-          "TsEmitName": "awaitAwaiter",
+          "TsEmitName": "AwaitAwaiter",
           "NormalizedSignature": "AwaitAwaiter|(TAwaiter):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7160,7 +7181,7 @@
         },
         {
           "ClrName": "UnsafeAwaitAwaiter",
-          "TsEmitName": "unsafeAwaitAwaiter",
+          "TsEmitName": "UnsafeAwaitAwaiter",
           "NormalizedSignature": "UnsafeAwaitAwaiter|(TAwaiter):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7174,7 +7195,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_",
+          "TsEmitName": "Await",
           "NormalizedSignature": "Await|(Task_1):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7188,7 +7209,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_2",
+          "TsEmitName": "Await2",
           "NormalizedSignature": "Await|(System.Threading.Tasks.Task):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7202,7 +7223,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_3",
+          "TsEmitName": "Await3",
           "NormalizedSignature": "Await|(ValueTask_1):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7216,7 +7237,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_4",
+          "TsEmitName": "Await4",
           "NormalizedSignature": "Await|(System.Threading.Tasks.ValueTask):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7230,7 +7251,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_5",
+          "TsEmitName": "Await5",
           "NormalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7244,7 +7265,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_6",
+          "TsEmitName": "Await6",
           "NormalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7258,7 +7279,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_7",
+          "TsEmitName": "Await7",
           "NormalizedSignature": "Await|(ConfiguredTaskAwaitable_1):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7272,7 +7293,7 @@
         },
         {
           "ClrName": "Await",
-          "TsEmitName": "await_8",
+          "TsEmitName": "Await8",
           "NormalizedSignature": "Await|(ConfiguredValueTaskAwaitable_1):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7302,7 +7323,7 @@
       "Methods": [
         {
           "ClrName": "IsInternalFrame",
-          "TsEmitName": "isInternalFrame",
+          "TsEmitName": "IsInternalFrame",
           "NormalizedSignature": "IsInternalFrame|(System.Reflection.MethodBase):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7332,7 +7353,7 @@
       "Methods": [
         {
           "ClrName": "CreateMatchmaker",
-          "TsEmitName": "createMatchmaker",
+          "TsEmitName": "CreateMatchmaker",
           "NormalizedSignature": "CreateMatchmaker|(CallSite_1):CallSite_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7346,7 +7367,7 @@
         },
         {
           "ClrName": "SetNotMatched",
-          "TsEmitName": "setNotMatched",
+          "TsEmitName": "SetNotMatched",
           "NormalizedSignature": "SetNotMatched|(System.Runtime.CompilerServices.CallSite):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7360,7 +7381,7 @@
         },
         {
           "ClrName": "GetMatch",
-          "TsEmitName": "getMatch",
+          "TsEmitName": "GetMatch",
           "NormalizedSignature": "GetMatch|(System.Runtime.CompilerServices.CallSite):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7374,7 +7395,7 @@
         },
         {
           "ClrName": "ClearMatch",
-          "TsEmitName": "clearMatch",
+          "TsEmitName": "ClearMatch",
           "NormalizedSignature": "ClearMatch|(System.Runtime.CompilerServices.CallSite):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7388,7 +7409,7 @@
         },
         {
           "ClrName": "AddRule",
-          "TsEmitName": "addRule",
+          "TsEmitName": "AddRule",
           "NormalizedSignature": "AddRule|(CallSite_1,T):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7402,7 +7423,7 @@
         },
         {
           "ClrName": "UpdateRules",
-          "TsEmitName": "updateRules",
+          "TsEmitName": "UpdateRules",
           "NormalizedSignature": "UpdateRules|(CallSite_1,System.Int32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7416,7 +7437,7 @@
         },
         {
           "ClrName": "GetRules",
-          "TsEmitName": "getRules",
+          "TsEmitName": "GetRules",
           "NormalizedSignature": "GetRules|(CallSite_1):T[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7430,7 +7451,7 @@
         },
         {
           "ClrName": "GetRuleCache",
-          "TsEmitName": "getRuleCache",
+          "TsEmitName": "GetRuleCache",
           "NormalizedSignature": "GetRuleCache|(CallSite_1):RuleCache_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7444,7 +7465,7 @@
         },
         {
           "ClrName": "MoveRule",
-          "TsEmitName": "moveRule",
+          "TsEmitName": "MoveRule",
           "NormalizedSignature": "MoveRule|(RuleCache_1,T,System.Int32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7458,7 +7479,7 @@
         },
         {
           "ClrName": "GetCachedRules",
-          "TsEmitName": "getCachedRules",
+          "TsEmitName": "GetCachedRules",
           "NormalizedSignature": "GetCachedRules|(RuleCache_1):T[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7472,7 +7493,7 @@
         },
         {
           "ClrName": "Bind",
-          "TsEmitName": "bind",
+          "TsEmitName": "Bind",
           "NormalizedSignature": "Bind|(System.Runtime.CompilerServices.CallSiteBinder,CallSite_1,System.Object[]):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7517,7 +7538,7 @@
       "Methods": [
         {
           "ClrName": "RaiseContractFailedEvent",
-          "TsEmitName": "raiseContractFailedEvent",
+          "TsEmitName": "RaiseContractFailedEvent",
           "NormalizedSignature": "RaiseContractFailedEvent|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):System.String|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7531,7 +7552,7 @@
         },
         {
           "ClrName": "TriggerFailure",
-          "TsEmitName": "triggerFailure",
+          "TsEmitName": "TriggerFailure",
           "NormalizedSignature": "TriggerFailure|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7561,7 +7582,7 @@
       "Methods": [
         {
           "ClrName": "Create",
-          "TsEmitName": "create",
+          "TsEmitName": "Create",
           "NormalizedSignature": "Create|(System.String,System.Object[]):System.FormattableString|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7786,7 +7807,7 @@
       "Methods": [
         {
           "ClrName": "IsSupported",
-          "TsEmitName": "isSupported",
+          "TsEmitName": "IsSupported",
           "NormalizedSignature": "IsSupported|(System.String):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7802,7 +7823,7 @@
       "Properties": [
         {
           "ClrName": "IsDynamicCodeSupported",
-          "TsEmitName": "isDynamicCodeSupported",
+          "TsEmitName": "IsDynamicCodeSupported",
           "NormalizedSignature": "IsDynamicCodeSupported|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7816,7 +7837,7 @@
         },
         {
           "ClrName": "IsDynamicCodeCompiled",
-          "TsEmitName": "isDynamicCodeCompiled",
+          "TsEmitName": "IsDynamicCodeCompiled",
           "NormalizedSignature": "IsDynamicCodeCompiled|:System.Boolean|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7832,7 +7853,7 @@
       "Fields": [
         {
           "ClrName": "PortablePdb",
-          "TsEmitName": "portablePdb",
+          "TsEmitName": "PortablePdb",
           "NormalizedSignature": "PortablePdb|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7840,7 +7861,7 @@
         },
         {
           "ClrName": "DefaultImplementationsOfInterfaces",
-          "TsEmitName": "defaultImplementationsOfInterfaces",
+          "TsEmitName": "DefaultImplementationsOfInterfaces",
           "NormalizedSignature": "DefaultImplementationsOfInterfaces|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7848,7 +7869,7 @@
         },
         {
           "ClrName": "UnmanagedSignatureCallingConvention",
-          "TsEmitName": "unmanagedSignatureCallingConvention",
+          "TsEmitName": "UnmanagedSignatureCallingConvention",
           "NormalizedSignature": "UnmanagedSignatureCallingConvention|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7856,7 +7877,7 @@
         },
         {
           "ClrName": "CovariantReturnsOfClasses",
-          "TsEmitName": "covariantReturnsOfClasses",
+          "TsEmitName": "CovariantReturnsOfClasses",
           "NormalizedSignature": "CovariantReturnsOfClasses|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7864,7 +7885,7 @@
         },
         {
           "ClrName": "ByRefFields",
-          "TsEmitName": "byRefFields",
+          "TsEmitName": "ByRefFields",
           "NormalizedSignature": "ByRefFields|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7872,7 +7893,7 @@
         },
         {
           "ClrName": "ByRefLikeGenerics",
-          "TsEmitName": "byRefLikeGenerics",
+          "TsEmitName": "ByRefLikeGenerics",
           "NormalizedSignature": "ByRefLikeGenerics|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7880,7 +7901,7 @@
         },
         {
           "ClrName": "VirtualStaticsInInterfaces",
-          "TsEmitName": "virtualStaticsInInterfaces",
+          "TsEmitName": "VirtualStaticsInInterfaces",
           "NormalizedSignature": "VirtualStaticsInInterfaces|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7888,7 +7909,7 @@
         },
         {
           "ClrName": "NumericIntPtr",
-          "TsEmitName": "numericIntPtr",
+          "TsEmitName": "NumericIntPtr",
           "NormalizedSignature": "NumericIntPtr|System.String|static=true|const=true",
           "IsStatic": true,
           "IsReadOnly": false,
@@ -7910,7 +7931,7 @@
       "Methods": [
         {
           "ClrName": "InitializeArray",
-          "TsEmitName": "initializeArray",
+          "TsEmitName": "InitializeArray",
           "NormalizedSignature": "InitializeArray|(System.Array,System.RuntimeFieldHandle):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7924,7 +7945,7 @@
         },
         {
           "ClrName": "GetObjectValue",
-          "TsEmitName": "getObjectValue",
+          "TsEmitName": "GetObjectValue",
           "NormalizedSignature": "GetObjectValue|(System.Object):System.Object|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7938,7 +7959,7 @@
         },
         {
           "ClrName": "RunClassConstructor",
-          "TsEmitName": "runClassConstructor",
+          "TsEmitName": "RunClassConstructor",
           "NormalizedSignature": "RunClassConstructor|(System.RuntimeTypeHandle):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7952,7 +7973,7 @@
         },
         {
           "ClrName": "RunModuleConstructor",
-          "TsEmitName": "runModuleConstructor",
+          "TsEmitName": "RunModuleConstructor",
           "NormalizedSignature": "RunModuleConstructor|(System.ModuleHandle):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7966,7 +7987,7 @@
         },
         {
           "ClrName": "PrepareMethod",
-          "TsEmitName": "prepareMethod",
+          "TsEmitName": "PrepareMethod",
           "NormalizedSignature": "PrepareMethod|(System.RuntimeMethodHandle):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7980,7 +8001,7 @@
         },
         {
           "ClrName": "PrepareMethod",
-          "TsEmitName": "prepareMethod2",
+          "TsEmitName": "PrepareMethod2",
           "NormalizedSignature": "PrepareMethod|(System.RuntimeMethodHandle,System.RuntimeTypeHandle[]):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -7994,7 +8015,7 @@
         },
         {
           "ClrName": "PrepareDelegate",
-          "TsEmitName": "prepareDelegate",
+          "TsEmitName": "PrepareDelegate",
           "NormalizedSignature": "PrepareDelegate|(System.Delegate):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8008,7 +8029,7 @@
         },
         {
           "ClrName": "GetHashCode",
-          "TsEmitName": "getHashCode",
+          "TsEmitName": "GetHashCode",
           "NormalizedSignature": "GetHashCode|(System.Object):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8022,7 +8043,7 @@
         },
         {
           "ClrName": "Equals",
-          "TsEmitName": "equals",
+          "TsEmitName": "Equals",
           "NormalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8036,7 +8057,7 @@
         },
         {
           "ClrName": "EnsureSufficientExecutionStack",
-          "TsEmitName": "ensureSufficientExecutionStack",
+          "TsEmitName": "EnsureSufficientExecutionStack",
           "NormalizedSignature": "EnsureSufficientExecutionStack|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8050,7 +8071,7 @@
         },
         {
           "ClrName": "TryEnsureSufficientExecutionStack",
-          "TsEmitName": "tryEnsureSufficientExecutionStack",
+          "TsEmitName": "TryEnsureSufficientExecutionStack",
           "NormalizedSignature": "TryEnsureSufficientExecutionStack|():System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8064,7 +8085,7 @@
         },
         {
           "ClrName": "GetUninitializedObject",
-          "TsEmitName": "getUninitializedObject",
+          "TsEmitName": "GetUninitializedObject",
           "NormalizedSignature": "GetUninitializedObject|(System.Type):System.Object|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8078,7 +8099,7 @@
         },
         {
           "ClrName": "AllocateTypeAssociatedMemory",
-          "TsEmitName": "allocateTypeAssociatedMemory",
+          "TsEmitName": "AllocateTypeAssociatedMemory",
           "NormalizedSignature": "AllocateTypeAssociatedMemory|(System.Type,System.Int32):System.IntPtr|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8092,7 +8113,7 @@
         },
         {
           "ClrName": "Box",
-          "TsEmitName": "box",
+          "TsEmitName": "Box",
           "NormalizedSignature": "Box|(System.Byte\u0026,System.RuntimeTypeHandle):System.Object|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8106,7 +8127,7 @@
         },
         {
           "ClrName": "SizeOf",
-          "TsEmitName": "sizeOf",
+          "TsEmitName": "SizeOf",
           "NormalizedSignature": "SizeOf|(System.RuntimeTypeHandle):System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8120,7 +8141,7 @@
         },
         {
           "ClrName": "GetSubArray",
-          "TsEmitName": "getSubArray",
+          "TsEmitName": "GetSubArray",
           "NormalizedSignature": "GetSubArray|(T[],System.Range):T[]|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8134,7 +8155,7 @@
         },
         {
           "ClrName": "ExecuteCodeWithGuaranteedCleanup",
-          "TsEmitName": "executeCodeWithGuaranteedCleanup",
+          "TsEmitName": "ExecuteCodeWithGuaranteedCleanup",
           "NormalizedSignature": "ExecuteCodeWithGuaranteedCleanup|(System.Runtime.CompilerServices.RuntimeHelpers\u002BTryCode,System.Runtime.CompilerServices.RuntimeHelpers\u002BCleanupCode,System.Object):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8148,7 +8169,7 @@
         },
         {
           "ClrName": "PrepareContractedDelegate",
-          "TsEmitName": "prepareContractedDelegate",
+          "TsEmitName": "PrepareContractedDelegate",
           "NormalizedSignature": "PrepareContractedDelegate|(System.Delegate):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8162,7 +8183,7 @@
         },
         {
           "ClrName": "ProbeForSufficientStack",
-          "TsEmitName": "probeForSufficientStack",
+          "TsEmitName": "ProbeForSufficientStack",
           "NormalizedSignature": "ProbeForSufficientStack|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8176,7 +8197,7 @@
         },
         {
           "ClrName": "PrepareConstrainedRegions",
-          "TsEmitName": "prepareConstrainedRegions",
+          "TsEmitName": "PrepareConstrainedRegions",
           "NormalizedSignature": "PrepareConstrainedRegions|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8190,7 +8211,7 @@
         },
         {
           "ClrName": "PrepareConstrainedRegionsNoOP",
-          "TsEmitName": "prepareConstrainedRegionsNoOP",
+          "TsEmitName": "PrepareConstrainedRegionsNoOP",
           "NormalizedSignature": "PrepareConstrainedRegionsNoOP|():System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8204,7 +8225,7 @@
         },
         {
           "ClrName": "CreateSpan",
-          "TsEmitName": "createSpan",
+          "TsEmitName": "CreateSpan",
           "NormalizedSignature": "CreateSpan|(System.RuntimeFieldHandle):ReadOnlySpan_1|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8218,7 +8239,7 @@
         },
         {
           "ClrName": "IsReferenceOrContainsReferences",
-          "TsEmitName": "isReferenceOrContainsReferences",
+          "TsEmitName": "IsReferenceOrContainsReferences",
           "NormalizedSignature": "IsReferenceOrContainsReferences|():System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8234,7 +8255,7 @@
       "Properties": [
         {
           "ClrName": "OffsetToStringData",
-          "TsEmitName": "offsetToStringData",
+          "TsEmitName": "OffsetToStringData",
           "NormalizedSignature": "OffsetToStringData|:System.Int32|static=true|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8263,7 +8284,7 @@
       "Methods": [
         {
           "ClrName": "ExpandoTryGetValue",
-          "TsEmitName": "expandoTryGetValue",
+          "TsEmitName": "ExpandoTryGetValue",
           "NormalizedSignature": "ExpandoTryGetValue|(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8277,7 +8298,7 @@
         },
         {
           "ClrName": "ExpandoTrySetValue",
-          "TsEmitName": "expandoTrySetValue",
+          "TsEmitName": "ExpandoTrySetValue",
           "NormalizedSignature": "ExpandoTrySetValue|(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.Object,System.String,System.Boolean):System.Object|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8291,7 +8312,7 @@
         },
         {
           "ClrName": "ExpandoTryDeleteValue",
-          "TsEmitName": "expandoTryDeleteValue",
+          "TsEmitName": "ExpandoTryDeleteValue",
           "NormalizedSignature": "ExpandoTryDeleteValue|(System.Dynamic.ExpandoObject,System.Object,System.Int32,System.String,System.Boolean):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8305,7 +8326,7 @@
         },
         {
           "ClrName": "ExpandoCheckVersion",
-          "TsEmitName": "expandoCheckVersion",
+          "TsEmitName": "ExpandoCheckVersion",
           "NormalizedSignature": "ExpandoCheckVersion|(System.Dynamic.ExpandoObject,System.Object):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8319,7 +8340,7 @@
         },
         {
           "ClrName": "ExpandoPromoteClass",
-          "TsEmitName": "expandoPromoteClass",
+          "TsEmitName": "ExpandoPromoteClass",
           "NormalizedSignature": "ExpandoPromoteClass|(System.Dynamic.ExpandoObject,System.Object,System.Object):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8333,7 +8354,7 @@
         },
         {
           "ClrName": "Quote",
-          "TsEmitName": "quote",
+          "TsEmitName": "Quote",
           "NormalizedSignature": "Quote|(System.Linq.Expressions.Expression,System.Object,System.Object[]):System.Linq.Expressions.Expression|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8347,7 +8368,7 @@
         },
         {
           "ClrName": "MergeRuntimeVariables",
-          "TsEmitName": "mergeRuntimeVariables",
+          "TsEmitName": "MergeRuntimeVariables",
           "NormalizedSignature": "MergeRuntimeVariables|(System.Runtime.CompilerServices.IRuntimeVariables,System.Runtime.CompilerServices.IRuntimeVariables,System.Int32[]):System.Runtime.CompilerServices.IRuntimeVariables|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8361,7 +8382,7 @@
         },
         {
           "ClrName": "CreateRuntimeVariables",
-          "TsEmitName": "createRuntimeVariables",
+          "TsEmitName": "CreateRuntimeVariables",
           "NormalizedSignature": "CreateRuntimeVariables|(System.Object[],System.Int64[]):System.Runtime.CompilerServices.IRuntimeVariables|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8375,7 +8396,7 @@
         },
         {
           "ClrName": "CreateRuntimeVariables",
-          "TsEmitName": "createRuntimeVariables2",
+          "TsEmitName": "CreateRuntimeVariables2",
           "NormalizedSignature": "CreateRuntimeVariables|():System.Runtime.CompilerServices.IRuntimeVariables|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8405,7 +8426,7 @@
       "Methods": [
         {
           "ClrName": "AsPointer",
-          "TsEmitName": "asPointer",
+          "TsEmitName": "AsPointer",
           "NormalizedSignature": "AsPointer|(T\u0026):System.Void*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8419,7 +8440,7 @@
         },
         {
           "ClrName": "SizeOf",
-          "TsEmitName": "sizeOf",
+          "TsEmitName": "SizeOf",
           "NormalizedSignature": "SizeOf|():System.Int32|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8433,7 +8454,7 @@
         },
         {
           "ClrName": "As",
-          "TsEmitName": "as_",
+          "TsEmitName": "As",
           "NormalizedSignature": "As|(System.Object):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8447,7 +8468,7 @@
         },
         {
           "ClrName": "As",
-          "TsEmitName": "as_2",
+          "TsEmitName": "As2",
           "NormalizedSignature": "As|(TFrom\u0026):TTo\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8461,7 +8482,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add",
+          "TsEmitName": "Add",
           "NormalizedSignature": "Add|(T\u0026,System.Int32):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8475,7 +8496,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add2",
+          "TsEmitName": "Add2",
           "NormalizedSignature": "Add|(T\u0026,System.IntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8489,7 +8510,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add3",
+          "TsEmitName": "Add3",
           "NormalizedSignature": "Add|(System.Void*,System.Int32):System.Void*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8503,7 +8524,7 @@
         },
         {
           "ClrName": "Add",
-          "TsEmitName": "add4",
+          "TsEmitName": "Add4",
           "NormalizedSignature": "Add|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8517,7 +8538,7 @@
         },
         {
           "ClrName": "AddByteOffset",
-          "TsEmitName": "addByteOffset",
+          "TsEmitName": "AddByteOffset",
           "NormalizedSignature": "AddByteOffset|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8531,7 +8552,7 @@
         },
         {
           "ClrName": "AreSame",
-          "TsEmitName": "areSame",
+          "TsEmitName": "AreSame",
           "NormalizedSignature": "AreSame|(T\u0026,T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8545,7 +8566,7 @@
         },
         {
           "ClrName": "BitCast",
-          "TsEmitName": "bitCast",
+          "TsEmitName": "BitCast",
           "NormalizedSignature": "BitCast|(TFrom):TTo|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8559,7 +8580,7 @@
         },
         {
           "ClrName": "Copy",
-          "TsEmitName": "copy",
+          "TsEmitName": "Copy",
           "NormalizedSignature": "Copy|(System.Void*,T\u0026):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8573,7 +8594,7 @@
         },
         {
           "ClrName": "Copy",
-          "TsEmitName": "copy2",
+          "TsEmitName": "Copy2",
           "NormalizedSignature": "Copy|(T\u0026,System.Void*):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8587,7 +8608,7 @@
         },
         {
           "ClrName": "CopyBlock",
-          "TsEmitName": "copyBlock",
+          "TsEmitName": "CopyBlock",
           "NormalizedSignature": "CopyBlock|(System.Void*,System.Void*,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8601,7 +8622,7 @@
         },
         {
           "ClrName": "CopyBlock",
-          "TsEmitName": "copyBlock2",
+          "TsEmitName": "CopyBlock2",
           "NormalizedSignature": "CopyBlock|(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8615,7 +8636,7 @@
         },
         {
           "ClrName": "CopyBlockUnaligned",
-          "TsEmitName": "copyBlockUnaligned",
+          "TsEmitName": "CopyBlockUnaligned",
           "NormalizedSignature": "CopyBlockUnaligned|(System.Void*,System.Void*,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8629,7 +8650,7 @@
         },
         {
           "ClrName": "CopyBlockUnaligned",
-          "TsEmitName": "copyBlockUnaligned2",
+          "TsEmitName": "CopyBlockUnaligned2",
           "NormalizedSignature": "CopyBlockUnaligned|(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8643,7 +8664,7 @@
         },
         {
           "ClrName": "IsAddressGreaterThan",
-          "TsEmitName": "isAddressGreaterThan",
+          "TsEmitName": "IsAddressGreaterThan",
           "NormalizedSignature": "IsAddressGreaterThan|(T\u0026,T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8657,7 +8678,7 @@
         },
         {
           "ClrName": "IsAddressGreaterThanOrEqualTo",
-          "TsEmitName": "isAddressGreaterThanOrEqualTo",
+          "TsEmitName": "IsAddressGreaterThanOrEqualTo",
           "NormalizedSignature": "IsAddressGreaterThanOrEqualTo|(T\u0026,T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8671,7 +8692,7 @@
         },
         {
           "ClrName": "IsAddressLessThan",
-          "TsEmitName": "isAddressLessThan",
+          "TsEmitName": "IsAddressLessThan",
           "NormalizedSignature": "IsAddressLessThan|(T\u0026,T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8685,7 +8706,7 @@
         },
         {
           "ClrName": "IsAddressLessThanOrEqualTo",
-          "TsEmitName": "isAddressLessThanOrEqualTo",
+          "TsEmitName": "IsAddressLessThanOrEqualTo",
           "NormalizedSignature": "IsAddressLessThanOrEqualTo|(T\u0026,T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8699,7 +8720,7 @@
         },
         {
           "ClrName": "InitBlock",
-          "TsEmitName": "initBlock",
+          "TsEmitName": "InitBlock",
           "NormalizedSignature": "InitBlock|(System.Void*,System.Byte,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8713,7 +8734,7 @@
         },
         {
           "ClrName": "InitBlock",
-          "TsEmitName": "initBlock2",
+          "TsEmitName": "InitBlock2",
           "NormalizedSignature": "InitBlock|(System.Byte\u0026,System.Byte,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8727,7 +8748,7 @@
         },
         {
           "ClrName": "InitBlockUnaligned",
-          "TsEmitName": "initBlockUnaligned",
+          "TsEmitName": "InitBlockUnaligned",
           "NormalizedSignature": "InitBlockUnaligned|(System.Void*,System.Byte,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8741,7 +8762,7 @@
         },
         {
           "ClrName": "InitBlockUnaligned",
-          "TsEmitName": "initBlockUnaligned2",
+          "TsEmitName": "InitBlockUnaligned2",
           "NormalizedSignature": "InitBlockUnaligned|(System.Byte\u0026,System.Byte,System.UInt32):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8755,7 +8776,7 @@
         },
         {
           "ClrName": "ReadUnaligned",
-          "TsEmitName": "readUnaligned",
+          "TsEmitName": "ReadUnaligned",
           "NormalizedSignature": "ReadUnaligned|(System.Void*):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8769,7 +8790,7 @@
         },
         {
           "ClrName": "ReadUnaligned",
-          "TsEmitName": "readUnaligned2",
+          "TsEmitName": "ReadUnaligned2",
           "NormalizedSignature": "ReadUnaligned|(System.Byte\u0026):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8783,7 +8804,7 @@
         },
         {
           "ClrName": "WriteUnaligned",
-          "TsEmitName": "writeUnaligned",
+          "TsEmitName": "WriteUnaligned",
           "NormalizedSignature": "WriteUnaligned|(System.Void*,T):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8797,7 +8818,7 @@
         },
         {
           "ClrName": "WriteUnaligned",
-          "TsEmitName": "writeUnaligned2",
+          "TsEmitName": "WriteUnaligned2",
           "NormalizedSignature": "WriteUnaligned|(System.Byte\u0026,T):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8811,7 +8832,7 @@
         },
         {
           "ClrName": "AddByteOffset",
-          "TsEmitName": "addByteOffset2",
+          "TsEmitName": "AddByteOffset2",
           "NormalizedSignature": "AddByteOffset|(T\u0026,System.IntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8825,7 +8846,7 @@
         },
         {
           "ClrName": "Read",
-          "TsEmitName": "read",
+          "TsEmitName": "Read",
           "NormalizedSignature": "Read|(System.Void*):T|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8839,7 +8860,7 @@
         },
         {
           "ClrName": "Write",
-          "TsEmitName": "write",
+          "TsEmitName": "Write",
           "NormalizedSignature": "Write|(System.Void*,T):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8853,7 +8874,7 @@
         },
         {
           "ClrName": "AsRef",
-          "TsEmitName": "asRef",
+          "TsEmitName": "AsRef",
           "NormalizedSignature": "AsRef|(System.Void*):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8867,7 +8888,7 @@
         },
         {
           "ClrName": "AsRef",
-          "TsEmitName": "asRef2",
+          "TsEmitName": "AsRef2",
           "NormalizedSignature": "AsRef|(T\u0026):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8881,7 +8902,7 @@
         },
         {
           "ClrName": "ByteOffset",
-          "TsEmitName": "byteOffset",
+          "TsEmitName": "ByteOffset",
           "NormalizedSignature": "ByteOffset|(T\u0026,T\u0026):System.IntPtr|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8895,7 +8916,7 @@
         },
         {
           "ClrName": "NullRef",
-          "TsEmitName": "nullRef",
+          "TsEmitName": "NullRef",
           "NormalizedSignature": "NullRef|():T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8909,7 +8930,7 @@
         },
         {
           "ClrName": "IsNullRef",
-          "TsEmitName": "isNullRef",
+          "TsEmitName": "IsNullRef",
           "NormalizedSignature": "IsNullRef|(T\u0026):System.Boolean|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8923,7 +8944,7 @@
         },
         {
           "ClrName": "SkipInit",
-          "TsEmitName": "skipInit",
+          "TsEmitName": "SkipInit",
           "NormalizedSignature": "SkipInit|(T\u0026):System.Void|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8937,7 +8958,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract",
+          "TsEmitName": "Subtract",
           "NormalizedSignature": "Subtract|(T\u0026,System.Int32):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8951,7 +8972,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract2",
+          "TsEmitName": "Subtract2",
           "NormalizedSignature": "Subtract|(System.Void*,System.Int32):System.Void*|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8965,7 +8986,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract3",
+          "TsEmitName": "Subtract3",
           "NormalizedSignature": "Subtract|(T\u0026,System.IntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8979,7 +9000,7 @@
         },
         {
           "ClrName": "Subtract",
-          "TsEmitName": "subtract4",
+          "TsEmitName": "Subtract4",
           "NormalizedSignature": "Subtract|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -8993,7 +9014,7 @@
         },
         {
           "ClrName": "SubtractByteOffset",
-          "TsEmitName": "subtractByteOffset",
+          "TsEmitName": "SubtractByteOffset",
           "NormalizedSignature": "SubtractByteOffset|(T\u0026,System.IntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -9007,7 +9028,7 @@
         },
         {
           "ClrName": "SubtractByteOffset",
-          "TsEmitName": "subtractByteOffset2",
+          "TsEmitName": "SubtractByteOffset2",
           "NormalizedSignature": "SubtractByteOffset|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -9021,7 +9042,7 @@
         },
         {
           "ClrName": "Unbox",
-          "TsEmitName": "unbox",
+          "TsEmitName": "Unbox",
           "NormalizedSignature": "Unbox|(System.Object):T\u0026|static=true",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",

@@ -9,7 +9,7 @@
       "Methods": [
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "MetadataToken": 100663339,
           "CanonicalSignature": "():System.Security.Claims.Claim",
           "NormalizedSignature": "Clone|():System.Security.Claims.Claim|static=false",
@@ -21,7 +21,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone2",
+          "TsEmitName": "Clone2",
           "MetadataToken": 100663340,
           "CanonicalSignature": "(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim",
           "NormalizedSignature": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
@@ -33,7 +33,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "MetadataToken": 100663341,
           "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
           "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
@@ -45,7 +45,7 @@
         },
         {
           "ClrName": "ToString",
-          "TsEmitName": "toString",
+          "TsEmitName": "ToString",
           "MetadataToken": 100663343,
           "CanonicalSignature": "():System.String",
           "NormalizedSignature": "ToString|():System.String|static=false",
@@ -59,7 +59,7 @@
       "Properties": [
         {
           "ClrName": "Issuer",
-          "TsEmitName": "issuer",
+          "TsEmitName": "Issuer",
           "MetadataToken": 385875980,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Issuer|:System.String|static=false|accessor=get",
@@ -72,7 +72,7 @@
         },
         {
           "ClrName": "OriginalIssuer",
-          "TsEmitName": "originalIssuer",
+          "TsEmitName": "OriginalIssuer",
           "MetadataToken": 385875981,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "OriginalIssuer|:System.String|static=false|accessor=get",
@@ -85,7 +85,7 @@
         },
         {
           "ClrName": "Properties",
-          "TsEmitName": "properties",
+          "TsEmitName": "Properties",
           "MetadataToken": 385875982,
           "CanonicalSignature": ":System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "NormalizedSignature": "Properties|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -98,7 +98,7 @@
         },
         {
           "ClrName": "Subject",
-          "TsEmitName": "subject",
+          "TsEmitName": "Subject",
           "MetadataToken": 385875983,
           "CanonicalSignature": ":System.Security.Claims.ClaimsIdentity",
           "NormalizedSignature": "Subject|:System.Security.Claims.ClaimsIdentity|static=false|accessor=get",
@@ -111,7 +111,7 @@
         },
         {
           "ClrName": "Type",
-          "TsEmitName": "type_",
+          "TsEmitName": "Type",
           "MetadataToken": 385875984,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Type|:System.String|static=false|accessor=get",
@@ -124,7 +124,7 @@
         },
         {
           "ClrName": "Value",
-          "TsEmitName": "value",
+          "TsEmitName": "Value",
           "MetadataToken": 385875985,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Value|:System.String|static=false|accessor=get",
@@ -137,7 +137,7 @@
         },
         {
           "ClrName": "ValueType",
-          "TsEmitName": "valueType",
+          "TsEmitName": "ValueType",
           "MetadataToken": 385875986,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "ValueType|:System.String|static=false|accessor=get",
@@ -218,7 +218,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "clone",
+          "TsName": "Clone",
           "IsStatic": false,
           "TsSignatureId": "Clone|():System.Security.Claims.Claim|static=false",
           "Target": {
@@ -228,7 +228,7 @@
           }
         },
         {
-          "TsName": "clone2",
+          "TsName": "Clone2",
           "IsStatic": false,
           "TsSignatureId": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
           "Target": {
@@ -238,7 +238,7 @@
           }
         },
         {
-          "TsName": "writeTo",
+          "TsName": "WriteTo",
           "IsStatic": false,
           "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
           "Target": {
@@ -248,7 +248,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -258,7 +258,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -268,7 +268,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -278,7 +278,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -288,7 +288,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -298,7 +298,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -310,7 +310,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "issuer",
+          "TsName": "Issuer",
           "IsStatic": false,
           "TsSignatureId": "Issuer|:System.String|static=false|accessor=get",
           "Target": {
@@ -320,7 +320,7 @@
           }
         },
         {
-          "TsName": "originalIssuer",
+          "TsName": "OriginalIssuer",
           "IsStatic": false,
           "TsSignatureId": "OriginalIssuer|:System.String|static=false|accessor=get",
           "Target": {
@@ -330,7 +330,7 @@
           }
         },
         {
-          "TsName": "properties",
+          "TsName": "Properties",
           "IsStatic": false,
           "TsSignatureId": "Properties|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "Target": {
@@ -340,7 +340,7 @@
           }
         },
         {
-          "TsName": "subject",
+          "TsName": "Subject",
           "IsStatic": false,
           "TsSignatureId": "Subject|:System.Security.Claims.ClaimsIdentity|static=false|accessor=get",
           "Target": {
@@ -350,7 +350,7 @@
           }
         },
         {
-          "TsName": "type_",
+          "TsName": "Type",
           "IsStatic": false,
           "TsSignatureId": "Type|:System.String|static=false|accessor=get",
           "Target": {
@@ -360,7 +360,7 @@
           }
         },
         {
-          "TsName": "value",
+          "TsName": "Value",
           "IsStatic": false,
           "TsSignatureId": "Value|:System.String|static=false|accessor=get",
           "Target": {
@@ -370,7 +370,7 @@
           }
         },
         {
-          "TsName": "valueType",
+          "TsName": "ValueType",
           "IsStatic": false,
           "TsSignatureId": "ValueType|:System.String|static=false|accessor=get",
           "Target": {
@@ -454,7 +454,7 @@
       "Methods": [
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "MetadataToken": 100663375,
           "CanonicalSignature": "():System.Security.Claims.ClaimsIdentity",
           "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
@@ -466,7 +466,7 @@
         },
         {
           "ClrName": "AddClaim",
-          "TsEmitName": "addClaim",
+          "TsEmitName": "AddClaim",
           "MetadataToken": 100663376,
           "CanonicalSignature": "(System.Security.Claims.Claim):System.Void",
           "NormalizedSignature": "AddClaim|(System.Security.Claims.Claim):System.Void|static=false",
@@ -478,7 +478,7 @@
         },
         {
           "ClrName": "AddClaims",
-          "TsEmitName": "addClaims",
+          "TsEmitName": "AddClaims",
           "MetadataToken": 100663377,
           "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "NormalizedSignature": "AddClaims|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
@@ -490,7 +490,7 @@
         },
         {
           "ClrName": "TryRemoveClaim",
-          "TsEmitName": "tryRemoveClaim",
+          "TsEmitName": "TryRemoveClaim",
           "MetadataToken": 100663378,
           "CanonicalSignature": "(System.Security.Claims.Claim):System.Boolean",
           "NormalizedSignature": "TryRemoveClaim|(System.Security.Claims.Claim):System.Boolean|static=false",
@@ -502,7 +502,7 @@
         },
         {
           "ClrName": "RemoveClaim",
-          "TsEmitName": "removeClaim",
+          "TsEmitName": "RemoveClaim",
           "MetadataToken": 100663379,
           "CanonicalSignature": "(System.Security.Claims.Claim):System.Void",
           "NormalizedSignature": "RemoveClaim|(System.Security.Claims.Claim):System.Void|static=false",
@@ -514,7 +514,7 @@
         },
         {
           "ClrName": "FindAll",
-          "TsEmitName": "findAll",
+          "TsEmitName": "FindAll",
           "MetadataToken": 100663382,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -526,7 +526,7 @@
         },
         {
           "ClrName": "FindAll",
-          "TsEmitName": "findAll2",
+          "TsEmitName": "FindAll2",
           "MetadataToken": 100663383,
           "CanonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -538,7 +538,7 @@
         },
         {
           "ClrName": "FindFirst",
-          "TsEmitName": "findFirst",
+          "TsEmitName": "FindFirst",
           "MetadataToken": 100663384,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim",
           "NormalizedSignature": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
@@ -550,7 +550,7 @@
         },
         {
           "ClrName": "FindFirst",
-          "TsEmitName": "findFirst2",
+          "TsEmitName": "FindFirst2",
           "MetadataToken": 100663385,
           "CanonicalSignature": "(System.String):System.Security.Claims.Claim",
           "NormalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
@@ -562,7 +562,7 @@
         },
         {
           "ClrName": "HasClaim",
-          "TsEmitName": "hasClaim",
+          "TsEmitName": "HasClaim",
           "MetadataToken": 100663386,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
           "NormalizedSignature": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
@@ -574,7 +574,7 @@
         },
         {
           "ClrName": "HasClaim",
-          "TsEmitName": "hasClaim2",
+          "TsEmitName": "HasClaim2",
           "MetadataToken": 100663387,
           "CanonicalSignature": "(System.String,System.String):System.Boolean",
           "NormalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
@@ -586,7 +586,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "MetadataToken": 100663391,
           "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
           "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
@@ -600,7 +600,7 @@
       "Properties": [
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType",
+          "TsEmitName": "AuthenticationType",
           "MetadataToken": 385875987,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
@@ -613,7 +613,7 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated",
+          "TsEmitName": "IsAuthenticated",
           "MetadataToken": 385875988,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
@@ -626,7 +626,7 @@
         },
         {
           "ClrName": "Actor",
-          "TsEmitName": "actor",
+          "TsEmitName": "Actor",
           "MetadataToken": 385875989,
           "CanonicalSignature": ":System.Security.Claims.ClaimsIdentity",
           "NormalizedSignature": "Actor|:System.Security.Claims.ClaimsIdentity|static=false|accessor=getset",
@@ -639,7 +639,7 @@
         },
         {
           "ClrName": "BootstrapContext",
-          "TsEmitName": "bootstrapContext",
+          "TsEmitName": "BootstrapContext",
           "MetadataToken": 385875990,
           "CanonicalSignature": ":System.Object",
           "NormalizedSignature": "BootstrapContext|:System.Object|static=false|accessor=getset",
@@ -652,7 +652,7 @@
         },
         {
           "ClrName": "Claims",
-          "TsEmitName": "claims",
+          "TsEmitName": "Claims",
           "MetadataToken": 385875991,
           "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -665,7 +665,7 @@
         },
         {
           "ClrName": "Label",
-          "TsEmitName": "label",
+          "TsEmitName": "Label",
           "MetadataToken": 385875994,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Label|:System.String|static=false|accessor=getset",
@@ -678,7 +678,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "MetadataToken": 385875995,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -691,7 +691,7 @@
         },
         {
           "ClrName": "NameClaimType",
-          "TsEmitName": "nameClaimType",
+          "TsEmitName": "NameClaimType",
           "MetadataToken": 385875996,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "NameClaimType|:System.String|static=false|accessor=get",
@@ -704,7 +704,7 @@
         },
         {
           "ClrName": "RoleClaimType",
-          "TsEmitName": "roleClaimType",
+          "TsEmitName": "RoleClaimType",
           "MetadataToken": 385875997,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "RoleClaimType|:System.String|static=false|accessor=get",
@@ -717,8 +717,8 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name$view",
-          "MetadataToken": 385878137,
+          "TsEmitName": "Name$view",
+          "MetadataToken": 385878138,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "Name|:System.String|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -730,8 +730,8 @@
         },
         {
           "ClrName": "AuthenticationType",
-          "TsEmitName": "authenticationType$view",
-          "MetadataToken": 385878138,
+          "TsEmitName": "AuthenticationType$view",
+          "MetadataToken": 385878139,
           "CanonicalSignature": ":System.String",
           "NormalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -743,8 +743,8 @@
         },
         {
           "ClrName": "IsAuthenticated",
-          "TsEmitName": "isAuthenticated$view",
-          "MetadataToken": 385878139,
+          "TsEmitName": "IsAuthenticated$view",
+          "MetadataToken": 385878140,
           "CanonicalSignature": ":System.Boolean",
           "NormalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -758,7 +758,7 @@
       "Fields": [
         {
           "ClrName": "DefaultIssuer",
-          "TsEmitName": "defaultIssuer",
+          "TsEmitName": "DefaultIssuer",
           "MetadataToken": 67108899,
           "NormalizedSignature": "DefaultIssuer|System.String|static=true|const=true",
           "IsStatic": true,
@@ -768,7 +768,7 @@
         },
         {
           "ClrName": "DefaultNameClaimType",
-          "TsEmitName": "defaultNameClaimType",
+          "TsEmitName": "DefaultNameClaimType",
           "MetadataToken": 67108900,
           "NormalizedSignature": "DefaultNameClaimType|System.String|static=true|const=true",
           "IsStatic": true,
@@ -778,7 +778,7 @@
         },
         {
           "ClrName": "DefaultRoleClaimType",
-          "TsEmitName": "defaultRoleClaimType",
+          "TsEmitName": "DefaultRoleClaimType",
           "MetadataToken": 67108901,
           "NormalizedSignature": "DefaultRoleClaimType|System.String|static=true|const=true",
           "IsStatic": true,
@@ -900,7 +900,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "clone",
+          "TsName": "Clone",
           "IsStatic": false,
           "TsSignatureId": "Clone|():System.Security.Claims.ClaimsIdentity|static=false",
           "Target": {
@@ -910,7 +910,7 @@
           }
         },
         {
-          "TsName": "addClaim",
+          "TsName": "AddClaim",
           "IsStatic": false,
           "TsSignatureId": "AddClaim|(System.Security.Claims.Claim):System.Void|static=false",
           "Target": {
@@ -920,7 +920,7 @@
           }
         },
         {
-          "TsName": "addClaims",
+          "TsName": "AddClaims",
           "IsStatic": false,
           "TsSignatureId": "AddClaims|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Target": {
@@ -930,7 +930,7 @@
           }
         },
         {
-          "TsName": "tryRemoveClaim",
+          "TsName": "TryRemoveClaim",
           "IsStatic": false,
           "TsSignatureId": "TryRemoveClaim|(System.Security.Claims.Claim):System.Boolean|static=false",
           "Target": {
@@ -940,7 +940,7 @@
           }
         },
         {
-          "TsName": "removeClaim",
+          "TsName": "RemoveClaim",
           "IsStatic": false,
           "TsSignatureId": "RemoveClaim|(System.Security.Claims.Claim):System.Void|static=false",
           "Target": {
@@ -950,7 +950,7 @@
           }
         },
         {
-          "TsName": "findAll",
+          "TsName": "FindAll",
           "IsStatic": false,
           "TsSignatureId": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Target": {
@@ -960,7 +960,7 @@
           }
         },
         {
-          "TsName": "findAll2",
+          "TsName": "FindAll2",
           "IsStatic": false,
           "TsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Target": {
@@ -970,7 +970,7 @@
           }
         },
         {
-          "TsName": "findFirst",
+          "TsName": "FindFirst",
           "IsStatic": false,
           "TsSignatureId": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
           "Target": {
@@ -980,7 +980,7 @@
           }
         },
         {
-          "TsName": "findFirst2",
+          "TsName": "FindFirst2",
           "IsStatic": false,
           "TsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
           "Target": {
@@ -990,7 +990,7 @@
           }
         },
         {
-          "TsName": "hasClaim",
+          "TsName": "HasClaim",
           "IsStatic": false,
           "TsSignatureId": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
           "Target": {
@@ -1000,7 +1000,7 @@
           }
         },
         {
-          "TsName": "hasClaim2",
+          "TsName": "HasClaim2",
           "IsStatic": false,
           "TsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
           "Target": {
@@ -1010,7 +1010,7 @@
           }
         },
         {
-          "TsName": "writeTo",
+          "TsName": "WriteTo",
           "IsStatic": false,
           "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
           "Target": {
@@ -1020,7 +1020,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1030,7 +1030,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1040,7 +1040,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1050,7 +1050,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1060,7 +1060,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1070,7 +1070,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -1082,7 +1082,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "authenticationType",
+          "TsName": "AuthenticationType",
           "IsStatic": false,
           "TsSignatureId": "AuthenticationType|:System.String|static=false|accessor=get",
           "Target": {
@@ -1092,7 +1092,7 @@
           }
         },
         {
-          "TsName": "isAuthenticated",
+          "TsName": "IsAuthenticated",
           "IsStatic": false,
           "TsSignatureId": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "Target": {
@@ -1102,7 +1102,7 @@
           }
         },
         {
-          "TsName": "actor",
+          "TsName": "Actor",
           "IsStatic": false,
           "TsSignatureId": "Actor|:System.Security.Claims.ClaimsIdentity|static=false|accessor=getset",
           "Target": {
@@ -1112,7 +1112,7 @@
           }
         },
         {
-          "TsName": "bootstrapContext",
+          "TsName": "BootstrapContext",
           "IsStatic": false,
           "TsSignatureId": "BootstrapContext|:System.Object|static=false|accessor=getset",
           "Target": {
@@ -1122,7 +1122,7 @@
           }
         },
         {
-          "TsName": "claims",
+          "TsName": "Claims",
           "IsStatic": false,
           "TsSignatureId": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Target": {
@@ -1132,7 +1132,7 @@
           }
         },
         {
-          "TsName": "label",
+          "TsName": "Label",
           "IsStatic": false,
           "TsSignatureId": "Label|:System.String|static=false|accessor=getset",
           "Target": {
@@ -1142,7 +1142,7 @@
           }
         },
         {
-          "TsName": "name",
+          "TsName": "Name",
           "IsStatic": false,
           "TsSignatureId": "Name|:System.String|static=false|accessor=get",
           "Target": {
@@ -1152,7 +1152,7 @@
           }
         },
         {
-          "TsName": "nameClaimType",
+          "TsName": "NameClaimType",
           "IsStatic": false,
           "TsSignatureId": "NameClaimType|:System.String|static=false|accessor=get",
           "Target": {
@@ -1162,7 +1162,7 @@
           }
         },
         {
-          "TsName": "roleClaimType",
+          "TsName": "RoleClaimType",
           "IsStatic": false,
           "TsSignatureId": "RoleClaimType|:System.String|static=false|accessor=get",
           "Target": {
@@ -1172,19 +1172,9 @@
           }
         },
         {
-          "TsName": "name$view",
+          "TsName": "Name$view",
           "IsStatic": false,
           "TsSignatureId": "Name|:System.String|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Security.Principal.IIdentity",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385878137
-          }
-        },
-        {
-          "TsName": "authenticationType$view",
-          "IsStatic": false,
-          "TsSignatureId": "AuthenticationType|:System.String|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Security.Principal.IIdentity",
             "DeclaringAssemblyName": "System.Private.CoreLib",
@@ -1192,19 +1182,29 @@
           }
         },
         {
-          "TsName": "isAuthenticated$view",
+          "TsName": "AuthenticationType$view",
           "IsStatic": false,
-          "TsSignatureId": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "TsSignatureId": "AuthenticationType|:System.String|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Security.Principal.IIdentity",
             "DeclaringAssemblyName": "System.Private.CoreLib",
             "MetadataToken": 385878139
           }
+        },
+        {
+          "TsName": "IsAuthenticated$view",
+          "IsStatic": false,
+          "TsSignatureId": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
+          "Target": {
+            "DeclaringClrType": "System.Security.Principal.IIdentity",
+            "DeclaringAssemblyName": "System.Private.CoreLib",
+            "MetadataToken": 385878140
+          }
         }
       ],
       "ExposedFields": [
         {
-          "TsName": "defaultIssuer",
+          "TsName": "DefaultIssuer",
           "IsStatic": true,
           "TsSignatureId": "DefaultIssuer|System.String|static=true|const=true",
           "Target": {
@@ -1214,7 +1214,7 @@
           }
         },
         {
-          "TsName": "defaultNameClaimType",
+          "TsName": "DefaultNameClaimType",
           "IsStatic": true,
           "TsSignatureId": "DefaultNameClaimType|System.String|static=true|const=true",
           "Target": {
@@ -1224,7 +1224,7 @@
           }
         },
         {
-          "TsName": "defaultRoleClaimType",
+          "TsName": "DefaultRoleClaimType",
           "IsStatic": true,
           "TsSignatureId": "DefaultRoleClaimType|System.String|static=true|const=true",
           "Target": {
@@ -1353,7 +1353,7 @@
       "Methods": [
         {
           "ClrName": "AddIdentity",
-          "TsEmitName": "addIdentity",
+          "TsEmitName": "AddIdentity",
           "MetadataToken": 100663438,
           "CanonicalSignature": "(System.Security.Claims.ClaimsIdentity):System.Void",
           "NormalizedSignature": "AddIdentity|(System.Security.Claims.ClaimsIdentity):System.Void|static=false",
@@ -1365,7 +1365,7 @@
         },
         {
           "ClrName": "AddIdentities",
-          "TsEmitName": "addIdentities",
+          "TsEmitName": "AddIdentities",
           "MetadataToken": 100663439,
           "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "NormalizedSignature": "AddIdentities|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
@@ -1377,7 +1377,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "MetadataToken": 100663442,
           "CanonicalSignature": "():System.Security.Claims.ClaimsPrincipal",
           "NormalizedSignature": "Clone|():System.Security.Claims.ClaimsPrincipal|static=false",
@@ -1389,7 +1389,7 @@
         },
         {
           "ClrName": "FindAll",
-          "TsEmitName": "findAll",
+          "TsEmitName": "FindAll",
           "MetadataToken": 100663445,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1401,7 +1401,7 @@
         },
         {
           "ClrName": "FindAll",
-          "TsEmitName": "findAll2",
+          "TsEmitName": "FindAll2",
           "MetadataToken": 100663446,
           "CanonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1413,7 +1413,7 @@
         },
         {
           "ClrName": "FindFirst",
-          "TsEmitName": "findFirst",
+          "TsEmitName": "FindFirst",
           "MetadataToken": 100663447,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim",
           "NormalizedSignature": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
@@ -1425,7 +1425,7 @@
         },
         {
           "ClrName": "FindFirst",
-          "TsEmitName": "findFirst2",
+          "TsEmitName": "FindFirst2",
           "MetadataToken": 100663448,
           "CanonicalSignature": "(System.String):System.Security.Claims.Claim",
           "NormalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
@@ -1437,7 +1437,7 @@
         },
         {
           "ClrName": "HasClaim",
-          "TsEmitName": "hasClaim",
+          "TsEmitName": "HasClaim",
           "MetadataToken": 100663449,
           "CanonicalSignature": "(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
           "NormalizedSignature": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
@@ -1449,7 +1449,7 @@
         },
         {
           "ClrName": "HasClaim",
-          "TsEmitName": "hasClaim2",
+          "TsEmitName": "HasClaim2",
           "MetadataToken": 100663450,
           "CanonicalSignature": "(System.String,System.String):System.Boolean",
           "NormalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
@@ -1461,7 +1461,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole",
+          "TsEmitName": "IsInRole",
           "MetadataToken": 100663453,
           "CanonicalSignature": "(System.String):System.Boolean",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
@@ -1473,7 +1473,7 @@
         },
         {
           "ClrName": "WriteTo",
-          "TsEmitName": "writeTo",
+          "TsEmitName": "WriteTo",
           "MetadataToken": 100663454,
           "CanonicalSignature": "(System.IO.BinaryWriter):System.Void",
           "NormalizedSignature": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
@@ -1485,7 +1485,7 @@
         },
         {
           "ClrName": "IsInRole",
-          "TsEmitName": "isInRole$view",
+          "TsEmitName": "IsInRole$view",
           "MetadataToken": 100674272,
           "CanonicalSignature": "(System.String):System.Boolean",
           "NormalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
@@ -1499,7 +1499,7 @@
       "Properties": [
         {
           "ClrName": "PrimaryIdentitySelector",
-          "TsEmitName": "primaryIdentitySelector",
+          "TsEmitName": "PrimaryIdentitySelector",
           "MetadataToken": 385876004,
           "CanonicalSignature": ":System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "PrimaryIdentitySelector|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
@@ -1512,7 +1512,7 @@
         },
         {
           "ClrName": "ClaimsPrincipalSelector",
-          "TsEmitName": "claimsPrincipalSelector",
+          "TsEmitName": "ClaimsPrincipalSelector",
           "MetadataToken": 385876005,
           "CanonicalSignature": ":System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "ClaimsPrincipalSelector|:System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
@@ -1525,7 +1525,7 @@
         },
         {
           "ClrName": "Claims",
-          "TsEmitName": "claims",
+          "TsEmitName": "Claims",
           "MetadataToken": 385876006,
           "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -1538,7 +1538,7 @@
         },
         {
           "ClrName": "Current",
-          "TsEmitName": "current",
+          "TsEmitName": "Current",
           "MetadataToken": 385876008,
           "CanonicalSignature": ":System.Security.Claims.ClaimsPrincipal",
           "NormalizedSignature": "Current|:System.Security.Claims.ClaimsPrincipal|static=true|accessor=get",
@@ -1551,7 +1551,7 @@
         },
         {
           "ClrName": "Identities",
-          "TsEmitName": "identities",
+          "TsEmitName": "Identities",
           "MetadataToken": 385876009,
           "CanonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "NormalizedSignature": "Identities|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -1564,7 +1564,7 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity",
+          "TsEmitName": "Identity",
           "MetadataToken": 385876010,
           "CanonicalSignature": ":System.Security.Principal.IIdentity",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
@@ -1577,8 +1577,8 @@
         },
         {
           "ClrName": "Identity",
-          "TsEmitName": "identity$view",
-          "MetadataToken": 385878140,
+          "TsEmitName": "Identity$view",
+          "MetadataToken": 385878141,
           "CanonicalSignature": ":System.Security.Principal.IIdentity",
           "NormalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "EmitScope": "ViewOnly",
@@ -1640,7 +1640,7 @@
       ],
       "ExposedMethods": [
         {
-          "TsName": "addIdentity",
+          "TsName": "AddIdentity",
           "IsStatic": false,
           "TsSignatureId": "AddIdentity|(System.Security.Claims.ClaimsIdentity):System.Void|static=false",
           "Target": {
@@ -1650,7 +1650,7 @@
           }
         },
         {
-          "TsName": "addIdentities",
+          "TsName": "AddIdentities",
           "IsStatic": false,
           "TsSignatureId": "AddIdentities|(System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "Target": {
@@ -1660,7 +1660,7 @@
           }
         },
         {
-          "TsName": "clone",
+          "TsName": "Clone",
           "IsStatic": false,
           "TsSignatureId": "Clone|():System.Security.Claims.ClaimsPrincipal|static=false",
           "Target": {
@@ -1670,7 +1670,7 @@
           }
         },
         {
-          "TsName": "findAll",
+          "TsName": "FindAll",
           "IsStatic": false,
           "TsSignatureId": "FindAll|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Target": {
@@ -1680,7 +1680,7 @@
           }
         },
         {
-          "TsName": "findAll2",
+          "TsName": "FindAll2",
           "IsStatic": false,
           "TsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "Target": {
@@ -1690,7 +1690,7 @@
           }
         },
         {
-          "TsName": "findFirst",
+          "TsName": "FindFirst",
           "IsStatic": false,
           "TsSignatureId": "FindFirst|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Security.Claims.Claim|static=false",
           "Target": {
@@ -1700,7 +1700,7 @@
           }
         },
         {
-          "TsName": "findFirst2",
+          "TsName": "FindFirst2",
           "IsStatic": false,
           "TsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
           "Target": {
@@ -1710,7 +1710,7 @@
           }
         },
         {
-          "TsName": "hasClaim",
+          "TsName": "HasClaim",
           "IsStatic": false,
           "TsSignatureId": "HasClaim|(System.Predicate_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=false",
           "Target": {
@@ -1720,7 +1720,7 @@
           }
         },
         {
-          "TsName": "hasClaim2",
+          "TsName": "HasClaim2",
           "IsStatic": false,
           "TsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
           "Target": {
@@ -1730,7 +1730,7 @@
           }
         },
         {
-          "TsName": "isInRole",
+          "TsName": "IsInRole",
           "IsStatic": false,
           "TsSignatureId": "IsInRole|(System.String):System.Boolean|static=false",
           "Target": {
@@ -1740,7 +1740,7 @@
           }
         },
         {
-          "TsName": "writeTo",
+          "TsName": "WriteTo",
           "IsStatic": false,
           "TsSignatureId": "WriteTo|(System.IO.BinaryWriter):System.Void|static=false",
           "Target": {
@@ -1750,7 +1750,7 @@
           }
         },
         {
-          "TsName": "isInRole$view",
+          "TsName": "IsInRole$view",
           "IsStatic": false,
           "TsSignatureId": "IsInRole|(System.String):System.Boolean|static=false",
           "Target": {
@@ -1760,7 +1760,7 @@
           }
         },
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -1770,7 +1770,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -1780,7 +1780,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -1790,7 +1790,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1800,7 +1800,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -1810,7 +1810,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -1822,7 +1822,7 @@
       ],
       "ExposedProperties": [
         {
-          "TsName": "primaryIdentitySelector",
+          "TsName": "PrimaryIdentitySelector",
           "IsStatic": true,
           "TsSignatureId": "PrimaryIdentitySelector|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
           "Target": {
@@ -1832,7 +1832,7 @@
           }
         },
         {
-          "TsName": "claimsPrincipalSelector",
+          "TsName": "ClaimsPrincipalSelector",
           "IsStatic": true,
           "TsSignatureId": "ClaimsPrincipalSelector|:System.Func_1[[System.Security.Claims.ClaimsPrincipal,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=getset",
           "Target": {
@@ -1842,7 +1842,7 @@
           }
         },
         {
-          "TsName": "claims",
+          "TsName": "Claims",
           "IsStatic": false,
           "TsSignatureId": "Claims|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Target": {
@@ -1852,7 +1852,7 @@
           }
         },
         {
-          "TsName": "current",
+          "TsName": "Current",
           "IsStatic": true,
           "TsSignatureId": "Current|:System.Security.Claims.ClaimsPrincipal|static=true|accessor=get",
           "Target": {
@@ -1862,7 +1862,7 @@
           }
         },
         {
-          "TsName": "identities",
+          "TsName": "Identities",
           "IsStatic": false,
           "TsSignatureId": "Identities|:System.Collections.Generic.IEnumerable_1[[System.Security.Claims.ClaimsIdentity,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "Target": {
@@ -1872,7 +1872,7 @@
           }
         },
         {
-          "TsName": "identity",
+          "TsName": "Identity",
           "IsStatic": false,
           "TsSignatureId": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Target": {
@@ -1882,13 +1882,13 @@
           }
         },
         {
-          "TsName": "identity$view",
+          "TsName": "Identity$view",
           "IsStatic": false,
           "TsSignatureId": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "Target": {
             "DeclaringClrType": "System.Security.Principal.IPrincipal",
             "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385878140
+            "MetadataToken": 385878141
           }
         }
       ],
@@ -1950,7 +1950,7 @@
       "Fields": [
         {
           "ClrName": "AuthenticationInstant",
-          "TsEmitName": "authenticationInstant",
+          "TsEmitName": "AuthenticationInstant",
           "MetadataToken": 67108962,
           "NormalizedSignature": "AuthenticationInstant|System.String|static=true|const=true",
           "IsStatic": true,
@@ -1960,7 +1960,7 @@
         },
         {
           "ClrName": "AuthenticationMethod",
-          "TsEmitName": "authenticationMethod",
+          "TsEmitName": "AuthenticationMethod",
           "MetadataToken": 67108963,
           "NormalizedSignature": "AuthenticationMethod|System.String|static=true|const=true",
           "IsStatic": true,
@@ -1970,7 +1970,7 @@
         },
         {
           "ClrName": "CookiePath",
-          "TsEmitName": "cookiePath",
+          "TsEmitName": "CookiePath",
           "MetadataToken": 67108964,
           "NormalizedSignature": "CookiePath|System.String|static=true|const=true",
           "IsStatic": true,
@@ -1980,7 +1980,7 @@
         },
         {
           "ClrName": "DenyOnlyPrimarySid",
-          "TsEmitName": "denyOnlyPrimarySid",
+          "TsEmitName": "DenyOnlyPrimarySid",
           "MetadataToken": 67108965,
           "NormalizedSignature": "DenyOnlyPrimarySid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -1990,7 +1990,7 @@
         },
         {
           "ClrName": "DenyOnlyPrimaryGroupSid",
-          "TsEmitName": "denyOnlyPrimaryGroupSid",
+          "TsEmitName": "DenyOnlyPrimaryGroupSid",
           "MetadataToken": 67108966,
           "NormalizedSignature": "DenyOnlyPrimaryGroupSid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2000,7 +2000,7 @@
         },
         {
           "ClrName": "DenyOnlyWindowsDeviceGroup",
-          "TsEmitName": "denyOnlyWindowsDeviceGroup",
+          "TsEmitName": "DenyOnlyWindowsDeviceGroup",
           "MetadataToken": 67108967,
           "NormalizedSignature": "DenyOnlyWindowsDeviceGroup|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2010,7 +2010,7 @@
         },
         {
           "ClrName": "Dsa",
-          "TsEmitName": "dsa",
+          "TsEmitName": "Dsa",
           "MetadataToken": 67108968,
           "NormalizedSignature": "Dsa|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2020,7 +2020,7 @@
         },
         {
           "ClrName": "Expiration",
-          "TsEmitName": "expiration",
+          "TsEmitName": "Expiration",
           "MetadataToken": 67108969,
           "NormalizedSignature": "Expiration|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2030,7 +2030,7 @@
         },
         {
           "ClrName": "Expired",
-          "TsEmitName": "expired",
+          "TsEmitName": "Expired",
           "MetadataToken": 67108970,
           "NormalizedSignature": "Expired|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2040,7 +2040,7 @@
         },
         {
           "ClrName": "GroupSid",
-          "TsEmitName": "groupSid",
+          "TsEmitName": "GroupSid",
           "MetadataToken": 67108971,
           "NormalizedSignature": "GroupSid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2050,7 +2050,7 @@
         },
         {
           "ClrName": "IsPersistent",
-          "TsEmitName": "isPersistent",
+          "TsEmitName": "IsPersistent",
           "MetadataToken": 67108972,
           "NormalizedSignature": "IsPersistent|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2060,7 +2060,7 @@
         },
         {
           "ClrName": "PrimaryGroupSid",
-          "TsEmitName": "primaryGroupSid",
+          "TsEmitName": "PrimaryGroupSid",
           "MetadataToken": 67108973,
           "NormalizedSignature": "PrimaryGroupSid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2070,7 +2070,7 @@
         },
         {
           "ClrName": "PrimarySid",
-          "TsEmitName": "primarySid",
+          "TsEmitName": "PrimarySid",
           "MetadataToken": 67108974,
           "NormalizedSignature": "PrimarySid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2080,7 +2080,7 @@
         },
         {
           "ClrName": "Role",
-          "TsEmitName": "role",
+          "TsEmitName": "Role",
           "MetadataToken": 67108975,
           "NormalizedSignature": "Role|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2090,7 +2090,7 @@
         },
         {
           "ClrName": "SerialNumber",
-          "TsEmitName": "serialNumber",
+          "TsEmitName": "SerialNumber",
           "MetadataToken": 67108976,
           "NormalizedSignature": "SerialNumber|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2100,7 +2100,7 @@
         },
         {
           "ClrName": "UserData",
-          "TsEmitName": "userData",
+          "TsEmitName": "UserData",
           "MetadataToken": 67108977,
           "NormalizedSignature": "UserData|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2110,7 +2110,7 @@
         },
         {
           "ClrName": "Version",
-          "TsEmitName": "version",
+          "TsEmitName": "Version",
           "MetadataToken": 67108978,
           "NormalizedSignature": "Version|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2120,7 +2120,7 @@
         },
         {
           "ClrName": "WindowsAccountName",
-          "TsEmitName": "windowsAccountName",
+          "TsEmitName": "WindowsAccountName",
           "MetadataToken": 67108979,
           "NormalizedSignature": "WindowsAccountName|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2130,7 +2130,7 @@
         },
         {
           "ClrName": "WindowsDeviceClaim",
-          "TsEmitName": "windowsDeviceClaim",
+          "TsEmitName": "WindowsDeviceClaim",
           "MetadataToken": 67108980,
           "NormalizedSignature": "WindowsDeviceClaim|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2140,7 +2140,7 @@
         },
         {
           "ClrName": "WindowsDeviceGroup",
-          "TsEmitName": "windowsDeviceGroup",
+          "TsEmitName": "WindowsDeviceGroup",
           "MetadataToken": 67108981,
           "NormalizedSignature": "WindowsDeviceGroup|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2150,7 +2150,7 @@
         },
         {
           "ClrName": "WindowsUserClaim",
-          "TsEmitName": "windowsUserClaim",
+          "TsEmitName": "WindowsUserClaim",
           "MetadataToken": 67108982,
           "NormalizedSignature": "WindowsUserClaim|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2160,7 +2160,7 @@
         },
         {
           "ClrName": "WindowsFqbnVersion",
-          "TsEmitName": "windowsFqbnVersion",
+          "TsEmitName": "WindowsFqbnVersion",
           "MetadataToken": 67108983,
           "NormalizedSignature": "WindowsFqbnVersion|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2170,7 +2170,7 @@
         },
         {
           "ClrName": "WindowsSubAuthority",
-          "TsEmitName": "windowsSubAuthority",
+          "TsEmitName": "WindowsSubAuthority",
           "MetadataToken": 67108984,
           "NormalizedSignature": "WindowsSubAuthority|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2180,7 +2180,7 @@
         },
         {
           "ClrName": "Anonymous",
-          "TsEmitName": "anonymous",
+          "TsEmitName": "Anonymous",
           "MetadataToken": 67108985,
           "NormalizedSignature": "Anonymous|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2190,7 +2190,7 @@
         },
         {
           "ClrName": "Authentication",
-          "TsEmitName": "authentication",
+          "TsEmitName": "Authentication",
           "MetadataToken": 67108986,
           "NormalizedSignature": "Authentication|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2200,7 +2200,7 @@
         },
         {
           "ClrName": "AuthorizationDecision",
-          "TsEmitName": "authorizationDecision",
+          "TsEmitName": "AuthorizationDecision",
           "MetadataToken": 67108987,
           "NormalizedSignature": "AuthorizationDecision|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2210,7 +2210,7 @@
         },
         {
           "ClrName": "Country",
-          "TsEmitName": "country",
+          "TsEmitName": "Country",
           "MetadataToken": 67108988,
           "NormalizedSignature": "Country|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2220,7 +2220,7 @@
         },
         {
           "ClrName": "DateOfBirth",
-          "TsEmitName": "dateOfBirth",
+          "TsEmitName": "DateOfBirth",
           "MetadataToken": 67108989,
           "NormalizedSignature": "DateOfBirth|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2230,7 +2230,7 @@
         },
         {
           "ClrName": "Dns",
-          "TsEmitName": "dns",
+          "TsEmitName": "Dns",
           "MetadataToken": 67108990,
           "NormalizedSignature": "Dns|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2240,7 +2240,7 @@
         },
         {
           "ClrName": "DenyOnlySid",
-          "TsEmitName": "denyOnlySid",
+          "TsEmitName": "DenyOnlySid",
           "MetadataToken": 67108991,
           "NormalizedSignature": "DenyOnlySid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2250,7 +2250,7 @@
         },
         {
           "ClrName": "Email",
-          "TsEmitName": "email",
+          "TsEmitName": "Email",
           "MetadataToken": 67108992,
           "NormalizedSignature": "Email|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2260,7 +2260,7 @@
         },
         {
           "ClrName": "Gender",
-          "TsEmitName": "gender",
+          "TsEmitName": "Gender",
           "MetadataToken": 67108993,
           "NormalizedSignature": "Gender|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2270,7 +2270,7 @@
         },
         {
           "ClrName": "GivenName",
-          "TsEmitName": "givenName",
+          "TsEmitName": "GivenName",
           "MetadataToken": 67108994,
           "NormalizedSignature": "GivenName|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2280,7 +2280,7 @@
         },
         {
           "ClrName": "Hash",
-          "TsEmitName": "hash",
+          "TsEmitName": "Hash",
           "MetadataToken": 67108995,
           "NormalizedSignature": "Hash|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2290,7 +2290,7 @@
         },
         {
           "ClrName": "HomePhone",
-          "TsEmitName": "homePhone",
+          "TsEmitName": "HomePhone",
           "MetadataToken": 67108996,
           "NormalizedSignature": "HomePhone|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2300,7 +2300,7 @@
         },
         {
           "ClrName": "Locality",
-          "TsEmitName": "locality",
+          "TsEmitName": "Locality",
           "MetadataToken": 67108997,
           "NormalizedSignature": "Locality|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2310,7 +2310,7 @@
         },
         {
           "ClrName": "MobilePhone",
-          "TsEmitName": "mobilePhone",
+          "TsEmitName": "MobilePhone",
           "MetadataToken": 67108998,
           "NormalizedSignature": "MobilePhone|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2320,7 +2320,7 @@
         },
         {
           "ClrName": "Name",
-          "TsEmitName": "name",
+          "TsEmitName": "Name",
           "MetadataToken": 67108999,
           "NormalizedSignature": "Name|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2330,7 +2330,7 @@
         },
         {
           "ClrName": "NameIdentifier",
-          "TsEmitName": "nameIdentifier",
+          "TsEmitName": "NameIdentifier",
           "MetadataToken": 67109000,
           "NormalizedSignature": "NameIdentifier|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2340,7 +2340,7 @@
         },
         {
           "ClrName": "OtherPhone",
-          "TsEmitName": "otherPhone",
+          "TsEmitName": "OtherPhone",
           "MetadataToken": 67109001,
           "NormalizedSignature": "OtherPhone|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2350,7 +2350,7 @@
         },
         {
           "ClrName": "PostalCode",
-          "TsEmitName": "postalCode",
+          "TsEmitName": "PostalCode",
           "MetadataToken": 67109002,
           "NormalizedSignature": "PostalCode|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2360,7 +2360,7 @@
         },
         {
           "ClrName": "Rsa",
-          "TsEmitName": "rsa",
+          "TsEmitName": "Rsa",
           "MetadataToken": 67109003,
           "NormalizedSignature": "Rsa|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2370,7 +2370,7 @@
         },
         {
           "ClrName": "Sid",
-          "TsEmitName": "sid",
+          "TsEmitName": "Sid",
           "MetadataToken": 67109004,
           "NormalizedSignature": "Sid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2380,7 +2380,7 @@
         },
         {
           "ClrName": "Spn",
-          "TsEmitName": "spn",
+          "TsEmitName": "Spn",
           "MetadataToken": 67109005,
           "NormalizedSignature": "Spn|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2390,7 +2390,7 @@
         },
         {
           "ClrName": "StateOrProvince",
-          "TsEmitName": "stateOrProvince",
+          "TsEmitName": "StateOrProvince",
           "MetadataToken": 67109006,
           "NormalizedSignature": "StateOrProvince|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2400,7 +2400,7 @@
         },
         {
           "ClrName": "StreetAddress",
-          "TsEmitName": "streetAddress",
+          "TsEmitName": "StreetAddress",
           "MetadataToken": 67109007,
           "NormalizedSignature": "StreetAddress|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2410,7 +2410,7 @@
         },
         {
           "ClrName": "Surname",
-          "TsEmitName": "surname",
+          "TsEmitName": "Surname",
           "MetadataToken": 67109008,
           "NormalizedSignature": "Surname|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2420,7 +2420,7 @@
         },
         {
           "ClrName": "System",
-          "TsEmitName": "system",
+          "TsEmitName": "System",
           "MetadataToken": 67109009,
           "NormalizedSignature": "System|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2430,7 +2430,7 @@
         },
         {
           "ClrName": "Thumbprint",
-          "TsEmitName": "thumbprint",
+          "TsEmitName": "Thumbprint",
           "MetadataToken": 67109010,
           "NormalizedSignature": "Thumbprint|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2440,7 +2440,7 @@
         },
         {
           "ClrName": "Upn",
-          "TsEmitName": "upn",
+          "TsEmitName": "Upn",
           "MetadataToken": 67109011,
           "NormalizedSignature": "Upn|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2450,7 +2450,7 @@
         },
         {
           "ClrName": "Uri",
-          "TsEmitName": "uri",
+          "TsEmitName": "Uri",
           "MetadataToken": 67109012,
           "NormalizedSignature": "Uri|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2460,7 +2460,7 @@
         },
         {
           "ClrName": "Webpage",
-          "TsEmitName": "webpage",
+          "TsEmitName": "Webpage",
           "MetadataToken": 67109013,
           "NormalizedSignature": "Webpage|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2470,7 +2470,7 @@
         },
         {
           "ClrName": "X500DistinguishedName",
-          "TsEmitName": "x500DistinguishedName",
+          "TsEmitName": "X500DistinguishedName",
           "MetadataToken": 67109014,
           "NormalizedSignature": "X500DistinguishedName|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2480,7 +2480,7 @@
         },
         {
           "ClrName": "Actor",
-          "TsEmitName": "actor",
+          "TsEmitName": "Actor",
           "MetadataToken": 67109015,
           "NormalizedSignature": "Actor|System.String|static=true|const=true",
           "IsStatic": true,
@@ -2493,7 +2493,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -2503,7 +2503,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -2513,7 +2513,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -2523,7 +2523,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2533,7 +2533,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -2543,7 +2543,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -2555,7 +2555,7 @@
       ],
       "ExposedFields": [
         {
-          "TsName": "authenticationInstant",
+          "TsName": "AuthenticationInstant",
           "IsStatic": true,
           "TsSignatureId": "AuthenticationInstant|System.String|static=true|const=true",
           "Target": {
@@ -2565,7 +2565,7 @@
           }
         },
         {
-          "TsName": "authenticationMethod",
+          "TsName": "AuthenticationMethod",
           "IsStatic": true,
           "TsSignatureId": "AuthenticationMethod|System.String|static=true|const=true",
           "Target": {
@@ -2575,7 +2575,7 @@
           }
         },
         {
-          "TsName": "cookiePath",
+          "TsName": "CookiePath",
           "IsStatic": true,
           "TsSignatureId": "CookiePath|System.String|static=true|const=true",
           "Target": {
@@ -2585,7 +2585,7 @@
           }
         },
         {
-          "TsName": "denyOnlyPrimarySid",
+          "TsName": "DenyOnlyPrimarySid",
           "IsStatic": true,
           "TsSignatureId": "DenyOnlyPrimarySid|System.String|static=true|const=true",
           "Target": {
@@ -2595,7 +2595,7 @@
           }
         },
         {
-          "TsName": "denyOnlyPrimaryGroupSid",
+          "TsName": "DenyOnlyPrimaryGroupSid",
           "IsStatic": true,
           "TsSignatureId": "DenyOnlyPrimaryGroupSid|System.String|static=true|const=true",
           "Target": {
@@ -2605,7 +2605,7 @@
           }
         },
         {
-          "TsName": "denyOnlyWindowsDeviceGroup",
+          "TsName": "DenyOnlyWindowsDeviceGroup",
           "IsStatic": true,
           "TsSignatureId": "DenyOnlyWindowsDeviceGroup|System.String|static=true|const=true",
           "Target": {
@@ -2615,7 +2615,7 @@
           }
         },
         {
-          "TsName": "dsa",
+          "TsName": "Dsa",
           "IsStatic": true,
           "TsSignatureId": "Dsa|System.String|static=true|const=true",
           "Target": {
@@ -2625,7 +2625,7 @@
           }
         },
         {
-          "TsName": "expiration",
+          "TsName": "Expiration",
           "IsStatic": true,
           "TsSignatureId": "Expiration|System.String|static=true|const=true",
           "Target": {
@@ -2635,7 +2635,7 @@
           }
         },
         {
-          "TsName": "expired",
+          "TsName": "Expired",
           "IsStatic": true,
           "TsSignatureId": "Expired|System.String|static=true|const=true",
           "Target": {
@@ -2645,7 +2645,7 @@
           }
         },
         {
-          "TsName": "groupSid",
+          "TsName": "GroupSid",
           "IsStatic": true,
           "TsSignatureId": "GroupSid|System.String|static=true|const=true",
           "Target": {
@@ -2655,7 +2655,7 @@
           }
         },
         {
-          "TsName": "isPersistent",
+          "TsName": "IsPersistent",
           "IsStatic": true,
           "TsSignatureId": "IsPersistent|System.String|static=true|const=true",
           "Target": {
@@ -2665,7 +2665,7 @@
           }
         },
         {
-          "TsName": "primaryGroupSid",
+          "TsName": "PrimaryGroupSid",
           "IsStatic": true,
           "TsSignatureId": "PrimaryGroupSid|System.String|static=true|const=true",
           "Target": {
@@ -2675,7 +2675,7 @@
           }
         },
         {
-          "TsName": "primarySid",
+          "TsName": "PrimarySid",
           "IsStatic": true,
           "TsSignatureId": "PrimarySid|System.String|static=true|const=true",
           "Target": {
@@ -2685,7 +2685,7 @@
           }
         },
         {
-          "TsName": "role",
+          "TsName": "Role",
           "IsStatic": true,
           "TsSignatureId": "Role|System.String|static=true|const=true",
           "Target": {
@@ -2695,7 +2695,7 @@
           }
         },
         {
-          "TsName": "serialNumber",
+          "TsName": "SerialNumber",
           "IsStatic": true,
           "TsSignatureId": "SerialNumber|System.String|static=true|const=true",
           "Target": {
@@ -2705,7 +2705,7 @@
           }
         },
         {
-          "TsName": "userData",
+          "TsName": "UserData",
           "IsStatic": true,
           "TsSignatureId": "UserData|System.String|static=true|const=true",
           "Target": {
@@ -2715,7 +2715,7 @@
           }
         },
         {
-          "TsName": "version",
+          "TsName": "Version",
           "IsStatic": true,
           "TsSignatureId": "Version|System.String|static=true|const=true",
           "Target": {
@@ -2725,7 +2725,7 @@
           }
         },
         {
-          "TsName": "windowsAccountName",
+          "TsName": "WindowsAccountName",
           "IsStatic": true,
           "TsSignatureId": "WindowsAccountName|System.String|static=true|const=true",
           "Target": {
@@ -2735,7 +2735,7 @@
           }
         },
         {
-          "TsName": "windowsDeviceClaim",
+          "TsName": "WindowsDeviceClaim",
           "IsStatic": true,
           "TsSignatureId": "WindowsDeviceClaim|System.String|static=true|const=true",
           "Target": {
@@ -2745,7 +2745,7 @@
           }
         },
         {
-          "TsName": "windowsDeviceGroup",
+          "TsName": "WindowsDeviceGroup",
           "IsStatic": true,
           "TsSignatureId": "WindowsDeviceGroup|System.String|static=true|const=true",
           "Target": {
@@ -2755,7 +2755,7 @@
           }
         },
         {
-          "TsName": "windowsUserClaim",
+          "TsName": "WindowsUserClaim",
           "IsStatic": true,
           "TsSignatureId": "WindowsUserClaim|System.String|static=true|const=true",
           "Target": {
@@ -2765,7 +2765,7 @@
           }
         },
         {
-          "TsName": "windowsFqbnVersion",
+          "TsName": "WindowsFqbnVersion",
           "IsStatic": true,
           "TsSignatureId": "WindowsFqbnVersion|System.String|static=true|const=true",
           "Target": {
@@ -2775,7 +2775,7 @@
           }
         },
         {
-          "TsName": "windowsSubAuthority",
+          "TsName": "WindowsSubAuthority",
           "IsStatic": true,
           "TsSignatureId": "WindowsSubAuthority|System.String|static=true|const=true",
           "Target": {
@@ -2785,7 +2785,7 @@
           }
         },
         {
-          "TsName": "anonymous",
+          "TsName": "Anonymous",
           "IsStatic": true,
           "TsSignatureId": "Anonymous|System.String|static=true|const=true",
           "Target": {
@@ -2795,7 +2795,7 @@
           }
         },
         {
-          "TsName": "authentication",
+          "TsName": "Authentication",
           "IsStatic": true,
           "TsSignatureId": "Authentication|System.String|static=true|const=true",
           "Target": {
@@ -2805,7 +2805,7 @@
           }
         },
         {
-          "TsName": "authorizationDecision",
+          "TsName": "AuthorizationDecision",
           "IsStatic": true,
           "TsSignatureId": "AuthorizationDecision|System.String|static=true|const=true",
           "Target": {
@@ -2815,7 +2815,7 @@
           }
         },
         {
-          "TsName": "country",
+          "TsName": "Country",
           "IsStatic": true,
           "TsSignatureId": "Country|System.String|static=true|const=true",
           "Target": {
@@ -2825,7 +2825,7 @@
           }
         },
         {
-          "TsName": "dateOfBirth",
+          "TsName": "DateOfBirth",
           "IsStatic": true,
           "TsSignatureId": "DateOfBirth|System.String|static=true|const=true",
           "Target": {
@@ -2835,7 +2835,7 @@
           }
         },
         {
-          "TsName": "dns",
+          "TsName": "Dns",
           "IsStatic": true,
           "TsSignatureId": "Dns|System.String|static=true|const=true",
           "Target": {
@@ -2845,7 +2845,7 @@
           }
         },
         {
-          "TsName": "denyOnlySid",
+          "TsName": "DenyOnlySid",
           "IsStatic": true,
           "TsSignatureId": "DenyOnlySid|System.String|static=true|const=true",
           "Target": {
@@ -2855,7 +2855,7 @@
           }
         },
         {
-          "TsName": "email",
+          "TsName": "Email",
           "IsStatic": true,
           "TsSignatureId": "Email|System.String|static=true|const=true",
           "Target": {
@@ -2865,7 +2865,7 @@
           }
         },
         {
-          "TsName": "gender",
+          "TsName": "Gender",
           "IsStatic": true,
           "TsSignatureId": "Gender|System.String|static=true|const=true",
           "Target": {
@@ -2875,7 +2875,7 @@
           }
         },
         {
-          "TsName": "givenName",
+          "TsName": "GivenName",
           "IsStatic": true,
           "TsSignatureId": "GivenName|System.String|static=true|const=true",
           "Target": {
@@ -2885,7 +2885,7 @@
           }
         },
         {
-          "TsName": "hash",
+          "TsName": "Hash",
           "IsStatic": true,
           "TsSignatureId": "Hash|System.String|static=true|const=true",
           "Target": {
@@ -2895,7 +2895,7 @@
           }
         },
         {
-          "TsName": "homePhone",
+          "TsName": "HomePhone",
           "IsStatic": true,
           "TsSignatureId": "HomePhone|System.String|static=true|const=true",
           "Target": {
@@ -2905,7 +2905,7 @@
           }
         },
         {
-          "TsName": "locality",
+          "TsName": "Locality",
           "IsStatic": true,
           "TsSignatureId": "Locality|System.String|static=true|const=true",
           "Target": {
@@ -2915,7 +2915,7 @@
           }
         },
         {
-          "TsName": "mobilePhone",
+          "TsName": "MobilePhone",
           "IsStatic": true,
           "TsSignatureId": "MobilePhone|System.String|static=true|const=true",
           "Target": {
@@ -2925,7 +2925,7 @@
           }
         },
         {
-          "TsName": "name",
+          "TsName": "Name",
           "IsStatic": true,
           "TsSignatureId": "Name|System.String|static=true|const=true",
           "Target": {
@@ -2935,7 +2935,7 @@
           }
         },
         {
-          "TsName": "nameIdentifier",
+          "TsName": "NameIdentifier",
           "IsStatic": true,
           "TsSignatureId": "NameIdentifier|System.String|static=true|const=true",
           "Target": {
@@ -2945,7 +2945,7 @@
           }
         },
         {
-          "TsName": "otherPhone",
+          "TsName": "OtherPhone",
           "IsStatic": true,
           "TsSignatureId": "OtherPhone|System.String|static=true|const=true",
           "Target": {
@@ -2955,7 +2955,7 @@
           }
         },
         {
-          "TsName": "postalCode",
+          "TsName": "PostalCode",
           "IsStatic": true,
           "TsSignatureId": "PostalCode|System.String|static=true|const=true",
           "Target": {
@@ -2965,7 +2965,7 @@
           }
         },
         {
-          "TsName": "rsa",
+          "TsName": "Rsa",
           "IsStatic": true,
           "TsSignatureId": "Rsa|System.String|static=true|const=true",
           "Target": {
@@ -2975,7 +2975,7 @@
           }
         },
         {
-          "TsName": "sid",
+          "TsName": "Sid",
           "IsStatic": true,
           "TsSignatureId": "Sid|System.String|static=true|const=true",
           "Target": {
@@ -2985,7 +2985,7 @@
           }
         },
         {
-          "TsName": "spn",
+          "TsName": "Spn",
           "IsStatic": true,
           "TsSignatureId": "Spn|System.String|static=true|const=true",
           "Target": {
@@ -2995,7 +2995,7 @@
           }
         },
         {
-          "TsName": "stateOrProvince",
+          "TsName": "StateOrProvince",
           "IsStatic": true,
           "TsSignatureId": "StateOrProvince|System.String|static=true|const=true",
           "Target": {
@@ -3005,7 +3005,7 @@
           }
         },
         {
-          "TsName": "streetAddress",
+          "TsName": "StreetAddress",
           "IsStatic": true,
           "TsSignatureId": "StreetAddress|System.String|static=true|const=true",
           "Target": {
@@ -3015,7 +3015,7 @@
           }
         },
         {
-          "TsName": "surname",
+          "TsName": "Surname",
           "IsStatic": true,
           "TsSignatureId": "Surname|System.String|static=true|const=true",
           "Target": {
@@ -3025,7 +3025,7 @@
           }
         },
         {
-          "TsName": "system",
+          "TsName": "System",
           "IsStatic": true,
           "TsSignatureId": "System|System.String|static=true|const=true",
           "Target": {
@@ -3035,7 +3035,7 @@
           }
         },
         {
-          "TsName": "thumbprint",
+          "TsName": "Thumbprint",
           "IsStatic": true,
           "TsSignatureId": "Thumbprint|System.String|static=true|const=true",
           "Target": {
@@ -3045,7 +3045,7 @@
           }
         },
         {
-          "TsName": "upn",
+          "TsName": "Upn",
           "IsStatic": true,
           "TsSignatureId": "Upn|System.String|static=true|const=true",
           "Target": {
@@ -3055,7 +3055,7 @@
           }
         },
         {
-          "TsName": "uri",
+          "TsName": "Uri",
           "IsStatic": true,
           "TsSignatureId": "Uri|System.String|static=true|const=true",
           "Target": {
@@ -3065,7 +3065,7 @@
           }
         },
         {
-          "TsName": "webpage",
+          "TsName": "Webpage",
           "IsStatic": true,
           "TsSignatureId": "Webpage|System.String|static=true|const=true",
           "Target": {
@@ -3075,7 +3075,7 @@
           }
         },
         {
-          "TsName": "x500DistinguishedName",
+          "TsName": "X500DistinguishedName",
           "IsStatic": true,
           "TsSignatureId": "X500DistinguishedName|System.String|static=true|const=true",
           "Target": {
@@ -3085,7 +3085,7 @@
           }
         },
         {
-          "TsName": "actor",
+          "TsName": "Actor",
           "IsStatic": true,
           "TsSignatureId": "Actor|System.String|static=true|const=true",
           "Target": {
@@ -3106,7 +3106,7 @@
       "Fields": [
         {
           "ClrName": "Base64Binary",
-          "TsEmitName": "base64Binary",
+          "TsEmitName": "Base64Binary",
           "MetadataToken": 67109016,
           "NormalizedSignature": "Base64Binary|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3116,7 +3116,7 @@
         },
         {
           "ClrName": "Base64Octet",
-          "TsEmitName": "base64Octet",
+          "TsEmitName": "Base64Octet",
           "MetadataToken": 67109017,
           "NormalizedSignature": "Base64Octet|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3126,7 +3126,7 @@
         },
         {
           "ClrName": "Boolean",
-          "TsEmitName": "boolean_",
+          "TsEmitName": "Boolean",
           "MetadataToken": 67109018,
           "NormalizedSignature": "Boolean|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3136,7 +3136,7 @@
         },
         {
           "ClrName": "Date",
-          "TsEmitName": "date",
+          "TsEmitName": "Date",
           "MetadataToken": 67109019,
           "NormalizedSignature": "Date|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3146,7 +3146,7 @@
         },
         {
           "ClrName": "DateTime",
-          "TsEmitName": "dateTime",
+          "TsEmitName": "DateTime",
           "MetadataToken": 67109020,
           "NormalizedSignature": "DateTime|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3156,7 +3156,7 @@
         },
         {
           "ClrName": "Double",
-          "TsEmitName": "double",
+          "TsEmitName": "Double",
           "MetadataToken": 67109021,
           "NormalizedSignature": "Double|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3166,7 +3166,7 @@
         },
         {
           "ClrName": "Fqbn",
-          "TsEmitName": "fqbn",
+          "TsEmitName": "Fqbn",
           "MetadataToken": 67109022,
           "NormalizedSignature": "Fqbn|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3176,7 +3176,7 @@
         },
         {
           "ClrName": "HexBinary",
-          "TsEmitName": "hexBinary",
+          "TsEmitName": "HexBinary",
           "MetadataToken": 67109023,
           "NormalizedSignature": "HexBinary|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3186,7 +3186,7 @@
         },
         {
           "ClrName": "Integer",
-          "TsEmitName": "integer",
+          "TsEmitName": "Integer",
           "MetadataToken": 67109024,
           "NormalizedSignature": "Integer|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3196,7 +3196,7 @@
         },
         {
           "ClrName": "Integer32",
-          "TsEmitName": "integer32",
+          "TsEmitName": "Integer32",
           "MetadataToken": 67109025,
           "NormalizedSignature": "Integer32|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3206,7 +3206,7 @@
         },
         {
           "ClrName": "Integer64",
-          "TsEmitName": "integer64",
+          "TsEmitName": "Integer64",
           "MetadataToken": 67109026,
           "NormalizedSignature": "Integer64|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3216,7 +3216,7 @@
         },
         {
           "ClrName": "Sid",
-          "TsEmitName": "sid",
+          "TsEmitName": "Sid",
           "MetadataToken": 67109027,
           "NormalizedSignature": "Sid|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3226,7 +3226,7 @@
         },
         {
           "ClrName": "String",
-          "TsEmitName": "string_",
+          "TsEmitName": "String",
           "MetadataToken": 67109028,
           "NormalizedSignature": "String|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3236,7 +3236,7 @@
         },
         {
           "ClrName": "Time",
-          "TsEmitName": "time",
+          "TsEmitName": "Time",
           "MetadataToken": 67109029,
           "NormalizedSignature": "Time|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3246,7 +3246,7 @@
         },
         {
           "ClrName": "UInteger32",
-          "TsEmitName": "uInteger32",
+          "TsEmitName": "UInteger32",
           "MetadataToken": 67109030,
           "NormalizedSignature": "UInteger32|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3256,7 +3256,7 @@
         },
         {
           "ClrName": "UInteger64",
-          "TsEmitName": "uInteger64",
+          "TsEmitName": "UInteger64",
           "MetadataToken": 67109031,
           "NormalizedSignature": "UInteger64|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3266,7 +3266,7 @@
         },
         {
           "ClrName": "DnsName",
-          "TsEmitName": "dnsName",
+          "TsEmitName": "DnsName",
           "MetadataToken": 67109032,
           "NormalizedSignature": "DnsName|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3276,7 +3276,7 @@
         },
         {
           "ClrName": "Email",
-          "TsEmitName": "email",
+          "TsEmitName": "Email",
           "MetadataToken": 67109033,
           "NormalizedSignature": "Email|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3286,7 +3286,7 @@
         },
         {
           "ClrName": "Rsa",
-          "TsEmitName": "rsa",
+          "TsEmitName": "Rsa",
           "MetadataToken": 67109034,
           "NormalizedSignature": "Rsa|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3296,7 +3296,7 @@
         },
         {
           "ClrName": "UpnName",
-          "TsEmitName": "upnName",
+          "TsEmitName": "UpnName",
           "MetadataToken": 67109035,
           "NormalizedSignature": "UpnName|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3306,7 +3306,7 @@
         },
         {
           "ClrName": "DsaKeyValue",
-          "TsEmitName": "dsaKeyValue",
+          "TsEmitName": "DsaKeyValue",
           "MetadataToken": 67109036,
           "NormalizedSignature": "DsaKeyValue|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3316,7 +3316,7 @@
         },
         {
           "ClrName": "KeyInfo",
-          "TsEmitName": "keyInfo",
+          "TsEmitName": "KeyInfo",
           "MetadataToken": 67109037,
           "NormalizedSignature": "KeyInfo|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3326,7 +3326,7 @@
         },
         {
           "ClrName": "RsaKeyValue",
-          "TsEmitName": "rsaKeyValue",
+          "TsEmitName": "RsaKeyValue",
           "MetadataToken": 67109038,
           "NormalizedSignature": "RsaKeyValue|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3336,7 +3336,7 @@
         },
         {
           "ClrName": "DaytimeDuration",
-          "TsEmitName": "daytimeDuration",
+          "TsEmitName": "DaytimeDuration",
           "MetadataToken": 67109039,
           "NormalizedSignature": "DaytimeDuration|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3346,7 +3346,7 @@
         },
         {
           "ClrName": "YearMonthDuration",
-          "TsEmitName": "yearMonthDuration",
+          "TsEmitName": "YearMonthDuration",
           "MetadataToken": 67109040,
           "NormalizedSignature": "YearMonthDuration|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3356,7 +3356,7 @@
         },
         {
           "ClrName": "Rfc822Name",
-          "TsEmitName": "rfc822Name",
+          "TsEmitName": "Rfc822Name",
           "MetadataToken": 67109041,
           "NormalizedSignature": "Rfc822Name|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3366,7 +3366,7 @@
         },
         {
           "ClrName": "X500Name",
-          "TsEmitName": "x500Name",
+          "TsEmitName": "X500Name",
           "MetadataToken": 67109042,
           "NormalizedSignature": "X500Name|System.String|static=true|const=true",
           "IsStatic": true,
@@ -3379,7 +3379,7 @@
       "Constructors": [],
       "ExposedMethods": [
         {
-          "TsName": "getType",
+          "TsName": "GetType",
           "IsStatic": false,
           "TsSignatureId": "GetType|():System.Type|static=false",
           "Target": {
@@ -3389,7 +3389,7 @@
           }
         },
         {
-          "TsName": "toString",
+          "TsName": "ToString",
           "IsStatic": false,
           "TsSignatureId": "ToString|():System.String|static=false",
           "Target": {
@@ -3399,7 +3399,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": false,
           "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "Target": {
@@ -3409,7 +3409,7 @@
           }
         },
         {
-          "TsName": "equals",
+          "TsName": "Equals",
           "IsStatic": true,
           "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3419,7 +3419,7 @@
           }
         },
         {
-          "TsName": "referenceEquals",
+          "TsName": "ReferenceEquals",
           "IsStatic": true,
           "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "Target": {
@@ -3429,7 +3429,7 @@
           }
         },
         {
-          "TsName": "getHashCode",
+          "TsName": "GetHashCode",
           "IsStatic": false,
           "TsSignatureId": "GetHashCode|():System.Int32|static=false",
           "Target": {
@@ -3441,7 +3441,7 @@
       ],
       "ExposedFields": [
         {
-          "TsName": "base64Binary",
+          "TsName": "Base64Binary",
           "IsStatic": true,
           "TsSignatureId": "Base64Binary|System.String|static=true|const=true",
           "Target": {
@@ -3451,7 +3451,7 @@
           }
         },
         {
-          "TsName": "base64Octet",
+          "TsName": "Base64Octet",
           "IsStatic": true,
           "TsSignatureId": "Base64Octet|System.String|static=true|const=true",
           "Target": {
@@ -3461,7 +3461,7 @@
           }
         },
         {
-          "TsName": "boolean_",
+          "TsName": "Boolean",
           "IsStatic": true,
           "TsSignatureId": "Boolean|System.String|static=true|const=true",
           "Target": {
@@ -3471,7 +3471,7 @@
           }
         },
         {
-          "TsName": "date",
+          "TsName": "Date",
           "IsStatic": true,
           "TsSignatureId": "Date|System.String|static=true|const=true",
           "Target": {
@@ -3481,7 +3481,7 @@
           }
         },
         {
-          "TsName": "dateTime",
+          "TsName": "DateTime",
           "IsStatic": true,
           "TsSignatureId": "DateTime|System.String|static=true|const=true",
           "Target": {
@@ -3491,7 +3491,7 @@
           }
         },
         {
-          "TsName": "double",
+          "TsName": "Double",
           "IsStatic": true,
           "TsSignatureId": "Double|System.String|static=true|const=true",
           "Target": {
@@ -3501,7 +3501,7 @@
           }
         },
         {
-          "TsName": "fqbn",
+          "TsName": "Fqbn",
           "IsStatic": true,
           "TsSignatureId": "Fqbn|System.String|static=true|const=true",
           "Target": {
@@ -3511,7 +3511,7 @@
           }
         },
         {
-          "TsName": "hexBinary",
+          "TsName": "HexBinary",
           "IsStatic": true,
           "TsSignatureId": "HexBinary|System.String|static=true|const=true",
           "Target": {
@@ -3521,7 +3521,7 @@
           }
         },
         {
-          "TsName": "integer",
+          "TsName": "Integer",
           "IsStatic": true,
           "TsSignatureId": "Integer|System.String|static=true|const=true",
           "Target": {
@@ -3531,7 +3531,7 @@
           }
         },
         {
-          "TsName": "integer32",
+          "TsName": "Integer32",
           "IsStatic": true,
           "TsSignatureId": "Integer32|System.String|static=true|const=true",
           "Target": {
@@ -3541,7 +3541,7 @@
           }
         },
         {
-          "TsName": "integer64",
+          "TsName": "Integer64",
           "IsStatic": true,
           "TsSignatureId": "Integer64|System.String|static=true|const=true",
           "Target": {
@@ -3551,7 +3551,7 @@
           }
         },
         {
-          "TsName": "sid",
+          "TsName": "Sid",
           "IsStatic": true,
           "TsSignatureId": "Sid|System.String|static=true|const=true",
           "Target": {
@@ -3561,7 +3561,7 @@
           }
         },
         {
-          "TsName": "string_",
+          "TsName": "String",
           "IsStatic": true,
           "TsSignatureId": "String|System.String|static=true|const=true",
           "Target": {
@@ -3571,7 +3571,7 @@
           }
         },
         {
-          "TsName": "time",
+          "TsName": "Time",
           "IsStatic": true,
           "TsSignatureId": "Time|System.String|static=true|const=true",
           "Target": {
@@ -3581,7 +3581,7 @@
           }
         },
         {
-          "TsName": "uInteger32",
+          "TsName": "UInteger32",
           "IsStatic": true,
           "TsSignatureId": "UInteger32|System.String|static=true|const=true",
           "Target": {
@@ -3591,7 +3591,7 @@
           }
         },
         {
-          "TsName": "uInteger64",
+          "TsName": "UInteger64",
           "IsStatic": true,
           "TsSignatureId": "UInteger64|System.String|static=true|const=true",
           "Target": {
@@ -3601,7 +3601,7 @@
           }
         },
         {
-          "TsName": "dnsName",
+          "TsName": "DnsName",
           "IsStatic": true,
           "TsSignatureId": "DnsName|System.String|static=true|const=true",
           "Target": {
@@ -3611,7 +3611,7 @@
           }
         },
         {
-          "TsName": "email",
+          "TsName": "Email",
           "IsStatic": true,
           "TsSignatureId": "Email|System.String|static=true|const=true",
           "Target": {
@@ -3621,7 +3621,7 @@
           }
         },
         {
-          "TsName": "rsa",
+          "TsName": "Rsa",
           "IsStatic": true,
           "TsSignatureId": "Rsa|System.String|static=true|const=true",
           "Target": {
@@ -3631,7 +3631,7 @@
           }
         },
         {
-          "TsName": "upnName",
+          "TsName": "UpnName",
           "IsStatic": true,
           "TsSignatureId": "UpnName|System.String|static=true|const=true",
           "Target": {
@@ -3641,7 +3641,7 @@
           }
         },
         {
-          "TsName": "dsaKeyValue",
+          "TsName": "DsaKeyValue",
           "IsStatic": true,
           "TsSignatureId": "DsaKeyValue|System.String|static=true|const=true",
           "Target": {
@@ -3651,7 +3651,7 @@
           }
         },
         {
-          "TsName": "keyInfo",
+          "TsName": "KeyInfo",
           "IsStatic": true,
           "TsSignatureId": "KeyInfo|System.String|static=true|const=true",
           "Target": {
@@ -3661,7 +3661,7 @@
           }
         },
         {
-          "TsName": "rsaKeyValue",
+          "TsName": "RsaKeyValue",
           "IsStatic": true,
           "TsSignatureId": "RsaKeyValue|System.String|static=true|const=true",
           "Target": {
@@ -3671,7 +3671,7 @@
           }
         },
         {
-          "TsName": "daytimeDuration",
+          "TsName": "DaytimeDuration",
           "IsStatic": true,
           "TsSignatureId": "DaytimeDuration|System.String|static=true|const=true",
           "Target": {
@@ -3681,7 +3681,7 @@
           }
         },
         {
-          "TsName": "yearMonthDuration",
+          "TsName": "YearMonthDuration",
           "IsStatic": true,
           "TsSignatureId": "YearMonthDuration|System.String|static=true|const=true",
           "Target": {
@@ -3691,7 +3691,7 @@
           }
         },
         {
-          "TsName": "rfc822Name",
+          "TsName": "Rfc822Name",
           "IsStatic": true,
           "TsSignatureId": "Rfc822Name|System.String|static=true|const=true",
           "Target": {
@@ -3701,7 +3701,7 @@
           }
         },
         {
-          "TsName": "x500Name",
+          "TsName": "X500Name",
           "IsStatic": true,
           "TsSignatureId": "X500Name|System.String|static=true|const=true",
           "Target": {

@@ -42,21 +42,21 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ObjectiveCMarshal_MessageSendFunction {
-    msgSend = 0,
-    msgSendFpret = 1,
-    msgSendStret = 2,
-    msgSendSuper = 3,
-    msgSendSuperStret = 4
+    MsgSend = 0,
+    MsgSendFpret = 1,
+    MsgSendStret = 2,
+    MsgSendSuper = 3,
+    MsgSendSuperStret = 4
 }
 
 
 export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(context: { value: TSByRef<nint> }, result: IAsyncResult): unknown;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }): unknown;
+    BeginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(context: { value: TSByRef<nint> }, result: IAsyncResult): unknown;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }): unknown;
 }
 
 

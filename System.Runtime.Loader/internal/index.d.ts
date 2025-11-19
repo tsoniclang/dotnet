@@ -38,7 +38,7 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class AssemblyLoadContext_ContextualReflectionScope$instance {
-    dispose(): void;
+    Dispose(): void;
 }
 
 
@@ -51,8 +51,8 @@ export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_
 
 export class AssemblyDependencyResolver$instance {
     constructor(componentAssemblyPath: string);
-    resolveAssemblyToPath(assemblyName: AssemblyName): string;
-    resolveUnmanagedDllToPath(unmanagedDllName: string): string;
+    ResolveAssemblyToPath(assemblyName: AssemblyName): string;
+    ResolveUnmanagedDllToPath(unmanagedDllName: string): string;
 }
 
 
@@ -60,19 +60,19 @@ export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
 export class AssemblyLoadContext$instance {
     constructor(name: string, isCollectible: boolean);
-    readonly assemblies: IEnumerable_1<Assembly>;
-    readonly isCollectible: boolean;
-    readonly name: string;
-    enterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
-    loadFromAssemblyName(assemblyName: AssemblyName): Assembly;
-    loadFromAssemblyPath(assemblyPath: string): Assembly;
-    loadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
-    loadFromStream(assembly: Stream): Assembly;
-    loadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
-    setProfileOptimizationRoot(directoryPath: string): void;
-    startProfileOptimization(profile: string): void;
-    toString(): string;
-    unload(): void;
+    readonly Assemblies: IEnumerable_1<Assembly>;
+    readonly IsCollectible: boolean;
+    readonly Name: string;
+    EnterContextualReflection(): AssemblyLoadContext_ContextualReflectionScope;
+    LoadFromAssemblyName(assemblyName: AssemblyName): Assembly;
+    LoadFromAssemblyPath(assemblyPath: string): Assembly;
+    LoadFromNativeImagePath(nativeImagePath: string, assemblyPath: string): Assembly;
+    LoadFromStream(assembly: Stream): Assembly;
+    LoadFromStream(assembly: Stream, assemblySymbols: Stream): Assembly;
+    SetProfileOptimizationRoot(directoryPath: string): void;
+    StartProfileOptimization(profile: string): void;
+    ToString(): string;
+    Unload(): void;
     static readonly Default: AssemblyLoadContext;
     static readonly All: IEnumerable_1<AssemblyLoadContext>;
     static readonly CurrentContextualReflectionContext: AssemblyLoadContext;

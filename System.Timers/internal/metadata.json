@@ -17,7 +17,7 @@
       "Properties": [
         {
           "ClrName": "SignalTime",
-          "TsEmitName": "signalTime",
+          "TsEmitName": "SignalTime",
           "NormalizedSignature": "SignalTime|:System.DateTime|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -52,7 +52,7 @@
       "Methods": [
         {
           "ClrName": "Invoke",
-          "TsEmitName": "invoke",
+          "TsEmitName": "Invoke",
           "NormalizedSignature": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -66,7 +66,7 @@
         },
         {
           "ClrName": "BeginInvoke",
-          "TsEmitName": "beginInvoke",
+          "TsEmitName": "BeginInvoke",
           "NormalizedSignature": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -80,7 +80,7 @@
         },
         {
           "ClrName": "EndInvoke",
-          "TsEmitName": "endInvoke",
+          "TsEmitName": "EndInvoke",
           "NormalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -94,7 +94,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone$view",
+          "TsEmitName": "Clone$view",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -109,7 +109,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData$view",
+          "TsEmitName": "GetObjectData$view",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -124,7 +124,7 @@
         },
         {
           "ClrName": "Clone",
-          "TsEmitName": "clone",
+          "TsEmitName": "Clone",
           "NormalizedSignature": "Clone|():System.Object|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -138,7 +138,7 @@
         },
         {
           "ClrName": "GetObjectData",
-          "TsEmitName": "getObjectData",
+          "TsEmitName": "GetObjectData",
           "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -174,7 +174,7 @@
       "Methods": [
         {
           "ClrName": "BeginInit",
-          "TsEmitName": "beginInit",
+          "TsEmitName": "BeginInit",
           "NormalizedSignature": "BeginInit|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -188,7 +188,7 @@
         },
         {
           "ClrName": "Close",
-          "TsEmitName": "close",
+          "TsEmitName": "Close",
           "NormalizedSignature": "Close|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -202,7 +202,7 @@
         },
         {
           "ClrName": "EndInit",
-          "TsEmitName": "endInit",
+          "TsEmitName": "EndInit",
           "NormalizedSignature": "EndInit|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -216,7 +216,7 @@
         },
         {
           "ClrName": "Start",
-          "TsEmitName": "start",
+          "TsEmitName": "Start",
           "NormalizedSignature": "Start|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -230,7 +230,7 @@
         },
         {
           "ClrName": "Stop",
-          "TsEmitName": "stop",
+          "TsEmitName": "Stop",
           "NormalizedSignature": "Stop|():System.Void|static=false",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -244,7 +244,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose$view",
+          "TsEmitName": "Dispose$view",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -259,7 +259,7 @@
         },
         {
           "ClrName": "BeginInit",
-          "TsEmitName": "beginInit$view",
+          "TsEmitName": "BeginInit$view",
           "NormalizedSignature": "BeginInit|():System.Void|static=false",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -274,7 +274,7 @@
         },
         {
           "ClrName": "Dispose",
-          "TsEmitName": "dispose",
+          "TsEmitName": "Dispose",
           "NormalizedSignature": "Dispose|():System.Void|static=false",
           "Provenance": "BaseOverload",
           "EmitScope": "ClassSurface",
@@ -290,7 +290,7 @@
       "Properties": [
         {
           "ClrName": "AutoReset",
-          "TsEmitName": "autoReset",
+          "TsEmitName": "AutoReset",
           "NormalizedSignature": "AutoReset|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -304,7 +304,7 @@
         },
         {
           "ClrName": "Enabled",
-          "TsEmitName": "enabled",
+          "TsEmitName": "Enabled",
           "NormalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -318,7 +318,7 @@
         },
         {
           "ClrName": "Interval",
-          "TsEmitName": "interval",
+          "TsEmitName": "Interval",
           "NormalizedSignature": "Interval|:System.Double|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -332,7 +332,7 @@
         },
         {
           "ClrName": "Site",
-          "TsEmitName": "site",
+          "TsEmitName": "Site",
           "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -346,7 +346,7 @@
         },
         {
           "ClrName": "SynchronizingObject",
-          "TsEmitName": "synchronizingObject",
+          "TsEmitName": "SynchronizingObject",
           "NormalizedSignature": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
@@ -360,7 +360,7 @@
         },
         {
           "ClrName": "Site",
-          "TsEmitName": "site$view",
+          "TsEmitName": "Site$view",
           "NormalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
           "Provenance": "ExplicitView",
           "EmitScope": "ViewOnly",
@@ -378,7 +378,7 @@
       "Events": [
         {
           "ClrName": "Elapsed",
-          "TsEmitName": "elapsed",
+          "TsEmitName": "Elapsed",
           "NormalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
           "IsStatic": false
         }
@@ -414,7 +414,7 @@
       "Properties": [
         {
           "ClrName": "Description",
-          "TsEmitName": "description",
+          "TsEmitName": "Description",
           "NormalizedSignature": "Description|:System.String|static=false|accessor=get",
           "Provenance": "Original",
           "EmitScope": "ClassSurface",
