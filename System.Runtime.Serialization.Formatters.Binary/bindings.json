@@ -9,7 +9,7 @@
       "methods": [
         {
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize",
+          "tsEmitName": "deserialize",
           "metadataToken": 100663606,
           "canonicalSignature": "(System.IO.Stream):System.Object",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
@@ -21,7 +21,7 @@
         },
         {
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "metadataToken": 100663607,
           "canonicalSignature": "(System.IO.Stream,System.Object):System.Void",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
@@ -33,7 +33,7 @@
         },
         {
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize$view",
+          "tsEmitName": "deserialize$view",
           "metadataToken": 100663416,
           "canonicalSignature": "(System.IO.Stream):System.Object",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
@@ -45,7 +45,7 @@
         },
         {
           "clrName": "Serialize",
-          "tsEmitName": "Serialize$view",
+          "tsEmitName": "serialize$view",
           "metadataToken": 100663417,
           "canonicalSignature": "(System.IO.Stream,System.Object):System.Void",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
@@ -59,7 +59,7 @@
       "properties": [
         {
           "clrName": "TypeFormat",
-          "tsEmitName": "TypeFormat",
+          "tsEmitName": "typeFormat",
           "metadataToken": 385876055,
           "canonicalSignature": ":System.Runtime.Serialization.Formatters.FormatterTypeStyle",
           "normalizedSignature": "TypeFormat|:System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=false|accessor=getset",
@@ -72,7 +72,7 @@
         },
         {
           "clrName": "AssemblyFormat",
-          "tsEmitName": "AssemblyFormat",
+          "tsEmitName": "assemblyFormat",
           "metadataToken": 385876056,
           "canonicalSignature": ":System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
           "normalizedSignature": "AssemblyFormat|:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=false|accessor=getset",
@@ -85,7 +85,7 @@
         },
         {
           "clrName": "FilterLevel",
-          "tsEmitName": "FilterLevel",
+          "tsEmitName": "filterLevel",
           "metadataToken": 385876057,
           "canonicalSignature": ":System.Runtime.Serialization.Formatters.TypeFilterLevel",
           "normalizedSignature": "FilterLevel|:System.Runtime.Serialization.Formatters.TypeFilterLevel|static=false|accessor=getset",
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "SurrogateSelector",
-          "tsEmitName": "SurrogateSelector",
+          "tsEmitName": "surrogateSelector",
           "metadataToken": 385876058,
           "canonicalSignature": ":System.Runtime.Serialization.ISurrogateSelector",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
@@ -111,7 +111,7 @@
         },
         {
           "clrName": "Binder",
-          "tsEmitName": "Binder",
+          "tsEmitName": "binder",
           "metadataToken": 385876059,
           "canonicalSignature": ":System.Runtime.Serialization.SerializationBinder",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
@@ -124,7 +124,7 @@
         },
         {
           "clrName": "Context",
-          "tsEmitName": "Context",
+          "tsEmitName": "context",
           "metadataToken": 385876060,
           "canonicalSignature": ":System.Runtime.Serialization.StreamingContext",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
@@ -137,7 +137,7 @@
         },
         {
           "clrName": "SurrogateSelector",
-          "tsEmitName": "SurrogateSelector$view",
+          "tsEmitName": "surrogateSelector$view",
           "metadataToken": 385876008,
           "canonicalSignature": ":System.Runtime.Serialization.ISurrogateSelector",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
@@ -150,7 +150,7 @@
         },
         {
           "clrName": "Binder",
-          "tsEmitName": "Binder$view",
+          "tsEmitName": "binder$view",
           "metadataToken": 385876009,
           "canonicalSignature": ":System.Runtime.Serialization.SerializationBinder",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
@@ -163,7 +163,7 @@
         },
         {
           "clrName": "Context",
-          "tsEmitName": "Context$view",
+          "tsEmitName": "context$view",
           "metadataToken": 385876010,
           "canonicalSignature": ":System.Runtime.Serialization.StreamingContext",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
@@ -199,7 +199,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Deserialize",
+          "tsName": "deserialize",
           "isStatic": false,
           "tsSignatureId": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "target": {
@@ -209,7 +209,7 @@
           }
         },
         {
-          "tsName": "Serialize",
+          "tsName": "serialize",
           "isStatic": false,
           "tsSignatureId": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "target": {
@@ -219,7 +219,7 @@
           }
         },
         {
-          "tsName": "Deserialize$view",
+          "tsName": "deserialize$view",
           "isStatic": false,
           "tsSignatureId": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "target": {
@@ -229,7 +229,7 @@
           }
         },
         {
-          "tsName": "Serialize$view",
+          "tsName": "serialize$view",
           "isStatic": false,
           "tsSignatureId": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "target": {
@@ -239,7 +239,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -249,7 +249,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -259,7 +259,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -269,7 +269,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -279,7 +279,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -289,7 +289,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -301,7 +301,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "TypeFormat",
+          "tsName": "typeFormat",
           "isStatic": false,
           "tsSignatureId": "TypeFormat|:System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=false|accessor=getset",
           "target": {
@@ -311,7 +311,7 @@
           }
         },
         {
-          "tsName": "AssemblyFormat",
+          "tsName": "assemblyFormat",
           "isStatic": false,
           "tsSignatureId": "AssemblyFormat|:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=false|accessor=getset",
           "target": {
@@ -321,7 +321,7 @@
           }
         },
         {
-          "tsName": "FilterLevel",
+          "tsName": "filterLevel",
           "isStatic": false,
           "tsSignatureId": "FilterLevel|:System.Runtime.Serialization.Formatters.TypeFilterLevel|static=false|accessor=getset",
           "target": {
@@ -331,7 +331,7 @@
           }
         },
         {
-          "tsName": "SurrogateSelector",
+          "tsName": "surrogateSelector",
           "isStatic": false,
           "tsSignatureId": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "target": {
@@ -341,7 +341,7 @@
           }
         },
         {
-          "tsName": "Binder",
+          "tsName": "binder",
           "isStatic": false,
           "tsSignatureId": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "target": {
@@ -351,7 +351,7 @@
           }
         },
         {
-          "tsName": "Context",
+          "tsName": "context",
           "isStatic": false,
           "tsSignatureId": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "target": {
@@ -361,7 +361,7 @@
           }
         },
         {
-          "tsName": "SurrogateSelector$view",
+          "tsName": "surrogateSelector$view",
           "isStatic": false,
           "tsSignatureId": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "target": {
@@ -371,7 +371,7 @@
           }
         },
         {
-          "tsName": "Binder$view",
+          "tsName": "binder$view",
           "isStatic": false,
           "tsSignatureId": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "target": {
@@ -381,7 +381,7 @@
           }
         },
         {
-          "tsName": "Context$view",
+          "tsName": "context$view",
           "isStatic": false,
           "tsSignatureId": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "target": {

@@ -1,8 +1,8 @@
 {
   "namespace": "System.Security.Authentication",
   "contributingAssemblies": [
-    "System.Net.Primitives",
-    "System.Net.Security"
+    "System.Net.Security",
+    "System.Net.Primitives"
   ],
   "types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "clrName": "Rc2",
-          "tsEmitName": "Rc2",
+          "tsEmitName": "rc2",
           "normalizedSignature": "Rc2|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "clrName": "Rc4",
-          "tsEmitName": "Rc4",
+          "tsEmitName": "rc4",
           "normalizedSignature": "Rc4|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "clrName": "Des",
-          "tsEmitName": "Des",
+          "tsEmitName": "des",
           "normalizedSignature": "Des|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -59,7 +59,7 @@
         },
         {
           "clrName": "TripleDes",
-          "tsEmitName": "TripleDes",
+          "tsEmitName": "tripleDes",
           "normalizedSignature": "TripleDes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         },
         {
           "clrName": "Aes",
-          "tsEmitName": "Aes",
+          "tsEmitName": "aes",
           "normalizedSignature": "Aes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         },
         {
           "clrName": "Aes128",
-          "tsEmitName": "Aes128",
+          "tsEmitName": "aes128",
           "normalizedSignature": "Aes128|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "clrName": "Aes192",
-          "tsEmitName": "Aes192",
+          "tsEmitName": "aes192",
           "normalizedSignature": "Aes192|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "clrName": "Aes256",
-          "tsEmitName": "Aes256",
+          "tsEmitName": "aes256",
           "normalizedSignature": "Aes256|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "clrName": "Null",
-          "tsEmitName": "Null",
+          "tsEmitName": "null_",
           "normalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -139,7 +139,7 @@
         },
         {
           "clrName": "RsaSign",
-          "tsEmitName": "RsaSign",
+          "tsEmitName": "rsaSign",
           "normalizedSignature": "RsaSign|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -147,7 +147,7 @@
         },
         {
           "clrName": "RsaKeyX",
-          "tsEmitName": "RsaKeyX",
+          "tsEmitName": "rsaKeyX",
           "normalizedSignature": "RsaKeyX|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         },
         {
           "clrName": "DiffieHellman",
-          "tsEmitName": "DiffieHellman",
+          "tsEmitName": "diffieHellman",
           "normalizedSignature": "DiffieHellman|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -195,7 +195,7 @@
         },
         {
           "clrName": "Md5",
-          "tsEmitName": "Md5",
+          "tsEmitName": "md5",
           "normalizedSignature": "Md5|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -203,7 +203,7 @@
         },
         {
           "clrName": "Sha1",
-          "tsEmitName": "Sha1",
+          "tsEmitName": "sha1",
           "normalizedSignature": "Sha1|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -211,7 +211,7 @@
         },
         {
           "clrName": "Sha256",
-          "tsEmitName": "Sha256",
+          "tsEmitName": "sha256",
           "normalizedSignature": "Sha256|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -219,7 +219,7 @@
         },
         {
           "clrName": "Sha384",
-          "tsEmitName": "Sha384",
+          "tsEmitName": "sha384",
           "normalizedSignature": "Sha384|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -227,7 +227,7 @@
         },
         {
           "clrName": "Sha512",
-          "tsEmitName": "Sha512",
+          "tsEmitName": "sha512",
           "normalizedSignature": "Sha512|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -267,7 +267,7 @@
         },
         {
           "clrName": "Ssl2",
-          "tsEmitName": "Ssl2",
+          "tsEmitName": "ssl2",
           "normalizedSignature": "Ssl2|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -275,7 +275,7 @@
         },
         {
           "clrName": "Ssl3",
-          "tsEmitName": "Ssl3",
+          "tsEmitName": "ssl3",
           "normalizedSignature": "Ssl3|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -283,7 +283,7 @@
         },
         {
           "clrName": "Tls",
-          "tsEmitName": "Tls",
+          "tsEmitName": "tls",
           "normalizedSignature": "Tls|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -291,7 +291,7 @@
         },
         {
           "clrName": "Tls11",
-          "tsEmitName": "Tls11",
+          "tsEmitName": "tls11",
           "normalizedSignature": "Tls11|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         },
         {
           "clrName": "Tls12",
-          "tsEmitName": "Tls12",
+          "tsEmitName": "tls12",
           "normalizedSignature": "Tls12|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -307,7 +307,7 @@
         },
         {
           "clrName": "Tls13",
-          "tsEmitName": "Tls13",
+          "tsEmitName": "tls13",
           "normalizedSignature": "Tls13|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         },
         {
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -337,7 +337,7 @@
       "methods": [
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -352,7 +352,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -398,7 +398,7 @@
       "methods": [
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -413,7 +413,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

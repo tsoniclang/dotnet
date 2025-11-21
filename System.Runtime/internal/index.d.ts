@@ -42,27 +42,27 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum GCLargeObjectHeapCompactionMode {
-    Default = 1,
-    CompactOnce = 2
+    default_ = 1,
+    compactOnce = 2
 }
 
 
 export enum GCLatencyMode {
-    Batch = 0,
-    Interactive = 1,
-    LowLatency = 2,
-    SustainedLowLatency = 3,
-    NoGCRegion = 4
+    batch = 0,
+    interactive = 1,
+    lowLatency = 2,
+    sustainedLowLatency = 3,
+    noGCRegion = 4
 }
 
 
 export class DependentHandle$instance {
     constructor(target: any, dependent: any);
-    Dependent: any;
-    readonly IsAllocated: boolean;
-    Target: any;
-    readonly TargetAndDependent: ValueTuple_2<any, any>;
-    Dispose(): void;
+    dependent: any;
+    readonly isAllocated: boolean;
+    target: any;
+    readonly targetAndDependent: ValueTuple_2<any, any>;
+    dispose(): void;
 }
 
 
@@ -77,7 +77,7 @@ export class AmbiguousImplementationException$instance extends System_Internal.E
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -90,7 +90,7 @@ export type AmbiguousImplementationException = AmbiguousImplementationException$
 
 export class AssemblyTargetedPatchBandAttribute$instance extends System_Internal.Attribute$instance {
     constructor(targetedPatchBand: string);
-    readonly TargetedPatchBand: string;
+    readonly targetedPatchBand: string;
 }
 
 
@@ -98,7 +98,7 @@ export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttrib
 
 export class MemoryFailPoint$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
     constructor(sizeInMegabytes: int);
-    Dispose(): void;
+    dispose(): void;
 }
 
 
@@ -111,7 +111,7 @@ export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views
 
 export class TargetedPatchingOptOutAttribute$instance extends System_Internal.Attribute$instance {
     constructor(reason: string);
-    readonly Reason: string;
+    readonly reason: string;
 }
 
 

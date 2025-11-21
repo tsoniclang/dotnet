@@ -26,7 +26,7 @@
         },
         {
           "clrName": "RelocsStripped",
-          "tsEmitName": "RelocsStripped",
+          "tsEmitName": "relocsStripped",
           "normalizedSignature": "RelocsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "ExecutableImage",
-          "tsEmitName": "ExecutableImage",
+          "tsEmitName": "executableImage",
           "normalizedSignature": "ExecutableImage|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "LineNumsStripped",
-          "tsEmitName": "LineNumsStripped",
+          "tsEmitName": "lineNumsStripped",
           "normalizedSignature": "LineNumsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "clrName": "LocalSymsStripped",
-          "tsEmitName": "LocalSymsStripped",
+          "tsEmitName": "localSymsStripped",
           "normalizedSignature": "LocalSymsStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "AggressiveWSTrim",
-          "tsEmitName": "AggressiveWSTrim",
+          "tsEmitName": "aggressiveWSTrim",
           "normalizedSignature": "AggressiveWSTrim|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "LargeAddressAware",
-          "tsEmitName": "LargeAddressAware",
+          "tsEmitName": "largeAddressAware",
           "normalizedSignature": "LargeAddressAware|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "BytesReversedLo",
-          "tsEmitName": "BytesReversedLo",
+          "tsEmitName": "bytesReversedLo",
           "normalizedSignature": "BytesReversedLo|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "clrName": "Bit32Machine",
-          "tsEmitName": "Bit32Machine",
+          "tsEmitName": "bit32Machine",
           "normalizedSignature": "Bit32Machine|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "DebugStripped",
-          "tsEmitName": "DebugStripped",
+          "tsEmitName": "debugStripped",
           "normalizedSignature": "DebugStripped|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "RemovableRunFromSwap",
-          "tsEmitName": "RemovableRunFromSwap",
+          "tsEmitName": "removableRunFromSwap",
           "normalizedSignature": "RemovableRunFromSwap|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "NetRunFromSwap",
-          "tsEmitName": "NetRunFromSwap",
+          "tsEmitName": "netRunFromSwap",
           "normalizedSignature": "NetRunFromSwap|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "System",
-          "tsEmitName": "System",
+          "tsEmitName": "system",
           "normalizedSignature": "System|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "clrName": "Dll",
-          "tsEmitName": "Dll",
+          "tsEmitName": "dll",
           "normalizedSignature": "Dll|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "clrName": "UpSystemOnly",
-          "tsEmitName": "UpSystemOnly",
+          "tsEmitName": "upSystemOnly",
           "normalizedSignature": "UpSystemOnly|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "clrName": "BytesReversedHi",
-          "tsEmitName": "BytesReversedHi",
+          "tsEmitName": "bytesReversedHi",
           "normalizedSignature": "BytesReversedHi|System.Reflection.PortableExecutable.Characteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "ILOnly",
-          "tsEmitName": "ILOnly",
+          "tsEmitName": "ilOnly",
           "normalizedSignature": "ILOnly|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "clrName": "Requires32Bit",
-          "tsEmitName": "Requires32Bit",
+          "tsEmitName": "requires32Bit",
           "normalizedSignature": "Requires32Bit|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "ILLibrary",
-          "tsEmitName": "ILLibrary",
+          "tsEmitName": "ilLibrary",
           "normalizedSignature": "ILLibrary|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "StrongNameSigned",
-          "tsEmitName": "StrongNameSigned",
+          "tsEmitName": "strongNameSigned",
           "normalizedSignature": "StrongNameSigned|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "clrName": "NativeEntryPoint",
-          "tsEmitName": "NativeEntryPoint",
+          "tsEmitName": "nativeEntryPoint",
           "normalizedSignature": "NativeEntryPoint|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "clrName": "TrackDebugData",
-          "tsEmitName": "TrackDebugData",
+          "tsEmitName": "trackDebugData",
           "normalizedSignature": "TrackDebugData|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "clrName": "Prefers32Bit",
-          "tsEmitName": "Prefers32Bit",
+          "tsEmitName": "prefers32Bit",
           "normalizedSignature": "Prefers32Bit|System.Reflection.PortableExecutable.CorFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -258,7 +258,7 @@
         },
         {
           "clrName": "Coff",
-          "tsEmitName": "Coff",
+          "tsEmitName": "coff",
           "normalizedSignature": "Coff|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -266,7 +266,7 @@
         },
         {
           "clrName": "CodeView",
-          "tsEmitName": "CodeView",
+          "tsEmitName": "codeView",
           "normalizedSignature": "CodeView|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "clrName": "Reproducible",
-          "tsEmitName": "Reproducible",
+          "tsEmitName": "reproducible",
           "normalizedSignature": "Reproducible|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "clrName": "EmbeddedPortablePdb",
-          "tsEmitName": "EmbeddedPortablePdb",
+          "tsEmitName": "embeddedPortablePdb",
           "normalizedSignature": "EmbeddedPortablePdb|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -290,7 +290,7 @@
         },
         {
           "clrName": "PdbChecksum",
-          "tsEmitName": "PdbChecksum",
+          "tsEmitName": "pdbChecksum",
           "normalizedSignature": "PdbChecksum|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "clrName": "ProcessInit",
-          "tsEmitName": "ProcessInit",
+          "tsEmitName": "processInit",
           "normalizedSignature": "ProcessInit|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "clrName": "ProcessTerm",
-          "tsEmitName": "ProcessTerm",
+          "tsEmitName": "processTerm",
           "normalizedSignature": "ProcessTerm|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -338,7 +338,7 @@
         },
         {
           "clrName": "ThreadInit",
-          "tsEmitName": "ThreadInit",
+          "tsEmitName": "threadInit",
           "normalizedSignature": "ThreadInit|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -346,7 +346,7 @@
         },
         {
           "clrName": "ThreadTerm",
-          "tsEmitName": "ThreadTerm",
+          "tsEmitName": "threadTerm",
           "normalizedSignature": "ThreadTerm|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -354,7 +354,7 @@
         },
         {
           "clrName": "HighEntropyVirtualAddressSpace",
-          "tsEmitName": "HighEntropyVirtualAddressSpace",
+          "tsEmitName": "highEntropyVirtualAddressSpace",
           "normalizedSignature": "HighEntropyVirtualAddressSpace|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -362,7 +362,7 @@
         },
         {
           "clrName": "DynamicBase",
-          "tsEmitName": "DynamicBase",
+          "tsEmitName": "dynamicBase",
           "normalizedSignature": "DynamicBase|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -370,7 +370,7 @@
         },
         {
           "clrName": "ForceIntegrity",
-          "tsEmitName": "ForceIntegrity",
+          "tsEmitName": "forceIntegrity",
           "normalizedSignature": "ForceIntegrity|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -378,7 +378,7 @@
         },
         {
           "clrName": "NxCompatible",
-          "tsEmitName": "NxCompatible",
+          "tsEmitName": "nxCompatible",
           "normalizedSignature": "NxCompatible|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -386,7 +386,7 @@
         },
         {
           "clrName": "NoIsolation",
-          "tsEmitName": "NoIsolation",
+          "tsEmitName": "noIsolation",
           "normalizedSignature": "NoIsolation|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -394,7 +394,7 @@
         },
         {
           "clrName": "NoSeh",
-          "tsEmitName": "NoSeh",
+          "tsEmitName": "noSeh",
           "normalizedSignature": "NoSeh|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -402,7 +402,7 @@
         },
         {
           "clrName": "NoBind",
-          "tsEmitName": "NoBind",
+          "tsEmitName": "noBind",
           "normalizedSignature": "NoBind|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -410,7 +410,7 @@
         },
         {
           "clrName": "AppContainer",
-          "tsEmitName": "AppContainer",
+          "tsEmitName": "appContainer",
           "normalizedSignature": "AppContainer|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -418,7 +418,7 @@
         },
         {
           "clrName": "WdmDriver",
-          "tsEmitName": "WdmDriver",
+          "tsEmitName": "wdmDriver",
           "normalizedSignature": "WdmDriver|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -426,7 +426,7 @@
         },
         {
           "clrName": "ControlFlowGuard",
-          "tsEmitName": "ControlFlowGuard",
+          "tsEmitName": "controlFlowGuard",
           "normalizedSignature": "ControlFlowGuard|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -434,7 +434,7 @@
         },
         {
           "clrName": "TerminalServerAware",
-          "tsEmitName": "TerminalServerAware",
+          "tsEmitName": "terminalServerAware",
           "normalizedSignature": "TerminalServerAware|System.Reflection.PortableExecutable.DllCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -466,7 +466,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -474,7 +474,7 @@
         },
         {
           "clrName": "I386",
-          "tsEmitName": "I386",
+          "tsEmitName": "i386",
           "normalizedSignature": "I386|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -482,7 +482,7 @@
         },
         {
           "clrName": "WceMipsV2",
-          "tsEmitName": "WceMipsV2",
+          "tsEmitName": "wceMipsV2",
           "normalizedSignature": "WceMipsV2|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -490,7 +490,7 @@
         },
         {
           "clrName": "Alpha",
-          "tsEmitName": "Alpha",
+          "tsEmitName": "alpha",
           "normalizedSignature": "Alpha|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -498,7 +498,7 @@
         },
         {
           "clrName": "SH3",
-          "tsEmitName": "SH3",
+          "tsEmitName": "sh3",
           "normalizedSignature": "SH3|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -506,7 +506,7 @@
         },
         {
           "clrName": "SH3Dsp",
-          "tsEmitName": "SH3Dsp",
+          "tsEmitName": "sh3Dsp",
           "normalizedSignature": "SH3Dsp|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -514,7 +514,7 @@
         },
         {
           "clrName": "SH3E",
-          "tsEmitName": "SH3E",
+          "tsEmitName": "sh3e",
           "normalizedSignature": "SH3E|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -522,7 +522,7 @@
         },
         {
           "clrName": "SH4",
-          "tsEmitName": "SH4",
+          "tsEmitName": "sh4",
           "normalizedSignature": "SH4|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -530,7 +530,7 @@
         },
         {
           "clrName": "SH5",
-          "tsEmitName": "SH5",
+          "tsEmitName": "sh5",
           "normalizedSignature": "SH5|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -538,7 +538,7 @@
         },
         {
           "clrName": "Arm",
-          "tsEmitName": "Arm",
+          "tsEmitName": "arm",
           "normalizedSignature": "Arm|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -546,7 +546,7 @@
         },
         {
           "clrName": "Thumb",
-          "tsEmitName": "Thumb",
+          "tsEmitName": "thumb",
           "normalizedSignature": "Thumb|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -554,7 +554,7 @@
         },
         {
           "clrName": "ArmThumb2",
-          "tsEmitName": "ArmThumb2",
+          "tsEmitName": "armThumb2",
           "normalizedSignature": "ArmThumb2|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -562,7 +562,7 @@
         },
         {
           "clrName": "AM33",
-          "tsEmitName": "AM33",
+          "tsEmitName": "am33",
           "normalizedSignature": "AM33|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -570,7 +570,7 @@
         },
         {
           "clrName": "PowerPC",
-          "tsEmitName": "PowerPC",
+          "tsEmitName": "powerPC",
           "normalizedSignature": "PowerPC|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -578,7 +578,7 @@
         },
         {
           "clrName": "PowerPCFP",
-          "tsEmitName": "PowerPCFP",
+          "tsEmitName": "powerPCFP",
           "normalizedSignature": "PowerPCFP|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -586,7 +586,7 @@
         },
         {
           "clrName": "IA64",
-          "tsEmitName": "IA64",
+          "tsEmitName": "ia64",
           "normalizedSignature": "IA64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -594,7 +594,7 @@
         },
         {
           "clrName": "MIPS16",
-          "tsEmitName": "MIPS16",
+          "tsEmitName": "mips16",
           "normalizedSignature": "MIPS16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -602,7 +602,7 @@
         },
         {
           "clrName": "Alpha64",
-          "tsEmitName": "Alpha64",
+          "tsEmitName": "alpha64",
           "normalizedSignature": "Alpha64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -610,7 +610,7 @@
         },
         {
           "clrName": "MipsFpu",
-          "tsEmitName": "MipsFpu",
+          "tsEmitName": "mipsFpu",
           "normalizedSignature": "MipsFpu|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -618,7 +618,7 @@
         },
         {
           "clrName": "MipsFpu16",
-          "tsEmitName": "MipsFpu16",
+          "tsEmitName": "mipsFpu16",
           "normalizedSignature": "MipsFpu16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -626,7 +626,7 @@
         },
         {
           "clrName": "Tricore",
-          "tsEmitName": "Tricore",
+          "tsEmitName": "tricore",
           "normalizedSignature": "Tricore|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -634,7 +634,7 @@
         },
         {
           "clrName": "Ebc",
-          "tsEmitName": "Ebc",
+          "tsEmitName": "ebc",
           "normalizedSignature": "Ebc|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -642,7 +642,7 @@
         },
         {
           "clrName": "Amd64",
-          "tsEmitName": "Amd64",
+          "tsEmitName": "amd64",
           "normalizedSignature": "Amd64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -650,7 +650,7 @@
         },
         {
           "clrName": "M32R",
-          "tsEmitName": "M32R",
+          "tsEmitName": "m32r",
           "normalizedSignature": "M32R|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -658,7 +658,7 @@
         },
         {
           "clrName": "Arm64",
-          "tsEmitName": "Arm64",
+          "tsEmitName": "arm64",
           "normalizedSignature": "Arm64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -666,7 +666,7 @@
         },
         {
           "clrName": "LoongArch32",
-          "tsEmitName": "LoongArch32",
+          "tsEmitName": "loongArch32",
           "normalizedSignature": "LoongArch32|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -674,7 +674,7 @@
         },
         {
           "clrName": "LoongArch64",
-          "tsEmitName": "LoongArch64",
+          "tsEmitName": "loongArch64",
           "normalizedSignature": "LoongArch64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -682,7 +682,7 @@
         },
         {
           "clrName": "RiscV32",
-          "tsEmitName": "RiscV32",
+          "tsEmitName": "riscV32",
           "normalizedSignature": "RiscV32|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -690,7 +690,7 @@
         },
         {
           "clrName": "RiscV64",
-          "tsEmitName": "RiscV64",
+          "tsEmitName": "riscV64",
           "normalizedSignature": "RiscV64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -698,7 +698,7 @@
         },
         {
           "clrName": "RiscV128",
-          "tsEmitName": "RiscV128",
+          "tsEmitName": "riscV128",
           "normalizedSignature": "RiscV128|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -730,7 +730,7 @@
         },
         {
           "clrName": "PE32",
-          "tsEmitName": "PE32",
+          "tsEmitName": "pe32",
           "normalizedSignature": "PE32|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -738,7 +738,7 @@
         },
         {
           "clrName": "PE32Plus",
-          "tsEmitName": "PE32Plus",
+          "tsEmitName": "pe32Plus",
           "normalizedSignature": "PE32Plus|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -770,7 +770,7 @@
         },
         {
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -778,7 +778,7 @@
         },
         {
           "clrName": "LeaveOpen",
-          "tsEmitName": "LeaveOpen",
+          "tsEmitName": "leaveOpen",
           "normalizedSignature": "LeaveOpen|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -786,7 +786,7 @@
         },
         {
           "clrName": "PrefetchMetadata",
-          "tsEmitName": "PrefetchMetadata",
+          "tsEmitName": "prefetchMetadata",
           "normalizedSignature": "PrefetchMetadata|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -794,7 +794,7 @@
         },
         {
           "clrName": "PrefetchEntireImage",
-          "tsEmitName": "PrefetchEntireImage",
+          "tsEmitName": "prefetchEntireImage",
           "normalizedSignature": "PrefetchEntireImage|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -802,7 +802,7 @@
         },
         {
           "clrName": "IsLoadedImage",
-          "tsEmitName": "IsLoadedImage",
+          "tsEmitName": "isLoadedImage",
           "normalizedSignature": "IsLoadedImage|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -834,7 +834,7 @@
         },
         {
           "clrName": "TypeReg",
-          "tsEmitName": "TypeReg",
+          "tsEmitName": "typeReg",
           "normalizedSignature": "TypeReg|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -842,7 +842,7 @@
         },
         {
           "clrName": "TypeDSect",
-          "tsEmitName": "TypeDSect",
+          "tsEmitName": "typeDSect",
           "normalizedSignature": "TypeDSect|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -850,7 +850,7 @@
         },
         {
           "clrName": "TypeNoLoad",
-          "tsEmitName": "TypeNoLoad",
+          "tsEmitName": "typeNoLoad",
           "normalizedSignature": "TypeNoLoad|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -858,7 +858,7 @@
         },
         {
           "clrName": "TypeGroup",
-          "tsEmitName": "TypeGroup",
+          "tsEmitName": "typeGroup",
           "normalizedSignature": "TypeGroup|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -866,7 +866,7 @@
         },
         {
           "clrName": "TypeNoPad",
-          "tsEmitName": "TypeNoPad",
+          "tsEmitName": "typeNoPad",
           "normalizedSignature": "TypeNoPad|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -874,7 +874,7 @@
         },
         {
           "clrName": "TypeCopy",
-          "tsEmitName": "TypeCopy",
+          "tsEmitName": "typeCopy",
           "normalizedSignature": "TypeCopy|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -882,7 +882,7 @@
         },
         {
           "clrName": "ContainsCode",
-          "tsEmitName": "ContainsCode",
+          "tsEmitName": "containsCode",
           "normalizedSignature": "ContainsCode|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -890,7 +890,7 @@
         },
         {
           "clrName": "ContainsInitializedData",
-          "tsEmitName": "ContainsInitializedData",
+          "tsEmitName": "containsInitializedData",
           "normalizedSignature": "ContainsInitializedData|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -898,7 +898,7 @@
         },
         {
           "clrName": "ContainsUninitializedData",
-          "tsEmitName": "ContainsUninitializedData",
+          "tsEmitName": "containsUninitializedData",
           "normalizedSignature": "ContainsUninitializedData|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -906,7 +906,7 @@
         },
         {
           "clrName": "LinkerOther",
-          "tsEmitName": "LinkerOther",
+          "tsEmitName": "linkerOther",
           "normalizedSignature": "LinkerOther|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -914,7 +914,7 @@
         },
         {
           "clrName": "LinkerInfo",
-          "tsEmitName": "LinkerInfo",
+          "tsEmitName": "linkerInfo",
           "normalizedSignature": "LinkerInfo|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -922,7 +922,7 @@
         },
         {
           "clrName": "TypeOver",
-          "tsEmitName": "TypeOver",
+          "tsEmitName": "typeOver",
           "normalizedSignature": "TypeOver|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -930,7 +930,7 @@
         },
         {
           "clrName": "LinkerRemove",
-          "tsEmitName": "LinkerRemove",
+          "tsEmitName": "linkerRemove",
           "normalizedSignature": "LinkerRemove|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -938,7 +938,7 @@
         },
         {
           "clrName": "LinkerComdat",
-          "tsEmitName": "LinkerComdat",
+          "tsEmitName": "linkerComdat",
           "normalizedSignature": "LinkerComdat|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -946,7 +946,7 @@
         },
         {
           "clrName": "MemProtected",
-          "tsEmitName": "MemProtected",
+          "tsEmitName": "memProtected",
           "normalizedSignature": "MemProtected|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -954,7 +954,7 @@
         },
         {
           "clrName": "NoDeferSpecExc",
-          "tsEmitName": "NoDeferSpecExc",
+          "tsEmitName": "noDeferSpecExc",
           "normalizedSignature": "NoDeferSpecExc|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -962,7 +962,7 @@
         },
         {
           "clrName": "GPRel",
-          "tsEmitName": "GPRel",
+          "tsEmitName": "gpRel",
           "normalizedSignature": "GPRel|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -970,7 +970,7 @@
         },
         {
           "clrName": "MemFardata",
-          "tsEmitName": "MemFardata",
+          "tsEmitName": "memFardata",
           "normalizedSignature": "MemFardata|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -978,7 +978,7 @@
         },
         {
           "clrName": "MemSysheap",
-          "tsEmitName": "MemSysheap",
+          "tsEmitName": "memSysheap",
           "normalizedSignature": "MemSysheap|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -986,7 +986,7 @@
         },
         {
           "clrName": "MemPurgeable",
-          "tsEmitName": "MemPurgeable",
+          "tsEmitName": "memPurgeable",
           "normalizedSignature": "MemPurgeable|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -994,7 +994,7 @@
         },
         {
           "clrName": "Mem16Bit",
-          "tsEmitName": "Mem16Bit",
+          "tsEmitName": "mem16Bit",
           "normalizedSignature": "Mem16Bit|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1002,7 +1002,7 @@
         },
         {
           "clrName": "MemLocked",
-          "tsEmitName": "MemLocked",
+          "tsEmitName": "memLocked",
           "normalizedSignature": "MemLocked|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1010,7 +1010,7 @@
         },
         {
           "clrName": "MemPreload",
-          "tsEmitName": "MemPreload",
+          "tsEmitName": "memPreload",
           "normalizedSignature": "MemPreload|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1018,7 +1018,7 @@
         },
         {
           "clrName": "Align1Bytes",
-          "tsEmitName": "Align1Bytes",
+          "tsEmitName": "align1Bytes",
           "normalizedSignature": "Align1Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1026,7 +1026,7 @@
         },
         {
           "clrName": "Align2Bytes",
-          "tsEmitName": "Align2Bytes",
+          "tsEmitName": "align2Bytes",
           "normalizedSignature": "Align2Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1034,7 +1034,7 @@
         },
         {
           "clrName": "Align4Bytes",
-          "tsEmitName": "Align4Bytes",
+          "tsEmitName": "align4Bytes",
           "normalizedSignature": "Align4Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1042,7 +1042,7 @@
         },
         {
           "clrName": "Align8Bytes",
-          "tsEmitName": "Align8Bytes",
+          "tsEmitName": "align8Bytes",
           "normalizedSignature": "Align8Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1050,7 +1050,7 @@
         },
         {
           "clrName": "Align16Bytes",
-          "tsEmitName": "Align16Bytes",
+          "tsEmitName": "align16Bytes",
           "normalizedSignature": "Align16Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1058,7 +1058,7 @@
         },
         {
           "clrName": "Align32Bytes",
-          "tsEmitName": "Align32Bytes",
+          "tsEmitName": "align32Bytes",
           "normalizedSignature": "Align32Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1066,7 +1066,7 @@
         },
         {
           "clrName": "Align64Bytes",
-          "tsEmitName": "Align64Bytes",
+          "tsEmitName": "align64Bytes",
           "normalizedSignature": "Align64Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1074,7 +1074,7 @@
         },
         {
           "clrName": "Align128Bytes",
-          "tsEmitName": "Align128Bytes",
+          "tsEmitName": "align128Bytes",
           "normalizedSignature": "Align128Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1082,7 +1082,7 @@
         },
         {
           "clrName": "Align256Bytes",
-          "tsEmitName": "Align256Bytes",
+          "tsEmitName": "align256Bytes",
           "normalizedSignature": "Align256Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1090,7 +1090,7 @@
         },
         {
           "clrName": "Align512Bytes",
-          "tsEmitName": "Align512Bytes",
+          "tsEmitName": "align512Bytes",
           "normalizedSignature": "Align512Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1098,7 +1098,7 @@
         },
         {
           "clrName": "Align1024Bytes",
-          "tsEmitName": "Align1024Bytes",
+          "tsEmitName": "align1024Bytes",
           "normalizedSignature": "Align1024Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1106,7 +1106,7 @@
         },
         {
           "clrName": "Align2048Bytes",
-          "tsEmitName": "Align2048Bytes",
+          "tsEmitName": "align2048Bytes",
           "normalizedSignature": "Align2048Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1114,7 +1114,7 @@
         },
         {
           "clrName": "Align4096Bytes",
-          "tsEmitName": "Align4096Bytes",
+          "tsEmitName": "align4096Bytes",
           "normalizedSignature": "Align4096Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1122,7 +1122,7 @@
         },
         {
           "clrName": "Align8192Bytes",
-          "tsEmitName": "Align8192Bytes",
+          "tsEmitName": "align8192Bytes",
           "normalizedSignature": "Align8192Bytes|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1130,7 +1130,7 @@
         },
         {
           "clrName": "AlignMask",
-          "tsEmitName": "AlignMask",
+          "tsEmitName": "alignMask",
           "normalizedSignature": "AlignMask|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1138,7 +1138,7 @@
         },
         {
           "clrName": "LinkerNRelocOvfl",
-          "tsEmitName": "LinkerNRelocOvfl",
+          "tsEmitName": "linkerNRelocOvfl",
           "normalizedSignature": "LinkerNRelocOvfl|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1146,7 +1146,7 @@
         },
         {
           "clrName": "MemDiscardable",
-          "tsEmitName": "MemDiscardable",
+          "tsEmitName": "memDiscardable",
           "normalizedSignature": "MemDiscardable|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1154,7 +1154,7 @@
         },
         {
           "clrName": "MemNotCached",
-          "tsEmitName": "MemNotCached",
+          "tsEmitName": "memNotCached",
           "normalizedSignature": "MemNotCached|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1162,7 +1162,7 @@
         },
         {
           "clrName": "MemNotPaged",
-          "tsEmitName": "MemNotPaged",
+          "tsEmitName": "memNotPaged",
           "normalizedSignature": "MemNotPaged|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1170,7 +1170,7 @@
         },
         {
           "clrName": "MemShared",
-          "tsEmitName": "MemShared",
+          "tsEmitName": "memShared",
           "normalizedSignature": "MemShared|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1178,7 +1178,7 @@
         },
         {
           "clrName": "MemExecute",
-          "tsEmitName": "MemExecute",
+          "tsEmitName": "memExecute",
           "normalizedSignature": "MemExecute|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1186,7 +1186,7 @@
         },
         {
           "clrName": "MemRead",
-          "tsEmitName": "MemRead",
+          "tsEmitName": "memRead",
           "normalizedSignature": "MemRead|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1194,7 +1194,7 @@
         },
         {
           "clrName": "MemWrite",
-          "tsEmitName": "MemWrite",
+          "tsEmitName": "memWrite",
           "normalizedSignature": "MemWrite|System.Reflection.PortableExecutable.SectionCharacteristics|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1226,7 +1226,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1234,7 +1234,7 @@
         },
         {
           "clrName": "Native",
-          "tsEmitName": "Native",
+          "tsEmitName": "native",
           "normalizedSignature": "Native|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1242,7 +1242,7 @@
         },
         {
           "clrName": "WindowsGui",
-          "tsEmitName": "WindowsGui",
+          "tsEmitName": "windowsGui",
           "normalizedSignature": "WindowsGui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1250,7 +1250,7 @@
         },
         {
           "clrName": "WindowsCui",
-          "tsEmitName": "WindowsCui",
+          "tsEmitName": "windowsCui",
           "normalizedSignature": "WindowsCui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1258,7 +1258,7 @@
         },
         {
           "clrName": "OS2Cui",
-          "tsEmitName": "OS2Cui",
+          "tsEmitName": "os2Cui",
           "normalizedSignature": "OS2Cui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1266,7 +1266,7 @@
         },
         {
           "clrName": "PosixCui",
-          "tsEmitName": "PosixCui",
+          "tsEmitName": "posixCui",
           "normalizedSignature": "PosixCui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1274,7 +1274,7 @@
         },
         {
           "clrName": "NativeWindows",
-          "tsEmitName": "NativeWindows",
+          "tsEmitName": "nativeWindows",
           "normalizedSignature": "NativeWindows|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1282,7 +1282,7 @@
         },
         {
           "clrName": "WindowsCEGui",
-          "tsEmitName": "WindowsCEGui",
+          "tsEmitName": "windowsCEGui",
           "normalizedSignature": "WindowsCEGui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1290,7 +1290,7 @@
         },
         {
           "clrName": "EfiApplication",
-          "tsEmitName": "EfiApplication",
+          "tsEmitName": "efiApplication",
           "normalizedSignature": "EfiApplication|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1298,7 +1298,7 @@
         },
         {
           "clrName": "EfiBootServiceDriver",
-          "tsEmitName": "EfiBootServiceDriver",
+          "tsEmitName": "efiBootServiceDriver",
           "normalizedSignature": "EfiBootServiceDriver|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1306,7 +1306,7 @@
         },
         {
           "clrName": "EfiRuntimeDriver",
-          "tsEmitName": "EfiRuntimeDriver",
+          "tsEmitName": "efiRuntimeDriver",
           "normalizedSignature": "EfiRuntimeDriver|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1314,7 +1314,7 @@
         },
         {
           "clrName": "EfiRom",
-          "tsEmitName": "EfiRom",
+          "tsEmitName": "efiRom",
           "normalizedSignature": "EfiRom|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1322,7 +1322,7 @@
         },
         {
           "clrName": "Xbox",
-          "tsEmitName": "Xbox",
+          "tsEmitName": "xbox",
           "normalizedSignature": "Xbox|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1330,7 +1330,7 @@
         },
         {
           "clrName": "WindowsBootApplication",
-          "tsEmitName": "WindowsBootApplication",
+          "tsEmitName": "windowsBootApplication",
           "normalizedSignature": "WindowsBootApplication|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1353,7 +1353,7 @@
       "properties": [
         {
           "clrName": "Guid",
-          "tsEmitName": "Guid",
+          "tsEmitName": "guid",
           "normalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1367,7 +1367,7 @@
         },
         {
           "clrName": "Age",
-          "tsEmitName": "Age",
+          "tsEmitName": "age",
           "normalizedSignature": "Age|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1381,7 +1381,7 @@
         },
         {
           "clrName": "Path",
-          "tsEmitName": "Path",
+          "tsEmitName": "path",
           "normalizedSignature": "Path|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1411,7 +1411,7 @@
       "properties": [
         {
           "clrName": "Stamp",
-          "tsEmitName": "Stamp",
+          "tsEmitName": "stamp",
           "normalizedSignature": "Stamp|:System.UInt32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1425,7 +1425,7 @@
         },
         {
           "clrName": "MajorVersion",
-          "tsEmitName": "MajorVersion",
+          "tsEmitName": "majorVersion",
           "normalizedSignature": "MajorVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1439,7 +1439,7 @@
         },
         {
           "clrName": "MinorVersion",
-          "tsEmitName": "MinorVersion",
+          "tsEmitName": "minorVersion",
           "normalizedSignature": "MinorVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1453,7 +1453,7 @@
         },
         {
           "clrName": "Type",
-          "tsEmitName": "Type",
+          "tsEmitName": "type_",
           "normalizedSignature": "Type|:System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1467,7 +1467,7 @@
         },
         {
           "clrName": "DataSize",
-          "tsEmitName": "DataSize",
+          "tsEmitName": "dataSize",
           "normalizedSignature": "DataSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1481,7 +1481,7 @@
         },
         {
           "clrName": "DataRelativeVirtualAddress",
-          "tsEmitName": "DataRelativeVirtualAddress",
+          "tsEmitName": "dataRelativeVirtualAddress",
           "normalizedSignature": "DataRelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1495,7 +1495,7 @@
         },
         {
           "clrName": "DataPointer",
-          "tsEmitName": "DataPointer",
+          "tsEmitName": "dataPointer",
           "normalizedSignature": "DataPointer|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1509,7 +1509,7 @@
         },
         {
           "clrName": "IsPortableCodeView",
-          "tsEmitName": "IsPortableCodeView",
+          "tsEmitName": "isPortableCodeView",
           "normalizedSignature": "IsPortableCodeView|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1546,7 +1546,7 @@
       "fields": [
         {
           "clrName": "RelativeVirtualAddress",
-          "tsEmitName": "RelativeVirtualAddress",
+          "tsEmitName": "relativeVirtualAddress",
           "normalizedSignature": "RelativeVirtualAddress|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": true,
@@ -1554,7 +1554,7 @@
         },
         {
           "clrName": "Size",
-          "tsEmitName": "Size",
+          "tsEmitName": "size",
           "normalizedSignature": "Size|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": true,
@@ -1583,7 +1583,7 @@
       "properties": [
         {
           "clrName": "AlgorithmName",
-          "tsEmitName": "AlgorithmName",
+          "tsEmitName": "algorithmName",
           "normalizedSignature": "AlgorithmName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1597,7 +1597,7 @@
         },
         {
           "clrName": "Checksum",
-          "tsEmitName": "Checksum",
+          "tsEmitName": "checksum",
           "normalizedSignature": "Checksum|:System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1626,7 +1626,7 @@
       "methods": [
         {
           "clrName": "GetReader",
-          "tsEmitName": "GetReader",
+          "tsEmitName": "getReader",
           "normalizedSignature": "GetReader|():System.Reflection.Metadata.BlobReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
         },
         {
           "clrName": "GetReader",
-          "tsEmitName": "GetReader2",
+          "tsEmitName": "getReader2",
           "normalizedSignature": "GetReader|(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1654,7 +1654,7 @@
         },
         {
           "clrName": "GetContent",
-          "tsEmitName": "GetContent",
+          "tsEmitName": "getContent",
           "normalizedSignature": "GetContent|():System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
         },
         {
           "clrName": "GetContent",
-          "tsEmitName": "GetContent2",
+          "tsEmitName": "getContent2",
           "normalizedSignature": "GetContent|(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1684,7 +1684,7 @@
       "properties": [
         {
           "clrName": "Pointer",
-          "tsEmitName": "Pointer",
+          "tsEmitName": "pointer",
           "normalizedSignature": "Pointer|:System.Byte*|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1698,7 +1698,7 @@
         },
         {
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1728,7 +1728,7 @@
       "properties": [
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1742,7 +1742,7 @@
         },
         {
           "clrName": "VirtualSize",
-          "tsEmitName": "VirtualSize",
+          "tsEmitName": "virtualSize",
           "normalizedSignature": "VirtualSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1756,7 +1756,7 @@
         },
         {
           "clrName": "VirtualAddress",
-          "tsEmitName": "VirtualAddress",
+          "tsEmitName": "virtualAddress",
           "normalizedSignature": "VirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1770,7 +1770,7 @@
         },
         {
           "clrName": "SizeOfRawData",
-          "tsEmitName": "SizeOfRawData",
+          "tsEmitName": "sizeOfRawData",
           "normalizedSignature": "SizeOfRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1784,7 +1784,7 @@
         },
         {
           "clrName": "PointerToRawData",
-          "tsEmitName": "PointerToRawData",
+          "tsEmitName": "pointerToRawData",
           "normalizedSignature": "PointerToRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1798,7 +1798,7 @@
         },
         {
           "clrName": "PointerToRelocations",
-          "tsEmitName": "PointerToRelocations",
+          "tsEmitName": "pointerToRelocations",
           "normalizedSignature": "PointerToRelocations|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1812,7 +1812,7 @@
         },
         {
           "clrName": "PointerToLineNumbers",
-          "tsEmitName": "PointerToLineNumbers",
+          "tsEmitName": "pointerToLineNumbers",
           "normalizedSignature": "PointerToLineNumbers|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1826,7 +1826,7 @@
         },
         {
           "clrName": "NumberOfRelocations",
-          "tsEmitName": "NumberOfRelocations",
+          "tsEmitName": "numberOfRelocations",
           "normalizedSignature": "NumberOfRelocations|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1840,7 +1840,7 @@
         },
         {
           "clrName": "NumberOfLineNumbers",
-          "tsEmitName": "NumberOfLineNumbers",
+          "tsEmitName": "numberOfLineNumbers",
           "normalizedSignature": "NumberOfLineNumbers|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1854,7 +1854,7 @@
         },
         {
           "clrName": "SectionCharacteristics",
-          "tsEmitName": "SectionCharacteristics",
+          "tsEmitName": "sectionCharacteristics",
           "normalizedSignature": "SectionCharacteristics|:System.Reflection.PortableExecutable.SectionCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1884,7 +1884,7 @@
       "properties": [
         {
           "clrName": "RelativeVirtualAddress",
-          "tsEmitName": "RelativeVirtualAddress",
+          "tsEmitName": "relativeVirtualAddress",
           "normalizedSignature": "RelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1898,7 +1898,7 @@
         },
         {
           "clrName": "PointerToRawData",
-          "tsEmitName": "PointerToRawData",
+          "tsEmitName": "pointerToRawData",
           "normalizedSignature": "PointerToRawData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1934,7 +1934,7 @@
       "properties": [
         {
           "clrName": "Machine",
-          "tsEmitName": "Machine",
+          "tsEmitName": "machine",
           "normalizedSignature": "Machine|:System.Reflection.PortableExecutable.Machine|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1948,7 +1948,7 @@
         },
         {
           "clrName": "NumberOfSections",
-          "tsEmitName": "NumberOfSections",
+          "tsEmitName": "numberOfSections",
           "normalizedSignature": "NumberOfSections|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1962,7 +1962,7 @@
         },
         {
           "clrName": "TimeDateStamp",
-          "tsEmitName": "TimeDateStamp",
+          "tsEmitName": "timeDateStamp",
           "normalizedSignature": "TimeDateStamp|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1976,7 +1976,7 @@
         },
         {
           "clrName": "PointerToSymbolTable",
-          "tsEmitName": "PointerToSymbolTable",
+          "tsEmitName": "pointerToSymbolTable",
           "normalizedSignature": "PointerToSymbolTable|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1990,7 +1990,7 @@
         },
         {
           "clrName": "NumberOfSymbols",
-          "tsEmitName": "NumberOfSymbols",
+          "tsEmitName": "numberOfSymbols",
           "normalizedSignature": "NumberOfSymbols|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2004,7 +2004,7 @@
         },
         {
           "clrName": "SizeOfOptionalHeader",
-          "tsEmitName": "SizeOfOptionalHeader",
+          "tsEmitName": "sizeOfOptionalHeader",
           "normalizedSignature": "SizeOfOptionalHeader|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2018,7 +2018,7 @@
         },
         {
           "clrName": "Characteristics",
-          "tsEmitName": "Characteristics",
+          "tsEmitName": "characteristics",
           "normalizedSignature": "Characteristics|:System.Reflection.PortableExecutable.Characteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2048,7 +2048,7 @@
       "properties": [
         {
           "clrName": "MajorRuntimeVersion",
-          "tsEmitName": "MajorRuntimeVersion",
+          "tsEmitName": "majorRuntimeVersion",
           "normalizedSignature": "MajorRuntimeVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2062,7 +2062,7 @@
         },
         {
           "clrName": "MinorRuntimeVersion",
-          "tsEmitName": "MinorRuntimeVersion",
+          "tsEmitName": "minorRuntimeVersion",
           "normalizedSignature": "MinorRuntimeVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2076,7 +2076,7 @@
         },
         {
           "clrName": "MetadataDirectory",
-          "tsEmitName": "MetadataDirectory",
+          "tsEmitName": "metadataDirectory",
           "normalizedSignature": "MetadataDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2090,7 +2090,7 @@
         },
         {
           "clrName": "Flags",
-          "tsEmitName": "Flags",
+          "tsEmitName": "flags",
           "normalizedSignature": "Flags|:System.Reflection.PortableExecutable.CorFlags|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2104,7 +2104,7 @@
         },
         {
           "clrName": "EntryPointTokenOrRelativeVirtualAddress",
-          "tsEmitName": "EntryPointTokenOrRelativeVirtualAddress",
+          "tsEmitName": "entryPointTokenOrRelativeVirtualAddress",
           "normalizedSignature": "EntryPointTokenOrRelativeVirtualAddress|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2118,7 +2118,7 @@
         },
         {
           "clrName": "ResourcesDirectory",
-          "tsEmitName": "ResourcesDirectory",
+          "tsEmitName": "resourcesDirectory",
           "normalizedSignature": "ResourcesDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2132,7 +2132,7 @@
         },
         {
           "clrName": "StrongNameSignatureDirectory",
-          "tsEmitName": "StrongNameSignatureDirectory",
+          "tsEmitName": "strongNameSignatureDirectory",
           "normalizedSignature": "StrongNameSignatureDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2146,7 +2146,7 @@
         },
         {
           "clrName": "CodeManagerTableDirectory",
-          "tsEmitName": "CodeManagerTableDirectory",
+          "tsEmitName": "codeManagerTableDirectory",
           "normalizedSignature": "CodeManagerTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2160,7 +2160,7 @@
         },
         {
           "clrName": "VtableFixupsDirectory",
-          "tsEmitName": "VtableFixupsDirectory",
+          "tsEmitName": "vtableFixupsDirectory",
           "normalizedSignature": "VtableFixupsDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2174,7 +2174,7 @@
         },
         {
           "clrName": "ExportAddressTableJumpsDirectory",
-          "tsEmitName": "ExportAddressTableJumpsDirectory",
+          "tsEmitName": "exportAddressTableJumpsDirectory",
           "normalizedSignature": "ExportAddressTableJumpsDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2188,7 +2188,7 @@
         },
         {
           "clrName": "ManagedNativeHeaderDirectory",
-          "tsEmitName": "ManagedNativeHeaderDirectory",
+          "tsEmitName": "managedNativeHeaderDirectory",
           "normalizedSignature": "ManagedNativeHeaderDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2217,7 +2217,7 @@
       "methods": [
         {
           "clrName": "AddEntry",
-          "tsEmitName": "AddEntry",
+          "tsEmitName": "addEntry",
           "normalizedSignature": "AddEntry|(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2231,7 +2231,7 @@
         },
         {
           "clrName": "AddEntry",
-          "tsEmitName": "AddEntry2",
+          "tsEmitName": "addEntry2",
           "normalizedSignature": "AddEntry|(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2245,7 +2245,7 @@
         },
         {
           "clrName": "AddCodeViewEntry",
-          "tsEmitName": "AddCodeViewEntry",
+          "tsEmitName": "addCodeViewEntry",
           "normalizedSignature": "AddCodeViewEntry|(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2259,7 +2259,7 @@
         },
         {
           "clrName": "AddCodeViewEntry",
-          "tsEmitName": "AddCodeViewEntry2",
+          "tsEmitName": "addCodeViewEntry2",
           "normalizedSignature": "AddCodeViewEntry|(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2273,7 +2273,7 @@
         },
         {
           "clrName": "AddReproducibleEntry",
-          "tsEmitName": "AddReproducibleEntry",
+          "tsEmitName": "addReproducibleEntry",
           "normalizedSignature": "AddReproducibleEntry|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2287,7 +2287,7 @@
         },
         {
           "clrName": "AddPdbChecksumEntry",
-          "tsEmitName": "AddPdbChecksumEntry",
+          "tsEmitName": "addPdbChecksumEntry",
           "normalizedSignature": "AddPdbChecksumEntry|(System.String,System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2301,7 +2301,7 @@
         },
         {
           "clrName": "AddEmbeddedPortablePdbEntry",
-          "tsEmitName": "AddEmbeddedPortablePdbEntry",
+          "tsEmitName": "addEmbeddedPortablePdbEntry",
           "normalizedSignature": "AddEmbeddedPortablePdbEntry|(System.Reflection.Metadata.BlobBuilder,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2337,7 +2337,7 @@
       "methods": [
         {
           "clrName": "Sign",
-          "tsEmitName": "Sign",
+          "tsEmitName": "sign",
           "normalizedSignature": "Sign|(System.Reflection.Metadata.BlobBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2354,7 +2354,7 @@
       "fields": [
         {
           "clrName": "ManagedResourcesDataAlignment",
-          "tsEmitName": "ManagedResourcesDataAlignment",
+          "tsEmitName": "managedResourcesDataAlignment",
           "normalizedSignature": "ManagedResourcesDataAlignment|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2362,7 +2362,7 @@
         },
         {
           "clrName": "MappedFieldDataAlignment",
-          "tsEmitName": "MappedFieldDataAlignment",
+          "tsEmitName": "mappedFieldDataAlignment",
           "normalizedSignature": "MappedFieldDataAlignment|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2390,7 +2390,7 @@
       "methods": [
         {
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.BlobContentId|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2406,7 +2406,7 @@
       "properties": [
         {
           "clrName": "Header",
-          "tsEmitName": "Header",
+          "tsEmitName": "header",
           "normalizedSignature": "Header|:System.Reflection.PortableExecutable.PEHeaderBuilder|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2420,7 +2420,7 @@
         },
         {
           "clrName": "IdProvider",
-          "tsEmitName": "IdProvider",
+          "tsEmitName": "idProvider",
           "normalizedSignature": "IdProvider|:System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2434,7 +2434,7 @@
         },
         {
           "clrName": "IsDeterministic",
-          "tsEmitName": "IsDeterministic",
+          "tsEmitName": "isDeterministic",
           "normalizedSignature": "IsDeterministic|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2464,7 +2464,7 @@
       "properties": [
         {
           "clrName": "AddressOfEntryPoint",
-          "tsEmitName": "AddressOfEntryPoint",
+          "tsEmitName": "addressOfEntryPoint",
           "normalizedSignature": "AddressOfEntryPoint|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2478,7 +2478,7 @@
         },
         {
           "clrName": "ExportTable",
-          "tsEmitName": "ExportTable",
+          "tsEmitName": "exportTable",
           "normalizedSignature": "ExportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2492,7 +2492,7 @@
         },
         {
           "clrName": "ImportTable",
-          "tsEmitName": "ImportTable",
+          "tsEmitName": "importTable",
           "normalizedSignature": "ImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2506,7 +2506,7 @@
         },
         {
           "clrName": "ResourceTable",
-          "tsEmitName": "ResourceTable",
+          "tsEmitName": "resourceTable",
           "normalizedSignature": "ResourceTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2520,7 +2520,7 @@
         },
         {
           "clrName": "ExceptionTable",
-          "tsEmitName": "ExceptionTable",
+          "tsEmitName": "exceptionTable",
           "normalizedSignature": "ExceptionTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2534,7 +2534,7 @@
         },
         {
           "clrName": "BaseRelocationTable",
-          "tsEmitName": "BaseRelocationTable",
+          "tsEmitName": "baseRelocationTable",
           "normalizedSignature": "BaseRelocationTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2548,7 +2548,7 @@
         },
         {
           "clrName": "DebugTable",
-          "tsEmitName": "DebugTable",
+          "tsEmitName": "debugTable",
           "normalizedSignature": "DebugTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2562,7 +2562,7 @@
         },
         {
           "clrName": "CopyrightTable",
-          "tsEmitName": "CopyrightTable",
+          "tsEmitName": "copyrightTable",
           "normalizedSignature": "CopyrightTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2576,7 +2576,7 @@
         },
         {
           "clrName": "GlobalPointerTable",
-          "tsEmitName": "GlobalPointerTable",
+          "tsEmitName": "globalPointerTable",
           "normalizedSignature": "GlobalPointerTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2590,7 +2590,7 @@
         },
         {
           "clrName": "ThreadLocalStorageTable",
-          "tsEmitName": "ThreadLocalStorageTable",
+          "tsEmitName": "threadLocalStorageTable",
           "normalizedSignature": "ThreadLocalStorageTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2604,7 +2604,7 @@
         },
         {
           "clrName": "LoadConfigTable",
-          "tsEmitName": "LoadConfigTable",
+          "tsEmitName": "loadConfigTable",
           "normalizedSignature": "LoadConfigTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2618,7 +2618,7 @@
         },
         {
           "clrName": "BoundImportTable",
-          "tsEmitName": "BoundImportTable",
+          "tsEmitName": "boundImportTable",
           "normalizedSignature": "BoundImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2632,7 +2632,7 @@
         },
         {
           "clrName": "ImportAddressTable",
-          "tsEmitName": "ImportAddressTable",
+          "tsEmitName": "importAddressTable",
           "normalizedSignature": "ImportAddressTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2646,7 +2646,7 @@
         },
         {
           "clrName": "DelayImportTable",
-          "tsEmitName": "DelayImportTable",
+          "tsEmitName": "delayImportTable",
           "normalizedSignature": "DelayImportTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2660,7 +2660,7 @@
         },
         {
           "clrName": "CorHeaderTable",
-          "tsEmitName": "CorHeaderTable",
+          "tsEmitName": "corHeaderTable",
           "normalizedSignature": "CorHeaderTable|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2696,7 +2696,7 @@
       "properties": [
         {
           "clrName": "Magic",
-          "tsEmitName": "Magic",
+          "tsEmitName": "magic",
           "normalizedSignature": "Magic|:System.Reflection.PortableExecutable.PEMagic|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2710,7 +2710,7 @@
         },
         {
           "clrName": "MajorLinkerVersion",
-          "tsEmitName": "MajorLinkerVersion",
+          "tsEmitName": "majorLinkerVersion",
           "normalizedSignature": "MajorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2724,7 +2724,7 @@
         },
         {
           "clrName": "MinorLinkerVersion",
-          "tsEmitName": "MinorLinkerVersion",
+          "tsEmitName": "minorLinkerVersion",
           "normalizedSignature": "MinorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2738,7 +2738,7 @@
         },
         {
           "clrName": "SizeOfCode",
-          "tsEmitName": "SizeOfCode",
+          "tsEmitName": "sizeOfCode",
           "normalizedSignature": "SizeOfCode|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2752,7 +2752,7 @@
         },
         {
           "clrName": "SizeOfInitializedData",
-          "tsEmitName": "SizeOfInitializedData",
+          "tsEmitName": "sizeOfInitializedData",
           "normalizedSignature": "SizeOfInitializedData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2766,7 +2766,7 @@
         },
         {
           "clrName": "SizeOfUninitializedData",
-          "tsEmitName": "SizeOfUninitializedData",
+          "tsEmitName": "sizeOfUninitializedData",
           "normalizedSignature": "SizeOfUninitializedData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2780,7 +2780,7 @@
         },
         {
           "clrName": "AddressOfEntryPoint",
-          "tsEmitName": "AddressOfEntryPoint",
+          "tsEmitName": "addressOfEntryPoint",
           "normalizedSignature": "AddressOfEntryPoint|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2794,7 +2794,7 @@
         },
         {
           "clrName": "BaseOfCode",
-          "tsEmitName": "BaseOfCode",
+          "tsEmitName": "baseOfCode",
           "normalizedSignature": "BaseOfCode|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2808,7 +2808,7 @@
         },
         {
           "clrName": "BaseOfData",
-          "tsEmitName": "BaseOfData",
+          "tsEmitName": "baseOfData",
           "normalizedSignature": "BaseOfData|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2822,7 +2822,7 @@
         },
         {
           "clrName": "ImageBase",
-          "tsEmitName": "ImageBase",
+          "tsEmitName": "imageBase",
           "normalizedSignature": "ImageBase|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2836,7 +2836,7 @@
         },
         {
           "clrName": "SectionAlignment",
-          "tsEmitName": "SectionAlignment",
+          "tsEmitName": "sectionAlignment",
           "normalizedSignature": "SectionAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2850,7 +2850,7 @@
         },
         {
           "clrName": "FileAlignment",
-          "tsEmitName": "FileAlignment",
+          "tsEmitName": "fileAlignment",
           "normalizedSignature": "FileAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2864,7 +2864,7 @@
         },
         {
           "clrName": "MajorOperatingSystemVersion",
-          "tsEmitName": "MajorOperatingSystemVersion",
+          "tsEmitName": "majorOperatingSystemVersion",
           "normalizedSignature": "MajorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2878,7 +2878,7 @@
         },
         {
           "clrName": "MinorOperatingSystemVersion",
-          "tsEmitName": "MinorOperatingSystemVersion",
+          "tsEmitName": "minorOperatingSystemVersion",
           "normalizedSignature": "MinorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2892,7 +2892,7 @@
         },
         {
           "clrName": "MajorImageVersion",
-          "tsEmitName": "MajorImageVersion",
+          "tsEmitName": "majorImageVersion",
           "normalizedSignature": "MajorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2906,7 +2906,7 @@
         },
         {
           "clrName": "MinorImageVersion",
-          "tsEmitName": "MinorImageVersion",
+          "tsEmitName": "minorImageVersion",
           "normalizedSignature": "MinorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2920,7 +2920,7 @@
         },
         {
           "clrName": "MajorSubsystemVersion",
-          "tsEmitName": "MajorSubsystemVersion",
+          "tsEmitName": "majorSubsystemVersion",
           "normalizedSignature": "MajorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2934,7 +2934,7 @@
         },
         {
           "clrName": "MinorSubsystemVersion",
-          "tsEmitName": "MinorSubsystemVersion",
+          "tsEmitName": "minorSubsystemVersion",
           "normalizedSignature": "MinorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2948,7 +2948,7 @@
         },
         {
           "clrName": "SizeOfImage",
-          "tsEmitName": "SizeOfImage",
+          "tsEmitName": "sizeOfImage",
           "normalizedSignature": "SizeOfImage|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2962,7 +2962,7 @@
         },
         {
           "clrName": "SizeOfHeaders",
-          "tsEmitName": "SizeOfHeaders",
+          "tsEmitName": "sizeOfHeaders",
           "normalizedSignature": "SizeOfHeaders|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2976,7 +2976,7 @@
         },
         {
           "clrName": "CheckSum",
-          "tsEmitName": "CheckSum",
+          "tsEmitName": "checkSum",
           "normalizedSignature": "CheckSum|:System.UInt32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2990,7 +2990,7 @@
         },
         {
           "clrName": "Subsystem",
-          "tsEmitName": "Subsystem",
+          "tsEmitName": "subsystem",
           "normalizedSignature": "Subsystem|:System.Reflection.PortableExecutable.Subsystem|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3004,7 +3004,7 @@
         },
         {
           "clrName": "DllCharacteristics",
-          "tsEmitName": "DllCharacteristics",
+          "tsEmitName": "dllCharacteristics",
           "normalizedSignature": "DllCharacteristics|:System.Reflection.PortableExecutable.DllCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3018,7 +3018,7 @@
         },
         {
           "clrName": "SizeOfStackReserve",
-          "tsEmitName": "SizeOfStackReserve",
+          "tsEmitName": "sizeOfStackReserve",
           "normalizedSignature": "SizeOfStackReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3032,7 +3032,7 @@
         },
         {
           "clrName": "SizeOfStackCommit",
-          "tsEmitName": "SizeOfStackCommit",
+          "tsEmitName": "sizeOfStackCommit",
           "normalizedSignature": "SizeOfStackCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3046,7 +3046,7 @@
         },
         {
           "clrName": "SizeOfHeapReserve",
-          "tsEmitName": "SizeOfHeapReserve",
+          "tsEmitName": "sizeOfHeapReserve",
           "normalizedSignature": "SizeOfHeapReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3060,7 +3060,7 @@
         },
         {
           "clrName": "SizeOfHeapCommit",
-          "tsEmitName": "SizeOfHeapCommit",
+          "tsEmitName": "sizeOfHeapCommit",
           "normalizedSignature": "SizeOfHeapCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3074,7 +3074,7 @@
         },
         {
           "clrName": "NumberOfRvaAndSizes",
-          "tsEmitName": "NumberOfRvaAndSizes",
+          "tsEmitName": "numberOfRvaAndSizes",
           "normalizedSignature": "NumberOfRvaAndSizes|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3088,7 +3088,7 @@
         },
         {
           "clrName": "ExportTableDirectory",
-          "tsEmitName": "ExportTableDirectory",
+          "tsEmitName": "exportTableDirectory",
           "normalizedSignature": "ExportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3102,7 +3102,7 @@
         },
         {
           "clrName": "ImportTableDirectory",
-          "tsEmitName": "ImportTableDirectory",
+          "tsEmitName": "importTableDirectory",
           "normalizedSignature": "ImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3116,7 +3116,7 @@
         },
         {
           "clrName": "ResourceTableDirectory",
-          "tsEmitName": "ResourceTableDirectory",
+          "tsEmitName": "resourceTableDirectory",
           "normalizedSignature": "ResourceTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3130,7 +3130,7 @@
         },
         {
           "clrName": "ExceptionTableDirectory",
-          "tsEmitName": "ExceptionTableDirectory",
+          "tsEmitName": "exceptionTableDirectory",
           "normalizedSignature": "ExceptionTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3144,7 +3144,7 @@
         },
         {
           "clrName": "CertificateTableDirectory",
-          "tsEmitName": "CertificateTableDirectory",
+          "tsEmitName": "certificateTableDirectory",
           "normalizedSignature": "CertificateTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3158,7 +3158,7 @@
         },
         {
           "clrName": "BaseRelocationTableDirectory",
-          "tsEmitName": "BaseRelocationTableDirectory",
+          "tsEmitName": "baseRelocationTableDirectory",
           "normalizedSignature": "BaseRelocationTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3172,7 +3172,7 @@
         },
         {
           "clrName": "DebugTableDirectory",
-          "tsEmitName": "DebugTableDirectory",
+          "tsEmitName": "debugTableDirectory",
           "normalizedSignature": "DebugTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3186,7 +3186,7 @@
         },
         {
           "clrName": "CopyrightTableDirectory",
-          "tsEmitName": "CopyrightTableDirectory",
+          "tsEmitName": "copyrightTableDirectory",
           "normalizedSignature": "CopyrightTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3200,7 +3200,7 @@
         },
         {
           "clrName": "GlobalPointerTableDirectory",
-          "tsEmitName": "GlobalPointerTableDirectory",
+          "tsEmitName": "globalPointerTableDirectory",
           "normalizedSignature": "GlobalPointerTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3214,7 +3214,7 @@
         },
         {
           "clrName": "ThreadLocalStorageTableDirectory",
-          "tsEmitName": "ThreadLocalStorageTableDirectory",
+          "tsEmitName": "threadLocalStorageTableDirectory",
           "normalizedSignature": "ThreadLocalStorageTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3228,7 +3228,7 @@
         },
         {
           "clrName": "LoadConfigTableDirectory",
-          "tsEmitName": "LoadConfigTableDirectory",
+          "tsEmitName": "loadConfigTableDirectory",
           "normalizedSignature": "LoadConfigTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3242,7 +3242,7 @@
         },
         {
           "clrName": "BoundImportTableDirectory",
-          "tsEmitName": "BoundImportTableDirectory",
+          "tsEmitName": "boundImportTableDirectory",
           "normalizedSignature": "BoundImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3256,7 +3256,7 @@
         },
         {
           "clrName": "ImportAddressTableDirectory",
-          "tsEmitName": "ImportAddressTableDirectory",
+          "tsEmitName": "importAddressTableDirectory",
           "normalizedSignature": "ImportAddressTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3270,7 +3270,7 @@
         },
         {
           "clrName": "DelayImportTableDirectory",
-          "tsEmitName": "DelayImportTableDirectory",
+          "tsEmitName": "delayImportTableDirectory",
           "normalizedSignature": "DelayImportTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3284,7 +3284,7 @@
         },
         {
           "clrName": "CorHeaderTableDirectory",
-          "tsEmitName": "CorHeaderTableDirectory",
+          "tsEmitName": "corHeaderTableDirectory",
           "normalizedSignature": "CorHeaderTableDirectory|:System.Reflection.PortableExecutable.DirectoryEntry|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3313,7 +3313,7 @@
       "methods": [
         {
           "clrName": "CreateExecutableHeader",
-          "tsEmitName": "CreateExecutableHeader",
+          "tsEmitName": "createExecutableHeader",
           "normalizedSignature": "CreateExecutableHeader|():System.Reflection.PortableExecutable.PEHeaderBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3327,7 +3327,7 @@
         },
         {
           "clrName": "CreateLibraryHeader",
-          "tsEmitName": "CreateLibraryHeader",
+          "tsEmitName": "createLibraryHeader",
           "normalizedSignature": "CreateLibraryHeader|():System.Reflection.PortableExecutable.PEHeaderBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3343,7 +3343,7 @@
       "properties": [
         {
           "clrName": "Machine",
-          "tsEmitName": "Machine",
+          "tsEmitName": "machine",
           "normalizedSignature": "Machine|:System.Reflection.PortableExecutable.Machine|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3357,7 +3357,7 @@
         },
         {
           "clrName": "ImageCharacteristics",
-          "tsEmitName": "ImageCharacteristics",
+          "tsEmitName": "imageCharacteristics",
           "normalizedSignature": "ImageCharacteristics|:System.Reflection.PortableExecutable.Characteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3371,7 +3371,7 @@
         },
         {
           "clrName": "MajorLinkerVersion",
-          "tsEmitName": "MajorLinkerVersion",
+          "tsEmitName": "majorLinkerVersion",
           "normalizedSignature": "MajorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3385,7 +3385,7 @@
         },
         {
           "clrName": "MinorLinkerVersion",
-          "tsEmitName": "MinorLinkerVersion",
+          "tsEmitName": "minorLinkerVersion",
           "normalizedSignature": "MinorLinkerVersion|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3399,7 +3399,7 @@
         },
         {
           "clrName": "ImageBase",
-          "tsEmitName": "ImageBase",
+          "tsEmitName": "imageBase",
           "normalizedSignature": "ImageBase|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3413,7 +3413,7 @@
         },
         {
           "clrName": "SectionAlignment",
-          "tsEmitName": "SectionAlignment",
+          "tsEmitName": "sectionAlignment",
           "normalizedSignature": "SectionAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3427,7 +3427,7 @@
         },
         {
           "clrName": "FileAlignment",
-          "tsEmitName": "FileAlignment",
+          "tsEmitName": "fileAlignment",
           "normalizedSignature": "FileAlignment|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3441,7 +3441,7 @@
         },
         {
           "clrName": "MajorOperatingSystemVersion",
-          "tsEmitName": "MajorOperatingSystemVersion",
+          "tsEmitName": "majorOperatingSystemVersion",
           "normalizedSignature": "MajorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3455,7 +3455,7 @@
         },
         {
           "clrName": "MinorOperatingSystemVersion",
-          "tsEmitName": "MinorOperatingSystemVersion",
+          "tsEmitName": "minorOperatingSystemVersion",
           "normalizedSignature": "MinorOperatingSystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3469,7 +3469,7 @@
         },
         {
           "clrName": "MajorImageVersion",
-          "tsEmitName": "MajorImageVersion",
+          "tsEmitName": "majorImageVersion",
           "normalizedSignature": "MajorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3483,7 +3483,7 @@
         },
         {
           "clrName": "MinorImageVersion",
-          "tsEmitName": "MinorImageVersion",
+          "tsEmitName": "minorImageVersion",
           "normalizedSignature": "MinorImageVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3497,7 +3497,7 @@
         },
         {
           "clrName": "MajorSubsystemVersion",
-          "tsEmitName": "MajorSubsystemVersion",
+          "tsEmitName": "majorSubsystemVersion",
           "normalizedSignature": "MajorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3511,7 +3511,7 @@
         },
         {
           "clrName": "MinorSubsystemVersion",
-          "tsEmitName": "MinorSubsystemVersion",
+          "tsEmitName": "minorSubsystemVersion",
           "normalizedSignature": "MinorSubsystemVersion|:System.UInt16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3525,7 +3525,7 @@
         },
         {
           "clrName": "Subsystem",
-          "tsEmitName": "Subsystem",
+          "tsEmitName": "subsystem",
           "normalizedSignature": "Subsystem|:System.Reflection.PortableExecutable.Subsystem|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3539,7 +3539,7 @@
         },
         {
           "clrName": "DllCharacteristics",
-          "tsEmitName": "DllCharacteristics",
+          "tsEmitName": "dllCharacteristics",
           "normalizedSignature": "DllCharacteristics|:System.Reflection.PortableExecutable.DllCharacteristics|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3553,7 +3553,7 @@
         },
         {
           "clrName": "SizeOfStackReserve",
-          "tsEmitName": "SizeOfStackReserve",
+          "tsEmitName": "sizeOfStackReserve",
           "normalizedSignature": "SizeOfStackReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3567,7 +3567,7 @@
         },
         {
           "clrName": "SizeOfStackCommit",
-          "tsEmitName": "SizeOfStackCommit",
+          "tsEmitName": "sizeOfStackCommit",
           "normalizedSignature": "SizeOfStackCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3581,7 +3581,7 @@
         },
         {
           "clrName": "SizeOfHeapReserve",
-          "tsEmitName": "SizeOfHeapReserve",
+          "tsEmitName": "sizeOfHeapReserve",
           "normalizedSignature": "SizeOfHeapReserve|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3595,7 +3595,7 @@
         },
         {
           "clrName": "SizeOfHeapCommit",
-          "tsEmitName": "SizeOfHeapCommit",
+          "tsEmitName": "sizeOfHeapCommit",
           "normalizedSignature": "SizeOfHeapCommit|:System.UInt64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3630,7 +3630,7 @@
       "methods": [
         {
           "clrName": "TryGetDirectoryOffset",
-          "tsEmitName": "TryGetDirectoryOffset",
+          "tsEmitName": "tryGetDirectoryOffset",
           "normalizedSignature": "TryGetDirectoryOffset|(System.Reflection.PortableExecutable.DirectoryEntry,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3644,7 +3644,7 @@
         },
         {
           "clrName": "GetContainingSectionIndex",
-          "tsEmitName": "GetContainingSectionIndex",
+          "tsEmitName": "getContainingSectionIndex",
           "normalizedSignature": "GetContainingSectionIndex|(System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3660,7 +3660,7 @@
       "properties": [
         {
           "clrName": "MetadataStartOffset",
-          "tsEmitName": "MetadataStartOffset",
+          "tsEmitName": "metadataStartOffset",
           "normalizedSignature": "MetadataStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3674,7 +3674,7 @@
         },
         {
           "clrName": "MetadataSize",
-          "tsEmitName": "MetadataSize",
+          "tsEmitName": "metadataSize",
           "normalizedSignature": "MetadataSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3688,7 +3688,7 @@
         },
         {
           "clrName": "CoffHeader",
-          "tsEmitName": "CoffHeader",
+          "tsEmitName": "coffHeader",
           "normalizedSignature": "CoffHeader|:System.Reflection.PortableExecutable.CoffHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3702,7 +3702,7 @@
         },
         {
           "clrName": "CoffHeaderStartOffset",
-          "tsEmitName": "CoffHeaderStartOffset",
+          "tsEmitName": "coffHeaderStartOffset",
           "normalizedSignature": "CoffHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3716,7 +3716,7 @@
         },
         {
           "clrName": "IsCoffOnly",
-          "tsEmitName": "IsCoffOnly",
+          "tsEmitName": "isCoffOnly",
           "normalizedSignature": "IsCoffOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3730,7 +3730,7 @@
         },
         {
           "clrName": "PEHeader",
-          "tsEmitName": "PEHeader",
+          "tsEmitName": "peHeader",
           "normalizedSignature": "PEHeader|:System.Reflection.PortableExecutable.PEHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3744,7 +3744,7 @@
         },
         {
           "clrName": "PEHeaderStartOffset",
-          "tsEmitName": "PEHeaderStartOffset",
+          "tsEmitName": "peHeaderStartOffset",
           "normalizedSignature": "PEHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3758,7 +3758,7 @@
         },
         {
           "clrName": "SectionHeaders",
-          "tsEmitName": "SectionHeaders",
+          "tsEmitName": "sectionHeaders",
           "normalizedSignature": "SectionHeaders|:System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.SectionHeader,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3772,7 +3772,7 @@
         },
         {
           "clrName": "CorHeader",
-          "tsEmitName": "CorHeader",
+          "tsEmitName": "corHeader",
           "normalizedSignature": "CorHeader|:System.Reflection.PortableExecutable.CorHeader|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3786,7 +3786,7 @@
         },
         {
           "clrName": "CorHeaderStartOffset",
-          "tsEmitName": "CorHeaderStartOffset",
+          "tsEmitName": "corHeaderStartOffset",
           "normalizedSignature": "CorHeaderStartOffset|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3800,7 +3800,7 @@
         },
         {
           "clrName": "IsConsoleApplication",
-          "tsEmitName": "IsConsoleApplication",
+          "tsEmitName": "isConsoleApplication",
           "normalizedSignature": "IsConsoleApplication|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3814,7 +3814,7 @@
         },
         {
           "clrName": "IsDll",
-          "tsEmitName": "IsDll",
+          "tsEmitName": "isDll",
           "normalizedSignature": "IsDll|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3828,7 +3828,7 @@
         },
         {
           "clrName": "IsExe",
-          "tsEmitName": "IsExe",
+          "tsEmitName": "isExe",
           "normalizedSignature": "IsExe|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3873,7 +3873,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3887,7 +3887,7 @@
         },
         {
           "clrName": "GetEntireImage",
-          "tsEmitName": "GetEntireImage",
+          "tsEmitName": "getEntireImage",
           "normalizedSignature": "GetEntireImage|():System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3901,7 +3901,7 @@
         },
         {
           "clrName": "GetMetadata",
-          "tsEmitName": "GetMetadata",
+          "tsEmitName": "getMetadata",
           "normalizedSignature": "GetMetadata|():System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3915,7 +3915,7 @@
         },
         {
           "clrName": "GetSectionData",
-          "tsEmitName": "GetSectionData",
+          "tsEmitName": "getSectionData",
           "normalizedSignature": "GetSectionData|(System.Int32):System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3929,7 +3929,7 @@
         },
         {
           "clrName": "GetSectionData",
-          "tsEmitName": "GetSectionData2",
+          "tsEmitName": "getSectionData2",
           "normalizedSignature": "GetSectionData|(System.String):System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3943,7 +3943,7 @@
         },
         {
           "clrName": "ReadDebugDirectory",
-          "tsEmitName": "ReadDebugDirectory",
+          "tsEmitName": "readDebugDirectory",
           "normalizedSignature": "ReadDebugDirectory|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.DebugDirectoryEntry,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3957,7 +3957,7 @@
         },
         {
           "clrName": "ReadCodeViewDebugDirectoryData",
-          "tsEmitName": "ReadCodeViewDebugDirectoryData",
+          "tsEmitName": "readCodeViewDebugDirectoryData",
           "normalizedSignature": "ReadCodeViewDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.CodeViewDebugDirectoryData|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3971,7 +3971,7 @@
         },
         {
           "clrName": "ReadPdbChecksumDebugDirectoryData",
-          "tsEmitName": "ReadPdbChecksumDebugDirectoryData",
+          "tsEmitName": "readPdbChecksumDebugDirectoryData",
           "normalizedSignature": "ReadPdbChecksumDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.PortableExecutable.PdbChecksumDebugDirectoryData|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3985,7 +3985,7 @@
         },
         {
           "clrName": "TryOpenAssociatedPortablePdb",
-          "tsEmitName": "TryOpenAssociatedPortablePdb",
+          "tsEmitName": "tryOpenAssociatedPortablePdb",
           "normalizedSignature": "TryOpenAssociatedPortablePdb|(System.String,System.Func_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Reflection.Metadata.MetadataReaderProvider\u0026,System.String\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3999,7 +3999,7 @@
         },
         {
           "clrName": "ReadEmbeddedPortablePdbDebugDirectoryData",
-          "tsEmitName": "ReadEmbeddedPortablePdbDebugDirectoryData",
+          "tsEmitName": "readEmbeddedPortablePdbDebugDirectoryData",
           "normalizedSignature": "ReadEmbeddedPortablePdbDebugDirectoryData|(System.Reflection.PortableExecutable.DebugDirectoryEntry):System.Reflection.Metadata.MetadataReaderProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4013,7 +4013,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4030,7 +4030,7 @@
       "properties": [
         {
           "clrName": "IsLoadedImage",
-          "tsEmitName": "IsLoadedImage",
+          "tsEmitName": "isLoadedImage",
           "normalizedSignature": "IsLoadedImage|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4044,7 +4044,7 @@
         },
         {
           "clrName": "PEHeaders",
-          "tsEmitName": "PEHeaders",
+          "tsEmitName": "peHeaders",
           "normalizedSignature": "PEHeaders|:System.Reflection.PortableExecutable.PEHeaders|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4058,7 +4058,7 @@
         },
         {
           "clrName": "IsEntireImageAvailable",
-          "tsEmitName": "IsEntireImageAvailable",
+          "tsEmitName": "isEntireImageAvailable",
           "normalizedSignature": "IsEntireImageAvailable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4072,7 +4072,7 @@
         },
         {
           "clrName": "HasMetadata",
-          "tsEmitName": "HasMetadata",
+          "tsEmitName": "hasMetadata",
           "normalizedSignature": "HasMetadata|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

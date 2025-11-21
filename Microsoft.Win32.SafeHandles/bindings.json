@@ -9,7 +9,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -21,7 +21,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -35,7 +35,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875977,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -52,7 +52,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -62,7 +62,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -72,7 +72,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -82,7 +82,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -92,7 +92,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -102,7 +102,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -112,7 +112,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -122,7 +122,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -132,7 +132,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -142,7 +142,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -154,7 +154,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -164,7 +164,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -183,7 +183,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -195,7 +195,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -209,7 +209,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875978,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -226,7 +226,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -236,7 +236,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -246,7 +246,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -256,7 +256,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -266,7 +266,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -276,7 +276,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -286,7 +286,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -296,7 +296,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -306,7 +306,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -316,7 +316,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -328,7 +328,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -338,7 +338,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -357,7 +357,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -369,7 +369,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -383,7 +383,7 @@
       "properties": [
         {
           "clrName": "InvalidHandle",
-          "tsEmitName": "InvalidHandle",
+          "tsEmitName": "invalidHandle",
           "metadataToken": 385875969,
           "canonicalSignature": ":Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "normalizedSignature": "InvalidHandle|:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle|static=true|accessor=get",
@@ -396,7 +396,7 @@
         },
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875970,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -432,7 +432,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -442,7 +442,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -452,7 +452,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -462,7 +462,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -472,7 +472,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -482,7 +482,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -492,7 +492,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -502,7 +502,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -512,7 +512,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -522,7 +522,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -532,7 +532,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -542,7 +542,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -552,7 +552,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -564,7 +564,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "InvalidHandle",
+          "tsName": "invalidHandle",
           "isStatic": true,
           "tsSignatureId": "InvalidHandle|:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle|static=true|accessor=get",
           "target": {
@@ -574,7 +574,7 @@
           }
         },
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -584,7 +584,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -623,7 +623,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -635,7 +635,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -649,7 +649,7 @@
       "properties": [
         {
           "clrName": "IsAsync",
-          "tsEmitName": "IsAsync",
+          "tsEmitName": "isAsync",
           "metadataToken": 385875983,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
@@ -662,7 +662,7 @@
         },
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875987,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -698,7 +698,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -708,7 +708,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -718,7 +718,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -728,7 +728,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -738,7 +738,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -748,7 +748,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -758,7 +758,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -768,7 +768,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -778,7 +778,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -788,7 +788,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -798,7 +798,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -808,7 +808,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -818,7 +818,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -830,7 +830,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsAsync",
+          "tsName": "isAsync",
           "isStatic": false,
           "tsSignatureId": "IsAsync|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -840,7 +840,7 @@
           }
         },
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -850,7 +850,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -889,7 +889,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -901,7 +901,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -915,7 +915,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875979,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -932,7 +932,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -942,7 +942,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -952,7 +952,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -962,7 +962,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -972,7 +972,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -982,7 +982,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -992,7 +992,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -1002,7 +1002,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1012,7 +1012,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1022,7 +1022,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1032,7 +1032,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1042,7 +1042,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1052,7 +1052,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1064,7 +1064,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1074,7 +1074,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1093,7 +1093,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1105,7 +1105,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1119,7 +1119,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385875980,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -1136,7 +1136,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1146,7 +1146,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1156,7 +1156,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -1166,7 +1166,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -1176,7 +1176,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -1186,7 +1186,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -1196,7 +1196,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -1206,7 +1206,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1216,7 +1216,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1226,7 +1226,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1236,7 +1236,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1246,7 +1246,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1256,7 +1256,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1268,7 +1268,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1278,7 +1278,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1297,7 +1297,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1309,7 +1309,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1323,7 +1323,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385876009,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -1350,7 +1350,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1360,7 +1360,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1370,7 +1370,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -1380,7 +1380,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -1390,7 +1390,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -1400,7 +1400,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -1410,7 +1410,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -1420,7 +1420,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1430,7 +1430,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1440,7 +1440,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1450,7 +1450,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1460,7 +1460,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1470,7 +1470,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1482,7 +1482,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1492,7 +1492,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1522,7 +1522,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1534,7 +1534,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1561,7 +1561,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1571,7 +1571,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1581,7 +1581,7 @@
           }
         },
         {
-          "tsName": "Initialize",
+          "tsName": "initialize",
           "isStatic": false,
           "tsSignatureId": "Initialize|(System.UInt64):System.Void|static=false",
           "target": {
@@ -1591,7 +1591,7 @@
           }
         },
         {
-          "tsName": "Initialize2",
+          "tsName": "initialize2",
           "isStatic": false,
           "tsSignatureId": "Initialize|(System.UInt32,System.UInt32):System.Void|static=false",
           "target": {
@@ -1601,7 +1601,7 @@
           }
         },
         {
-          "tsName": "Initialize3",
+          "tsName": "initialize3",
           "isStatic": false,
           "tsSignatureId": "Initialize|(System.UInt32):System.Void|static=false",
           "target": {
@@ -1611,7 +1611,7 @@
           }
         },
         {
-          "tsName": "AcquirePointer",
+          "tsName": "acquirePointer",
           "isStatic": false,
           "tsSignatureId": "AcquirePointer|(System.Byte*\u0026):System.Void|static=false",
           "target": {
@@ -1621,7 +1621,7 @@
           }
         },
         {
-          "tsName": "ReleasePointer",
+          "tsName": "releasePointer",
           "isStatic": false,
           "tsSignatureId": "ReleasePointer|():System.Void|static=false",
           "target": {
@@ -1631,7 +1631,7 @@
           }
         },
         {
-          "tsName": "Read",
+          "tsName": "read",
           "isStatic": false,
           "tsSignatureId": "Read|(System.UInt64):T|static=false",
           "target": {
@@ -1641,7 +1641,7 @@
           }
         },
         {
-          "tsName": "ReadArray",
+          "tsName": "readArray",
           "isStatic": false,
           "tsSignatureId": "ReadArray|(System.UInt64,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -1651,7 +1651,7 @@
           }
         },
         {
-          "tsName": "ReadSpan",
+          "tsName": "readSpan",
           "isStatic": false,
           "tsSignatureId": "ReadSpan|(System.UInt64,Span_1):System.Void|static=false",
           "target": {
@@ -1661,7 +1661,7 @@
           }
         },
         {
-          "tsName": "Write",
+          "tsName": "write",
           "isStatic": false,
           "tsSignatureId": "Write|(System.UInt64,T):System.Void|static=false",
           "target": {
@@ -1671,7 +1671,7 @@
           }
         },
         {
-          "tsName": "WriteArray",
+          "tsName": "writeArray",
           "isStatic": false,
           "tsSignatureId": "WriteArray|(System.UInt64,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -1681,7 +1681,7 @@
           }
         },
         {
-          "tsName": "WriteSpan",
+          "tsName": "writeSpan",
           "isStatic": false,
           "tsSignatureId": "WriteSpan|(System.UInt64,ReadOnlySpan_1):System.Void|static=false",
           "target": {
@@ -1691,7 +1691,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -1701,7 +1701,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -1711,7 +1711,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -1721,7 +1721,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -1731,7 +1731,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -1741,7 +1741,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1751,7 +1751,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1761,7 +1761,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1771,7 +1771,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1781,7 +1781,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1791,7 +1791,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1803,7 +1803,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ByteLength",
+          "tsName": "byteLength",
           "isStatic": false,
           "tsSignatureId": "ByteLength|:System.UInt64|static=false|accessor=get",
           "target": {
@@ -1813,7 +1813,7 @@
           }
         },
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1823,7 +1823,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1853,7 +1853,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1865,7 +1865,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1882,7 +1882,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1892,7 +1892,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -1902,7 +1902,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -1912,7 +1912,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -1922,7 +1922,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -1932,7 +1932,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -1942,7 +1942,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -1952,7 +1952,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1962,7 +1962,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1972,7 +1972,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1982,7 +1982,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1992,7 +1992,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2002,7 +2002,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2014,7 +2014,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2024,7 +2024,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2043,7 +2043,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2055,7 +2055,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2091,7 +2091,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2101,7 +2101,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2111,7 +2111,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -2121,7 +2121,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -2131,7 +2131,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -2141,7 +2141,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -2151,7 +2151,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -2161,7 +2161,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2171,7 +2171,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2181,7 +2181,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2191,7 +2191,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2201,7 +2201,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2211,7 +2211,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2223,7 +2223,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2233,7 +2233,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2272,7 +2272,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2284,7 +2284,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2311,7 +2311,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2321,7 +2321,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2331,7 +2331,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -2341,7 +2341,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -2351,7 +2351,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -2361,7 +2361,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -2371,7 +2371,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -2381,7 +2381,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2391,7 +2391,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2401,7 +2401,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2411,7 +2411,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2421,7 +2421,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2431,7 +2431,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2443,7 +2443,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2453,7 +2453,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2483,7 +2483,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2495,7 +2495,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2522,7 +2522,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2532,7 +2532,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2542,7 +2542,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -2552,7 +2552,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -2562,7 +2562,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -2572,7 +2572,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -2582,7 +2582,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -2592,7 +2592,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2602,7 +2602,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2612,7 +2612,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2622,7 +2622,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2632,7 +2632,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2642,7 +2642,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2654,7 +2654,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2664,7 +2664,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2694,7 +2694,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2706,7 +2706,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2720,7 +2720,7 @@
       "properties": [
         {
           "clrName": "IsInvalid",
-          "tsEmitName": "IsInvalid",
+          "tsEmitName": "isInvalid",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
@@ -2756,7 +2756,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2766,7 +2766,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2776,7 +2776,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -2786,7 +2786,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -2796,7 +2796,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -2806,7 +2806,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -2816,7 +2816,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -2826,7 +2826,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2836,7 +2836,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2846,7 +2846,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2856,7 +2856,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2866,7 +2866,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2876,7 +2876,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2888,7 +2888,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2898,7 +2898,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2937,7 +2937,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2949,7 +2949,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2985,7 +2985,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -2995,7 +2995,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3005,7 +3005,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -3015,7 +3015,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -3025,7 +3025,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -3035,7 +3035,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -3045,7 +3045,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -3055,7 +3055,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3065,7 +3065,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3075,7 +3075,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3085,7 +3085,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3095,7 +3095,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3105,7 +3105,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3117,7 +3117,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3127,7 +3127,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3166,7 +3166,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3178,7 +3178,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3214,7 +3214,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3224,7 +3224,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3234,7 +3234,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -3244,7 +3244,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -3254,7 +3254,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -3264,7 +3264,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -3274,7 +3274,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -3284,7 +3284,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3294,7 +3294,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3304,7 +3304,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3314,7 +3314,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3324,7 +3324,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3334,7 +3334,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3346,7 +3346,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3356,7 +3356,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3395,7 +3395,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3407,7 +3407,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3443,7 +3443,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3453,7 +3453,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3463,7 +3463,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -3473,7 +3473,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -3483,7 +3483,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -3493,7 +3493,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -3503,7 +3503,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -3513,7 +3513,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3523,7 +3523,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3533,7 +3533,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3543,7 +3543,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3553,7 +3553,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3563,7 +3563,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3575,7 +3575,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3585,7 +3585,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3624,7 +3624,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3636,7 +3636,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3663,7 +3663,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "Dispose$view",
+          "tsName": "dispose$view",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3673,7 +3673,7 @@
           }
         },
         {
-          "tsName": "Dispose",
+          "tsName": "dispose",
           "isStatic": false,
           "tsSignatureId": "Dispose|():System.Void|static=false",
           "target": {
@@ -3683,7 +3683,7 @@
           }
         },
         {
-          "tsName": "DangerousGetHandle",
+          "tsName": "dangerousGetHandle",
           "isStatic": false,
           "tsSignatureId": "DangerousGetHandle|():System.IntPtr|static=false",
           "target": {
@@ -3693,7 +3693,7 @@
           }
         },
         {
-          "tsName": "Close",
+          "tsName": "close",
           "isStatic": false,
           "tsSignatureId": "Close|():System.Void|static=false",
           "target": {
@@ -3703,7 +3703,7 @@
           }
         },
         {
-          "tsName": "SetHandleAsInvalid",
+          "tsName": "setHandleAsInvalid",
           "isStatic": false,
           "tsSignatureId": "SetHandleAsInvalid|():System.Void|static=false",
           "target": {
@@ -3713,7 +3713,7 @@
           }
         },
         {
-          "tsName": "DangerousAddRef",
+          "tsName": "dangerousAddRef",
           "isStatic": false,
           "tsSignatureId": "DangerousAddRef|(System.Boolean\u0026):System.Void|static=false",
           "target": {
@@ -3723,7 +3723,7 @@
           }
         },
         {
-          "tsName": "DangerousRelease",
+          "tsName": "dangerousRelease",
           "isStatic": false,
           "tsSignatureId": "DangerousRelease|():System.Void|static=false",
           "target": {
@@ -3733,7 +3733,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3743,7 +3743,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3753,7 +3753,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3763,7 +3763,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3773,7 +3773,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3783,7 +3783,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3795,7 +3795,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "IsInvalid",
+          "tsName": "isInvalid",
           "isStatic": false,
           "tsSignatureId": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3805,7 +3805,7 @@
           }
         },
         {
-          "tsName": "IsClosed",
+          "tsName": "isClosed",
           "isStatic": false,
           "tsSignatureId": "IsClosed|:System.Boolean|static=false|accessor=get",
           "target": {

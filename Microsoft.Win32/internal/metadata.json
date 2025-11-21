@@ -26,7 +26,7 @@
         },
         {
           "clrName": "ClassesRoot",
-          "tsEmitName": "ClassesRoot",
+          "tsEmitName": "classesRoot",
           "normalizedSignature": "ClassesRoot|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "CurrentUser",
-          "tsEmitName": "CurrentUser",
+          "tsEmitName": "currentUser",
           "normalizedSignature": "CurrentUser|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "LocalMachine",
-          "tsEmitName": "LocalMachine",
+          "tsEmitName": "localMachine",
           "normalizedSignature": "LocalMachine|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "clrName": "Users",
-          "tsEmitName": "Users",
+          "tsEmitName": "users",
           "normalizedSignature": "Users|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "PerformanceData",
-          "tsEmitName": "PerformanceData",
+          "tsEmitName": "performanceData",
           "normalizedSignature": "PerformanceData|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "CurrentConfig",
-          "tsEmitName": "CurrentConfig",
+          "tsEmitName": "currentConfig",
           "normalizedSignature": "CurrentConfig|Microsoft.Win32.RegistryHive|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|Microsoft.Win32.RegistryKeyPermissionCheck|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "ReadSubTree",
-          "tsEmitName": "ReadSubTree",
+          "tsEmitName": "readSubTree",
           "normalizedSignature": "ReadSubTree|Microsoft.Win32.RegistryKeyPermissionCheck|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "ReadWriteSubTree",
-          "tsEmitName": "ReadWriteSubTree",
+          "tsEmitName": "readWriteSubTree",
           "normalizedSignature": "ReadWriteSubTree|Microsoft.Win32.RegistryKeyPermissionCheck|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|Microsoft.Win32.RegistryOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "clrName": "Volatile",
-          "tsEmitName": "Volatile",
+          "tsEmitName": "volatile",
           "normalizedSignature": "Volatile|Microsoft.Win32.RegistryOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "clrName": "String",
-          "tsEmitName": "String",
+          "tsEmitName": "string_",
           "normalizedSignature": "String|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "clrName": "ExpandString",
-          "tsEmitName": "ExpandString",
+          "tsEmitName": "expandString",
           "normalizedSignature": "ExpandString|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "clrName": "Binary",
-          "tsEmitName": "Binary",
+          "tsEmitName": "binary",
           "normalizedSignature": "Binary|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "clrName": "DWord",
-          "tsEmitName": "DWord",
+          "tsEmitName": "dWord",
           "normalizedSignature": "DWord|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "clrName": "MultiString",
-          "tsEmitName": "MultiString",
+          "tsEmitName": "multiString",
           "normalizedSignature": "MultiString|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "clrName": "QWord",
-          "tsEmitName": "QWord",
+          "tsEmitName": "qWord",
           "normalizedSignature": "QWord|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|Microsoft.Win32.RegistryValueOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "clrName": "DoNotExpandEnvironmentNames",
-          "tsEmitName": "DoNotExpandEnvironmentNames",
+          "tsEmitName": "doNotExpandEnvironmentNames",
           "normalizedSignature": "DoNotExpandEnvironmentNames|Microsoft.Win32.RegistryValueOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -314,7 +314,7 @@
         },
         {
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|Microsoft.Win32.RegistryView|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -322,7 +322,7 @@
         },
         {
           "clrName": "Registry64",
-          "tsEmitName": "Registry64",
+          "tsEmitName": "registry64",
           "normalizedSignature": "Registry64|Microsoft.Win32.RegistryView|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -330,7 +330,7 @@
         },
         {
           "clrName": "Registry32",
-          "tsEmitName": "Registry32",
+          "tsEmitName": "registry32",
           "normalizedSignature": "Registry32|Microsoft.Win32.RegistryView|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -352,7 +352,7 @@
       "methods": [
         {
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -366,7 +366,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -380,7 +380,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey2",
+          "tsEmitName": "createSubKey2",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -394,7 +394,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey3",
+          "tsEmitName": "createSubKey3",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -408,7 +408,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey4",
+          "tsEmitName": "createSubKey4",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -422,7 +422,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey5",
+          "tsEmitName": "createSubKey5",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -436,7 +436,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey6",
+          "tsEmitName": "createSubKey6",
           "normalizedSignature": "CreateSubKey|(System.String,System.Boolean):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -450,7 +450,7 @@
         },
         {
           "clrName": "CreateSubKey",
-          "tsEmitName": "CreateSubKey7",
+          "tsEmitName": "createSubKey7",
           "normalizedSignature": "CreateSubKey|(System.String,System.Boolean,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -464,7 +464,7 @@
         },
         {
           "clrName": "DeleteSubKey",
-          "tsEmitName": "DeleteSubKey",
+          "tsEmitName": "deleteSubKey",
           "normalizedSignature": "DeleteSubKey|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -478,7 +478,7 @@
         },
         {
           "clrName": "DeleteSubKey",
-          "tsEmitName": "DeleteSubKey2",
+          "tsEmitName": "deleteSubKey2",
           "normalizedSignature": "DeleteSubKey|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -492,7 +492,7 @@
         },
         {
           "clrName": "DeleteSubKeyTree",
-          "tsEmitName": "DeleteSubKeyTree",
+          "tsEmitName": "deleteSubKeyTree",
           "normalizedSignature": "DeleteSubKeyTree|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -506,7 +506,7 @@
         },
         {
           "clrName": "DeleteSubKeyTree",
-          "tsEmitName": "DeleteSubKeyTree2",
+          "tsEmitName": "deleteSubKeyTree2",
           "normalizedSignature": "DeleteSubKeyTree|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -520,7 +520,7 @@
         },
         {
           "clrName": "DeleteValue",
-          "tsEmitName": "DeleteValue",
+          "tsEmitName": "deleteValue",
           "normalizedSignature": "DeleteValue|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -534,7 +534,7 @@
         },
         {
           "clrName": "DeleteValue",
-          "tsEmitName": "DeleteValue2",
+          "tsEmitName": "deleteValue2",
           "normalizedSignature": "DeleteValue|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -548,7 +548,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -562,7 +562,7 @@
         },
         {
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -576,7 +576,7 @@
         },
         {
           "clrName": "FromHandle",
-          "tsEmitName": "FromHandle",
+          "tsEmitName": "fromHandle",
           "normalizedSignature": "FromHandle|(Microsoft.Win32.SafeHandles.SafeRegistryHandle):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -590,7 +590,7 @@
         },
         {
           "clrName": "FromHandle",
-          "tsEmitName": "FromHandle2",
+          "tsEmitName": "fromHandle2",
           "normalizedSignature": "FromHandle|(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -604,7 +604,7 @@
         },
         {
           "clrName": "GetAccessControl",
-          "tsEmitName": "GetAccessControl",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|():System.Security.AccessControl.RegistrySecurity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -618,7 +618,7 @@
         },
         {
           "clrName": "GetAccessControl",
-          "tsEmitName": "GetAccessControl2",
+          "tsEmitName": "getAccessControl2",
           "normalizedSignature": "GetAccessControl|(System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.RegistrySecurity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -632,7 +632,7 @@
         },
         {
           "clrName": "GetSubKeyNames",
-          "tsEmitName": "GetSubKeyNames",
+          "tsEmitName": "getSubKeyNames",
           "normalizedSignature": "GetSubKeyNames|():System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -646,7 +646,7 @@
         },
         {
           "clrName": "GetValue",
-          "tsEmitName": "GetValue",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -660,7 +660,7 @@
         },
         {
           "clrName": "GetValue",
-          "tsEmitName": "GetValue2",
+          "tsEmitName": "getValue2",
           "normalizedSignature": "GetValue|(System.String,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -674,7 +674,7 @@
         },
         {
           "clrName": "GetValue",
-          "tsEmitName": "GetValue3",
+          "tsEmitName": "getValue3",
           "normalizedSignature": "GetValue|(System.String,System.Object,Microsoft.Win32.RegistryValueOptions):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -688,7 +688,7 @@
         },
         {
           "clrName": "GetValueKind",
-          "tsEmitName": "GetValueKind",
+          "tsEmitName": "getValueKind",
           "normalizedSignature": "GetValueKind|(System.String):Microsoft.Win32.RegistryValueKind|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -702,7 +702,7 @@
         },
         {
           "clrName": "GetValueNames",
-          "tsEmitName": "GetValueNames",
+          "tsEmitName": "getValueNames",
           "normalizedSignature": "GetValueNames|():System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -716,7 +716,7 @@
         },
         {
           "clrName": "OpenBaseKey",
-          "tsEmitName": "OpenBaseKey",
+          "tsEmitName": "openBaseKey",
           "normalizedSignature": "OpenBaseKey|(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -730,7 +730,7 @@
         },
         {
           "clrName": "OpenRemoteBaseKey",
-          "tsEmitName": "OpenRemoteBaseKey",
+          "tsEmitName": "openRemoteBaseKey",
           "normalizedSignature": "OpenRemoteBaseKey|(Microsoft.Win32.RegistryHive,System.String):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -744,7 +744,7 @@
         },
         {
           "clrName": "OpenRemoteBaseKey",
-          "tsEmitName": "OpenRemoteBaseKey2",
+          "tsEmitName": "openRemoteBaseKey2",
           "normalizedSignature": "OpenRemoteBaseKey|(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -758,7 +758,7 @@
         },
         {
           "clrName": "OpenSubKey",
-          "tsEmitName": "OpenSubKey",
+          "tsEmitName": "openSubKey",
           "normalizedSignature": "OpenSubKey|(System.String):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -772,7 +772,7 @@
         },
         {
           "clrName": "OpenSubKey",
-          "tsEmitName": "OpenSubKey2",
+          "tsEmitName": "openSubKey2",
           "normalizedSignature": "OpenSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -786,7 +786,7 @@
         },
         {
           "clrName": "OpenSubKey",
-          "tsEmitName": "OpenSubKey3",
+          "tsEmitName": "openSubKey3",
           "normalizedSignature": "OpenSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -800,7 +800,7 @@
         },
         {
           "clrName": "OpenSubKey",
-          "tsEmitName": "OpenSubKey4",
+          "tsEmitName": "openSubKey4",
           "normalizedSignature": "OpenSubKey|(System.String,System.Boolean):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -814,7 +814,7 @@
         },
         {
           "clrName": "OpenSubKey",
-          "tsEmitName": "OpenSubKey5",
+          "tsEmitName": "openSubKey5",
           "normalizedSignature": "OpenSubKey|(System.String,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -828,7 +828,7 @@
         },
         {
           "clrName": "SetAccessControl",
-          "tsEmitName": "SetAccessControl",
+          "tsEmitName": "setAccessControl",
           "normalizedSignature": "SetAccessControl|(System.Security.AccessControl.RegistrySecurity):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -842,7 +842,7 @@
         },
         {
           "clrName": "SetValue",
-          "tsEmitName": "SetValue",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -856,7 +856,7 @@
         },
         {
           "clrName": "SetValue",
-          "tsEmitName": "SetValue2",
+          "tsEmitName": "setValue2",
           "normalizedSignature": "SetValue|(System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -870,7 +870,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -884,7 +884,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -901,7 +901,7 @@
       "properties": [
         {
           "clrName": "Handle",
-          "tsEmitName": "Handle",
+          "tsEmitName": "handle",
           "normalizedSignature": "Handle|:Microsoft.Win32.SafeHandles.SafeRegistryHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -915,7 +915,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -929,7 +929,7 @@
         },
         {
           "clrName": "SubKeyCount",
-          "tsEmitName": "SubKeyCount",
+          "tsEmitName": "subKeyCount",
           "normalizedSignature": "SubKeyCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -943,7 +943,7 @@
         },
         {
           "clrName": "ValueCount",
-          "tsEmitName": "ValueCount",
+          "tsEmitName": "valueCount",
           "normalizedSignature": "ValueCount|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -957,7 +957,7 @@
         },
         {
           "clrName": "View",
-          "tsEmitName": "View",
+          "tsEmitName": "view",
           "normalizedSignature": "View|:Microsoft.Win32.RegistryView|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -986,7 +986,7 @@
       "methods": [
         {
           "clrName": "GetValue",
-          "tsEmitName": "GetValue",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.String,System.String,System.Object):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1000,7 +1000,7 @@
         },
         {
           "clrName": "SetValue",
-          "tsEmitName": "SetValue",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.String,System.String,System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1014,7 +1014,7 @@
         },
         {
           "clrName": "SetValue",
-          "tsEmitName": "SetValue2",
+          "tsEmitName": "setValue2",
           "normalizedSignature": "SetValue|(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1031,7 +1031,7 @@
       "fields": [
         {
           "clrName": "ClassesRoot",
-          "tsEmitName": "ClassesRoot",
+          "tsEmitName": "classesRoot",
           "normalizedSignature": "ClassesRoot|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1039,7 +1039,7 @@
         },
         {
           "clrName": "CurrentConfig",
-          "tsEmitName": "CurrentConfig",
+          "tsEmitName": "currentConfig",
           "normalizedSignature": "CurrentConfig|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1047,7 +1047,7 @@
         },
         {
           "clrName": "CurrentUser",
-          "tsEmitName": "CurrentUser",
+          "tsEmitName": "currentUser",
           "normalizedSignature": "CurrentUser|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1055,7 +1055,7 @@
         },
         {
           "clrName": "LocalMachine",
-          "tsEmitName": "LocalMachine",
+          "tsEmitName": "localMachine",
           "normalizedSignature": "LocalMachine|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1063,7 +1063,7 @@
         },
         {
           "clrName": "PerformanceData",
-          "tsEmitName": "PerformanceData",
+          "tsEmitName": "performanceData",
           "normalizedSignature": "PerformanceData|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1071,7 +1071,7 @@
         },
         {
           "clrName": "Users",
-          "tsEmitName": "Users",
+          "tsEmitName": "users",
           "normalizedSignature": "Users|Microsoft.Win32.RegistryKey|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

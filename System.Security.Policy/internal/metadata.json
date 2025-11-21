@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "AddAssembly",
-          "tsEmitName": "AddAssembly",
+          "tsEmitName": "addAssembly",
           "normalizedSignature": "AddAssembly|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "AddAssemblyEvidence",
-          "tsEmitName": "AddAssemblyEvidence",
+          "tsEmitName": "addAssemblyEvidence",
           "normalizedSignature": "AddAssemblyEvidence|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -44,7 +44,7 @@
         },
         {
           "clrName": "AddHost",
-          "tsEmitName": "AddHost",
+          "tsEmitName": "addHost",
           "normalizedSignature": "AddHost|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "AddHostEvidence",
-          "tsEmitName": "AddHostEvidence",
+          "tsEmitName": "addHostEvidence",
           "normalizedSignature": "AddHostEvidence|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -72,7 +72,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -86,7 +86,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Security.Policy.Evidence|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -100,7 +100,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "GetAssemblyEnumerator",
-          "tsEmitName": "GetAssemblyEnumerator",
+          "tsEmitName": "getAssemblyEnumerator",
           "normalizedSignature": "GetAssemblyEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -128,7 +128,7 @@
         },
         {
           "clrName": "GetAssemblyEvidence",
-          "tsEmitName": "GetAssemblyEvidence",
+          "tsEmitName": "getAssemblyEvidence",
           "normalizedSignature": "GetAssemblyEvidence|():T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -142,7 +142,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -156,7 +156,7 @@
         },
         {
           "clrName": "GetHostEnumerator",
-          "tsEmitName": "GetHostEnumerator",
+          "tsEmitName": "getHostEnumerator",
           "normalizedSignature": "GetHostEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "GetHostEvidence",
-          "tsEmitName": "GetHostEvidence",
+          "tsEmitName": "getHostEvidence",
           "normalizedSignature": "GetHostEvidence|():T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -184,7 +184,7 @@
         },
         {
           "clrName": "Merge",
-          "tsEmitName": "Merge",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Security.Policy.Evidence):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -198,7 +198,7 @@
         },
         {
           "clrName": "RemoveType",
-          "tsEmitName": "RemoveType",
+          "tsEmitName": "removeType",
           "normalizedSignature": "RemoveType|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -212,7 +212,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -227,7 +227,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -244,7 +244,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -258,7 +258,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -272,7 +272,7 @@
         },
         {
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -286,7 +286,7 @@
         },
         {
           "clrName": "Locked",
-          "tsEmitName": "Locked",
+          "tsEmitName": "locked",
           "normalizedSignature": "Locked|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -300,7 +300,7 @@
         },
         {
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -314,7 +314,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -329,7 +329,7 @@
         },
         {
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot$view",
+          "tsEmitName": "syncRoot$view",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -344,7 +344,7 @@
         },
         {
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized$view",
+          "tsEmitName": "isSynchronized$view",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -395,7 +395,7 @@
       "methods": [
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Security.Policy.EvidenceBase|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

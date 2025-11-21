@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Net.Http.Headers.HeaderStringValues\u002BEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -44,7 +44,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -59,7 +59,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -76,7 +76,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -120,7 +120,7 @@
       "methods": [
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -134,7 +134,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -148,7 +148,7 @@
         },
         {
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -163,7 +163,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -178,7 +178,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext$view",
+          "tsEmitName": "moveNext$view",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -195,7 +195,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -209,7 +209,7 @@
         },
         {
           "clrName": "Current",
-          "tsEmitName": "Current$view",
+          "tsEmitName": "current$view",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -224,7 +224,7 @@
         },
         {
           "clrName": "Current",
-          "tsEmitName": "Current$view",
+          "tsEmitName": "current$view",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -254,7 +254,7 @@
       "methods": [
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -268,7 +268,7 @@
         },
         {
           "clrName": "TryGetValues",
-          "tsEmitName": "TryGetValues",
+          "tsEmitName": "tryGetValues",
           "normalizedSignature": "TryGetValues|(System.String,System.Net.Http.Headers.HeaderStringValues\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -282,7 +282,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Net.Http.Headers.HttpHeadersNonValidated\u002BEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -296,7 +296,7 @@
         },
         {
           "clrName": "ContainsKey",
-          "tsEmitName": "ContainsKey",
+          "tsEmitName": "containsKey",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -311,7 +311,7 @@
         },
         {
           "clrName": "TryGetValue",
-          "tsEmitName": "TryGetValue",
+          "tsEmitName": "tryGetValue",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -326,7 +326,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -341,7 +341,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -358,7 +358,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -372,7 +372,7 @@
         },
         {
           "clrName": "Item",
-          "tsEmitName": "Item",
+          "tsEmitName": "item",
           "normalizedSignature": "Item|[System.String]:System.Net.Http.Headers.HeaderStringValues|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -386,7 +386,7 @@
         },
         {
           "clrName": "Keys",
-          "tsEmitName": "Keys",
+          "tsEmitName": "keys",
           "normalizedSignature": "Keys|:IEnumerable_1|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -401,7 +401,7 @@
         },
         {
           "clrName": "Values",
-          "tsEmitName": "Values",
+          "tsEmitName": "values",
           "normalizedSignature": "Values|:IEnumerable_1|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -416,7 +416,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -446,7 +446,7 @@
       "methods": [
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -460,7 +460,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -474,7 +474,7 @@
         },
         {
           "clrName": "Reset",
-          "tsEmitName": "Reset",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -489,7 +489,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -504,7 +504,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext$view",
+          "tsEmitName": "moveNext$view",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -521,7 +521,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Net.Http.Headers.HeaderStringValues,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -535,7 +535,7 @@
         },
         {
           "clrName": "Current",
-          "tsEmitName": "Current$view",
+          "tsEmitName": "current$view",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -550,7 +550,7 @@
         },
         {
           "clrName": "Current",
-          "tsEmitName": "Current$view",
+          "tsEmitName": "current$view",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -580,7 +580,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -594,7 +594,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -608,7 +608,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -622,7 +622,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.AuthenticationHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -636,7 +636,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.AuthenticationHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -650,7 +650,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -667,7 +667,7 @@
       "properties": [
         {
           "clrName": "Scheme",
-          "tsEmitName": "Scheme",
+          "tsEmitName": "scheme",
           "normalizedSignature": "Scheme|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -681,7 +681,7 @@
         },
         {
           "clrName": "Parameter",
-          "tsEmitName": "Parameter",
+          "tsEmitName": "parameter",
           "normalizedSignature": "Parameter|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -721,7 +721,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -735,7 +735,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -749,7 +749,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -763,7 +763,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.CacheControlHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -777,7 +777,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.CacheControlHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -808,7 +808,7 @@
       "properties": [
         {
           "clrName": "NoCache",
-          "tsEmitName": "NoCache",
+          "tsEmitName": "noCache",
           "normalizedSignature": "NoCache|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -822,7 +822,7 @@
         },
         {
           "clrName": "NoCacheHeaders",
-          "tsEmitName": "NoCacheHeaders",
+          "tsEmitName": "noCacheHeaders",
           "normalizedSignature": "NoCacheHeaders|:System.Collections.Generic.ICollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -836,7 +836,7 @@
         },
         {
           "clrName": "NoStore",
-          "tsEmitName": "NoStore",
+          "tsEmitName": "noStore",
           "normalizedSignature": "NoStore|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -850,7 +850,7 @@
         },
         {
           "clrName": "MaxAge",
-          "tsEmitName": "MaxAge",
+          "tsEmitName": "maxAge",
           "normalizedSignature": "MaxAge|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -864,7 +864,7 @@
         },
         {
           "clrName": "SharedMaxAge",
-          "tsEmitName": "SharedMaxAge",
+          "tsEmitName": "sharedMaxAge",
           "normalizedSignature": "SharedMaxAge|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -878,7 +878,7 @@
         },
         {
           "clrName": "MaxStale",
-          "tsEmitName": "MaxStale",
+          "tsEmitName": "maxStale",
           "normalizedSignature": "MaxStale|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -892,7 +892,7 @@
         },
         {
           "clrName": "MaxStaleLimit",
-          "tsEmitName": "MaxStaleLimit",
+          "tsEmitName": "maxStaleLimit",
           "normalizedSignature": "MaxStaleLimit|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -906,7 +906,7 @@
         },
         {
           "clrName": "MinFresh",
-          "tsEmitName": "MinFresh",
+          "tsEmitName": "minFresh",
           "normalizedSignature": "MinFresh|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -920,7 +920,7 @@
         },
         {
           "clrName": "NoTransform",
-          "tsEmitName": "NoTransform",
+          "tsEmitName": "noTransform",
           "normalizedSignature": "NoTransform|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -934,7 +934,7 @@
         },
         {
           "clrName": "OnlyIfCached",
-          "tsEmitName": "OnlyIfCached",
+          "tsEmitName": "onlyIfCached",
           "normalizedSignature": "OnlyIfCached|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -948,7 +948,7 @@
         },
         {
           "clrName": "Public",
-          "tsEmitName": "Public",
+          "tsEmitName": "public_",
           "normalizedSignature": "Public|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
         },
         {
           "clrName": "Private",
-          "tsEmitName": "Private",
+          "tsEmitName": "private_",
           "normalizedSignature": "Private|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -976,7 +976,7 @@
         },
         {
           "clrName": "PrivateHeaders",
-          "tsEmitName": "PrivateHeaders",
+          "tsEmitName": "privateHeaders",
           "normalizedSignature": "PrivateHeaders|:System.Collections.Generic.ICollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -990,7 +990,7 @@
         },
         {
           "clrName": "MustRevalidate",
-          "tsEmitName": "MustRevalidate",
+          "tsEmitName": "mustRevalidate",
           "normalizedSignature": "MustRevalidate|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1004,7 +1004,7 @@
         },
         {
           "clrName": "ProxyRevalidate",
-          "tsEmitName": "ProxyRevalidate",
+          "tsEmitName": "proxyRevalidate",
           "normalizedSignature": "ProxyRevalidate|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1018,7 +1018,7 @@
         },
         {
           "clrName": "Extensions",
-          "tsEmitName": "Extensions",
+          "tsEmitName": "extensions",
           "normalizedSignature": "Extensions|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1053,7 +1053,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1067,7 +1067,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1081,7 +1081,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1095,7 +1095,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.ContentDispositionHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1109,7 +1109,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.ContentDispositionHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1123,7 +1123,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1140,7 +1140,7 @@
       "properties": [
         {
           "clrName": "DispositionType",
-          "tsEmitName": "DispositionType",
+          "tsEmitName": "dispositionType",
           "normalizedSignature": "DispositionType|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1154,7 +1154,7 @@
         },
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1168,7 +1168,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1182,7 +1182,7 @@
         },
         {
           "clrName": "FileName",
-          "tsEmitName": "FileName",
+          "tsEmitName": "fileName",
           "normalizedSignature": "FileName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1196,7 +1196,7 @@
         },
         {
           "clrName": "FileNameStar",
-          "tsEmitName": "FileNameStar",
+          "tsEmitName": "fileNameStar",
           "normalizedSignature": "FileNameStar|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,7 +1210,7 @@
         },
         {
           "clrName": "CreationDate",
-          "tsEmitName": "CreationDate",
+          "tsEmitName": "creationDate",
           "normalizedSignature": "CreationDate|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1224,7 +1224,7 @@
         },
         {
           "clrName": "ModificationDate",
-          "tsEmitName": "ModificationDate",
+          "tsEmitName": "modificationDate",
           "normalizedSignature": "ModificationDate|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1238,7 +1238,7 @@
         },
         {
           "clrName": "ReadDate",
-          "tsEmitName": "ReadDate",
+          "tsEmitName": "readDate",
           "normalizedSignature": "ReadDate|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1252,7 +1252,7 @@
         },
         {
           "clrName": "Size",
-          "tsEmitName": "Size",
+          "tsEmitName": "size",
           "normalizedSignature": "Size|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1287,7 +1287,7 @@
       "methods": [
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1301,7 +1301,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1315,7 +1315,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1329,7 +1329,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.ContentRangeHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1343,7 +1343,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.ContentRangeHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1357,7 +1357,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1374,7 +1374,7 @@
       "properties": [
         {
           "clrName": "Unit",
-          "tsEmitName": "Unit",
+          "tsEmitName": "unit",
           "normalizedSignature": "Unit|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1388,7 +1388,7 @@
         },
         {
           "clrName": "From",
-          "tsEmitName": "From",
+          "tsEmitName": "from_",
           "normalizedSignature": "From|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1402,7 +1402,7 @@
         },
         {
           "clrName": "To",
-          "tsEmitName": "To",
+          "tsEmitName": "to",
           "normalizedSignature": "To|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1416,7 +1416,7 @@
         },
         {
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1430,7 +1430,7 @@
         },
         {
           "clrName": "HasLength",
-          "tsEmitName": "HasLength",
+          "tsEmitName": "hasLength",
           "normalizedSignature": "HasLength|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1444,7 +1444,7 @@
         },
         {
           "clrName": "HasRange",
-          "tsEmitName": "HasRange",
+          "tsEmitName": "hasRange",
           "normalizedSignature": "HasRange|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1489,7 +1489,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1503,7 +1503,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1517,7 +1517,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1531,7 +1531,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.EntityTagHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1545,7 +1545,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.EntityTagHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1559,7 +1559,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1576,7 +1576,7 @@
       "properties": [
         {
           "clrName": "Tag",
-          "tsEmitName": "Tag",
+          "tsEmitName": "tag",
           "normalizedSignature": "Tag|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1590,7 +1590,7 @@
         },
         {
           "clrName": "IsWeak",
-          "tsEmitName": "IsWeak",
+          "tsEmitName": "isWeak",
           "normalizedSignature": "IsWeak|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1604,7 +1604,7 @@
         },
         {
           "clrName": "Any",
-          "tsEmitName": "Any",
+          "tsEmitName": "any_",
           "normalizedSignature": "Any|:System.Net.Http.Headers.EntityTagHeaderValue|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1644,7 +1644,7 @@
       "methods": [
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1659,7 +1659,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1674,7 +1674,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1688,7 +1688,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1704,7 +1704,7 @@
       "properties": [
         {
           "clrName": "Allow",
-          "tsEmitName": "Allow",
+          "tsEmitName": "allow",
           "normalizedSignature": "Allow|:System.Collections.Generic.ICollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1718,7 +1718,7 @@
         },
         {
           "clrName": "ContentDisposition",
-          "tsEmitName": "ContentDisposition",
+          "tsEmitName": "contentDisposition",
           "normalizedSignature": "ContentDisposition|:System.Net.Http.Headers.ContentDispositionHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1732,7 +1732,7 @@
         },
         {
           "clrName": "ContentEncoding",
-          "tsEmitName": "ContentEncoding",
+          "tsEmitName": "contentEncoding",
           "normalizedSignature": "ContentEncoding|:System.Collections.Generic.ICollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1746,7 +1746,7 @@
         },
         {
           "clrName": "ContentLanguage",
-          "tsEmitName": "ContentLanguage",
+          "tsEmitName": "contentLanguage",
           "normalizedSignature": "ContentLanguage|:System.Collections.Generic.ICollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1760,7 +1760,7 @@
         },
         {
           "clrName": "ContentLength",
-          "tsEmitName": "ContentLength",
+          "tsEmitName": "contentLength",
           "normalizedSignature": "ContentLength|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1774,7 +1774,7 @@
         },
         {
           "clrName": "ContentLocation",
-          "tsEmitName": "ContentLocation",
+          "tsEmitName": "contentLocation",
           "normalizedSignature": "ContentLocation|:System.Uri|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1788,7 +1788,7 @@
         },
         {
           "clrName": "ContentMD5",
-          "tsEmitName": "ContentMD5",
+          "tsEmitName": "contentMD5",
           "normalizedSignature": "ContentMD5|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         },
         {
           "clrName": "ContentRange",
-          "tsEmitName": "ContentRange",
+          "tsEmitName": "contentRange",
           "normalizedSignature": "ContentRange|:System.Net.Http.Headers.ContentRangeHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1816,7 +1816,7 @@
         },
         {
           "clrName": "ContentType",
-          "tsEmitName": "ContentType",
+          "tsEmitName": "contentType",
           "normalizedSignature": "ContentType|:System.Net.Http.Headers.MediaTypeHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1830,7 +1830,7 @@
         },
         {
           "clrName": "Expires",
-          "tsEmitName": "Expires",
+          "tsEmitName": "expires",
           "normalizedSignature": "Expires|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1844,7 +1844,7 @@
         },
         {
           "clrName": "LastModified",
-          "tsEmitName": "LastModified",
+          "tsEmitName": "lastModified",
           "normalizedSignature": "LastModified|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1873,7 +1873,7 @@
       "methods": [
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1887,7 +1887,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1901,7 +1901,7 @@
         },
         {
           "clrName": "TryAddWithoutValidation",
-          "tsEmitName": "TryAddWithoutValidation",
+          "tsEmitName": "tryAddWithoutValidation",
           "normalizedSignature": "TryAddWithoutValidation|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1915,7 +1915,7 @@
         },
         {
           "clrName": "TryAddWithoutValidation",
-          "tsEmitName": "TryAddWithoutValidation2",
+          "tsEmitName": "tryAddWithoutValidation2",
           "normalizedSignature": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1929,7 +1929,7 @@
         },
         {
           "clrName": "GetValues",
-          "tsEmitName": "GetValues",
+          "tsEmitName": "getValues",
           "normalizedSignature": "GetValues|(System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1943,7 +1943,7 @@
         },
         {
           "clrName": "TryGetValues",
-          "tsEmitName": "TryGetValues",
+          "tsEmitName": "tryGetValues",
           "normalizedSignature": "TryGetValues|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1957,7 +1957,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1971,7 +1971,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1985,7 +1985,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1999,7 +1999,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2013,7 +2013,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2027,7 +2027,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2042,7 +2042,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2059,7 +2059,7 @@
       "properties": [
         {
           "clrName": "NonValidated",
-          "tsEmitName": "NonValidated",
+          "tsEmitName": "nonValidated",
           "normalizedSignature": "NonValidated|:System.Net.Http.Headers.HttpHeadersNonValidated|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2088,7 +2088,7 @@
       "methods": [
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2102,7 +2102,7 @@
         },
         {
           "clrName": "ParseAdd",
-          "tsEmitName": "ParseAdd",
+          "tsEmitName": "parseAdd",
           "normalizedSignature": "ParseAdd|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2116,7 +2116,7 @@
         },
         {
           "clrName": "TryParseAdd",
-          "tsEmitName": "TryParseAdd",
+          "tsEmitName": "tryParseAdd",
           "normalizedSignature": "TryParseAdd|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2130,7 +2130,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2144,7 +2144,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2158,7 +2158,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2172,7 +2172,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2186,7 +2186,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2200,7 +2200,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2214,7 +2214,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2229,7 +2229,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2244,7 +2244,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2259,7 +2259,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2274,7 +2274,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2289,7 +2289,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2306,7 +2306,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2320,7 +2320,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2334,7 +2334,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2349,7 +2349,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly$view",
+          "tsEmitName": "isReadOnly$view",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2379,7 +2379,7 @@
       "methods": [
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2394,7 +2394,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2409,7 +2409,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2423,7 +2423,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2439,7 +2439,7 @@
       "properties": [
         {
           "clrName": "Accept",
-          "tsEmitName": "Accept",
+          "tsEmitName": "accept",
           "normalizedSignature": "Accept|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.MediaTypeWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2453,7 +2453,7 @@
         },
         {
           "clrName": "AcceptCharset",
-          "tsEmitName": "AcceptCharset",
+          "tsEmitName": "acceptCharset",
           "normalizedSignature": "AcceptCharset|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.StringWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2467,7 +2467,7 @@
         },
         {
           "clrName": "AcceptEncoding",
-          "tsEmitName": "AcceptEncoding",
+          "tsEmitName": "acceptEncoding",
           "normalizedSignature": "AcceptEncoding|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.StringWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2481,7 +2481,7 @@
         },
         {
           "clrName": "AcceptLanguage",
-          "tsEmitName": "AcceptLanguage",
+          "tsEmitName": "acceptLanguage",
           "normalizedSignature": "AcceptLanguage|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.StringWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2495,7 +2495,7 @@
         },
         {
           "clrName": "Authorization",
-          "tsEmitName": "Authorization",
+          "tsEmitName": "authorization",
           "normalizedSignature": "Authorization|:System.Net.Http.Headers.AuthenticationHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2509,7 +2509,7 @@
         },
         {
           "clrName": "ExpectContinue",
-          "tsEmitName": "ExpectContinue",
+          "tsEmitName": "expectContinue",
           "normalizedSignature": "ExpectContinue|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2523,7 +2523,7 @@
         },
         {
           "clrName": "From",
-          "tsEmitName": "From",
+          "tsEmitName": "from_",
           "normalizedSignature": "From|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2537,7 +2537,7 @@
         },
         {
           "clrName": "Host",
-          "tsEmitName": "Host",
+          "tsEmitName": "host",
           "normalizedSignature": "Host|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2551,7 +2551,7 @@
         },
         {
           "clrName": "IfMatch",
-          "tsEmitName": "IfMatch",
+          "tsEmitName": "ifMatch",
           "normalizedSignature": "IfMatch|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.EntityTagHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2565,7 +2565,7 @@
         },
         {
           "clrName": "IfModifiedSince",
-          "tsEmitName": "IfModifiedSince",
+          "tsEmitName": "ifModifiedSince",
           "normalizedSignature": "IfModifiedSince|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2579,7 +2579,7 @@
         },
         {
           "clrName": "IfNoneMatch",
-          "tsEmitName": "IfNoneMatch",
+          "tsEmitName": "ifNoneMatch",
           "normalizedSignature": "IfNoneMatch|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.EntityTagHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2593,7 +2593,7 @@
         },
         {
           "clrName": "IfRange",
-          "tsEmitName": "IfRange",
+          "tsEmitName": "ifRange",
           "normalizedSignature": "IfRange|:System.Net.Http.Headers.RangeConditionHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2607,7 +2607,7 @@
         },
         {
           "clrName": "IfUnmodifiedSince",
-          "tsEmitName": "IfUnmodifiedSince",
+          "tsEmitName": "ifUnmodifiedSince",
           "normalizedSignature": "IfUnmodifiedSince|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2621,7 +2621,7 @@
         },
         {
           "clrName": "MaxForwards",
-          "tsEmitName": "MaxForwards",
+          "tsEmitName": "maxForwards",
           "normalizedSignature": "MaxForwards|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2635,7 +2635,7 @@
         },
         {
           "clrName": "Protocol",
-          "tsEmitName": "Protocol",
+          "tsEmitName": "protocol",
           "normalizedSignature": "Protocol|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2649,7 +2649,7 @@
         },
         {
           "clrName": "ProxyAuthorization",
-          "tsEmitName": "ProxyAuthorization",
+          "tsEmitName": "proxyAuthorization",
           "normalizedSignature": "ProxyAuthorization|:System.Net.Http.Headers.AuthenticationHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2663,7 +2663,7 @@
         },
         {
           "clrName": "Range",
-          "tsEmitName": "Range",
+          "tsEmitName": "range",
           "normalizedSignature": "Range|:System.Net.Http.Headers.RangeHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2677,7 +2677,7 @@
         },
         {
           "clrName": "Referrer",
-          "tsEmitName": "Referrer",
+          "tsEmitName": "referrer",
           "normalizedSignature": "Referrer|:System.Uri|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2691,7 +2691,7 @@
         },
         {
           "clrName": "TE",
-          "tsEmitName": "TE",
+          "tsEmitName": "te",
           "normalizedSignature": "TE|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.TransferCodingWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2705,7 +2705,7 @@
         },
         {
           "clrName": "UserAgent",
-          "tsEmitName": "UserAgent",
+          "tsEmitName": "userAgent",
           "normalizedSignature": "UserAgent|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ProductInfoHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2719,7 +2719,7 @@
         },
         {
           "clrName": "Expect",
-          "tsEmitName": "Expect",
+          "tsEmitName": "expect",
           "normalizedSignature": "Expect|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.NameValueWithParametersHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2733,7 +2733,7 @@
         },
         {
           "clrName": "CacheControl",
-          "tsEmitName": "CacheControl",
+          "tsEmitName": "cacheControl",
           "normalizedSignature": "CacheControl|:System.Net.Http.Headers.CacheControlHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2747,7 +2747,7 @@
         },
         {
           "clrName": "Connection",
-          "tsEmitName": "Connection",
+          "tsEmitName": "connection",
           "normalizedSignature": "Connection|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2761,7 +2761,7 @@
         },
         {
           "clrName": "ConnectionClose",
-          "tsEmitName": "ConnectionClose",
+          "tsEmitName": "connectionClose",
           "normalizedSignature": "ConnectionClose|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2775,7 +2775,7 @@
         },
         {
           "clrName": "Date",
-          "tsEmitName": "Date",
+          "tsEmitName": "date",
           "normalizedSignature": "Date|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2789,7 +2789,7 @@
         },
         {
           "clrName": "Pragma",
-          "tsEmitName": "Pragma",
+          "tsEmitName": "pragma",
           "normalizedSignature": "Pragma|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2803,7 +2803,7 @@
         },
         {
           "clrName": "Trailer",
-          "tsEmitName": "Trailer",
+          "tsEmitName": "trailer",
           "normalizedSignature": "Trailer|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2817,7 +2817,7 @@
         },
         {
           "clrName": "TransferEncoding",
-          "tsEmitName": "TransferEncoding",
+          "tsEmitName": "transferEncoding",
           "normalizedSignature": "TransferEncoding|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.TransferCodingHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2831,7 +2831,7 @@
         },
         {
           "clrName": "TransferEncodingChunked",
-          "tsEmitName": "TransferEncodingChunked",
+          "tsEmitName": "transferEncodingChunked",
           "normalizedSignature": "TransferEncodingChunked|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2845,7 +2845,7 @@
         },
         {
           "clrName": "Upgrade",
-          "tsEmitName": "Upgrade",
+          "tsEmitName": "upgrade",
           "normalizedSignature": "Upgrade|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ProductHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2859,7 +2859,7 @@
         },
         {
           "clrName": "Via",
-          "tsEmitName": "Via",
+          "tsEmitName": "via",
           "normalizedSignature": "Via|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ViaHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2873,7 +2873,7 @@
         },
         {
           "clrName": "Warning",
-          "tsEmitName": "Warning",
+          "tsEmitName": "warning",
           "normalizedSignature": "Warning|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.WarningHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2902,7 +2902,7 @@
       "methods": [
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2917,7 +2917,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2932,7 +2932,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2946,7 +2946,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2962,7 +2962,7 @@
       "properties": [
         {
           "clrName": "AcceptRanges",
-          "tsEmitName": "AcceptRanges",
+          "tsEmitName": "acceptRanges",
           "normalizedSignature": "AcceptRanges|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2976,7 +2976,7 @@
         },
         {
           "clrName": "Age",
-          "tsEmitName": "Age",
+          "tsEmitName": "age",
           "normalizedSignature": "Age|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2990,7 +2990,7 @@
         },
         {
           "clrName": "ETag",
-          "tsEmitName": "ETag",
+          "tsEmitName": "eTag",
           "normalizedSignature": "ETag|:System.Net.Http.Headers.EntityTagHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3004,7 +3004,7 @@
         },
         {
           "clrName": "Location",
-          "tsEmitName": "Location",
+          "tsEmitName": "location",
           "normalizedSignature": "Location|:System.Uri|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3018,7 +3018,7 @@
         },
         {
           "clrName": "ProxyAuthenticate",
-          "tsEmitName": "ProxyAuthenticate",
+          "tsEmitName": "proxyAuthenticate",
           "normalizedSignature": "ProxyAuthenticate|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.AuthenticationHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3032,7 +3032,7 @@
         },
         {
           "clrName": "RetryAfter",
-          "tsEmitName": "RetryAfter",
+          "tsEmitName": "retryAfter",
           "normalizedSignature": "RetryAfter|:System.Net.Http.Headers.RetryConditionHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3046,7 +3046,7 @@
         },
         {
           "clrName": "Server",
-          "tsEmitName": "Server",
+          "tsEmitName": "server",
           "normalizedSignature": "Server|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ProductInfoHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3060,7 +3060,7 @@
         },
         {
           "clrName": "Vary",
-          "tsEmitName": "Vary",
+          "tsEmitName": "vary",
           "normalizedSignature": "Vary|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3074,7 +3074,7 @@
         },
         {
           "clrName": "WwwAuthenticate",
-          "tsEmitName": "WwwAuthenticate",
+          "tsEmitName": "wwwAuthenticate",
           "normalizedSignature": "WwwAuthenticate|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.AuthenticationHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3088,7 +3088,7 @@
         },
         {
           "clrName": "CacheControl",
-          "tsEmitName": "CacheControl",
+          "tsEmitName": "cacheControl",
           "normalizedSignature": "CacheControl|:System.Net.Http.Headers.CacheControlHeaderValue|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3102,7 +3102,7 @@
         },
         {
           "clrName": "Connection",
-          "tsEmitName": "Connection",
+          "tsEmitName": "connection",
           "normalizedSignature": "Connection|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3116,7 +3116,7 @@
         },
         {
           "clrName": "ConnectionClose",
-          "tsEmitName": "ConnectionClose",
+          "tsEmitName": "connectionClose",
           "normalizedSignature": "ConnectionClose|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3130,7 +3130,7 @@
         },
         {
           "clrName": "Date",
-          "tsEmitName": "Date",
+          "tsEmitName": "date",
           "normalizedSignature": "Date|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3144,7 +3144,7 @@
         },
         {
           "clrName": "Pragma",
-          "tsEmitName": "Pragma",
+          "tsEmitName": "pragma",
           "normalizedSignature": "Pragma|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3158,7 +3158,7 @@
         },
         {
           "clrName": "Trailer",
-          "tsEmitName": "Trailer",
+          "tsEmitName": "trailer",
           "normalizedSignature": "Trailer|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3172,7 +3172,7 @@
         },
         {
           "clrName": "TransferEncoding",
-          "tsEmitName": "TransferEncoding",
+          "tsEmitName": "transferEncoding",
           "normalizedSignature": "TransferEncoding|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.TransferCodingHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3186,7 +3186,7 @@
         },
         {
           "clrName": "TransferEncodingChunked",
-          "tsEmitName": "TransferEncodingChunked",
+          "tsEmitName": "transferEncodingChunked",
           "normalizedSignature": "TransferEncodingChunked|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3200,7 +3200,7 @@
         },
         {
           "clrName": "Upgrade",
-          "tsEmitName": "Upgrade",
+          "tsEmitName": "upgrade",
           "normalizedSignature": "Upgrade|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ProductHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3214,7 +3214,7 @@
         },
         {
           "clrName": "Via",
-          "tsEmitName": "Via",
+          "tsEmitName": "via",
           "normalizedSignature": "Via|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.ViaHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3228,7 +3228,7 @@
         },
         {
           "clrName": "Warning",
-          "tsEmitName": "Warning",
+          "tsEmitName": "warning",
           "normalizedSignature": "Warning|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.WarningHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3257,7 +3257,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3271,7 +3271,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3285,7 +3285,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3299,7 +3299,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.MediaTypeHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3313,7 +3313,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.MediaTypeHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3327,7 +3327,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3344,7 +3344,7 @@
       "properties": [
         {
           "clrName": "CharSet",
-          "tsEmitName": "CharSet",
+          "tsEmitName": "charSet",
           "normalizedSignature": "CharSet|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3358,7 +3358,7 @@
         },
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3372,7 +3372,7 @@
         },
         {
           "clrName": "MediaType",
-          "tsEmitName": "MediaType",
+          "tsEmitName": "mediaType",
           "normalizedSignature": "MediaType|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3412,7 +3412,7 @@
       "methods": [
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.MediaTypeWithQualityHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3426,7 +3426,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3440,7 +3440,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3455,7 +3455,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3471,7 +3471,7 @@
       "properties": [
         {
           "clrName": "Quality",
-          "tsEmitName": "Quality",
+          "tsEmitName": "quality",
           "normalizedSignature": "Quality|:System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3511,7 +3511,7 @@
       "methods": [
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3525,7 +3525,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3539,7 +3539,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.NameValueHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3553,7 +3553,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.NameValueHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3567,7 +3567,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3581,7 +3581,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3598,7 +3598,7 @@
       "properties": [
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3612,7 +3612,7 @@
         },
         {
           "clrName": "Value",
-          "tsEmitName": "Value",
+          "tsEmitName": "value",
           "normalizedSignature": "Value|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3652,7 +3652,7 @@
       "methods": [
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3666,7 +3666,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3680,7 +3680,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3694,7 +3694,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.NameValueWithParametersHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3708,7 +3708,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.NameValueWithParametersHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3722,7 +3722,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3737,7 +3737,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3753,7 +3753,7 @@
       "properties": [
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3793,7 +3793,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3807,7 +3807,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3821,7 +3821,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3835,7 +3835,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.ProductHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3849,7 +3849,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.ProductHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3863,7 +3863,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3880,7 +3880,7 @@
       "properties": [
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3894,7 +3894,7 @@
         },
         {
           "clrName": "Version",
-          "tsEmitName": "Version",
+          "tsEmitName": "version",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3934,7 +3934,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3948,7 +3948,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3962,7 +3962,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3976,7 +3976,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.ProductInfoHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3990,7 +3990,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.ProductInfoHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4004,7 +4004,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4021,7 +4021,7 @@
       "properties": [
         {
           "clrName": "Product",
-          "tsEmitName": "Product",
+          "tsEmitName": "product",
           "normalizedSignature": "Product|:System.Net.Http.Headers.ProductHeaderValue|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4035,7 +4035,7 @@
         },
         {
           "clrName": "Comment",
-          "tsEmitName": "Comment",
+          "tsEmitName": "comment",
           "normalizedSignature": "Comment|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4080,7 +4080,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4094,7 +4094,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4108,7 +4108,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4122,7 +4122,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.RangeConditionHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4136,7 +4136,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.RangeConditionHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4150,7 +4150,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4167,7 +4167,7 @@
       "properties": [
         {
           "clrName": "Date",
-          "tsEmitName": "Date",
+          "tsEmitName": "date",
           "normalizedSignature": "Date|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4181,7 +4181,7 @@
         },
         {
           "clrName": "EntityTag",
-          "tsEmitName": "EntityTag",
+          "tsEmitName": "entityTag",
           "normalizedSignature": "EntityTag|:System.Net.Http.Headers.EntityTagHeaderValue|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4226,7 +4226,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4240,7 +4240,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4254,7 +4254,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4268,7 +4268,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.RangeHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4282,7 +4282,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.RangeHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4296,7 +4296,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4313,7 +4313,7 @@
       "properties": [
         {
           "clrName": "Unit",
-          "tsEmitName": "Unit",
+          "tsEmitName": "unit",
           "normalizedSignature": "Unit|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4327,7 +4327,7 @@
         },
         {
           "clrName": "Ranges",
-          "tsEmitName": "Ranges",
+          "tsEmitName": "ranges",
           "normalizedSignature": "Ranges|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.RangeItemHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4367,7 +4367,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4381,7 +4381,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4395,7 +4395,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4409,7 +4409,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4426,7 +4426,7 @@
       "properties": [
         {
           "clrName": "From",
-          "tsEmitName": "From",
+          "tsEmitName": "from_",
           "normalizedSignature": "From|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4440,7 +4440,7 @@
         },
         {
           "clrName": "To",
-          "tsEmitName": "To",
+          "tsEmitName": "to",
           "normalizedSignature": "To|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4475,7 +4475,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4489,7 +4489,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4503,7 +4503,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4517,7 +4517,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.RetryConditionHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4531,7 +4531,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.RetryConditionHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4545,7 +4545,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4562,7 +4562,7 @@
       "properties": [
         {
           "clrName": "Date",
-          "tsEmitName": "Date",
+          "tsEmitName": "date",
           "normalizedSignature": "Date|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4576,7 +4576,7 @@
         },
         {
           "clrName": "Delta",
-          "tsEmitName": "Delta",
+          "tsEmitName": "delta",
           "normalizedSignature": "Delta|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4616,7 +4616,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4630,7 +4630,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4644,7 +4644,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4658,7 +4658,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.StringWithQualityHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4672,7 +4672,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.StringWithQualityHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4686,7 +4686,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4703,7 +4703,7 @@
       "properties": [
         {
           "clrName": "Value",
-          "tsEmitName": "Value",
+          "tsEmitName": "value",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4717,7 +4717,7 @@
         },
         {
           "clrName": "Quality",
-          "tsEmitName": "Quality",
+          "tsEmitName": "quality",
           "normalizedSignature": "Quality|:System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4757,7 +4757,7 @@
       "methods": [
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.TransferCodingHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4771,7 +4771,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.TransferCodingHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4785,7 +4785,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4799,7 +4799,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4813,7 +4813,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4827,7 +4827,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4844,7 +4844,7 @@
       "properties": [
         {
           "clrName": "Value",
-          "tsEmitName": "Value",
+          "tsEmitName": "value",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4858,7 +4858,7 @@
         },
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Generic.ICollection_1[[System.Net.Http.Headers.NameValueHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4893,7 +4893,7 @@
       "methods": [
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.TransferCodingWithQualityHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4907,7 +4907,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4921,7 +4921,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4936,7 +4936,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4952,7 +4952,7 @@
       "properties": [
         {
           "clrName": "Quality",
-          "tsEmitName": "Quality",
+          "tsEmitName": "quality",
           "normalizedSignature": "Quality|:System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4992,7 +4992,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5006,7 +5006,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5020,7 +5020,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5034,7 +5034,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.ViaHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5048,7 +5048,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.ViaHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5062,7 +5062,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5079,7 +5079,7 @@
       "properties": [
         {
           "clrName": "ProtocolName",
-          "tsEmitName": "ProtocolName",
+          "tsEmitName": "protocolName",
           "normalizedSignature": "ProtocolName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5093,7 +5093,7 @@
         },
         {
           "clrName": "ProtocolVersion",
-          "tsEmitName": "ProtocolVersion",
+          "tsEmitName": "protocolVersion",
           "normalizedSignature": "ProtocolVersion|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5107,7 +5107,7 @@
         },
         {
           "clrName": "ReceivedBy",
-          "tsEmitName": "ReceivedBy",
+          "tsEmitName": "receivedBy",
           "normalizedSignature": "ReceivedBy|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5121,7 +5121,7 @@
         },
         {
           "clrName": "Comment",
-          "tsEmitName": "Comment",
+          "tsEmitName": "comment",
           "normalizedSignature": "Comment|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5166,7 +5166,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5180,7 +5180,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5194,7 +5194,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5208,7 +5208,7 @@
         },
         {
           "clrName": "Parse",
-          "tsEmitName": "Parse",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Net.Http.Headers.WarningHeaderValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5222,7 +5222,7 @@
         },
         {
           "clrName": "TryParse",
-          "tsEmitName": "TryParse",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Net.Http.Headers.WarningHeaderValue\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5236,7 +5236,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5253,7 +5253,7 @@
       "properties": [
         {
           "clrName": "Code",
-          "tsEmitName": "Code",
+          "tsEmitName": "code",
           "normalizedSignature": "Code|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5267,7 +5267,7 @@
         },
         {
           "clrName": "Agent",
-          "tsEmitName": "Agent",
+          "tsEmitName": "agent",
           "normalizedSignature": "Agent|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5281,7 +5281,7 @@
         },
         {
           "clrName": "Text",
-          "tsEmitName": "Text",
+          "tsEmitName": "text",
           "normalizedSignature": "Text|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5295,7 +5295,7 @@
         },
         {
           "clrName": "Date",
-          "tsEmitName": "Date",
+          "tsEmitName": "date",
           "normalizedSignature": "Date|:System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

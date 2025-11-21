@@ -1,8 +1,8 @@
 {
   "namespace": "System.Threading.Tasks",
   "contributingAssemblies": [
-    "System.Threading.Tasks.Parallel",
-    "System.Private.CoreLib"
+    "System.Private.CoreLib",
+    "System.Threading.Tasks.Parallel"
   ],
   "types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Threading.Tasks.ConfigureAwaitOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "clrName": "ContinueOnCapturedContext",
-          "tsEmitName": "ContinueOnCapturedContext",
+          "tsEmitName": "continueOnCapturedContext",
           "normalizedSignature": "ContinueOnCapturedContext|System.Threading.Tasks.ConfigureAwaitOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "clrName": "SuppressThrowing",
-          "tsEmitName": "SuppressThrowing",
+          "tsEmitName": "suppressThrowing",
           "normalizedSignature": "SuppressThrowing|System.Threading.Tasks.ConfigureAwaitOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "clrName": "ForceYielding",
-          "tsEmitName": "ForceYielding",
+          "tsEmitName": "forceYielding",
           "normalizedSignature": "ForceYielding|System.Threading.Tasks.ConfigureAwaitOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "clrName": "PreferFairness",
-          "tsEmitName": "PreferFairness",
+          "tsEmitName": "preferFairness",
           "normalizedSignature": "PreferFairness|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "clrName": "LongRunning",
-          "tsEmitName": "LongRunning",
+          "tsEmitName": "longRunning",
           "normalizedSignature": "LongRunning|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -107,7 +107,7 @@
         },
         {
           "clrName": "AttachedToParent",
-          "tsEmitName": "AttachedToParent",
+          "tsEmitName": "attachedToParent",
           "normalizedSignature": "AttachedToParent|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -115,7 +115,7 @@
         },
         {
           "clrName": "DenyChildAttach",
-          "tsEmitName": "DenyChildAttach",
+          "tsEmitName": "denyChildAttach",
           "normalizedSignature": "DenyChildAttach|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -123,7 +123,7 @@
         },
         {
           "clrName": "HideScheduler",
-          "tsEmitName": "HideScheduler",
+          "tsEmitName": "hideScheduler",
           "normalizedSignature": "HideScheduler|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         },
         {
           "clrName": "LazyCancellation",
-          "tsEmitName": "LazyCancellation",
+          "tsEmitName": "lazyCancellation",
           "normalizedSignature": "LazyCancellation|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -139,7 +139,7 @@
         },
         {
           "clrName": "RunContinuationsAsynchronously",
-          "tsEmitName": "RunContinuationsAsynchronously",
+          "tsEmitName": "runContinuationsAsynchronously",
           "normalizedSignature": "RunContinuationsAsynchronously|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -147,7 +147,7 @@
         },
         {
           "clrName": "NotOnRanToCompletion",
-          "tsEmitName": "NotOnRanToCompletion",
+          "tsEmitName": "notOnRanToCompletion",
           "normalizedSignature": "NotOnRanToCompletion|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         },
         {
           "clrName": "NotOnFaulted",
-          "tsEmitName": "NotOnFaulted",
+          "tsEmitName": "notOnFaulted",
           "normalizedSignature": "NotOnFaulted|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -163,7 +163,7 @@
         },
         {
           "clrName": "NotOnCanceled",
-          "tsEmitName": "NotOnCanceled",
+          "tsEmitName": "notOnCanceled",
           "normalizedSignature": "NotOnCanceled|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -171,7 +171,7 @@
         },
         {
           "clrName": "OnlyOnRanToCompletion",
-          "tsEmitName": "OnlyOnRanToCompletion",
+          "tsEmitName": "onlyOnRanToCompletion",
           "normalizedSignature": "OnlyOnRanToCompletion|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         },
         {
           "clrName": "OnlyOnFaulted",
-          "tsEmitName": "OnlyOnFaulted",
+          "tsEmitName": "onlyOnFaulted",
           "normalizedSignature": "OnlyOnFaulted|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         },
         {
           "clrName": "OnlyOnCanceled",
-          "tsEmitName": "OnlyOnCanceled",
+          "tsEmitName": "onlyOnCanceled",
           "normalizedSignature": "OnlyOnCanceled|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -195,7 +195,7 @@
         },
         {
           "clrName": "ExecuteSynchronously",
-          "tsEmitName": "ExecuteSynchronously",
+          "tsEmitName": "executeSynchronously",
           "normalizedSignature": "ExecuteSynchronously|System.Threading.Tasks.TaskContinuationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -227,7 +227,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         },
         {
           "clrName": "PreferFairness",
-          "tsEmitName": "PreferFairness",
+          "tsEmitName": "preferFairness",
           "normalizedSignature": "PreferFairness|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -243,7 +243,7 @@
         },
         {
           "clrName": "LongRunning",
-          "tsEmitName": "LongRunning",
+          "tsEmitName": "longRunning",
           "normalizedSignature": "LongRunning|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -251,7 +251,7 @@
         },
         {
           "clrName": "AttachedToParent",
-          "tsEmitName": "AttachedToParent",
+          "tsEmitName": "attachedToParent",
           "normalizedSignature": "AttachedToParent|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         },
         {
           "clrName": "DenyChildAttach",
-          "tsEmitName": "DenyChildAttach",
+          "tsEmitName": "denyChildAttach",
           "normalizedSignature": "DenyChildAttach|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -267,7 +267,7 @@
         },
         {
           "clrName": "HideScheduler",
-          "tsEmitName": "HideScheduler",
+          "tsEmitName": "hideScheduler",
           "normalizedSignature": "HideScheduler|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -275,7 +275,7 @@
         },
         {
           "clrName": "RunContinuationsAsynchronously",
-          "tsEmitName": "RunContinuationsAsynchronously",
+          "tsEmitName": "runContinuationsAsynchronously",
           "normalizedSignature": "RunContinuationsAsynchronously|System.Threading.Tasks.TaskCreationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -307,7 +307,7 @@
         },
         {
           "clrName": "Created",
-          "tsEmitName": "Created",
+          "tsEmitName": "created",
           "normalizedSignature": "Created|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -315,7 +315,7 @@
         },
         {
           "clrName": "WaitingForActivation",
-          "tsEmitName": "WaitingForActivation",
+          "tsEmitName": "waitingForActivation",
           "normalizedSignature": "WaitingForActivation|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -323,7 +323,7 @@
         },
         {
           "clrName": "WaitingToRun",
-          "tsEmitName": "WaitingToRun",
+          "tsEmitName": "waitingToRun",
           "normalizedSignature": "WaitingToRun|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -331,7 +331,7 @@
         },
         {
           "clrName": "Running",
-          "tsEmitName": "Running",
+          "tsEmitName": "running",
           "normalizedSignature": "Running|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         },
         {
           "clrName": "WaitingForChildrenToComplete",
-          "tsEmitName": "WaitingForChildrenToComplete",
+          "tsEmitName": "waitingForChildrenToComplete",
           "normalizedSignature": "WaitingForChildrenToComplete|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -347,7 +347,7 @@
         },
         {
           "clrName": "RanToCompletion",
-          "tsEmitName": "RanToCompletion",
+          "tsEmitName": "ranToCompletion",
           "normalizedSignature": "RanToCompletion|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -355,7 +355,7 @@
         },
         {
           "clrName": "Canceled",
-          "tsEmitName": "Canceled",
+          "tsEmitName": "canceled",
           "normalizedSignature": "Canceled|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -363,7 +363,7 @@
         },
         {
           "clrName": "Faulted",
-          "tsEmitName": "Faulted",
+          "tsEmitName": "faulted",
           "normalizedSignature": "Faulted|System.Threading.Tasks.TaskStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -386,7 +386,7 @@
       "properties": [
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -400,7 +400,7 @@
         },
         {
           "clrName": "LowestBreakIteration",
-          "tsEmitName": "LowestBreakIteration",
+          "tsEmitName": "lowestBreakIteration",
           "normalizedSignature": "LowestBreakIteration|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -429,7 +429,7 @@
       "methods": [
         {
           "clrName": "FromResult",
-          "tsEmitName": "FromResult",
+          "tsEmitName": "fromResult",
           "normalizedSignature": "FromResult|(TResult):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -443,7 +443,7 @@
         },
         {
           "clrName": "FromCanceled",
-          "tsEmitName": "FromCanceled",
+          "tsEmitName": "fromCanceled",
           "normalizedSignature": "FromCanceled|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -457,7 +457,7 @@
         },
         {
           "clrName": "FromCanceled",
-          "tsEmitName": "FromCanceled2",
+          "tsEmitName": "fromCanceled2",
           "normalizedSignature": "FromCanceled|(System.Threading.CancellationToken):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -471,7 +471,7 @@
         },
         {
           "clrName": "FromException",
-          "tsEmitName": "FromException",
+          "tsEmitName": "fromException",
           "normalizedSignature": "FromException|(System.Exception):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -485,7 +485,7 @@
         },
         {
           "clrName": "FromException",
-          "tsEmitName": "FromException2",
+          "tsEmitName": "fromException2",
           "normalizedSignature": "FromException|(System.Exception):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -499,7 +499,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -513,7 +513,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -527,7 +527,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(System.Threading.Tasks.ValueTask):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -541,7 +541,7 @@
         },
         {
           "clrName": "AsTask",
-          "tsEmitName": "AsTask",
+          "tsEmitName": "asTask",
           "normalizedSignature": "AsTask|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -555,7 +555,7 @@
         },
         {
           "clrName": "Preserve",
-          "tsEmitName": "Preserve",
+          "tsEmitName": "preserve",
           "normalizedSignature": "Preserve|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -569,7 +569,7 @@
         },
         {
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter",
+          "tsEmitName": "getAwaiter",
           "normalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.ValueTaskAwaiter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -583,7 +583,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -597,7 +597,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals$view",
+          "tsEmitName": "equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -614,7 +614,7 @@
       "properties": [
         {
           "clrName": "CompletedTask",
-          "tsEmitName": "CompletedTask",
+          "tsEmitName": "completedTask",
           "normalizedSignature": "CompletedTask|:System.Threading.Tasks.ValueTask|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -628,7 +628,7 @@
         },
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -642,7 +642,7 @@
         },
         {
           "clrName": "IsCompletedSuccessfully",
-          "tsEmitName": "IsCompletedSuccessfully",
+          "tsEmitName": "isCompletedSuccessfully",
           "normalizedSignature": "IsCompletedSuccessfully|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -656,7 +656,7 @@
         },
         {
           "clrName": "IsFaulted",
-          "tsEmitName": "IsFaulted",
+          "tsEmitName": "isFaulted",
           "normalizedSignature": "IsFaulted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -670,7 +670,7 @@
         },
         {
           "clrName": "IsCanceled",
-          "tsEmitName": "IsCanceled",
+          "tsEmitName": "isCanceled",
           "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -710,7 +710,7 @@
       "methods": [
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -724,7 +724,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -738,7 +738,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals2",
+          "tsEmitName": "equals2",
           "normalizedSignature": "Equals|(ValueTask_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -752,7 +752,7 @@
         },
         {
           "clrName": "AsTask",
-          "tsEmitName": "AsTask",
+          "tsEmitName": "asTask",
           "normalizedSignature": "AsTask|():Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -766,7 +766,7 @@
         },
         {
           "clrName": "Preserve",
-          "tsEmitName": "Preserve",
+          "tsEmitName": "preserve",
           "normalizedSignature": "Preserve|():ValueTask_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -780,7 +780,7 @@
         },
         {
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter",
+          "tsEmitName": "getAwaiter",
           "normalizedSignature": "GetAwaiter|():ValueTaskAwaiter_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -794,7 +794,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):ConfiguredValueTaskAwaitable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -808,7 +808,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -822,7 +822,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals$view",
+          "tsEmitName": "equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -839,7 +839,7 @@
       "properties": [
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -853,7 +853,7 @@
         },
         {
           "clrName": "IsCompletedSuccessfully",
-          "tsEmitName": "IsCompletedSuccessfully",
+          "tsEmitName": "isCompletedSuccessfully",
           "normalizedSignature": "IsCompletedSuccessfully|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -867,7 +867,7 @@
         },
         {
           "clrName": "IsFaulted",
-          "tsEmitName": "IsFaulted",
+          "tsEmitName": "isFaulted",
           "normalizedSignature": "IsFaulted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -881,7 +881,7 @@
         },
         {
           "clrName": "IsCanceled",
-          "tsEmitName": "IsCanceled",
+          "tsEmitName": "isCanceled",
           "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -895,7 +895,7 @@
         },
         {
           "clrName": "Result",
-          "tsEmitName": "Result",
+          "tsEmitName": "result",
           "normalizedSignature": "Result|:TResult|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -940,7 +940,7 @@
       "methods": [
         {
           "clrName": "Complete",
-          "tsEmitName": "Complete",
+          "tsEmitName": "complete",
           "normalizedSignature": "Complete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -956,7 +956,7 @@
       "properties": [
         {
           "clrName": "Completion",
-          "tsEmitName": "Completion",
+          "tsEmitName": "completion",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -970,7 +970,7 @@
         },
         {
           "clrName": "ConcurrentScheduler",
-          "tsEmitName": "ConcurrentScheduler",
+          "tsEmitName": "concurrentScheduler",
           "normalizedSignature": "ConcurrentScheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -984,7 +984,7 @@
         },
         {
           "clrName": "ExclusiveScheduler",
-          "tsEmitName": "ExclusiveScheduler",
+          "tsEmitName": "exclusiveScheduler",
           "normalizedSignature": "ExclusiveScheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1034,7 +1034,7 @@
       "methods": [
         {
           "clrName": "Stop",
-          "tsEmitName": "Stop",
+          "tsEmitName": "stop",
           "normalizedSignature": "Stop|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1048,7 +1048,7 @@
         },
         {
           "clrName": "Break",
-          "tsEmitName": "Break",
+          "tsEmitName": "break_",
           "normalizedSignature": "Break|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1064,7 +1064,7 @@
       "properties": [
         {
           "clrName": "ShouldExitCurrentIteration",
-          "tsEmitName": "ShouldExitCurrentIteration",
+          "tsEmitName": "shouldExitCurrentIteration",
           "normalizedSignature": "ShouldExitCurrentIteration|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1078,7 +1078,7 @@
         },
         {
           "clrName": "IsStopped",
-          "tsEmitName": "IsStopped",
+          "tsEmitName": "isStopped",
           "normalizedSignature": "IsStopped|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1092,7 +1092,7 @@
         },
         {
           "clrName": "IsExceptional",
-          "tsEmitName": "IsExceptional",
+          "tsEmitName": "isExceptional",
           "normalizedSignature": "IsExceptional|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1106,7 +1106,7 @@
         },
         {
           "clrName": "LowestBreakIteration",
-          "tsEmitName": "LowestBreakIteration",
+          "tsEmitName": "lowestBreakIteration",
           "normalizedSignature": "LowestBreakIteration|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1136,7 +1136,7 @@
       "properties": [
         {
           "clrName": "TaskScheduler",
-          "tsEmitName": "TaskScheduler",
+          "tsEmitName": "taskScheduler",
           "normalizedSignature": "TaskScheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1150,7 +1150,7 @@
         },
         {
           "clrName": "MaxDegreeOfParallelism",
-          "tsEmitName": "MaxDegreeOfParallelism",
+          "tsEmitName": "maxDegreeOfParallelism",
           "normalizedSignature": "MaxDegreeOfParallelism|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1164,7 +1164,7 @@
         },
         {
           "clrName": "CancellationToken",
-          "tsEmitName": "CancellationToken",
+          "tsEmitName": "cancellationToken",
           "normalizedSignature": "CancellationToken|:System.Threading.CancellationToken|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1199,7 +1199,7 @@
       "methods": [
         {
           "clrName": "Start",
-          "tsEmitName": "Start",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1213,7 +1213,7 @@
         },
         {
           "clrName": "Start",
-          "tsEmitName": "Start2",
+          "tsEmitName": "start2",
           "normalizedSignature": "Start|(System.Threading.Tasks.TaskScheduler):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1227,7 +1227,7 @@
         },
         {
           "clrName": "RunSynchronously",
-          "tsEmitName": "RunSynchronously",
+          "tsEmitName": "runSynchronously",
           "normalizedSignature": "RunSynchronously|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1241,7 +1241,7 @@
         },
         {
           "clrName": "RunSynchronously",
-          "tsEmitName": "RunSynchronously2",
+          "tsEmitName": "runSynchronously2",
           "normalizedSignature": "RunSynchronously|(System.Threading.Tasks.TaskScheduler):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1255,7 +1255,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1269,7 +1269,7 @@
         },
         {
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter",
+          "tsEmitName": "getAwaiter",
           "normalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.TaskAwaiter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1283,7 +1283,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1297,7 +1297,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait2",
+          "tsEmitName": "configureAwait2",
           "normalizedSignature": "ConfigureAwait|(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1311,7 +1311,7 @@
         },
         {
           "clrName": "Yield",
-          "tsEmitName": "Yield",
+          "tsEmitName": "yield_",
           "normalizedSignature": "Yield|():System.Runtime.CompilerServices.YieldAwaitable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1325,7 +1325,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait",
+          "tsEmitName": "wait",
           "normalizedSignature": "Wait|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1339,7 +1339,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait2",
+          "tsEmitName": "wait2",
           "normalizedSignature": "Wait|(System.TimeSpan):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1353,7 +1353,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait3",
+          "tsEmitName": "wait3",
           "normalizedSignature": "Wait|(System.TimeSpan,System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1367,7 +1367,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait4",
+          "tsEmitName": "wait4",
           "normalizedSignature": "Wait|(System.Threading.CancellationToken):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1381,7 +1381,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait5",
+          "tsEmitName": "wait5",
           "normalizedSignature": "Wait|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1395,7 +1395,7 @@
         },
         {
           "clrName": "Wait",
-          "tsEmitName": "Wait6",
+          "tsEmitName": "wait6",
           "normalizedSignature": "Wait|(System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1409,7 +1409,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync",
+          "tsEmitName": "waitAsync",
           "normalizedSignature": "WaitAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1423,7 +1423,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync2",
+          "tsEmitName": "waitAsync2",
           "normalizedSignature": "WaitAsync|(System.TimeSpan):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1437,7 +1437,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync3",
+          "tsEmitName": "waitAsync3",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1451,7 +1451,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync4",
+          "tsEmitName": "waitAsync4",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1465,7 +1465,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync5",
+          "tsEmitName": "waitAsync5",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1479,7 +1479,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith",
+          "tsEmitName": "continueWith",
           "normalizedSignature": "ContinueWith|(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1493,7 +1493,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith2",
+          "tsEmitName": "continueWith2",
           "normalizedSignature": "ContinueWith|(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1507,7 +1507,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith3",
+          "tsEmitName": "continueWith3",
           "normalizedSignature": "ContinueWith|(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1521,7 +1521,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith4",
+          "tsEmitName": "continueWith4",
           "normalizedSignature": "ContinueWith|(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1535,7 +1535,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith5",
+          "tsEmitName": "continueWith5",
           "normalizedSignature": "ContinueWith|(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1549,7 +1549,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith6",
+          "tsEmitName": "continueWith6",
           "normalizedSignature": "ContinueWith|(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1563,7 +1563,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith7",
+          "tsEmitName": "continueWith7",
           "normalizedSignature": "ContinueWith|(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1577,7 +1577,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith8",
+          "tsEmitName": "continueWith8",
           "normalizedSignature": "ContinueWith|(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1591,7 +1591,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith9",
+          "tsEmitName": "continueWith9",
           "normalizedSignature": "ContinueWith|(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1605,7 +1605,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith10",
+          "tsEmitName": "continueWith10",
           "normalizedSignature": "ContinueWith|(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1619,7 +1619,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith11",
+          "tsEmitName": "continueWith11",
           "normalizedSignature": "ContinueWith|(Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1633,7 +1633,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith12",
+          "tsEmitName": "continueWith12",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1647,7 +1647,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith13",
+          "tsEmitName": "continueWith13",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1661,7 +1661,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith14",
+          "tsEmitName": "continueWith14",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1675,7 +1675,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith15",
+          "tsEmitName": "continueWith15",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1689,7 +1689,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith16",
+          "tsEmitName": "continueWith16",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1703,7 +1703,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith17",
+          "tsEmitName": "continueWith17",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1717,7 +1717,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith18",
+          "tsEmitName": "continueWith18",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1731,7 +1731,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith19",
+          "tsEmitName": "continueWith19",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1745,7 +1745,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith20",
+          "tsEmitName": "continueWith20",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1759,7 +1759,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll",
+          "tsEmitName": "waitAll",
           "normalizedSignature": "WaitAll|(System.Threading.Tasks.Task[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1773,7 +1773,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll2",
+          "tsEmitName": "waitAll2",
           "normalizedSignature": "WaitAll|(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1787,7 +1787,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll3",
+          "tsEmitName": "waitAll3",
           "normalizedSignature": "WaitAll|(System.Threading.Tasks.Task[],System.TimeSpan):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1801,7 +1801,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll4",
+          "tsEmitName": "waitAll4",
           "normalizedSignature": "WaitAll|(System.Threading.Tasks.Task[],System.Int32):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1815,7 +1815,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll5",
+          "tsEmitName": "waitAll5",
           "normalizedSignature": "WaitAll|(System.Threading.Tasks.Task[],System.Threading.CancellationToken):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1829,7 +1829,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll6",
+          "tsEmitName": "waitAll6",
           "normalizedSignature": "WaitAll|(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1843,7 +1843,7 @@
         },
         {
           "clrName": "WaitAll",
-          "tsEmitName": "WaitAll7",
+          "tsEmitName": "waitAll7",
           "normalizedSignature": "WaitAll|(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1857,7 +1857,7 @@
         },
         {
           "clrName": "WaitAny",
-          "tsEmitName": "WaitAny",
+          "tsEmitName": "waitAny",
           "normalizedSignature": "WaitAny|(System.Threading.Tasks.Task[]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1871,7 +1871,7 @@
         },
         {
           "clrName": "WaitAny",
-          "tsEmitName": "WaitAny2",
+          "tsEmitName": "waitAny2",
           "normalizedSignature": "WaitAny|(System.Threading.Tasks.Task[],System.TimeSpan):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1885,7 +1885,7 @@
         },
         {
           "clrName": "WaitAny",
-          "tsEmitName": "WaitAny3",
+          "tsEmitName": "waitAny3",
           "normalizedSignature": "WaitAny|(System.Threading.Tasks.Task[],System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1899,7 +1899,7 @@
         },
         {
           "clrName": "WaitAny",
-          "tsEmitName": "WaitAny4",
+          "tsEmitName": "waitAny4",
           "normalizedSignature": "WaitAny|(System.Threading.Tasks.Task[],System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1913,7 +1913,7 @@
         },
         {
           "clrName": "WaitAny",
-          "tsEmitName": "WaitAny5",
+          "tsEmitName": "waitAny5",
           "normalizedSignature": "WaitAny|(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1927,7 +1927,7 @@
         },
         {
           "clrName": "FromResult",
-          "tsEmitName": "FromResult",
+          "tsEmitName": "fromResult",
           "normalizedSignature": "FromResult|(TResult):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1941,7 +1941,7 @@
         },
         {
           "clrName": "FromException",
-          "tsEmitName": "FromException",
+          "tsEmitName": "fromException",
           "normalizedSignature": "FromException|(System.Exception):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1955,7 +1955,7 @@
         },
         {
           "clrName": "FromException",
-          "tsEmitName": "FromException2",
+          "tsEmitName": "fromException2",
           "normalizedSignature": "FromException|(System.Exception):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1969,7 +1969,7 @@
         },
         {
           "clrName": "FromCanceled",
-          "tsEmitName": "FromCanceled",
+          "tsEmitName": "fromCanceled",
           "normalizedSignature": "FromCanceled|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1983,7 +1983,7 @@
         },
         {
           "clrName": "FromCanceled",
-          "tsEmitName": "FromCanceled2",
+          "tsEmitName": "fromCanceled2",
           "normalizedSignature": "FromCanceled|(System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1997,7 +1997,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run",
+          "tsEmitName": "run",
           "normalizedSignature": "Run|(System.Action):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2011,7 +2011,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run2",
+          "tsEmitName": "run2",
           "normalizedSignature": "Run|(System.Action,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2025,7 +2025,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run3",
+          "tsEmitName": "run3",
           "normalizedSignature": "Run|(Func_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2039,7 +2039,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run4",
+          "tsEmitName": "run4",
           "normalizedSignature": "Run|(Func_1,System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2053,7 +2053,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run5",
+          "tsEmitName": "run5",
           "normalizedSignature": "Run|(System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         },
         {
           "clrName": "Run",
-          "tsEmitName": "Run6",
+          "tsEmitName": "run6",
           "normalizedSignature": "Run|(System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2081,7 +2081,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay",
+          "tsEmitName": "delay",
           "normalizedSignature": "Delay|(System.TimeSpan):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2095,7 +2095,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay2",
+          "tsEmitName": "delay2",
           "normalizedSignature": "Delay|(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2109,7 +2109,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay3",
+          "tsEmitName": "delay3",
           "normalizedSignature": "Delay|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2123,7 +2123,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay4",
+          "tsEmitName": "delay4",
           "normalizedSignature": "Delay|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2137,7 +2137,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay5",
+          "tsEmitName": "delay5",
           "normalizedSignature": "Delay|(System.Int32):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2151,7 +2151,7 @@
         },
         {
           "clrName": "Delay",
-          "tsEmitName": "Delay6",
+          "tsEmitName": "delay6",
           "normalizedSignature": "Delay|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2165,7 +2165,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll",
+          "tsEmitName": "whenAll",
           "normalizedSignature": "WhenAll|(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2179,7 +2179,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll2",
+          "tsEmitName": "whenAll2",
           "normalizedSignature": "WhenAll|(System.Threading.Tasks.Task[]):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2193,7 +2193,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll3",
+          "tsEmitName": "whenAll3",
           "normalizedSignature": "WhenAll|(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2207,7 +2207,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll4",
+          "tsEmitName": "whenAll4",
           "normalizedSignature": "WhenAll|(IEnumerable_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2221,7 +2221,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll5",
+          "tsEmitName": "whenAll5",
           "normalizedSignature": "WhenAll|(Task_1[]):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2235,7 +2235,7 @@
         },
         {
           "clrName": "WhenAll",
-          "tsEmitName": "WhenAll6",
+          "tsEmitName": "whenAll6",
           "normalizedSignature": "WhenAll|(ReadOnlySpan_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2249,7 +2249,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny",
+          "tsEmitName": "whenAny",
           "normalizedSignature": "WhenAny|(System.Threading.Tasks.Task[]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2263,7 +2263,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny2",
+          "tsEmitName": "whenAny2",
           "normalizedSignature": "WhenAny|(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2277,7 +2277,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny3",
+          "tsEmitName": "whenAny3",
           "normalizedSignature": "WhenAny|(System.Threading.Tasks.Task,System.Threading.Tasks.Task):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny4",
+          "tsEmitName": "whenAny4",
           "normalizedSignature": "WhenAny|(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2305,7 +2305,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny5",
+          "tsEmitName": "whenAny5",
           "normalizedSignature": "WhenAny|(Task_1[]):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2319,7 +2319,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny6",
+          "tsEmitName": "whenAny6",
           "normalizedSignature": "WhenAny|(ReadOnlySpan_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2333,7 +2333,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny7",
+          "tsEmitName": "whenAny7",
           "normalizedSignature": "WhenAny|(Task_1,Task_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2347,7 +2347,7 @@
         },
         {
           "clrName": "WhenAny",
-          "tsEmitName": "WhenAny8",
+          "tsEmitName": "whenAny8",
           "normalizedSignature": "WhenAny|(IEnumerable_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2361,7 +2361,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach",
+          "tsEmitName": "whenEach",
           "normalizedSignature": "WhenEach|(System.Threading.Tasks.Task[]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2375,7 +2375,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach2",
+          "tsEmitName": "whenEach2",
           "normalizedSignature": "WhenEach|(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2389,7 +2389,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach3",
+          "tsEmitName": "whenEach3",
           "normalizedSignature": "WhenEach|(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2403,7 +2403,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach4",
+          "tsEmitName": "whenEach4",
           "normalizedSignature": "WhenEach|(Task_1[]):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2417,7 +2417,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach5",
+          "tsEmitName": "whenEach5",
           "normalizedSignature": "WhenEach|(ReadOnlySpan_1):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2431,7 +2431,7 @@
         },
         {
           "clrName": "WhenEach",
-          "tsEmitName": "WhenEach6",
+          "tsEmitName": "whenEach6",
           "normalizedSignature": "WhenEach|(IEnumerable_1):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2445,7 +2445,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2462,7 +2462,7 @@
       "properties": [
         {
           "clrName": "Id",
-          "tsEmitName": "Id",
+          "tsEmitName": "id",
           "normalizedSignature": "Id|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2476,7 +2476,7 @@
         },
         {
           "clrName": "CurrentId",
-          "tsEmitName": "CurrentId",
+          "tsEmitName": "currentId",
           "normalizedSignature": "CurrentId|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2490,7 +2490,7 @@
         },
         {
           "clrName": "Exception",
-          "tsEmitName": "Exception",
+          "tsEmitName": "exception",
           "normalizedSignature": "Exception|:System.AggregateException|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2504,7 +2504,7 @@
         },
         {
           "clrName": "Status",
-          "tsEmitName": "Status",
+          "tsEmitName": "status",
           "normalizedSignature": "Status|:System.Threading.Tasks.TaskStatus|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2518,7 +2518,7 @@
         },
         {
           "clrName": "IsCanceled",
-          "tsEmitName": "IsCanceled",
+          "tsEmitName": "isCanceled",
           "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2532,7 +2532,7 @@
         },
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2546,7 +2546,7 @@
         },
         {
           "clrName": "IsCompletedSuccessfully",
-          "tsEmitName": "IsCompletedSuccessfully",
+          "tsEmitName": "isCompletedSuccessfully",
           "normalizedSignature": "IsCompletedSuccessfully|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2560,7 +2560,7 @@
         },
         {
           "clrName": "CreationOptions",
-          "tsEmitName": "CreationOptions",
+          "tsEmitName": "creationOptions",
           "normalizedSignature": "CreationOptions|:System.Threading.Tasks.TaskCreationOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2574,7 +2574,7 @@
         },
         {
           "clrName": "AsyncState",
-          "tsEmitName": "AsyncState",
+          "tsEmitName": "asyncState",
           "normalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2588,7 +2588,7 @@
         },
         {
           "clrName": "Factory",
-          "tsEmitName": "Factory",
+          "tsEmitName": "factory",
           "normalizedSignature": "Factory|:System.Threading.Tasks.TaskFactory|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2602,7 +2602,7 @@
         },
         {
           "clrName": "CompletedTask",
-          "tsEmitName": "CompletedTask",
+          "tsEmitName": "completedTask",
           "normalizedSignature": "CompletedTask|:System.Threading.Tasks.Task|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2616,7 +2616,7 @@
         },
         {
           "clrName": "IsFaulted",
-          "tsEmitName": "IsFaulted",
+          "tsEmitName": "isFaulted",
           "normalizedSignature": "IsFaulted|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2630,7 +2630,7 @@
         },
         {
           "clrName": "AsyncWaitHandle",
-          "tsEmitName": "AsyncWaitHandle",
+          "tsEmitName": "asyncWaitHandle",
           "normalizedSignature": "AsyncWaitHandle|:System.Threading.WaitHandle|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2645,7 +2645,7 @@
         },
         {
           "clrName": "CompletedSynchronously",
-          "tsEmitName": "CompletedSynchronously",
+          "tsEmitName": "completedSynchronously",
           "normalizedSignature": "CompletedSynchronously|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2660,7 +2660,7 @@
         },
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted$view",
+          "tsEmitName": "isCompleted$view",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2675,7 +2675,7 @@
         },
         {
           "clrName": "AsyncState",
-          "tsEmitName": "AsyncState$view",
+          "tsEmitName": "asyncState$view",
           "normalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2746,7 +2746,7 @@
       "methods": [
         {
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter2",
+          "tsEmitName": "getAwaiter2",
           "normalizedSignature": "GetAwaiter|():TaskAwaiter_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2760,7 +2760,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait3",
+          "tsEmitName": "configureAwait3",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):ConfiguredTaskAwaitable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2774,7 +2774,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait4",
+          "tsEmitName": "configureAwait4",
           "normalizedSignature": "ConfigureAwait|(System.Threading.Tasks.ConfigureAwaitOptions):ConfiguredTaskAwaitable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2788,7 +2788,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync6",
+          "tsEmitName": "waitAsync6",
           "normalizedSignature": "WaitAsync|(System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2802,7 +2802,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync7",
+          "tsEmitName": "waitAsync7",
           "normalizedSignature": "WaitAsync|(System.TimeSpan):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2816,7 +2816,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync8",
+          "tsEmitName": "waitAsync8",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2830,7 +2830,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync9",
+          "tsEmitName": "waitAsync9",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2844,7 +2844,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync10",
+          "tsEmitName": "waitAsync10",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2858,7 +2858,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith21",
+          "tsEmitName": "continueWith21",
           "normalizedSignature": "ContinueWith|(Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2872,7 +2872,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith22",
+          "tsEmitName": "continueWith22",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2886,7 +2886,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith23",
+          "tsEmitName": "continueWith23",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2900,7 +2900,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith24",
+          "tsEmitName": "continueWith24",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2914,7 +2914,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith25",
+          "tsEmitName": "continueWith25",
           "normalizedSignature": "ContinueWith|(Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2928,7 +2928,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith26",
+          "tsEmitName": "continueWith26",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2942,7 +2942,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith27",
+          "tsEmitName": "continueWith27",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2956,7 +2956,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith28",
+          "tsEmitName": "continueWith28",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2970,7 +2970,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith29",
+          "tsEmitName": "continueWith29",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2984,7 +2984,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith30",
+          "tsEmitName": "continueWith30",
           "normalizedSignature": "ContinueWith|(Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2998,7 +2998,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith31",
+          "tsEmitName": "continueWith31",
           "normalizedSignature": "ContinueWith|(Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3012,7 +3012,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith32",
+          "tsEmitName": "continueWith32",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3026,7 +3026,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith33",
+          "tsEmitName": "continueWith33",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3040,7 +3040,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith34",
+          "tsEmitName": "continueWith34",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3054,7 +3054,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith35",
+          "tsEmitName": "continueWith35",
           "normalizedSignature": "ContinueWith|(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3068,7 +3068,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith36",
+          "tsEmitName": "continueWith36",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3082,7 +3082,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith37",
+          "tsEmitName": "continueWith37",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3096,7 +3096,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith38",
+          "tsEmitName": "continueWith38",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3110,7 +3110,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith39",
+          "tsEmitName": "continueWith39",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3124,7 +3124,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith40",
+          "tsEmitName": "continueWith40",
           "normalizedSignature": "ContinueWith|(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3138,7 +3138,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3153,7 +3153,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3167,7 +3167,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait2",
+          "tsEmitName": "configureAwait2",
           "normalizedSignature": "ConfigureAwait|(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3181,7 +3181,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith",
+          "tsEmitName": "continueWith",
           "normalizedSignature": "ContinueWith|(System.Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3195,7 +3195,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith2",
+          "tsEmitName": "continueWith2",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3209,7 +3209,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith3",
+          "tsEmitName": "continueWith3",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3223,7 +3223,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith4",
+          "tsEmitName": "continueWith4",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3237,7 +3237,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith5",
+          "tsEmitName": "continueWith5",
           "normalizedSignature": "ContinueWith|(System.Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3251,7 +3251,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith6",
+          "tsEmitName": "continueWith6",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3265,7 +3265,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith7",
+          "tsEmitName": "continueWith7",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3279,7 +3279,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith8",
+          "tsEmitName": "continueWith8",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3293,7 +3293,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith9",
+          "tsEmitName": "continueWith9",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3307,7 +3307,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith10",
+          "tsEmitName": "continueWith10",
           "normalizedSignature": "ContinueWith|(System.Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3321,7 +3321,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith11",
+          "tsEmitName": "continueWith11",
           "normalizedSignature": "ContinueWith|(System.Func_2):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3335,7 +3335,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith12",
+          "tsEmitName": "continueWith12",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3349,7 +3349,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith13",
+          "tsEmitName": "continueWith13",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3363,7 +3363,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith14",
+          "tsEmitName": "continueWith14",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3377,7 +3377,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith15",
+          "tsEmitName": "continueWith15",
           "normalizedSignature": "ContinueWith|(System.Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3391,7 +3391,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith16",
+          "tsEmitName": "continueWith16",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3405,7 +3405,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith17",
+          "tsEmitName": "continueWith17",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3419,7 +3419,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith18",
+          "tsEmitName": "continueWith18",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3433,7 +3433,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith19",
+          "tsEmitName": "continueWith19",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3447,7 +3447,7 @@
         },
         {
           "clrName": "ContinueWith",
-          "tsEmitName": "ContinueWith20",
+          "tsEmitName": "continueWith20",
           "normalizedSignature": "ContinueWith|(System.Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3461,7 +3461,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3475,7 +3475,7 @@
         },
         {
           "clrName": "GetAwaiter",
-          "tsEmitName": "GetAwaiter",
+          "tsEmitName": "getAwaiter",
           "normalizedSignature": "GetAwaiter|():System.Runtime.CompilerServices.TaskAwaiter|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3489,7 +3489,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync",
+          "tsEmitName": "waitAsync",
           "normalizedSignature": "WaitAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3503,7 +3503,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync2",
+          "tsEmitName": "waitAsync2",
           "normalizedSignature": "WaitAsync|(System.TimeSpan):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3517,7 +3517,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync3",
+          "tsEmitName": "waitAsync3",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3531,7 +3531,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync4",
+          "tsEmitName": "waitAsync4",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3545,7 +3545,7 @@
         },
         {
           "clrName": "WaitAsync",
-          "tsEmitName": "WaitAsync5",
+          "tsEmitName": "waitAsync5",
           "normalizedSignature": "WaitAsync|(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3561,7 +3561,7 @@
       "properties": [
         {
           "clrName": "Result",
-          "tsEmitName": "Result",
+          "tsEmitName": "result",
           "normalizedSignature": "Result|:TResult|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3575,7 +3575,7 @@
         },
         {
           "clrName": "Factory",
-          "tsEmitName": "Factory",
+          "tsEmitName": "factory",
           "normalizedSignature": "Factory|:TaskFactory_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3589,7 +3589,7 @@
         },
         {
           "clrName": "IsCompleted",
-          "tsEmitName": "IsCompleted",
+          "tsEmitName": "isCompleted",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3604,7 +3604,7 @@
         },
         {
           "clrName": "AsyncWaitHandle",
-          "tsEmitName": "AsyncWaitHandle",
+          "tsEmitName": "asyncWaitHandle",
           "normalizedSignature": "AsyncWaitHandle|:System.Threading.WaitHandle|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3619,7 +3619,7 @@
         },
         {
           "clrName": "AsyncState",
-          "tsEmitName": "AsyncState",
+          "tsEmitName": "asyncState",
           "normalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3634,7 +3634,7 @@
         },
         {
           "clrName": "CompletedSynchronously",
-          "tsEmitName": "CompletedSynchronously",
+          "tsEmitName": "completedSynchronously",
           "normalizedSignature": "CompletedSynchronously|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3705,7 +3705,7 @@
       "methods": [
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3720,7 +3720,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3736,7 +3736,7 @@
       "properties": [
         {
           "clrName": "Task",
-          "tsEmitName": "Task",
+          "tsEmitName": "task",
           "normalizedSignature": "Task|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3791,7 +3791,7 @@
       "methods": [
         {
           "clrName": "SetException",
-          "tsEmitName": "SetException",
+          "tsEmitName": "setException",
           "normalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3805,7 +3805,7 @@
         },
         {
           "clrName": "SetException",
-          "tsEmitName": "SetException2",
+          "tsEmitName": "setException2",
           "normalizedSignature": "SetException|(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3819,7 +3819,7 @@
         },
         {
           "clrName": "TrySetException",
-          "tsEmitName": "TrySetException",
+          "tsEmitName": "trySetException",
           "normalizedSignature": "TrySetException|(System.Exception):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3833,7 +3833,7 @@
         },
         {
           "clrName": "TrySetException",
-          "tsEmitName": "TrySetException2",
+          "tsEmitName": "trySetException2",
           "normalizedSignature": "TrySetException|(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3847,7 +3847,7 @@
         },
         {
           "clrName": "SetResult",
-          "tsEmitName": "SetResult",
+          "tsEmitName": "setResult",
           "normalizedSignature": "SetResult|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3861,7 +3861,7 @@
         },
         {
           "clrName": "TrySetResult",
-          "tsEmitName": "TrySetResult",
+          "tsEmitName": "trySetResult",
           "normalizedSignature": "TrySetResult|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3875,7 +3875,7 @@
         },
         {
           "clrName": "SetCanceled",
-          "tsEmitName": "SetCanceled",
+          "tsEmitName": "setCanceled",
           "normalizedSignature": "SetCanceled|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3889,7 +3889,7 @@
         },
         {
           "clrName": "SetCanceled",
-          "tsEmitName": "SetCanceled2",
+          "tsEmitName": "setCanceled2",
           "normalizedSignature": "SetCanceled|(System.Threading.CancellationToken):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3903,7 +3903,7 @@
         },
         {
           "clrName": "TrySetCanceled",
-          "tsEmitName": "TrySetCanceled",
+          "tsEmitName": "trySetCanceled",
           "normalizedSignature": "TrySetCanceled|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3917,7 +3917,7 @@
         },
         {
           "clrName": "TrySetCanceled",
-          "tsEmitName": "TrySetCanceled2",
+          "tsEmitName": "trySetCanceled2",
           "normalizedSignature": "TrySetCanceled|(System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3931,7 +3931,7 @@
         },
         {
           "clrName": "SetFromTask",
-          "tsEmitName": "SetFromTask",
+          "tsEmitName": "setFromTask",
           "normalizedSignature": "SetFromTask|(System.Threading.Tasks.Task):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3945,7 +3945,7 @@
         },
         {
           "clrName": "TrySetFromTask",
-          "tsEmitName": "TrySetFromTask",
+          "tsEmitName": "trySetFromTask",
           "normalizedSignature": "TrySetFromTask|(System.Threading.Tasks.Task):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3961,7 +3961,7 @@
       "properties": [
         {
           "clrName": "Task",
-          "tsEmitName": "Task",
+          "tsEmitName": "task",
           "normalizedSignature": "Task|:System.Threading.Tasks.Task|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4011,7 +4011,7 @@
       "methods": [
         {
           "clrName": "SetException",
-          "tsEmitName": "SetException",
+          "tsEmitName": "setException",
           "normalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4025,7 +4025,7 @@
         },
         {
           "clrName": "SetException",
-          "tsEmitName": "SetException2",
+          "tsEmitName": "setException2",
           "normalizedSignature": "SetException|(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4039,7 +4039,7 @@
         },
         {
           "clrName": "TrySetException",
-          "tsEmitName": "TrySetException",
+          "tsEmitName": "trySetException",
           "normalizedSignature": "TrySetException|(System.Exception):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4053,7 +4053,7 @@
         },
         {
           "clrName": "TrySetException",
-          "tsEmitName": "TrySetException2",
+          "tsEmitName": "trySetException2",
           "normalizedSignature": "TrySetException|(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4067,7 +4067,7 @@
         },
         {
           "clrName": "SetResult",
-          "tsEmitName": "SetResult",
+          "tsEmitName": "setResult",
           "normalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4081,7 +4081,7 @@
         },
         {
           "clrName": "TrySetResult",
-          "tsEmitName": "TrySetResult",
+          "tsEmitName": "trySetResult",
           "normalizedSignature": "TrySetResult|(TResult):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4095,7 +4095,7 @@
         },
         {
           "clrName": "SetCanceled",
-          "tsEmitName": "SetCanceled",
+          "tsEmitName": "setCanceled",
           "normalizedSignature": "SetCanceled|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4109,7 +4109,7 @@
         },
         {
           "clrName": "SetCanceled",
-          "tsEmitName": "SetCanceled2",
+          "tsEmitName": "setCanceled2",
           "normalizedSignature": "SetCanceled|(System.Threading.CancellationToken):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4123,7 +4123,7 @@
         },
         {
           "clrName": "TrySetCanceled",
-          "tsEmitName": "TrySetCanceled",
+          "tsEmitName": "trySetCanceled",
           "normalizedSignature": "TrySetCanceled|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4137,7 +4137,7 @@
         },
         {
           "clrName": "TrySetCanceled",
-          "tsEmitName": "TrySetCanceled2",
+          "tsEmitName": "trySetCanceled2",
           "normalizedSignature": "TrySetCanceled|(System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4151,7 +4151,7 @@
         },
         {
           "clrName": "SetFromTask",
-          "tsEmitName": "SetFromTask",
+          "tsEmitName": "setFromTask",
           "normalizedSignature": "SetFromTask|(Task_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4165,7 +4165,7 @@
         },
         {
           "clrName": "TrySetFromTask",
-          "tsEmitName": "TrySetFromTask",
+          "tsEmitName": "trySetFromTask",
           "normalizedSignature": "TrySetFromTask|(Task_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4181,7 +4181,7 @@
       "properties": [
         {
           "clrName": "Task",
-          "tsEmitName": "Task",
+          "tsEmitName": "task",
           "normalizedSignature": "Task|:Task_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4231,7 +4231,7 @@
       "methods": [
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew",
+          "tsEmitName": "startNew",
           "normalizedSignature": "StartNew|(System.Action):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4245,7 +4245,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew2",
+          "tsEmitName": "startNew2",
           "normalizedSignature": "StartNew|(System.Action,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4259,7 +4259,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew3",
+          "tsEmitName": "startNew3",
           "normalizedSignature": "StartNew|(System.Action,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4273,7 +4273,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew4",
+          "tsEmitName": "startNew4",
           "normalizedSignature": "StartNew|(System.Action,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4287,7 +4287,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew5",
+          "tsEmitName": "startNew5",
           "normalizedSignature": "StartNew|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4301,7 +4301,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew6",
+          "tsEmitName": "startNew6",
           "normalizedSignature": "StartNew|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4315,7 +4315,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew7",
+          "tsEmitName": "startNew7",
           "normalizedSignature": "StartNew|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4329,7 +4329,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew8",
+          "tsEmitName": "startNew8",
           "normalizedSignature": "StartNew|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4343,7 +4343,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew9",
+          "tsEmitName": "startNew9",
           "normalizedSignature": "StartNew|(Func_1):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4357,7 +4357,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew10",
+          "tsEmitName": "startNew10",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4371,7 +4371,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew11",
+          "tsEmitName": "startNew11",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4385,7 +4385,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew12",
+          "tsEmitName": "startNew12",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4399,7 +4399,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew13",
+          "tsEmitName": "startNew13",
           "normalizedSignature": "StartNew|(Func_2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4413,7 +4413,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew14",
+          "tsEmitName": "startNew14",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4427,7 +4427,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew15",
+          "tsEmitName": "startNew15",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4441,7 +4441,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew16",
+          "tsEmitName": "startNew16",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4455,7 +4455,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync",
+          "tsEmitName": "fromAsync",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4469,7 +4469,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync2",
+          "tsEmitName": "fromAsync2",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4483,7 +4483,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync3",
+          "tsEmitName": "fromAsync3",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4497,7 +4497,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync4",
+          "tsEmitName": "fromAsync4",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4511,7 +4511,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync5",
+          "tsEmitName": "fromAsync5",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4525,7 +4525,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync6",
+          "tsEmitName": "fromAsync6",
           "normalizedSignature": "FromAsync|(Func_4,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4539,7 +4539,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync7",
+          "tsEmitName": "fromAsync7",
           "normalizedSignature": "FromAsync|(Func_4,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4553,7 +4553,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync8",
+          "tsEmitName": "fromAsync8",
           "normalizedSignature": "FromAsync|(Func_5,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4567,7 +4567,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync9",
+          "tsEmitName": "fromAsync9",
           "normalizedSignature": "FromAsync|(Func_5,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4581,7 +4581,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync10",
+          "tsEmitName": "fromAsync10",
           "normalizedSignature": "FromAsync|(Func_6,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,TArg3,System.Object):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4595,7 +4595,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync11",
+          "tsEmitName": "fromAsync11",
           "normalizedSignature": "FromAsync|(Func_6,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4609,7 +4609,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync12",
+          "tsEmitName": "fromAsync12",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4623,7 +4623,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync13",
+          "tsEmitName": "fromAsync13",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4637,7 +4637,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync14",
+          "tsEmitName": "fromAsync14",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4651,7 +4651,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync15",
+          "tsEmitName": "fromAsync15",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4665,7 +4665,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync16",
+          "tsEmitName": "fromAsync16",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4679,7 +4679,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync17",
+          "tsEmitName": "fromAsync17",
           "normalizedSignature": "FromAsync|(Func_4,Func_2,TArg1,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4693,7 +4693,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync18",
+          "tsEmitName": "fromAsync18",
           "normalizedSignature": "FromAsync|(Func_4,Func_2,TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4707,7 +4707,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync19",
+          "tsEmitName": "fromAsync19",
           "normalizedSignature": "FromAsync|(Func_5,Func_2,TArg1,TArg2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4721,7 +4721,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync20",
+          "tsEmitName": "fromAsync20",
           "normalizedSignature": "FromAsync|(Func_5,Func_2,TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4735,7 +4735,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync21",
+          "tsEmitName": "fromAsync21",
           "normalizedSignature": "FromAsync|(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4749,7 +4749,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync22",
+          "tsEmitName": "fromAsync22",
           "normalizedSignature": "FromAsync|(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4763,7 +4763,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll",
+          "tsEmitName": "continueWhenAll",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4777,7 +4777,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll2",
+          "tsEmitName": "continueWhenAll2",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4791,7 +4791,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll3",
+          "tsEmitName": "continueWhenAll3",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4805,7 +4805,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll4",
+          "tsEmitName": "continueWhenAll4",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4819,7 +4819,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll5",
+          "tsEmitName": "continueWhenAll5",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4833,7 +4833,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll6",
+          "tsEmitName": "continueWhenAll6",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4847,7 +4847,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll7",
+          "tsEmitName": "continueWhenAll7",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4861,7 +4861,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll8",
+          "tsEmitName": "continueWhenAll8",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4875,7 +4875,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll9",
+          "tsEmitName": "continueWhenAll9",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4889,7 +4889,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll10",
+          "tsEmitName": "continueWhenAll10",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4903,7 +4903,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll11",
+          "tsEmitName": "continueWhenAll11",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4917,7 +4917,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll12",
+          "tsEmitName": "continueWhenAll12",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4931,7 +4931,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll13",
+          "tsEmitName": "continueWhenAll13",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4945,7 +4945,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll14",
+          "tsEmitName": "continueWhenAll14",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4959,7 +4959,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll15",
+          "tsEmitName": "continueWhenAll15",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4973,7 +4973,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll16",
+          "tsEmitName": "continueWhenAll16",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4987,7 +4987,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny",
+          "tsEmitName": "continueWhenAny",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5001,7 +5001,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny2",
+          "tsEmitName": "continueWhenAny2",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5015,7 +5015,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny3",
+          "tsEmitName": "continueWhenAny3",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5029,7 +5029,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny4",
+          "tsEmitName": "continueWhenAny4",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5043,7 +5043,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny5",
+          "tsEmitName": "continueWhenAny5",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5057,7 +5057,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny6",
+          "tsEmitName": "continueWhenAny6",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5071,7 +5071,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny7",
+          "tsEmitName": "continueWhenAny7",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5085,7 +5085,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny8",
+          "tsEmitName": "continueWhenAny8",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5099,7 +5099,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny9",
+          "tsEmitName": "continueWhenAny9",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5113,7 +5113,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny10",
+          "tsEmitName": "continueWhenAny10",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5127,7 +5127,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny11",
+          "tsEmitName": "continueWhenAny11",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5141,7 +5141,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny12",
+          "tsEmitName": "continueWhenAny12",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5155,7 +5155,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny13",
+          "tsEmitName": "continueWhenAny13",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Action_1):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5169,7 +5169,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny14",
+          "tsEmitName": "continueWhenAny14",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5183,7 +5183,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny15",
+          "tsEmitName": "continueWhenAny15",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5197,7 +5197,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny16",
+          "tsEmitName": "continueWhenAny16",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5213,7 +5213,7 @@
       "properties": [
         {
           "clrName": "CancellationToken",
-          "tsEmitName": "CancellationToken",
+          "tsEmitName": "cancellationToken",
           "normalizedSignature": "CancellationToken|:System.Threading.CancellationToken|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5227,7 +5227,7 @@
         },
         {
           "clrName": "Scheduler",
-          "tsEmitName": "Scheduler",
+          "tsEmitName": "scheduler",
           "normalizedSignature": "Scheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5241,7 +5241,7 @@
         },
         {
           "clrName": "CreationOptions",
-          "tsEmitName": "CreationOptions",
+          "tsEmitName": "creationOptions",
           "normalizedSignature": "CreationOptions|:System.Threading.Tasks.TaskCreationOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5255,7 +5255,7 @@
         },
         {
           "clrName": "ContinuationOptions",
-          "tsEmitName": "ContinuationOptions",
+          "tsEmitName": "continuationOptions",
           "normalizedSignature": "ContinuationOptions|:System.Threading.Tasks.TaskContinuationOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5310,7 +5310,7 @@
       "methods": [
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew",
+          "tsEmitName": "startNew",
           "normalizedSignature": "StartNew|(Func_1):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5324,7 +5324,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew2",
+          "tsEmitName": "startNew2",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5338,7 +5338,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew3",
+          "tsEmitName": "startNew3",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5352,7 +5352,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew4",
+          "tsEmitName": "startNew4",
           "normalizedSignature": "StartNew|(Func_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5366,7 +5366,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew5",
+          "tsEmitName": "startNew5",
           "normalizedSignature": "StartNew|(Func_2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5380,7 +5380,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew6",
+          "tsEmitName": "startNew6",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5394,7 +5394,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew7",
+          "tsEmitName": "startNew7",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5408,7 +5408,7 @@
         },
         {
           "clrName": "StartNew",
-          "tsEmitName": "StartNew8",
+          "tsEmitName": "startNew8",
           "normalizedSignature": "StartNew|(Func_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5422,7 +5422,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync",
+          "tsEmitName": "fromAsync",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5436,7 +5436,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync2",
+          "tsEmitName": "fromAsync2",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5450,7 +5450,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync3",
+          "tsEmitName": "fromAsync3",
           "normalizedSignature": "FromAsync|(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5464,7 +5464,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync4",
+          "tsEmitName": "fromAsync4",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5478,7 +5478,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync5",
+          "tsEmitName": "fromAsync5",
           "normalizedSignature": "FromAsync|(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5492,7 +5492,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync6",
+          "tsEmitName": "fromAsync6",
           "normalizedSignature": "FromAsync|(Func_4,Func_2,TArg1,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5506,7 +5506,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync7",
+          "tsEmitName": "fromAsync7",
           "normalizedSignature": "FromAsync|(Func_4,Func_2,TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5520,7 +5520,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync8",
+          "tsEmitName": "fromAsync8",
           "normalizedSignature": "FromAsync|(Func_5,Func_2,TArg1,TArg2,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5534,7 +5534,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync9",
+          "tsEmitName": "fromAsync9",
           "normalizedSignature": "FromAsync|(Func_5,Func_2,TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5548,7 +5548,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync10",
+          "tsEmitName": "fromAsync10",
           "normalizedSignature": "FromAsync|(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5562,7 +5562,7 @@
         },
         {
           "clrName": "FromAsync",
-          "tsEmitName": "FromAsync11",
+          "tsEmitName": "fromAsync11",
           "normalizedSignature": "FromAsync|(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5576,7 +5576,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll",
+          "tsEmitName": "continueWhenAll",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5590,7 +5590,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll2",
+          "tsEmitName": "continueWhenAll2",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5604,7 +5604,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll3",
+          "tsEmitName": "continueWhenAll3",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5618,7 +5618,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll4",
+          "tsEmitName": "continueWhenAll4",
           "normalizedSignature": "ContinueWhenAll|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5632,7 +5632,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll5",
+          "tsEmitName": "continueWhenAll5",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5646,7 +5646,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll6",
+          "tsEmitName": "continueWhenAll6",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5660,7 +5660,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll7",
+          "tsEmitName": "continueWhenAll7",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5674,7 +5674,7 @@
         },
         {
           "clrName": "ContinueWhenAll",
-          "tsEmitName": "ContinueWhenAll8",
+          "tsEmitName": "continueWhenAll8",
           "normalizedSignature": "ContinueWhenAll|(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5688,7 +5688,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny",
+          "tsEmitName": "continueWhenAny",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5702,7 +5702,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny2",
+          "tsEmitName": "continueWhenAny2",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5716,7 +5716,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny3",
+          "tsEmitName": "continueWhenAny3",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5730,7 +5730,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny4",
+          "tsEmitName": "continueWhenAny4",
           "normalizedSignature": "ContinueWhenAny|(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5744,7 +5744,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny5",
+          "tsEmitName": "continueWhenAny5",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5758,7 +5758,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny6",
+          "tsEmitName": "continueWhenAny6",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5772,7 +5772,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny7",
+          "tsEmitName": "continueWhenAny7",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5786,7 +5786,7 @@
         },
         {
           "clrName": "ContinueWhenAny",
-          "tsEmitName": "ContinueWhenAny8",
+          "tsEmitName": "continueWhenAny8",
           "normalizedSignature": "ContinueWhenAny|(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5802,7 +5802,7 @@
       "properties": [
         {
           "clrName": "CancellationToken",
-          "tsEmitName": "CancellationToken",
+          "tsEmitName": "cancellationToken",
           "normalizedSignature": "CancellationToken|:System.Threading.CancellationToken|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5816,7 +5816,7 @@
         },
         {
           "clrName": "Scheduler",
-          "tsEmitName": "Scheduler",
+          "tsEmitName": "scheduler",
           "normalizedSignature": "Scheduler|:System.Threading.Tasks.TaskScheduler|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5830,7 +5830,7 @@
         },
         {
           "clrName": "CreationOptions",
-          "tsEmitName": "CreationOptions",
+          "tsEmitName": "creationOptions",
           "normalizedSignature": "CreationOptions|:System.Threading.Tasks.TaskCreationOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5844,7 +5844,7 @@
         },
         {
           "clrName": "ContinuationOptions",
-          "tsEmitName": "ContinuationOptions",
+          "tsEmitName": "continuationOptions",
           "normalizedSignature": "ContinuationOptions|:System.Threading.Tasks.TaskContinuationOptions|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5899,7 +5899,7 @@
       "methods": [
         {
           "clrName": "FromCurrentSynchronizationContext",
-          "tsEmitName": "FromCurrentSynchronizationContext",
+          "tsEmitName": "fromCurrentSynchronizationContext",
           "normalizedSignature": "FromCurrentSynchronizationContext|():System.Threading.Tasks.TaskScheduler|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5915,7 +5915,7 @@
       "properties": [
         {
           "clrName": "MaximumConcurrencyLevel",
-          "tsEmitName": "MaximumConcurrencyLevel",
+          "tsEmitName": "maximumConcurrencyLevel",
           "normalizedSignature": "MaximumConcurrencyLevel|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5929,7 +5929,7 @@
         },
         {
           "clrName": "Default",
-          "tsEmitName": "Default",
+          "tsEmitName": "default_",
           "normalizedSignature": "Default|:System.Threading.Tasks.TaskScheduler|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5943,7 +5943,7 @@
         },
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Threading.Tasks.TaskScheduler|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5957,7 +5957,7 @@
         },
         {
           "clrName": "Id",
-          "tsEmitName": "Id",
+          "tsEmitName": "id",
           "normalizedSignature": "Id|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5974,7 +5974,7 @@
       "events": [
         {
           "clrName": "UnobservedTaskException",
-          "tsEmitName": "UnobservedTaskException",
+          "tsEmitName": "unobservedTaskException",
           "normalizedSignature": "UnobservedTaskException|System.EventHandler\u00601[[System.Threading.Tasks.UnobservedTaskExceptionEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "isStatic": true
         }
@@ -5993,7 +5993,7 @@
       "methods": [
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6008,7 +6008,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -6059,7 +6059,7 @@
       "methods": [
         {
           "clrName": "SetObserved",
-          "tsEmitName": "SetObserved",
+          "tsEmitName": "setObserved",
           "normalizedSignature": "SetObserved|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6075,7 +6075,7 @@
       "properties": [
         {
           "clrName": "Observed",
-          "tsEmitName": "Observed",
+          "tsEmitName": "observed",
           "normalizedSignature": "Observed|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6089,7 +6089,7 @@
         },
         {
           "clrName": "Exception",
-          "tsEmitName": "Exception",
+          "tsEmitName": "exception",
           "normalizedSignature": "Exception|:System.AggregateException|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6124,7 +6124,7 @@
       "methods": [
         {
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Action[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6138,7 +6138,7 @@
         },
         {
           "clrName": "Invoke",
-          "tsEmitName": "Invoke2",
+          "tsEmitName": "invoke2",
           "normalizedSignature": "Invoke|(System.Threading.Tasks.ParallelOptions,System.Action[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6152,7 +6152,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For",
+          "tsEmitName": "for_",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6166,7 +6166,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For2",
+          "tsEmitName": "for_2",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6180,7 +6180,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For3",
+          "tsEmitName": "for_3",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6194,7 +6194,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For4",
+          "tsEmitName": "for_4",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6208,7 +6208,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For5",
+          "tsEmitName": "for_5",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6222,7 +6222,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For6",
+          "tsEmitName": "for_6",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6236,7 +6236,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For7",
+          "tsEmitName": "for_7",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6250,7 +6250,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For8",
+          "tsEmitName": "for_8",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6264,7 +6264,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For9",
+          "tsEmitName": "for_9",
           "normalizedSignature": "For|(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6278,7 +6278,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For10",
+          "tsEmitName": "for_10",
           "normalizedSignature": "For|(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6292,7 +6292,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For11",
+          "tsEmitName": "for_11",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6306,7 +6306,7 @@
         },
         {
           "clrName": "For",
-          "tsEmitName": "For12",
+          "tsEmitName": "for_12",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6320,7 +6320,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach",
+          "tsEmitName": "forEach",
           "normalizedSignature": "ForEach|(IEnumerable_1,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6334,7 +6334,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach2",
+          "tsEmitName": "forEach2",
           "normalizedSignature": "ForEach|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6348,7 +6348,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach3",
+          "tsEmitName": "forEach3",
           "normalizedSignature": "ForEach|(IEnumerable_1,Action_2):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6362,7 +6362,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach4",
+          "tsEmitName": "forEach4",
           "normalizedSignature": "ForEach|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_2):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6376,7 +6376,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach5",
+          "tsEmitName": "forEach5",
           "normalizedSignature": "ForEach|(IEnumerable_1,Action_3):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6390,7 +6390,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach6",
+          "tsEmitName": "forEach6",
           "normalizedSignature": "ForEach|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_3):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6404,7 +6404,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach7",
+          "tsEmitName": "forEach7",
           "normalizedSignature": "ForEach|(IEnumerable_1,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6418,7 +6418,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach8",
+          "tsEmitName": "forEach8",
           "normalizedSignature": "ForEach|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6432,7 +6432,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach9",
+          "tsEmitName": "forEach9",
           "normalizedSignature": "ForEach|(IEnumerable_1,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6446,7 +6446,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach10",
+          "tsEmitName": "forEach10",
           "normalizedSignature": "ForEach|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6460,7 +6460,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach11",
+          "tsEmitName": "forEach11",
           "normalizedSignature": "ForEach|(Partitioner_1,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6474,7 +6474,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach12",
+          "tsEmitName": "forEach12",
           "normalizedSignature": "ForEach|(Partitioner_1,Action_2):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6488,7 +6488,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach13",
+          "tsEmitName": "forEach13",
           "normalizedSignature": "ForEach|(OrderablePartitioner_1,Action_3):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6502,7 +6502,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach14",
+          "tsEmitName": "forEach14",
           "normalizedSignature": "ForEach|(Partitioner_1,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6516,7 +6516,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach15",
+          "tsEmitName": "forEach15",
           "normalizedSignature": "ForEach|(OrderablePartitioner_1,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6530,7 +6530,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach16",
+          "tsEmitName": "forEach16",
           "normalizedSignature": "ForEach|(Partitioner_1,System.Threading.Tasks.ParallelOptions,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6544,7 +6544,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach17",
+          "tsEmitName": "forEach17",
           "normalizedSignature": "ForEach|(Partitioner_1,System.Threading.Tasks.ParallelOptions,Action_2):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6558,7 +6558,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach18",
+          "tsEmitName": "forEach18",
           "normalizedSignature": "ForEach|(OrderablePartitioner_1,System.Threading.Tasks.ParallelOptions,Action_3):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6572,7 +6572,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach19",
+          "tsEmitName": "forEach19",
           "normalizedSignature": "ForEach|(Partitioner_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6586,7 +6586,7 @@
         },
         {
           "clrName": "ForEach",
-          "tsEmitName": "ForEach20",
+          "tsEmitName": "forEach20",
           "normalizedSignature": "ForEach|(OrderablePartitioner_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6600,7 +6600,7 @@
         },
         {
           "clrName": "ForAsync",
-          "tsEmitName": "ForAsync",
+          "tsEmitName": "forAsync",
           "normalizedSignature": "ForAsync|(T,T,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6614,7 +6614,7 @@
         },
         {
           "clrName": "ForAsync",
-          "tsEmitName": "ForAsync2",
+          "tsEmitName": "forAsync2",
           "normalizedSignature": "ForAsync|(T,T,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6628,7 +6628,7 @@
         },
         {
           "clrName": "ForAsync",
-          "tsEmitName": "ForAsync3",
+          "tsEmitName": "forAsync3",
           "normalizedSignature": "ForAsync|(T,T,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6642,7 +6642,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync",
+          "tsEmitName": "forEachAsync",
           "normalizedSignature": "ForEachAsync|(IEnumerable_1,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6656,7 +6656,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync2",
+          "tsEmitName": "forEachAsync2",
           "normalizedSignature": "ForEachAsync|(IEnumerable_1,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6670,7 +6670,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync3",
+          "tsEmitName": "forEachAsync3",
           "normalizedSignature": "ForEachAsync|(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6684,7 +6684,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync4",
+          "tsEmitName": "forEachAsync4",
           "normalizedSignature": "ForEachAsync|(IAsyncEnumerable_1,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6698,7 +6698,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync5",
+          "tsEmitName": "forEachAsync5",
           "normalizedSignature": "ForEachAsync|(IAsyncEnumerable_1,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6712,7 +6712,7 @@
         },
         {
           "clrName": "ForEachAsync",
-          "tsEmitName": "ForEachAsync6",
+          "tsEmitName": "forEachAsync6",
           "normalizedSignature": "ForEachAsync|(IAsyncEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6742,7 +6742,7 @@
       "methods": [
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait",
+          "tsEmitName": "configureAwait",
           "normalizedSignature": "ConfigureAwait|(System.IAsyncDisposable,System.Boolean):System.Runtime.CompilerServices.ConfiguredAsyncDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6756,7 +6756,7 @@
         },
         {
           "clrName": "ConfigureAwait",
-          "tsEmitName": "ConfigureAwait2",
+          "tsEmitName": "configureAwait2",
           "normalizedSignature": "ConfigureAwait|(IAsyncEnumerable_1,System.Boolean):ConfiguredCancelableAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6770,7 +6770,7 @@
         },
         {
           "clrName": "WithCancellation",
-          "tsEmitName": "WithCancellation",
+          "tsEmitName": "withCancellation",
           "normalizedSignature": "WithCancellation|(IAsyncEnumerable_1,System.Threading.CancellationToken):ConfiguredCancelableAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6784,7 +6784,7 @@
         },
         {
           "clrName": "ToBlockingEnumerable",
-          "tsEmitName": "ToBlockingEnumerable",
+          "tsEmitName": "toBlockingEnumerable",
           "normalizedSignature": "ToBlockingEnumerable|(IAsyncEnumerable_1,System.Threading.CancellationToken):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6814,7 +6814,7 @@
       "methods": [
         {
           "clrName": "Unwrap",
-          "tsEmitName": "Unwrap",
+          "tsEmitName": "unwrap",
           "normalizedSignature": "Unwrap|(System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6828,7 +6828,7 @@
         },
         {
           "clrName": "Unwrap",
-          "tsEmitName": "Unwrap2",
+          "tsEmitName": "unwrap2",
           "normalizedSignature": "Unwrap|(Task_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6858,7 +6858,7 @@
       "methods": [
         {
           "clrName": "Begin",
-          "tsEmitName": "Begin",
+          "tsEmitName": "begin",
           "normalizedSignature": "Begin|(System.Threading.Tasks.Task,System.AsyncCallback,System.Object):System.IAsyncResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6872,7 +6872,7 @@
         },
         {
           "clrName": "End",
-          "tsEmitName": "End",
+          "tsEmitName": "end",
           "normalizedSignature": "End|(System.IAsyncResult):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6886,7 +6886,7 @@
         },
         {
           "clrName": "End",
-          "tsEmitName": "End2",
+          "tsEmitName": "end2",
           "normalizedSignature": "End|(System.IAsyncResult):TResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6900,7 +6900,7 @@
         },
         {
           "clrName": "Unwrap",
-          "tsEmitName": "Unwrap",
+          "tsEmitName": "unwrap",
           "normalizedSignature": "Unwrap|(System.IAsyncResult):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6914,7 +6914,7 @@
         },
         {
           "clrName": "Unwrap",
-          "tsEmitName": "Unwrap2",
+          "tsEmitName": "unwrap2",
           "normalizedSignature": "Unwrap|(System.IAsyncResult):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

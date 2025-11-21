@@ -26,7 +26,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "V7",
-          "tsEmitName": "V7",
+          "tsEmitName": "v7",
           "normalizedSignature": "V7|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "Ustar",
-          "tsEmitName": "Ustar",
+          "tsEmitName": "ustar",
           "normalizedSignature": "Ustar|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "clrName": "Pax",
-          "tsEmitName": "Pax",
+          "tsEmitName": "pax",
           "normalizedSignature": "Pax|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "Gnu",
-          "tsEmitName": "Gnu",
+          "tsEmitName": "gnu",
           "normalizedSignature": "Gnu|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "RegularFile",
-          "tsEmitName": "RegularFile",
+          "tsEmitName": "regularFile",
           "normalizedSignature": "RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "HardLink",
-          "tsEmitName": "HardLink",
+          "tsEmitName": "hardLink",
           "normalizedSignature": "HardLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "SymbolicLink",
-          "tsEmitName": "SymbolicLink",
+          "tsEmitName": "symbolicLink",
           "normalizedSignature": "SymbolicLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "CharacterDevice",
-          "tsEmitName": "CharacterDevice",
+          "tsEmitName": "characterDevice",
           "normalizedSignature": "CharacterDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "clrName": "BlockDevice",
-          "tsEmitName": "BlockDevice",
+          "tsEmitName": "blockDevice",
           "normalizedSignature": "BlockDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "clrName": "Directory",
-          "tsEmitName": "Directory",
+          "tsEmitName": "directory",
           "normalizedSignature": "Directory|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "clrName": "Fifo",
-          "tsEmitName": "Fifo",
+          "tsEmitName": "fifo",
           "normalizedSignature": "Fifo|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "clrName": "ContiguousFile",
-          "tsEmitName": "ContiguousFile",
+          "tsEmitName": "contiguousFile",
           "normalizedSignature": "ContiguousFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "clrName": "ExtendedAttributes",
-          "tsEmitName": "ExtendedAttributes",
+          "tsEmitName": "extendedAttributes",
           "normalizedSignature": "ExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "clrName": "GlobalExtendedAttributes",
-          "tsEmitName": "GlobalExtendedAttributes",
+          "tsEmitName": "globalExtendedAttributes",
           "normalizedSignature": "GlobalExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "DirectoryList",
-          "tsEmitName": "DirectoryList",
+          "tsEmitName": "directoryList",
           "normalizedSignature": "DirectoryList|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "clrName": "LongLink",
-          "tsEmitName": "LongLink",
+          "tsEmitName": "longLink",
           "normalizedSignature": "LongLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "LongPath",
-          "tsEmitName": "LongPath",
+          "tsEmitName": "longPath",
           "normalizedSignature": "LongPath|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "MultiVolume",
-          "tsEmitName": "MultiVolume",
+          "tsEmitName": "multiVolume",
           "normalizedSignature": "MultiVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "clrName": "V7RegularFile",
-          "tsEmitName": "V7RegularFile",
+          "tsEmitName": "v7RegularFile",
           "normalizedSignature": "V7RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "clrName": "RenamedOrSymlinked",
-          "tsEmitName": "RenamedOrSymlinked",
+          "tsEmitName": "renamedOrSymlinked",
           "normalizedSignature": "RenamedOrSymlinked|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "clrName": "SparseFile",
-          "tsEmitName": "SparseFile",
+          "tsEmitName": "sparseFile",
           "normalizedSignature": "SparseFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "clrName": "TapeVolume",
-          "tsEmitName": "TapeVolume",
+          "tsEmitName": "tapeVolume",
           "normalizedSignature": "TapeVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -249,7 +249,7 @@
       "properties": [
         {
           "clrName": "AccessTime",
-          "tsEmitName": "AccessTime",
+          "tsEmitName": "accessTime",
           "normalizedSignature": "AccessTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -263,7 +263,7 @@
         },
         {
           "clrName": "ChangeTime",
-          "tsEmitName": "ChangeTime",
+          "tsEmitName": "changeTime",
           "normalizedSignature": "ChangeTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -304,7 +304,7 @@
       "properties": [
         {
           "clrName": "GlobalExtendedAttributes",
-          "tsEmitName": "GlobalExtendedAttributes",
+          "tsEmitName": "globalExtendedAttributes",
           "normalizedSignature": "GlobalExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,7 +340,7 @@
       "properties": [
         {
           "clrName": "ExtendedAttributes",
-          "tsEmitName": "ExtendedAttributes",
+          "tsEmitName": "extendedAttributes",
           "normalizedSignature": "ExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -386,7 +386,7 @@
       "properties": [
         {
           "clrName": "DeviceMajor",
-          "tsEmitName": "DeviceMajor",
+          "tsEmitName": "deviceMajor",
           "normalizedSignature": "DeviceMajor|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -400,7 +400,7 @@
         },
         {
           "clrName": "DeviceMinor",
-          "tsEmitName": "DeviceMinor",
+          "tsEmitName": "deviceMinor",
           "normalizedSignature": "DeviceMinor|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -414,7 +414,7 @@
         },
         {
           "clrName": "GroupName",
-          "tsEmitName": "GroupName",
+          "tsEmitName": "groupName",
           "normalizedSignature": "GroupName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -428,7 +428,7 @@
         },
         {
           "clrName": "UserName",
-          "tsEmitName": "UserName",
+          "tsEmitName": "userName",
           "normalizedSignature": "UserName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -457,7 +457,7 @@
       "methods": [
         {
           "clrName": "ExtractToFile",
-          "tsEmitName": "ExtractToFile",
+          "tsEmitName": "extractToFile",
           "normalizedSignature": "ExtractToFile|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -471,7 +471,7 @@
         },
         {
           "clrName": "ExtractToFileAsync",
-          "tsEmitName": "ExtractToFileAsync",
+          "tsEmitName": "extractToFileAsync",
           "normalizedSignature": "ExtractToFileAsync|(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -485,7 +485,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -501,7 +501,7 @@
       "properties": [
         {
           "clrName": "Checksum",
-          "tsEmitName": "Checksum",
+          "tsEmitName": "checksum",
           "normalizedSignature": "Checksum|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -515,7 +515,7 @@
         },
         {
           "clrName": "EntryType",
-          "tsEmitName": "EntryType",
+          "tsEmitName": "entryType",
           "normalizedSignature": "EntryType|:System.Formats.Tar.TarEntryType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -529,7 +529,7 @@
         },
         {
           "clrName": "Format",
-          "tsEmitName": "Format",
+          "tsEmitName": "format",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -543,7 +543,7 @@
         },
         {
           "clrName": "Gid",
-          "tsEmitName": "Gid",
+          "tsEmitName": "gid",
           "normalizedSignature": "Gid|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         },
         {
           "clrName": "ModificationTime",
-          "tsEmitName": "ModificationTime",
+          "tsEmitName": "modificationTime",
           "normalizedSignature": "ModificationTime|:System.DateTimeOffset|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -571,7 +571,7 @@
         },
         {
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -585,7 +585,7 @@
         },
         {
           "clrName": "LinkName",
-          "tsEmitName": "LinkName",
+          "tsEmitName": "linkName",
           "normalizedSignature": "LinkName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -599,7 +599,7 @@
         },
         {
           "clrName": "Mode",
-          "tsEmitName": "Mode",
+          "tsEmitName": "mode",
           "normalizedSignature": "Mode|:System.IO.UnixFileMode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -613,7 +613,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -627,7 +627,7 @@
         },
         {
           "clrName": "Uid",
-          "tsEmitName": "Uid",
+          "tsEmitName": "uid",
           "normalizedSignature": "Uid|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -641,7 +641,7 @@
         },
         {
           "clrName": "DataStream",
-          "tsEmitName": "DataStream",
+          "tsEmitName": "dataStream",
           "normalizedSignature": "DataStream|:System.IO.Stream|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -655,7 +655,7 @@
         },
         {
           "clrName": "DataOffset",
-          "tsEmitName": "DataOffset",
+          "tsEmitName": "dataOffset",
           "normalizedSignature": "DataOffset|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -684,7 +684,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -698,7 +698,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -712,7 +712,7 @@
         },
         {
           "clrName": "GetNextEntry",
-          "tsEmitName": "GetNextEntry",
+          "tsEmitName": "getNextEntry",
           "normalizedSignature": "GetNextEntry|(System.Boolean):System.Formats.Tar.TarEntry|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -726,7 +726,7 @@
         },
         {
           "clrName": "GetNextEntryAsync",
-          "tsEmitName": "GetNextEntryAsync",
+          "tsEmitName": "getNextEntryAsync",
           "normalizedSignature": "GetNextEntryAsync|(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,7 +740,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -755,7 +755,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -792,7 +792,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -806,7 +806,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -820,7 +820,7 @@
         },
         {
           "clrName": "WriteEntry",
-          "tsEmitName": "WriteEntry",
+          "tsEmitName": "writeEntry",
           "normalizedSignature": "WriteEntry|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -834,7 +834,7 @@
         },
         {
           "clrName": "WriteEntryAsync",
-          "tsEmitName": "WriteEntryAsync",
+          "tsEmitName": "writeEntryAsync",
           "normalizedSignature": "WriteEntryAsync|(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -848,7 +848,7 @@
         },
         {
           "clrName": "WriteEntry",
-          "tsEmitName": "WriteEntry2",
+          "tsEmitName": "writeEntry2",
           "normalizedSignature": "WriteEntry|(System.Formats.Tar.TarEntry):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -862,7 +862,7 @@
         },
         {
           "clrName": "WriteEntryAsync",
-          "tsEmitName": "WriteEntryAsync2",
+          "tsEmitName": "writeEntryAsync2",
           "normalizedSignature": "WriteEntryAsync|(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -876,7 +876,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -891,7 +891,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -908,7 +908,7 @@
       "properties": [
         {
           "clrName": "Format",
-          "tsEmitName": "Format",
+          "tsEmitName": "format",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1005,7 +1005,7 @@
       "methods": [
         {
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "CreateFromDirectory",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1019,7 +1019,7 @@
         },
         {
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "CreateFromDirectoryAsync",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1033,7 +1033,7 @@
         },
         {
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "CreateFromDirectory2",
+          "tsEmitName": "createFromDirectory2",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1047,7 +1047,7 @@
         },
         {
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "CreateFromDirectoryAsync2",
+          "tsEmitName": "createFromDirectoryAsync2",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1061,7 +1061,7 @@
         },
         {
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "ExtractToDirectory",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1075,7 +1075,7 @@
         },
         {
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "ExtractToDirectoryAsync",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1089,7 +1089,7 @@
         },
         {
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "ExtractToDirectory2",
+          "tsEmitName": "extractToDirectory2",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1103,7 +1103,7 @@
         },
         {
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "ExtractToDirectoryAsync2",
+          "tsEmitName": "extractToDirectoryAsync2",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

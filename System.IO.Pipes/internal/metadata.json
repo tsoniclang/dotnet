@@ -1,8 +1,8 @@
 {
   "namespace": "System.IO.Pipes",
   "contributingAssemblies": [
-    "System.IO.Pipes.AccessControl",
-    "System.IO.Pipes"
+    "System.IO.Pipes",
+    "System.IO.Pipes.AccessControl"
   ],
   "types": [
     {
@@ -27,7 +27,7 @@
         },
         {
           "clrName": "ReadData",
-          "tsEmitName": "ReadData",
+          "tsEmitName": "readData",
           "normalizedSignature": "ReadData|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -35,7 +35,7 @@
         },
         {
           "clrName": "WriteData",
-          "tsEmitName": "WriteData",
+          "tsEmitName": "writeData",
           "normalizedSignature": "WriteData|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -43,7 +43,7 @@
         },
         {
           "clrName": "ReadAttributes",
-          "tsEmitName": "ReadAttributes",
+          "tsEmitName": "readAttributes",
           "normalizedSignature": "ReadAttributes|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -51,7 +51,7 @@
         },
         {
           "clrName": "WriteAttributes",
-          "tsEmitName": "WriteAttributes",
+          "tsEmitName": "writeAttributes",
           "normalizedSignature": "WriteAttributes|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -59,7 +59,7 @@
         },
         {
           "clrName": "ReadExtendedAttributes",
-          "tsEmitName": "ReadExtendedAttributes",
+          "tsEmitName": "readExtendedAttributes",
           "normalizedSignature": "ReadExtendedAttributes|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         },
         {
           "clrName": "WriteExtendedAttributes",
-          "tsEmitName": "WriteExtendedAttributes",
+          "tsEmitName": "writeExtendedAttributes",
           "normalizedSignature": "WriteExtendedAttributes|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         },
         {
           "clrName": "CreateNewInstance",
-          "tsEmitName": "CreateNewInstance",
+          "tsEmitName": "createNewInstance",
           "normalizedSignature": "CreateNewInstance|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         },
         {
           "clrName": "Delete",
-          "tsEmitName": "Delete",
+          "tsEmitName": "delete_",
           "normalizedSignature": "Delete|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         },
         {
           "clrName": "ReadPermissions",
-          "tsEmitName": "ReadPermissions",
+          "tsEmitName": "readPermissions",
           "normalizedSignature": "ReadPermissions|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -99,7 +99,7 @@
         },
         {
           "clrName": "ChangePermissions",
-          "tsEmitName": "ChangePermissions",
+          "tsEmitName": "changePermissions",
           "normalizedSignature": "ChangePermissions|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -107,7 +107,7 @@
         },
         {
           "clrName": "TakeOwnership",
-          "tsEmitName": "TakeOwnership",
+          "tsEmitName": "takeOwnership",
           "normalizedSignature": "TakeOwnership|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -115,7 +115,7 @@
         },
         {
           "clrName": "Synchronize",
-          "tsEmitName": "Synchronize",
+          "tsEmitName": "synchronize",
           "normalizedSignature": "Synchronize|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -123,7 +123,7 @@
         },
         {
           "clrName": "FullControl",
-          "tsEmitName": "FullControl",
+          "tsEmitName": "fullControl",
           "normalizedSignature": "FullControl|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         },
         {
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -139,7 +139,7 @@
         },
         {
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -147,7 +147,7 @@
         },
         {
           "clrName": "ReadWrite",
-          "tsEmitName": "ReadWrite",
+          "tsEmitName": "readWrite",
           "normalizedSignature": "ReadWrite|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         },
         {
           "clrName": "AccessSystemSecurity",
-          "tsEmitName": "AccessSystemSecurity",
+          "tsEmitName": "accessSystemSecurity",
           "normalizedSignature": "AccessSystemSecurity|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         },
         {
           "clrName": "In",
-          "tsEmitName": "In",
+          "tsEmitName": "in_",
           "normalizedSignature": "In|System.IO.Pipes.PipeDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -195,7 +195,7 @@
         },
         {
           "clrName": "Out",
-          "tsEmitName": "Out",
+          "tsEmitName": "out",
           "normalizedSignature": "Out|System.IO.Pipes.PipeDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -203,7 +203,7 @@
         },
         {
           "clrName": "InOut",
-          "tsEmitName": "InOut",
+          "tsEmitName": "inOut",
           "normalizedSignature": "InOut|System.IO.Pipes.PipeDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.IO.Pipes.PipeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -243,7 +243,7 @@
         },
         {
           "clrName": "WriteThrough",
-          "tsEmitName": "WriteThrough",
+          "tsEmitName": "writeThrough",
           "normalizedSignature": "WriteThrough|System.IO.Pipes.PipeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -251,7 +251,7 @@
         },
         {
           "clrName": "Asynchronous",
-          "tsEmitName": "Asynchronous",
+          "tsEmitName": "asynchronous",
           "normalizedSignature": "Asynchronous|System.IO.Pipes.PipeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         },
         {
           "clrName": "CurrentUserOnly",
-          "tsEmitName": "CurrentUserOnly",
+          "tsEmitName": "currentUserOnly",
           "normalizedSignature": "CurrentUserOnly|System.IO.Pipes.PipeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -267,7 +267,7 @@
         },
         {
           "clrName": "FirstPipeInstance",
-          "tsEmitName": "FirstPipeInstance",
+          "tsEmitName": "firstPipeInstance",
           "normalizedSignature": "FirstPipeInstance|System.IO.Pipes.PipeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         },
         {
           "clrName": "Byte",
-          "tsEmitName": "Byte",
+          "tsEmitName": "byte",
           "normalizedSignature": "Byte|System.IO.Pipes.PipeTransmissionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -307,7 +307,7 @@
         },
         {
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|System.IO.Pipes.PipeTransmissionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -329,7 +329,7 @@
       "methods": [
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -344,7 +344,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -359,7 +359,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -373,7 +373,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -389,7 +389,7 @@
       "properties": [
         {
           "clrName": "TransmissionMode",
-          "tsEmitName": "TransmissionMode",
+          "tsEmitName": "transmissionMode",
           "normalizedSignature": "TransmissionMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -403,7 +403,7 @@
         },
         {
           "clrName": "ReadMode",
-          "tsEmitName": "ReadMode",
+          "tsEmitName": "readMode",
           "normalizedSignature": "ReadMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=set",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -448,7 +448,7 @@
       "methods": [
         {
           "clrName": "GetClientHandleAsString",
-          "tsEmitName": "GetClientHandleAsString",
+          "tsEmitName": "getClientHandleAsString",
           "normalizedSignature": "GetClientHandleAsString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -462,7 +462,7 @@
         },
         {
           "clrName": "DisposeLocalCopyOfClientHandle",
-          "tsEmitName": "DisposeLocalCopyOfClientHandle",
+          "tsEmitName": "disposeLocalCopyOfClientHandle",
           "normalizedSignature": "DisposeLocalCopyOfClientHandle|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -476,7 +476,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -491,7 +491,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -506,7 +506,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -520,7 +520,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -536,7 +536,7 @@
       "properties": [
         {
           "clrName": "ClientSafePipeHandle",
-          "tsEmitName": "ClientSafePipeHandle",
+          "tsEmitName": "clientSafePipeHandle",
           "normalizedSignature": "ClientSafePipeHandle|:Microsoft.Win32.SafeHandles.SafePipeHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -550,7 +550,7 @@
         },
         {
           "clrName": "TransmissionMode",
-          "tsEmitName": "TransmissionMode",
+          "tsEmitName": "transmissionMode",
           "normalizedSignature": "TransmissionMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -564,7 +564,7 @@
         },
         {
           "clrName": "ReadMode",
-          "tsEmitName": "ReadMode",
+          "tsEmitName": "readMode",
           "normalizedSignature": "ReadMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=set",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -619,7 +619,7 @@
       "methods": [
         {
           "clrName": "Connect",
-          "tsEmitName": "Connect",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -633,7 +633,7 @@
         },
         {
           "clrName": "Connect",
-          "tsEmitName": "Connect2",
+          "tsEmitName": "connect2",
           "normalizedSignature": "Connect|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -647,7 +647,7 @@
         },
         {
           "clrName": "Connect",
-          "tsEmitName": "Connect3",
+          "tsEmitName": "connect3",
           "normalizedSignature": "Connect|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -661,7 +661,7 @@
         },
         {
           "clrName": "ConnectAsync",
-          "tsEmitName": "ConnectAsync",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -675,7 +675,7 @@
         },
         {
           "clrName": "ConnectAsync",
-          "tsEmitName": "ConnectAsync2",
+          "tsEmitName": "connectAsync2",
           "normalizedSignature": "ConnectAsync|(System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -689,7 +689,7 @@
         },
         {
           "clrName": "ConnectAsync",
-          "tsEmitName": "ConnectAsync3",
+          "tsEmitName": "connectAsync3",
           "normalizedSignature": "ConnectAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -703,7 +703,7 @@
         },
         {
           "clrName": "ConnectAsync",
-          "tsEmitName": "ConnectAsync4",
+          "tsEmitName": "connectAsync4",
           "normalizedSignature": "ConnectAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -717,7 +717,7 @@
         },
         {
           "clrName": "ConnectAsync",
-          "tsEmitName": "ConnectAsync5",
+          "tsEmitName": "connectAsync5",
           "normalizedSignature": "ConnectAsync|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -731,7 +731,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -746,7 +746,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -761,7 +761,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -775,7 +775,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
       "properties": [
         {
           "clrName": "NumberOfServerInstances",
-          "tsEmitName": "NumberOfServerInstances",
+          "tsEmitName": "numberOfServerInstances",
           "normalizedSignature": "NumberOfServerInstances|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -805,7 +805,7 @@
         },
         {
           "clrName": "InBufferSize",
-          "tsEmitName": "InBufferSize",
+          "tsEmitName": "inBufferSize",
           "normalizedSignature": "InBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -819,7 +819,7 @@
         },
         {
           "clrName": "OutBufferSize",
-          "tsEmitName": "OutBufferSize",
+          "tsEmitName": "outBufferSize",
           "normalizedSignature": "OutBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -889,7 +889,7 @@
       "methods": [
         {
           "clrName": "WaitForConnectionAsync",
-          "tsEmitName": "WaitForConnectionAsync",
+          "tsEmitName": "waitForConnectionAsync",
           "normalizedSignature": "WaitForConnectionAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -903,7 +903,7 @@
         },
         {
           "clrName": "BeginWaitForConnection",
-          "tsEmitName": "BeginWaitForConnection",
+          "tsEmitName": "beginWaitForConnection",
           "normalizedSignature": "BeginWaitForConnection|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -917,7 +917,7 @@
         },
         {
           "clrName": "EndWaitForConnection",
-          "tsEmitName": "EndWaitForConnection",
+          "tsEmitName": "endWaitForConnection",
           "normalizedSignature": "EndWaitForConnection|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -931,7 +931,7 @@
         },
         {
           "clrName": "WaitForConnection",
-          "tsEmitName": "WaitForConnection",
+          "tsEmitName": "waitForConnection",
           "normalizedSignature": "WaitForConnection|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -945,7 +945,7 @@
         },
         {
           "clrName": "WaitForConnectionAsync",
-          "tsEmitName": "WaitForConnectionAsync2",
+          "tsEmitName": "waitForConnectionAsync2",
           "normalizedSignature": "WaitForConnectionAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -959,7 +959,7 @@
         },
         {
           "clrName": "Disconnect",
-          "tsEmitName": "Disconnect",
+          "tsEmitName": "disconnect",
           "normalizedSignature": "Disconnect|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -973,7 +973,7 @@
         },
         {
           "clrName": "GetImpersonationUserName",
-          "tsEmitName": "GetImpersonationUserName",
+          "tsEmitName": "getImpersonationUserName",
           "normalizedSignature": "GetImpersonationUserName|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -987,7 +987,7 @@
         },
         {
           "clrName": "RunAsClient",
-          "tsEmitName": "RunAsClient",
+          "tsEmitName": "runAsClient",
           "normalizedSignature": "RunAsClient|(System.IO.Pipes.PipeStreamImpersonationWorker):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1001,7 +1001,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1016,7 +1016,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1031,7 +1031,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1061,7 +1061,7 @@
       "properties": [
         {
           "clrName": "InBufferSize",
-          "tsEmitName": "InBufferSize",
+          "tsEmitName": "inBufferSize",
           "normalizedSignature": "InBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1075,7 +1075,7 @@
         },
         {
           "clrName": "OutBufferSize",
-          "tsEmitName": "OutBufferSize",
+          "tsEmitName": "outBufferSize",
           "normalizedSignature": "OutBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1091,7 +1091,7 @@
       "fields": [
         {
           "clrName": "MaxAllowedServerInstances",
-          "tsEmitName": "MaxAllowedServerInstances",
+          "tsEmitName": "maxAllowedServerInstances",
           "normalizedSignature": "MaxAllowedServerInstances|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1150,7 +1150,7 @@
       "properties": [
         {
           "clrName": "PipeAccessRights",
-          "tsEmitName": "PipeAccessRights",
+          "tsEmitName": "pipeAccessRights",
           "normalizedSignature": "PipeAccessRights|:System.IO.Pipes.PipeAccessRights|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1191,7 +1191,7 @@
       "properties": [
         {
           "clrName": "PipeAccessRights",
-          "tsEmitName": "PipeAccessRights",
+          "tsEmitName": "pipeAccessRights",
           "normalizedSignature": "PipeAccessRights|:System.IO.Pipes.PipeAccessRights|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1231,7 +1231,7 @@
       "methods": [
         {
           "clrName": "AccessRuleFactory",
-          "tsEmitName": "AccessRuleFactory",
+          "tsEmitName": "accessRuleFactory",
           "normalizedSignature": "AccessRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1245,7 +1245,7 @@
         },
         {
           "clrName": "AddAccessRule",
-          "tsEmitName": "AddAccessRule",
+          "tsEmitName": "addAccessRule",
           "normalizedSignature": "AddAccessRule|(System.IO.Pipes.PipeAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1259,7 +1259,7 @@
         },
         {
           "clrName": "AddAuditRule",
-          "tsEmitName": "AddAuditRule",
+          "tsEmitName": "addAuditRule",
           "normalizedSignature": "AddAuditRule|(System.IO.Pipes.PipeAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1273,7 +1273,7 @@
         },
         {
           "clrName": "AuditRuleFactory",
-          "tsEmitName": "AuditRuleFactory",
+          "tsEmitName": "auditRuleFactory",
           "normalizedSignature": "AuditRuleFactory|(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1287,7 +1287,7 @@
         },
         {
           "clrName": "RemoveAccessRule",
-          "tsEmitName": "RemoveAccessRule",
+          "tsEmitName": "removeAccessRule",
           "normalizedSignature": "RemoveAccessRule|(System.IO.Pipes.PipeAccessRule):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1301,7 +1301,7 @@
         },
         {
           "clrName": "RemoveAccessRuleSpecific",
-          "tsEmitName": "RemoveAccessRuleSpecific",
+          "tsEmitName": "removeAccessRuleSpecific",
           "normalizedSignature": "RemoveAccessRuleSpecific|(System.IO.Pipes.PipeAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1315,7 +1315,7 @@
         },
         {
           "clrName": "RemoveAuditRule",
-          "tsEmitName": "RemoveAuditRule",
+          "tsEmitName": "removeAuditRule",
           "normalizedSignature": "RemoveAuditRule|(System.IO.Pipes.PipeAuditRule):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1329,7 +1329,7 @@
         },
         {
           "clrName": "RemoveAuditRuleAll",
-          "tsEmitName": "RemoveAuditRuleAll",
+          "tsEmitName": "removeAuditRuleAll",
           "normalizedSignature": "RemoveAuditRuleAll|(System.IO.Pipes.PipeAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1343,7 +1343,7 @@
         },
         {
           "clrName": "RemoveAuditRuleSpecific",
-          "tsEmitName": "RemoveAuditRuleSpecific",
+          "tsEmitName": "removeAuditRuleSpecific",
           "normalizedSignature": "RemoveAuditRuleSpecific|(System.IO.Pipes.PipeAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1357,7 +1357,7 @@
         },
         {
           "clrName": "ResetAccessRule",
-          "tsEmitName": "ResetAccessRule",
+          "tsEmitName": "resetAccessRule",
           "normalizedSignature": "ResetAccessRule|(System.IO.Pipes.PipeAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1371,7 +1371,7 @@
         },
         {
           "clrName": "SetAccessRule",
-          "tsEmitName": "SetAccessRule",
+          "tsEmitName": "setAccessRule",
           "normalizedSignature": "SetAccessRule|(System.IO.Pipes.PipeAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1385,7 +1385,7 @@
         },
         {
           "clrName": "SetAuditRule",
-          "tsEmitName": "SetAuditRule",
+          "tsEmitName": "setAuditRule",
           "normalizedSignature": "SetAuditRule|(System.IO.Pipes.PipeAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1401,7 +1401,7 @@
       "properties": [
         {
           "clrName": "AccessRightType",
-          "tsEmitName": "AccessRightType",
+          "tsEmitName": "accessRightType",
           "normalizedSignature": "AccessRightType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1415,7 +1415,7 @@
         },
         {
           "clrName": "AccessRuleType",
-          "tsEmitName": "AccessRuleType",
+          "tsEmitName": "accessRuleType",
           "normalizedSignature": "AccessRuleType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1429,7 +1429,7 @@
         },
         {
           "clrName": "AuditRuleType",
-          "tsEmitName": "AuditRuleType",
+          "tsEmitName": "auditRuleType",
           "normalizedSignature": "AuditRuleType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1464,7 +1464,7 @@
       "methods": [
         {
           "clrName": "ReadByte",
-          "tsEmitName": "ReadByte",
+          "tsEmitName": "readByte",
           "normalizedSignature": "ReadByte|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1478,7 +1478,7 @@
         },
         {
           "clrName": "WriteByte",
-          "tsEmitName": "WriteByte",
+          "tsEmitName": "writeByte",
           "normalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1492,7 +1492,7 @@
         },
         {
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1506,7 +1506,7 @@
         },
         {
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync2",
+          "tsEmitName": "flushAsync2",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1520,7 +1520,7 @@
         },
         {
           "clrName": "SetLength",
-          "tsEmitName": "SetLength",
+          "tsEmitName": "setLength",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1534,7 +1534,7 @@
         },
         {
           "clrName": "Seek",
-          "tsEmitName": "Seek",
+          "tsEmitName": "seek",
           "normalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1548,7 +1548,7 @@
         },
         {
           "clrName": "Read",
-          "tsEmitName": "Read2",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1562,7 +1562,7 @@
         },
         {
           "clrName": "Read",
-          "tsEmitName": "Read3",
+          "tsEmitName": "read3",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1576,7 +1576,7 @@
         },
         {
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync4",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1590,7 +1590,7 @@
         },
         {
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync5",
+          "tsEmitName": "readAsync5",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1604,7 +1604,7 @@
         },
         {
           "clrName": "BeginRead",
-          "tsEmitName": "BeginRead",
+          "tsEmitName": "beginRead",
           "normalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1618,7 +1618,7 @@
         },
         {
           "clrName": "EndRead",
-          "tsEmitName": "EndRead",
+          "tsEmitName": "endRead",
           "normalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1632,7 +1632,7 @@
         },
         {
           "clrName": "Write",
-          "tsEmitName": "Write2",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1646,7 +1646,7 @@
         },
         {
           "clrName": "Write",
-          "tsEmitName": "Write3",
+          "tsEmitName": "write3",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1660,7 +1660,7 @@
         },
         {
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync3",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1674,7 +1674,7 @@
         },
         {
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync4",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1688,7 +1688,7 @@
         },
         {
           "clrName": "BeginWrite",
-          "tsEmitName": "BeginWrite",
+          "tsEmitName": "beginWrite",
           "normalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1702,7 +1702,7 @@
         },
         {
           "clrName": "EndWrite",
-          "tsEmitName": "EndWrite",
+          "tsEmitName": "endWrite",
           "normalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1716,7 +1716,7 @@
         },
         {
           "clrName": "WaitForPipeDrain",
-          "tsEmitName": "WaitForPipeDrain",
+          "tsEmitName": "waitForPipeDrain",
           "normalizedSignature": "WaitForPipeDrain|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1730,7 +1730,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1745,7 +1745,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1760,7 +1760,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1774,7 +1774,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1788,7 +1788,7 @@
         },
         {
           "clrName": "FlushAsync",
-          "tsEmitName": "FlushAsync",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         },
         {
           "clrName": "Read",
-          "tsEmitName": "Read",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1816,7 +1816,7 @@
         },
         {
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1830,7 +1830,7 @@
         },
         {
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync2",
+          "tsEmitName": "readAsync2",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1844,7 +1844,7 @@
         },
         {
           "clrName": "ReadAsync",
-          "tsEmitName": "ReadAsync3",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1858,7 +1858,7 @@
         },
         {
           "clrName": "Write",
-          "tsEmitName": "Write",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1872,7 +1872,7 @@
         },
         {
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1886,7 +1886,7 @@
         },
         {
           "clrName": "WriteAsync",
-          "tsEmitName": "WriteAsync2",
+          "tsEmitName": "writeAsync2",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -1902,7 +1902,7 @@
       "properties": [
         {
           "clrName": "IsConnected",
-          "tsEmitName": "IsConnected",
+          "tsEmitName": "isConnected",
           "normalizedSignature": "IsConnected|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1916,7 +1916,7 @@
         },
         {
           "clrName": "IsAsync",
-          "tsEmitName": "IsAsync",
+          "tsEmitName": "isAsync",
           "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1930,7 +1930,7 @@
         },
         {
           "clrName": "IsMessageComplete",
-          "tsEmitName": "IsMessageComplete",
+          "tsEmitName": "isMessageComplete",
           "normalizedSignature": "IsMessageComplete|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1944,7 +1944,7 @@
         },
         {
           "clrName": "SafePipeHandle",
-          "tsEmitName": "SafePipeHandle",
+          "tsEmitName": "safePipeHandle",
           "normalizedSignature": "SafePipeHandle|:Microsoft.Win32.SafeHandles.SafePipeHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1958,7 +1958,7 @@
         },
         {
           "clrName": "CanRead",
-          "tsEmitName": "CanRead",
+          "tsEmitName": "canRead",
           "normalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1972,7 +1972,7 @@
         },
         {
           "clrName": "CanWrite",
-          "tsEmitName": "CanWrite",
+          "tsEmitName": "canWrite",
           "normalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1986,7 +1986,7 @@
         },
         {
           "clrName": "CanSeek",
-          "tsEmitName": "CanSeek",
+          "tsEmitName": "canSeek",
           "normalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2000,7 +2000,7 @@
         },
         {
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2014,7 +2014,7 @@
         },
         {
           "clrName": "Position",
-          "tsEmitName": "Position",
+          "tsEmitName": "position",
           "normalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2028,7 +2028,7 @@
         },
         {
           "clrName": "TransmissionMode",
-          "tsEmitName": "TransmissionMode",
+          "tsEmitName": "transmissionMode",
           "normalizedSignature": "TransmissionMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2042,7 +2042,7 @@
         },
         {
           "clrName": "InBufferSize",
-          "tsEmitName": "InBufferSize",
+          "tsEmitName": "inBufferSize",
           "normalizedSignature": "InBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2056,7 +2056,7 @@
         },
         {
           "clrName": "OutBufferSize",
-          "tsEmitName": "OutBufferSize",
+          "tsEmitName": "outBufferSize",
           "normalizedSignature": "OutBufferSize|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2070,7 +2070,7 @@
         },
         {
           "clrName": "ReadMode",
-          "tsEmitName": "ReadMode",
+          "tsEmitName": "readMode",
           "normalizedSignature": "ReadMode|:System.IO.Pipes.PipeTransmissionMode|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2099,7 +2099,7 @@
       "methods": [
         {
           "clrName": "Invoke",
-          "tsEmitName": "Invoke",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2113,7 +2113,7 @@
         },
         {
           "clrName": "BeginInvoke",
-          "tsEmitName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
           "normalizedSignature": "BeginInvoke|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2127,7 +2127,7 @@
         },
         {
           "clrName": "EndInvoke",
-          "tsEmitName": "EndInvoke",
+          "tsEmitName": "endInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2141,7 +2141,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone$view",
+          "tsEmitName": "clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2156,7 +2156,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData$view",
+          "tsEmitName": "getObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2171,7 +2171,7 @@
         },
         {
           "clrName": "Clone",
-          "tsEmitName": "Clone",
+          "tsEmitName": "clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2185,7 +2185,7 @@
         },
         {
           "clrName": "GetObjectData",
-          "tsEmitName": "GetObjectData",
+          "tsEmitName": "getObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2221,7 +2221,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Pipes.PipeDirection,System.IO.HandleInheritability,System.Int32,System.IO.Pipes.PipeSecurity):System.IO.Pipes.AnonymousPipeServerStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2251,7 +2251,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.IO.Pipes.PipeDirection,System.Int32,System.IO.Pipes.PipeTransmissionMode,System.IO.Pipes.PipeOptions,System.Int32,System.Int32,System.IO.Pipes.PipeSecurity,System.IO.HandleInheritability,System.IO.Pipes.PipeAccessRights):System.IO.Pipes.NamedPipeServerStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2281,7 +2281,7 @@
       "methods": [
         {
           "clrName": "GetAccessControl",
-          "tsEmitName": "GetAccessControl",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.IO.Pipes.PipeStream):System.IO.Pipes.PipeSecurity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2295,7 +2295,7 @@
         },
         {
           "clrName": "SetAccessControl",
-          "tsEmitName": "SetAccessControl",
+          "tsEmitName": "setAccessControl",
           "normalizedSignature": "SetAccessControl|(System.IO.Pipes.PipeStream,System.IO.Pipes.PipeSecurity):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

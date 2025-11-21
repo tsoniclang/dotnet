@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "CanExecute",
-          "tsEmitName": "CanExecute",
+          "tsEmitName": "canExecute",
           "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "Execute",
-          "tsEmitName": "Execute",
+          "tsEmitName": "execute",
           "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -48,7 +48,7 @@
       "events": [
         {
           "clrName": "CanExecuteChanged",
-          "tsEmitName": "CanExecuteChanged",
+          "tsEmitName": "canExecuteChanged",
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false
         }

@@ -35,8 +35,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class ExceptionDispatchInfo$instance {
-    readonly SourceException: Exception;
-    Throw(): void;
+    readonly sourceException: Exception;
+    throw_(): void;
     static Capture(source: Exception): ExceptionDispatchInfo;
     static SetCurrentStackTrace(source: Exception): Exception;
     static SetRemoteStackTrace(source: Exception, stackTrace: string): Exception;
@@ -48,7 +48,7 @@ export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
 export class FirstChanceExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
     constructor(exception: Exception);
-    readonly Exception: Exception;
+    readonly exception: Exception;
 }
 
 

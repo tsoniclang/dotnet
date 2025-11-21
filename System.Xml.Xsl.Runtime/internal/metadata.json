@@ -26,7 +26,7 @@
         },
         {
           "clrName": "NoMoreNodes",
-          "tsEmitName": "NoMoreNodes",
+          "tsEmitName": "noMoreNodes",
           "normalizedSignature": "NoMoreNodes|System.Xml.Xsl.Runtime.IteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "NeedInputNode",
-          "tsEmitName": "NeedInputNode",
+          "tsEmitName": "needInputNode",
           "normalizedSignature": "NeedInputNode|System.Xml.Xsl.Runtime.IteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "HaveCurrentNode",
-          "tsEmitName": "HaveCurrentNode",
+          "tsEmitName": "haveCurrentNode",
           "normalizedSignature": "HaveCurrentNode|System.Xml.Xsl.Runtime.IteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "NoMoreNodes",
-          "tsEmitName": "NoMoreNodes",
+          "tsEmitName": "noMoreNodes",
           "normalizedSignature": "NoMoreNodes|System.Xml.Xsl.Runtime.SetIteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "clrName": "InitRightIterator",
-          "tsEmitName": "InitRightIterator",
+          "tsEmitName": "initRightIterator",
           "normalizedSignature": "InitRightIterator|System.Xml.Xsl.Runtime.SetIteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "NeedLeftNode",
-          "tsEmitName": "NeedLeftNode",
+          "tsEmitName": "needLeftNode",
           "normalizedSignature": "NeedLeftNode|System.Xml.Xsl.Runtime.SetIteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "NeedRightNode",
-          "tsEmitName": "NeedRightNode",
+          "tsEmitName": "needRightNode",
           "normalizedSignature": "NeedRightNode|System.Xml.Xsl.Runtime.SetIteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "HaveCurrentNode",
-          "tsEmitName": "HaveCurrentNode",
+          "tsEmitName": "haveCurrentNode",
           "normalizedSignature": "HaveCurrentNode|System.Xml.Xsl.Runtime.SetIteratorResult|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -142,7 +142,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -158,7 +158,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -187,7 +187,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -201,7 +201,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -217,7 +217,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -246,7 +246,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -260,7 +260,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -276,7 +276,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -305,7 +305,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -319,7 +319,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -335,7 +335,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -364,7 +364,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -378,7 +378,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -394,7 +394,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -423,7 +423,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -437,7 +437,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -453,7 +453,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -482,7 +482,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -496,7 +496,7 @@
         },
         {
           "clrName": "Sum",
-          "tsEmitName": "Sum",
+          "tsEmitName": "sum",
           "normalizedSignature": "Sum|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -510,7 +510,7 @@
         },
         {
           "clrName": "Average",
-          "tsEmitName": "Average",
+          "tsEmitName": "average",
           "normalizedSignature": "Average|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -524,7 +524,7 @@
         },
         {
           "clrName": "Minimum",
-          "tsEmitName": "Minimum",
+          "tsEmitName": "minimum",
           "normalizedSignature": "Minimum|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -538,7 +538,7 @@
         },
         {
           "clrName": "Maximum",
-          "tsEmitName": "Maximum",
+          "tsEmitName": "maximum",
           "normalizedSignature": "Maximum|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -554,7 +554,7 @@
       "properties": [
         {
           "clrName": "SumResult",
-          "tsEmitName": "SumResult",
+          "tsEmitName": "sumResult",
           "normalizedSignature": "SumResult|:System.Decimal|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -568,7 +568,7 @@
         },
         {
           "clrName": "AverageResult",
-          "tsEmitName": "AverageResult",
+          "tsEmitName": "averageResult",
           "normalizedSignature": "AverageResult|:System.Decimal|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -582,7 +582,7 @@
         },
         {
           "clrName": "MinimumResult",
-          "tsEmitName": "MinimumResult",
+          "tsEmitName": "minimumResult",
           "normalizedSignature": "MinimumResult|:System.Decimal|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -596,7 +596,7 @@
         },
         {
           "clrName": "MaximumResult",
-          "tsEmitName": "MaximumResult",
+          "tsEmitName": "maximumResult",
           "normalizedSignature": "MaximumResult|:System.Decimal|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -610,7 +610,7 @@
         },
         {
           "clrName": "IsEmpty",
-          "tsEmitName": "IsEmpty",
+          "tsEmitName": "isEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -639,7 +639,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,7 +653,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -669,7 +669,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -698,7 +698,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlNavigatorFilter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -712,7 +712,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -728,7 +728,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -757,7 +757,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -771,7 +771,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -787,7 +787,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -816,7 +816,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -830,7 +830,7 @@
         },
         {
           "clrName": "AddSequence",
-          "tsEmitName": "AddSequence",
+          "tsEmitName": "addSequence",
           "normalizedSignature": "AddSequence|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -844,7 +844,7 @@
         },
         {
           "clrName": "MergeSequences",
-          "tsEmitName": "MergeSequences",
+          "tsEmitName": "mergeSequences",
           "normalizedSignature": "MergeSequences|():System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -874,7 +874,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -888,7 +888,7 @@
         },
         {
           "clrName": "Sum",
-          "tsEmitName": "Sum",
+          "tsEmitName": "sum",
           "normalizedSignature": "Sum|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -902,7 +902,7 @@
         },
         {
           "clrName": "Average",
-          "tsEmitName": "Average",
+          "tsEmitName": "average",
           "normalizedSignature": "Average|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -916,7 +916,7 @@
         },
         {
           "clrName": "Minimum",
-          "tsEmitName": "Minimum",
+          "tsEmitName": "minimum",
           "normalizedSignature": "Minimum|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -930,7 +930,7 @@
         },
         {
           "clrName": "Maximum",
-          "tsEmitName": "Maximum",
+          "tsEmitName": "maximum",
           "normalizedSignature": "Maximum|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -946,7 +946,7 @@
       "properties": [
         {
           "clrName": "SumResult",
-          "tsEmitName": "SumResult",
+          "tsEmitName": "sumResult",
           "normalizedSignature": "SumResult|:System.Double|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -960,7 +960,7 @@
         },
         {
           "clrName": "AverageResult",
-          "tsEmitName": "AverageResult",
+          "tsEmitName": "averageResult",
           "normalizedSignature": "AverageResult|:System.Double|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -974,7 +974,7 @@
         },
         {
           "clrName": "MinimumResult",
-          "tsEmitName": "MinimumResult",
+          "tsEmitName": "minimumResult",
           "normalizedSignature": "MinimumResult|:System.Double|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -988,7 +988,7 @@
         },
         {
           "clrName": "MaximumResult",
-          "tsEmitName": "MaximumResult",
+          "tsEmitName": "maximumResult",
           "normalizedSignature": "MaximumResult|:System.Double|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1002,7 +1002,7 @@
         },
         {
           "clrName": "IsEmpty",
-          "tsEmitName": "IsEmpty",
+          "tsEmitName": "isEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1031,7 +1031,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1061,7 +1061,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1090,7 +1090,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1104,7 +1104,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1120,7 +1120,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1149,7 +1149,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1163,7 +1163,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1179,7 +1179,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1208,7 +1208,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1222,7 +1222,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1238,7 +1238,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1267,7 +1267,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1281,7 +1281,7 @@
         },
         {
           "clrName": "Sum",
-          "tsEmitName": "Sum",
+          "tsEmitName": "sum",
           "normalizedSignature": "Sum|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1295,7 +1295,7 @@
         },
         {
           "clrName": "Average",
-          "tsEmitName": "Average",
+          "tsEmitName": "average",
           "normalizedSignature": "Average|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1309,7 +1309,7 @@
         },
         {
           "clrName": "Minimum",
-          "tsEmitName": "Minimum",
+          "tsEmitName": "minimum",
           "normalizedSignature": "Minimum|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1323,7 +1323,7 @@
         },
         {
           "clrName": "Maximum",
-          "tsEmitName": "Maximum",
+          "tsEmitName": "maximum",
           "normalizedSignature": "Maximum|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1339,7 +1339,7 @@
       "properties": [
         {
           "clrName": "SumResult",
-          "tsEmitName": "SumResult",
+          "tsEmitName": "sumResult",
           "normalizedSignature": "SumResult|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1353,7 +1353,7 @@
         },
         {
           "clrName": "AverageResult",
-          "tsEmitName": "AverageResult",
+          "tsEmitName": "averageResult",
           "normalizedSignature": "AverageResult|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1367,7 +1367,7 @@
         },
         {
           "clrName": "MinimumResult",
-          "tsEmitName": "MinimumResult",
+          "tsEmitName": "minimumResult",
           "normalizedSignature": "MinimumResult|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1381,7 +1381,7 @@
         },
         {
           "clrName": "MaximumResult",
-          "tsEmitName": "MaximumResult",
+          "tsEmitName": "maximumResult",
           "normalizedSignature": "MaximumResult|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1395,7 +1395,7 @@
         },
         {
           "clrName": "IsEmpty",
-          "tsEmitName": "IsEmpty",
+          "tsEmitName": "isEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1424,7 +1424,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1438,7 +1438,7 @@
         },
         {
           "clrName": "Sum",
-          "tsEmitName": "Sum",
+          "tsEmitName": "sum",
           "normalizedSignature": "Sum|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1452,7 +1452,7 @@
         },
         {
           "clrName": "Average",
-          "tsEmitName": "Average",
+          "tsEmitName": "average",
           "normalizedSignature": "Average|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1466,7 +1466,7 @@
         },
         {
           "clrName": "Minimum",
-          "tsEmitName": "Minimum",
+          "tsEmitName": "minimum",
           "normalizedSignature": "Minimum|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1480,7 +1480,7 @@
         },
         {
           "clrName": "Maximum",
-          "tsEmitName": "Maximum",
+          "tsEmitName": "maximum",
           "normalizedSignature": "Maximum|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1496,7 +1496,7 @@
       "properties": [
         {
           "clrName": "SumResult",
-          "tsEmitName": "SumResult",
+          "tsEmitName": "sumResult",
           "normalizedSignature": "SumResult|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1510,7 +1510,7 @@
         },
         {
           "clrName": "AverageResult",
-          "tsEmitName": "AverageResult",
+          "tsEmitName": "averageResult",
           "normalizedSignature": "AverageResult|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1524,7 +1524,7 @@
         },
         {
           "clrName": "MinimumResult",
-          "tsEmitName": "MinimumResult",
+          "tsEmitName": "minimumResult",
           "normalizedSignature": "MinimumResult|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1538,7 +1538,7 @@
         },
         {
           "clrName": "MaximumResult",
-          "tsEmitName": "MaximumResult",
+          "tsEmitName": "maximumResult",
           "normalizedSignature": "MaximumResult|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1552,7 +1552,7 @@
         },
         {
           "clrName": "IsEmpty",
-          "tsEmitName": "IsEmpty",
+          "tsEmitName": "isEmpty",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1581,7 +1581,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1595,7 +1595,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1611,7 +1611,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1640,7 +1640,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1654,7 +1654,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1670,7 +1670,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1699,7 +1699,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNodeType):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1713,7 +1713,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1729,7 +1729,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1758,7 +1758,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter,System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1772,7 +1772,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1788,7 +1788,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1817,7 +1817,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1831,7 +1831,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1847,7 +1847,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1876,7 +1876,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1890,7 +1890,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1906,7 +1906,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1935,7 +1935,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1949,7 +1949,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1965,7 +1965,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1994,7 +1994,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2008,7 +2008,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2024,7 +2024,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2053,7 +2053,7 @@
       "methods": [
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2067,7 +2067,7 @@
         },
         {
           "clrName": "Concat",
-          "tsEmitName": "Concat",
+          "tsEmitName": "concat",
           "normalizedSignature": "Concat|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2081,7 +2081,7 @@
         },
         {
           "clrName": "GetResult",
-          "tsEmitName": "GetResult",
+          "tsEmitName": "getResult",
           "normalizedSignature": "GetResult|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2097,7 +2097,7 @@
       "properties": [
         {
           "clrName": "Delimiter",
-          "tsEmitName": "Delimiter",
+          "tsEmitName": "delimiter",
           "normalizedSignature": "Delimiter|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2126,7 +2126,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2140,7 +2140,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2156,7 +2156,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2185,7 +2185,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2199,7 +2199,7 @@
         },
         {
           "clrName": "AddStringSortKey",
-          "tsEmitName": "AddStringSortKey",
+          "tsEmitName": "addStringSortKey",
           "normalizedSignature": "AddStringSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2213,7 +2213,7 @@
         },
         {
           "clrName": "AddDecimalSortKey",
-          "tsEmitName": "AddDecimalSortKey",
+          "tsEmitName": "addDecimalSortKey",
           "normalizedSignature": "AddDecimalSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2227,7 +2227,7 @@
         },
         {
           "clrName": "AddIntegerSortKey",
-          "tsEmitName": "AddIntegerSortKey",
+          "tsEmitName": "addIntegerSortKey",
           "normalizedSignature": "AddIntegerSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2241,7 +2241,7 @@
         },
         {
           "clrName": "AddIntSortKey",
-          "tsEmitName": "AddIntSortKey",
+          "tsEmitName": "addIntSortKey",
           "normalizedSignature": "AddIntSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2255,7 +2255,7 @@
         },
         {
           "clrName": "AddDoubleSortKey",
-          "tsEmitName": "AddDoubleSortKey",
+          "tsEmitName": "addDoubleSortKey",
           "normalizedSignature": "AddDoubleSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2269,7 +2269,7 @@
         },
         {
           "clrName": "AddDateTimeSortKey",
-          "tsEmitName": "AddDateTimeSortKey",
+          "tsEmitName": "addDateTimeSortKey",
           "normalizedSignature": "AddDateTimeSortKey|(System.Xml.Xsl.Runtime.XmlCollation,System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2283,7 +2283,7 @@
         },
         {
           "clrName": "AddEmptySortKey",
-          "tsEmitName": "AddEmptySortKey",
+          "tsEmitName": "addEmptySortKey",
           "normalizedSignature": "AddEmptySortKey|(System.Xml.Xsl.Runtime.XmlCollation):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2297,7 +2297,7 @@
         },
         {
           "clrName": "FinishSortKeys",
-          "tsEmitName": "FinishSortKeys",
+          "tsEmitName": "finishSortKeys",
           "normalizedSignature": "FinishSortKeys|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2313,7 +2313,7 @@
       "properties": [
         {
           "clrName": "Keys",
-          "tsEmitName": "Keys",
+          "tsEmitName": "keys",
           "normalizedSignature": "Keys|:System.Array|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2342,7 +2342,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2356,7 +2356,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2372,7 +2372,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2401,7 +2401,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2415,7 +2415,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2431,7 +2431,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2460,7 +2460,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2474,7 +2474,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2490,7 +2490,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2519,7 +2519,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XPath.XPathNavigator,System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2533,7 +2533,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2549,7 +2549,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2578,7 +2578,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.Xsl.Runtime.XmlNavigatorFilter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2592,7 +2592,7 @@
         },
         {
           "clrName": "MoveNext",
-          "tsEmitName": "MoveNext",
+          "tsEmitName": "moveNext",
           "normalizedSignature": "MoveNext|(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2608,7 +2608,7 @@
       "properties": [
         {
           "clrName": "Current",
-          "tsEmitName": "Current",
+          "tsEmitName": "current",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2637,7 +2637,7 @@
       "methods": [
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2651,7 +2651,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2681,7 +2681,7 @@
       "methods": [
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2695,7 +2695,7 @@
         },
         {
           "clrName": "Lookup",
-          "tsEmitName": "Lookup",
+          "tsEmitName": "lookup",
           "normalizedSignature": "Lookup|(System.String):System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2725,7 +2725,7 @@
       "methods": [
         {
           "clrName": "MoveToContent",
-          "tsEmitName": "MoveToContent",
+          "tsEmitName": "moveToContent",
           "normalizedSignature": "MoveToContent|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2739,7 +2739,7 @@
         },
         {
           "clrName": "MoveToNextContent",
-          "tsEmitName": "MoveToNextContent",
+          "tsEmitName": "moveToNextContent",
           "normalizedSignature": "MoveToNextContent|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2753,7 +2753,7 @@
         },
         {
           "clrName": "MoveToFollowingSibling",
-          "tsEmitName": "MoveToFollowingSibling",
+          "tsEmitName": "moveToFollowingSibling",
           "normalizedSignature": "MoveToFollowingSibling|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2767,7 +2767,7 @@
         },
         {
           "clrName": "MoveToPreviousSibling",
-          "tsEmitName": "MoveToPreviousSibling",
+          "tsEmitName": "moveToPreviousSibling",
           "normalizedSignature": "MoveToPreviousSibling|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2781,7 +2781,7 @@
         },
         {
           "clrName": "MoveToFollowing",
-          "tsEmitName": "MoveToFollowing",
+          "tsEmitName": "moveToFollowing",
           "normalizedSignature": "MoveToFollowing|(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2795,7 +2795,7 @@
         },
         {
           "clrName": "IsFiltered",
-          "tsEmitName": "IsFiltered",
+          "tsEmitName": "isFiltered",
           "normalizedSignature": "IsFiltered|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2825,7 +2825,7 @@
       "methods": [
         {
           "clrName": "GetDataSource",
-          "tsEmitName": "GetDataSource",
+          "tsEmitName": "getDataSource",
           "normalizedSignature": "GetDataSource|(System.String,System.String):System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2839,7 +2839,7 @@
         },
         {
           "clrName": "GetParameter",
-          "tsEmitName": "GetParameter",
+          "tsEmitName": "getParameter",
           "normalizedSignature": "GetParameter|(System.String,System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2853,7 +2853,7 @@
         },
         {
           "clrName": "GetLateBoundObject",
-          "tsEmitName": "GetLateBoundObject",
+          "tsEmitName": "getLateBoundObject",
           "normalizedSignature": "GetLateBoundObject|(System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2867,7 +2867,7 @@
         },
         {
           "clrName": "LateBoundFunctionExists",
-          "tsEmitName": "LateBoundFunctionExists",
+          "tsEmitName": "lateBoundFunctionExists",
           "normalizedSignature": "LateBoundFunctionExists|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2881,7 +2881,7 @@
         },
         {
           "clrName": "InvokeXsltLateBoundFunction",
-          "tsEmitName": "InvokeXsltLateBoundFunction",
+          "tsEmitName": "invokeXsltLateBoundFunction",
           "normalizedSignature": "InvokeXsltLateBoundFunction|(System.String,System.String,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]][]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2895,7 +2895,7 @@
         },
         {
           "clrName": "OnXsltMessageEncountered",
-          "tsEmitName": "OnXsltMessageEncountered",
+          "tsEmitName": "onXsltMessageEncountered",
           "normalizedSignature": "OnXsltMessageEncountered|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2911,7 +2911,7 @@
       "properties": [
         {
           "clrName": "QueryNameTable",
-          "tsEmitName": "QueryNameTable",
+          "tsEmitName": "queryNameTable",
           "normalizedSignature": "QueryNameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2925,7 +2925,7 @@
         },
         {
           "clrName": "DefaultNameTable",
-          "tsEmitName": "DefaultNameTable",
+          "tsEmitName": "defaultNameTable",
           "normalizedSignature": "DefaultNameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2939,7 +2939,7 @@
         },
         {
           "clrName": "DefaultDataSource",
-          "tsEmitName": "DefaultDataSource",
+          "tsEmitName": "defaultDataSource",
           "normalizedSignature": "DefaultDataSource|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2968,7 +2968,7 @@
       "methods": [
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryItemSequence):System.Xml.Xsl.Runtime.XmlQueryItemSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2982,7 +2982,7 @@
         },
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse2",
+          "tsEmitName": "createOrReuse2",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryItemSequence,System.Xml.XPath.XPathItem):System.Xml.Xsl.Runtime.XmlQueryItemSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2996,7 +2996,7 @@
         },
         {
           "clrName": "AddClone",
-          "tsEmitName": "AddClone",
+          "tsEmitName": "addClone",
           "normalizedSignature": "AddClone|(System.Xml.XPath.XPathItem):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3010,7 +3010,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3025,7 +3025,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3040,7 +3040,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3055,7 +3055,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3070,7 +3070,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3085,7 +3085,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3100,7 +3100,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3115,7 +3115,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3130,7 +3130,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3145,7 +3145,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3160,7 +3160,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3175,7 +3175,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3190,7 +3190,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3205,7 +3205,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3220,7 +3220,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3235,7 +3235,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3250,7 +3250,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3264,7 +3264,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3278,7 +3278,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3292,7 +3292,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3306,7 +3306,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3320,7 +3320,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3334,7 +3334,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3348,7 +3348,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3362,7 +3362,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3376,7 +3376,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3390,7 +3390,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3404,7 +3404,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3418,7 +3418,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3432,7 +3432,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3446,7 +3446,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3462,7 +3462,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3477,7 +3477,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3492,7 +3492,7 @@
         },
         {
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3507,7 +3507,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3522,7 +3522,7 @@
         },
         {
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3537,7 +3537,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3552,7 +3552,7 @@
         },
         {
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3569,7 +3569,7 @@
       "fields": [
         {
           "clrName": "Empty",
-          "tsEmitName": "Empty",
+          "tsEmitName": "empty",
           "normalizedSignature": "Empty|System.Xml.Xsl.Runtime.XmlQueryItemSequence|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -3607,7 +3607,7 @@
       "methods": [
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryNodeSequence):System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3621,7 +3621,7 @@
         },
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse2",
+          "tsEmitName": "createOrReuse2",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryNodeSequence,System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3635,7 +3635,7 @@
         },
         {
           "clrName": "DocOrderDistinct",
-          "tsEmitName": "DocOrderDistinct",
+          "tsEmitName": "docOrderDistinct",
           "normalizedSignature": "DocOrderDistinct|(System.Collections.Generic.IComparer_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3649,7 +3649,7 @@
         },
         {
           "clrName": "AddClone",
-          "tsEmitName": "AddClone",
+          "tsEmitName": "addClone",
           "normalizedSignature": "AddClone|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3663,7 +3663,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3678,7 +3678,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3693,7 +3693,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3708,7 +3708,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3723,7 +3723,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3738,7 +3738,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3753,7 +3753,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3768,7 +3768,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3783,7 +3783,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3798,7 +3798,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3813,7 +3813,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3828,7 +3828,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert$view",
+          "tsEmitName": "insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3843,7 +3843,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove$view",
+          "tsEmitName": "remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3858,7 +3858,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3873,7 +3873,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3888,7 +3888,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt$view",
+          "tsEmitName": "removeAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3903,7 +3903,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3917,7 +3917,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add2",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3931,7 +3931,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3945,7 +3945,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3959,7 +3959,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains2",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3973,7 +3973,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -3987,7 +3987,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo2",
+          "tsEmitName": "copyTo2",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4001,7 +4001,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Generic.IEnumerator_1|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4015,7 +4015,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator2",
+          "tsEmitName": "getEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4029,7 +4029,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4043,7 +4043,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4057,7 +4057,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert2",
+          "tsEmitName": "insert2",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4071,7 +4071,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4085,7 +4085,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove2",
+          "tsEmitName": "remove2",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4099,7 +4099,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -4115,7 +4115,7 @@
       "properties": [
         {
           "clrName": "IsDocOrderDistinct",
-          "tsEmitName": "IsDocOrderDistinct",
+          "tsEmitName": "isDocOrderDistinct",
           "normalizedSignature": "IsDocOrderDistinct|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4129,7 +4129,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4144,7 +4144,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4159,7 +4159,7 @@
         },
         {
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4174,7 +4174,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4189,7 +4189,7 @@
         },
         {
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4204,7 +4204,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4219,7 +4219,7 @@
         },
         {
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -4236,7 +4236,7 @@
       "fields": [
         {
           "clrName": "Empty",
-          "tsEmitName": "Empty",
+          "tsEmitName": "empty",
           "normalizedSignature": "Empty|System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -4284,7 +4284,7 @@
       "methods": [
         {
           "clrName": "WriteStartDocument",
-          "tsEmitName": "WriteStartDocument",
+          "tsEmitName": "writeStartDocument",
           "normalizedSignature": "WriteStartDocument|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4298,7 +4298,7 @@
         },
         {
           "clrName": "WriteStartDocument",
-          "tsEmitName": "WriteStartDocument2",
+          "tsEmitName": "writeStartDocument2",
           "normalizedSignature": "WriteStartDocument|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4312,7 +4312,7 @@
         },
         {
           "clrName": "WriteEndDocument",
-          "tsEmitName": "WriteEndDocument",
+          "tsEmitName": "writeEndDocument",
           "normalizedSignature": "WriteEndDocument|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4326,7 +4326,7 @@
         },
         {
           "clrName": "WriteDocType",
-          "tsEmitName": "WriteDocType",
+          "tsEmitName": "writeDocType",
           "normalizedSignature": "WriteDocType|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4340,7 +4340,7 @@
         },
         {
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement3",
+          "tsEmitName": "writeStartElement3",
           "normalizedSignature": "WriteStartElement|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4354,7 +4354,7 @@
         },
         {
           "clrName": "WriteEndElement",
-          "tsEmitName": "WriteEndElement",
+          "tsEmitName": "writeEndElement",
           "normalizedSignature": "WriteEndElement|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4368,7 +4368,7 @@
         },
         {
           "clrName": "WriteFullEndElement",
-          "tsEmitName": "WriteFullEndElement",
+          "tsEmitName": "writeFullEndElement",
           "normalizedSignature": "WriteFullEndElement|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4382,7 +4382,7 @@
         },
         {
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute3",
+          "tsEmitName": "writeStartAttribute3",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4396,7 +4396,7 @@
         },
         {
           "clrName": "WriteEndAttribute",
-          "tsEmitName": "WriteEndAttribute",
+          "tsEmitName": "writeEndAttribute",
           "normalizedSignature": "WriteEndAttribute|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4410,7 +4410,7 @@
         },
         {
           "clrName": "WriteComment",
-          "tsEmitName": "WriteComment",
+          "tsEmitName": "writeComment",
           "normalizedSignature": "WriteComment|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4424,7 +4424,7 @@
         },
         {
           "clrName": "WriteProcessingInstruction",
-          "tsEmitName": "WriteProcessingInstruction",
+          "tsEmitName": "writeProcessingInstruction",
           "normalizedSignature": "WriteProcessingInstruction|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4438,7 +4438,7 @@
         },
         {
           "clrName": "WriteEntityRef",
-          "tsEmitName": "WriteEntityRef",
+          "tsEmitName": "writeEntityRef",
           "normalizedSignature": "WriteEntityRef|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4452,7 +4452,7 @@
         },
         {
           "clrName": "WriteCharEntity",
-          "tsEmitName": "WriteCharEntity",
+          "tsEmitName": "writeCharEntity",
           "normalizedSignature": "WriteCharEntity|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4466,7 +4466,7 @@
         },
         {
           "clrName": "WriteSurrogateCharEntity",
-          "tsEmitName": "WriteSurrogateCharEntity",
+          "tsEmitName": "writeSurrogateCharEntity",
           "normalizedSignature": "WriteSurrogateCharEntity|(System.Char,System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4480,7 +4480,7 @@
         },
         {
           "clrName": "WriteWhitespace",
-          "tsEmitName": "WriteWhitespace",
+          "tsEmitName": "writeWhitespace",
           "normalizedSignature": "WriteWhitespace|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4494,7 +4494,7 @@
         },
         {
           "clrName": "WriteString",
-          "tsEmitName": "WriteString",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4508,7 +4508,7 @@
         },
         {
           "clrName": "WriteChars",
-          "tsEmitName": "WriteChars",
+          "tsEmitName": "writeChars",
           "normalizedSignature": "WriteChars|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4522,7 +4522,7 @@
         },
         {
           "clrName": "WriteRaw",
-          "tsEmitName": "WriteRaw",
+          "tsEmitName": "writeRaw",
           "normalizedSignature": "WriteRaw|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4536,7 +4536,7 @@
         },
         {
           "clrName": "WriteRaw",
-          "tsEmitName": "WriteRaw2",
+          "tsEmitName": "writeRaw2",
           "normalizedSignature": "WriteRaw|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4550,7 +4550,7 @@
         },
         {
           "clrName": "WriteCData",
-          "tsEmitName": "WriteCData",
+          "tsEmitName": "writeCData",
           "normalizedSignature": "WriteCData|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4564,7 +4564,7 @@
         },
         {
           "clrName": "WriteBase64",
-          "tsEmitName": "WriteBase64",
+          "tsEmitName": "writeBase64",
           "normalizedSignature": "WriteBase64|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4578,7 +4578,7 @@
         },
         {
           "clrName": "Close",
-          "tsEmitName": "Close",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4592,7 +4592,7 @@
         },
         {
           "clrName": "Flush",
-          "tsEmitName": "Flush",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4606,7 +4606,7 @@
         },
         {
           "clrName": "LookupPrefix",
-          "tsEmitName": "LookupPrefix",
+          "tsEmitName": "lookupPrefix",
           "normalizedSignature": "LookupPrefix|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4620,7 +4620,7 @@
         },
         {
           "clrName": "StartTree",
-          "tsEmitName": "StartTree",
+          "tsEmitName": "startTree",
           "normalizedSignature": "StartTree|(System.Xml.XPath.XPathNodeType):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4634,7 +4634,7 @@
         },
         {
           "clrName": "EndTree",
-          "tsEmitName": "EndTree",
+          "tsEmitName": "endTree",
           "normalizedSignature": "EndTree|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4648,7 +4648,7 @@
         },
         {
           "clrName": "WriteStartElementUnchecked",
-          "tsEmitName": "WriteStartElementUnchecked",
+          "tsEmitName": "writeStartElementUnchecked",
           "normalizedSignature": "WriteStartElementUnchecked|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4662,7 +4662,7 @@
         },
         {
           "clrName": "WriteStartElementUnchecked",
-          "tsEmitName": "WriteStartElementUnchecked2",
+          "tsEmitName": "writeStartElementUnchecked2",
           "normalizedSignature": "WriteStartElementUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4676,7 +4676,7 @@
         },
         {
           "clrName": "StartElementContentUnchecked",
-          "tsEmitName": "StartElementContentUnchecked",
+          "tsEmitName": "startElementContentUnchecked",
           "normalizedSignature": "StartElementContentUnchecked|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4690,7 +4690,7 @@
         },
         {
           "clrName": "WriteEndElementUnchecked",
-          "tsEmitName": "WriteEndElementUnchecked",
+          "tsEmitName": "writeEndElementUnchecked",
           "normalizedSignature": "WriteEndElementUnchecked|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4704,7 +4704,7 @@
         },
         {
           "clrName": "WriteEndElementUnchecked",
-          "tsEmitName": "WriteEndElementUnchecked2",
+          "tsEmitName": "writeEndElementUnchecked2",
           "normalizedSignature": "WriteEndElementUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4718,7 +4718,7 @@
         },
         {
           "clrName": "WriteStartAttributeUnchecked",
-          "tsEmitName": "WriteStartAttributeUnchecked",
+          "tsEmitName": "writeStartAttributeUnchecked",
           "normalizedSignature": "WriteStartAttributeUnchecked|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4732,7 +4732,7 @@
         },
         {
           "clrName": "WriteStartAttributeUnchecked",
-          "tsEmitName": "WriteStartAttributeUnchecked2",
+          "tsEmitName": "writeStartAttributeUnchecked2",
           "normalizedSignature": "WriteStartAttributeUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4746,7 +4746,7 @@
         },
         {
           "clrName": "WriteEndAttributeUnchecked",
-          "tsEmitName": "WriteEndAttributeUnchecked",
+          "tsEmitName": "writeEndAttributeUnchecked",
           "normalizedSignature": "WriteEndAttributeUnchecked|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4760,7 +4760,7 @@
         },
         {
           "clrName": "WriteNamespaceDeclarationUnchecked",
-          "tsEmitName": "WriteNamespaceDeclarationUnchecked",
+          "tsEmitName": "writeNamespaceDeclarationUnchecked",
           "normalizedSignature": "WriteNamespaceDeclarationUnchecked|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4774,7 +4774,7 @@
         },
         {
           "clrName": "WriteStringUnchecked",
-          "tsEmitName": "WriteStringUnchecked",
+          "tsEmitName": "writeStringUnchecked",
           "normalizedSignature": "WriteStringUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4788,7 +4788,7 @@
         },
         {
           "clrName": "WriteRawUnchecked",
-          "tsEmitName": "WriteRawUnchecked",
+          "tsEmitName": "writeRawUnchecked",
           "normalizedSignature": "WriteRawUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4802,7 +4802,7 @@
         },
         {
           "clrName": "WriteStartRoot",
-          "tsEmitName": "WriteStartRoot",
+          "tsEmitName": "writeStartRoot",
           "normalizedSignature": "WriteStartRoot|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4816,7 +4816,7 @@
         },
         {
           "clrName": "WriteEndRoot",
-          "tsEmitName": "WriteEndRoot",
+          "tsEmitName": "writeEndRoot",
           "normalizedSignature": "WriteEndRoot|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4830,7 +4830,7 @@
         },
         {
           "clrName": "WriteStartElementLocalName",
-          "tsEmitName": "WriteStartElementLocalName",
+          "tsEmitName": "writeStartElementLocalName",
           "normalizedSignature": "WriteStartElementLocalName|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4844,7 +4844,7 @@
         },
         {
           "clrName": "WriteStartAttributeLocalName",
-          "tsEmitName": "WriteStartAttributeLocalName",
+          "tsEmitName": "writeStartAttributeLocalName",
           "normalizedSignature": "WriteStartAttributeLocalName|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4858,7 +4858,7 @@
         },
         {
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "WriteStartElementComputed",
+          "tsEmitName": "writeStartElementComputed",
           "normalizedSignature": "WriteStartElementComputed|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4872,7 +4872,7 @@
         },
         {
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "WriteStartElementComputed2",
+          "tsEmitName": "writeStartElementComputed2",
           "normalizedSignature": "WriteStartElementComputed|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4886,7 +4886,7 @@
         },
         {
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "WriteStartElementComputed3",
+          "tsEmitName": "writeStartElementComputed3",
           "normalizedSignature": "WriteStartElementComputed|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4900,7 +4900,7 @@
         },
         {
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "WriteStartElementComputed4",
+          "tsEmitName": "writeStartElementComputed4",
           "normalizedSignature": "WriteStartElementComputed|(System.Xml.XmlQualifiedName):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4914,7 +4914,7 @@
         },
         {
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "WriteStartAttributeComputed",
+          "tsEmitName": "writeStartAttributeComputed",
           "normalizedSignature": "WriteStartAttributeComputed|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4928,7 +4928,7 @@
         },
         {
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "WriteStartAttributeComputed2",
+          "tsEmitName": "writeStartAttributeComputed2",
           "normalizedSignature": "WriteStartAttributeComputed|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4942,7 +4942,7 @@
         },
         {
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "WriteStartAttributeComputed3",
+          "tsEmitName": "writeStartAttributeComputed3",
           "normalizedSignature": "WriteStartAttributeComputed|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4956,7 +4956,7 @@
         },
         {
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "WriteStartAttributeComputed4",
+          "tsEmitName": "writeStartAttributeComputed4",
           "normalizedSignature": "WriteStartAttributeComputed|(System.Xml.XmlQualifiedName):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4970,7 +4970,7 @@
         },
         {
           "clrName": "WriteNamespaceDeclaration",
-          "tsEmitName": "WriteNamespaceDeclaration",
+          "tsEmitName": "writeNamespaceDeclaration",
           "normalizedSignature": "WriteNamespaceDeclaration|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4984,7 +4984,7 @@
         },
         {
           "clrName": "WriteStartNamespace",
-          "tsEmitName": "WriteStartNamespace",
+          "tsEmitName": "writeStartNamespace",
           "normalizedSignature": "WriteStartNamespace|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4998,7 +4998,7 @@
         },
         {
           "clrName": "WriteNamespaceString",
-          "tsEmitName": "WriteNamespaceString",
+          "tsEmitName": "writeNamespaceString",
           "normalizedSignature": "WriteNamespaceString|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5012,7 +5012,7 @@
         },
         {
           "clrName": "WriteEndNamespace",
-          "tsEmitName": "WriteEndNamespace",
+          "tsEmitName": "writeEndNamespace",
           "normalizedSignature": "WriteEndNamespace|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5026,7 +5026,7 @@
         },
         {
           "clrName": "WriteStartComment",
-          "tsEmitName": "WriteStartComment",
+          "tsEmitName": "writeStartComment",
           "normalizedSignature": "WriteStartComment|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5040,7 +5040,7 @@
         },
         {
           "clrName": "WriteCommentString",
-          "tsEmitName": "WriteCommentString",
+          "tsEmitName": "writeCommentString",
           "normalizedSignature": "WriteCommentString|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5054,7 +5054,7 @@
         },
         {
           "clrName": "WriteEndComment",
-          "tsEmitName": "WriteEndComment",
+          "tsEmitName": "writeEndComment",
           "normalizedSignature": "WriteEndComment|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5068,7 +5068,7 @@
         },
         {
           "clrName": "WriteStartProcessingInstruction",
-          "tsEmitName": "WriteStartProcessingInstruction",
+          "tsEmitName": "writeStartProcessingInstruction",
           "normalizedSignature": "WriteStartProcessingInstruction|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5082,7 +5082,7 @@
         },
         {
           "clrName": "WriteProcessingInstructionString",
-          "tsEmitName": "WriteProcessingInstructionString",
+          "tsEmitName": "writeProcessingInstructionString",
           "normalizedSignature": "WriteProcessingInstructionString|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5096,7 +5096,7 @@
         },
         {
           "clrName": "WriteEndProcessingInstruction",
-          "tsEmitName": "WriteEndProcessingInstruction",
+          "tsEmitName": "writeEndProcessingInstruction",
           "normalizedSignature": "WriteEndProcessingInstruction|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5110,7 +5110,7 @@
         },
         {
           "clrName": "WriteItem",
-          "tsEmitName": "WriteItem",
+          "tsEmitName": "writeItem",
           "normalizedSignature": "WriteItem|(System.Xml.XPath.XPathItem):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5124,7 +5124,7 @@
         },
         {
           "clrName": "XsltCopyOf",
-          "tsEmitName": "XsltCopyOf",
+          "tsEmitName": "xsltCopyOf",
           "normalizedSignature": "XsltCopyOf|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5138,7 +5138,7 @@
         },
         {
           "clrName": "StartCopy",
-          "tsEmitName": "StartCopy",
+          "tsEmitName": "startCopy",
           "normalizedSignature": "StartCopy|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5152,7 +5152,7 @@
         },
         {
           "clrName": "EndCopy",
-          "tsEmitName": "EndCopy",
+          "tsEmitName": "endCopy",
           "normalizedSignature": "EndCopy|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5166,7 +5166,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose$view",
+          "tsEmitName": "dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5181,7 +5181,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync$view",
+          "tsEmitName": "disposeAsync$view",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -5196,7 +5196,7 @@
         },
         {
           "clrName": "Dispose",
-          "tsEmitName": "Dispose",
+          "tsEmitName": "dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5210,7 +5210,7 @@
         },
         {
           "clrName": "DisposeAsync",
-          "tsEmitName": "DisposeAsync",
+          "tsEmitName": "disposeAsync",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5224,7 +5224,7 @@
         },
         {
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5238,7 +5238,7 @@
         },
         {
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "WriteStartAttribute2",
+          "tsEmitName": "writeStartAttribute2",
           "normalizedSignature": "WriteStartAttribute|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5252,7 +5252,7 @@
         },
         {
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5266,7 +5266,7 @@
         },
         {
           "clrName": "WriteStartElement",
-          "tsEmitName": "WriteStartElement2",
+          "tsEmitName": "writeStartElement2",
           "normalizedSignature": "WriteStartElement|(System.String):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -5282,7 +5282,7 @@
       "properties": [
         {
           "clrName": "WriteState",
-          "tsEmitName": "WriteState",
+          "tsEmitName": "writeState",
           "normalizedSignature": "WriteState|:System.Xml.WriteState|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5296,7 +5296,7 @@
         },
         {
           "clrName": "XmlSpace",
-          "tsEmitName": "XmlSpace",
+          "tsEmitName": "xmlSpace",
           "normalizedSignature": "XmlSpace|:System.Xml.XmlSpace|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5310,7 +5310,7 @@
         },
         {
           "clrName": "XmlLang",
-          "tsEmitName": "XmlLang",
+          "tsEmitName": "xmlLang",
           "normalizedSignature": "XmlLang|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5339,7 +5339,7 @@
       "methods": [
         {
           "clrName": "DebugGetGlobalNames",
-          "tsEmitName": "DebugGetGlobalNames",
+          "tsEmitName": "debugGetGlobalNames",
           "normalizedSignature": "DebugGetGlobalNames|():System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5353,7 +5353,7 @@
         },
         {
           "clrName": "DebugGetGlobalValue",
-          "tsEmitName": "DebugGetGlobalValue",
+          "tsEmitName": "debugGetGlobalValue",
           "normalizedSignature": "DebugGetGlobalValue|(System.String):System.Collections.IList|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5367,7 +5367,7 @@
         },
         {
           "clrName": "DebugSetGlobalValue",
-          "tsEmitName": "DebugSetGlobalValue",
+          "tsEmitName": "debugSetGlobalValue",
           "normalizedSignature": "DebugSetGlobalValue|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5381,7 +5381,7 @@
         },
         {
           "clrName": "DebugGetXsltValue",
-          "tsEmitName": "DebugGetXsltValue",
+          "tsEmitName": "debugGetXsltValue",
           "normalizedSignature": "DebugGetXsltValue|(System.Collections.IList):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5395,7 +5395,7 @@
         },
         {
           "clrName": "GetEarlyBoundObject",
-          "tsEmitName": "GetEarlyBoundObject",
+          "tsEmitName": "getEarlyBoundObject",
           "normalizedSignature": "GetEarlyBoundObject|(System.Int32):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5409,7 +5409,7 @@
         },
         {
           "clrName": "EarlyBoundFunctionExists",
-          "tsEmitName": "EarlyBoundFunctionExists",
+          "tsEmitName": "earlyBoundFunctionExists",
           "normalizedSignature": "EarlyBoundFunctionExists|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5423,7 +5423,7 @@
         },
         {
           "clrName": "IsGlobalComputed",
-          "tsEmitName": "IsGlobalComputed",
+          "tsEmitName": "isGlobalComputed",
           "normalizedSignature": "IsGlobalComputed|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5437,7 +5437,7 @@
         },
         {
           "clrName": "GetGlobalValue",
-          "tsEmitName": "GetGlobalValue",
+          "tsEmitName": "getGlobalValue",
           "normalizedSignature": "GetGlobalValue|(System.Int32):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5451,7 +5451,7 @@
         },
         {
           "clrName": "SetGlobalValue",
-          "tsEmitName": "SetGlobalValue",
+          "tsEmitName": "setGlobalValue",
           "normalizedSignature": "SetGlobalValue|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5465,7 +5465,7 @@
         },
         {
           "clrName": "GetAtomizedName",
-          "tsEmitName": "GetAtomizedName",
+          "tsEmitName": "getAtomizedName",
           "normalizedSignature": "GetAtomizedName|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5479,7 +5479,7 @@
         },
         {
           "clrName": "GetNameFilter",
-          "tsEmitName": "GetNameFilter",
+          "tsEmitName": "getNameFilter",
           "normalizedSignature": "GetNameFilter|(System.Int32):System.Xml.Xsl.Runtime.XmlNavigatorFilter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5493,7 +5493,7 @@
         },
         {
           "clrName": "GetTypeFilter",
-          "tsEmitName": "GetTypeFilter",
+          "tsEmitName": "getTypeFilter",
           "normalizedSignature": "GetTypeFilter|(System.Xml.XPath.XPathNodeType):System.Xml.Xsl.Runtime.XmlNavigatorFilter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5507,7 +5507,7 @@
         },
         {
           "clrName": "ParseTagName",
-          "tsEmitName": "ParseTagName",
+          "tsEmitName": "parseTagName",
           "normalizedSignature": "ParseTagName|(System.String,System.Int32):System.Xml.XmlQualifiedName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5521,7 +5521,7 @@
         },
         {
           "clrName": "ParseTagName",
-          "tsEmitName": "ParseTagName2",
+          "tsEmitName": "parseTagName2",
           "normalizedSignature": "ParseTagName|(System.String,System.String):System.Xml.XmlQualifiedName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5535,7 +5535,7 @@
         },
         {
           "clrName": "IsQNameEqual",
-          "tsEmitName": "IsQNameEqual",
+          "tsEmitName": "isQNameEqual",
           "normalizedSignature": "IsQNameEqual|(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5549,7 +5549,7 @@
         },
         {
           "clrName": "IsQNameEqual",
-          "tsEmitName": "IsQNameEqual2",
+          "tsEmitName": "isQNameEqual2",
           "normalizedSignature": "IsQNameEqual|(System.Xml.XPath.XPathNavigator,System.Int32,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5563,7 +5563,7 @@
         },
         {
           "clrName": "ChangeTypeXsltArgument",
-          "tsEmitName": "ChangeTypeXsltArgument",
+          "tsEmitName": "changeTypeXsltArgument",
           "normalizedSignature": "ChangeTypeXsltArgument|(System.Int32,System.Object,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5577,7 +5577,7 @@
         },
         {
           "clrName": "ChangeTypeXsltResult",
-          "tsEmitName": "ChangeTypeXsltResult",
+          "tsEmitName": "changeTypeXsltResult",
           "normalizedSignature": "ChangeTypeXsltResult|(System.Int32,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5591,7 +5591,7 @@
         },
         {
           "clrName": "MatchesXmlType",
-          "tsEmitName": "MatchesXmlType",
+          "tsEmitName": "matchesXmlType",
           "normalizedSignature": "MatchesXmlType|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5605,7 +5605,7 @@
         },
         {
           "clrName": "MatchesXmlType",
-          "tsEmitName": "MatchesXmlType2",
+          "tsEmitName": "matchesXmlType2",
           "normalizedSignature": "MatchesXmlType|(System.Xml.XPath.XPathItem,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5619,7 +5619,7 @@
         },
         {
           "clrName": "MatchesXmlType",
-          "tsEmitName": "MatchesXmlType3",
+          "tsEmitName": "matchesXmlType3",
           "normalizedSignature": "MatchesXmlType|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Schema.XmlTypeCode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5633,7 +5633,7 @@
         },
         {
           "clrName": "MatchesXmlType",
-          "tsEmitName": "MatchesXmlType4",
+          "tsEmitName": "matchesXmlType4",
           "normalizedSignature": "MatchesXmlType|(System.Xml.XPath.XPathItem,System.Xml.Schema.XmlTypeCode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5647,7 +5647,7 @@
         },
         {
           "clrName": "GetCollation",
-          "tsEmitName": "GetCollation",
+          "tsEmitName": "getCollation",
           "normalizedSignature": "GetCollation|(System.Int32):System.Xml.Xsl.Runtime.XmlCollation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5661,7 +5661,7 @@
         },
         {
           "clrName": "CreateCollation",
-          "tsEmitName": "CreateCollation",
+          "tsEmitName": "createCollation",
           "normalizedSignature": "CreateCollation|(System.String):System.Xml.Xsl.Runtime.XmlCollation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5675,7 +5675,7 @@
         },
         {
           "clrName": "ComparePosition",
-          "tsEmitName": "ComparePosition",
+          "tsEmitName": "comparePosition",
           "normalizedSignature": "ComparePosition|(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5689,7 +5689,7 @@
         },
         {
           "clrName": "DocOrderDistinct",
-          "tsEmitName": "DocOrderDistinct",
+          "tsEmitName": "docOrderDistinct",
           "normalizedSignature": "DocOrderDistinct|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5703,7 +5703,7 @@
         },
         {
           "clrName": "GenerateId",
-          "tsEmitName": "GenerateId",
+          "tsEmitName": "generateId",
           "normalizedSignature": "GenerateId|(System.Xml.XPath.XPathNavigator):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5717,7 +5717,7 @@
         },
         {
           "clrName": "FindIndex",
-          "tsEmitName": "FindIndex",
+          "tsEmitName": "findIndex",
           "normalizedSignature": "FindIndex|(System.Xml.XPath.XPathNavigator,System.Int32,System.Xml.Xsl.Runtime.XmlILIndex\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5731,7 +5731,7 @@
         },
         {
           "clrName": "AddNewIndex",
-          "tsEmitName": "AddNewIndex",
+          "tsEmitName": "addNewIndex",
           "normalizedSignature": "AddNewIndex|(System.Xml.XPath.XPathNavigator,System.Int32,System.Xml.Xsl.Runtime.XmlILIndex):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5745,7 +5745,7 @@
         },
         {
           "clrName": "StartSequenceConstruction",
-          "tsEmitName": "StartSequenceConstruction",
+          "tsEmitName": "startSequenceConstruction",
           "normalizedSignature": "StartSequenceConstruction|(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5759,7 +5759,7 @@
         },
         {
           "clrName": "EndSequenceConstruction",
-          "tsEmitName": "EndSequenceConstruction",
+          "tsEmitName": "endSequenceConstruction",
           "normalizedSignature": "EndSequenceConstruction|(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5773,7 +5773,7 @@
         },
         {
           "clrName": "StartRtfConstruction",
-          "tsEmitName": "StartRtfConstruction",
+          "tsEmitName": "startRtfConstruction",
           "normalizedSignature": "StartRtfConstruction|(System.String,System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5787,7 +5787,7 @@
         },
         {
           "clrName": "EndRtfConstruction",
-          "tsEmitName": "EndRtfConstruction",
+          "tsEmitName": "endRtfConstruction",
           "normalizedSignature": "EndRtfConstruction|(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5801,7 +5801,7 @@
         },
         {
           "clrName": "TextRtfConstruction",
-          "tsEmitName": "TextRtfConstruction",
+          "tsEmitName": "textRtfConstruction",
           "normalizedSignature": "TextRtfConstruction|(System.String,System.String):System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5815,7 +5815,7 @@
         },
         {
           "clrName": "SendMessage",
-          "tsEmitName": "SendMessage",
+          "tsEmitName": "sendMessage",
           "normalizedSignature": "SendMessage|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5829,7 +5829,7 @@
         },
         {
           "clrName": "ThrowException",
-          "tsEmitName": "ThrowException",
+          "tsEmitName": "throwException",
           "normalizedSignature": "ThrowException|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5843,7 +5843,7 @@
         },
         {
           "clrName": "OnCurrentNodeChanged",
-          "tsEmitName": "OnCurrentNodeChanged",
+          "tsEmitName": "onCurrentNodeChanged",
           "normalizedSignature": "OnCurrentNodeChanged|(System.Xml.XPath.XPathNavigator):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5859,7 +5859,7 @@
       "properties": [
         {
           "clrName": "ExternalContext",
-          "tsEmitName": "ExternalContext",
+          "tsEmitName": "externalContext",
           "normalizedSignature": "ExternalContext|:System.Xml.Xsl.Runtime.XmlQueryContext|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5873,7 +5873,7 @@
         },
         {
           "clrName": "XsltFunctions",
-          "tsEmitName": "XsltFunctions",
+          "tsEmitName": "xsltFunctions",
           "normalizedSignature": "XsltFunctions|:System.Xml.Xsl.Runtime.XsltLibrary|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5887,7 +5887,7 @@
         },
         {
           "clrName": "NameTable",
-          "tsEmitName": "NameTable",
+          "tsEmitName": "nameTable",
           "normalizedSignature": "NameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5901,7 +5901,7 @@
         },
         {
           "clrName": "Output",
-          "tsEmitName": "Output",
+          "tsEmitName": "output",
           "normalizedSignature": "Output|:System.Xml.Xsl.Runtime.XmlQueryOutput|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5930,7 +5930,7 @@
       "methods": [
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(XmlQuerySequence_1):XmlQuerySequence_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5944,7 +5944,7 @@
         },
         {
           "clrName": "CreateOrReuse",
-          "tsEmitName": "CreateOrReuse2",
+          "tsEmitName": "createOrReuse2",
           "normalizedSignature": "CreateOrReuse|(XmlQuerySequence_1,T):XmlQuerySequence_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5958,7 +5958,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5972,7 +5972,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5986,7 +5986,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6000,7 +6000,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6014,7 +6014,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6028,7 +6028,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6042,7 +6042,7 @@
         },
         {
           "clrName": "SortByKeys",
-          "tsEmitName": "SortByKeys",
+          "tsEmitName": "sortByKeys",
           "normalizedSignature": "SortByKeys|(System.Array):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6056,7 +6056,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6071,7 +6071,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6086,7 +6086,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6101,7 +6101,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6116,7 +6116,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6131,7 +6131,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6146,7 +6146,7 @@
         },
         {
           "clrName": "Insert",
-          "tsEmitName": "Insert",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6161,7 +6161,7 @@
         },
         {
           "clrName": "Remove",
-          "tsEmitName": "Remove",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6176,7 +6176,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6191,7 +6191,7 @@
         },
         {
           "clrName": "IndexOf",
-          "tsEmitName": "IndexOf$view",
+          "tsEmitName": "indexOf$view",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6206,7 +6206,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add$view",
+          "tsEmitName": "add$view",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6221,7 +6221,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6236,7 +6236,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains$view",
+          "tsEmitName": "contains$view",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6251,7 +6251,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo$view",
+          "tsEmitName": "copyTo$view",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6266,7 +6266,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator$view",
+          "tsEmitName": "getEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6281,7 +6281,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear$view",
+          "tsEmitName": "clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6296,7 +6296,7 @@
         },
         {
           "clrName": "RemoveAt",
-          "tsEmitName": "RemoveAt",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6313,7 +6313,7 @@
       "properties": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6327,7 +6327,7 @@
         },
         {
           "clrName": "Item",
-          "tsEmitName": "Item",
+          "tsEmitName": "item",
           "normalizedSignature": "Item|[System.Int32]:T|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6341,7 +6341,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6356,7 +6356,7 @@
         },
         {
           "clrName": "SyncRoot",
-          "tsEmitName": "SyncRoot",
+          "tsEmitName": "syncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6371,7 +6371,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6386,7 +6386,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6401,7 +6401,7 @@
         },
         {
           "clrName": "IsFixedSize",
-          "tsEmitName": "IsFixedSize",
+          "tsEmitName": "isFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6416,7 +6416,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count$view",
+          "tsEmitName": "count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6431,7 +6431,7 @@
         },
         {
           "clrName": "IsSynchronized",
-          "tsEmitName": "IsSynchronized",
+          "tsEmitName": "isSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -6448,7 +6448,7 @@
       "fields": [
         {
           "clrName": "Empty",
-          "tsEmitName": "Empty",
+          "tsEmitName": "empty",
           "normalizedSignature": "Empty|XmlQuerySequence\u00601|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6491,7 +6491,7 @@
       "methods": [
         {
           "clrName": "FormatMessage",
-          "tsEmitName": "FormatMessage",
+          "tsEmitName": "formatMessage",
           "normalizedSignature": "FormatMessage|(System.String,System.Collections.Generic.IList_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6505,7 +6505,7 @@
         },
         {
           "clrName": "CheckScriptNamespace",
-          "tsEmitName": "CheckScriptNamespace",
+          "tsEmitName": "checkScriptNamespace",
           "normalizedSignature": "CheckScriptNamespace|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6519,7 +6519,7 @@
         },
         {
           "clrName": "ElementAvailable",
-          "tsEmitName": "ElementAvailable",
+          "tsEmitName": "elementAvailable",
           "normalizedSignature": "ElementAvailable|(System.Xml.XmlQualifiedName):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6533,7 +6533,7 @@
         },
         {
           "clrName": "FunctionAvailable",
-          "tsEmitName": "FunctionAvailable",
+          "tsEmitName": "functionAvailable",
           "normalizedSignature": "FunctionAvailable|(System.Xml.XmlQualifiedName):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6547,7 +6547,7 @@
         },
         {
           "clrName": "RegisterDecimalFormat",
-          "tsEmitName": "RegisterDecimalFormat",
+          "tsEmitName": "registerDecimalFormat",
           "normalizedSignature": "RegisterDecimalFormat|(System.Xml.XmlQualifiedName,System.String,System.String,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6561,7 +6561,7 @@
         },
         {
           "clrName": "RegisterDecimalFormatter",
-          "tsEmitName": "RegisterDecimalFormatter",
+          "tsEmitName": "registerDecimalFormatter",
           "normalizedSignature": "RegisterDecimalFormatter|(System.String,System.String,System.String,System.String):System.Double|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6575,7 +6575,7 @@
         },
         {
           "clrName": "FormatNumberStatic",
-          "tsEmitName": "FormatNumberStatic",
+          "tsEmitName": "formatNumberStatic",
           "normalizedSignature": "FormatNumberStatic|(System.Double,System.Double):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6589,7 +6589,7 @@
         },
         {
           "clrName": "FormatNumberDynamic",
-          "tsEmitName": "FormatNumberDynamic",
+          "tsEmitName": "formatNumberDynamic",
           "normalizedSignature": "FormatNumberDynamic|(System.Double,System.String,System.Xml.XmlQualifiedName,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6603,7 +6603,7 @@
         },
         {
           "clrName": "NumberFormat",
-          "tsEmitName": "NumberFormat",
+          "tsEmitName": "numberFormat",
           "normalizedSignature": "NumberFormat|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.String,System.Double,System.String,System.String,System.Double):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6617,7 +6617,7 @@
         },
         {
           "clrName": "LangToLcid",
-          "tsEmitName": "LangToLcid",
+          "tsEmitName": "langToLcid",
           "normalizedSignature": "LangToLcid|(System.String,System.Boolean):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6631,7 +6631,7 @@
         },
         {
           "clrName": "EqualityOperator",
-          "tsEmitName": "EqualityOperator",
+          "tsEmitName": "equalityOperator",
           "normalizedSignature": "EqualityOperator|(System.Double,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6645,7 +6645,7 @@
         },
         {
           "clrName": "RelationalOperator",
-          "tsEmitName": "RelationalOperator",
+          "tsEmitName": "relationalOperator",
           "normalizedSignature": "RelationalOperator|(System.Double,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6659,7 +6659,7 @@
         },
         {
           "clrName": "IsSameNodeSort",
-          "tsEmitName": "IsSameNodeSort",
+          "tsEmitName": "isSameNodeSort",
           "normalizedSignature": "IsSameNodeSort|(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6689,7 +6689,7 @@
       "methods": [
         {
           "clrName": "StringToAtomicValue",
-          "tsEmitName": "StringToAtomicValue",
+          "tsEmitName": "stringToAtomicValue",
           "normalizedSignature": "StringToAtomicValue|(System.String,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6703,7 +6703,7 @@
         },
         {
           "clrName": "DecimalToAtomicValue",
-          "tsEmitName": "DecimalToAtomicValue",
+          "tsEmitName": "decimalToAtomicValue",
           "normalizedSignature": "DecimalToAtomicValue|(System.Decimal,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6717,7 +6717,7 @@
         },
         {
           "clrName": "Int64ToAtomicValue",
-          "tsEmitName": "Int64ToAtomicValue",
+          "tsEmitName": "int64ToAtomicValue",
           "normalizedSignature": "Int64ToAtomicValue|(System.Int64,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6731,7 +6731,7 @@
         },
         {
           "clrName": "Int32ToAtomicValue",
-          "tsEmitName": "Int32ToAtomicValue",
+          "tsEmitName": "int32ToAtomicValue",
           "normalizedSignature": "Int32ToAtomicValue|(System.Int32,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6745,7 +6745,7 @@
         },
         {
           "clrName": "BooleanToAtomicValue",
-          "tsEmitName": "BooleanToAtomicValue",
+          "tsEmitName": "booleanToAtomicValue",
           "normalizedSignature": "BooleanToAtomicValue|(System.Boolean,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6759,7 +6759,7 @@
         },
         {
           "clrName": "DoubleToAtomicValue",
-          "tsEmitName": "DoubleToAtomicValue",
+          "tsEmitName": "doubleToAtomicValue",
           "normalizedSignature": "DoubleToAtomicValue|(System.Double,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6773,7 +6773,7 @@
         },
         {
           "clrName": "SingleToAtomicValue",
-          "tsEmitName": "SingleToAtomicValue",
+          "tsEmitName": "singleToAtomicValue",
           "normalizedSignature": "SingleToAtomicValue|(System.Single,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6787,7 +6787,7 @@
         },
         {
           "clrName": "DateTimeToAtomicValue",
-          "tsEmitName": "DateTimeToAtomicValue",
+          "tsEmitName": "dateTimeToAtomicValue",
           "normalizedSignature": "DateTimeToAtomicValue|(System.DateTime,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6801,7 +6801,7 @@
         },
         {
           "clrName": "XmlQualifiedNameToAtomicValue",
-          "tsEmitName": "XmlQualifiedNameToAtomicValue",
+          "tsEmitName": "xmlQualifiedNameToAtomicValue",
           "normalizedSignature": "XmlQualifiedNameToAtomicValue|(System.Xml.XmlQualifiedName,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6815,7 +6815,7 @@
         },
         {
           "clrName": "TimeSpanToAtomicValue",
-          "tsEmitName": "TimeSpanToAtomicValue",
+          "tsEmitName": "timeSpanToAtomicValue",
           "normalizedSignature": "TimeSpanToAtomicValue|(System.TimeSpan,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6829,7 +6829,7 @@
         },
         {
           "clrName": "BytesToAtomicValue",
-          "tsEmitName": "BytesToAtomicValue",
+          "tsEmitName": "bytesToAtomicValue",
           "normalizedSignature": "BytesToAtomicValue|(System.Byte[],System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6843,7 +6843,7 @@
         },
         {
           "clrName": "NavigatorsToItems",
-          "tsEmitName": "NavigatorsToItems",
+          "tsEmitName": "navigatorsToItems",
           "normalizedSignature": "NavigatorsToItems|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6857,7 +6857,7 @@
         },
         {
           "clrName": "ItemsToNavigators",
-          "tsEmitName": "ItemsToNavigators",
+          "tsEmitName": "itemsToNavigators",
           "normalizedSignature": "ItemsToNavigators|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6887,7 +6887,7 @@
       "methods": [
         {
           "clrName": "ToBoolean",
-          "tsEmitName": "ToBoolean",
+          "tsEmitName": "toBoolean",
           "normalizedSignature": "ToBoolean|(System.Xml.XPath.XPathItem):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6901,7 +6901,7 @@
         },
         {
           "clrName": "ToBoolean",
-          "tsEmitName": "ToBoolean2",
+          "tsEmitName": "toBoolean2",
           "normalizedSignature": "ToBoolean|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6915,7 +6915,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.String):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6929,7 +6929,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble2",
+          "tsEmitName": "toDouble2",
           "normalizedSignature": "ToDouble|(System.Xml.XPath.XPathItem):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6943,7 +6943,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble3",
+          "tsEmitName": "toDouble3",
           "normalizedSignature": "ToDouble|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6957,7 +6957,7 @@
         },
         {
           "clrName": "ToNode",
-          "tsEmitName": "ToNode",
+          "tsEmitName": "toNode",
           "normalizedSignature": "ToNode|(System.Xml.XPath.XPathItem):System.Xml.XPath.XPathNavigator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6971,7 +6971,7 @@
         },
         {
           "clrName": "ToNode",
-          "tsEmitName": "ToNode2",
+          "tsEmitName": "toNode2",
           "normalizedSignature": "ToNode|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.XPath.XPathNavigator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6985,7 +6985,7 @@
         },
         {
           "clrName": "ToNodeSet",
-          "tsEmitName": "ToNodeSet",
+          "tsEmitName": "toNodeSet",
           "normalizedSignature": "ToNodeSet|(System.Xml.XPath.XPathItem):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6999,7 +6999,7 @@
         },
         {
           "clrName": "ToNodeSet",
-          "tsEmitName": "ToNodeSet2",
+          "tsEmitName": "toNodeSet2",
           "normalizedSignature": "ToNodeSet|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7013,7 +7013,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7027,7 +7027,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString2",
+          "tsEmitName": "toString2",
           "normalizedSignature": "ToString|(System.Xml.XPath.XPathItem):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7041,7 +7041,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString3",
+          "tsEmitName": "toString3",
           "normalizedSignature": "ToString|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7055,7 +7055,7 @@
         },
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString4",
+          "tsEmitName": "toString4",
           "normalizedSignature": "ToString|(System.DateTime):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7069,7 +7069,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble4",
+          "tsEmitName": "toDouble4",
           "normalizedSignature": "ToDouble|(System.Decimal):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7083,7 +7083,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble5",
+          "tsEmitName": "toDouble5",
           "normalizedSignature": "ToDouble|(System.Int32):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7097,7 +7097,7 @@
         },
         {
           "clrName": "ToDouble",
-          "tsEmitName": "ToDouble6",
+          "tsEmitName": "toDouble6",
           "normalizedSignature": "ToDouble|(System.Int64):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7111,7 +7111,7 @@
         },
         {
           "clrName": "ToDecimal",
-          "tsEmitName": "ToDecimal",
+          "tsEmitName": "toDecimal",
           "normalizedSignature": "ToDecimal|(System.Double):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7125,7 +7125,7 @@
         },
         {
           "clrName": "ToInt",
-          "tsEmitName": "ToInt",
+          "tsEmitName": "toInt",
           "normalizedSignature": "ToInt|(System.Double):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7139,7 +7139,7 @@
         },
         {
           "clrName": "ToLong",
-          "tsEmitName": "ToLong",
+          "tsEmitName": "toLong",
           "normalizedSignature": "ToLong|(System.Double):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7153,7 +7153,7 @@
         },
         {
           "clrName": "ToDateTime",
-          "tsEmitName": "ToDateTime",
+          "tsEmitName": "toDateTime",
           "normalizedSignature": "ToDateTime|(System.String):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7167,7 +7167,7 @@
         },
         {
           "clrName": "EnsureNodeSet",
-          "tsEmitName": "EnsureNodeSet",
+          "tsEmitName": "ensureNodeSet",
           "normalizedSignature": "EnsureNodeSet|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7197,7 +7197,7 @@
       "methods": [
         {
           "clrName": "StartsWith",
-          "tsEmitName": "StartsWith",
+          "tsEmitName": "startsWith",
           "normalizedSignature": "StartsWith|(System.String,System.String):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7211,7 +7211,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String,System.String):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7225,7 +7225,7 @@
         },
         {
           "clrName": "SubstringBefore",
-          "tsEmitName": "SubstringBefore",
+          "tsEmitName": "substringBefore",
           "normalizedSignature": "SubstringBefore|(System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7239,7 +7239,7 @@
         },
         {
           "clrName": "SubstringAfter",
-          "tsEmitName": "SubstringAfter",
+          "tsEmitName": "substringAfter",
           "normalizedSignature": "SubstringAfter|(System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7253,7 +7253,7 @@
         },
         {
           "clrName": "Substring",
-          "tsEmitName": "Substring",
+          "tsEmitName": "substring",
           "normalizedSignature": "Substring|(System.String,System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7267,7 +7267,7 @@
         },
         {
           "clrName": "Substring",
-          "tsEmitName": "Substring2",
+          "tsEmitName": "substring2",
           "normalizedSignature": "Substring|(System.String,System.Double,System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7281,7 +7281,7 @@
         },
         {
           "clrName": "NormalizeSpace",
-          "tsEmitName": "NormalizeSpace",
+          "tsEmitName": "normalizeSpace",
           "normalizedSignature": "NormalizeSpace|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7295,7 +7295,7 @@
         },
         {
           "clrName": "Translate",
-          "tsEmitName": "Translate",
+          "tsEmitName": "translate",
           "normalizedSignature": "Translate|(System.String,System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7309,7 +7309,7 @@
         },
         {
           "clrName": "Lang",
-          "tsEmitName": "Lang",
+          "tsEmitName": "lang",
           "normalizedSignature": "Lang|(System.String,System.Xml.XPath.XPathNavigator):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7323,7 +7323,7 @@
         },
         {
           "clrName": "Round",
-          "tsEmitName": "Round",
+          "tsEmitName": "round",
           "normalizedSignature": "Round|(System.Double):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7337,7 +7337,7 @@
         },
         {
           "clrName": "SystemProperty",
-          "tsEmitName": "SystemProperty",
+          "tsEmitName": "systemProperty",
           "normalizedSignature": "SystemProperty|(System.Xml.XmlQualifiedName):System.Xml.XPath.XPathItem|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7351,7 +7351,7 @@
         },
         {
           "clrName": "BaseUri",
-          "tsEmitName": "BaseUri",
+          "tsEmitName": "baseUri",
           "normalizedSignature": "BaseUri|(System.Xml.XPath.XPathNavigator):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7365,7 +7365,7 @@
         },
         {
           "clrName": "OuterXml",
-          "tsEmitName": "OuterXml",
+          "tsEmitName": "outerXml",
           "normalizedSignature": "OuterXml|(System.Xml.XPath.XPathNavigator):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7379,7 +7379,7 @@
         },
         {
           "clrName": "EXslObjectType",
-          "tsEmitName": "EXslObjectType",
+          "tsEmitName": "eXslObjectType",
           "normalizedSignature": "EXslObjectType|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7393,7 +7393,7 @@
         },
         {
           "clrName": "MSNumber",
-          "tsEmitName": "MSNumber",
+          "tsEmitName": "msNumber",
           "normalizedSignature": "MSNumber|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7407,7 +7407,7 @@
         },
         {
           "clrName": "MSFormatDateTime",
-          "tsEmitName": "MSFormatDateTime",
+          "tsEmitName": "msFormatDateTime",
           "normalizedSignature": "MSFormatDateTime|(System.String,System.String,System.String,System.Boolean):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7421,7 +7421,7 @@
         },
         {
           "clrName": "MSStringCompare",
-          "tsEmitName": "MSStringCompare",
+          "tsEmitName": "msStringCompare",
           "normalizedSignature": "MSStringCompare|(System.String,System.String,System.String,System.String):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7435,7 +7435,7 @@
         },
         {
           "clrName": "MSUtc",
-          "tsEmitName": "MSUtc",
+          "tsEmitName": "msUtc",
           "normalizedSignature": "MSUtc|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7449,7 +7449,7 @@
         },
         {
           "clrName": "MSLocalName",
-          "tsEmitName": "MSLocalName",
+          "tsEmitName": "msLocalName",
           "normalizedSignature": "MSLocalName|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7463,7 +7463,7 @@
         },
         {
           "clrName": "MSNamespaceUri",
-          "tsEmitName": "MSNamespaceUri",
+          "tsEmitName": "msNamespaceUri",
           "normalizedSignature": "MSNamespaceUri|(System.String,System.Xml.XPath.XPathNavigator):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "Serialize",
-          "tsEmitName": "Serialize",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -44,7 +44,7 @@
         },
         {
           "clrName": "Deserialize",
-          "tsEmitName": "Deserialize$view",
+          "tsEmitName": "deserialize$view",
           "normalizedSignature": "Deserialize|(System.IO.Stream):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -59,7 +59,7 @@
         },
         {
           "clrName": "Serialize",
-          "tsEmitName": "Serialize$view",
+          "tsEmitName": "serialize$view",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -76,7 +76,7 @@
       "properties": [
         {
           "clrName": "TypeFormat",
-          "tsEmitName": "TypeFormat",
+          "tsEmitName": "typeFormat",
           "normalizedSignature": "TypeFormat|:System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "AssemblyFormat",
-          "tsEmitName": "AssemblyFormat",
+          "tsEmitName": "assemblyFormat",
           "normalizedSignature": "AssemblyFormat|:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -104,7 +104,7 @@
         },
         {
           "clrName": "FilterLevel",
-          "tsEmitName": "FilterLevel",
+          "tsEmitName": "filterLevel",
           "normalizedSignature": "FilterLevel|:System.Runtime.Serialization.Formatters.TypeFilterLevel|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -118,7 +118,7 @@
         },
         {
           "clrName": "SurrogateSelector",
-          "tsEmitName": "SurrogateSelector",
+          "tsEmitName": "surrogateSelector",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -132,7 +132,7 @@
         },
         {
           "clrName": "Binder",
-          "tsEmitName": "Binder",
+          "tsEmitName": "binder",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         },
         {
           "clrName": "Context",
-          "tsEmitName": "Context",
+          "tsEmitName": "context",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -160,7 +160,7 @@
         },
         {
           "clrName": "SurrogateSelector",
-          "tsEmitName": "SurrogateSelector$view",
+          "tsEmitName": "surrogateSelector$view",
           "normalizedSignature": "SurrogateSelector|:System.Runtime.Serialization.ISurrogateSelector|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -175,7 +175,7 @@
         },
         {
           "clrName": "Binder",
-          "tsEmitName": "Binder$view",
+          "tsEmitName": "binder$view",
           "normalizedSignature": "Binder|:System.Runtime.Serialization.SerializationBinder|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -190,7 +190,7 @@
         },
         {
           "clrName": "Context",
-          "tsEmitName": "Context$view",
+          "tsEmitName": "context$view",
           "normalizedSignature": "Context|:System.Runtime.Serialization.StreamingContext|static=false|accessor=getset",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",

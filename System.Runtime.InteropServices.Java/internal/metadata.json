@@ -18,7 +18,7 @@
       "fields": [
         {
           "clrName": "SourceGroupIndex",
-          "tsEmitName": "SourceGroupIndex",
+          "tsEmitName": "sourceGroupIndex",
           "normalizedSignature": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -26,7 +26,7 @@
         },
         {
           "clrName": "DestinationGroupIndex",
-          "tsEmitName": "DestinationGroupIndex",
+          "tsEmitName": "destinationGroupIndex",
           "normalizedSignature": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
       "fields": [
         {
           "clrName": "ComponentCount",
-          "tsEmitName": "ComponentCount",
+          "tsEmitName": "componentCount",
           "normalizedSignature": "ComponentCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "Components",
-          "tsEmitName": "Components",
+          "tsEmitName": "components",
           "normalizedSignature": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "CrossReferenceCount",
-          "tsEmitName": "CrossReferenceCount",
+          "tsEmitName": "crossReferenceCount",
           "normalizedSignature": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "CrossReferences",
-          "tsEmitName": "CrossReferences",
+          "tsEmitName": "crossReferences",
           "normalizedSignature": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
       "fields": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "Contexts",
-          "tsEmitName": "Contexts",
+          "tsEmitName": "contexts",
           "normalizedSignature": "Contexts|System.Void**|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
       "methods": [
         {
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -142,7 +142,7 @@
         },
         {
           "clrName": "CreateReferenceTrackingHandle",
-          "tsEmitName": "CreateReferenceTrackingHandle",
+          "tsEmitName": "createReferenceTrackingHandle",
           "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -156,7 +156,7 @@
         },
         {
           "clrName": "GetContext",
-          "tsEmitName": "GetContext",
+          "tsEmitName": "getContext",
           "normalizedSignature": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "FinishCrossReferenceProcessing",
-          "tsEmitName": "FinishCrossReferenceProcessing",
+          "tsEmitName": "finishCrossReferenceProcessing",
           "normalizedSignature": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

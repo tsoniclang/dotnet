@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "Capture",
-          "tsEmitName": "Capture",
+          "tsEmitName": "capture",
           "normalizedSignature": "Capture|(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "Throw",
-          "tsEmitName": "Throw",
+          "tsEmitName": "throw_",
           "normalizedSignature": "Throw|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -44,7 +44,7 @@
         },
         {
           "clrName": "Throw",
-          "tsEmitName": "Throw",
+          "tsEmitName": "throw_",
           "normalizedSignature": "Throw|(System.Exception):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "SetCurrentStackTrace",
-          "tsEmitName": "SetCurrentStackTrace",
+          "tsEmitName": "setCurrentStackTrace",
           "normalizedSignature": "SetCurrentStackTrace|(System.Exception):System.Exception|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -72,7 +72,7 @@
         },
         {
           "clrName": "SetRemoteStackTrace",
-          "tsEmitName": "SetRemoteStackTrace",
+          "tsEmitName": "setRemoteStackTrace",
           "normalizedSignature": "SetRemoteStackTrace|(System.Exception,System.String):System.Exception|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -88,7 +88,7 @@
       "properties": [
         {
           "clrName": "SourceException",
-          "tsEmitName": "SourceException",
+          "tsEmitName": "sourceException",
           "normalizedSignature": "SourceException|:System.Exception|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -118,7 +118,7 @@
       "properties": [
         {
           "clrName": "Exception",
-          "tsEmitName": "Exception",
+          "tsEmitName": "exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -174,7 +174,7 @@
       "methods": [
         {
           "clrName": "SetUnhandledExceptionHandler",
-          "tsEmitName": "SetUnhandledExceptionHandler",
+          "tsEmitName": "setUnhandledExceptionHandler",
           "normalizedSignature": "SetUnhandledExceptionHandler|(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -188,7 +188,7 @@
         },
         {
           "clrName": "RaiseAppDomainUnhandledExceptionEvent",
-          "tsEmitName": "RaiseAppDomainUnhandledExceptionEvent",
+          "tsEmitName": "raiseAppDomainUnhandledExceptionEvent",
           "normalizedSignature": "RaiseAppDomainUnhandledExceptionEvent|(System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

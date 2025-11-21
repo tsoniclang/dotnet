@@ -26,7 +26,7 @@
         },
         {
           "clrName": "Simple",
-          "tsEmitName": "Simple",
+          "tsEmitName": "simple",
           "normalizedSignature": "Simple|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "Full",
-          "tsEmitName": "Full",
+          "tsEmitName": "full",
           "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "TypesWhenNeeded",
-          "tsEmitName": "TypesWhenNeeded",
+          "tsEmitName": "typesWhenNeeded",
           "normalizedSignature": "TypesWhenNeeded|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "TypesAlways",
-          "tsEmitName": "TypesAlways",
+          "tsEmitName": "typesAlways",
           "normalizedSignature": "TypesAlways|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "clrName": "XsdString",
-          "tsEmitName": "XsdString",
+          "tsEmitName": "xsdString",
           "normalizedSignature": "XsdString|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "Low",
-          "tsEmitName": "Low",
+          "tsEmitName": "low",
           "normalizedSignature": "Low|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "clrName": "Full",
-          "tsEmitName": "Full",
+          "tsEmitName": "full",
           "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
       "properties": [
         {
           "clrName": "FieldNames",
-          "tsEmitName": "FieldNames",
+          "tsEmitName": "fieldNames",
           "normalizedSignature": "FieldNames|:System.String[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -159,7 +159,7 @@
         },
         {
           "clrName": "FieldTypes",
-          "tsEmitName": "FieldTypes",
+          "tsEmitName": "fieldTypes",
           "normalizedSignature": "FieldTypes|:System.Type[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

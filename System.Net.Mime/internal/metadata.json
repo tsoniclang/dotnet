@@ -26,7 +26,7 @@
         },
         {
           "clrName": "Unknown",
-          "tsEmitName": "Unknown",
+          "tsEmitName": "unknown_",
           "normalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "QuotedPrintable",
-          "tsEmitName": "QuotedPrintable",
+          "tsEmitName": "quotedPrintable",
           "normalizedSignature": "QuotedPrintable|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "Base64",
-          "tsEmitName": "Base64",
+          "tsEmitName": "base64",
           "normalizedSignature": "Base64|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "clrName": "SevenBit",
-          "tsEmitName": "SevenBit",
+          "tsEmitName": "sevenBit",
           "normalizedSignature": "SevenBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "EightBit",
-          "tsEmitName": "EightBit",
+          "tsEmitName": "eightBit",
           "normalizedSignature": "EightBit|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -80,7 +80,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -94,7 +94,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -108,7 +108,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -124,7 +124,7 @@
       "properties": [
         {
           "clrName": "DispositionType",
-          "tsEmitName": "DispositionType",
+          "tsEmitName": "dispositionType",
           "normalizedSignature": "DispositionType|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -138,7 +138,7 @@
         },
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -152,7 +152,7 @@
         },
         {
           "clrName": "FileName",
-          "tsEmitName": "FileName",
+          "tsEmitName": "fileName",
           "normalizedSignature": "FileName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -166,7 +166,7 @@
         },
         {
           "clrName": "CreationDate",
-          "tsEmitName": "CreationDate",
+          "tsEmitName": "creationDate",
           "normalizedSignature": "CreationDate|:System.DateTime|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -180,7 +180,7 @@
         },
         {
           "clrName": "ModificationDate",
-          "tsEmitName": "ModificationDate",
+          "tsEmitName": "modificationDate",
           "normalizedSignature": "ModificationDate|:System.DateTime|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "Inline",
-          "tsEmitName": "Inline",
+          "tsEmitName": "inline",
           "normalizedSignature": "Inline|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -208,7 +208,7 @@
         },
         {
           "clrName": "ReadDate",
-          "tsEmitName": "ReadDate",
+          "tsEmitName": "readDate",
           "normalizedSignature": "ReadDate|:System.DateTime|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -222,7 +222,7 @@
         },
         {
           "clrName": "Size",
-          "tsEmitName": "Size",
+          "tsEmitName": "size",
           "normalizedSignature": "Size|:System.Int64|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -262,7 +262,7 @@
       "methods": [
         {
           "clrName": "ToString",
-          "tsEmitName": "ToString",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -276,7 +276,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -290,7 +290,7 @@
         },
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -306,7 +306,7 @@
       "properties": [
         {
           "clrName": "Boundary",
-          "tsEmitName": "Boundary",
+          "tsEmitName": "boundary",
           "normalizedSignature": "Boundary|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -320,7 +320,7 @@
         },
         {
           "clrName": "CharSet",
-          "tsEmitName": "CharSet",
+          "tsEmitName": "charSet",
           "normalizedSignature": "CharSet|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -334,7 +334,7 @@
         },
         {
           "clrName": "MediaType",
-          "tsEmitName": "MediaType",
+          "tsEmitName": "mediaType",
           "normalizedSignature": "MediaType|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -348,7 +348,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -362,7 +362,7 @@
         },
         {
           "clrName": "Parameters",
-          "tsEmitName": "Parameters",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|:System.Collections.Specialized.StringDictionary|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -404,7 +404,7 @@
       "fields": [
         {
           "clrName": "Inline",
-          "tsEmitName": "Inline",
+          "tsEmitName": "inline",
           "normalizedSignature": "Inline|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -412,7 +412,7 @@
         },
         {
           "clrName": "Attachment",
-          "tsEmitName": "Attachment",
+          "tsEmitName": "attachment",
           "normalizedSignature": "Attachment|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -451,7 +451,7 @@
       "fields": [
         {
           "clrName": "FormUrlEncoded",
-          "tsEmitName": "FormUrlEncoded",
+          "tsEmitName": "formUrlEncoded",
           "normalizedSignature": "FormUrlEncoded|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -459,7 +459,7 @@
         },
         {
           "clrName": "GZip",
-          "tsEmitName": "GZip",
+          "tsEmitName": "gZip",
           "normalizedSignature": "GZip|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -467,7 +467,7 @@
         },
         {
           "clrName": "Json",
-          "tsEmitName": "Json",
+          "tsEmitName": "json",
           "normalizedSignature": "Json|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -475,7 +475,7 @@
         },
         {
           "clrName": "JsonPatch",
-          "tsEmitName": "JsonPatch",
+          "tsEmitName": "jsonPatch",
           "normalizedSignature": "JsonPatch|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -483,7 +483,7 @@
         },
         {
           "clrName": "JsonSequence",
-          "tsEmitName": "JsonSequence",
+          "tsEmitName": "jsonSequence",
           "normalizedSignature": "JsonSequence|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -491,7 +491,7 @@
         },
         {
           "clrName": "Manifest",
-          "tsEmitName": "Manifest",
+          "tsEmitName": "manifest",
           "normalizedSignature": "Manifest|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -499,7 +499,7 @@
         },
         {
           "clrName": "Octet",
-          "tsEmitName": "Octet",
+          "tsEmitName": "octet",
           "normalizedSignature": "Octet|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -507,7 +507,7 @@
         },
         {
           "clrName": "Pdf",
-          "tsEmitName": "Pdf",
+          "tsEmitName": "pdf",
           "normalizedSignature": "Pdf|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -515,7 +515,7 @@
         },
         {
           "clrName": "ProblemJson",
-          "tsEmitName": "ProblemJson",
+          "tsEmitName": "problemJson",
           "normalizedSignature": "ProblemJson|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -523,7 +523,7 @@
         },
         {
           "clrName": "ProblemXml",
-          "tsEmitName": "ProblemXml",
+          "tsEmitName": "problemXml",
           "normalizedSignature": "ProblemXml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -531,7 +531,7 @@
         },
         {
           "clrName": "Rtf",
-          "tsEmitName": "Rtf",
+          "tsEmitName": "rtf",
           "normalizedSignature": "Rtf|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -539,7 +539,7 @@
         },
         {
           "clrName": "Soap",
-          "tsEmitName": "Soap",
+          "tsEmitName": "soap",
           "normalizedSignature": "Soap|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -547,7 +547,7 @@
         },
         {
           "clrName": "Wasm",
-          "tsEmitName": "Wasm",
+          "tsEmitName": "wasm",
           "normalizedSignature": "Wasm|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -555,7 +555,7 @@
         },
         {
           "clrName": "Xml",
-          "tsEmitName": "Xml",
+          "tsEmitName": "xml",
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -563,7 +563,7 @@
         },
         {
           "clrName": "XmlDtd",
-          "tsEmitName": "XmlDtd",
+          "tsEmitName": "xmlDtd",
           "normalizedSignature": "XmlDtd|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -571,7 +571,7 @@
         },
         {
           "clrName": "XmlPatch",
-          "tsEmitName": "XmlPatch",
+          "tsEmitName": "xmlPatch",
           "normalizedSignature": "XmlPatch|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -579,7 +579,7 @@
         },
         {
           "clrName": "Yaml",
-          "tsEmitName": "Yaml",
+          "tsEmitName": "yaml",
           "normalizedSignature": "Yaml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -587,7 +587,7 @@
         },
         {
           "clrName": "Zip",
-          "tsEmitName": "Zip",
+          "tsEmitName": "zip",
           "normalizedSignature": "Zip|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -611,7 +611,7 @@
       "fields": [
         {
           "clrName": "Collection",
-          "tsEmitName": "Collection",
+          "tsEmitName": "collection",
           "normalizedSignature": "Collection|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -619,7 +619,7 @@
         },
         {
           "clrName": "Otf",
-          "tsEmitName": "Otf",
+          "tsEmitName": "otf",
           "normalizedSignature": "Otf|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -627,7 +627,7 @@
         },
         {
           "clrName": "Sfnt",
-          "tsEmitName": "Sfnt",
+          "tsEmitName": "sfnt",
           "normalizedSignature": "Sfnt|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -635,7 +635,7 @@
         },
         {
           "clrName": "Ttf",
-          "tsEmitName": "Ttf",
+          "tsEmitName": "ttf",
           "normalizedSignature": "Ttf|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -643,7 +643,7 @@
         },
         {
           "clrName": "Woff",
-          "tsEmitName": "Woff",
+          "tsEmitName": "woff",
           "normalizedSignature": "Woff|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -651,7 +651,7 @@
         },
         {
           "clrName": "Woff2",
-          "tsEmitName": "Woff2",
+          "tsEmitName": "woff2",
           "normalizedSignature": "Woff2|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -675,7 +675,7 @@
       "fields": [
         {
           "clrName": "Avif",
-          "tsEmitName": "Avif",
+          "tsEmitName": "avif",
           "normalizedSignature": "Avif|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -683,7 +683,7 @@
         },
         {
           "clrName": "Bmp",
-          "tsEmitName": "Bmp",
+          "tsEmitName": "bmp",
           "normalizedSignature": "Bmp|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -691,7 +691,7 @@
         },
         {
           "clrName": "Gif",
-          "tsEmitName": "Gif",
+          "tsEmitName": "gif",
           "normalizedSignature": "Gif|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -699,7 +699,7 @@
         },
         {
           "clrName": "Icon",
-          "tsEmitName": "Icon",
+          "tsEmitName": "icon",
           "normalizedSignature": "Icon|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -707,7 +707,7 @@
         },
         {
           "clrName": "Jpeg",
-          "tsEmitName": "Jpeg",
+          "tsEmitName": "jpeg",
           "normalizedSignature": "Jpeg|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -715,7 +715,7 @@
         },
         {
           "clrName": "Png",
-          "tsEmitName": "Png",
+          "tsEmitName": "png",
           "normalizedSignature": "Png|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -723,7 +723,7 @@
         },
         {
           "clrName": "Svg",
-          "tsEmitName": "Svg",
+          "tsEmitName": "svg",
           "normalizedSignature": "Svg|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -731,7 +731,7 @@
         },
         {
           "clrName": "Tiff",
-          "tsEmitName": "Tiff",
+          "tsEmitName": "tiff",
           "normalizedSignature": "Tiff|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -739,7 +739,7 @@
         },
         {
           "clrName": "Webp",
-          "tsEmitName": "Webp",
+          "tsEmitName": "webp",
           "normalizedSignature": "Webp|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -763,7 +763,7 @@
       "fields": [
         {
           "clrName": "ByteRanges",
-          "tsEmitName": "ByteRanges",
+          "tsEmitName": "byteRanges",
           "normalizedSignature": "ByteRanges|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -771,7 +771,7 @@
         },
         {
           "clrName": "FormData",
-          "tsEmitName": "FormData",
+          "tsEmitName": "formData",
           "normalizedSignature": "FormData|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -779,7 +779,7 @@
         },
         {
           "clrName": "Mixed",
-          "tsEmitName": "Mixed",
+          "tsEmitName": "mixed",
           "normalizedSignature": "Mixed|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -787,7 +787,7 @@
         },
         {
           "clrName": "Related",
-          "tsEmitName": "Related",
+          "tsEmitName": "related",
           "normalizedSignature": "Related|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -811,7 +811,7 @@
       "fields": [
         {
           "clrName": "Css",
-          "tsEmitName": "Css",
+          "tsEmitName": "css",
           "normalizedSignature": "Css|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -819,7 +819,7 @@
         },
         {
           "clrName": "Csv",
-          "tsEmitName": "Csv",
+          "tsEmitName": "csv",
           "normalizedSignature": "Csv|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -827,7 +827,7 @@
         },
         {
           "clrName": "EventStream",
-          "tsEmitName": "EventStream",
+          "tsEmitName": "eventStream",
           "normalizedSignature": "EventStream|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -835,7 +835,7 @@
         },
         {
           "clrName": "Html",
-          "tsEmitName": "Html",
+          "tsEmitName": "html",
           "normalizedSignature": "Html|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -843,7 +843,7 @@
         },
         {
           "clrName": "JavaScript",
-          "tsEmitName": "JavaScript",
+          "tsEmitName": "javaScript",
           "normalizedSignature": "JavaScript|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -851,7 +851,7 @@
         },
         {
           "clrName": "Markdown",
-          "tsEmitName": "Markdown",
+          "tsEmitName": "markdown",
           "normalizedSignature": "Markdown|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -859,7 +859,7 @@
         },
         {
           "clrName": "Plain",
-          "tsEmitName": "Plain",
+          "tsEmitName": "plain",
           "normalizedSignature": "Plain|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -867,7 +867,7 @@
         },
         {
           "clrName": "RichText",
-          "tsEmitName": "RichText",
+          "tsEmitName": "richText",
           "normalizedSignature": "RichText|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -875,7 +875,7 @@
         },
         {
           "clrName": "Rtf",
-          "tsEmitName": "Rtf",
+          "tsEmitName": "rtf",
           "normalizedSignature": "Rtf|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -883,7 +883,7 @@
         },
         {
           "clrName": "Xml",
-          "tsEmitName": "Xml",
+          "tsEmitName": "xml",
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

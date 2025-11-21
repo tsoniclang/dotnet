@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "AddCustomTag",
-          "tsEmitName": "AddCustomTag",
+          "tsEmitName": "addCustomTag",
           "normalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,7 +30,7 @@
         },
         {
           "clrName": "AddCallback",
-          "tsEmitName": "AddCallback",
+          "tsEmitName": "addCallback",
           "normalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -46,7 +46,7 @@
       "properties": [
         {
           "clrName": "Request",
-          "tsEmitName": "Request",
+          "tsEmitName": "request",
           "normalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -60,7 +60,7 @@
         },
         {
           "clrName": "Response",
-          "tsEmitName": "Response",
+          "tsEmitName": "response",
           "normalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "Exception",
-          "tsEmitName": "Exception",
+          "tsEmitName": "exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

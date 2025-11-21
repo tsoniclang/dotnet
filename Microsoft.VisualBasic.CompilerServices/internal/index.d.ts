@@ -176,7 +176,7 @@ export type DoubleType = DoubleType$instance;
 
 export class IncompleteInitialization$instance extends System_Internal.Exception$instance {
     constructor();
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

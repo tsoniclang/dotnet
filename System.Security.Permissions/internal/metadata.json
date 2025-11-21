@@ -26,7 +26,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "Unrestricted",
-          "tsEmitName": "Unrestricted",
+          "tsEmitName": "unrestricted",
           "normalizedSignature": "Unrestricted|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "Assert",
-          "tsEmitName": "Assert",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "Demand",
-          "tsEmitName": "Demand",
+          "tsEmitName": "demand",
           "normalizedSignature": "Demand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "clrName": "Deny",
-          "tsEmitName": "Deny",
+          "tsEmitName": "deny",
           "normalizedSignature": "Deny|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "InheritanceDemand",
-          "tsEmitName": "InheritanceDemand",
+          "tsEmitName": "inheritanceDemand",
           "normalizedSignature": "InheritanceDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "LinkDemand",
-          "tsEmitName": "LinkDemand",
+          "tsEmitName": "linkDemand",
           "normalizedSignature": "LinkDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "PermitOnly",
-          "tsEmitName": "PermitOnly",
+          "tsEmitName": "permitOnly",
           "normalizedSignature": "PermitOnly|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "RequestMinimum",
-          "tsEmitName": "RequestMinimum",
+          "tsEmitName": "requestMinimum",
           "normalizedSignature": "RequestMinimum|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "clrName": "RequestOptional",
-          "tsEmitName": "RequestOptional",
+          "tsEmitName": "requestOptional",
           "normalizedSignature": "RequestOptional|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "clrName": "RequestRefuse",
-          "tsEmitName": "RequestRefuse",
+          "tsEmitName": "requestRefuse",
           "normalizedSignature": "RequestRefuse|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "clrName": "AllFlags",
-          "tsEmitName": "AllFlags",
+          "tsEmitName": "allFlags",
           "normalizedSignature": "AllFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "Assertion",
-          "tsEmitName": "Assertion",
+          "tsEmitName": "assertion",
           "normalizedSignature": "Assertion|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "clrName": "BindingRedirects",
-          "tsEmitName": "BindingRedirects",
+          "tsEmitName": "bindingRedirects",
           "normalizedSignature": "BindingRedirects|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "ControlAppDomain",
-          "tsEmitName": "ControlAppDomain",
+          "tsEmitName": "controlAppDomain",
           "normalizedSignature": "ControlAppDomain|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "ControlDomainPolicy",
-          "tsEmitName": "ControlDomainPolicy",
+          "tsEmitName": "controlDomainPolicy",
           "normalizedSignature": "ControlDomainPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "clrName": "ControlEvidence",
-          "tsEmitName": "ControlEvidence",
+          "tsEmitName": "controlEvidence",
           "normalizedSignature": "ControlEvidence|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "clrName": "ControlPolicy",
-          "tsEmitName": "ControlPolicy",
+          "tsEmitName": "controlPolicy",
           "normalizedSignature": "ControlPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "clrName": "ControlPrincipal",
-          "tsEmitName": "ControlPrincipal",
+          "tsEmitName": "controlPrincipal",
           "normalizedSignature": "ControlPrincipal|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "clrName": "ControlThread",
-          "tsEmitName": "ControlThread",
+          "tsEmitName": "controlThread",
           "normalizedSignature": "ControlThread|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "clrName": "Execution",
-          "tsEmitName": "Execution",
+          "tsEmitName": "execution",
           "normalizedSignature": "Execution|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "clrName": "Infrastructure",
-          "tsEmitName": "Infrastructure",
+          "tsEmitName": "infrastructure",
           "normalizedSignature": "Infrastructure|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "clrName": "NoFlags",
-          "tsEmitName": "NoFlags",
+          "tsEmitName": "noFlags",
           "normalizedSignature": "NoFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -258,7 +258,7 @@
         },
         {
           "clrName": "RemotingConfiguration",
-          "tsEmitName": "RemotingConfiguration",
+          "tsEmitName": "remotingConfiguration",
           "normalizedSignature": "RemotingConfiguration|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -266,7 +266,7 @@
         },
         {
           "clrName": "SerializationFormatter",
-          "tsEmitName": "SerializationFormatter",
+          "tsEmitName": "serializationFormatter",
           "normalizedSignature": "SerializationFormatter|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -274,7 +274,7 @@
         },
         {
           "clrName": "SkipVerification",
-          "tsEmitName": "SkipVerification",
+          "tsEmitName": "skipVerification",
           "normalizedSignature": "SkipVerification|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -282,7 +282,7 @@
         },
         {
           "clrName": "UnmanagedCode",
-          "tsEmitName": "UnmanagedCode",
+          "tsEmitName": "unmanagedCode",
           "normalizedSignature": "UnmanagedCode|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -319,7 +319,7 @@
       "methods": [
         {
           "clrName": "CreatePermission",
-          "tsEmitName": "CreatePermission",
+          "tsEmitName": "createPermission",
           "normalizedSignature": "CreatePermission|():System.Security.IPermission|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -335,7 +335,7 @@
       "properties": [
         {
           "clrName": "Action",
-          "tsEmitName": "Action",
+          "tsEmitName": "action",
           "normalizedSignature": "Action|:System.Security.Permissions.SecurityAction|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -349,7 +349,7 @@
         },
         {
           "clrName": "Unrestricted",
-          "tsEmitName": "Unrestricted",
+          "tsEmitName": "unrestricted",
           "normalizedSignature": "Unrestricted|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -378,7 +378,7 @@
       "methods": [
         {
           "clrName": "CreatePermission",
-          "tsEmitName": "CreatePermission",
+          "tsEmitName": "createPermission",
           "normalizedSignature": "CreatePermission|():System.Security.IPermission|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -394,7 +394,7 @@
       "properties": [
         {
           "clrName": "Assertion",
-          "tsEmitName": "Assertion",
+          "tsEmitName": "assertion",
           "normalizedSignature": "Assertion|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -408,7 +408,7 @@
         },
         {
           "clrName": "BindingRedirects",
-          "tsEmitName": "BindingRedirects",
+          "tsEmitName": "bindingRedirects",
           "normalizedSignature": "BindingRedirects|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -422,7 +422,7 @@
         },
         {
           "clrName": "ControlAppDomain",
-          "tsEmitName": "ControlAppDomain",
+          "tsEmitName": "controlAppDomain",
           "normalizedSignature": "ControlAppDomain|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -436,7 +436,7 @@
         },
         {
           "clrName": "ControlDomainPolicy",
-          "tsEmitName": "ControlDomainPolicy",
+          "tsEmitName": "controlDomainPolicy",
           "normalizedSignature": "ControlDomainPolicy|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -450,7 +450,7 @@
         },
         {
           "clrName": "ControlEvidence",
-          "tsEmitName": "ControlEvidence",
+          "tsEmitName": "controlEvidence",
           "normalizedSignature": "ControlEvidence|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -464,7 +464,7 @@
         },
         {
           "clrName": "ControlPolicy",
-          "tsEmitName": "ControlPolicy",
+          "tsEmitName": "controlPolicy",
           "normalizedSignature": "ControlPolicy|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -478,7 +478,7 @@
         },
         {
           "clrName": "ControlPrincipal",
-          "tsEmitName": "ControlPrincipal",
+          "tsEmitName": "controlPrincipal",
           "normalizedSignature": "ControlPrincipal|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -492,7 +492,7 @@
         },
         {
           "clrName": "ControlThread",
-          "tsEmitName": "ControlThread",
+          "tsEmitName": "controlThread",
           "normalizedSignature": "ControlThread|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -506,7 +506,7 @@
         },
         {
           "clrName": "Execution",
-          "tsEmitName": "Execution",
+          "tsEmitName": "execution",
           "normalizedSignature": "Execution|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -520,7 +520,7 @@
         },
         {
           "clrName": "Flags",
-          "tsEmitName": "Flags",
+          "tsEmitName": "flags",
           "normalizedSignature": "Flags|:System.Security.Permissions.SecurityPermissionFlag|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -534,7 +534,7 @@
         },
         {
           "clrName": "Infrastructure",
-          "tsEmitName": "Infrastructure",
+          "tsEmitName": "infrastructure",
           "normalizedSignature": "Infrastructure|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -548,7 +548,7 @@
         },
         {
           "clrName": "RemotingConfiguration",
-          "tsEmitName": "RemotingConfiguration",
+          "tsEmitName": "remotingConfiguration",
           "normalizedSignature": "RemotingConfiguration|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -562,7 +562,7 @@
         },
         {
           "clrName": "SerializationFormatter",
-          "tsEmitName": "SerializationFormatter",
+          "tsEmitName": "serializationFormatter",
           "normalizedSignature": "SerializationFormatter|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -576,7 +576,7 @@
         },
         {
           "clrName": "SkipVerification",
-          "tsEmitName": "SkipVerification",
+          "tsEmitName": "skipVerification",
           "normalizedSignature": "SkipVerification|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -590,7 +590,7 @@
         },
         {
           "clrName": "UnmanagedCode",
-          "tsEmitName": "UnmanagedCode",
+          "tsEmitName": "unmanagedCode",
           "normalizedSignature": "UnmanagedCode|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

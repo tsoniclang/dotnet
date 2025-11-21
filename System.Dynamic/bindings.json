@@ -9,7 +9,7 @@
       "methods": [
         {
           "clrName": "GetMetaObject",
-          "tsEmitName": "GetMetaObject",
+          "tsEmitName": "getMetaObject",
           "metadataToken": 100667572,
           "canonicalSignature": "(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
@@ -26,7 +26,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "GetMetaObject",
+          "tsName": "getMetaObject",
           "isStatic": false,
           "tsSignatureId": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -46,7 +46,7 @@
       "properties": [
         {
           "clrName": "InvokeOnGet",
-          "tsEmitName": "InvokeOnGet",
+          "tsEmitName": "invokeOnGet",
           "metadataToken": 385877128,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "InvokeOnGet|:System.Boolean|static=false|accessor=get",
@@ -63,7 +63,7 @@
       "constructors": [],
       "exposedProperties": [
         {
-          "tsName": "InvokeOnGet",
+          "tsName": "invokeOnGet",
           "isStatic": false,
           "tsSignatureId": "InvokeOnGet|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -82,7 +82,7 @@
       "methods": [
         {
           "clrName": "FallbackBinaryOperation",
-          "tsEmitName": "FallbackBinaryOperation",
+          "tsEmitName": "fallbackBinaryOperation",
           "metadataToken": 100667610,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -94,7 +94,7 @@
         },
         {
           "clrName": "FallbackBinaryOperation",
-          "tsEmitName": "FallbackBinaryOperation2",
+          "tsEmitName": "fallbackBinaryOperation2",
           "metadataToken": 100667611,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667612,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -118,7 +118,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -132,7 +132,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877058,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -145,7 +145,7 @@
         },
         {
           "clrName": "Operation",
-          "tsEmitName": "Operation",
+          "tsEmitName": "operation",
           "metadataToken": 385877059,
           "canonicalSignature": ":System.Linq.Expressions.ExpressionType",
           "normalizedSignature": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
@@ -162,7 +162,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackBinaryOperation",
+          "tsName": "fallbackBinaryOperation",
           "isStatic": false,
           "tsSignatureId": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -172,7 +172,7 @@
           }
         },
         {
-          "tsName": "FallbackBinaryOperation2",
+          "tsName": "fallbackBinaryOperation2",
           "isStatic": false,
           "tsSignatureId": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -182,7 +182,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -192,7 +192,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -202,7 +202,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -212,7 +212,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -222,7 +222,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -232,7 +232,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -242,7 +242,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -252,7 +252,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -262,7 +262,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -272,7 +272,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -282,7 +282,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -292,7 +292,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -302,7 +302,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -314,7 +314,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -324,7 +324,7 @@
           }
         },
         {
-          "tsName": "Operation",
+          "tsName": "operation",
           "isStatic": false,
           "tsSignatureId": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
           "target": {
@@ -334,7 +334,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -353,7 +353,7 @@
       "methods": [
         {
           "clrName": "Merge",
-          "tsEmitName": "Merge",
+          "tsEmitName": "merge",
           "metadataToken": 100667575,
           "canonicalSignature": "(System.Dynamic.BindingRestrictions):System.Dynamic.BindingRestrictions",
           "normalizedSignature": "Merge|(System.Dynamic.BindingRestrictions):System.Dynamic.BindingRestrictions|static=false",
@@ -365,7 +365,7 @@
         },
         {
           "clrName": "GetTypeRestriction",
-          "tsEmitName": "GetTypeRestriction",
+          "tsEmitName": "getTypeRestriction",
           "metadataToken": 100667576,
           "canonicalSignature": "(System.Linq.Expressions.Expression,System.Type):System.Dynamic.BindingRestrictions",
           "normalizedSignature": "GetTypeRestriction|(System.Linq.Expressions.Expression,System.Type):System.Dynamic.BindingRestrictions|static=true",
@@ -377,7 +377,7 @@
         },
         {
           "clrName": "GetInstanceRestriction",
-          "tsEmitName": "GetInstanceRestriction",
+          "tsEmitName": "getInstanceRestriction",
           "metadataToken": 100667578,
           "canonicalSignature": "(System.Linq.Expressions.Expression,System.Object):System.Dynamic.BindingRestrictions",
           "normalizedSignature": "GetInstanceRestriction|(System.Linq.Expressions.Expression,System.Object):System.Dynamic.BindingRestrictions|static=true",
@@ -389,7 +389,7 @@
         },
         {
           "clrName": "GetExpressionRestriction",
-          "tsEmitName": "GetExpressionRestriction",
+          "tsEmitName": "getExpressionRestriction",
           "metadataToken": 100667579,
           "canonicalSignature": "(System.Linq.Expressions.Expression):System.Dynamic.BindingRestrictions",
           "normalizedSignature": "GetExpressionRestriction|(System.Linq.Expressions.Expression):System.Dynamic.BindingRestrictions|static=true",
@@ -401,7 +401,7 @@
         },
         {
           "clrName": "Combine",
-          "tsEmitName": "Combine",
+          "tsEmitName": "combine",
           "metadataToken": 100667580,
           "canonicalSignature": "(System.Collections.Generic.IList_1[[System.Dynamic.DynamicMetaObject,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Dynamic.BindingRestrictions",
           "normalizedSignature": "Combine|(System.Collections.Generic.IList_1[[System.Dynamic.DynamicMetaObject,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Dynamic.BindingRestrictions|static=true",
@@ -413,7 +413,7 @@
         },
         {
           "clrName": "ToExpression",
-          "tsEmitName": "ToExpression",
+          "tsEmitName": "toExpression",
           "metadataToken": 100667581,
           "canonicalSignature": "():System.Linq.Expressions.Expression",
           "normalizedSignature": "ToExpression|():System.Linq.Expressions.Expression|static=false",
@@ -428,7 +428,7 @@
       "fields": [
         {
           "clrName": "Empty",
-          "tsEmitName": "Empty",
+          "tsEmitName": "empty",
           "metadataToken": 67110086,
           "normalizedSignature": "Empty|System.Dynamic.BindingRestrictions|static=true|const=false",
           "isStatic": true,
@@ -441,7 +441,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Merge",
+          "tsName": "merge",
           "isStatic": false,
           "tsSignatureId": "Merge|(System.Dynamic.BindingRestrictions):System.Dynamic.BindingRestrictions|static=false",
           "target": {
@@ -451,7 +451,7 @@
           }
         },
         {
-          "tsName": "GetTypeRestriction",
+          "tsName": "getTypeRestriction",
           "isStatic": true,
           "tsSignatureId": "GetTypeRestriction|(System.Linq.Expressions.Expression,System.Type):System.Dynamic.BindingRestrictions|static=true",
           "target": {
@@ -461,7 +461,7 @@
           }
         },
         {
-          "tsName": "GetInstanceRestriction",
+          "tsName": "getInstanceRestriction",
           "isStatic": true,
           "tsSignatureId": "GetInstanceRestriction|(System.Linq.Expressions.Expression,System.Object):System.Dynamic.BindingRestrictions|static=true",
           "target": {
@@ -471,7 +471,7 @@
           }
         },
         {
-          "tsName": "GetExpressionRestriction",
+          "tsName": "getExpressionRestriction",
           "isStatic": true,
           "tsSignatureId": "GetExpressionRestriction|(System.Linq.Expressions.Expression):System.Dynamic.BindingRestrictions|static=true",
           "target": {
@@ -481,7 +481,7 @@
           }
         },
         {
-          "tsName": "Combine",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Collections.Generic.IList_1[[System.Dynamic.DynamicMetaObject,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Dynamic.BindingRestrictions|static=true",
           "target": {
@@ -491,7 +491,7 @@
           }
         },
         {
-          "tsName": "ToExpression",
+          "tsName": "toExpression",
           "isStatic": false,
           "tsSignatureId": "ToExpression|():System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -501,7 +501,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -511,7 +511,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -521,7 +521,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -531,7 +531,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -541,7 +541,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -551,7 +551,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -563,7 +563,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "Empty",
+          "tsName": "empty",
           "isStatic": true,
           "tsSignatureId": "Empty|System.Dynamic.BindingRestrictions|static=true|const=false",
           "target": {
@@ -582,7 +582,7 @@
       "methods": [
         {
           "clrName": "GetHashCode",
-          "tsEmitName": "GetHashCode",
+          "tsEmitName": "getHashCode",
           "metadataToken": 100667619,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -594,7 +594,7 @@
         },
         {
           "clrName": "Equals",
-          "tsEmitName": "Equals",
+          "tsEmitName": "equals",
           "metadataToken": 100667620,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -608,7 +608,7 @@
       "properties": [
         {
           "clrName": "ArgumentCount",
-          "tsEmitName": "ArgumentCount",
+          "tsEmitName": "argumentCount",
           "metadataToken": 385877061,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ArgumentCount|:System.Int32|static=false|accessor=get",
@@ -621,7 +621,7 @@
         },
         {
           "clrName": "ArgumentNames",
-          "tsEmitName": "ArgumentNames",
+          "tsEmitName": "argumentNames",
           "metadataToken": 385877062,
           "canonicalSignature": ":System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ArgumentNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -657,7 +657,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -667,7 +667,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -677,7 +677,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -687,7 +687,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -697,7 +697,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -707,7 +707,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -719,7 +719,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ArgumentCount",
+          "tsName": "argumentCount",
           "isStatic": false,
           "tsSignatureId": "ArgumentCount|:System.Int32|static=false|accessor=get",
           "target": {
@@ -729,7 +729,7 @@
           }
         },
         {
-          "tsName": "ArgumentNames",
+          "tsName": "argumentNames",
           "isStatic": false,
           "tsSignatureId": "ArgumentNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "target": {
@@ -768,7 +768,7 @@
       "methods": [
         {
           "clrName": "FallbackConvert",
-          "tsEmitName": "FallbackConvert",
+          "tsEmitName": "fallbackConvert",
           "metadataToken": 100667741,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -780,7 +780,7 @@
         },
         {
           "clrName": "FallbackConvert",
-          "tsEmitName": "FallbackConvert2",
+          "tsEmitName": "fallbackConvert2",
           "metadataToken": 100667742,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -792,7 +792,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667743,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -804,7 +804,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -818,7 +818,7 @@
       "properties": [
         {
           "clrName": "Type",
-          "tsEmitName": "Type",
+          "tsEmitName": "type_",
           "metadataToken": 385877088,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -831,7 +831,7 @@
         },
         {
           "clrName": "Explicit",
-          "tsEmitName": "Explicit",
+          "tsEmitName": "explicit",
           "metadataToken": 385877089,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Explicit|:System.Boolean|static=false|accessor=get",
@@ -844,7 +844,7 @@
         },
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877091,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -861,7 +861,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackConvert",
+          "tsName": "fallbackConvert",
           "isStatic": false,
           "tsSignatureId": "FallbackConvert|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -871,7 +871,7 @@
           }
         },
         {
-          "tsName": "FallbackConvert2",
+          "tsName": "fallbackConvert2",
           "isStatic": false,
           "tsSignatureId": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -881,7 +881,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -891,7 +891,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -901,7 +901,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -911,7 +911,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -921,7 +921,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -931,7 +931,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -941,7 +941,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -951,7 +951,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -961,7 +961,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -971,7 +971,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -981,7 +981,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -991,7 +991,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1001,7 +1001,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1013,7 +1013,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Type",
+          "tsName": "type_",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -1023,7 +1023,7 @@
           }
         },
         {
-          "tsName": "Explicit",
+          "tsName": "explicit",
           "isStatic": false,
           "tsSignatureId": "Explicit|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1033,7 +1033,7 @@
           }
         },
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -1043,7 +1043,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -1062,7 +1062,7 @@
       "methods": [
         {
           "clrName": "FallbackCreateInstance",
-          "tsEmitName": "FallbackCreateInstance",
+          "tsEmitName": "fallbackCreateInstance",
           "metadataToken": 100667749,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1074,7 +1074,7 @@
         },
         {
           "clrName": "FallbackCreateInstance",
-          "tsEmitName": "FallbackCreateInstance2",
+          "tsEmitName": "fallbackCreateInstance2",
           "metadataToken": 100667750,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1086,7 +1086,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667751,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1098,7 +1098,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1112,7 +1112,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877092,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -1125,7 +1125,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877093,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -1142,7 +1142,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackCreateInstance",
+          "tsName": "fallbackCreateInstance",
           "isStatic": false,
           "tsSignatureId": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1152,7 +1152,7 @@
           }
         },
         {
-          "tsName": "FallbackCreateInstance2",
+          "tsName": "fallbackCreateInstance2",
           "isStatic": false,
           "tsSignatureId": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1162,7 +1162,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1172,7 +1172,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1182,7 +1182,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1192,7 +1192,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1202,7 +1202,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1212,7 +1212,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1222,7 +1222,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -1232,7 +1232,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1242,7 +1242,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1252,7 +1252,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1262,7 +1262,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1272,7 +1272,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1282,7 +1282,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1294,7 +1294,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -1304,7 +1304,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -1314,7 +1314,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -1333,7 +1333,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667756,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1345,7 +1345,7 @@
         },
         {
           "clrName": "FallbackDeleteIndex",
-          "tsEmitName": "FallbackDeleteIndex",
+          "tsEmitName": "fallbackDeleteIndex",
           "metadataToken": 100667758,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1357,7 +1357,7 @@
         },
         {
           "clrName": "FallbackDeleteIndex",
-          "tsEmitName": "FallbackDeleteIndex2",
+          "tsEmitName": "fallbackDeleteIndex2",
           "metadataToken": 100667759,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1369,7 +1369,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1383,7 +1383,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877095,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -1396,7 +1396,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877096,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -1413,7 +1413,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1423,7 +1423,7 @@
           }
         },
         {
-          "tsName": "FallbackDeleteIndex",
+          "tsName": "fallbackDeleteIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1433,7 +1433,7 @@
           }
         },
         {
-          "tsName": "FallbackDeleteIndex2",
+          "tsName": "fallbackDeleteIndex2",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1443,7 +1443,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1453,7 +1453,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1463,7 +1463,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1473,7 +1473,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1483,7 +1483,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1493,7 +1493,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -1503,7 +1503,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1513,7 +1513,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1523,7 +1523,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1533,7 +1533,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1543,7 +1543,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1553,7 +1553,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1565,7 +1565,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -1575,7 +1575,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -1585,7 +1585,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -1604,7 +1604,7 @@
       "methods": [
         {
           "clrName": "FallbackDeleteMember",
-          "tsEmitName": "FallbackDeleteMember",
+          "tsEmitName": "fallbackDeleteMember",
           "metadataToken": 100667764,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1616,7 +1616,7 @@
         },
         {
           "clrName": "FallbackDeleteMember",
-          "tsEmitName": "FallbackDeleteMember2",
+          "tsEmitName": "fallbackDeleteMember2",
           "metadataToken": 100667765,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1628,7 +1628,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667766,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1640,7 +1640,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -1654,7 +1654,7 @@
       "properties": [
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "metadataToken": 385877098,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -1667,7 +1667,7 @@
         },
         {
           "clrName": "IgnoreCase",
-          "tsEmitName": "IgnoreCase",
+          "tsEmitName": "ignoreCase",
           "metadataToken": 385877099,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
@@ -1680,7 +1680,7 @@
         },
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877100,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -1697,7 +1697,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackDeleteMember",
+          "tsName": "fallbackDeleteMember",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1707,7 +1707,7 @@
           }
         },
         {
-          "tsName": "FallbackDeleteMember2",
+          "tsName": "fallbackDeleteMember2",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1717,7 +1717,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1727,7 +1727,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1737,7 +1737,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1747,7 +1747,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -1757,7 +1757,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1767,7 +1767,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1777,7 +1777,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -1787,7 +1787,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -1797,7 +1797,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -1807,7 +1807,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -1817,7 +1817,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1827,7 +1827,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -1837,7 +1837,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -1849,7 +1849,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Name",
+          "tsName": "name",
           "isStatic": false,
           "tsSignatureId": "Name|:System.String|static=false|accessor=get",
           "target": {
@@ -1859,7 +1859,7 @@
           }
         },
         {
-          "tsName": "IgnoreCase",
+          "tsName": "ignoreCase",
           "isStatic": false,
           "tsSignatureId": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -1869,7 +1869,7 @@
           }
         },
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -1879,7 +1879,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -1898,7 +1898,7 @@
       "methods": [
         {
           "clrName": "BindConvert",
-          "tsEmitName": "BindConvert",
+          "tsEmitName": "bindConvert",
           "metadataToken": 100667556,
           "canonicalSignature": "(System.Dynamic.ConvertBinder):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindConvert|(System.Dynamic.ConvertBinder):System.Dynamic.DynamicMetaObject|static=false",
@@ -1910,7 +1910,7 @@
         },
         {
           "clrName": "BindGetMember",
-          "tsEmitName": "BindGetMember",
+          "tsEmitName": "bindGetMember",
           "metadataToken": 100667557,
           "canonicalSignature": "(System.Dynamic.GetMemberBinder):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindGetMember|(System.Dynamic.GetMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
@@ -1922,7 +1922,7 @@
         },
         {
           "clrName": "BindSetMember",
-          "tsEmitName": "BindSetMember",
+          "tsEmitName": "bindSetMember",
           "metadataToken": 100667558,
           "canonicalSignature": "(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindSetMember|(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1934,7 +1934,7 @@
         },
         {
           "clrName": "BindDeleteMember",
-          "tsEmitName": "BindDeleteMember",
+          "tsEmitName": "bindDeleteMember",
           "metadataToken": 100667559,
           "canonicalSignature": "(System.Dynamic.DeleteMemberBinder):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
@@ -1946,7 +1946,7 @@
         },
         {
           "clrName": "BindGetIndex",
-          "tsEmitName": "BindGetIndex",
+          "tsEmitName": "bindGetIndex",
           "metadataToken": 100667560,
           "canonicalSignature": "(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindGetIndex|(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1958,7 +1958,7 @@
         },
         {
           "clrName": "BindSetIndex",
-          "tsEmitName": "BindSetIndex",
+          "tsEmitName": "bindSetIndex",
           "metadataToken": 100667561,
           "canonicalSignature": "(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindSetIndex|(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1970,7 +1970,7 @@
         },
         {
           "clrName": "BindDeleteIndex",
-          "tsEmitName": "BindDeleteIndex",
+          "tsEmitName": "bindDeleteIndex",
           "metadataToken": 100667562,
           "canonicalSignature": "(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1982,7 +1982,7 @@
         },
         {
           "clrName": "BindInvokeMember",
-          "tsEmitName": "BindInvokeMember",
+          "tsEmitName": "bindInvokeMember",
           "metadataToken": 100667563,
           "canonicalSignature": "(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -1994,7 +1994,7 @@
         },
         {
           "clrName": "BindInvoke",
-          "tsEmitName": "BindInvoke",
+          "tsEmitName": "bindInvoke",
           "metadataToken": 100667564,
           "canonicalSignature": "(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindInvoke|(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2006,7 +2006,7 @@
         },
         {
           "clrName": "BindCreateInstance",
-          "tsEmitName": "BindCreateInstance",
+          "tsEmitName": "bindCreateInstance",
           "metadataToken": 100667565,
           "canonicalSignature": "(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2018,7 +2018,7 @@
         },
         {
           "clrName": "BindUnaryOperation",
-          "tsEmitName": "BindUnaryOperation",
+          "tsEmitName": "bindUnaryOperation",
           "metadataToken": 100667566,
           "canonicalSignature": "(System.Dynamic.UnaryOperationBinder):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindUnaryOperation|(System.Dynamic.UnaryOperationBinder):System.Dynamic.DynamicMetaObject|static=false",
@@ -2030,7 +2030,7 @@
         },
         {
           "clrName": "BindBinaryOperation",
-          "tsEmitName": "BindBinaryOperation",
+          "tsEmitName": "bindBinaryOperation",
           "metadataToken": 100667567,
           "canonicalSignature": "(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "BindBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -2042,7 +2042,7 @@
         },
         {
           "clrName": "GetDynamicMemberNames",
-          "tsEmitName": "GetDynamicMemberNames",
+          "tsEmitName": "getDynamicMemberNames",
           "metadataToken": 100667568,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -2054,7 +2054,7 @@
         },
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "metadataToken": 100667570,
           "canonicalSignature": "(System.Object,System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Create|(System.Object,System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=true",
@@ -2068,7 +2068,7 @@
       "properties": [
         {
           "clrName": "Expression",
-          "tsEmitName": "Expression",
+          "tsEmitName": "expression",
           "metadataToken": 385877048,
           "canonicalSignature": ":System.Linq.Expressions.Expression",
           "normalizedSignature": "Expression|:System.Linq.Expressions.Expression|static=false|accessor=get",
@@ -2081,7 +2081,7 @@
         },
         {
           "clrName": "Restrictions",
-          "tsEmitName": "Restrictions",
+          "tsEmitName": "restrictions",
           "metadataToken": 385877049,
           "canonicalSignature": ":System.Dynamic.BindingRestrictions",
           "normalizedSignature": "Restrictions|:System.Dynamic.BindingRestrictions|static=false|accessor=get",
@@ -2094,7 +2094,7 @@
         },
         {
           "clrName": "Value",
-          "tsEmitName": "Value",
+          "tsEmitName": "value",
           "metadataToken": 385877050,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Value|:System.Object|static=false|accessor=get",
@@ -2107,7 +2107,7 @@
         },
         {
           "clrName": "HasValue",
-          "tsEmitName": "HasValue",
+          "tsEmitName": "hasValue",
           "metadataToken": 385877051,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "HasValue|:System.Boolean|static=false|accessor=get",
@@ -2120,7 +2120,7 @@
         },
         {
           "clrName": "RuntimeType",
-          "tsEmitName": "RuntimeType",
+          "tsEmitName": "runtimeType",
           "metadataToken": 385877052,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "RuntimeType|:System.Type|static=false|accessor=get",
@@ -2133,7 +2133,7 @@
         },
         {
           "clrName": "LimitType",
-          "tsEmitName": "LimitType",
+          "tsEmitName": "limitType",
           "metadataToken": 385877053,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "LimitType|:System.Type|static=false|accessor=get",
@@ -2148,7 +2148,7 @@
       "fields": [
         {
           "clrName": "EmptyMetaObjects",
-          "tsEmitName": "EmptyMetaObjects",
+          "tsEmitName": "emptyMetaObjects",
           "metadataToken": 67110081,
           "normalizedSignature": "EmptyMetaObjects|System.Dynamic.DynamicMetaObject[]|static=true|const=false",
           "isStatic": true,
@@ -2180,7 +2180,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "BindConvert",
+          "tsName": "bindConvert",
           "isStatic": false,
           "tsSignatureId": "BindConvert|(System.Dynamic.ConvertBinder):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2190,7 +2190,7 @@
           }
         },
         {
-          "tsName": "BindGetMember",
+          "tsName": "bindGetMember",
           "isStatic": false,
           "tsSignatureId": "BindGetMember|(System.Dynamic.GetMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2200,7 +2200,7 @@
           }
         },
         {
-          "tsName": "BindSetMember",
+          "tsName": "bindSetMember",
           "isStatic": false,
           "tsSignatureId": "BindSetMember|(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2210,7 +2210,7 @@
           }
         },
         {
-          "tsName": "BindDeleteMember",
+          "tsName": "bindDeleteMember",
           "isStatic": false,
           "tsSignatureId": "BindDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2220,7 +2220,7 @@
           }
         },
         {
-          "tsName": "BindGetIndex",
+          "tsName": "bindGetIndex",
           "isStatic": false,
           "tsSignatureId": "BindGetIndex|(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2230,7 +2230,7 @@
           }
         },
         {
-          "tsName": "BindSetIndex",
+          "tsName": "bindSetIndex",
           "isStatic": false,
           "tsSignatureId": "BindSetIndex|(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2240,7 +2240,7 @@
           }
         },
         {
-          "tsName": "BindDeleteIndex",
+          "tsName": "bindDeleteIndex",
           "isStatic": false,
           "tsSignatureId": "BindDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2250,7 +2250,7 @@
           }
         },
         {
-          "tsName": "BindInvokeMember",
+          "tsName": "bindInvokeMember",
           "isStatic": false,
           "tsSignatureId": "BindInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2260,7 +2260,7 @@
           }
         },
         {
-          "tsName": "BindInvoke",
+          "tsName": "bindInvoke",
           "isStatic": false,
           "tsSignatureId": "BindInvoke|(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2270,7 +2270,7 @@
           }
         },
         {
-          "tsName": "BindCreateInstance",
+          "tsName": "bindCreateInstance",
           "isStatic": false,
           "tsSignatureId": "BindCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2280,7 +2280,7 @@
           }
         },
         {
-          "tsName": "BindUnaryOperation",
+          "tsName": "bindUnaryOperation",
           "isStatic": false,
           "tsSignatureId": "BindUnaryOperation|(System.Dynamic.UnaryOperationBinder):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2290,7 +2290,7 @@
           }
         },
         {
-          "tsName": "BindBinaryOperation",
+          "tsName": "bindBinaryOperation",
           "isStatic": false,
           "tsSignatureId": "BindBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2300,7 +2300,7 @@
           }
         },
         {
-          "tsName": "GetDynamicMemberNames",
+          "tsName": "getDynamicMemberNames",
           "isStatic": false,
           "tsSignatureId": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -2310,7 +2310,7 @@
           }
         },
         {
-          "tsName": "Create",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(System.Object,System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=true",
           "target": {
@@ -2320,7 +2320,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2330,7 +2330,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2340,7 +2340,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2350,7 +2350,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2360,7 +2360,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2370,7 +2370,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2382,7 +2382,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Expression",
+          "tsName": "expression",
           "isStatic": false,
           "tsSignatureId": "Expression|:System.Linq.Expressions.Expression|static=false|accessor=get",
           "target": {
@@ -2392,7 +2392,7 @@
           }
         },
         {
-          "tsName": "Restrictions",
+          "tsName": "restrictions",
           "isStatic": false,
           "tsSignatureId": "Restrictions|:System.Dynamic.BindingRestrictions|static=false|accessor=get",
           "target": {
@@ -2402,7 +2402,7 @@
           }
         },
         {
-          "tsName": "Value",
+          "tsName": "value",
           "isStatic": false,
           "tsSignatureId": "Value|:System.Object|static=false|accessor=get",
           "target": {
@@ -2412,7 +2412,7 @@
           }
         },
         {
-          "tsName": "HasValue",
+          "tsName": "hasValue",
           "isStatic": false,
           "tsSignatureId": "HasValue|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -2422,7 +2422,7 @@
           }
         },
         {
-          "tsName": "RuntimeType",
+          "tsName": "runtimeType",
           "isStatic": false,
           "tsSignatureId": "RuntimeType|:System.Type|static=false|accessor=get",
           "target": {
@@ -2432,7 +2432,7 @@
           }
         },
         {
-          "tsName": "LimitType",
+          "tsName": "limitType",
           "isStatic": false,
           "tsSignatureId": "LimitType|:System.Type|static=false|accessor=get",
           "target": {
@@ -2444,7 +2444,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "EmptyMetaObjects",
+          "tsName": "emptyMetaObjects",
           "isStatic": true,
           "tsSignatureId": "EmptyMetaObjects|System.Dynamic.DynamicMetaObject[]|static=true|const=false",
           "target": {
@@ -2483,7 +2483,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667540,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -2495,7 +2495,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind3",
+          "tsEmitName": "bind3",
           "metadataToken": 100667542,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2507,7 +2507,7 @@
         },
         {
           "clrName": "GetUpdateExpression",
-          "tsEmitName": "GetUpdateExpression",
+          "tsEmitName": "getUpdateExpression",
           "metadataToken": 100667543,
           "canonicalSignature": "(System.Type):System.Linq.Expressions.Expression",
           "normalizedSignature": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
@@ -2519,7 +2519,7 @@
         },
         {
           "clrName": "Defer",
-          "tsEmitName": "Defer",
+          "tsEmitName": "defer",
           "metadataToken": 100667544,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2531,7 +2531,7 @@
         },
         {
           "clrName": "Defer",
-          "tsEmitName": "Defer2",
+          "tsEmitName": "defer2",
           "metadataToken": 100667545,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2543,7 +2543,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -2557,7 +2557,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877046,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -2574,7 +2574,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -2584,7 +2584,7 @@
           }
         },
         {
-          "tsName": "Bind3",
+          "tsName": "bind3",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2594,7 +2594,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -2604,7 +2604,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2614,7 +2614,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2624,7 +2624,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -2634,7 +2634,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -2644,7 +2644,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -2654,7 +2654,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -2664,7 +2664,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -2674,7 +2674,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2684,7 +2684,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -2694,7 +2694,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -2706,7 +2706,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -2716,7 +2716,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -2735,7 +2735,7 @@
       "methods": [
         {
           "clrName": "TryGetMember",
-          "tsEmitName": "TryGetMember",
+          "tsEmitName": "tryGetMember",
           "metadataToken": 100667769,
           "canonicalSignature": "(System.Dynamic.GetMemberBinder,System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryGetMember|(System.Dynamic.GetMemberBinder,System.Object\u0026):System.Boolean|static=false",
@@ -2747,7 +2747,7 @@
         },
         {
           "clrName": "TrySetMember",
-          "tsEmitName": "TrySetMember",
+          "tsEmitName": "trySetMember",
           "metadataToken": 100667770,
           "canonicalSignature": "(System.Dynamic.SetMemberBinder,System.Object):System.Boolean",
           "normalizedSignature": "TrySetMember|(System.Dynamic.SetMemberBinder,System.Object):System.Boolean|static=false",
@@ -2759,7 +2759,7 @@
         },
         {
           "clrName": "TryDeleteMember",
-          "tsEmitName": "TryDeleteMember",
+          "tsEmitName": "tryDeleteMember",
           "metadataToken": 100667771,
           "canonicalSignature": "(System.Dynamic.DeleteMemberBinder):System.Boolean",
           "normalizedSignature": "TryDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Boolean|static=false",
@@ -2771,7 +2771,7 @@
         },
         {
           "clrName": "TryInvokeMember",
-          "tsEmitName": "TryInvokeMember",
+          "tsEmitName": "tryInvokeMember",
           "metadataToken": 100667772,
           "canonicalSignature": "(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
@@ -2783,7 +2783,7 @@
         },
         {
           "clrName": "TryConvert",
-          "tsEmitName": "TryConvert",
+          "tsEmitName": "tryConvert",
           "metadataToken": 100667773,
           "canonicalSignature": "(System.Dynamic.ConvertBinder,System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryConvert|(System.Dynamic.ConvertBinder,System.Object\u0026):System.Boolean|static=false",
@@ -2795,7 +2795,7 @@
         },
         {
           "clrName": "TryCreateInstance",
-          "tsEmitName": "TryCreateInstance",
+          "tsEmitName": "tryCreateInstance",
           "metadataToken": 100667774,
           "canonicalSignature": "(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
@@ -2807,7 +2807,7 @@
         },
         {
           "clrName": "TryInvoke",
-          "tsEmitName": "TryInvoke",
+          "tsEmitName": "tryInvoke",
           "metadataToken": 100667775,
           "canonicalSignature": "(System.Dynamic.InvokeBinder,System.Object[],System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryInvoke|(System.Dynamic.InvokeBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
@@ -2819,7 +2819,7 @@
         },
         {
           "clrName": "TryBinaryOperation",
-          "tsEmitName": "TryBinaryOperation",
+          "tsEmitName": "tryBinaryOperation",
           "metadataToken": 100667776,
           "canonicalSignature": "(System.Dynamic.BinaryOperationBinder,System.Object,System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Object,System.Object\u0026):System.Boolean|static=false",
@@ -2831,7 +2831,7 @@
         },
         {
           "clrName": "TryUnaryOperation",
-          "tsEmitName": "TryUnaryOperation",
+          "tsEmitName": "tryUnaryOperation",
           "metadataToken": 100667777,
           "canonicalSignature": "(System.Dynamic.UnaryOperationBinder,System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryUnaryOperation|(System.Dynamic.UnaryOperationBinder,System.Object\u0026):System.Boolean|static=false",
@@ -2843,7 +2843,7 @@
         },
         {
           "clrName": "TryGetIndex",
-          "tsEmitName": "TryGetIndex",
+          "tsEmitName": "tryGetIndex",
           "metadataToken": 100667778,
           "canonicalSignature": "(System.Dynamic.GetIndexBinder,System.Object[],System.Object\u0026):System.Boolean",
           "normalizedSignature": "TryGetIndex|(System.Dynamic.GetIndexBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
@@ -2855,7 +2855,7 @@
         },
         {
           "clrName": "TrySetIndex",
-          "tsEmitName": "TrySetIndex",
+          "tsEmitName": "trySetIndex",
           "metadataToken": 100667779,
           "canonicalSignature": "(System.Dynamic.SetIndexBinder,System.Object[],System.Object):System.Boolean",
           "normalizedSignature": "TrySetIndex|(System.Dynamic.SetIndexBinder,System.Object[],System.Object):System.Boolean|static=false",
@@ -2867,7 +2867,7 @@
         },
         {
           "clrName": "TryDeleteIndex",
-          "tsEmitName": "TryDeleteIndex",
+          "tsEmitName": "tryDeleteIndex",
           "metadataToken": 100667780,
           "canonicalSignature": "(System.Dynamic.DeleteIndexBinder,System.Object[]):System.Boolean",
           "normalizedSignature": "TryDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Object[]):System.Boolean|static=false",
@@ -2879,7 +2879,7 @@
         },
         {
           "clrName": "GetDynamicMemberNames",
-          "tsEmitName": "GetDynamicMemberNames",
+          "tsEmitName": "getDynamicMemberNames",
           "metadataToken": 100667781,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -2891,7 +2891,7 @@
         },
         {
           "clrName": "GetMetaObject",
-          "tsEmitName": "GetMetaObject",
+          "tsEmitName": "getMetaObject",
           "metadataToken": 100667782,
           "canonicalSignature": "(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
@@ -2903,7 +2903,7 @@
         },
         {
           "clrName": "GetMetaObject",
-          "tsEmitName": "GetMetaObject$view",
+          "tsEmitName": "getMetaObject$view",
           "metadataToken": 100667572,
           "canonicalSignature": "(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
@@ -2920,7 +2920,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "TryGetMember",
+          "tsName": "tryGetMember",
           "isStatic": false,
           "tsSignatureId": "TryGetMember|(System.Dynamic.GetMemberBinder,System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -2930,7 +2930,7 @@
           }
         },
         {
-          "tsName": "TrySetMember",
+          "tsName": "trySetMember",
           "isStatic": false,
           "tsSignatureId": "TrySetMember|(System.Dynamic.SetMemberBinder,System.Object):System.Boolean|static=false",
           "target": {
@@ -2940,7 +2940,7 @@
           }
         },
         {
-          "tsName": "TryDeleteMember",
+          "tsName": "tryDeleteMember",
           "isStatic": false,
           "tsSignatureId": "TryDeleteMember|(System.Dynamic.DeleteMemberBinder):System.Boolean|static=false",
           "target": {
@@ -2950,7 +2950,7 @@
           }
         },
         {
-          "tsName": "TryInvokeMember",
+          "tsName": "tryInvokeMember",
           "isStatic": false,
           "tsSignatureId": "TryInvokeMember|(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -2960,7 +2960,7 @@
           }
         },
         {
-          "tsName": "TryConvert",
+          "tsName": "tryConvert",
           "isStatic": false,
           "tsSignatureId": "TryConvert|(System.Dynamic.ConvertBinder,System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -2970,7 +2970,7 @@
           }
         },
         {
-          "tsName": "TryCreateInstance",
+          "tsName": "tryCreateInstance",
           "isStatic": false,
           "tsSignatureId": "TryCreateInstance|(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -2980,7 +2980,7 @@
           }
         },
         {
-          "tsName": "TryInvoke",
+          "tsName": "tryInvoke",
           "isStatic": false,
           "tsSignatureId": "TryInvoke|(System.Dynamic.InvokeBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -2990,7 +2990,7 @@
           }
         },
         {
-          "tsName": "TryBinaryOperation",
+          "tsName": "tryBinaryOperation",
           "isStatic": false,
           "tsSignatureId": "TryBinaryOperation|(System.Dynamic.BinaryOperationBinder,System.Object,System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -3000,7 +3000,7 @@
           }
         },
         {
-          "tsName": "TryUnaryOperation",
+          "tsName": "tryUnaryOperation",
           "isStatic": false,
           "tsSignatureId": "TryUnaryOperation|(System.Dynamic.UnaryOperationBinder,System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -3010,7 +3010,7 @@
           }
         },
         {
-          "tsName": "TryGetIndex",
+          "tsName": "tryGetIndex",
           "isStatic": false,
           "tsSignatureId": "TryGetIndex|(System.Dynamic.GetIndexBinder,System.Object[],System.Object\u0026):System.Boolean|static=false",
           "target": {
@@ -3020,7 +3020,7 @@
           }
         },
         {
-          "tsName": "TrySetIndex",
+          "tsName": "trySetIndex",
           "isStatic": false,
           "tsSignatureId": "TrySetIndex|(System.Dynamic.SetIndexBinder,System.Object[],System.Object):System.Boolean|static=false",
           "target": {
@@ -3030,7 +3030,7 @@
           }
         },
         {
-          "tsName": "TryDeleteIndex",
+          "tsName": "tryDeleteIndex",
           "isStatic": false,
           "tsSignatureId": "TryDeleteIndex|(System.Dynamic.DeleteIndexBinder,System.Object[]):System.Boolean|static=false",
           "target": {
@@ -3040,7 +3040,7 @@
           }
         },
         {
-          "tsName": "GetDynamicMemberNames",
+          "tsName": "getDynamicMemberNames",
           "isStatic": false,
           "tsSignatureId": "GetDynamicMemberNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "target": {
@@ -3050,7 +3050,7 @@
           }
         },
         {
-          "tsName": "GetMetaObject",
+          "tsName": "getMetaObject",
           "isStatic": false,
           "tsSignatureId": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3060,7 +3060,7 @@
           }
         },
         {
-          "tsName": "GetMetaObject$view",
+          "tsName": "getMetaObject$view",
           "isStatic": false,
           "tsSignatureId": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3070,7 +3070,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3080,7 +3080,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3090,7 +3090,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3100,7 +3100,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3110,7 +3110,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3120,7 +3120,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3139,7 +3139,7 @@
       "methods": [
         {
           "clrName": "GetMetaObject",
-          "tsEmitName": "GetMetaObject",
+          "tsEmitName": "getMetaObject",
           "metadataToken": 100667572,
           "canonicalSignature": "(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
@@ -3151,7 +3151,7 @@
         },
         {
           "clrName": "ContainsKey",
-          "tsEmitName": "ContainsKey",
+          "tsEmitName": "containsKey",
           "metadataToken": 100704550,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
@@ -3163,7 +3163,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 100704551,
           "canonicalSignature": "(TKey,TValue):System.Void",
           "normalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
@@ -3175,7 +3175,7 @@
         },
         {
           "clrName": "TryGetValue",
-          "tsEmitName": "TryGetValue",
+          "tsEmitName": "tryGetValue",
           "metadataToken": 100704553,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -3187,7 +3187,7 @@
         },
         {
           "clrName": "Add",
-          "tsEmitName": "Add",
+          "tsEmitName": "add",
           "metadataToken": 100704538,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -3199,7 +3199,7 @@
         },
         {
           "clrName": "Clear",
-          "tsEmitName": "Clear",
+          "tsEmitName": "clear",
           "metadataToken": 100704539,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -3211,7 +3211,7 @@
         },
         {
           "clrName": "Contains",
-          "tsEmitName": "Contains",
+          "tsEmitName": "contains",
           "metadataToken": 100704540,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -3223,7 +3223,7 @@
         },
         {
           "clrName": "CopyTo",
-          "tsEmitName": "CopyTo",
+          "tsEmitName": "copyTo",
           "metadataToken": 100704541,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -3235,7 +3235,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -3247,7 +3247,7 @@
         },
         {
           "clrName": "GetEnumerator",
-          "tsEmitName": "GetEnumerator",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -3261,7 +3261,7 @@
       "properties": [
         {
           "clrName": "Keys",
-          "tsEmitName": "Keys",
+          "tsEmitName": "keys",
           "metadataToken": 385881421,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
@@ -3274,7 +3274,7 @@
         },
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "metadataToken": 385881417,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -3287,7 +3287,7 @@
         },
         {
           "clrName": "IsReadOnly",
-          "tsEmitName": "IsReadOnly",
+          "tsEmitName": "isReadOnly",
           "metadataToken": 385881418,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -3300,7 +3300,7 @@
         },
         {
           "clrName": "Values",
-          "tsEmitName": "Values",
+          "tsEmitName": "values",
           "metadataToken": 385881422,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
@@ -3327,7 +3327,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "GetMetaObject",
+          "tsName": "getMetaObject",
           "isStatic": false,
           "tsSignatureId": "GetMetaObject|(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3337,7 +3337,7 @@
           }
         },
         {
-          "tsName": "ContainsKey",
+          "tsName": "containsKey",
           "isStatic": false,
           "tsSignatureId": "ContainsKey|(TKey):System.Boolean|static=false",
           "target": {
@@ -3347,7 +3347,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(TKey,TValue):System.Void|static=false",
           "target": {
@@ -3357,7 +3357,7 @@
           }
         },
         {
-          "tsName": "TryGetValue",
+          "tsName": "tryGetValue",
           "isStatic": false,
           "tsSignatureId": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "target": {
@@ -3367,7 +3367,7 @@
           }
         },
         {
-          "tsName": "Add",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(T):System.Void|static=false",
           "target": {
@@ -3377,7 +3377,7 @@
           }
         },
         {
-          "tsName": "Clear",
+          "tsName": "clear",
           "isStatic": false,
           "tsSignatureId": "Clear|():System.Void|static=false",
           "target": {
@@ -3387,7 +3387,7 @@
           }
         },
         {
-          "tsName": "Contains",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T):System.Boolean|static=false",
           "target": {
@@ -3397,7 +3397,7 @@
           }
         },
         {
-          "tsName": "CopyTo",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -3407,7 +3407,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():IEnumerator_1|static=false",
           "target": {
@@ -3417,7 +3417,7 @@
           }
         },
         {
-          "tsName": "GetEnumerator",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "target": {
@@ -3427,7 +3427,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3437,7 +3437,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3447,7 +3447,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3457,7 +3457,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3467,7 +3467,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3477,7 +3477,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3489,7 +3489,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "Keys",
+          "tsName": "keys",
           "isStatic": false,
           "tsSignatureId": "Keys|:ICollection_1|static=false|accessor=get",
           "target": {
@@ -3499,7 +3499,7 @@
           }
         },
         {
-          "tsName": "Count",
+          "tsName": "count",
           "isStatic": false,
           "tsSignatureId": "Count|:System.Int32|static=false|accessor=get",
           "target": {
@@ -3509,7 +3509,7 @@
           }
         },
         {
-          "tsName": "IsReadOnly",
+          "tsName": "isReadOnly",
           "isStatic": false,
           "tsSignatureId": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -3519,7 +3519,7 @@
           }
         },
         {
-          "tsName": "Values",
+          "tsName": "values",
           "isStatic": false,
           "tsSignatureId": "Values|:ICollection_1|static=false|accessor=get",
           "target": {
@@ -3549,7 +3549,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667840,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -3561,7 +3561,7 @@
         },
         {
           "clrName": "FallbackGetIndex",
-          "tsEmitName": "FallbackGetIndex",
+          "tsEmitName": "fallbackGetIndex",
           "metadataToken": 100667842,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -3573,7 +3573,7 @@
         },
         {
           "clrName": "FallbackGetIndex",
-          "tsEmitName": "FallbackGetIndex2",
+          "tsEmitName": "fallbackGetIndex2",
           "metadataToken": 100667843,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -3585,7 +3585,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -3599,7 +3599,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877103,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -3612,7 +3612,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877104,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -3629,7 +3629,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3639,7 +3639,7 @@
           }
         },
         {
-          "tsName": "FallbackGetIndex",
+          "tsName": "fallbackGetIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3649,7 +3649,7 @@
           }
         },
         {
-          "tsName": "FallbackGetIndex2",
+          "tsName": "fallbackGetIndex2",
           "isStatic": false,
           "tsSignatureId": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3659,7 +3659,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3669,7 +3669,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3679,7 +3679,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3689,7 +3689,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3699,7 +3699,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3709,7 +3709,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -3719,7 +3719,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -3729,7 +3729,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -3739,7 +3739,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -3749,7 +3749,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3759,7 +3759,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -3769,7 +3769,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -3781,7 +3781,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -3791,7 +3791,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -3801,7 +3801,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -3820,7 +3820,7 @@
       "methods": [
         {
           "clrName": "FallbackGetMember",
-          "tsEmitName": "FallbackGetMember",
+          "tsEmitName": "fallbackGetMember",
           "metadataToken": 100667848,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -3832,7 +3832,7 @@
         },
         {
           "clrName": "FallbackGetMember",
-          "tsEmitName": "FallbackGetMember2",
+          "tsEmitName": "fallbackGetMember2",
           "metadataToken": 100667849,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -3844,7 +3844,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667850,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -3856,7 +3856,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -3870,7 +3870,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877106,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -3883,7 +3883,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "metadataToken": 385877107,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -3896,7 +3896,7 @@
         },
         {
           "clrName": "IgnoreCase",
-          "tsEmitName": "IgnoreCase",
+          "tsEmitName": "ignoreCase",
           "metadataToken": 385877108,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
@@ -3913,7 +3913,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackGetMember",
+          "tsName": "fallbackGetMember",
           "isStatic": false,
           "tsSignatureId": "FallbackGetMember|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3923,7 +3923,7 @@
           }
         },
         {
-          "tsName": "FallbackGetMember2",
+          "tsName": "fallbackGetMember2",
           "isStatic": false,
           "tsSignatureId": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3933,7 +3933,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3943,7 +3943,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3953,7 +3953,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3963,7 +3963,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -3973,7 +3973,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3983,7 +3983,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3993,7 +3993,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -4003,7 +4003,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -4013,7 +4013,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -4023,7 +4023,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -4033,7 +4033,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4043,7 +4043,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4053,7 +4053,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -4065,7 +4065,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -4075,7 +4075,7 @@
           }
         },
         {
-          "tsName": "Name",
+          "tsName": "name",
           "isStatic": false,
           "tsSignatureId": "Name|:System.String|static=false|accessor=get",
           "target": {
@@ -4085,7 +4085,7 @@
           }
         },
         {
-          "tsName": "IgnoreCase",
+          "tsName": "ignoreCase",
           "isStatic": false,
           "tsSignatureId": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -4095,7 +4095,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -4114,7 +4114,7 @@
       "methods": [
         {
           "clrName": "FallbackInvoke",
-          "tsEmitName": "FallbackInvoke",
+          "tsEmitName": "fallbackInvoke",
           "metadataToken": 100667855,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4126,7 +4126,7 @@
         },
         {
           "clrName": "FallbackInvoke",
-          "tsEmitName": "FallbackInvoke2",
+          "tsEmitName": "fallbackInvoke2",
           "metadataToken": 100667856,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4138,7 +4138,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667857,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4150,7 +4150,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4164,7 +4164,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877110,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -4177,7 +4177,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877111,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -4194,7 +4194,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackInvoke",
+          "tsName": "fallbackInvoke",
           "isStatic": false,
           "tsSignatureId": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4204,7 +4204,7 @@
           }
         },
         {
-          "tsName": "FallbackInvoke2",
+          "tsName": "fallbackInvoke2",
           "isStatic": false,
           "tsSignatureId": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4214,7 +4214,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4224,7 +4224,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4234,7 +4234,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4244,7 +4244,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4254,7 +4254,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4264,7 +4264,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4274,7 +4274,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -4284,7 +4284,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -4294,7 +4294,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -4304,7 +4304,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -4314,7 +4314,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4324,7 +4324,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4334,7 +4334,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -4346,7 +4346,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -4356,7 +4356,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -4366,7 +4366,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -4385,7 +4385,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667864,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4397,7 +4397,7 @@
         },
         {
           "clrName": "FallbackInvokeMember",
-          "tsEmitName": "FallbackInvokeMember",
+          "tsEmitName": "fallbackInvokeMember",
           "metadataToken": 100667866,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4409,7 +4409,7 @@
         },
         {
           "clrName": "FallbackInvokeMember",
-          "tsEmitName": "FallbackInvokeMember2",
+          "tsEmitName": "fallbackInvokeMember2",
           "metadataToken": 100667867,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4421,7 +4421,7 @@
         },
         {
           "clrName": "FallbackInvoke",
-          "tsEmitName": "FallbackInvoke",
+          "tsEmitName": "fallbackInvoke",
           "metadataToken": 100667868,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4433,7 +4433,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4447,7 +4447,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877113,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -4460,7 +4460,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "metadataToken": 385877114,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -4473,7 +4473,7 @@
         },
         {
           "clrName": "IgnoreCase",
-          "tsEmitName": "IgnoreCase",
+          "tsEmitName": "ignoreCase",
           "metadataToken": 385877115,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
@@ -4486,7 +4486,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877116,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -4503,7 +4503,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4513,7 +4513,7 @@
           }
         },
         {
-          "tsName": "FallbackInvokeMember",
+          "tsName": "fallbackInvokeMember",
           "isStatic": false,
           "tsSignatureId": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4523,7 +4523,7 @@
           }
         },
         {
-          "tsName": "FallbackInvokeMember2",
+          "tsName": "fallbackInvokeMember2",
           "isStatic": false,
           "tsSignatureId": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4533,7 +4533,7 @@
           }
         },
         {
-          "tsName": "FallbackInvoke",
+          "tsName": "fallbackInvoke",
           "isStatic": false,
           "tsSignatureId": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4543,7 +4543,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4553,7 +4553,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4563,7 +4563,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4573,7 +4573,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4583,7 +4583,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4593,7 +4593,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -4603,7 +4603,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -4613,7 +4613,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -4623,7 +4623,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -4633,7 +4633,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4643,7 +4643,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4653,7 +4653,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -4665,7 +4665,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -4675,7 +4675,7 @@
           }
         },
         {
-          "tsName": "Name",
+          "tsName": "name",
           "isStatic": false,
           "tsSignatureId": "Name|:System.String|static=false|accessor=get",
           "target": {
@@ -4685,7 +4685,7 @@
           }
         },
         {
-          "tsName": "IgnoreCase",
+          "tsName": "ignoreCase",
           "isStatic": false,
           "tsSignatureId": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -4695,7 +4695,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -4705,7 +4705,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -4724,7 +4724,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667872,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -4736,7 +4736,7 @@
         },
         {
           "clrName": "FallbackSetIndex",
-          "tsEmitName": "FallbackSetIndex",
+          "tsEmitName": "fallbackSetIndex",
           "metadataToken": 100667874,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4748,7 +4748,7 @@
         },
         {
           "clrName": "FallbackSetIndex",
-          "tsEmitName": "FallbackSetIndex2",
+          "tsEmitName": "fallbackSetIndex2",
           "metadataToken": 100667875,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4760,7 +4760,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -4774,7 +4774,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877118,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -4787,7 +4787,7 @@
         },
         {
           "clrName": "CallInfo",
-          "tsEmitName": "CallInfo",
+          "tsEmitName": "callInfo",
           "metadataToken": 385877119,
           "canonicalSignature": ":System.Dynamic.CallInfo",
           "normalizedSignature": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
@@ -4804,7 +4804,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4814,7 +4814,7 @@
           }
         },
         {
-          "tsName": "FallbackSetIndex",
+          "tsName": "fallbackSetIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4824,7 +4824,7 @@
           }
         },
         {
-          "tsName": "FallbackSetIndex2",
+          "tsName": "fallbackSetIndex2",
           "isStatic": false,
           "tsSignatureId": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4834,7 +4834,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4844,7 +4844,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4854,7 +4854,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -4864,7 +4864,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4874,7 +4874,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4884,7 +4884,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -4894,7 +4894,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -4904,7 +4904,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -4914,7 +4914,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -4924,7 +4924,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4934,7 +4934,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -4944,7 +4944,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -4956,7 +4956,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -4966,7 +4966,7 @@
           }
         },
         {
-          "tsName": "CallInfo",
+          "tsName": "callInfo",
           "isStatic": false,
           "tsSignatureId": "CallInfo|:System.Dynamic.CallInfo|static=false|accessor=get",
           "target": {
@@ -4976,7 +4976,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -4995,7 +4995,7 @@
       "methods": [
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667880,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -5007,7 +5007,7 @@
         },
         {
           "clrName": "FallbackSetMember",
-          "tsEmitName": "FallbackSetMember",
+          "tsEmitName": "fallbackSetMember",
           "metadataToken": 100667882,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5019,7 +5019,7 @@
         },
         {
           "clrName": "FallbackSetMember",
-          "tsEmitName": "FallbackSetMember2",
+          "tsEmitName": "fallbackSetMember2",
           "metadataToken": 100667883,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5031,7 +5031,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -5045,7 +5045,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877121,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -5058,7 +5058,7 @@
         },
         {
           "clrName": "Name",
-          "tsEmitName": "Name",
+          "tsEmitName": "name",
           "metadataToken": 385877122,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -5071,7 +5071,7 @@
         },
         {
           "clrName": "IgnoreCase",
-          "tsEmitName": "IgnoreCase",
+          "tsEmitName": "ignoreCase",
           "metadataToken": 385877123,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=get",
@@ -5088,7 +5088,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5098,7 +5098,7 @@
           }
         },
         {
-          "tsName": "FallbackSetMember",
+          "tsName": "fallbackSetMember",
           "isStatic": false,
           "tsSignatureId": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5108,7 +5108,7 @@
           }
         },
         {
-          "tsName": "FallbackSetMember2",
+          "tsName": "fallbackSetMember2",
           "isStatic": false,
           "tsSignatureId": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5118,7 +5118,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5128,7 +5128,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5138,7 +5138,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5148,7 +5148,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5158,7 +5158,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5168,7 +5168,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -5178,7 +5178,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -5188,7 +5188,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -5198,7 +5198,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -5208,7 +5208,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -5218,7 +5218,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -5228,7 +5228,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -5240,7 +5240,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -5250,7 +5250,7 @@
           }
         },
         {
-          "tsName": "Name",
+          "tsName": "name",
           "isStatic": false,
           "tsSignatureId": "Name|:System.String|static=false|accessor=get",
           "target": {
@@ -5260,7 +5260,7 @@
           }
         },
         {
-          "tsName": "IgnoreCase",
+          "tsName": "ignoreCase",
           "isStatic": false,
           "tsSignatureId": "IgnoreCase|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -5270,7 +5270,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {
@@ -5289,7 +5289,7 @@
       "methods": [
         {
           "clrName": "FallbackUnaryOperation",
-          "tsEmitName": "FallbackUnaryOperation",
+          "tsEmitName": "fallbackUnaryOperation",
           "metadataToken": 100667887,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5301,7 +5301,7 @@
         },
         {
           "clrName": "FallbackUnaryOperation",
-          "tsEmitName": "FallbackUnaryOperation2",
+          "tsEmitName": "fallbackUnaryOperation2",
           "metadataToken": 100667888,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5313,7 +5313,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind2",
+          "tsEmitName": "bind2",
           "metadataToken": 100667889,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -5325,7 +5325,7 @@
         },
         {
           "clrName": "Bind",
-          "tsEmitName": "Bind",
+          "tsEmitName": "bind",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
           "normalizedSignature": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
@@ -5339,7 +5339,7 @@
       "properties": [
         {
           "clrName": "ReturnType",
-          "tsEmitName": "ReturnType",
+          "tsEmitName": "returnType",
           "metadataToken": 385877125,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ReturnType|:System.Type|static=false|accessor=get",
@@ -5352,7 +5352,7 @@
         },
         {
           "clrName": "Operation",
-          "tsEmitName": "Operation",
+          "tsEmitName": "operation",
           "metadataToken": 385877126,
           "canonicalSignature": ":System.Linq.Expressions.ExpressionType",
           "normalizedSignature": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
@@ -5369,7 +5369,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "FallbackUnaryOperation",
+          "tsName": "fallbackUnaryOperation",
           "isStatic": false,
           "tsSignatureId": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5379,7 +5379,7 @@
           }
         },
         {
-          "tsName": "FallbackUnaryOperation2",
+          "tsName": "fallbackUnaryOperation2",
           "isStatic": false,
           "tsSignatureId": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5389,7 +5389,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5399,7 +5399,7 @@
           }
         },
         {
-          "tsName": "Bind",
+          "tsName": "bind",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5409,7 +5409,7 @@
           }
         },
         {
-          "tsName": "Bind2",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Linq.Expressions.ParameterExpression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5419,7 +5419,7 @@
           }
         },
         {
-          "tsName": "GetUpdateExpression",
+          "tsName": "getUpdateExpression",
           "isStatic": false,
           "tsSignatureId": "GetUpdateExpression|(System.Type):System.Linq.Expressions.Expression|static=false",
           "target": {
@@ -5429,7 +5429,7 @@
           }
         },
         {
-          "tsName": "Defer",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5439,7 +5439,7 @@
           }
         },
         {
-          "tsName": "Defer2",
+          "tsName": "defer2",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5449,7 +5449,7 @@
           }
         },
         {
-          "tsName": "BindDelegate",
+          "tsName": "bindDelegate",
           "isStatic": false,
           "tsSignatureId": "BindDelegate|(CallSite_1,System.Object[]):T|static=false",
           "target": {
@@ -5459,7 +5459,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -5469,7 +5469,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -5479,7 +5479,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -5489,7 +5489,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -5499,7 +5499,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -5509,7 +5509,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -5521,7 +5521,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "ReturnType",
+          "tsName": "returnType",
           "isStatic": false,
           "tsSignatureId": "ReturnType|:System.Type|static=false|accessor=get",
           "target": {
@@ -5531,7 +5531,7 @@
           }
         },
         {
-          "tsName": "Operation",
+          "tsName": "operation",
           "isStatic": false,
           "tsSignatureId": "Operation|:System.Linq.Expressions.ExpressionType|static=false|accessor=get",
           "target": {
@@ -5541,7 +5541,7 @@
           }
         },
         {
-          "tsName": "UpdateLabel",
+          "tsName": "updateLabel",
           "isStatic": true,
           "tsSignatureId": "UpdateLabel|:System.Linq.Expressions.LabelTarget|static=true|accessor=get",
           "target": {

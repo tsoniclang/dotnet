@@ -26,7 +26,7 @@
         },
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -34,7 +34,7 @@
         },
         {
           "clrName": "PublicParameterlessConstructor",
-          "tsEmitName": "PublicParameterlessConstructor",
+          "tsEmitName": "publicParameterlessConstructor",
           "normalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -42,7 +42,7 @@
         },
         {
           "clrName": "PublicConstructors",
-          "tsEmitName": "PublicConstructors",
+          "tsEmitName": "publicConstructors",
           "normalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -50,7 +50,7 @@
         },
         {
           "clrName": "NonPublicConstructors",
-          "tsEmitName": "NonPublicConstructors",
+          "tsEmitName": "nonPublicConstructors",
           "normalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         },
         {
           "clrName": "PublicMethods",
-          "tsEmitName": "PublicMethods",
+          "tsEmitName": "publicMethods",
           "normalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         },
         {
           "clrName": "NonPublicMethods",
-          "tsEmitName": "NonPublicMethods",
+          "tsEmitName": "nonPublicMethods",
           "normalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "PublicFields",
-          "tsEmitName": "PublicFields",
+          "tsEmitName": "publicFields",
           "normalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         },
         {
           "clrName": "NonPublicFields",
-          "tsEmitName": "NonPublicFields",
+          "tsEmitName": "nonPublicFields",
           "normalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -90,7 +90,7 @@
         },
         {
           "clrName": "PublicNestedTypes",
-          "tsEmitName": "PublicNestedTypes",
+          "tsEmitName": "publicNestedTypes",
           "normalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -98,7 +98,7 @@
         },
         {
           "clrName": "NonPublicNestedTypes",
-          "tsEmitName": "NonPublicNestedTypes",
+          "tsEmitName": "nonPublicNestedTypes",
           "normalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -106,7 +106,7 @@
         },
         {
           "clrName": "PublicProperties",
-          "tsEmitName": "PublicProperties",
+          "tsEmitName": "publicProperties",
           "normalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -114,7 +114,7 @@
         },
         {
           "clrName": "NonPublicProperties",
-          "tsEmitName": "NonPublicProperties",
+          "tsEmitName": "nonPublicProperties",
           "normalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         },
         {
           "clrName": "PublicEvents",
-          "tsEmitName": "PublicEvents",
+          "tsEmitName": "publicEvents",
           "normalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -130,7 +130,7 @@
         },
         {
           "clrName": "NonPublicEvents",
-          "tsEmitName": "NonPublicEvents",
+          "tsEmitName": "nonPublicEvents",
           "normalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -138,7 +138,7 @@
         },
         {
           "clrName": "Interfaces",
-          "tsEmitName": "Interfaces",
+          "tsEmitName": "interfaces",
           "normalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         },
         {
           "clrName": "NonPublicConstructorsWithInherited",
-          "tsEmitName": "NonPublicConstructorsWithInherited",
+          "tsEmitName": "nonPublicConstructorsWithInherited",
           "normalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -154,7 +154,7 @@
         },
         {
           "clrName": "NonPublicMethodsWithInherited",
-          "tsEmitName": "NonPublicMethodsWithInherited",
+          "tsEmitName": "nonPublicMethodsWithInherited",
           "normalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -162,7 +162,7 @@
         },
         {
           "clrName": "NonPublicFieldsWithInherited",
-          "tsEmitName": "NonPublicFieldsWithInherited",
+          "tsEmitName": "nonPublicFieldsWithInherited",
           "normalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         },
         {
           "clrName": "NonPublicNestedTypesWithInherited",
-          "tsEmitName": "NonPublicNestedTypesWithInherited",
+          "tsEmitName": "nonPublicNestedTypesWithInherited",
           "normalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -178,7 +178,7 @@
         },
         {
           "clrName": "NonPublicPropertiesWithInherited",
-          "tsEmitName": "NonPublicPropertiesWithInherited",
+          "tsEmitName": "nonPublicPropertiesWithInherited",
           "normalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "NonPublicEventsWithInherited",
-          "tsEmitName": "NonPublicEventsWithInherited",
+          "tsEmitName": "nonPublicEventsWithInherited",
           "normalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         },
         {
           "clrName": "PublicConstructorsWithInherited",
-          "tsEmitName": "PublicConstructorsWithInherited",
+          "tsEmitName": "publicConstructorsWithInherited",
           "normalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -202,7 +202,7 @@
         },
         {
           "clrName": "PublicNestedTypesWithInherited",
-          "tsEmitName": "PublicNestedTypesWithInherited",
+          "tsEmitName": "publicNestedTypesWithInherited",
           "normalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -210,7 +210,7 @@
         },
         {
           "clrName": "AllConstructors",
-          "tsEmitName": "AllConstructors",
+          "tsEmitName": "allConstructors",
           "normalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         },
         {
           "clrName": "AllMethods",
-          "tsEmitName": "AllMethods",
+          "tsEmitName": "allMethods",
           "normalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -226,7 +226,7 @@
         },
         {
           "clrName": "AllFields",
-          "tsEmitName": "AllFields",
+          "tsEmitName": "allFields",
           "normalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         },
         {
           "clrName": "AllNestedTypes",
-          "tsEmitName": "AllNestedTypes",
+          "tsEmitName": "allNestedTypes",
           "normalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -242,7 +242,7 @@
         },
         {
           "clrName": "AllProperties",
-          "tsEmitName": "AllProperties",
+          "tsEmitName": "allProperties",
           "normalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -250,7 +250,7 @@
         },
         {
           "clrName": "AllEvents",
-          "tsEmitName": "AllEvents",
+          "tsEmitName": "allEvents",
           "normalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -258,7 +258,7 @@
         },
         {
           "clrName": "All",
-          "tsEmitName": "All",
+          "tsEmitName": "all",
           "normalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -302,7 +302,7 @@
       "properties": [
         {
           "clrName": "Min",
-          "tsEmitName": "Min",
+          "tsEmitName": "min",
           "normalizedSignature": "Min|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -316,7 +316,7 @@
         },
         {
           "clrName": "Max",
-          "tsEmitName": "Max",
+          "tsEmitName": "max",
           "normalizedSignature": "Max|:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -394,7 +394,7 @@
       "properties": [
         {
           "clrName": "ParameterValue",
-          "tsEmitName": "ParameterValue",
+          "tsEmitName": "parameterValue",
           "normalizedSignature": "ParameterValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -430,7 +430,7 @@
       "properties": [
         {
           "clrName": "MemberTypes",
-          "tsEmitName": "MemberTypes",
+          "tsEmitName": "memberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -466,7 +466,7 @@
       "properties": [
         {
           "clrName": "MemberSignature",
-          "tsEmitName": "MemberSignature",
+          "tsEmitName": "memberSignature",
           "normalizedSignature": "MemberSignature|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -480,7 +480,7 @@
         },
         {
           "clrName": "MemberTypes",
-          "tsEmitName": "MemberTypes",
+          "tsEmitName": "memberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -494,7 +494,7 @@
         },
         {
           "clrName": "Type",
-          "tsEmitName": "Type",
+          "tsEmitName": "type_",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -508,7 +508,7 @@
         },
         {
           "clrName": "TypeName",
-          "tsEmitName": "TypeName",
+          "tsEmitName": "typeName",
           "normalizedSignature": "TypeName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -522,7 +522,7 @@
         },
         {
           "clrName": "AssemblyName",
-          "tsEmitName": "AssemblyName",
+          "tsEmitName": "assemblyName",
           "normalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -536,7 +536,7 @@
         },
         {
           "clrName": "Condition",
-          "tsEmitName": "Condition",
+          "tsEmitName": "condition",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -592,7 +592,7 @@
       "properties": [
         {
           "clrName": "Justification",
-          "tsEmitName": "Justification",
+          "tsEmitName": "justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -628,7 +628,7 @@
       "properties": [
         {
           "clrName": "DiagnosticId",
-          "tsEmitName": "DiagnosticId",
+          "tsEmitName": "diagnosticId",
           "normalizedSignature": "DiagnosticId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -642,7 +642,7 @@
         },
         {
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -656,7 +656,7 @@
         },
         {
           "clrName": "UrlFormat",
-          "tsEmitName": "UrlFormat",
+          "tsEmitName": "urlFormat",
           "normalizedSignature": "UrlFormat|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -692,7 +692,7 @@
       "properties": [
         {
           "clrName": "FeatureType",
-          "tsEmitName": "FeatureType",
+          "tsEmitName": "featureType",
           "normalizedSignature": "FeatureType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -728,7 +728,7 @@
       "properties": [
         {
           "clrName": "SwitchName",
-          "tsEmitName": "SwitchName",
+          "tsEmitName": "switchName",
           "normalizedSignature": "SwitchName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -785,7 +785,7 @@
       "properties": [
         {
           "clrName": "ReturnValue",
-          "tsEmitName": "ReturnValue",
+          "tsEmitName": "returnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -821,7 +821,7 @@
       "properties": [
         {
           "clrName": "Members",
-          "tsEmitName": "Members",
+          "tsEmitName": "members",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -862,7 +862,7 @@
       "properties": [
         {
           "clrName": "ReturnValue",
-          "tsEmitName": "ReturnValue",
+          "tsEmitName": "returnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -876,7 +876,7 @@
         },
         {
           "clrName": "Members",
-          "tsEmitName": "Members",
+          "tsEmitName": "members",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -938,7 +938,7 @@
       "properties": [
         {
           "clrName": "ParameterName",
-          "tsEmitName": "ParameterName",
+          "tsEmitName": "parameterName",
           "normalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -974,7 +974,7 @@
       "properties": [
         {
           "clrName": "ReturnValue",
-          "tsEmitName": "ReturnValue",
+          "tsEmitName": "returnValue",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1010,7 +1010,7 @@
       "properties": [
         {
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1024,7 +1024,7 @@
         },
         {
           "clrName": "Url",
-          "tsEmitName": "Url",
+          "tsEmitName": "url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1065,7 +1065,7 @@
       "properties": [
         {
           "clrName": "ExcludeStatics",
-          "tsEmitName": "ExcludeStatics",
+          "tsEmitName": "excludeStatics",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1079,7 +1079,7 @@
         },
         {
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1093,7 +1093,7 @@
         },
         {
           "clrName": "Url",
-          "tsEmitName": "Url",
+          "tsEmitName": "url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1129,7 +1129,7 @@
       "properties": [
         {
           "clrName": "ExcludeStatics",
-          "tsEmitName": "ExcludeStatics",
+          "tsEmitName": "excludeStatics",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1143,7 +1143,7 @@
         },
         {
           "clrName": "Message",
-          "tsEmitName": "Message",
+          "tsEmitName": "message",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1157,7 +1157,7 @@
         },
         {
           "clrName": "Url",
-          "tsEmitName": "Url",
+          "tsEmitName": "url",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1214,7 +1214,7 @@
       "properties": [
         {
           "clrName": "Syntax",
-          "tsEmitName": "Syntax",
+          "tsEmitName": "syntax",
           "normalizedSignature": "Syntax|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1228,7 +1228,7 @@
         },
         {
           "clrName": "Arguments",
-          "tsEmitName": "Arguments",
+          "tsEmitName": "arguments",
           "normalizedSignature": "Arguments|:System.Object[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1244,7 +1244,7 @@
       "fields": [
         {
           "clrName": "CompositeFormat",
-          "tsEmitName": "CompositeFormat",
+          "tsEmitName": "compositeFormat",
           "normalizedSignature": "CompositeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1252,7 +1252,7 @@
         },
         {
           "clrName": "DateOnlyFormat",
-          "tsEmitName": "DateOnlyFormat",
+          "tsEmitName": "dateOnlyFormat",
           "normalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1260,7 +1260,7 @@
         },
         {
           "clrName": "DateTimeFormat",
-          "tsEmitName": "DateTimeFormat",
+          "tsEmitName": "dateTimeFormat",
           "normalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1268,7 +1268,7 @@
         },
         {
           "clrName": "EnumFormat",
-          "tsEmitName": "EnumFormat",
+          "tsEmitName": "enumFormat",
           "normalizedSignature": "EnumFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1276,7 +1276,7 @@
         },
         {
           "clrName": "GuidFormat",
-          "tsEmitName": "GuidFormat",
+          "tsEmitName": "guidFormat",
           "normalizedSignature": "GuidFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1284,7 +1284,7 @@
         },
         {
           "clrName": "Json",
-          "tsEmitName": "Json",
+          "tsEmitName": "json",
           "normalizedSignature": "Json|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1292,7 +1292,7 @@
         },
         {
           "clrName": "NumericFormat",
-          "tsEmitName": "NumericFormat",
+          "tsEmitName": "numericFormat",
           "normalizedSignature": "NumericFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1300,7 +1300,7 @@
         },
         {
           "clrName": "Regex",
-          "tsEmitName": "Regex",
+          "tsEmitName": "regex",
           "normalizedSignature": "Regex|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1308,7 +1308,7 @@
         },
         {
           "clrName": "TimeOnlyFormat",
-          "tsEmitName": "TimeOnlyFormat",
+          "tsEmitName": "timeOnlyFormat",
           "normalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1316,7 +1316,7 @@
         },
         {
           "clrName": "TimeSpanFormat",
-          "tsEmitName": "TimeSpanFormat",
+          "tsEmitName": "timeSpanFormat",
           "normalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1324,7 +1324,7 @@
         },
         {
           "clrName": "Uri",
-          "tsEmitName": "Uri",
+          "tsEmitName": "uri",
           "normalizedSignature": "Uri|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1332,7 +1332,7 @@
         },
         {
           "clrName": "Xml",
-          "tsEmitName": "Xml",
+          "tsEmitName": "xml",
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1366,7 +1366,7 @@
       "properties": [
         {
           "clrName": "Category",
-          "tsEmitName": "Category",
+          "tsEmitName": "category",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1380,7 +1380,7 @@
         },
         {
           "clrName": "CheckId",
-          "tsEmitName": "CheckId",
+          "tsEmitName": "checkId",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1394,7 +1394,7 @@
         },
         {
           "clrName": "Scope",
-          "tsEmitName": "Scope",
+          "tsEmitName": "scope",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1408,7 +1408,7 @@
         },
         {
           "clrName": "Target",
-          "tsEmitName": "Target",
+          "tsEmitName": "target",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1422,7 +1422,7 @@
         },
         {
           "clrName": "MessageId",
-          "tsEmitName": "MessageId",
+          "tsEmitName": "messageId",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1436,7 +1436,7 @@
         },
         {
           "clrName": "Justification",
-          "tsEmitName": "Justification",
+          "tsEmitName": "justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1472,7 +1472,7 @@
       "properties": [
         {
           "clrName": "Category",
-          "tsEmitName": "Category",
+          "tsEmitName": "category",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1486,7 +1486,7 @@
         },
         {
           "clrName": "CheckId",
-          "tsEmitName": "CheckId",
+          "tsEmitName": "checkId",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1500,7 +1500,7 @@
         },
         {
           "clrName": "Scope",
-          "tsEmitName": "Scope",
+          "tsEmitName": "scope",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1514,7 +1514,7 @@
         },
         {
           "clrName": "Target",
-          "tsEmitName": "Target",
+          "tsEmitName": "target",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1528,7 +1528,7 @@
         },
         {
           "clrName": "MessageId",
-          "tsEmitName": "MessageId",
+          "tsEmitName": "messageId",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1542,7 +1542,7 @@
         },
         {
           "clrName": "Justification",
-          "tsEmitName": "Justification",
+          "tsEmitName": "justification",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

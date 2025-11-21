@@ -16,7 +16,7 @@
       "methods": [
         {
           "clrName": "ToHtmlString",
-          "tsEmitName": "ToHtmlString",
+          "tsEmitName": "toHtmlString",
           "normalizedSignature": "ToHtmlString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -46,7 +46,7 @@
       "methods": [
         {
           "clrName": "ParseQueryString",
-          "tsEmitName": "ParseQueryString",
+          "tsEmitName": "parseQueryString",
           "normalizedSignature": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -60,7 +60,7 @@
         },
         {
           "clrName": "ParseQueryString",
-          "tsEmitName": "ParseQueryString2",
+          "tsEmitName": "parseQueryString2",
           "normalizedSignature": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -74,7 +74,7 @@
         },
         {
           "clrName": "HtmlDecode",
-          "tsEmitName": "HtmlDecode",
+          "tsEmitName": "htmlDecode",
           "normalizedSignature": "HtmlDecode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -88,7 +88,7 @@
         },
         {
           "clrName": "HtmlDecode",
-          "tsEmitName": "HtmlDecode2",
+          "tsEmitName": "htmlDecode2",
           "normalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -102,7 +102,7 @@
         },
         {
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode",
+          "tsEmitName": "htmlEncode",
           "normalizedSignature": "HtmlEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -116,7 +116,7 @@
         },
         {
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode2",
+          "tsEmitName": "htmlEncode2",
           "normalizedSignature": "HtmlEncode|(System.Object):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -130,7 +130,7 @@
         },
         {
           "clrName": "HtmlEncode",
-          "tsEmitName": "HtmlEncode3",
+          "tsEmitName": "htmlEncode3",
           "normalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -144,7 +144,7 @@
         },
         {
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "HtmlAttributeEncode",
+          "tsEmitName": "htmlAttributeEncode",
           "normalizedSignature": "HtmlAttributeEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -158,7 +158,7 @@
         },
         {
           "clrName": "HtmlAttributeEncode",
-          "tsEmitName": "HtmlAttributeEncode2",
+          "tsEmitName": "htmlAttributeEncode2",
           "normalizedSignature": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -172,7 +172,7 @@
         },
         {
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode",
+          "tsEmitName": "urlEncode",
           "normalizedSignature": "UrlEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -186,7 +186,7 @@
         },
         {
           "clrName": "UrlPathEncode",
-          "tsEmitName": "UrlPathEncode",
+          "tsEmitName": "urlPathEncode",
           "normalizedSignature": "UrlPathEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -200,7 +200,7 @@
         },
         {
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode2",
+          "tsEmitName": "urlEncode2",
           "normalizedSignature": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -214,7 +214,7 @@
         },
         {
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode3",
+          "tsEmitName": "urlEncode3",
           "normalizedSignature": "UrlEncode|(System.Byte[]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -228,7 +228,7 @@
         },
         {
           "clrName": "UrlEncode",
-          "tsEmitName": "UrlEncode4",
+          "tsEmitName": "urlEncode4",
           "normalizedSignature": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,7 +242,7 @@
         },
         {
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes",
           "normalizedSignature": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -256,7 +256,7 @@
         },
         {
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes2",
+          "tsEmitName": "urlEncodeToBytes2",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -270,7 +270,7 @@
         },
         {
           "clrName": "UrlEncodeUnicodeToBytes",
-          "tsEmitName": "UrlEncodeUnicodeToBytes",
+          "tsEmitName": "urlEncodeUnicodeToBytes",
           "normalizedSignature": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -284,7 +284,7 @@
         },
         {
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode",
+          "tsEmitName": "urlDecode",
           "normalizedSignature": "UrlDecode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -298,7 +298,7 @@
         },
         {
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode2",
+          "tsEmitName": "urlDecode2",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -312,7 +312,7 @@
         },
         {
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes",
           "normalizedSignature": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -326,7 +326,7 @@
         },
         {
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes2",
+          "tsEmitName": "urlDecodeToBytes2",
           "normalizedSignature": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,7 +340,7 @@
         },
         {
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes3",
+          "tsEmitName": "urlDecodeToBytes3",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -354,7 +354,7 @@
         },
         {
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes3",
+          "tsEmitName": "urlEncodeToBytes3",
           "normalizedSignature": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -368,7 +368,7 @@
         },
         {
           "clrName": "UrlEncodeToBytes",
-          "tsEmitName": "UrlEncodeToBytes4",
+          "tsEmitName": "urlEncodeToBytes4",
           "normalizedSignature": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -382,7 +382,7 @@
         },
         {
           "clrName": "UrlEncodeUnicode",
-          "tsEmitName": "UrlEncodeUnicode",
+          "tsEmitName": "urlEncodeUnicode",
           "normalizedSignature": "UrlEncodeUnicode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         },
         {
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode3",
+          "tsEmitName": "urlDecode3",
           "normalizedSignature": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -410,7 +410,7 @@
         },
         {
           "clrName": "UrlDecode",
-          "tsEmitName": "UrlDecode4",
+          "tsEmitName": "urlDecode4",
           "normalizedSignature": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -424,7 +424,7 @@
         },
         {
           "clrName": "UrlDecodeToBytes",
-          "tsEmitName": "UrlDecodeToBytes4",
+          "tsEmitName": "urlDecodeToBytes4",
           "normalizedSignature": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -438,7 +438,7 @@
         },
         {
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "JavaScriptStringEncode",
+          "tsEmitName": "javaScriptStringEncode",
           "normalizedSignature": "JavaScriptStringEncode|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -452,7 +452,7 @@
         },
         {
           "clrName": "JavaScriptStringEncode",
-          "tsEmitName": "JavaScriptStringEncode2",
+          "tsEmitName": "javaScriptStringEncode2",
           "normalizedSignature": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

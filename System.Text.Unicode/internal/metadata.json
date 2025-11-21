@@ -1,8 +1,8 @@
 {
   "namespace": "System.Text.Unicode",
   "contributingAssemblies": [
-    "System.Private.CoreLib",
-    "System.Text.Encodings.Web"
+    "System.Text.Encodings.Web",
+    "System.Private.CoreLib"
   ],
   "types": [
     {
@@ -17,7 +17,7 @@
       "methods": [
         {
           "clrName": "AppendLiteral",
-          "tsEmitName": "AppendLiteral",
+          "tsEmitName": "appendLiteral",
           "normalizedSignature": "AppendLiteral|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -31,7 +31,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -45,7 +45,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted2",
+          "tsEmitName": "appendFormatted2",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -59,7 +59,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted3",
+          "tsEmitName": "appendFormatted3",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -73,7 +73,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted4",
+          "tsEmitName": "appendFormatted4",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -87,7 +87,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted5",
+          "tsEmitName": "appendFormatted5",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -101,7 +101,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted6",
+          "tsEmitName": "appendFormatted6",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -115,7 +115,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted7",
+          "tsEmitName": "appendFormatted7",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -129,7 +129,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted8",
+          "tsEmitName": "appendFormatted8",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -143,7 +143,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted9",
+          "tsEmitName": "appendFormatted9",
           "normalizedSignature": "AppendFormatted|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -157,7 +157,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted10",
+          "tsEmitName": "appendFormatted10",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -171,7 +171,7 @@
         },
         {
           "clrName": "AppendFormatted",
-          "tsEmitName": "AppendFormatted11",
+          "tsEmitName": "appendFormatted11",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -212,7 +212,7 @@
       "methods": [
         {
           "clrName": "Create",
-          "tsEmitName": "Create",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Char,System.Char):System.Text.Unicode.UnicodeRange|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -228,7 +228,7 @@
       "properties": [
         {
           "clrName": "FirstCodePoint",
-          "tsEmitName": "FirstCodePoint",
+          "tsEmitName": "firstCodePoint",
           "normalizedSignature": "FirstCodePoint|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,7 +242,7 @@
         },
         {
           "clrName": "Length",
-          "tsEmitName": "Length",
+          "tsEmitName": "length",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -278,7 +278,7 @@
       "properties": [
         {
           "clrName": "None",
-          "tsEmitName": "None",
+          "tsEmitName": "none",
           "normalizedSignature": "None|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -292,7 +292,7 @@
         },
         {
           "clrName": "All",
-          "tsEmitName": "All",
+          "tsEmitName": "all",
           "normalizedSignature": "All|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -306,7 +306,7 @@
         },
         {
           "clrName": "BasicLatin",
-          "tsEmitName": "BasicLatin",
+          "tsEmitName": "basicLatin",
           "normalizedSignature": "BasicLatin|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -320,7 +320,7 @@
         },
         {
           "clrName": "Latin1Supplement",
-          "tsEmitName": "Latin1Supplement",
+          "tsEmitName": "latin1Supplement",
           "normalizedSignature": "Latin1Supplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -334,7 +334,7 @@
         },
         {
           "clrName": "LatinExtendedA",
-          "tsEmitName": "LatinExtendedA",
+          "tsEmitName": "latinExtendedA",
           "normalizedSignature": "LatinExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -348,7 +348,7 @@
         },
         {
           "clrName": "LatinExtendedB",
-          "tsEmitName": "LatinExtendedB",
+          "tsEmitName": "latinExtendedB",
           "normalizedSignature": "LatinExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -362,7 +362,7 @@
         },
         {
           "clrName": "IpaExtensions",
-          "tsEmitName": "IpaExtensions",
+          "tsEmitName": "ipaExtensions",
           "normalizedSignature": "IpaExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -376,7 +376,7 @@
         },
         {
           "clrName": "SpacingModifierLetters",
-          "tsEmitName": "SpacingModifierLetters",
+          "tsEmitName": "spacingModifierLetters",
           "normalizedSignature": "SpacingModifierLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -390,7 +390,7 @@
         },
         {
           "clrName": "CombiningDiacriticalMarks",
-          "tsEmitName": "CombiningDiacriticalMarks",
+          "tsEmitName": "combiningDiacriticalMarks",
           "normalizedSignature": "CombiningDiacriticalMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -404,7 +404,7 @@
         },
         {
           "clrName": "GreekandCoptic",
-          "tsEmitName": "GreekandCoptic",
+          "tsEmitName": "greekandCoptic",
           "normalizedSignature": "GreekandCoptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -418,7 +418,7 @@
         },
         {
           "clrName": "Cyrillic",
-          "tsEmitName": "Cyrillic",
+          "tsEmitName": "cyrillic",
           "normalizedSignature": "Cyrillic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -432,7 +432,7 @@
         },
         {
           "clrName": "CyrillicSupplement",
-          "tsEmitName": "CyrillicSupplement",
+          "tsEmitName": "cyrillicSupplement",
           "normalizedSignature": "CyrillicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -446,7 +446,7 @@
         },
         {
           "clrName": "Armenian",
-          "tsEmitName": "Armenian",
+          "tsEmitName": "armenian",
           "normalizedSignature": "Armenian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -460,7 +460,7 @@
         },
         {
           "clrName": "Hebrew",
-          "tsEmitName": "Hebrew",
+          "tsEmitName": "hebrew",
           "normalizedSignature": "Hebrew|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -474,7 +474,7 @@
         },
         {
           "clrName": "Arabic",
-          "tsEmitName": "Arabic",
+          "tsEmitName": "arabic",
           "normalizedSignature": "Arabic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -488,7 +488,7 @@
         },
         {
           "clrName": "Syriac",
-          "tsEmitName": "Syriac",
+          "tsEmitName": "syriac",
           "normalizedSignature": "Syriac|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -502,7 +502,7 @@
         },
         {
           "clrName": "ArabicSupplement",
-          "tsEmitName": "ArabicSupplement",
+          "tsEmitName": "arabicSupplement",
           "normalizedSignature": "ArabicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -516,7 +516,7 @@
         },
         {
           "clrName": "Thaana",
-          "tsEmitName": "Thaana",
+          "tsEmitName": "thaana",
           "normalizedSignature": "Thaana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -530,7 +530,7 @@
         },
         {
           "clrName": "NKo",
-          "tsEmitName": "NKo",
+          "tsEmitName": "nKo",
           "normalizedSignature": "NKo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -544,7 +544,7 @@
         },
         {
           "clrName": "Samaritan",
-          "tsEmitName": "Samaritan",
+          "tsEmitName": "samaritan",
           "normalizedSignature": "Samaritan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -558,7 +558,7 @@
         },
         {
           "clrName": "Mandaic",
-          "tsEmitName": "Mandaic",
+          "tsEmitName": "mandaic",
           "normalizedSignature": "Mandaic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -572,7 +572,7 @@
         },
         {
           "clrName": "SyriacSupplement",
-          "tsEmitName": "SyriacSupplement",
+          "tsEmitName": "syriacSupplement",
           "normalizedSignature": "SyriacSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -586,7 +586,7 @@
         },
         {
           "clrName": "ArabicExtendedB",
-          "tsEmitName": "ArabicExtendedB",
+          "tsEmitName": "arabicExtendedB",
           "normalizedSignature": "ArabicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -600,7 +600,7 @@
         },
         {
           "clrName": "ArabicExtendedA",
-          "tsEmitName": "ArabicExtendedA",
+          "tsEmitName": "arabicExtendedA",
           "normalizedSignature": "ArabicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -614,7 +614,7 @@
         },
         {
           "clrName": "Devanagari",
-          "tsEmitName": "Devanagari",
+          "tsEmitName": "devanagari",
           "normalizedSignature": "Devanagari|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -628,7 +628,7 @@
         },
         {
           "clrName": "Bengali",
-          "tsEmitName": "Bengali",
+          "tsEmitName": "bengali",
           "normalizedSignature": "Bengali|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -642,7 +642,7 @@
         },
         {
           "clrName": "Gurmukhi",
-          "tsEmitName": "Gurmukhi",
+          "tsEmitName": "gurmukhi",
           "normalizedSignature": "Gurmukhi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -656,7 +656,7 @@
         },
         {
           "clrName": "Gujarati",
-          "tsEmitName": "Gujarati",
+          "tsEmitName": "gujarati",
           "normalizedSignature": "Gujarati|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -670,7 +670,7 @@
         },
         {
           "clrName": "Oriya",
-          "tsEmitName": "Oriya",
+          "tsEmitName": "oriya",
           "normalizedSignature": "Oriya|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -684,7 +684,7 @@
         },
         {
           "clrName": "Tamil",
-          "tsEmitName": "Tamil",
+          "tsEmitName": "tamil",
           "normalizedSignature": "Tamil|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -698,7 +698,7 @@
         },
         {
           "clrName": "Telugu",
-          "tsEmitName": "Telugu",
+          "tsEmitName": "telugu",
           "normalizedSignature": "Telugu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -712,7 +712,7 @@
         },
         {
           "clrName": "Kannada",
-          "tsEmitName": "Kannada",
+          "tsEmitName": "kannada",
           "normalizedSignature": "Kannada|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -726,7 +726,7 @@
         },
         {
           "clrName": "Malayalam",
-          "tsEmitName": "Malayalam",
+          "tsEmitName": "malayalam",
           "normalizedSignature": "Malayalam|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,7 +740,7 @@
         },
         {
           "clrName": "Sinhala",
-          "tsEmitName": "Sinhala",
+          "tsEmitName": "sinhala",
           "normalizedSignature": "Sinhala|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -754,7 +754,7 @@
         },
         {
           "clrName": "Thai",
-          "tsEmitName": "Thai",
+          "tsEmitName": "thai",
           "normalizedSignature": "Thai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -768,7 +768,7 @@
         },
         {
           "clrName": "Lao",
-          "tsEmitName": "Lao",
+          "tsEmitName": "lao",
           "normalizedSignature": "Lao|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -782,7 +782,7 @@
         },
         {
           "clrName": "Tibetan",
-          "tsEmitName": "Tibetan",
+          "tsEmitName": "tibetan",
           "normalizedSignature": "Tibetan|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -796,7 +796,7 @@
         },
         {
           "clrName": "Myanmar",
-          "tsEmitName": "Myanmar",
+          "tsEmitName": "myanmar",
           "normalizedSignature": "Myanmar|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -810,7 +810,7 @@
         },
         {
           "clrName": "Georgian",
-          "tsEmitName": "Georgian",
+          "tsEmitName": "georgian",
           "normalizedSignature": "Georgian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -824,7 +824,7 @@
         },
         {
           "clrName": "HangulJamo",
-          "tsEmitName": "HangulJamo",
+          "tsEmitName": "hangulJamo",
           "normalizedSignature": "HangulJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         },
         {
           "clrName": "Ethiopic",
-          "tsEmitName": "Ethiopic",
+          "tsEmitName": "ethiopic",
           "normalizedSignature": "Ethiopic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -852,7 +852,7 @@
         },
         {
           "clrName": "EthiopicSupplement",
-          "tsEmitName": "EthiopicSupplement",
+          "tsEmitName": "ethiopicSupplement",
           "normalizedSignature": "EthiopicSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -866,7 +866,7 @@
         },
         {
           "clrName": "Cherokee",
-          "tsEmitName": "Cherokee",
+          "tsEmitName": "cherokee",
           "normalizedSignature": "Cherokee|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -880,7 +880,7 @@
         },
         {
           "clrName": "UnifiedCanadianAboriginalSyllabics",
-          "tsEmitName": "UnifiedCanadianAboriginalSyllabics",
+          "tsEmitName": "unifiedCanadianAboriginalSyllabics",
           "normalizedSignature": "UnifiedCanadianAboriginalSyllabics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -894,7 +894,7 @@
         },
         {
           "clrName": "Ogham",
-          "tsEmitName": "Ogham",
+          "tsEmitName": "ogham",
           "normalizedSignature": "Ogham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -908,7 +908,7 @@
         },
         {
           "clrName": "Runic",
-          "tsEmitName": "Runic",
+          "tsEmitName": "runic",
           "normalizedSignature": "Runic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -922,7 +922,7 @@
         },
         {
           "clrName": "Tagalog",
-          "tsEmitName": "Tagalog",
+          "tsEmitName": "tagalog",
           "normalizedSignature": "Tagalog|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         },
         {
           "clrName": "Hanunoo",
-          "tsEmitName": "Hanunoo",
+          "tsEmitName": "hanunoo",
           "normalizedSignature": "Hanunoo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -950,7 +950,7 @@
         },
         {
           "clrName": "Buhid",
-          "tsEmitName": "Buhid",
+          "tsEmitName": "buhid",
           "normalizedSignature": "Buhid|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -964,7 +964,7 @@
         },
         {
           "clrName": "Tagbanwa",
-          "tsEmitName": "Tagbanwa",
+          "tsEmitName": "tagbanwa",
           "normalizedSignature": "Tagbanwa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -978,7 +978,7 @@
         },
         {
           "clrName": "Khmer",
-          "tsEmitName": "Khmer",
+          "tsEmitName": "khmer",
           "normalizedSignature": "Khmer|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -992,7 +992,7 @@
         },
         {
           "clrName": "Mongolian",
-          "tsEmitName": "Mongolian",
+          "tsEmitName": "mongolian",
           "normalizedSignature": "Mongolian|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1006,7 +1006,7 @@
         },
         {
           "clrName": "UnifiedCanadianAboriginalSyllabicsExtended",
-          "tsEmitName": "UnifiedCanadianAboriginalSyllabicsExtended",
+          "tsEmitName": "unifiedCanadianAboriginalSyllabicsExtended",
           "normalizedSignature": "UnifiedCanadianAboriginalSyllabicsExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1020,7 +1020,7 @@
         },
         {
           "clrName": "Limbu",
-          "tsEmitName": "Limbu",
+          "tsEmitName": "limbu",
           "normalizedSignature": "Limbu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1034,7 +1034,7 @@
         },
         {
           "clrName": "TaiLe",
-          "tsEmitName": "TaiLe",
+          "tsEmitName": "taiLe",
           "normalizedSignature": "TaiLe|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1048,7 +1048,7 @@
         },
         {
           "clrName": "NewTaiLue",
-          "tsEmitName": "NewTaiLue",
+          "tsEmitName": "newTaiLue",
           "normalizedSignature": "NewTaiLue|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1062,7 +1062,7 @@
         },
         {
           "clrName": "KhmerSymbols",
-          "tsEmitName": "KhmerSymbols",
+          "tsEmitName": "khmerSymbols",
           "normalizedSignature": "KhmerSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1076,7 +1076,7 @@
         },
         {
           "clrName": "Buginese",
-          "tsEmitName": "Buginese",
+          "tsEmitName": "buginese",
           "normalizedSignature": "Buginese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1090,7 +1090,7 @@
         },
         {
           "clrName": "TaiTham",
-          "tsEmitName": "TaiTham",
+          "tsEmitName": "taiTham",
           "normalizedSignature": "TaiTham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1104,7 +1104,7 @@
         },
         {
           "clrName": "CombiningDiacriticalMarksExtended",
-          "tsEmitName": "CombiningDiacriticalMarksExtended",
+          "tsEmitName": "combiningDiacriticalMarksExtended",
           "normalizedSignature": "CombiningDiacriticalMarksExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1118,7 +1118,7 @@
         },
         {
           "clrName": "Balinese",
-          "tsEmitName": "Balinese",
+          "tsEmitName": "balinese",
           "normalizedSignature": "Balinese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1132,7 +1132,7 @@
         },
         {
           "clrName": "Sundanese",
-          "tsEmitName": "Sundanese",
+          "tsEmitName": "sundanese",
           "normalizedSignature": "Sundanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         },
         {
           "clrName": "Batak",
-          "tsEmitName": "Batak",
+          "tsEmitName": "batak",
           "normalizedSignature": "Batak|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1160,7 +1160,7 @@
         },
         {
           "clrName": "Lepcha",
-          "tsEmitName": "Lepcha",
+          "tsEmitName": "lepcha",
           "normalizedSignature": "Lepcha|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1174,7 +1174,7 @@
         },
         {
           "clrName": "OlChiki",
-          "tsEmitName": "OlChiki",
+          "tsEmitName": "olChiki",
           "normalizedSignature": "OlChiki|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1188,7 +1188,7 @@
         },
         {
           "clrName": "CyrillicExtendedC",
-          "tsEmitName": "CyrillicExtendedC",
+          "tsEmitName": "cyrillicExtendedC",
           "normalizedSignature": "CyrillicExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1202,7 +1202,7 @@
         },
         {
           "clrName": "GeorgianExtended",
-          "tsEmitName": "GeorgianExtended",
+          "tsEmitName": "georgianExtended",
           "normalizedSignature": "GeorgianExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1216,7 +1216,7 @@
         },
         {
           "clrName": "SundaneseSupplement",
-          "tsEmitName": "SundaneseSupplement",
+          "tsEmitName": "sundaneseSupplement",
           "normalizedSignature": "SundaneseSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1230,7 +1230,7 @@
         },
         {
           "clrName": "VedicExtensions",
-          "tsEmitName": "VedicExtensions",
+          "tsEmitName": "vedicExtensions",
           "normalizedSignature": "VedicExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1244,7 +1244,7 @@
         },
         {
           "clrName": "PhoneticExtensions",
-          "tsEmitName": "PhoneticExtensions",
+          "tsEmitName": "phoneticExtensions",
           "normalizedSignature": "PhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1258,7 +1258,7 @@
         },
         {
           "clrName": "PhoneticExtensionsSupplement",
-          "tsEmitName": "PhoneticExtensionsSupplement",
+          "tsEmitName": "phoneticExtensionsSupplement",
           "normalizedSignature": "PhoneticExtensionsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1272,7 +1272,7 @@
         },
         {
           "clrName": "CombiningDiacriticalMarksSupplement",
-          "tsEmitName": "CombiningDiacriticalMarksSupplement",
+          "tsEmitName": "combiningDiacriticalMarksSupplement",
           "normalizedSignature": "CombiningDiacriticalMarksSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1286,7 +1286,7 @@
         },
         {
           "clrName": "LatinExtendedAdditional",
-          "tsEmitName": "LatinExtendedAdditional",
+          "tsEmitName": "latinExtendedAdditional",
           "normalizedSignature": "LatinExtendedAdditional|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1300,7 +1300,7 @@
         },
         {
           "clrName": "GreekExtended",
-          "tsEmitName": "GreekExtended",
+          "tsEmitName": "greekExtended",
           "normalizedSignature": "GreekExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1314,7 +1314,7 @@
         },
         {
           "clrName": "GeneralPunctuation",
-          "tsEmitName": "GeneralPunctuation",
+          "tsEmitName": "generalPunctuation",
           "normalizedSignature": "GeneralPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1328,7 +1328,7 @@
         },
         {
           "clrName": "SuperscriptsandSubscripts",
-          "tsEmitName": "SuperscriptsandSubscripts",
+          "tsEmitName": "superscriptsandSubscripts",
           "normalizedSignature": "SuperscriptsandSubscripts|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1342,7 +1342,7 @@
         },
         {
           "clrName": "CurrencySymbols",
-          "tsEmitName": "CurrencySymbols",
+          "tsEmitName": "currencySymbols",
           "normalizedSignature": "CurrencySymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1356,7 +1356,7 @@
         },
         {
           "clrName": "CombiningDiacriticalMarksforSymbols",
-          "tsEmitName": "CombiningDiacriticalMarksforSymbols",
+          "tsEmitName": "combiningDiacriticalMarksforSymbols",
           "normalizedSignature": "CombiningDiacriticalMarksforSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1370,7 +1370,7 @@
         },
         {
           "clrName": "LetterlikeSymbols",
-          "tsEmitName": "LetterlikeSymbols",
+          "tsEmitName": "letterlikeSymbols",
           "normalizedSignature": "LetterlikeSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1384,7 +1384,7 @@
         },
         {
           "clrName": "NumberForms",
-          "tsEmitName": "NumberForms",
+          "tsEmitName": "numberForms",
           "normalizedSignature": "NumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1398,7 +1398,7 @@
         },
         {
           "clrName": "Arrows",
-          "tsEmitName": "Arrows",
+          "tsEmitName": "arrows",
           "normalizedSignature": "Arrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1412,7 +1412,7 @@
         },
         {
           "clrName": "MathematicalOperators",
-          "tsEmitName": "MathematicalOperators",
+          "tsEmitName": "mathematicalOperators",
           "normalizedSignature": "MathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1426,7 +1426,7 @@
         },
         {
           "clrName": "MiscellaneousTechnical",
-          "tsEmitName": "MiscellaneousTechnical",
+          "tsEmitName": "miscellaneousTechnical",
           "normalizedSignature": "MiscellaneousTechnical|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1440,7 +1440,7 @@
         },
         {
           "clrName": "ControlPictures",
-          "tsEmitName": "ControlPictures",
+          "tsEmitName": "controlPictures",
           "normalizedSignature": "ControlPictures|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1454,7 +1454,7 @@
         },
         {
           "clrName": "OpticalCharacterRecognition",
-          "tsEmitName": "OpticalCharacterRecognition",
+          "tsEmitName": "opticalCharacterRecognition",
           "normalizedSignature": "OpticalCharacterRecognition|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1468,7 +1468,7 @@
         },
         {
           "clrName": "EnclosedAlphanumerics",
-          "tsEmitName": "EnclosedAlphanumerics",
+          "tsEmitName": "enclosedAlphanumerics",
           "normalizedSignature": "EnclosedAlphanumerics|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1482,7 +1482,7 @@
         },
         {
           "clrName": "BoxDrawing",
-          "tsEmitName": "BoxDrawing",
+          "tsEmitName": "boxDrawing",
           "normalizedSignature": "BoxDrawing|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1496,7 +1496,7 @@
         },
         {
           "clrName": "BlockElements",
-          "tsEmitName": "BlockElements",
+          "tsEmitName": "blockElements",
           "normalizedSignature": "BlockElements|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1510,7 +1510,7 @@
         },
         {
           "clrName": "GeometricShapes",
-          "tsEmitName": "GeometricShapes",
+          "tsEmitName": "geometricShapes",
           "normalizedSignature": "GeometricShapes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1524,7 +1524,7 @@
         },
         {
           "clrName": "MiscellaneousSymbols",
-          "tsEmitName": "MiscellaneousSymbols",
+          "tsEmitName": "miscellaneousSymbols",
           "normalizedSignature": "MiscellaneousSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1538,7 +1538,7 @@
         },
         {
           "clrName": "Dingbats",
-          "tsEmitName": "Dingbats",
+          "tsEmitName": "dingbats",
           "normalizedSignature": "Dingbats|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1552,7 +1552,7 @@
         },
         {
           "clrName": "MiscellaneousMathematicalSymbolsA",
-          "tsEmitName": "MiscellaneousMathematicalSymbolsA",
+          "tsEmitName": "miscellaneousMathematicalSymbolsA",
           "normalizedSignature": "MiscellaneousMathematicalSymbolsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1566,7 +1566,7 @@
         },
         {
           "clrName": "SupplementalArrowsA",
-          "tsEmitName": "SupplementalArrowsA",
+          "tsEmitName": "supplementalArrowsA",
           "normalizedSignature": "SupplementalArrowsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1580,7 +1580,7 @@
         },
         {
           "clrName": "BraillePatterns",
-          "tsEmitName": "BraillePatterns",
+          "tsEmitName": "braillePatterns",
           "normalizedSignature": "BraillePatterns|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1594,7 +1594,7 @@
         },
         {
           "clrName": "SupplementalArrowsB",
-          "tsEmitName": "SupplementalArrowsB",
+          "tsEmitName": "supplementalArrowsB",
           "normalizedSignature": "SupplementalArrowsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1608,7 +1608,7 @@
         },
         {
           "clrName": "MiscellaneousMathematicalSymbolsB",
-          "tsEmitName": "MiscellaneousMathematicalSymbolsB",
+          "tsEmitName": "miscellaneousMathematicalSymbolsB",
           "normalizedSignature": "MiscellaneousMathematicalSymbolsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1622,7 +1622,7 @@
         },
         {
           "clrName": "SupplementalMathematicalOperators",
-          "tsEmitName": "SupplementalMathematicalOperators",
+          "tsEmitName": "supplementalMathematicalOperators",
           "normalizedSignature": "SupplementalMathematicalOperators|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1636,7 +1636,7 @@
         },
         {
           "clrName": "MiscellaneousSymbolsandArrows",
-          "tsEmitName": "MiscellaneousSymbolsandArrows",
+          "tsEmitName": "miscellaneousSymbolsandArrows",
           "normalizedSignature": "MiscellaneousSymbolsandArrows|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1650,7 +1650,7 @@
         },
         {
           "clrName": "Glagolitic",
-          "tsEmitName": "Glagolitic",
+          "tsEmitName": "glagolitic",
           "normalizedSignature": "Glagolitic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1664,7 +1664,7 @@
         },
         {
           "clrName": "LatinExtendedC",
-          "tsEmitName": "LatinExtendedC",
+          "tsEmitName": "latinExtendedC",
           "normalizedSignature": "LatinExtendedC|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1678,7 +1678,7 @@
         },
         {
           "clrName": "Coptic",
-          "tsEmitName": "Coptic",
+          "tsEmitName": "coptic",
           "normalizedSignature": "Coptic|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1692,7 +1692,7 @@
         },
         {
           "clrName": "GeorgianSupplement",
-          "tsEmitName": "GeorgianSupplement",
+          "tsEmitName": "georgianSupplement",
           "normalizedSignature": "GeorgianSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1706,7 +1706,7 @@
         },
         {
           "clrName": "Tifinagh",
-          "tsEmitName": "Tifinagh",
+          "tsEmitName": "tifinagh",
           "normalizedSignature": "Tifinagh|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1720,7 +1720,7 @@
         },
         {
           "clrName": "EthiopicExtended",
-          "tsEmitName": "EthiopicExtended",
+          "tsEmitName": "ethiopicExtended",
           "normalizedSignature": "EthiopicExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1734,7 +1734,7 @@
         },
         {
           "clrName": "CyrillicExtendedA",
-          "tsEmitName": "CyrillicExtendedA",
+          "tsEmitName": "cyrillicExtendedA",
           "normalizedSignature": "CyrillicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1748,7 +1748,7 @@
         },
         {
           "clrName": "SupplementalPunctuation",
-          "tsEmitName": "SupplementalPunctuation",
+          "tsEmitName": "supplementalPunctuation",
           "normalizedSignature": "SupplementalPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1762,7 +1762,7 @@
         },
         {
           "clrName": "CjkRadicalsSupplement",
-          "tsEmitName": "CjkRadicalsSupplement",
+          "tsEmitName": "cjkRadicalsSupplement",
           "normalizedSignature": "CjkRadicalsSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1776,7 +1776,7 @@
         },
         {
           "clrName": "KangxiRadicals",
-          "tsEmitName": "KangxiRadicals",
+          "tsEmitName": "kangxiRadicals",
           "normalizedSignature": "KangxiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1790,7 +1790,7 @@
         },
         {
           "clrName": "IdeographicDescriptionCharacters",
-          "tsEmitName": "IdeographicDescriptionCharacters",
+          "tsEmitName": "ideographicDescriptionCharacters",
           "normalizedSignature": "IdeographicDescriptionCharacters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1804,7 +1804,7 @@
         },
         {
           "clrName": "CjkSymbolsandPunctuation",
-          "tsEmitName": "CjkSymbolsandPunctuation",
+          "tsEmitName": "cjkSymbolsandPunctuation",
           "normalizedSignature": "CjkSymbolsandPunctuation|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1818,7 +1818,7 @@
         },
         {
           "clrName": "Hiragana",
-          "tsEmitName": "Hiragana",
+          "tsEmitName": "hiragana",
           "normalizedSignature": "Hiragana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1832,7 +1832,7 @@
         },
         {
           "clrName": "Katakana",
-          "tsEmitName": "Katakana",
+          "tsEmitName": "katakana",
           "normalizedSignature": "Katakana|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1846,7 +1846,7 @@
         },
         {
           "clrName": "Bopomofo",
-          "tsEmitName": "Bopomofo",
+          "tsEmitName": "bopomofo",
           "normalizedSignature": "Bopomofo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1860,7 +1860,7 @@
         },
         {
           "clrName": "HangulCompatibilityJamo",
-          "tsEmitName": "HangulCompatibilityJamo",
+          "tsEmitName": "hangulCompatibilityJamo",
           "normalizedSignature": "HangulCompatibilityJamo|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1874,7 +1874,7 @@
         },
         {
           "clrName": "Kanbun",
-          "tsEmitName": "Kanbun",
+          "tsEmitName": "kanbun",
           "normalizedSignature": "Kanbun|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1888,7 +1888,7 @@
         },
         {
           "clrName": "BopomofoExtended",
-          "tsEmitName": "BopomofoExtended",
+          "tsEmitName": "bopomofoExtended",
           "normalizedSignature": "BopomofoExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1902,7 +1902,7 @@
         },
         {
           "clrName": "CjkStrokes",
-          "tsEmitName": "CjkStrokes",
+          "tsEmitName": "cjkStrokes",
           "normalizedSignature": "CjkStrokes|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1916,7 +1916,7 @@
         },
         {
           "clrName": "KatakanaPhoneticExtensions",
-          "tsEmitName": "KatakanaPhoneticExtensions",
+          "tsEmitName": "katakanaPhoneticExtensions",
           "normalizedSignature": "KatakanaPhoneticExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1930,7 +1930,7 @@
         },
         {
           "clrName": "EnclosedCjkLettersandMonths",
-          "tsEmitName": "EnclosedCjkLettersandMonths",
+          "tsEmitName": "enclosedCjkLettersandMonths",
           "normalizedSignature": "EnclosedCjkLettersandMonths|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1944,7 +1944,7 @@
         },
         {
           "clrName": "CjkCompatibility",
-          "tsEmitName": "CjkCompatibility",
+          "tsEmitName": "cjkCompatibility",
           "normalizedSignature": "CjkCompatibility|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1958,7 +1958,7 @@
         },
         {
           "clrName": "CjkUnifiedIdeographsExtensionA",
-          "tsEmitName": "CjkUnifiedIdeographsExtensionA",
+          "tsEmitName": "cjkUnifiedIdeographsExtensionA",
           "normalizedSignature": "CjkUnifiedIdeographsExtensionA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1972,7 +1972,7 @@
         },
         {
           "clrName": "YijingHexagramSymbols",
-          "tsEmitName": "YijingHexagramSymbols",
+          "tsEmitName": "yijingHexagramSymbols",
           "normalizedSignature": "YijingHexagramSymbols|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1986,7 +1986,7 @@
         },
         {
           "clrName": "CjkUnifiedIdeographs",
-          "tsEmitName": "CjkUnifiedIdeographs",
+          "tsEmitName": "cjkUnifiedIdeographs",
           "normalizedSignature": "CjkUnifiedIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2000,7 +2000,7 @@
         },
         {
           "clrName": "YiSyllables",
-          "tsEmitName": "YiSyllables",
+          "tsEmitName": "yiSyllables",
           "normalizedSignature": "YiSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2014,7 +2014,7 @@
         },
         {
           "clrName": "YiRadicals",
-          "tsEmitName": "YiRadicals",
+          "tsEmitName": "yiRadicals",
           "normalizedSignature": "YiRadicals|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2028,7 +2028,7 @@
         },
         {
           "clrName": "Lisu",
-          "tsEmitName": "Lisu",
+          "tsEmitName": "lisu",
           "normalizedSignature": "Lisu|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2042,7 +2042,7 @@
         },
         {
           "clrName": "Vai",
-          "tsEmitName": "Vai",
+          "tsEmitName": "vai",
           "normalizedSignature": "Vai|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2056,7 +2056,7 @@
         },
         {
           "clrName": "CyrillicExtendedB",
-          "tsEmitName": "CyrillicExtendedB",
+          "tsEmitName": "cyrillicExtendedB",
           "normalizedSignature": "CyrillicExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2070,7 +2070,7 @@
         },
         {
           "clrName": "Bamum",
-          "tsEmitName": "Bamum",
+          "tsEmitName": "bamum",
           "normalizedSignature": "Bamum|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2084,7 +2084,7 @@
         },
         {
           "clrName": "ModifierToneLetters",
-          "tsEmitName": "ModifierToneLetters",
+          "tsEmitName": "modifierToneLetters",
           "normalizedSignature": "ModifierToneLetters|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2098,7 +2098,7 @@
         },
         {
           "clrName": "LatinExtendedD",
-          "tsEmitName": "LatinExtendedD",
+          "tsEmitName": "latinExtendedD",
           "normalizedSignature": "LatinExtendedD|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2112,7 +2112,7 @@
         },
         {
           "clrName": "SylotiNagri",
-          "tsEmitName": "SylotiNagri",
+          "tsEmitName": "sylotiNagri",
           "normalizedSignature": "SylotiNagri|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2126,7 +2126,7 @@
         },
         {
           "clrName": "CommonIndicNumberForms",
-          "tsEmitName": "CommonIndicNumberForms",
+          "tsEmitName": "commonIndicNumberForms",
           "normalizedSignature": "CommonIndicNumberForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2140,7 +2140,7 @@
         },
         {
           "clrName": "Phagspa",
-          "tsEmitName": "Phagspa",
+          "tsEmitName": "phagspa",
           "normalizedSignature": "Phagspa|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2154,7 +2154,7 @@
         },
         {
           "clrName": "Saurashtra",
-          "tsEmitName": "Saurashtra",
+          "tsEmitName": "saurashtra",
           "normalizedSignature": "Saurashtra|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2168,7 +2168,7 @@
         },
         {
           "clrName": "DevanagariExtended",
-          "tsEmitName": "DevanagariExtended",
+          "tsEmitName": "devanagariExtended",
           "normalizedSignature": "DevanagariExtended|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2182,7 +2182,7 @@
         },
         {
           "clrName": "KayahLi",
-          "tsEmitName": "KayahLi",
+          "tsEmitName": "kayahLi",
           "normalizedSignature": "KayahLi|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2196,7 +2196,7 @@
         },
         {
           "clrName": "Rejang",
-          "tsEmitName": "Rejang",
+          "tsEmitName": "rejang",
           "normalizedSignature": "Rejang|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2210,7 +2210,7 @@
         },
         {
           "clrName": "HangulJamoExtendedA",
-          "tsEmitName": "HangulJamoExtendedA",
+          "tsEmitName": "hangulJamoExtendedA",
           "normalizedSignature": "HangulJamoExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2224,7 +2224,7 @@
         },
         {
           "clrName": "Javanese",
-          "tsEmitName": "Javanese",
+          "tsEmitName": "javanese",
           "normalizedSignature": "Javanese|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2238,7 +2238,7 @@
         },
         {
           "clrName": "MyanmarExtendedB",
-          "tsEmitName": "MyanmarExtendedB",
+          "tsEmitName": "myanmarExtendedB",
           "normalizedSignature": "MyanmarExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2252,7 +2252,7 @@
         },
         {
           "clrName": "Cham",
-          "tsEmitName": "Cham",
+          "tsEmitName": "cham",
           "normalizedSignature": "Cham|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2266,7 +2266,7 @@
         },
         {
           "clrName": "MyanmarExtendedA",
-          "tsEmitName": "MyanmarExtendedA",
+          "tsEmitName": "myanmarExtendedA",
           "normalizedSignature": "MyanmarExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2280,7 +2280,7 @@
         },
         {
           "clrName": "TaiViet",
-          "tsEmitName": "TaiViet",
+          "tsEmitName": "taiViet",
           "normalizedSignature": "TaiViet|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2294,7 +2294,7 @@
         },
         {
           "clrName": "MeeteiMayekExtensions",
-          "tsEmitName": "MeeteiMayekExtensions",
+          "tsEmitName": "meeteiMayekExtensions",
           "normalizedSignature": "MeeteiMayekExtensions|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2308,7 +2308,7 @@
         },
         {
           "clrName": "EthiopicExtendedA",
-          "tsEmitName": "EthiopicExtendedA",
+          "tsEmitName": "ethiopicExtendedA",
           "normalizedSignature": "EthiopicExtendedA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2322,7 +2322,7 @@
         },
         {
           "clrName": "LatinExtendedE",
-          "tsEmitName": "LatinExtendedE",
+          "tsEmitName": "latinExtendedE",
           "normalizedSignature": "LatinExtendedE|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2336,7 +2336,7 @@
         },
         {
           "clrName": "CherokeeSupplement",
-          "tsEmitName": "CherokeeSupplement",
+          "tsEmitName": "cherokeeSupplement",
           "normalizedSignature": "CherokeeSupplement|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2350,7 +2350,7 @@
         },
         {
           "clrName": "MeeteiMayek",
-          "tsEmitName": "MeeteiMayek",
+          "tsEmitName": "meeteiMayek",
           "normalizedSignature": "MeeteiMayek|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2364,7 +2364,7 @@
         },
         {
           "clrName": "HangulSyllables",
-          "tsEmitName": "HangulSyllables",
+          "tsEmitName": "hangulSyllables",
           "normalizedSignature": "HangulSyllables|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2378,7 +2378,7 @@
         },
         {
           "clrName": "HangulJamoExtendedB",
-          "tsEmitName": "HangulJamoExtendedB",
+          "tsEmitName": "hangulJamoExtendedB",
           "normalizedSignature": "HangulJamoExtendedB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2392,7 +2392,7 @@
         },
         {
           "clrName": "CjkCompatibilityIdeographs",
-          "tsEmitName": "CjkCompatibilityIdeographs",
+          "tsEmitName": "cjkCompatibilityIdeographs",
           "normalizedSignature": "CjkCompatibilityIdeographs|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2406,7 +2406,7 @@
         },
         {
           "clrName": "AlphabeticPresentationForms",
-          "tsEmitName": "AlphabeticPresentationForms",
+          "tsEmitName": "alphabeticPresentationForms",
           "normalizedSignature": "AlphabeticPresentationForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2420,7 +2420,7 @@
         },
         {
           "clrName": "ArabicPresentationFormsA",
-          "tsEmitName": "ArabicPresentationFormsA",
+          "tsEmitName": "arabicPresentationFormsA",
           "normalizedSignature": "ArabicPresentationFormsA|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2434,7 +2434,7 @@
         },
         {
           "clrName": "VariationSelectors",
-          "tsEmitName": "VariationSelectors",
+          "tsEmitName": "variationSelectors",
           "normalizedSignature": "VariationSelectors|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2448,7 +2448,7 @@
         },
         {
           "clrName": "VerticalForms",
-          "tsEmitName": "VerticalForms",
+          "tsEmitName": "verticalForms",
           "normalizedSignature": "VerticalForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2462,7 +2462,7 @@
         },
         {
           "clrName": "CombiningHalfMarks",
-          "tsEmitName": "CombiningHalfMarks",
+          "tsEmitName": "combiningHalfMarks",
           "normalizedSignature": "CombiningHalfMarks|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2476,7 +2476,7 @@
         },
         {
           "clrName": "CjkCompatibilityForms",
-          "tsEmitName": "CjkCompatibilityForms",
+          "tsEmitName": "cjkCompatibilityForms",
           "normalizedSignature": "CjkCompatibilityForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2490,7 +2490,7 @@
         },
         {
           "clrName": "SmallFormVariants",
-          "tsEmitName": "SmallFormVariants",
+          "tsEmitName": "smallFormVariants",
           "normalizedSignature": "SmallFormVariants|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2504,7 +2504,7 @@
         },
         {
           "clrName": "ArabicPresentationFormsB",
-          "tsEmitName": "ArabicPresentationFormsB",
+          "tsEmitName": "arabicPresentationFormsB",
           "normalizedSignature": "ArabicPresentationFormsB|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2518,7 +2518,7 @@
         },
         {
           "clrName": "HalfwidthandFullwidthForms",
-          "tsEmitName": "HalfwidthandFullwidthForms",
+          "tsEmitName": "halfwidthandFullwidthForms",
           "normalizedSignature": "HalfwidthandFullwidthForms|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2532,7 +2532,7 @@
         },
         {
           "clrName": "Specials",
-          "tsEmitName": "Specials",
+          "tsEmitName": "specials",
           "normalizedSignature": "Specials|:System.Text.Unicode.UnicodeRange|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2561,7 +2561,7 @@
       "methods": [
         {
           "clrName": "FromUtf16",
-          "tsEmitName": "FromUtf16",
+          "tsEmitName": "fromUtf16",
           "normalizedSignature": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2575,7 +2575,7 @@
         },
         {
           "clrName": "ToUtf16",
-          "tsEmitName": "ToUtf16",
+          "tsEmitName": "toUtf16",
           "normalizedSignature": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2589,7 +2589,7 @@
         },
         {
           "clrName": "TryWrite",
-          "tsEmitName": "TryWrite",
+          "tsEmitName": "tryWrite",
           "normalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2603,7 +2603,7 @@
         },
         {
           "clrName": "TryWrite",
-          "tsEmitName": "TryWrite2",
+          "tsEmitName": "tryWrite2",
           "normalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2617,7 +2617,7 @@
         },
         {
           "clrName": "IsValid",
-          "tsEmitName": "IsValid",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

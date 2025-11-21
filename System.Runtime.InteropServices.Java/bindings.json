@@ -11,7 +11,7 @@
       "fields": [
         {
           "clrName": "SourceGroupIndex",
-          "tsEmitName": "SourceGroupIndex",
+          "tsEmitName": "sourceGroupIndex",
           "metadataToken": 67113969,
           "normalizedSignature": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
@@ -21,7 +21,7 @@
         },
         {
           "clrName": "DestinationGroupIndex",
-          "tsEmitName": "DestinationGroupIndex",
+          "tsEmitName": "destinationGroupIndex",
           "metadataToken": 67113970,
           "normalizedSignature": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
@@ -34,7 +34,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -44,7 +44,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -54,7 +54,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -64,7 +64,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -74,7 +74,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -84,7 +84,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -96,7 +96,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "SourceGroupIndex",
+          "tsName": "sourceGroupIndex",
           "isStatic": false,
           "tsSignatureId": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
           "target": {
@@ -106,7 +106,7 @@
           }
         },
         {
-          "tsName": "DestinationGroupIndex",
+          "tsName": "destinationGroupIndex",
           "isStatic": false,
           "tsSignatureId": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
           "target": {
@@ -127,7 +127,7 @@
       "fields": [
         {
           "clrName": "ComponentCount",
-          "tsEmitName": "ComponentCount",
+          "tsEmitName": "componentCount",
           "metadataToken": 67113971,
           "normalizedSignature": "ComponentCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
@@ -137,7 +137,7 @@
         },
         {
           "clrName": "Components",
-          "tsEmitName": "Components",
+          "tsEmitName": "components",
           "metadataToken": 67113972,
           "normalizedSignature": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
           "isStatic": false,
@@ -147,7 +147,7 @@
         },
         {
           "clrName": "CrossReferenceCount",
-          "tsEmitName": "CrossReferenceCount",
+          "tsEmitName": "crossReferenceCount",
           "metadataToken": 67113973,
           "normalizedSignature": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
@@ -157,7 +157,7 @@
         },
         {
           "clrName": "CrossReferences",
-          "tsEmitName": "CrossReferences",
+          "tsEmitName": "crossReferences",
           "metadataToken": 67113974,
           "normalizedSignature": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
           "isStatic": false,
@@ -170,7 +170,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -180,7 +180,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -190,7 +190,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -200,7 +200,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -210,7 +210,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -220,7 +220,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -232,7 +232,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "ComponentCount",
+          "tsName": "componentCount",
           "isStatic": false,
           "tsSignatureId": "ComponentCount|System.UIntPtr|static=false|const=false",
           "target": {
@@ -242,7 +242,7 @@
           }
         },
         {
-          "tsName": "Components",
+          "tsName": "components",
           "isStatic": false,
           "tsSignatureId": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
           "target": {
@@ -252,7 +252,7 @@
           }
         },
         {
-          "tsName": "CrossReferenceCount",
+          "tsName": "crossReferenceCount",
           "isStatic": false,
           "tsSignatureId": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
           "target": {
@@ -262,7 +262,7 @@
           }
         },
         {
-          "tsName": "CrossReferences",
+          "tsName": "crossReferences",
           "isStatic": false,
           "tsSignatureId": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
           "target": {
@@ -283,7 +283,7 @@
       "fields": [
         {
           "clrName": "Count",
-          "tsEmitName": "Count",
+          "tsEmitName": "count",
           "metadataToken": 67113975,
           "normalizedSignature": "Count|System.UIntPtr|static=false|const=false",
           "isStatic": false,
@@ -293,7 +293,7 @@
         },
         {
           "clrName": "Contexts",
-          "tsEmitName": "Contexts",
+          "tsEmitName": "contexts",
           "metadataToken": 67113976,
           "normalizedSignature": "Contexts|System.Void**|static=false|const=false",
           "isStatic": false,
@@ -306,7 +306,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -316,7 +316,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -326,7 +326,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -336,7 +336,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -346,7 +346,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -356,7 +356,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -368,7 +368,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "Count",
+          "tsName": "count",
           "isStatic": false,
           "tsSignatureId": "Count|System.UIntPtr|static=false|const=false",
           "target": {
@@ -378,7 +378,7 @@
           }
         },
         {
-          "tsName": "Contexts",
+          "tsName": "contexts",
           "isStatic": false,
           "tsSignatureId": "Contexts|System.Void**|static=false|const=false",
           "target": {
@@ -397,7 +397,7 @@
       "methods": [
         {
           "clrName": "Initialize",
-          "tsEmitName": "Initialize",
+          "tsEmitName": "initialize",
           "metadataToken": 100695334,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Initialize|():System.Void|static=true",
@@ -409,7 +409,7 @@
         },
         {
           "clrName": "CreateReferenceTrackingHandle",
-          "tsEmitName": "CreateReferenceTrackingHandle",
+          "tsEmitName": "createReferenceTrackingHandle",
           "metadataToken": 100695335,
           "canonicalSignature": "(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle",
           "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
@@ -421,7 +421,7 @@
         },
         {
           "clrName": "GetContext",
-          "tsEmitName": "GetContext",
+          "tsEmitName": "getContext",
           "metadataToken": 100695336,
           "canonicalSignature": "(System.Runtime.InteropServices.GCHandle):System.Void*",
           "normalizedSignature": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
@@ -433,7 +433,7 @@
         },
         {
           "clrName": "FinishCrossReferenceProcessing",
-          "tsEmitName": "FinishCrossReferenceProcessing",
+          "tsEmitName": "finishCrossReferenceProcessing",
           "metadataToken": 100695337,
           "canonicalSignature": "(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -450,7 +450,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "Initialize",
+          "tsName": "initialize",
           "isStatic": true,
           "tsSignatureId": "Initialize|():System.Void|static=true",
           "target": {
@@ -460,7 +460,7 @@
           }
         },
         {
-          "tsName": "CreateReferenceTrackingHandle",
+          "tsName": "createReferenceTrackingHandle",
           "isStatic": true,
           "tsSignatureId": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
           "target": {
@@ -470,7 +470,7 @@
           }
         },
         {
-          "tsName": "GetContext",
+          "tsName": "getContext",
           "isStatic": true,
           "tsSignatureId": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
           "target": {
@@ -480,7 +480,7 @@
           }
         },
         {
-          "tsName": "FinishCrossReferenceProcessing",
+          "tsName": "finishCrossReferenceProcessing",
           "isStatic": true,
           "tsSignatureId": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -490,7 +490,7 @@
           }
         },
         {
-          "tsName": "GetType",
+          "tsName": "getType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -500,7 +500,7 @@
           }
         },
         {
-          "tsName": "ToString",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -510,7 +510,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -520,7 +520,7 @@
           }
         },
         {
-          "tsName": "Equals",
+          "tsName": "equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -530,7 +530,7 @@
           }
         },
         {
-          "tsName": "ReferenceEquals",
+          "tsName": "referenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -540,7 +540,7 @@
           }
         },
         {
-          "tsName": "GetHashCode",
+          "tsName": "getHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
