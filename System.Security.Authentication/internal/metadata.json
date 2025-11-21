@@ -1,449 +1,449 @@
 {
-  "Namespace": "System.Security.Authentication",
-  "ContributingAssemblies": [
-    "System.Net.Security",
-    "System.Net.Primitives"
+  "namespace": "System.Security.Authentication",
+  "contributingAssemblies": [
+    "System.Net.Primitives",
+    "System.Net.Security"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Security.Authentication.CipherAlgorithmType",
-      "TsEmitName": "CipherAlgorithmType",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Security.Authentication.CipherAlgorithmType",
+      "tsEmitName": "CipherAlgorithmType",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "None",
+          "normalizedSignature": "None|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Rc2",
-          "TsEmitName": "Rc2",
-          "NormalizedSignature": "Rc2|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Rc2",
+          "tsEmitName": "Rc2",
+          "normalizedSignature": "Rc2|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Rc4",
-          "TsEmitName": "Rc4",
-          "NormalizedSignature": "Rc4|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Rc4",
+          "tsEmitName": "Rc4",
+          "normalizedSignature": "Rc4|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Des",
-          "TsEmitName": "Des",
-          "NormalizedSignature": "Des|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Des",
+          "tsEmitName": "Des",
+          "normalizedSignature": "Des|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "TripleDes",
-          "TsEmitName": "TripleDes",
-          "NormalizedSignature": "TripleDes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "TripleDes",
+          "tsEmitName": "TripleDes",
+          "normalizedSignature": "TripleDes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Aes",
-          "TsEmitName": "Aes",
-          "NormalizedSignature": "Aes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Aes",
+          "tsEmitName": "Aes",
+          "normalizedSignature": "Aes|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Aes128",
-          "TsEmitName": "Aes128",
-          "NormalizedSignature": "Aes128|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Aes128",
+          "tsEmitName": "Aes128",
+          "normalizedSignature": "Aes128|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Aes192",
-          "TsEmitName": "Aes192",
-          "NormalizedSignature": "Aes192|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Aes192",
+          "tsEmitName": "Aes192",
+          "normalizedSignature": "Aes192|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Aes256",
-          "TsEmitName": "Aes256",
-          "NormalizedSignature": "Aes256|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Aes256",
+          "tsEmitName": "Aes256",
+          "normalizedSignature": "Aes256|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Null",
-          "TsEmitName": "Null",
-          "NormalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Null",
+          "tsEmitName": "Null",
+          "normalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Security.Authentication.ExchangeAlgorithmType",
-      "TsEmitName": "ExchangeAlgorithmType",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Security.Authentication.ExchangeAlgorithmType",
+      "tsEmitName": "ExchangeAlgorithmType",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "None",
+          "normalizedSignature": "None|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "RsaSign",
-          "TsEmitName": "RsaSign",
-          "NormalizedSignature": "RsaSign|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "RsaSign",
+          "tsEmitName": "RsaSign",
+          "normalizedSignature": "RsaSign|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "RsaKeyX",
-          "TsEmitName": "RsaKeyX",
-          "NormalizedSignature": "RsaKeyX|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "RsaKeyX",
+          "tsEmitName": "RsaKeyX",
+          "normalizedSignature": "RsaKeyX|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "DiffieHellman",
-          "TsEmitName": "DiffieHellman",
-          "NormalizedSignature": "DiffieHellman|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "DiffieHellman",
+          "tsEmitName": "DiffieHellman",
+          "normalizedSignature": "DiffieHellman|System.Security.Authentication.ExchangeAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Security.Authentication.HashAlgorithmType",
-      "TsEmitName": "HashAlgorithmType",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Security.Authentication.HashAlgorithmType",
+      "tsEmitName": "HashAlgorithmType",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "None",
+          "normalizedSignature": "None|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Md5",
-          "TsEmitName": "Md5",
-          "NormalizedSignature": "Md5|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Md5",
+          "tsEmitName": "Md5",
+          "normalizedSignature": "Md5|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Sha1",
-          "TsEmitName": "Sha1",
-          "NormalizedSignature": "Sha1|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Sha1",
+          "tsEmitName": "Sha1",
+          "normalizedSignature": "Sha1|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Sha256",
-          "TsEmitName": "Sha256",
-          "NormalizedSignature": "Sha256|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Sha256",
+          "tsEmitName": "Sha256",
+          "normalizedSignature": "Sha256|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Sha384",
-          "TsEmitName": "Sha384",
-          "NormalizedSignature": "Sha384|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Sha384",
+          "tsEmitName": "Sha384",
+          "normalizedSignature": "Sha384|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Sha512",
-          "TsEmitName": "Sha512",
-          "NormalizedSignature": "Sha512|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Sha512",
+          "tsEmitName": "Sha512",
+          "normalizedSignature": "Sha512|System.Security.Authentication.HashAlgorithmType|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Security.Authentication.SslProtocols",
-      "TsEmitName": "SslProtocols",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Security.Authentication.SslProtocols",
+      "tsEmitName": "SslProtocols",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "None",
+          "normalizedSignature": "None|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Ssl2",
-          "TsEmitName": "Ssl2",
-          "NormalizedSignature": "Ssl2|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Ssl2",
+          "tsEmitName": "Ssl2",
+          "normalizedSignature": "Ssl2|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Ssl3",
-          "TsEmitName": "Ssl3",
-          "NormalizedSignature": "Ssl3|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Ssl3",
+          "tsEmitName": "Ssl3",
+          "normalizedSignature": "Ssl3|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Tls",
-          "TsEmitName": "Tls",
-          "NormalizedSignature": "Tls|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Tls",
+          "tsEmitName": "Tls",
+          "normalizedSignature": "Tls|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Tls11",
-          "TsEmitName": "Tls11",
-          "NormalizedSignature": "Tls11|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Tls11",
+          "tsEmitName": "Tls11",
+          "normalizedSignature": "Tls11|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Tls12",
-          "TsEmitName": "Tls12",
-          "NormalizedSignature": "Tls12|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Tls12",
+          "tsEmitName": "Tls12",
+          "normalizedSignature": "Tls12|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Tls13",
-          "TsEmitName": "Tls13",
-          "NormalizedSignature": "Tls13|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Tls13",
+          "tsEmitName": "Tls13",
+          "normalizedSignature": "Tls13|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Default",
-          "TsEmitName": "Default",
-          "NormalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Default",
+          "tsEmitName": "Default",
+          "normalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Security.Authentication.AuthenticationException",
-      "TsEmitName": "AuthenticationException",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Security.Authentication.AuthenticationException",
+      "tsEmitName": "AuthenticationException",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData$view",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Provenance": "ExplicitView",
-          "EmitScope": "ViewOnly",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2,
-          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+          "clrName": "GetObjectData",
+          "tsEmitName": "GetObjectData$view",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2,
+          "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Provenance": "BaseOverload",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2
+          "clrName": "GetObjectData",
+          "tsEmitName": "GetObjectData",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "provenance": "BaseOverload",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Security.Authentication.InvalidCredentialException",
-      "TsEmitName": "InvalidCredentialException",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Security.Authentication.InvalidCredentialException",
+      "tsEmitName": "InvalidCredentialException",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData$view",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Provenance": "ExplicitView",
-          "EmitScope": "ViewOnly",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2,
-          "SourceInterface": "System.Runtime.Serialization.ISerializable"
+          "clrName": "GetObjectData",
+          "tsEmitName": "GetObjectData$view",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2,
+          "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Provenance": "BaseOverload",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2
+          "clrName": "GetObjectData",
+          "tsEmitName": "GetObjectData",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "provenance": "BaseOverload",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     }

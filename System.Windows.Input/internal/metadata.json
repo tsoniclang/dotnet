@@ -1,59 +1,59 @@
 {
-  "Namespace": "System.Windows.Input",
-  "ContributingAssemblies": [
+  "namespace": "System.Windows.Input",
+  "contributingAssemblies": [
     "System.ObjectModel"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Windows.Input.ICommand",
-      "TsEmitName": "ICommand",
-      "Kind": "Interface",
-      "Accessibility": "Public",
-      "IsAbstract": true,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Windows.Input.ICommand",
+      "tsEmitName": "ICommand",
+      "kind": "Interface",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "CanExecute",
-          "TsEmitName": "CanExecute",
-          "NormalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": true,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "CanExecute",
+          "tsEmitName": "CanExecute",
+          "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1
         },
         {
-          "ClrName": "Execute",
-          "TsEmitName": "Execute",
-          "NormalizedSignature": "Execute|(System.Object):System.Void|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": true,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "Execute",
+          "tsEmitName": "Execute",
+          "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": true,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [
+      "properties": [],
+      "fields": [],
+      "events": [
         {
-          "ClrName": "CanExecuteChanged",
-          "TsEmitName": "CanExecuteChanged",
-          "NormalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
-          "IsStatic": false
+          "clrName": "CanExecuteChanged",
+          "tsEmitName": "CanExecuteChanged",
+          "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
+          "isStatic": false
         }
       ],
-      "Constructors": []
+      "constructors": []
     }
   ]
 }

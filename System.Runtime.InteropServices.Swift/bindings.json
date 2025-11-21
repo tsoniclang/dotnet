@@ -1,482 +1,482 @@
 {
-  "Namespace": "System.Runtime.InteropServices.Swift",
-  "Types": [
+  "namespace": "System.Runtime.InteropServices.Swift",
+  "types": [
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftError",
-      "TsEmitName": "SwiftError",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftError",
+      "tsEmitName": "SwiftError",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "MetadataToken": 385879685,
-          "CanonicalSignature": ":System.Void*",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Value",
+          "tsEmitName": "Value",
+          "metadataToken": 385879685,
+          "canonicalSignature": ":System.Void*",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695203,
-          "CanonicalSignature": "(System.Void*):void",
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695203,
+          "canonicalSignature": "(System.Void*):void",
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Value",
-          "IsStatic": false,
-          "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879685
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Void*):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695203
+          "tsName": "Value",
+          "isStatic": false,
+          "tsSignatureId": "Value|:System.Void*|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385879685
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Void*):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695203
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "TsEmitName": "SwiftIndirectResult",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+      "tsEmitName": "SwiftIndirectResult",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "MetadataToken": 385879686,
-          "CanonicalSignature": ":System.Void*",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Value",
+          "tsEmitName": "Value",
+          "metadataToken": 385879686,
+          "canonicalSignature": ":System.Void*",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695205,
-          "CanonicalSignature": "(System.Void*):void",
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695205,
+          "canonicalSignature": "(System.Void*):void",
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Value",
-          "IsStatic": false,
-          "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879686
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Void*):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695205
+          "tsName": "Value",
+          "isStatic": false,
+          "tsSignatureId": "Value|:System.Void*|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385879686
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Void*):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695205
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-      "TsEmitName": "SwiftSelf",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+      "tsEmitName": "SwiftSelf",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "MetadataToken": 385879683,
-          "CanonicalSignature": ":System.Void*",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Value",
+          "tsEmitName": "Value",
+          "metadataToken": 385879683,
+          "canonicalSignature": ":System.Void*",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695199,
-          "CanonicalSignature": "(System.Void*):void",
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695199,
+          "canonicalSignature": "(System.Void*):void",
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Value",
-          "IsStatic": false,
-          "TsSignatureId": "Value|:System.Void*|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879683
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Void*):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695199
+          "tsName": "Value",
+          "isStatic": false,
+          "tsSignatureId": "Value|:System.Void*|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385879683
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Void*):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695199
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "TsEmitName": "SwiftSelf_1",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+      "tsEmitName": "SwiftSelf_1",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "MetadataToken": 385879684,
-          "CanonicalSignature": ":T",
-          "NormalizedSignature": "Value|:T|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Value",
+          "tsEmitName": "Value",
+          "metadataToken": 385879684,
+          "canonicalSignature": ":T",
+          "normalizedSignature": "Value|:T|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695201,
-          "CanonicalSignature": "(T):void",
-          "NormalizedSignature": "constructor|(T):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695201,
+          "canonicalSignature": "(T):void",
+          "normalizedSignature": "constructor|(T):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Value",
-          "IsStatic": false,
-          "TsSignatureId": "Value|:T|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385879684
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(T):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695201
+          "tsName": "Value",
+          "isStatic": false,
+          "tsSignatureId": "Value|:T|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385879684
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(T):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695201
           }
         }
       ]

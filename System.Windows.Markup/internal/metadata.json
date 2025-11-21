@@ -1,61 +1,61 @@
 {
-  "Namespace": "System.Windows.Markup",
-  "ContributingAssemblies": [
+  "namespace": "System.Windows.Markup",
+  "contributingAssemblies": [
     "System.ObjectModel"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Windows.Markup.ValueSerializerAttribute",
-      "TsEmitName": "ValueSerializerAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Windows.Markup.ValueSerializerAttribute",
+      "tsEmitName": "ValueSerializerAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ValueSerializerType",
-          "TsEmitName": "ValueSerializerType",
-          "NormalizedSignature": "ValueSerializerType|:System.Type|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ValueSerializerType",
+          "tsEmitName": "ValueSerializerType",
+          "normalizedSignature": "ValueSerializerType|:System.Type|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "ValueSerializerTypeName",
-          "TsEmitName": "ValueSerializerTypeName",
-          "NormalizedSignature": "ValueSerializerTypeName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ValueSerializerTypeName",
+          "tsEmitName": "ValueSerializerTypeName",
+          "normalizedSignature": "ValueSerializerTypeName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Type):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     }

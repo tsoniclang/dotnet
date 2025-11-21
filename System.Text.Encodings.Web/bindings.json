@@ -1,1480 +1,1480 @@
 {
-  "Namespace": "System.Text.Encodings.Web",
-  "Types": [
+  "namespace": "System.Text.Encodings.Web",
+  "types": [
     {
-      "ClrName": "System.Text.Encodings.Web.HtmlEncoder",
-      "TsEmitName": "HtmlEncoder",
-      "AssemblyName": "System.Text.Encodings.Web",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Text.Encodings.Web.HtmlEncoder",
+      "tsEmitName": "HtmlEncoder",
+      "assemblyName": "System.Text.Encodings.Web",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create",
-          "MetadataToken": 100663543,
-          "CanonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder",
-          "NormalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create",
+          "metadataToken": 100663543,
+          "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder",
+          "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create2",
-          "MetadataToken": 100663544,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
-          "NormalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create2",
+          "metadataToken": 100663544,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
+          "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Default",
-          "TsEmitName": "Default",
-          "MetadataToken": 385876139,
-          "CanonicalSignature": ":System.Text.Encodings.Web.HtmlEncoder",
-          "NormalizedSignature": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Default",
+          "tsEmitName": "Default",
+          "metadataToken": 385876139,
+          "canonicalSignature": ":System.Text.Encodings.Web.HtmlEncoder",
+          "normalizedSignature": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Create",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663543
+          "tsName": "Create",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663543
           }
         },
         {
-          "TsName": "Create2",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663544
+          "tsName": "Create2",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663544
           }
         },
         {
-          "TsName": "TryEncodeUnicodeScalar",
-          "IsStatic": false,
-          "TsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663567
+          "tsName": "TryEncodeUnicodeScalar",
+          "isStatic": false,
+          "tsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663567
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncode",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663570
+          "tsName": "FindFirstCharacterToEncode",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663570
           }
         },
         {
-          "TsName": "WillEncode",
-          "IsStatic": false,
-          "TsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663571
+          "tsName": "WillEncode",
+          "isStatic": false,
+          "tsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663571
           }
         },
         {
-          "TsName": "Encode",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.String):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663573
+          "tsName": "Encode",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.String):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663573
           }
         },
         {
-          "TsName": "Encode2",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663575
+          "tsName": "Encode2",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663575
           }
         },
         {
-          "TsName": "Encode3",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663576
+          "tsName": "Encode3",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663576
           }
         },
         {
-          "TsName": "Encode4",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663577
+          "tsName": "Encode4",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663577
           }
         },
         {
-          "TsName": "EncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663578
+          "tsName": "EncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663578
           }
         },
         {
-          "TsName": "Encode5",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663580
+          "tsName": "Encode5",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663580
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663584
+          "tsName": "FindFirstCharacterToEncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663584
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "Default",
-          "IsStatic": true,
-          "TsSignatureId": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876139
+          "tsName": "Default",
+          "isStatic": true,
+          "tsSignatureId": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876139
           }
         },
         {
-          "TsName": "MaxOutputCharactersPerInputCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876143
+          "tsName": "MaxOutputCharactersPerInputCharacter",
+          "isStatic": false,
+          "tsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876143
           }
         }
       ]
     },
     {
-      "ClrName": "System.Text.Encodings.Web.JavaScriptEncoder",
-      "TsEmitName": "JavaScriptEncoder",
-      "AssemblyName": "System.Text.Encodings.Web",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Text.Encodings.Web.JavaScriptEncoder",
+      "tsEmitName": "JavaScriptEncoder",
+      "assemblyName": "System.Text.Encodings.Web",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create",
-          "MetadataToken": 100663564,
-          "CanonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder",
-          "NormalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create",
+          "metadataToken": 100663564,
+          "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder",
+          "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create2",
-          "MetadataToken": 100663565,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
-          "NormalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create2",
+          "metadataToken": 100663565,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
+          "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Default",
-          "TsEmitName": "Default",
-          "MetadataToken": 385876141,
-          "CanonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
-          "NormalizedSignature": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Default",
+          "tsEmitName": "Default",
+          "metadataToken": 385876141,
+          "canonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
+          "normalizedSignature": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "UnsafeRelaxedJsonEscaping",
-          "TsEmitName": "UnsafeRelaxedJsonEscaping",
-          "MetadataToken": 385876142,
-          "CanonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
-          "NormalizedSignature": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "UnsafeRelaxedJsonEscaping",
+          "tsEmitName": "UnsafeRelaxedJsonEscaping",
+          "metadataToken": 385876142,
+          "canonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
+          "normalizedSignature": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Create",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663564
+          "tsName": "Create",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663564
           }
         },
         {
-          "TsName": "Create2",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663565
+          "tsName": "Create2",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663565
           }
         },
         {
-          "TsName": "TryEncodeUnicodeScalar",
-          "IsStatic": false,
-          "TsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663567
+          "tsName": "TryEncodeUnicodeScalar",
+          "isStatic": false,
+          "tsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663567
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncode",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663570
+          "tsName": "FindFirstCharacterToEncode",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663570
           }
         },
         {
-          "TsName": "WillEncode",
-          "IsStatic": false,
-          "TsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663571
+          "tsName": "WillEncode",
+          "isStatic": false,
+          "tsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663571
           }
         },
         {
-          "TsName": "Encode",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.String):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663573
+          "tsName": "Encode",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.String):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663573
           }
         },
         {
-          "TsName": "Encode2",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663575
+          "tsName": "Encode2",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663575
           }
         },
         {
-          "TsName": "Encode3",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663576
+          "tsName": "Encode3",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663576
           }
         },
         {
-          "TsName": "Encode4",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663577
+          "tsName": "Encode4",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663577
           }
         },
         {
-          "TsName": "EncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663578
+          "tsName": "EncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663578
           }
         },
         {
-          "TsName": "Encode5",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663580
+          "tsName": "Encode5",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663580
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663584
+          "tsName": "FindFirstCharacterToEncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663584
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "Default",
-          "IsStatic": true,
-          "TsSignatureId": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876141
+          "tsName": "Default",
+          "isStatic": true,
+          "tsSignatureId": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876141
           }
         },
         {
-          "TsName": "UnsafeRelaxedJsonEscaping",
-          "IsStatic": true,
-          "TsSignatureId": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876142
+          "tsName": "UnsafeRelaxedJsonEscaping",
+          "isStatic": true,
+          "tsSignatureId": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876142
           }
         },
         {
-          "TsName": "MaxOutputCharactersPerInputCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876143
+          "tsName": "MaxOutputCharactersPerInputCharacter",
+          "isStatic": false,
+          "tsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876143
           }
         }
       ]
     },
     {
-      "ClrName": "System.Text.Encodings.Web.TextEncoder",
-      "TsEmitName": "TextEncoder",
-      "AssemblyName": "System.Text.Encodings.Web",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Text.Encodings.Web.TextEncoder",
+      "tsEmitName": "TextEncoder",
+      "assemblyName": "System.Text.Encodings.Web",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "TryEncodeUnicodeScalar",
-          "TsEmitName": "TryEncodeUnicodeScalar",
-          "MetadataToken": 100663567,
-          "CanonicalSignature": "(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean",
-          "NormalizedSignature": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "TryEncodeUnicodeScalar",
+          "tsEmitName": "TryEncodeUnicodeScalar",
+          "metadataToken": 100663567,
+          "canonicalSignature": "(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean",
+          "normalizedSignature": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "FindFirstCharacterToEncode",
-          "TsEmitName": "FindFirstCharacterToEncode",
-          "MetadataToken": 100663570,
-          "CanonicalSignature": "(System.Char*,System.Int32):System.Int32",
-          "NormalizedSignature": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "FindFirstCharacterToEncode",
+          "tsEmitName": "FindFirstCharacterToEncode",
+          "metadataToken": 100663570,
+          "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
+          "normalizedSignature": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "WillEncode",
-          "TsEmitName": "WillEncode",
-          "MetadataToken": 100663571,
-          "CanonicalSignature": "(System.Int32):System.Boolean",
-          "NormalizedSignature": "WillEncode|(System.Int32):System.Boolean|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "WillEncode",
+          "tsEmitName": "WillEncode",
+          "metadataToken": 100663571,
+          "canonicalSignature": "(System.Int32):System.Boolean",
+          "normalizedSignature": "WillEncode|(System.Int32):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Encode",
-          "TsEmitName": "Encode",
-          "MetadataToken": 100663573,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "Encode|(System.String):System.String|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Encode",
+          "tsEmitName": "Encode",
+          "metadataToken": 100663573,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "Encode|(System.String):System.String|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Encode",
-          "TsEmitName": "Encode2",
-          "MetadataToken": 100663575,
-          "CanonicalSignature": "(System.IO.TextWriter,System.String):System.Void",
-          "NormalizedSignature": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Encode",
+          "tsEmitName": "Encode2",
+          "metadataToken": 100663575,
+          "canonicalSignature": "(System.IO.TextWriter,System.String):System.Void",
+          "normalizedSignature": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Encode",
-          "TsEmitName": "Encode3",
-          "MetadataToken": 100663576,
-          "CanonicalSignature": "(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
-          "NormalizedSignature": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Encode",
+          "tsEmitName": "Encode3",
+          "metadataToken": 100663576,
+          "canonicalSignature": "(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
+          "normalizedSignature": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Encode",
-          "TsEmitName": "Encode4",
-          "MetadataToken": 100663577,
-          "CanonicalSignature": "(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
-          "NormalizedSignature": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Encode",
+          "tsEmitName": "Encode4",
+          "metadataToken": 100663577,
+          "canonicalSignature": "(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
+          "normalizedSignature": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "EncodeUtf8",
-          "TsEmitName": "EncodeUtf8",
-          "MetadataToken": 100663578,
-          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
-          "NormalizedSignature": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 5,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "EncodeUtf8",
+          "tsEmitName": "EncodeUtf8",
+          "metadataToken": 100663578,
+          "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
+          "normalizedSignature": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 5,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Encode",
-          "TsEmitName": "Encode5",
-          "MetadataToken": 100663580,
-          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
-          "NormalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 5,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Encode",
+          "tsEmitName": "Encode5",
+          "metadataToken": 100663580,
+          "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
+          "normalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 5,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "FindFirstCharacterToEncodeUtf8",
-          "TsEmitName": "FindFirstCharacterToEncodeUtf8",
-          "MetadataToken": 100663584,
-          "CanonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
-          "NormalizedSignature": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "FindFirstCharacterToEncodeUtf8",
+          "tsEmitName": "FindFirstCharacterToEncodeUtf8",
+          "metadataToken": 100663584,
+          "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
+          "normalizedSignature": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "MaxOutputCharactersPerInputCharacter",
-          "TsEmitName": "MaxOutputCharactersPerInputCharacter",
-          "MetadataToken": 385876143,
-          "CanonicalSignature": ":System.Int32",
-          "NormalizedSignature": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "MaxOutputCharactersPerInputCharacter",
+          "tsEmitName": "MaxOutputCharactersPerInputCharacter",
+          "metadataToken": 385876143,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "TryEncodeUnicodeScalar",
-          "IsStatic": false,
-          "TsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663567
+          "tsName": "TryEncodeUnicodeScalar",
+          "isStatic": false,
+          "tsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663567
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncode",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663570
+          "tsName": "FindFirstCharacterToEncode",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663570
           }
         },
         {
-          "TsName": "WillEncode",
-          "IsStatic": false,
-          "TsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663571
+          "tsName": "WillEncode",
+          "isStatic": false,
+          "tsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663571
           }
         },
         {
-          "TsName": "Encode",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.String):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663573
+          "tsName": "Encode",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.String):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663573
           }
         },
         {
-          "TsName": "Encode2",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663575
+          "tsName": "Encode2",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663575
           }
         },
         {
-          "TsName": "Encode3",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663576
+          "tsName": "Encode3",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663576
           }
         },
         {
-          "TsName": "Encode4",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663577
+          "tsName": "Encode4",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663577
           }
         },
         {
-          "TsName": "EncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663578
+          "tsName": "EncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663578
           }
         },
         {
-          "TsName": "Encode5",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663580
+          "tsName": "Encode5",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663580
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663584
+          "tsName": "FindFirstCharacterToEncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663584
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "MaxOutputCharactersPerInputCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876143
+          "tsName": "MaxOutputCharactersPerInputCharacter",
+          "isStatic": false,
+          "tsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876143
           }
         }
       ]
     },
     {
-      "ClrName": "System.Text.Encodings.Web.TextEncoderSettings",
-      "TsEmitName": "TextEncoderSettings",
-      "AssemblyName": "System.Text.Encodings.Web",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Text.Encodings.Web.TextEncoderSettings",
+      "tsEmitName": "TextEncoderSettings",
+      "assemblyName": "System.Text.Encodings.Web",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "AllowCharacter",
-          "TsEmitName": "AllowCharacter",
-          "MetadataToken": 100663591,
-          "CanonicalSignature": "(System.Char):System.Void",
-          "NormalizedSignature": "AllowCharacter|(System.Char):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "AllowCharacter",
+          "tsEmitName": "AllowCharacter",
+          "metadataToken": 100663591,
+          "canonicalSignature": "(System.Char):System.Void",
+          "normalizedSignature": "AllowCharacter|(System.Char):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "AllowCharacters",
-          "TsEmitName": "AllowCharacters",
-          "MetadataToken": 100663592,
-          "CanonicalSignature": "(System.Char[]):System.Void",
-          "NormalizedSignature": "AllowCharacters|(System.Char[]):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "AllowCharacters",
+          "tsEmitName": "AllowCharacters",
+          "metadataToken": 100663592,
+          "canonicalSignature": "(System.Char[]):System.Void",
+          "normalizedSignature": "AllowCharacters|(System.Char[]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "AllowCodePoints",
-          "TsEmitName": "AllowCodePoints",
-          "MetadataToken": 100663593,
-          "CanonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "NormalizedSignature": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "AllowCodePoints",
+          "tsEmitName": "AllowCodePoints",
+          "metadataToken": 100663593,
+          "canonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
+          "normalizedSignature": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "AllowRange",
-          "TsEmitName": "AllowRange",
-          "MetadataToken": 100663594,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
-          "NormalizedSignature": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "AllowRange",
+          "tsEmitName": "AllowRange",
+          "metadataToken": 100663594,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
+          "normalizedSignature": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "AllowRanges",
-          "TsEmitName": "AllowRanges",
-          "MetadataToken": 100663595,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
-          "NormalizedSignature": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "AllowRanges",
+          "tsEmitName": "AllowRanges",
+          "metadataToken": 100663595,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
+          "normalizedSignature": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Clear",
-          "TsEmitName": "Clear",
-          "MetadataToken": 100663596,
-          "CanonicalSignature": "():System.Void",
-          "NormalizedSignature": "Clear|():System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Clear",
+          "tsEmitName": "Clear",
+          "metadataToken": 100663596,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Clear|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "ForbidCharacter",
-          "TsEmitName": "ForbidCharacter",
-          "MetadataToken": 100663597,
-          "CanonicalSignature": "(System.Char):System.Void",
-          "NormalizedSignature": "ForbidCharacter|(System.Char):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "ForbidCharacter",
+          "tsEmitName": "ForbidCharacter",
+          "metadataToken": 100663597,
+          "canonicalSignature": "(System.Char):System.Void",
+          "normalizedSignature": "ForbidCharacter|(System.Char):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "ForbidCharacters",
-          "TsEmitName": "ForbidCharacters",
-          "MetadataToken": 100663598,
-          "CanonicalSignature": "(System.Char[]):System.Void",
-          "NormalizedSignature": "ForbidCharacters|(System.Char[]):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "ForbidCharacters",
+          "tsEmitName": "ForbidCharacters",
+          "metadataToken": 100663598,
+          "canonicalSignature": "(System.Char[]):System.Void",
+          "normalizedSignature": "ForbidCharacters|(System.Char[]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "ForbidRange",
-          "TsEmitName": "ForbidRange",
-          "MetadataToken": 100663599,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
-          "NormalizedSignature": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "ForbidRange",
+          "tsEmitName": "ForbidRange",
+          "metadataToken": 100663599,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
+          "normalizedSignature": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "ForbidRanges",
-          "TsEmitName": "ForbidRanges",
-          "MetadataToken": 100663600,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
-          "NormalizedSignature": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "ForbidRanges",
+          "tsEmitName": "ForbidRanges",
+          "metadataToken": 100663600,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
+          "normalizedSignature": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "GetAllowedCodePoints",
-          "TsEmitName": "GetAllowedCodePoints",
-          "MetadataToken": 100663601,
-          "CanonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "GetAllowedCodePoints",
+          "tsEmitName": "GetAllowedCodePoints",
+          "metadataToken": 100663601,
+          "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663588,
-          "CanonicalSignature": "():void",
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "metadataToken": 100663588,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "MetadataToken": 100663589,
-          "CanonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):void",
-          "NormalizedSignature": "constructor|(System.Text.Encodings.Web.TextEncoderSettings):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "metadataToken": 100663589,
+          "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):void",
+          "normalizedSignature": "constructor|(System.Text.Encodings.Web.TextEncoderSettings):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "MetadataToken": 100663590,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):void",
-          "NormalizedSignature": "constructor|(System.Text.Unicode.UnicodeRange[]):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "metadataToken": 100663590,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):void",
+          "normalizedSignature": "constructor|(System.Text.Unicode.UnicodeRange[]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "AllowCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "AllowCharacter|(System.Char):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663591
+          "tsName": "AllowCharacter",
+          "isStatic": false,
+          "tsSignatureId": "AllowCharacter|(System.Char):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663591
           }
         },
         {
-          "TsName": "AllowCharacters",
-          "IsStatic": false,
-          "TsSignatureId": "AllowCharacters|(System.Char[]):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663592
+          "tsName": "AllowCharacters",
+          "isStatic": false,
+          "tsSignatureId": "AllowCharacters|(System.Char[]):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663592
           }
         },
         {
-          "TsName": "AllowCodePoints",
-          "IsStatic": false,
-          "TsSignatureId": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663593
+          "tsName": "AllowCodePoints",
+          "isStatic": false,
+          "tsSignatureId": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663593
           }
         },
         {
-          "TsName": "AllowRange",
-          "IsStatic": false,
-          "TsSignatureId": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663594
+          "tsName": "AllowRange",
+          "isStatic": false,
+          "tsSignatureId": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663594
           }
         },
         {
-          "TsName": "AllowRanges",
-          "IsStatic": false,
-          "TsSignatureId": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663595
+          "tsName": "AllowRanges",
+          "isStatic": false,
+          "tsSignatureId": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663595
           }
         },
         {
-          "TsName": "Clear",
-          "IsStatic": false,
-          "TsSignatureId": "Clear|():System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663596
+          "tsName": "Clear",
+          "isStatic": false,
+          "tsSignatureId": "Clear|():System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663596
           }
         },
         {
-          "TsName": "ForbidCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "ForbidCharacter|(System.Char):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663597
+          "tsName": "ForbidCharacter",
+          "isStatic": false,
+          "tsSignatureId": "ForbidCharacter|(System.Char):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663597
           }
         },
         {
-          "TsName": "ForbidCharacters",
-          "IsStatic": false,
-          "TsSignatureId": "ForbidCharacters|(System.Char[]):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663598
+          "tsName": "ForbidCharacters",
+          "isStatic": false,
+          "tsSignatureId": "ForbidCharacters|(System.Char[]):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663598
           }
         },
         {
-          "TsName": "ForbidRange",
-          "IsStatic": false,
-          "TsSignatureId": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663599
+          "tsName": "ForbidRange",
+          "isStatic": false,
+          "tsSignatureId": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663599
           }
         },
         {
-          "TsName": "ForbidRanges",
-          "IsStatic": false,
-          "TsSignatureId": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663600
+          "tsName": "ForbidRanges",
+          "isStatic": false,
+          "tsSignatureId": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663600
           }
         },
         {
-          "TsName": "GetAllowedCodePoints",
-          "IsStatic": false,
-          "TsSignatureId": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663601
+          "tsName": "GetAllowedCodePoints",
+          "isStatic": false,
+          "tsSignatureId": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663601
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedConstructors": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|():void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663588
+          "isStatic": false,
+          "tsSignatureId": "constructor|():void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663588
           }
         },
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Text.Encodings.Web.TextEncoderSettings):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663589
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Text.Encodings.Web.TextEncoderSettings):void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663589
           }
         },
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Text.Unicode.UnicodeRange[]):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663590
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Text.Unicode.UnicodeRange[]):void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663590
           }
         }
       ]
     },
     {
-      "ClrName": "System.Text.Encodings.Web.UrlEncoder",
-      "TsEmitName": "UrlEncoder",
-      "AssemblyName": "System.Text.Encodings.Web",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Text.Encodings.Web.UrlEncoder",
+      "tsEmitName": "UrlEncoder",
+      "assemblyName": "System.Text.Encodings.Web",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create",
-          "MetadataToken": 100663614,
-          "CanonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder",
-          "NormalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create",
+          "metadataToken": 100663614,
+          "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder",
+          "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create2",
-          "MetadataToken": 100663615,
-          "CanonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
-          "NormalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Create",
+          "tsEmitName": "Create2",
+          "metadataToken": 100663615,
+          "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
+          "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Default",
-          "TsEmitName": "Default",
-          "MetadataToken": 385876146,
-          "CanonicalSignature": ":System.Text.Encodings.Web.UrlEncoder",
-          "NormalizedSignature": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "DeclaringAssemblyName": "System.Text.Encodings.Web"
+          "clrName": "Default",
+          "tsEmitName": "Default",
+          "metadataToken": 385876146,
+          "canonicalSignature": ":System.Text.Encodings.Web.UrlEncoder",
+          "normalizedSignature": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+          "declaringAssemblyName": "System.Text.Encodings.Web"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Create",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663614
+          "tsName": "Create",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663614
           }
         },
         {
-          "TsName": "Create2",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663615
+          "tsName": "Create2",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663615
           }
         },
         {
-          "TsName": "TryEncodeUnicodeScalar",
-          "IsStatic": false,
-          "TsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663567
+          "tsName": "TryEncodeUnicodeScalar",
+          "isStatic": false,
+          "tsSignatureId": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663567
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncode",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663570
+          "tsName": "FindFirstCharacterToEncode",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663570
           }
         },
         {
-          "TsName": "WillEncode",
-          "IsStatic": false,
-          "TsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663571
+          "tsName": "WillEncode",
+          "isStatic": false,
+          "tsSignatureId": "WillEncode|(System.Int32):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663571
           }
         },
         {
-          "TsName": "Encode",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.String):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663573
+          "tsName": "Encode",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.String):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663573
           }
         },
         {
-          "TsName": "Encode2",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663575
+          "tsName": "Encode2",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663575
           }
         },
         {
-          "TsName": "Encode3",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663576
+          "tsName": "Encode3",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663576
           }
         },
         {
-          "TsName": "Encode4",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663577
+          "tsName": "Encode4",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663577
           }
         },
         {
-          "TsName": "EncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663578
+          "tsName": "EncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663578
           }
         },
         {
-          "TsName": "Encode5",
-          "IsStatic": false,
-          "TsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663580
+          "tsName": "Encode5",
+          "isStatic": false,
+          "tsSignatureId": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663580
           }
         },
         {
-          "TsName": "FindFirstCharacterToEncodeUtf8",
-          "IsStatic": false,
-          "TsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 100663584
+          "tsName": "FindFirstCharacterToEncodeUtf8",
+          "isStatic": false,
+          "tsSignatureId": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 100663584
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "GetType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "ToString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "Equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "Equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "ReferenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "GetHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "Default",
-          "IsStatic": true,
-          "TsSignatureId": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876146
+          "tsName": "Default",
+          "isStatic": true,
+          "tsSignatureId": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876146
           }
         },
         {
-          "TsName": "MaxOutputCharactersPerInputCharacter",
-          "IsStatic": false,
-          "TsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Text.Encodings.Web.TextEncoder",
-            "DeclaringAssemblyName": "System.Text.Encodings.Web",
-            "MetadataToken": 385876143
+          "tsName": "MaxOutputCharactersPerInputCharacter",
+          "isStatic": false,
+          "tsSignatureId": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
+            "declaringAssemblyName": "System.Text.Encodings.Web",
+            "metadataToken": 385876143
           }
         }
       ]
