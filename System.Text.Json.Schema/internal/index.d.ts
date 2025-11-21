@@ -38,10 +38,10 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class JsonSchemaExporterContext$instance {
-    readonly BaseTypeInfo: JsonTypeInfo;
-    readonly Path: ReadOnlySpan_1<CLROf<string>>;
-    readonly PropertyInfo: JsonPropertyInfo;
-    readonly TypeInfo: JsonTypeInfo;
+    readonly baseTypeInfo: JsonTypeInfo;
+    readonly path: ReadOnlySpan_1<CLROf<string>>;
+    readonly propertyInfo: JsonPropertyInfo;
+    readonly typeInfo: JsonTypeInfo;
 }
 
 
@@ -49,8 +49,8 @@ export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export class JsonSchemaExporterOptions$instance {
     constructor();
-    TransformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
-    TreatNullObliviousAsNonNullable: boolean;
+    transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
+    treatNullObliviousAsNonNullable: boolean;
     static readonly Default: JsonSchemaExporterOptions;
 }
 

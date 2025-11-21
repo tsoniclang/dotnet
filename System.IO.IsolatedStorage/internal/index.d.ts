@@ -44,13 +44,13 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum IsolatedStorageScope {
-    None = 0,
-    User = 1,
-    Domain = 2,
-    Assembly = 4,
-    Roaming = 8,
-    Machine = 16,
-    Application = 32
+    none = 0,
+    user = 1,
+    domain = 2,
+    assembly = 4,
+    roaming = 8,
+    machine = 16,
+    application = 32
 }
 
 
@@ -62,17 +62,17 @@ export interface INormalizeForIsolatedStorage$instance {
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
 export abstract class IsolatedStorage$instance extends System_Internal.MarshalByRefObject$instance {
-    readonly ApplicationIdentity: any;
-    readonly AssemblyIdentity: any;
-    readonly AvailableFreeSpace: long;
-    readonly CurrentSize: ulong;
-    readonly DomainIdentity: any;
-    readonly MaximumSize: ulong;
-    readonly Quota: long;
-    readonly Scope: IsolatedStorageScope;
-    readonly UsedSize: long;
-    IncreaseQuotaTo(newQuotaSize: long): boolean;
-    abstract Remove(): void;
+    readonly applicationIdentity: any;
+    readonly assemblyIdentity: any;
+    readonly availableFreeSpace: long;
+    readonly currentSize: ulong;
+    readonly domainIdentity: any;
+    readonly maximumSize: ulong;
+    readonly quota: long;
+    readonly scope: IsolatedStorageScope;
+    readonly usedSize: long;
+    increaseQuotaTo(newQuotaSize: long): boolean;
+    abstract remove(): void;
 }
 
 
@@ -82,7 +82,7 @@ export class IsolatedStorageException$instance extends System_Internal.Exception
     constructor();
     constructor(message: string);
     constructor(message: string, inner: Exception);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -94,35 +94,35 @@ export type IsolatedStorageException = IsolatedStorageException$instance & __Iso
 
 
 export class IsolatedStorageFile$instance extends IsolatedStorage$instance {
-    readonly AvailableFreeSpace: long;
-    readonly CurrentSize: ulong;
-    readonly MaximumSize: ulong;
-    readonly Quota: long;
-    readonly UsedSize: long;
-    Close(): void;
-    CopyFile(sourceFileName: string, destinationFileName: string): void;
-    CopyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    CreateDirectory(dir: string): void;
-    CreateFile(path: string): IsolatedStorageFileStream;
-    DeleteDirectory(dir: string): void;
-    DeleteFile(file: string): void;
-    DirectoryExists(path: string): boolean;
-    Dispose(): void;
-    FileExists(path: string): boolean;
-    GetCreationTime(path: string): DateTimeOffset;
-    GetDirectoryNames(): string[];
-    GetDirectoryNames(searchPattern: string): string[];
-    GetFileNames(): string[];
-    GetFileNames(searchPattern: string): string[];
-    GetLastAccessTime(path: string): DateTimeOffset;
-    GetLastWriteTime(path: string): DateTimeOffset;
-    IncreaseQuotaTo(newQuotaSize: long): boolean;
-    MoveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    MoveFile(sourceFileName: string, destinationFileName: string): void;
-    OpenFile(path: string, mode: FileMode): IsolatedStorageFileStream;
-    OpenFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
-    OpenFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
-    Remove(): void;
+    readonly availableFreeSpace: long;
+    readonly currentSize: ulong;
+    readonly maximumSize: ulong;
+    readonly quota: long;
+    readonly usedSize: long;
+    close(): void;
+    copyFile(sourceFileName: string, destinationFileName: string): void;
+    copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    createDirectory(dir: string): void;
+    createFile(path: string): IsolatedStorageFileStream;
+    deleteDirectory(dir: string): void;
+    deleteFile(file: string): void;
+    directoryExists(path: string): boolean;
+    dispose(): void;
+    fileExists(path: string): boolean;
+    getCreationTime(path: string): DateTimeOffset;
+    getDirectoryNames(): string[];
+    getDirectoryNames(searchPattern: string): string[];
+    getFileNames(): string[];
+    getFileNames(searchPattern: string): string[];
+    getLastAccessTime(path: string): DateTimeOffset;
+    getLastWriteTime(path: string): DateTimeOffset;
+    increaseQuotaTo(newQuotaSize: long): boolean;
+    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    moveFile(sourceFileName: string, destinationFileName: string): void;
+    openFile(path: string, mode: FileMode): IsolatedStorageFileStream;
+    openFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
+    openFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
+    remove(): void;
     static readonly IsEnabled: boolean;
     static GetEnumerator(scope: IsolatedStorageScope): IEnumerator;
     static GetMachineStoreForApplication(): IsolatedStorageFile;
@@ -156,45 +156,45 @@ export class IsolatedStorageFileStream$instance extends System_IO_Internal.FileS
     constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, isf: IsolatedStorageFile);
     constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int);
     constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, isf: IsolatedStorageFile);
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Handle: nint;
-    readonly IsAsync: boolean;
-    readonly Length: long;
-    Position: long;
-    readonly SafeFileHandle: SafeFileHandle;
-    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
-    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    Flush(flushToDisk: boolean): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Lock(position: long, length: long): void;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    Read(buffer: Span_1<CLROf<byte>>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Unlock(position: long, length: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask;
-    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    readonly canRead: boolean;
+    readonly canSeek: boolean;
+    readonly canWrite: boolean;
+    readonly handle: nint;
+    readonly isAsync: boolean;
+    readonly length: long;
+    position: long;
+    readonly safeFileHandle: SafeFileHandle;
+    beginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
+    beginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
+    dispose(): void;
+    disposeAsync(): ValueTask;
+    endRead(asyncResult: IAsyncResult): int;
+    endWrite(asyncResult: IAsyncResult): void;
+    flush(): void;
+    flush(flushToDisk: boolean): void;
+    flushAsync(cancellationToken: CancellationToken): Task;
+    flushAsync(): Task;
+    lock(position: long, length: long): void;
+    read(buffer: byte[], offset: int, count: int): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<CLROf<byte>>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    readByte(): int;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
+    unlock(position: long, length: long): void;
+    write(buffer: byte[], offset: int, count: int): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: byte[], offset: int, count: int): Task;
+    writeByte(value: byte): void;
 }
 
 

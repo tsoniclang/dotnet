@@ -1,1588 +1,1588 @@
 {
-  "Namespace": "System.Diagnostics.CodeAnalysis",
-  "ContributingAssemblies": [
+  "namespace": "System.Diagnostics.CodeAnalysis",
+  "contributingAssemblies": [
     "System.Private.CoreLib"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-      "TsEmitName": "DynamicallyAccessedMemberTypes",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+      "tsEmitName": "DynamicallyAccessedMemberTypes",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "none",
+          "normalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicParameterlessConstructor",
-          "TsEmitName": "PublicParameterlessConstructor",
-          "NormalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicParameterlessConstructor",
+          "tsEmitName": "publicParameterlessConstructor",
+          "normalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicConstructors",
-          "TsEmitName": "PublicConstructors",
-          "NormalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicConstructors",
+          "tsEmitName": "publicConstructors",
+          "normalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicConstructors",
-          "TsEmitName": "NonPublicConstructors",
-          "NormalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicConstructors",
+          "tsEmitName": "nonPublicConstructors",
+          "normalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicMethods",
-          "TsEmitName": "PublicMethods",
-          "NormalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicMethods",
+          "tsEmitName": "publicMethods",
+          "normalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicMethods",
-          "TsEmitName": "NonPublicMethods",
-          "NormalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicMethods",
+          "tsEmitName": "nonPublicMethods",
+          "normalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicFields",
-          "TsEmitName": "PublicFields",
-          "NormalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicFields",
+          "tsEmitName": "publicFields",
+          "normalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicFields",
-          "TsEmitName": "NonPublicFields",
-          "NormalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicFields",
+          "tsEmitName": "nonPublicFields",
+          "normalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicNestedTypes",
-          "TsEmitName": "PublicNestedTypes",
-          "NormalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicNestedTypes",
+          "tsEmitName": "publicNestedTypes",
+          "normalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicNestedTypes",
-          "TsEmitName": "NonPublicNestedTypes",
-          "NormalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicNestedTypes",
+          "tsEmitName": "nonPublicNestedTypes",
+          "normalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicProperties",
-          "TsEmitName": "PublicProperties",
-          "NormalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicProperties",
+          "tsEmitName": "publicProperties",
+          "normalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicProperties",
-          "TsEmitName": "NonPublicProperties",
-          "NormalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicProperties",
+          "tsEmitName": "nonPublicProperties",
+          "normalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicEvents",
-          "TsEmitName": "PublicEvents",
-          "NormalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicEvents",
+          "tsEmitName": "publicEvents",
+          "normalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicEvents",
-          "TsEmitName": "NonPublicEvents",
-          "NormalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicEvents",
+          "tsEmitName": "nonPublicEvents",
+          "normalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Interfaces",
-          "TsEmitName": "Interfaces",
-          "NormalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Interfaces",
+          "tsEmitName": "interfaces",
+          "normalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicConstructorsWithInherited",
-          "TsEmitName": "NonPublicConstructorsWithInherited",
-          "NormalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicConstructorsWithInherited",
+          "tsEmitName": "nonPublicConstructorsWithInherited",
+          "normalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicMethodsWithInherited",
-          "TsEmitName": "NonPublicMethodsWithInherited",
-          "NormalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicMethodsWithInherited",
+          "tsEmitName": "nonPublicMethodsWithInherited",
+          "normalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicFieldsWithInherited",
-          "TsEmitName": "NonPublicFieldsWithInherited",
-          "NormalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicFieldsWithInherited",
+          "tsEmitName": "nonPublicFieldsWithInherited",
+          "normalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicNestedTypesWithInherited",
-          "TsEmitName": "NonPublicNestedTypesWithInherited",
-          "NormalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicNestedTypesWithInherited",
+          "tsEmitName": "nonPublicNestedTypesWithInherited",
+          "normalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicPropertiesWithInherited",
-          "TsEmitName": "NonPublicPropertiesWithInherited",
-          "NormalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicPropertiesWithInherited",
+          "tsEmitName": "nonPublicPropertiesWithInherited",
+          "normalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NonPublicEventsWithInherited",
-          "TsEmitName": "NonPublicEventsWithInherited",
-          "NormalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NonPublicEventsWithInherited",
+          "tsEmitName": "nonPublicEventsWithInherited",
+          "normalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicConstructorsWithInherited",
-          "TsEmitName": "PublicConstructorsWithInherited",
-          "NormalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicConstructorsWithInherited",
+          "tsEmitName": "publicConstructorsWithInherited",
+          "normalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "PublicNestedTypesWithInherited",
-          "TsEmitName": "PublicNestedTypesWithInherited",
-          "NormalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "PublicNestedTypesWithInherited",
+          "tsEmitName": "publicNestedTypesWithInherited",
+          "normalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllConstructors",
-          "TsEmitName": "AllConstructors",
-          "NormalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllConstructors",
+          "tsEmitName": "allConstructors",
+          "normalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllMethods",
-          "TsEmitName": "AllMethods",
-          "NormalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllMethods",
+          "tsEmitName": "allMethods",
+          "normalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllFields",
-          "TsEmitName": "AllFields",
-          "NormalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllFields",
+          "tsEmitName": "allFields",
+          "normalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllNestedTypes",
-          "TsEmitName": "AllNestedTypes",
-          "NormalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllNestedTypes",
+          "tsEmitName": "allNestedTypes",
+          "normalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllProperties",
-          "TsEmitName": "AllProperties",
-          "NormalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllProperties",
+          "tsEmitName": "allProperties",
+          "normalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AllEvents",
-          "TsEmitName": "AllEvents",
-          "NormalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AllEvents",
+          "tsEmitName": "allEvents",
+          "normalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "All",
-          "TsEmitName": "All",
-          "NormalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "All",
+          "tsEmitName": "all",
+          "normalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
-      "TsEmitName": "AllowNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+      "tsEmitName": "AllowNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-      "TsEmitName": "ConstantExpectedAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
+      "tsEmitName": "ConstantExpectedAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Min",
-          "TsEmitName": "Min",
-          "NormalizedSignature": "Min|:System.Object|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Min",
+          "tsEmitName": "min",
+          "normalizedSignature": "Min|:System.Object|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Max",
-          "TsEmitName": "Max",
-          "NormalizedSignature": "Max|:System.Object|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Max",
+          "tsEmitName": "max",
+          "normalizedSignature": "Max|:System.Object|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
-      "TsEmitName": "DisallowNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+      "tsEmitName": "DisallowNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
-      "TsEmitName": "DoesNotReturnAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+      "tsEmitName": "DoesNotReturnAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
-      "TsEmitName": "DoesNotReturnIfAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+      "tsEmitName": "DoesNotReturnIfAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ParameterValue",
-          "TsEmitName": "ParameterValue",
-          "NormalizedSignature": "ParameterValue|:System.Boolean|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ParameterValue",
+          "tsEmitName": "parameterValue",
+          "normalizedSignature": "ParameterValue|:System.Boolean|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
-      "TsEmitName": "DynamicallyAccessedMembersAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+      "tsEmitName": "DynamicallyAccessedMembersAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "MemberTypes",
-          "TsEmitName": "MemberTypes",
-          "NormalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "MemberTypes",
+          "tsEmitName": "memberTypes",
+          "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-      "TsEmitName": "DynamicDependencyAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+      "tsEmitName": "DynamicDependencyAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "MemberSignature",
-          "TsEmitName": "MemberSignature",
-          "NormalizedSignature": "MemberSignature|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "MemberSignature",
+          "tsEmitName": "memberSignature",
+          "normalizedSignature": "MemberSignature|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "MemberTypes",
-          "TsEmitName": "MemberTypes",
-          "NormalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "MemberTypes",
+          "tsEmitName": "memberTypes",
+          "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Type",
-          "TsEmitName": "Type",
-          "NormalizedSignature": "Type|:System.Type|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Type",
+          "tsEmitName": "type_",
+          "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "TypeName",
-          "TsEmitName": "TypeName",
-          "NormalizedSignature": "TypeName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "TypeName",
+          "tsEmitName": "typeName",
+          "normalizedSignature": "TypeName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "AssemblyName",
-          "TsEmitName": "AssemblyName",
-          "NormalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "AssemblyName",
+          "tsEmitName": "assemblyName",
+          "normalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Condition",
-          "TsEmitName": "Condition",
-          "NormalizedSignature": "Condition|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Condition",
+          "tsEmitName": "condition",
+          "normalizedSignature": "Condition|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.Type):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 3
+          "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3
         },
         {
-          "NormalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         },
         {
-          "NormalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 3
+          "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
-      "TsEmitName": "ExcludeFromCodeCoverageAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
+      "tsEmitName": "ExcludeFromCodeCoverageAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Justification",
-          "TsEmitName": "Justification",
-          "NormalizedSignature": "Justification|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Justification",
+          "tsEmitName": "justification",
+          "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-      "TsEmitName": "ExperimentalAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+      "tsEmitName": "ExperimentalAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "DiagnosticId",
-          "TsEmitName": "DiagnosticId",
-          "NormalizedSignature": "DiagnosticId|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "DiagnosticId",
+          "tsEmitName": "diagnosticId",
+          "normalizedSignature": "DiagnosticId|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "UrlFormat",
-          "TsEmitName": "UrlFormat",
-          "NormalizedSignature": "UrlFormat|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "UrlFormat",
+          "tsEmitName": "urlFormat",
+          "normalizedSignature": "UrlFormat|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
-      "TsEmitName": "FeatureGuardAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
+      "tsEmitName": "FeatureGuardAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "FeatureType",
-          "TsEmitName": "FeatureType",
-          "NormalizedSignature": "FeatureType|:System.Type|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "FeatureType",
+          "tsEmitName": "featureType",
+          "normalizedSignature": "FeatureType|:System.Type|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Type):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Type):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
-      "TsEmitName": "FeatureSwitchDefinitionAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
+      "tsEmitName": "FeatureSwitchDefinitionAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "SwitchName",
-          "TsEmitName": "SwitchName",
-          "NormalizedSignature": "SwitchName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "SwitchName",
+          "tsEmitName": "switchName",
+          "normalizedSignature": "SwitchName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
-      "TsEmitName": "MaybeNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+      "tsEmitName": "MaybeNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
-      "TsEmitName": "MaybeNullWhenAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+      "tsEmitName": "MaybeNullWhenAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ReturnValue",
-          "TsEmitName": "ReturnValue",
-          "NormalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ReturnValue",
+          "tsEmitName": "returnValue",
+          "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-      "TsEmitName": "MemberNotNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+      "tsEmitName": "MemberNotNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Members",
-          "TsEmitName": "Members",
-          "NormalizedSignature": "Members|:System.String[]|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Members",
+          "tsEmitName": "members",
+          "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String[]):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String[]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-      "TsEmitName": "MemberNotNullWhenAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+      "tsEmitName": "MemberNotNullWhenAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ReturnValue",
-          "TsEmitName": "ReturnValue",
-          "NormalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ReturnValue",
+          "tsEmitName": "returnValue",
+          "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Members",
-          "TsEmitName": "Members",
-          "NormalizedSignature": "Members|:System.String[]|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Members",
+          "tsEmitName": "members",
+          "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Boolean,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.Boolean,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         },
         {
-          "NormalizedSignature": "constructor|(System.Boolean,System.String[]):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.Boolean,System.String[]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
-      "TsEmitName": "NotNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+      "tsEmitName": "NotNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
-      "TsEmitName": "NotNullIfNotNullAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+      "tsEmitName": "NotNullIfNotNullAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ParameterName",
-          "TsEmitName": "ParameterName",
-          "NormalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ParameterName",
+          "tsEmitName": "parameterName",
+          "normalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
-      "TsEmitName": "NotNullWhenAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+      "tsEmitName": "NotNullWhenAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ReturnValue",
-          "TsEmitName": "ReturnValue",
-          "NormalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ReturnValue",
+          "tsEmitName": "returnValue",
+          "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-      "TsEmitName": "RequiresAssemblyFilesAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+      "tsEmitName": "RequiresAssemblyFilesAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Url",
-          "TsEmitName": "Url",
-          "NormalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Url",
+          "tsEmitName": "url",
+          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-      "TsEmitName": "RequiresDynamicCodeAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "tsEmitName": "RequiresDynamicCodeAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ExcludeStatics",
-          "TsEmitName": "ExcludeStatics",
-          "NormalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "ExcludeStatics",
+          "tsEmitName": "excludeStatics",
+          "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Url",
-          "TsEmitName": "Url",
-          "NormalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Url",
+          "tsEmitName": "url",
+          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-      "TsEmitName": "RequiresUnreferencedCodeAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "tsEmitName": "RequiresUnreferencedCodeAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ExcludeStatics",
-          "TsEmitName": "ExcludeStatics",
-          "NormalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "ExcludeStatics",
+          "tsEmitName": "excludeStatics",
+          "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Url",
-          "TsEmitName": "Url",
-          "NormalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Url",
+          "tsEmitName": "url",
+          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
-      "TsEmitName": "SetsRequiredMembersAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
+      "tsEmitName": "SetsRequiredMembersAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-      "TsEmitName": "StringSyntaxAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+      "tsEmitName": "StringSyntaxAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Syntax",
-          "TsEmitName": "Syntax",
-          "NormalizedSignature": "Syntax|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Syntax",
+          "tsEmitName": "syntax",
+          "normalizedSignature": "Syntax|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Arguments",
-          "TsEmitName": "Arguments",
-          "NormalizedSignature": "Arguments|:System.Object[]|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Arguments",
+          "tsEmitName": "arguments",
+          "normalizedSignature": "Arguments|:System.Object[]|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [
+      "fields": [
         {
-          "ClrName": "CompositeFormat",
-          "TsEmitName": "CompositeFormat",
-          "NormalizedSignature": "CompositeFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "CompositeFormat",
+          "tsEmitName": "compositeFormat",
+          "normalizedSignature": "CompositeFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "DateOnlyFormat",
-          "TsEmitName": "DateOnlyFormat",
-          "NormalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "DateOnlyFormat",
+          "tsEmitName": "dateOnlyFormat",
+          "normalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "DateTimeFormat",
-          "TsEmitName": "DateTimeFormat",
-          "NormalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "DateTimeFormat",
+          "tsEmitName": "dateTimeFormat",
+          "normalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "EnumFormat",
-          "TsEmitName": "EnumFormat",
-          "NormalizedSignature": "EnumFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "EnumFormat",
+          "tsEmitName": "enumFormat",
+          "normalizedSignature": "EnumFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "GuidFormat",
-          "TsEmitName": "GuidFormat",
-          "NormalizedSignature": "GuidFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "GuidFormat",
+          "tsEmitName": "guidFormat",
+          "normalizedSignature": "GuidFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Json",
-          "TsEmitName": "Json",
-          "NormalizedSignature": "Json|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Json",
+          "tsEmitName": "json",
+          "normalizedSignature": "Json|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "NumericFormat",
-          "TsEmitName": "NumericFormat",
-          "NormalizedSignature": "NumericFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "NumericFormat",
+          "tsEmitName": "numericFormat",
+          "normalizedSignature": "NumericFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Regex",
-          "TsEmitName": "Regex",
-          "NormalizedSignature": "Regex|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Regex",
+          "tsEmitName": "regex",
+          "normalizedSignature": "Regex|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "TimeOnlyFormat",
-          "TsEmitName": "TimeOnlyFormat",
-          "NormalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "TimeOnlyFormat",
+          "tsEmitName": "timeOnlyFormat",
+          "normalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "TimeSpanFormat",
-          "TsEmitName": "TimeSpanFormat",
-          "NormalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "TimeSpanFormat",
+          "tsEmitName": "timeSpanFormat",
+          "normalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Uri",
-          "TsEmitName": "Uri",
-          "NormalizedSignature": "Uri|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Uri",
+          "tsEmitName": "uri",
+          "normalizedSignature": "Uri|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Xml",
-          "TsEmitName": "Xml",
-          "NormalizedSignature": "Xml|System.String|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Xml",
+          "tsEmitName": "xml",
+          "normalizedSignature": "Xml|System.String|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": [
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.Object[]):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.Object[]):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-      "TsEmitName": "SuppressMessageAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+      "tsEmitName": "SuppressMessageAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Category",
-          "TsEmitName": "Category",
-          "NormalizedSignature": "Category|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Category",
+          "tsEmitName": "category",
+          "normalizedSignature": "Category|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "CheckId",
-          "TsEmitName": "CheckId",
-          "NormalizedSignature": "CheckId|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "CheckId",
+          "tsEmitName": "checkId",
+          "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Scope",
-          "TsEmitName": "Scope",
-          "NormalizedSignature": "Scope|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Scope",
+          "tsEmitName": "scope",
+          "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Target",
-          "TsEmitName": "Target",
-          "NormalizedSignature": "Target|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Target",
+          "tsEmitName": "target",
+          "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "MessageId",
-          "TsEmitName": "MessageId",
-          "NormalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "MessageId",
+          "tsEmitName": "messageId",
+          "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Justification",
-          "TsEmitName": "Justification",
-          "NormalizedSignature": "Justification|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Justification",
+          "tsEmitName": "justification",
+          "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-      "TsEmitName": "UnconditionalSuppressMessageAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+      "tsEmitName": "UnconditionalSuppressMessageAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Category",
-          "TsEmitName": "Category",
-          "NormalizedSignature": "Category|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Category",
+          "tsEmitName": "category",
+          "normalizedSignature": "Category|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "CheckId",
-          "TsEmitName": "CheckId",
-          "NormalizedSignature": "CheckId|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "CheckId",
+          "tsEmitName": "checkId",
+          "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Scope",
-          "TsEmitName": "Scope",
-          "NormalizedSignature": "Scope|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Scope",
+          "tsEmitName": "scope",
+          "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Target",
-          "TsEmitName": "Target",
-          "NormalizedSignature": "Target|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Target",
+          "tsEmitName": "target",
+          "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "MessageId",
-          "TsEmitName": "MessageId",
-          "NormalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "MessageId",
+          "tsEmitName": "messageId",
+          "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         },
         {
-          "ClrName": "Justification",
-          "TsEmitName": "Justification",
-          "NormalizedSignature": "Justification|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Justification",
+          "tsEmitName": "justification",
+          "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
-      "TsEmitName": "UnscopedRefAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
+      "tsEmitName": "UnscopedRefAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         }
       ]
     }

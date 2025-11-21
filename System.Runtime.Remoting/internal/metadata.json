@@ -1,42 +1,42 @@
 {
-  "Namespace": "System.Runtime.Remoting",
-  "ContributingAssemblies": [
+  "namespace": "System.Runtime.Remoting",
+  "contributingAssemblies": [
     "System.Private.CoreLib"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Runtime.Remoting.ObjectHandle",
-      "TsEmitName": "ObjectHandle",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Runtime.Remoting.ObjectHandle",
+      "tsEmitName": "ObjectHandle",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "Unwrap",
-          "TsEmitName": "Unwrap",
-          "NormalizedSignature": "Unwrap|():System.Object|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 0
+          "clrName": "Unwrap",
+          "tsEmitName": "unwrap",
+          "normalizedSignature": "Unwrap|():System.Object|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 0
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Object):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Object):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     }

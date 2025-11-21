@@ -40,11 +40,11 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class Vector128_1$instance<T> {
-    readonly Item: T;
-    Equals(obj: any): boolean;
-    Equals(other: Vector128_1<T>): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly item: T;
+    equals(obj: any): boolean;
+    equals(other: Vector128_1<T>): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -65,11 +65,11 @@ export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T>;
 
 
 export class Vector256_1$instance<T> {
-    readonly Item: T;
-    Equals(obj: any): boolean;
-    Equals(other: Vector256_1<T>): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly item: T;
+    equals(obj: any): boolean;
+    equals(other: Vector256_1<T>): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -90,11 +90,11 @@ export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T>;
 
 
 export class Vector512_1$instance<T> {
-    readonly Item: T;
-    Equals(obj: any): boolean;
-    Equals(other: Vector512_1<T>): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly item: T;
+    equals(obj: any): boolean;
+    equals(other: Vector512_1<T>): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;
@@ -115,11 +115,11 @@ export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T>;
 
 
 export class Vector64_1$instance<T> {
-    readonly Item: T;
-    Equals(obj: any): boolean;
-    Equals(other: Vector64_1<T>): boolean;
-    GetHashCode(): int;
-    ToString(): string;
+    readonly item: T;
+    equals(obj: any): boolean;
+    equals(other: Vector64_1<T>): boolean;
+    getHashCode(): int;
+    toString(): string;
     static readonly AllBitsSet: unknown;
     static readonly Count: int;
     static readonly Indices: unknown;

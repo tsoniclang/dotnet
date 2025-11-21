@@ -1,95 +1,95 @@
 {
-  "Namespace": "System.Net.Http.Metrics",
-  "ContributingAssemblies": [
+  "namespace": "System.Net.Http.Metrics",
+  "contributingAssemblies": [
     "System.Net.Http"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-      "TsEmitName": "HttpMetricsEnrichmentContext",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+      "tsEmitName": "HttpMetricsEnrichmentContext",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "AddCustomTag",
-          "TsEmitName": "AddCustomTag",
-          "NormalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2
+          "clrName": "AddCustomTag",
+          "tsEmitName": "addCustomTag",
+          "normalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2
         },
         {
-          "ClrName": "AddCallback",
-          "TsEmitName": "AddCallback",
-          "NormalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": true,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 2
+          "clrName": "AddCallback",
+          "tsEmitName": "addCallback",
+          "normalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Request",
-          "TsEmitName": "Request",
-          "NormalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Request",
+          "tsEmitName": "request",
+          "normalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Response",
-          "TsEmitName": "Response",
-          "NormalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Response",
+          "tsEmitName": "response",
+          "normalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Exception",
-          "TsEmitName": "Exception",
-          "NormalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Exception",
+          "tsEmitName": "exception",
+          "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": []
+      "fields": [],
+      "events": [],
+      "constructors": []
     }
   ]
 }

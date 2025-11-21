@@ -1,790 +1,790 @@
 {
-  "Namespace": "System.Runtime.Versioning",
-  "ContributingAssemblies": [
+  "namespace": "System.Runtime.Versioning",
+  "contributingAssemblies": [
     "System.Private.CoreLib"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-      "TsEmitName": "ComponentGuaranteesOptions",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+      "tsEmitName": "ComponentGuaranteesOptions",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "none",
+          "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Exchange",
-          "TsEmitName": "Exchange",
-          "NormalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Exchange",
+          "tsEmitName": "exchange",
+          "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Stable",
-          "TsEmitName": "Stable",
-          "NormalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Stable",
+          "tsEmitName": "stable",
+          "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SideBySide",
-          "TsEmitName": "SideBySide",
-          "NormalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SideBySide",
+          "tsEmitName": "sideBySide",
+          "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Runtime.Versioning.ResourceScope",
-      "TsEmitName": "ResourceScope",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Runtime.Versioning.ResourceScope",
+      "tsEmitName": "ResourceScope",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "none",
+          "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Machine",
-          "TsEmitName": "Machine",
-          "NormalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Machine",
+          "tsEmitName": "machine",
+          "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Process",
-          "TsEmitName": "Process",
-          "NormalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Process",
+          "tsEmitName": "process",
+          "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "AppDomain",
-          "TsEmitName": "AppDomain",
-          "NormalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "AppDomain",
+          "tsEmitName": "appDomain",
+          "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Library",
-          "TsEmitName": "Library",
-          "NormalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Library",
+          "tsEmitName": "library",
+          "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Private",
-          "TsEmitName": "Private",
-          "NormalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Private",
+          "tsEmitName": "private_",
+          "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "Assembly",
-          "TsEmitName": "Assembly",
-          "NormalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "Assembly",
+          "tsEmitName": "assembly",
+          "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
-      "TsEmitName": "ComponentGuaranteesAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
+      "tsEmitName": "ComponentGuaranteesAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Guarantees",
-          "TsEmitName": "Guarantees",
-          "NormalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Guarantees",
+          "tsEmitName": "guarantees",
+          "normalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Runtime.Versioning.ComponentGuaranteesOptions):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Runtime.Versioning.ComponentGuaranteesOptions):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.FrameworkName",
-      "TsEmitName": "FrameworkName",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Runtime.Versioning.FrameworkName",
+      "tsEmitName": "FrameworkName",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "Equals",
-          "TsEmitName": "Equals",
-          "NormalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": true,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "Equals",
+          "tsEmitName": "equals",
+          "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1
         },
         {
-          "ClrName": "Equals",
-          "TsEmitName": "Equals2",
-          "NormalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": true,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "Equals",
+          "tsEmitName": "equals2",
+          "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": true,
+          "arity": 0,
+          "parameterCount": 1
         },
         {
-          "ClrName": "GetHashCode",
-          "TsEmitName": "GetHashCode",
-          "NormalizedSignature": "GetHashCode|():System.Int32|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": true,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 0
+          "clrName": "GetHashCode",
+          "tsEmitName": "getHashCode",
+          "normalizedSignature": "GetHashCode|():System.Int32|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 0
         },
         {
-          "ClrName": "ToString",
-          "TsEmitName": "ToString",
-          "NormalizedSignature": "ToString|():System.String|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": true,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 0
+          "clrName": "ToString",
+          "tsEmitName": "toString",
+          "normalizedSignature": "ToString|():System.String|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": true,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 0
         },
         {
-          "ClrName": "Equals",
-          "TsEmitName": "Equals$view",
-          "NormalizedSignature": "Equals|(T):System.Boolean|static=false",
-          "Provenance": "ExplicitView",
-          "EmitScope": "ViewOnly",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": true,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1,
-          "SourceInterface": "System.IEquatable\u00601"
+          "clrName": "Equals",
+          "tsEmitName": "equals$view",
+          "normalizedSignature": "Equals|(T):System.Boolean|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1,
+          "sourceInterface": "System.IEquatable\u00601"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Identifier",
-          "TsEmitName": "Identifier",
-          "NormalizedSignature": "Identifier|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Identifier",
+          "tsEmitName": "identifier",
+          "normalizedSignature": "Identifier|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Version",
-          "TsEmitName": "Version",
-          "NormalizedSignature": "Version|:System.Version|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Version",
+          "tsEmitName": "version",
+          "normalizedSignature": "Version|:System.Version|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Profile",
-          "TsEmitName": "Profile",
-          "NormalizedSignature": "Profile|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Profile",
+          "tsEmitName": "profile",
+          "normalizedSignature": "Profile|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "FullName",
-          "TsEmitName": "FullName",
-          "NormalizedSignature": "FullName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "FullName",
+          "tsEmitName": "fullName",
+          "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String,System.Version):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.Version):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.Version,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 3
+          "normalizedSignature": "constructor|(System.String,System.Version,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-      "TsEmitName": "ObsoletedOSPlatformAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+      "tsEmitName": "ObsoletedOSPlatformAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Url",
-          "TsEmitName": "Url",
-          "NormalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Url",
+          "tsEmitName": "url",
+          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.OSPlatformAttribute",
-      "TsEmitName": "OSPlatformAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": true,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.OSPlatformAttribute",
+      "tsEmitName": "OSPlatformAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "PlatformName",
-          "TsEmitName": "PlatformName",
-          "NormalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "PlatformName",
+          "tsEmitName": "platformName",
+          "normalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": []
+      "fields": [],
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-      "TsEmitName": "RequiresPreviewFeaturesAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+      "tsEmitName": "RequiresPreviewFeaturesAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "Url",
-          "TsEmitName": "Url",
-          "NormalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "Url",
+          "tsEmitName": "url",
+          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0
         },
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-      "TsEmitName": "ResourceConsumptionAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+      "tsEmitName": "ResourceConsumptionAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ResourceScope",
-          "TsEmitName": "ResourceScope",
-          "NormalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ResourceScope",
+          "tsEmitName": "resourceScope",
+          "normalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "ConsumptionScope",
-          "TsEmitName": "ConsumptionScope",
-          "NormalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ConsumptionScope",
+          "tsEmitName": "consumptionScope",
+          "normalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.ResourceExposureAttribute",
-      "TsEmitName": "ResourceExposureAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.ResourceExposureAttribute",
+      "tsEmitName": "ResourceExposureAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "ResourceExposureLevel",
-          "TsEmitName": "ResourceExposureLevel",
-          "NormalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "ResourceExposureLevel",
+          "tsEmitName": "resourceExposureLevel",
+          "normalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
-      "TsEmitName": "SupportedOSPlatformAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
+      "tsEmitName": "SupportedOSPlatformAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
-      "TsEmitName": "SupportedOSPlatformGuardAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
+      "tsEmitName": "SupportedOSPlatformGuardAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.TargetFrameworkAttribute",
-      "TsEmitName": "TargetFrameworkAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.TargetFrameworkAttribute",
+      "tsEmitName": "TargetFrameworkAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "FrameworkName",
-          "TsEmitName": "FrameworkName",
-          "NormalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "FrameworkName",
+          "tsEmitName": "frameworkName",
+          "normalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         },
         {
-          "ClrName": "FrameworkDisplayName",
-          "TsEmitName": "FrameworkDisplayName",
-          "NormalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": true
+          "clrName": "FrameworkDisplayName",
+          "tsEmitName": "frameworkDisplayName",
+          "normalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": true
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.TargetPlatformAttribute",
-      "TsEmitName": "TargetPlatformAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Runtime.Versioning.TargetPlatformAttribute",
+      "tsEmitName": "TargetPlatformAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-      "TsEmitName": "UnsupportedOSPlatformAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+      "tsEmitName": "UnsupportedOSPlatformAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Message",
-          "TsEmitName": "Message",
-          "NormalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Message",
+          "tsEmitName": "message",
+          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         },
         {
-          "NormalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2
+          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
-      "TsEmitName": "UnsupportedOSPlatformGuardAttribute",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
+      "tsEmitName": "UnsupportedOSPlatformGuardAttribute",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.String):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.String):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.Versioning.VersioningHelper",
-      "TsEmitName": "VersioningHelper",
-      "Kind": "StaticNamespace",
-      "Accessibility": "Public",
-      "IsAbstract": true,
-      "IsSealed": true,
-      "IsStatic": true,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Runtime.Versioning.VersioningHelper",
+      "tsEmitName": "VersioningHelper",
+      "kind": "StaticNamespace",
+      "accessibility": "Public",
+      "isAbstract": true,
+      "isSealed": true,
+      "isStatic": true,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "MakeVersionSafeName",
-          "TsEmitName": "MakeVersionSafeName",
-          "NormalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": true,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 3
+          "clrName": "MakeVersionSafeName",
+          "tsEmitName": "makeVersionSafeName",
+          "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 3
         },
         {
-          "ClrName": "MakeVersionSafeName",
-          "TsEmitName": "MakeVersionSafeName2",
-          "NormalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": true,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 4
+          "clrName": "MakeVersionSafeName",
+          "tsEmitName": "makeVersionSafeName2",
+          "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": true,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 4
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": []
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
     }
   ]
 }

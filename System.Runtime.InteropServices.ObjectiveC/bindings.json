@@ -1,1907 +1,1907 @@
 {
-  "Namespace": "System.Runtime.InteropServices.ObjectiveC",
-  "Types": [
+  "namespace": "System.Runtime.InteropServices.ObjectiveC",
+  "types": [
     {
-      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-      "TsEmitName": "ObjectiveCMarshal_MessageSendFunction",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+      "tsEmitName": "ObjectiveCMarshal_MessageSendFunction",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "MetadataToken": 67113865,
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "metadataToken": 67113865,
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "MsgSend",
-          "TsEmitName": "MsgSend",
-          "MetadataToken": 67113866,
-          "NormalizedSignature": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "MsgSend",
+          "tsEmitName": "msgSend",
+          "metadataToken": 67113866,
+          "normalizedSignature": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "MsgSendFpret",
-          "TsEmitName": "MsgSendFpret",
-          "MetadataToken": 67113867,
-          "NormalizedSignature": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "MsgSendFpret",
+          "tsEmitName": "msgSendFpret",
+          "metadataToken": 67113867,
+          "normalizedSignature": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "MsgSendStret",
-          "TsEmitName": "MsgSendStret",
-          "MetadataToken": 67113868,
-          "NormalizedSignature": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "MsgSendStret",
+          "tsEmitName": "msgSendStret",
+          "metadataToken": 67113868,
+          "normalizedSignature": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "MsgSendSuper",
-          "TsEmitName": "MsgSendSuper",
-          "MetadataToken": 67113869,
-          "NormalizedSignature": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "MsgSendSuper",
+          "tsEmitName": "msgSendSuper",
+          "metadataToken": 67113869,
+          "normalizedSignature": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "MsgSendSuperStret",
-          "TsEmitName": "MsgSendSuperStret",
-          "MetadataToken": 67113870,
-          "NormalizedSignature": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "MsgSendSuperStret",
+          "tsEmitName": "msgSendSuperStret",
+          "metadataToken": 67113870,
+          "normalizedSignature": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "GetName",
-          "IsStatic": true,
-          "TsSignatureId": "GetName|(TEnum):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664288
+          "tsName": "getName",
+          "isStatic": true,
+          "tsSignatureId": "GetName|(TEnum):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664288
           }
         },
         {
-          "TsName": "GetName2",
-          "IsStatic": true,
-          "TsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664289
+          "tsName": "getName2",
+          "isStatic": true,
+          "tsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664289
           }
         },
         {
-          "TsName": "GetNames",
-          "IsStatic": true,
-          "TsSignatureId": "GetNames|():System.String[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664293
+          "tsName": "getNames",
+          "isStatic": true,
+          "tsSignatureId": "GetNames|():System.String[]|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664293
           }
         },
         {
-          "TsName": "GetNames2",
-          "IsStatic": true,
-          "TsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664294
+          "tsName": "getNames2",
+          "isStatic": true,
+          "tsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664294
           }
         },
         {
-          "TsName": "GetUnderlyingType",
-          "IsStatic": true,
-          "TsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664296
+          "tsName": "getUnderlyingType",
+          "isStatic": true,
+          "tsSignatureId": "GetUnderlyingType|(System.Type):System.Type|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664296
           }
         },
         {
-          "TsName": "GetValues",
-          "IsStatic": true,
-          "TsSignatureId": "GetValues|():TEnum[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664297
+          "tsName": "getValues",
+          "isStatic": true,
+          "tsSignatureId": "GetValues|():TEnum[]|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664297
           }
         },
         {
-          "TsName": "GetValues2",
-          "IsStatic": true,
-          "TsSignatureId": "GetValues|(System.Type):System.Array|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664298
+          "tsName": "getValues2",
+          "isStatic": true,
+          "tsSignatureId": "GetValues|(System.Type):System.Array|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664298
           }
         },
         {
-          "TsName": "GetValuesAsUnderlyingType",
-          "IsStatic": true,
-          "TsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664299
+          "tsName": "getValuesAsUnderlyingType",
+          "isStatic": true,
+          "tsSignatureId": "GetValuesAsUnderlyingType|():System.Array|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664299
           }
         },
         {
-          "TsName": "GetValuesAsUnderlyingType2",
-          "IsStatic": true,
-          "TsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664300
+          "tsName": "getValuesAsUnderlyingType2",
+          "isStatic": true,
+          "tsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664300
           }
         },
         {
-          "TsName": "HasFlag",
-          "IsStatic": false,
-          "TsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664303
+          "tsName": "hasFlag",
+          "isStatic": false,
+          "tsSignatureId": "HasFlag|(System.Enum):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664303
           }
         },
         {
-          "TsName": "IsDefined",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664304
+          "tsName": "isDefined",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(TEnum):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664304
           }
         },
         {
-          "TsName": "IsDefined2",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664306
+          "tsName": "isDefined2",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664306
           }
         },
         {
-          "TsName": "Parse",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664308
+          "tsName": "parse",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664308
           }
         },
         {
-          "TsName": "Parse2",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664309
+          "tsName": "parse2",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664309
           }
         },
         {
-          "TsName": "Parse3",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664310
+          "tsName": "parse3",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664310
           }
         },
         {
-          "TsName": "Parse4",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664311
+          "tsName": "parse4",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664311
           }
         },
         {
-          "TsName": "Parse5",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.String):TEnum|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664312
+          "tsName": "parse5",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.String):TEnum|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664312
           }
         },
         {
-          "TsName": "Parse6",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664313
+          "tsName": "parse6",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664313
           }
         },
         {
-          "TsName": "Parse7",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664314
+          "tsName": "parse7",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664314
           }
         },
         {
-          "TsName": "Parse8",
-          "IsStatic": true,
-          "TsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664315
+          "tsName": "parse8",
+          "isStatic": true,
+          "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664315
           }
         },
         {
-          "TsName": "TryParse",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664316
+          "tsName": "tryParse",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664316
           }
         },
         {
-          "TsName": "TryParse2",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664317
+          "tsName": "tryParse2",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664317
           }
         },
         {
-          "TsName": "TryParse3",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664318
+          "tsName": "tryParse3",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664318
           }
         },
         {
-          "TsName": "TryParse4",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664319
+          "tsName": "tryParse4",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664319
           }
         },
         {
-          "TsName": "TryParse5",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664321
+          "tsName": "tryParse5",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664321
           }
         },
         {
-          "TsName": "TryParse6",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664322
+          "tsName": "tryParse6",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664322
           }
         },
         {
-          "TsName": "TryParse7",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664323
+          "tsName": "tryParse7",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664323
           }
         },
         {
-          "TsName": "TryParse8",
-          "IsStatic": true,
-          "TsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664324
+          "tsName": "tryParse8",
+          "isStatic": true,
+          "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664324
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664331
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664331
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664332
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664332
           }
         },
         {
-          "TsName": "CompareTo",
-          "IsStatic": false,
-          "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664333
+          "tsName": "compareTo",
+          "isStatic": false,
+          "tsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664333
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664334
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664334
           }
         },
         {
-          "TsName": "ToString2",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|(System.String):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664335
+          "tsName": "toString2",
+          "isStatic": false,
+          "tsSignatureId": "ToString|(System.String):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664335
           }
         },
         {
-          "TsName": "ToString3",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664336
+          "tsName": "toString3",
+          "isStatic": false,
+          "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664336
           }
         },
         {
-          "TsName": "ToString4",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664337
+          "tsName": "toString4",
+          "isStatic": false,
+          "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664337
           }
         },
         {
-          "TsName": "Format",
-          "IsStatic": true,
-          "TsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664344
+          "tsName": "format",
+          "isStatic": true,
+          "tsSignatureId": "Format|(System.Type,System.Object,System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664344
           }
         },
         {
-          "TsName": "TryFormat",
-          "IsStatic": true,
-          "TsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664346
+          "tsName": "tryFormat",
+          "isStatic": true,
+          "tsSignatureId": "TryFormat|(TEnum,System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664346
           }
         },
         {
-          "TsName": "GetTypeCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664361
+          "tsName": "getTypeCode",
+          "isStatic": false,
+          "tsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664361
           }
         },
         {
-          "TsName": "ToObject",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664377
+          "tsName": "toObject",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664377
           }
         },
         {
-          "TsName": "ToObject2",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664378
+          "tsName": "toObject2",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664378
           }
         },
         {
-          "TsName": "ToObject3",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664379
+          "tsName": "toObject3",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664379
           }
         },
         {
-          "TsName": "ToObject4",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664380
+          "tsName": "toObject4",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664380
           }
         },
         {
-          "TsName": "ToObject5",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664381
+          "tsName": "toObject5",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664381
           }
         },
         {
-          "TsName": "ToObject6",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664382
+          "tsName": "toObject6",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664382
           }
         },
         {
-          "TsName": "ToObject7",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664383
+          "tsName": "toObject7",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664383
           }
         },
         {
-          "TsName": "ToObject8",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664384
+          "tsName": "toObject8",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664384
           }
         },
         {
-          "TsName": "ToObject9",
-          "IsStatic": true,
-          "TsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Enum",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664385
+          "tsName": "toObject9",
+          "isStatic": true,
+          "tsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
+          "target": {
+            "declaringClrType": "System.Enum",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664385
           }
         },
         {
-          "TsName": "TryFormat$view",
-          "IsStatic": false,
-          "TsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ISpanFormattable",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100669347
+          "tsName": "tryFormat$view",
+          "isStatic": false,
+          "tsSignatureId": "TryFormat|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ISpanFormattable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100669347
           }
         },
         {
-          "TsName": "ToBoolean",
-          "IsStatic": false,
-          "TsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668513
+          "tsName": "toBoolean",
+          "isStatic": false,
+          "tsSignatureId": "ToBoolean|(System.IFormatProvider):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668513
           }
         },
         {
-          "TsName": "ToChar",
-          "IsStatic": false,
-          "TsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668514
+          "tsName": "toChar",
+          "isStatic": false,
+          "tsSignatureId": "ToChar|(System.IFormatProvider):System.Char|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668514
           }
         },
         {
-          "TsName": "ToSByte",
-          "IsStatic": false,
-          "TsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668515
+          "tsName": "toSByte",
+          "isStatic": false,
+          "tsSignatureId": "ToSByte|(System.IFormatProvider):System.SByte|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668515
           }
         },
         {
-          "TsName": "ToByte",
-          "IsStatic": false,
-          "TsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668516
+          "tsName": "toByte",
+          "isStatic": false,
+          "tsSignatureId": "ToByte|(System.IFormatProvider):System.Byte|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668516
           }
         },
         {
-          "TsName": "ToInt16",
-          "IsStatic": false,
-          "TsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668517
+          "tsName": "toInt16",
+          "isStatic": false,
+          "tsSignatureId": "ToInt16|(System.IFormatProvider):System.Int16|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668517
           }
         },
         {
-          "TsName": "ToUInt16",
-          "IsStatic": false,
-          "TsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668518
+          "tsName": "toUInt16",
+          "isStatic": false,
+          "tsSignatureId": "ToUInt16|(System.IFormatProvider):System.UInt16|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668518
           }
         },
         {
-          "TsName": "ToInt32",
-          "IsStatic": false,
-          "TsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668519
+          "tsName": "toInt32",
+          "isStatic": false,
+          "tsSignatureId": "ToInt32|(System.IFormatProvider):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668519
           }
         },
         {
-          "TsName": "ToUInt32",
-          "IsStatic": false,
-          "TsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668520
+          "tsName": "toUInt32",
+          "isStatic": false,
+          "tsSignatureId": "ToUInt32|(System.IFormatProvider):System.UInt32|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668520
           }
         },
         {
-          "TsName": "ToInt64",
-          "IsStatic": false,
-          "TsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668521
+          "tsName": "toInt64",
+          "isStatic": false,
+          "tsSignatureId": "ToInt64|(System.IFormatProvider):System.Int64|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668521
           }
         },
         {
-          "TsName": "ToUInt64",
-          "IsStatic": false,
-          "TsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668522
+          "tsName": "toUInt64",
+          "isStatic": false,
+          "tsSignatureId": "ToUInt64|(System.IFormatProvider):System.UInt64|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668522
           }
         },
         {
-          "TsName": "ToSingle",
-          "IsStatic": false,
-          "TsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668523
+          "tsName": "toSingle",
+          "isStatic": false,
+          "tsSignatureId": "ToSingle|(System.IFormatProvider):System.Single|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668523
           }
         },
         {
-          "TsName": "ToDouble",
-          "IsStatic": false,
-          "TsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668524
+          "tsName": "toDouble",
+          "isStatic": false,
+          "tsSignatureId": "ToDouble|(System.IFormatProvider):System.Double|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668524
           }
         },
         {
-          "TsName": "ToDecimal",
-          "IsStatic": false,
-          "TsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668525
+          "tsName": "toDecimal",
+          "isStatic": false,
+          "tsSignatureId": "ToDecimal|(System.IFormatProvider):System.Decimal|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668525
           }
         },
         {
-          "TsName": "ToDateTime",
-          "IsStatic": false,
-          "TsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668526
+          "tsName": "toDateTime",
+          "isStatic": false,
+          "tsSignatureId": "ToDateTime|(System.IFormatProvider):System.DateTime|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668526
           }
         },
         {
-          "TsName": "ToType",
-          "IsStatic": false,
-          "TsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668528
+          "tsName": "toType",
+          "isStatic": false,
+          "tsSignatureId": "ToType|(System.Type,System.IFormatProvider):System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668528
           }
         },
         {
-          "TsName": "CompareTo$view",
-          "IsStatic": false,
-          "TsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IComparable",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668510
+          "tsName": "compareTo$view",
+          "isStatic": false,
+          "tsSignatureId": "CompareTo|(System.Object):System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.IComparable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668510
           }
         },
         {
-          "TsName": "ToString$view",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IFormattable",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668533
+          "tsName": "toString$view",
+          "isStatic": false,
+          "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.IFormattable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668533
           }
         },
         {
-          "TsName": "GetTypeCode$view",
-          "IsStatic": false,
-          "TsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668512
+          "tsName": "getTypeCode$view",
+          "isStatic": false,
+          "tsSignatureId": "GetTypeCode|():System.TypeCode|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668512
           }
         },
         {
-          "TsName": "ToString$view",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IConvertible",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668527
+          "tsName": "toString$view",
+          "isStatic": false,
+          "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
+          "target": {
+            "declaringClrType": "System.IConvertible",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668527
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedFields": [
+      "exposedFields": [
         {
-          "TsName": "value__",
-          "IsStatic": false,
-          "TsSignatureId": "value__|System.Int32|static=false|const=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113865
+          "tsName": "value__",
+          "isStatic": false,
+          "tsSignatureId": "value__|System.Int32|static=false|const=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113865
           }
         },
         {
-          "TsName": "MsgSend",
-          "IsStatic": true,
-          "TsSignatureId": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113866
+          "tsName": "msgSend",
+          "isStatic": true,
+          "tsSignatureId": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113866
           }
         },
         {
-          "TsName": "MsgSendFpret",
-          "IsStatic": true,
-          "TsSignatureId": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113867
+          "tsName": "msgSendFpret",
+          "isStatic": true,
+          "tsSignatureId": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113867
           }
         },
         {
-          "TsName": "MsgSendStret",
-          "IsStatic": true,
-          "TsSignatureId": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113868
+          "tsName": "msgSendStret",
+          "isStatic": true,
+          "tsSignatureId": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113868
           }
         },
         {
-          "TsName": "MsgSendSuper",
-          "IsStatic": true,
-          "TsSignatureId": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113869
+          "tsName": "msgSendSuper",
+          "isStatic": true,
+          "tsSignatureId": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113869
           }
         },
         {
-          "TsName": "MsgSendSuperStret",
-          "IsStatic": true,
-          "TsSignatureId": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 67113870
+          "tsName": "msgSendSuperStret",
+          "isStatic": true,
+          "tsSignatureId": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 67113870
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-      "TsEmitName": "ObjectiveCMarshal_UnhandledExceptionPropagationHandler",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+      "tsEmitName": "ObjectiveCMarshal_UnhandledExceptionPropagationHandler",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Invoke",
-          "TsEmitName": "Invoke",
-          "MetadataToken": 100695195,
-          "CanonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):",
-          "NormalizedSignature": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Invoke",
+          "tsEmitName": "invoke",
+          "metadataToken": 100695195,
+          "canonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):",
+          "normalizedSignature": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "BeginInvoke",
-          "TsEmitName": "BeginInvoke",
-          "MetadataToken": 100695196,
-          "CanonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "NormalizedSignature": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 5,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
+          "metadataToken": 100695196,
+          "canonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 5,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "EndInvoke",
-          "TsEmitName": "EndInvoke",
-          "MetadataToken": 100695197,
-          "CanonicalSignature": "(System.IntPtr\u0026,System.IAsyncResult):",
-          "NormalizedSignature": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "EndInvoke",
+          "tsEmitName": "endInvoke",
+          "metadataToken": 100695197,
+          "canonicalSignature": "(System.IntPtr\u0026,System.IAsyncResult):",
+          "normalizedSignature": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "Clone",
-          "TsEmitName": "Clone$view",
-          "MetadataToken": 100668509,
-          "CanonicalSignature": "():System.Object",
-          "NormalizedSignature": "Clone|():System.Object|static=false",
-          "EmitScope": "ViewOnly",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.ICloneable",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Clone",
+          "tsEmitName": "clone$view",
+          "metadataToken": 100668509,
+          "canonicalSignature": "():System.Object",
+          "normalizedSignature": "Clone|():System.Object|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.ICloneable",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData$view",
-          "MetadataToken": 100682649,
-          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "EmitScope": "ViewOnly",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "GetObjectData",
+          "tsEmitName": "getObjectData$view",
+          "metadataToken": 100682649,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.Serialization.ISerializable",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "Clone",
-          "TsEmitName": "Clone",
-          "MetadataToken": 0,
-          "CanonicalSignature": "():System.Object",
-          "NormalizedSignature": "Clone|():System.Object|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Clone",
+          "tsEmitName": "clone",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Object",
+          "normalizedSignature": "Clone|():System.Object|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "GetObjectData",
-          "TsEmitName": "GetObjectData",
-          "MetadataToken": 0,
-          "CanonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "NormalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "GetObjectData",
+          "tsEmitName": "getObjectData",
+          "metadataToken": 0,
+          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
+          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695194,
-          "CanonicalSignature": "(System.Object,System.IntPtr):void",
-          "NormalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695194,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Invoke",
-          "IsStatic": false,
-          "TsSignatureId": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695195
+          "tsName": "invoke",
+          "isStatic": false,
+          "tsSignatureId": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695195
           }
         },
         {
-          "TsName": "BeginInvoke",
-          "IsStatic": false,
-          "TsSignatureId": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695196
+          "tsName": "beginInvoke",
+          "isStatic": false,
+          "tsSignatureId": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695196
           }
         },
         {
-          "TsName": "EndInvoke",
-          "IsStatic": false,
-          "TsSignatureId": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695197
+          "tsName": "endInvoke",
+          "isStatic": false,
+          "tsSignatureId": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695197
           }
         },
         {
-          "TsName": "Clone$view",
-          "IsStatic": false,
-          "TsSignatureId": "Clone|():System.Object|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ICloneable",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100668509
+          "tsName": "clone$view",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.ICloneable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668509
           }
         },
         {
-          "TsName": "GetObjectData$view",
-          "IsStatic": false,
-          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.Serialization.ISerializable",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100682649
+          "tsName": "getObjectData$view",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.Serialization.ISerializable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100682649
           }
         },
         {
-          "TsName": "Clone",
-          "IsStatic": false,
-          "TsSignatureId": "Clone|():System.Object|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 0
+          "tsName": "clone",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 0
           }
         },
         {
-          "TsName": "GetObjectData",
-          "IsStatic": false,
-          "TsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 0
+          "tsName": "getObjectData",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 0
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.MulticastDelegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664796
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664796
           }
         },
         {
-          "TsName": "GetInvocationList",
-          "IsStatic": false,
-          "TsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.MulticastDelegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664806
+          "tsName": "getInvocationList",
+          "isStatic": false,
+          "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664806
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.MulticastDelegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664809
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664809
           }
         },
         {
-          "TsName": "CreateDelegate",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664226
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664226
           }
         },
         {
-          "TsName": "CreateDelegate2",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664227
+          "tsName": "createDelegate2",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664227
           }
         },
         {
-          "TsName": "CreateDelegate3",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664228
+          "tsName": "createDelegate3",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664228
           }
         },
         {
-          "TsName": "CreateDelegate4",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664229
+          "tsName": "createDelegate4",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664229
           }
         },
         {
-          "TsName": "Combine",
-          "IsStatic": true,
-          "TsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664255
+          "tsName": "combine",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664255
           }
         },
         {
-          "TsName": "Combine2",
-          "IsStatic": true,
-          "TsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664256
+          "tsName": "combine2",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664256
           }
         },
         {
-          "TsName": "Combine3",
-          "IsStatic": true,
-          "TsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664257
+          "tsName": "combine3",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664257
           }
         },
         {
-          "TsName": "CreateDelegate5",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664258
+          "tsName": "createDelegate5",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664258
           }
         },
         {
-          "TsName": "CreateDelegate6",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664259
+          "tsName": "createDelegate6",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664259
           }
         },
         {
-          "TsName": "CreateDelegate7",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664260
+          "tsName": "createDelegate7",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664260
           }
         },
         {
-          "TsName": "CreateDelegate8",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664261
+          "tsName": "createDelegate8",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664261
           }
         },
         {
-          "TsName": "CreateDelegate9",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664262
+          "tsName": "createDelegate9",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664262
           }
         },
         {
-          "TsName": "CreateDelegate10",
-          "IsStatic": true,
-          "TsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664263
+          "tsName": "createDelegate10",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664263
           }
         },
         {
-          "TsName": "EnumerateInvocationList",
-          "IsStatic": true,
-          "TsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664268
+          "tsName": "enumerateInvocationList",
+          "isStatic": true,
+          "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664268
           }
         },
         {
-          "TsName": "DynamicInvoke",
-          "IsStatic": false,
-          "TsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664269
+          "tsName": "dynamicInvoke",
+          "isStatic": false,
+          "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664269
           }
         },
         {
-          "TsName": "Remove",
-          "IsStatic": true,
-          "TsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664272
+          "tsName": "remove",
+          "isStatic": true,
+          "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664272
           }
         },
         {
-          "TsName": "RemoveAll",
-          "IsStatic": true,
-          "TsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664273
+          "tsName": "removeAll",
+          "isStatic": true,
+          "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664273
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Target",
-          "IsStatic": false,
-          "TsSignatureId": "Target|:System.Object|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385876039
-          }
-        },
-        {
-          "TsName": "HasSingleTarget",
-          "IsStatic": false,
-          "TsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385876040
-          }
-        },
-        {
-          "TsName": "Method",
-          "IsStatic": false,
-          "TsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Delegate",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385876041
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695194
+          "tsName": "target",
+          "isStatic": false,
+          "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876039
+          }
+        },
+        {
+          "tsName": "hasSingleTarget",
+          "isStatic": false,
+          "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876040
+          }
+        },
+        {
+          "tsName": "method",
+          "isStatic": false,
+          "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876041
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695194
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
-      "TsEmitName": "ObjectiveCTrackedTypeAttribute",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "clrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
+      "tsEmitName": "ObjectiveCTrackedTypeAttribute",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100695198,
-          "CanonicalSignature": "():void",
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "metadataToken": 100695198,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "GetCustomAttributes",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663865
+          "tsName": "getCustomAttributes",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663865
           }
         },
         {
-          "TsName": "GetCustomAttributes2",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663866
+          "tsName": "getCustomAttributes2",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663866
           }
         },
         {
-          "TsName": "GetCustomAttributes3",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663867
+          "tsName": "getCustomAttributes3",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663867
           }
         },
         {
-          "TsName": "GetCustomAttributes4",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663868
+          "tsName": "getCustomAttributes4",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663868
           }
         },
         {
-          "TsName": "IsDefined",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663869
+          "tsName": "isDefined",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663869
           }
         },
         {
-          "TsName": "IsDefined2",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663870
+          "tsName": "isDefined2",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663870
           }
         },
         {
-          "TsName": "GetCustomAttribute",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663871
+          "tsName": "getCustomAttribute",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663871
           }
         },
         {
-          "TsName": "GetCustomAttribute2",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663872
+          "tsName": "getCustomAttribute2",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663872
           }
         },
         {
-          "TsName": "GetCustomAttributes5",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663873
+          "tsName": "getCustomAttributes5",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663873
           }
         },
         {
-          "TsName": "GetCustomAttributes6",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663874
+          "tsName": "getCustomAttributes6",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663874
           }
         },
         {
-          "TsName": "GetCustomAttributes7",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663875
+          "tsName": "getCustomAttributes7",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663875
           }
         },
         {
-          "TsName": "GetCustomAttributes8",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663876
+          "tsName": "getCustomAttributes8",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663876
           }
         },
         {
-          "TsName": "IsDefined3",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663877
+          "tsName": "isDefined3",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663877
           }
         },
         {
-          "TsName": "IsDefined4",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663878
+          "tsName": "isDefined4",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663878
           }
         },
         {
-          "TsName": "GetCustomAttribute3",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663879
+          "tsName": "getCustomAttribute3",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663879
           }
         },
         {
-          "TsName": "GetCustomAttribute4",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663880
+          "tsName": "getCustomAttribute4",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663880
           }
         },
         {
-          "TsName": "GetCustomAttributes9",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663881
+          "tsName": "getCustomAttributes9",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663881
           }
         },
         {
-          "TsName": "GetCustomAttributes10",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663882
+          "tsName": "getCustomAttributes10",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663882
           }
         },
         {
-          "TsName": "GetCustomAttributes11",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663883
+          "tsName": "getCustomAttributes11",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663883
           }
         },
         {
-          "TsName": "GetCustomAttributes12",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663884
+          "tsName": "getCustomAttributes12",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663884
           }
         },
         {
-          "TsName": "IsDefined5",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663885
+          "tsName": "isDefined5",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663885
           }
         },
         {
-          "TsName": "IsDefined6",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663886
+          "tsName": "isDefined6",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663886
           }
         },
         {
-          "TsName": "GetCustomAttribute5",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663887
+          "tsName": "getCustomAttribute5",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663887
           }
         },
         {
-          "TsName": "GetCustomAttribute6",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663888
+          "tsName": "getCustomAttribute6",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663888
           }
         },
         {
-          "TsName": "GetCustomAttributes13",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663889
+          "tsName": "getCustomAttributes13",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663889
           }
         },
         {
-          "TsName": "GetCustomAttributes14",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663890
+          "tsName": "getCustomAttributes14",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663890
           }
         },
         {
-          "TsName": "GetCustomAttributes15",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663891
+          "tsName": "getCustomAttributes15",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663891
           }
         },
         {
-          "TsName": "GetCustomAttributes16",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663892
+          "tsName": "getCustomAttributes16",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663892
           }
         },
         {
-          "TsName": "IsDefined7",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663893
+          "tsName": "isDefined7",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663893
           }
         },
         {
-          "TsName": "IsDefined8",
-          "IsStatic": true,
-          "TsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663894
+          "tsName": "isDefined8",
+          "isStatic": true,
+          "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663894
           }
         },
         {
-          "TsName": "GetCustomAttribute7",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663895
+          "tsName": "getCustomAttribute7",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663895
           }
         },
         {
-          "TsName": "GetCustomAttribute8",
-          "IsStatic": true,
-          "TsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663896
+          "tsName": "getCustomAttribute8",
+          "isStatic": true,
+          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663896
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663898
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663898
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663899
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663899
           }
         },
         {
-          "TsName": "Match",
-          "IsStatic": false,
-          "TsSignatureId": "Match|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663902
+          "tsName": "match",
+          "isStatic": false,
+          "tsSignatureId": "Match|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663902
           }
         },
         {
-          "TsName": "IsDefaultAttribute",
-          "IsStatic": false,
-          "TsSignatureId": "IsDefaultAttribute|():System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100663903
+          "tsName": "isDefaultAttribute",
+          "isStatic": false,
+          "tsSignatureId": "IsDefaultAttribute|():System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100663903
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "TypeId",
-          "IsStatic": false,
-          "TsSignatureId": "TypeId|:System.Object|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.Attribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 385876000
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|():void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695198
+          "tsName": "typeId",
+          "isStatic": false,
+          "tsSignatureId": "TypeId|:System.Object|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Attribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876000
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|():void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695198
           }
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-      "TsEmitName": "ObjectiveCMarshal",
-      "AssemblyName": "System.Private.CoreLib",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+      "tsEmitName": "ObjectiveCMarshal",
+      "assemblyName": "System.Private.CoreLib",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Initialize",
-          "TsEmitName": "Initialize",
-          "MetadataToken": 100695190,
-          "CanonicalSignature": "(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void",
-          "NormalizedSignature": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "Initialize",
+          "tsEmitName": "initialize",
+          "metadataToken": 100695190,
+          "canonicalSignature": "(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void",
+          "normalizedSignature": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "CreateReferenceTrackingHandle",
-          "TsEmitName": "CreateReferenceTrackingHandle",
-          "MetadataToken": 100695191,
-          "CanonicalSignature": "(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle",
-          "NormalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "CreateReferenceTrackingHandle",
+          "tsEmitName": "createReferenceTrackingHandle",
+          "metadataToken": 100695191,
+          "canonicalSignature": "(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle",
+          "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "SetMessageSendCallback",
-          "TsEmitName": "SetMessageSendCallback",
-          "MetadataToken": 100695192,
-          "CanonicalSignature": "(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void",
-          "NormalizedSignature": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "SetMessageSendCallback",
+          "tsEmitName": "setMessageSendCallback",
+          "metadataToken": 100695192,
+          "canonicalSignature": "(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void",
+          "normalizedSignature": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+          "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
-          "ClrName": "SetMessageSendPendingException",
-          "TsEmitName": "SetMessageSendPendingException",
-          "MetadataToken": 100695193,
-          "CanonicalSignature": "(System.Exception):System.Void",
-          "NormalizedSignature": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-          "DeclaringAssemblyName": "System.Private.CoreLib"
+          "clrName": "SetMessageSendPendingException",
+          "tsEmitName": "setMessageSendPendingException",
+          "metadataToken": 100695193,
+          "canonicalSignature": "(System.Exception):System.Void",
+          "normalizedSignature": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+          "declaringAssemblyName": "System.Private.CoreLib"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Initialize",
-          "IsStatic": true,
-          "TsSignatureId": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695190
+          "tsName": "initialize",
+          "isStatic": true,
+          "tsSignatureId": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695190
           }
         },
         {
-          "TsName": "CreateReferenceTrackingHandle",
-          "IsStatic": true,
-          "TsSignatureId": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695191
+          "tsName": "createReferenceTrackingHandle",
+          "isStatic": true,
+          "tsSignatureId": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695191
           }
         },
         {
-          "TsName": "SetMessageSendCallback",
-          "IsStatic": true,
-          "TsSignatureId": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695192
+          "tsName": "setMessageSendCallback",
+          "isStatic": true,
+          "tsSignatureId": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695192
           }
         },
         {
-          "TsName": "SetMessageSendPendingException",
-          "IsStatic": true,
-          "TsSignatureId": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100695193
+          "tsName": "setMessageSendPendingException",
+          "isStatic": true,
+          "tsSignatureId": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100695193
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ]

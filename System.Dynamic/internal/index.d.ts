@@ -62,21 +62,21 @@ export interface IInvokeOnGetBinder$instance {
 export type IInvokeOnGetBinder = IInvokeOnGetBinder$instance;
 
 export abstract class BinaryOperationBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly Operation: ExpressionType;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject): DynamicMetaObject;
-    FallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly operation: ExpressionType;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject): DynamicMetaObject;
+    fallbackBinaryOperation(target: DynamicMetaObject, arg: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type BinaryOperationBinder = BinaryOperationBinder$instance;
 
 export abstract class BindingRestrictions$instance {
-    Merge(restrictions: BindingRestrictions): BindingRestrictions;
-    ToExpression(): Expression;
-    static readonly Empty: BindingRestrictions;
+    merge(restrictions: BindingRestrictions): BindingRestrictions;
+    toExpression(): Expression;
+    static readonly empty: BindingRestrictions;
     static Combine(contributingObjects: IList_1<DynamicMetaObject>): BindingRestrictions;
     static GetExpressionRestriction(expression: Expression): BindingRestrictions;
     static GetInstanceRestriction(expression: Expression, instance: any): BindingRestrictions;
@@ -89,60 +89,60 @@ export type BindingRestrictions = BindingRestrictions$instance;
 export class CallInfo$instance {
     constructor(argCount: int, argNames: string[]);
     constructor(argCount: int, argNames: IEnumerable_1<CLROf<string>>);
-    readonly ArgumentCount: int;
-    readonly ArgumentNames: ReadOnlyCollection_1<CLROf<string>>;
-    Equals(obj: any): boolean;
-    GetHashCode(): int;
+    readonly argumentCount: int;
+    readonly argumentNames: ReadOnlyCollection_1<CLROf<string>>;
+    equals(obj: any): boolean;
+    getHashCode(): int;
 }
 
 
 export type CallInfo = CallInfo$instance;
 
 export abstract class ConvertBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly Explicit: boolean;
-    readonly ReturnType: Type;
-    readonly Type: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackConvert(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackConvert(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly explicit: boolean;
+    readonly returnType: Type;
+    readonly type_: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackConvert(target: DynamicMetaObject): DynamicMetaObject;
+    fallbackConvert(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type ConvertBinder = ConvertBinder$instance;
 
 export abstract class CreateInstanceBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    fallbackCreateInstance(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type CreateInstanceBinder = CreateInstanceBinder$instance;
 
 export abstract class DeleteIndexBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
+    fallbackDeleteIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type DeleteIndexBinder = DeleteIndexBinder$instance;
 
 export abstract class DeleteMemberBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly IgnoreCase: boolean;
-    readonly Name: string;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackDeleteMember(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackDeleteMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly ignoreCase: boolean;
+    readonly name: string;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackDeleteMember(target: DynamicMetaObject): DynamicMetaObject;
+    fallbackDeleteMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
@@ -151,26 +151,26 @@ export type DeleteMemberBinder = DeleteMemberBinder$instance;
 export class DynamicMetaObject$instance {
     constructor(expression: Expression, restrictions: BindingRestrictions);
     constructor(expression: Expression, restrictions: BindingRestrictions, value: any);
-    readonly Expression: Expression;
-    readonly HasValue: boolean;
-    readonly LimitType: Type;
-    readonly Restrictions: BindingRestrictions;
-    readonly RuntimeType: Type;
-    readonly Value: any;
-    BindBinaryOperation(binder: BinaryOperationBinder, arg: DynamicMetaObject): DynamicMetaObject;
-    BindConvert(binder: ConvertBinder): DynamicMetaObject;
-    BindCreateInstance(binder: CreateInstanceBinder, args: DynamicMetaObject[]): DynamicMetaObject;
-    BindDeleteIndex(binder: DeleteIndexBinder, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    BindDeleteMember(binder: DeleteMemberBinder): DynamicMetaObject;
-    BindGetIndex(binder: GetIndexBinder, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    BindGetMember(binder: GetMemberBinder): DynamicMetaObject;
-    BindInvoke(binder: InvokeBinder, args: DynamicMetaObject[]): DynamicMetaObject;
-    BindInvokeMember(binder: InvokeMemberBinder, args: DynamicMetaObject[]): DynamicMetaObject;
-    BindSetIndex(binder: SetIndexBinder, indexes: DynamicMetaObject[], value: DynamicMetaObject): DynamicMetaObject;
-    BindSetMember(binder: SetMemberBinder, value: DynamicMetaObject): DynamicMetaObject;
-    BindUnaryOperation(binder: UnaryOperationBinder): DynamicMetaObject;
-    GetDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
-    static readonly EmptyMetaObjects: DynamicMetaObject[];
+    readonly expression: Expression;
+    readonly hasValue: boolean;
+    readonly limitType: Type;
+    readonly restrictions: BindingRestrictions;
+    readonly runtimeType: Type;
+    readonly value: any;
+    bindBinaryOperation(binder: BinaryOperationBinder, arg: DynamicMetaObject): DynamicMetaObject;
+    bindConvert(binder: ConvertBinder): DynamicMetaObject;
+    bindCreateInstance(binder: CreateInstanceBinder, args: DynamicMetaObject[]): DynamicMetaObject;
+    bindDeleteIndex(binder: DeleteIndexBinder, indexes: DynamicMetaObject[]): DynamicMetaObject;
+    bindDeleteMember(binder: DeleteMemberBinder): DynamicMetaObject;
+    bindGetIndex(binder: GetIndexBinder, indexes: DynamicMetaObject[]): DynamicMetaObject;
+    bindGetMember(binder: GetMemberBinder): DynamicMetaObject;
+    bindInvoke(binder: InvokeBinder, args: DynamicMetaObject[]): DynamicMetaObject;
+    bindInvokeMember(binder: InvokeMemberBinder, args: DynamicMetaObject[]): DynamicMetaObject;
+    bindSetIndex(binder: SetIndexBinder, indexes: DynamicMetaObject[], value: DynamicMetaObject): DynamicMetaObject;
+    bindSetMember(binder: SetMemberBinder, value: DynamicMetaObject): DynamicMetaObject;
+    bindUnaryOperation(binder: UnaryOperationBinder): DynamicMetaObject;
+    getDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
+    static readonly emptyMetaObjects: DynamicMetaObject[];
     static Create(value: any, expression: Expression): DynamicMetaObject;
 }
 
@@ -178,33 +178,33 @@ export class DynamicMetaObject$instance {
 export type DynamicMetaObject = DynamicMetaObject$instance;
 
 export abstract class DynamicMetaObjectBinder$instance extends System_Runtime_CompilerServices_Internal.CallSiteBinder$instance {
-    readonly ReturnType: Type;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    Defer(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Defer(args: DynamicMetaObject[]): DynamicMetaObject;
-    GetUpdateExpression(type_: Type): Expression;
+    readonly returnType: Type;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    defer(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    defer(args: DynamicMetaObject[]): DynamicMetaObject;
+    getUpdateExpression(type_: Type): Expression;
 }
 
 
 export type DynamicMetaObjectBinder = DynamicMetaObjectBinder$instance;
 
 export class DynamicObject$instance {
-    GetDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
-    GetMetaObject(parameter: Expression): DynamicMetaObject;
-    TryBinaryOperation(binder: BinaryOperationBinder, arg: any, result: { value: TSByRef<any> }): boolean;
-    TryConvert(binder: ConvertBinder, result: { value: TSByRef<any> }): boolean;
-    TryCreateInstance(binder: CreateInstanceBinder, args: any[], result: { value: TSByRef<any> }): boolean;
-    TryDeleteIndex(binder: DeleteIndexBinder, indexes: any[]): boolean;
-    TryDeleteMember(binder: DeleteMemberBinder): boolean;
-    TryGetIndex(binder: GetIndexBinder, indexes: any[], result: { value: TSByRef<any> }): boolean;
-    TryGetMember(binder: GetMemberBinder, result: { value: TSByRef<any> }): boolean;
-    TryInvoke(binder: InvokeBinder, args: any[], result: { value: TSByRef<any> }): boolean;
-    TryInvokeMember(binder: InvokeMemberBinder, args: any[], result: { value: TSByRef<any> }): boolean;
-    TrySetIndex(binder: SetIndexBinder, indexes: any[], value: any): boolean;
-    TrySetMember(binder: SetMemberBinder, value: any): boolean;
-    TryUnaryOperation(binder: UnaryOperationBinder, result: { value: TSByRef<any> }): boolean;
+    getDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
+    getMetaObject(parameter: Expression): DynamicMetaObject;
+    tryBinaryOperation(binder: BinaryOperationBinder, arg: any, result: { value: TSByRef<any> }): boolean;
+    tryConvert(binder: ConvertBinder, result: { value: TSByRef<any> }): boolean;
+    tryCreateInstance(binder: CreateInstanceBinder, args: any[], result: { value: TSByRef<any> }): boolean;
+    tryDeleteIndex(binder: DeleteIndexBinder, indexes: any[]): boolean;
+    tryDeleteMember(binder: DeleteMemberBinder): boolean;
+    tryGetIndex(binder: GetIndexBinder, indexes: any[], result: { value: TSByRef<any> }): boolean;
+    tryGetMember(binder: GetMemberBinder, result: { value: TSByRef<any> }): boolean;
+    tryInvoke(binder: InvokeBinder, args: any[], result: { value: TSByRef<any> }): boolean;
+    tryInvokeMember(binder: InvokeMemberBinder, args: any[], result: { value: TSByRef<any> }): boolean;
+    trySetIndex(binder: SetIndexBinder, indexes: any[], value: any): boolean;
+    trySetMember(binder: SetMemberBinder, value: any): boolean;
+    tryUnaryOperation(binder: UnaryOperationBinder, result: { value: TSByRef<any> }): boolean;
 }
 
 
@@ -232,89 +232,89 @@ export type ExpandoObject = ExpandoObject$instance & __ExpandoObject$views;
 
 
 export abstract class GetIndexBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[]): DynamicMetaObject;
+    fallbackGetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type GetIndexBinder = GetIndexBinder$instance;
 
 export abstract class GetMemberBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly IgnoreCase: boolean;
-    readonly Name: string;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackGetMember(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackGetMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly ignoreCase: boolean;
+    readonly name: string;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackGetMember(target: DynamicMetaObject): DynamicMetaObject;
+    fallbackGetMember(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type GetMemberBinder = GetMemberBinder$instance;
 
 export abstract class InvokeBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    fallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type InvokeBinder = InvokeBinder$instance;
 
 export abstract class InvokeMemberBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly IgnoreCase: boolean;
-    readonly Name: string;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    abstract FallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
-    FallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    FallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly ignoreCase: boolean;
+    readonly name: string;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    abstract fallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    fallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    fallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type InvokeMemberBinder = InvokeMemberBinder$instance;
 
 export abstract class SetIndexBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly CallInfo: CallInfo;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject): DynamicMetaObject;
-    FallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly callInfo: CallInfo;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject): DynamicMetaObject;
+    fallbackSetIndex(target: DynamicMetaObject, indexes: DynamicMetaObject[], value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type SetIndexBinder = SetIndexBinder$instance;
 
 export abstract class SetMemberBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly IgnoreCase: boolean;
-    readonly Name: string;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject): DynamicMetaObject;
-    FallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly ignoreCase: boolean;
+    readonly name: string;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject): DynamicMetaObject;
+    fallbackSetMember(target: DynamicMetaObject, value: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
 export type SetMemberBinder = SetMemberBinder$instance;
 
 export abstract class UnaryOperationBinder$instance extends DynamicMetaObjectBinder$instance {
-    readonly Operation: ExpressionType;
-    readonly ReturnType: Type;
-    Bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    Bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    FallbackUnaryOperation(target: DynamicMetaObject): DynamicMetaObject;
-    FallbackUnaryOperation(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    readonly operation: ExpressionType;
+    readonly returnType: Type;
+    bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
+    bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    fallbackUnaryOperation(target: DynamicMetaObject): DynamicMetaObject;
+    fallbackUnaryOperation(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 

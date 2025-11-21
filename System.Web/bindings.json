@@ -1,793 +1,793 @@
 {
-  "Namespace": "System.Web",
-  "Types": [
+  "namespace": "System.Web",
+  "types": [
     {
-      "ClrName": "System.Web.IHtmlString",
-      "TsEmitName": "IHtmlString",
-      "AssemblyName": "System.Web.HttpUtility",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Web.IHtmlString",
+      "tsEmitName": "IHtmlString",
+      "assemblyName": "System.Web.HttpUtility",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "ToHtmlString",
-          "TsEmitName": "ToHtmlString",
-          "MetadataToken": 100663310,
-          "CanonicalSignature": "():System.String",
-          "NormalizedSignature": "ToHtmlString|():System.String|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Web.IHtmlString",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "ToHtmlString",
+          "tsEmitName": "toHtmlString",
+          "metadataToken": 100663310,
+          "canonicalSignature": "():System.String",
+          "normalizedSignature": "ToHtmlString|():System.String|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.Web.IHtmlString",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "ToHtmlString",
-          "IsStatic": false,
-          "TsSignatureId": "ToHtmlString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Web.IHtmlString",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663310
+          "tsName": "toHtmlString",
+          "isStatic": false,
+          "tsSignatureId": "ToHtmlString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Web.IHtmlString",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663310
           }
         }
       ]
     },
     {
-      "ClrName": "System.Web.HttpUtility",
-      "TsEmitName": "HttpUtility",
-      "AssemblyName": "System.Web.HttpUtility",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.Web.HttpUtility",
+      "tsEmitName": "HttpUtility",
+      "assemblyName": "System.Web.HttpUtility",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "ParseQueryString",
-          "TsEmitName": "ParseQueryString",
-          "MetadataToken": 100663311,
-          "CanonicalSignature": "(System.String):System.Collections.Specialized.NameValueCollection",
-          "NormalizedSignature": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "ParseQueryString",
+          "tsEmitName": "parseQueryString",
+          "metadataToken": 100663311,
+          "canonicalSignature": "(System.String):System.Collections.Specialized.NameValueCollection",
+          "normalizedSignature": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "ParseQueryString",
-          "TsEmitName": "ParseQueryString2",
-          "MetadataToken": 100663312,
-          "CanonicalSignature": "(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
-          "NormalizedSignature": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "ParseQueryString",
+          "tsEmitName": "parseQueryString2",
+          "metadataToken": 100663312,
+          "canonicalSignature": "(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection",
+          "normalizedSignature": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlDecode",
-          "TsEmitName": "HtmlDecode",
-          "MetadataToken": 100663313,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "HtmlDecode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlDecode",
+          "tsEmitName": "htmlDecode",
+          "metadataToken": 100663313,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "HtmlDecode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlDecode",
-          "TsEmitName": "HtmlDecode2",
-          "MetadataToken": 100663314,
-          "CanonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
-          "NormalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlDecode",
+          "tsEmitName": "htmlDecode2",
+          "metadataToken": 100663314,
+          "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
+          "normalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlEncode",
-          "TsEmitName": "HtmlEncode",
-          "MetadataToken": 100663315,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "HtmlEncode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlEncode",
+          "tsEmitName": "htmlEncode",
+          "metadataToken": 100663315,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "HtmlEncode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlEncode",
-          "TsEmitName": "HtmlEncode2",
-          "MetadataToken": 100663316,
-          "CanonicalSignature": "(System.Object):System.String",
-          "NormalizedSignature": "HtmlEncode|(System.Object):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlEncode",
+          "tsEmitName": "htmlEncode2",
+          "metadataToken": 100663316,
+          "canonicalSignature": "(System.Object):System.String",
+          "normalizedSignature": "HtmlEncode|(System.Object):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlEncode",
-          "TsEmitName": "HtmlEncode3",
-          "MetadataToken": 100663317,
-          "CanonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
-          "NormalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlEncode",
+          "tsEmitName": "htmlEncode3",
+          "metadataToken": 100663317,
+          "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
+          "normalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlAttributeEncode",
-          "TsEmitName": "HtmlAttributeEncode",
-          "MetadataToken": 100663318,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "HtmlAttributeEncode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlAttributeEncode",
+          "tsEmitName": "htmlAttributeEncode",
+          "metadataToken": 100663318,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "HtmlAttributeEncode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "HtmlAttributeEncode",
-          "TsEmitName": "HtmlAttributeEncode2",
-          "MetadataToken": 100663319,
-          "CanonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
-          "NormalizedSignature": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "HtmlAttributeEncode",
+          "tsEmitName": "htmlAttributeEncode2",
+          "metadataToken": 100663319,
+          "canonicalSignature": "(System.String,System.IO.TextWriter):System.Void",
+          "normalizedSignature": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncode",
-          "TsEmitName": "UrlEncode",
-          "MetadataToken": 100663320,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "UrlEncode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncode",
+          "tsEmitName": "urlEncode",
+          "metadataToken": 100663320,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "UrlEncode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlPathEncode",
-          "TsEmitName": "UrlPathEncode",
-          "MetadataToken": 100663321,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "UrlPathEncode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlPathEncode",
+          "tsEmitName": "urlPathEncode",
+          "metadataToken": 100663321,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "UrlPathEncode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncode",
-          "TsEmitName": "UrlEncode2",
-          "MetadataToken": 100663322,
-          "CanonicalSignature": "(System.String,System.Text.Encoding):System.String",
-          "NormalizedSignature": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncode",
+          "tsEmitName": "urlEncode2",
+          "metadataToken": 100663322,
+          "canonicalSignature": "(System.String,System.Text.Encoding):System.String",
+          "normalizedSignature": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncode",
-          "TsEmitName": "UrlEncode3",
-          "MetadataToken": 100663323,
-          "CanonicalSignature": "(System.Byte[]):System.String",
-          "NormalizedSignature": "UrlEncode|(System.Byte[]):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncode",
+          "tsEmitName": "urlEncode3",
+          "metadataToken": 100663323,
+          "canonicalSignature": "(System.Byte[]):System.String",
+          "normalizedSignature": "UrlEncode|(System.Byte[]):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncode",
-          "TsEmitName": "UrlEncode4",
-          "MetadataToken": 100663324,
-          "CanonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
-          "NormalizedSignature": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncode",
+          "tsEmitName": "urlEncode4",
+          "metadataToken": 100663324,
+          "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.String",
+          "normalizedSignature": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeToBytes",
-          "TsEmitName": "UrlEncodeToBytes",
-          "MetadataToken": 100663325,
-          "CanonicalSignature": "(System.String):System.Byte[]",
-          "NormalizedSignature": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes",
+          "metadataToken": 100663325,
+          "canonicalSignature": "(System.String):System.Byte[]",
+          "normalizedSignature": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeToBytes",
-          "TsEmitName": "UrlEncodeToBytes2",
-          "MetadataToken": 100663326,
-          "CanonicalSignature": "(System.Byte[]):System.Byte[]",
-          "NormalizedSignature": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes2",
+          "metadataToken": 100663326,
+          "canonicalSignature": "(System.Byte[]):System.Byte[]",
+          "normalizedSignature": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeUnicodeToBytes",
-          "TsEmitName": "UrlEncodeUnicodeToBytes",
-          "MetadataToken": 100663327,
-          "CanonicalSignature": "(System.String):System.Byte[]",
-          "NormalizedSignature": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeUnicodeToBytes",
+          "tsEmitName": "urlEncodeUnicodeToBytes",
+          "metadataToken": 100663327,
+          "canonicalSignature": "(System.String):System.Byte[]",
+          "normalizedSignature": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecode",
-          "TsEmitName": "UrlDecode",
-          "MetadataToken": 100663328,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "UrlDecode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecode",
+          "tsEmitName": "urlDecode",
+          "metadataToken": 100663328,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "UrlDecode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecode",
-          "TsEmitName": "UrlDecode2",
-          "MetadataToken": 100663329,
-          "CanonicalSignature": "(System.Byte[],System.Text.Encoding):System.String",
-          "NormalizedSignature": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecode",
+          "tsEmitName": "urlDecode2",
+          "metadataToken": 100663329,
+          "canonicalSignature": "(System.Byte[],System.Text.Encoding):System.String",
+          "normalizedSignature": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecodeToBytes",
-          "TsEmitName": "UrlDecodeToBytes",
-          "MetadataToken": 100663330,
-          "CanonicalSignature": "(System.String):System.Byte[]",
-          "NormalizedSignature": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes",
+          "metadataToken": 100663330,
+          "canonicalSignature": "(System.String):System.Byte[]",
+          "normalizedSignature": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecodeToBytes",
-          "TsEmitName": "UrlDecodeToBytes2",
-          "MetadataToken": 100663331,
-          "CanonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
-          "NormalizedSignature": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes2",
+          "metadataToken": 100663331,
+          "canonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
+          "normalizedSignature": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecodeToBytes",
-          "TsEmitName": "UrlDecodeToBytes3",
-          "MetadataToken": 100663332,
-          "CanonicalSignature": "(System.Byte[]):System.Byte[]",
-          "NormalizedSignature": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes3",
+          "metadataToken": 100663332,
+          "canonicalSignature": "(System.Byte[]):System.Byte[]",
+          "normalizedSignature": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeToBytes",
-          "TsEmitName": "UrlEncodeToBytes3",
-          "MetadataToken": 100663333,
-          "CanonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
-          "NormalizedSignature": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes3",
+          "metadataToken": 100663333,
+          "canonicalSignature": "(System.String,System.Text.Encoding):System.Byte[]",
+          "normalizedSignature": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeToBytes",
-          "TsEmitName": "UrlEncodeToBytes4",
-          "MetadataToken": 100663334,
-          "CanonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
-          "NormalizedSignature": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeToBytes",
+          "tsEmitName": "urlEncodeToBytes4",
+          "metadataToken": 100663334,
+          "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
+          "normalizedSignature": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlEncodeUnicode",
-          "TsEmitName": "UrlEncodeUnicode",
-          "MetadataToken": 100663335,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "UrlEncodeUnicode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlEncodeUnicode",
+          "tsEmitName": "urlEncodeUnicode",
+          "metadataToken": 100663335,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "UrlEncodeUnicode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecode",
-          "TsEmitName": "UrlDecode3",
-          "MetadataToken": 100663336,
-          "CanonicalSignature": "(System.String,System.Text.Encoding):System.String",
-          "NormalizedSignature": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecode",
+          "tsEmitName": "urlDecode3",
+          "metadataToken": 100663336,
+          "canonicalSignature": "(System.String,System.Text.Encoding):System.String",
+          "normalizedSignature": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecode",
-          "TsEmitName": "UrlDecode4",
-          "MetadataToken": 100663338,
-          "CanonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
-          "NormalizedSignature": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecode",
+          "tsEmitName": "urlDecode4",
+          "metadataToken": 100663338,
+          "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String",
+          "normalizedSignature": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "UrlDecodeToBytes",
-          "TsEmitName": "UrlDecodeToBytes4",
-          "MetadataToken": 100663339,
-          "CanonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
-          "NormalizedSignature": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "UrlDecodeToBytes",
+          "tsEmitName": "urlDecodeToBytes4",
+          "metadataToken": 100663339,
+          "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Byte[]",
+          "normalizedSignature": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "JavaScriptStringEncode",
-          "TsEmitName": "JavaScriptStringEncode",
-          "MetadataToken": 100663340,
-          "CanonicalSignature": "(System.String):System.String",
-          "NormalizedSignature": "JavaScriptStringEncode|(System.String):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "JavaScriptStringEncode",
+          "tsEmitName": "javaScriptStringEncode",
+          "metadataToken": 100663340,
+          "canonicalSignature": "(System.String):System.String",
+          "normalizedSignature": "JavaScriptStringEncode|(System.String):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         },
         {
-          "ClrName": "JavaScriptStringEncode",
-          "TsEmitName": "JavaScriptStringEncode2",
-          "MetadataToken": 100663341,
-          "CanonicalSignature": "(System.String,System.Boolean):System.String",
-          "NormalizedSignature": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "clrName": "JavaScriptStringEncode",
+          "tsEmitName": "javaScriptStringEncode2",
+          "metadataToken": 100663341,
+          "canonicalSignature": "(System.String,System.Boolean):System.String",
+          "normalizedSignature": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663342,
-          "CanonicalSignature": "():void",
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.Web.HttpUtility",
-          "DeclaringAssemblyName": "System.Web.HttpUtility"
+          "metadataToken": 100663342,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.Web.HttpUtility",
+          "declaringAssemblyName": "System.Web.HttpUtility"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "ParseQueryString",
-          "IsStatic": true,
-          "TsSignatureId": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663311
+          "tsName": "parseQueryString",
+          "isStatic": true,
+          "tsSignatureId": "ParseQueryString|(System.String):System.Collections.Specialized.NameValueCollection|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663311
           }
         },
         {
-          "TsName": "ParseQueryString2",
-          "IsStatic": true,
-          "TsSignatureId": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663312
+          "tsName": "parseQueryString2",
+          "isStatic": true,
+          "tsSignatureId": "ParseQueryString|(System.String,System.Text.Encoding):System.Collections.Specialized.NameValueCollection|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663312
           }
         },
         {
-          "TsName": "HtmlDecode",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlDecode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663313
+          "tsName": "htmlDecode",
+          "isStatic": true,
+          "tsSignatureId": "HtmlDecode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663313
           }
         },
         {
-          "TsName": "HtmlDecode2",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663314
+          "tsName": "htmlDecode2",
+          "isStatic": true,
+          "tsSignatureId": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663314
           }
         },
         {
-          "TsName": "HtmlEncode",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlEncode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663315
+          "tsName": "htmlEncode",
+          "isStatic": true,
+          "tsSignatureId": "HtmlEncode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663315
           }
         },
         {
-          "TsName": "HtmlEncode2",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlEncode|(System.Object):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663316
+          "tsName": "htmlEncode2",
+          "isStatic": true,
+          "tsSignatureId": "HtmlEncode|(System.Object):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663316
           }
         },
         {
-          "TsName": "HtmlEncode3",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663317
+          "tsName": "htmlEncode3",
+          "isStatic": true,
+          "tsSignatureId": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663317
           }
         },
         {
-          "TsName": "HtmlAttributeEncode",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlAttributeEncode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663318
+          "tsName": "htmlAttributeEncode",
+          "isStatic": true,
+          "tsSignatureId": "HtmlAttributeEncode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663318
           }
         },
         {
-          "TsName": "HtmlAttributeEncode2",
-          "IsStatic": true,
-          "TsSignatureId": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663319
+          "tsName": "htmlAttributeEncode2",
+          "isStatic": true,
+          "tsSignatureId": "HtmlAttributeEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663319
           }
         },
         {
-          "TsName": "UrlEncode",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663320
+          "tsName": "urlEncode",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663320
           }
         },
         {
-          "TsName": "UrlPathEncode",
-          "IsStatic": true,
-          "TsSignatureId": "UrlPathEncode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663321
+          "tsName": "urlPathEncode",
+          "isStatic": true,
+          "tsSignatureId": "UrlPathEncode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663321
           }
         },
         {
-          "TsName": "UrlEncode2",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663322
+          "tsName": "urlEncode2",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncode|(System.String,System.Text.Encoding):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663322
           }
         },
         {
-          "TsName": "UrlEncode3",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncode|(System.Byte[]):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663323
+          "tsName": "urlEncode3",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncode|(System.Byte[]):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663323
           }
         },
         {
-          "TsName": "UrlEncode4",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663324
+          "tsName": "urlEncode4",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncode|(System.Byte[],System.Int32,System.Int32):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663324
           }
         },
         {
-          "TsName": "UrlEncodeToBytes",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663325
+          "tsName": "urlEncodeToBytes",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeToBytes|(System.String):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663325
           }
         },
         {
-          "TsName": "UrlEncodeToBytes2",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663326
+          "tsName": "urlEncodeToBytes2",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeToBytes|(System.Byte[]):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663326
           }
         },
         {
-          "TsName": "UrlEncodeUnicodeToBytes",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663327
+          "tsName": "urlEncodeUnicodeToBytes",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeUnicodeToBytes|(System.String):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663327
           }
         },
         {
-          "TsName": "UrlDecode",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663328
+          "tsName": "urlDecode",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663328
           }
         },
         {
-          "TsName": "UrlDecode2",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663329
+          "tsName": "urlDecode2",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecode|(System.Byte[],System.Text.Encoding):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663329
           }
         },
         {
-          "TsName": "UrlDecodeToBytes",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663330
+          "tsName": "urlDecodeToBytes",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecodeToBytes|(System.String):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663330
           }
         },
         {
-          "TsName": "UrlDecodeToBytes2",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663331
+          "tsName": "urlDecodeToBytes2",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663331
           }
         },
         {
-          "TsName": "UrlDecodeToBytes3",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663332
+          "tsName": "urlDecodeToBytes3",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecodeToBytes|(System.Byte[]):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663332
           }
         },
         {
-          "TsName": "UrlEncodeToBytes3",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663333
+          "tsName": "urlEncodeToBytes3",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeToBytes|(System.String,System.Text.Encoding):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663333
           }
         },
         {
-          "TsName": "UrlEncodeToBytes4",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663334
+          "tsName": "urlEncodeToBytes4",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663334
           }
         },
         {
-          "TsName": "UrlEncodeUnicode",
-          "IsStatic": true,
-          "TsSignatureId": "UrlEncodeUnicode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663335
+          "tsName": "urlEncodeUnicode",
+          "isStatic": true,
+          "tsSignatureId": "UrlEncodeUnicode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663335
           }
         },
         {
-          "TsName": "UrlDecode3",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663336
+          "tsName": "urlDecode3",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecode|(System.String,System.Text.Encoding):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663336
           }
         },
         {
-          "TsName": "UrlDecode4",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663338
+          "tsName": "urlDecode4",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecode|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663338
           }
         },
         {
-          "TsName": "UrlDecodeToBytes4",
-          "IsStatic": true,
-          "TsSignatureId": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663339
+          "tsName": "urlDecodeToBytes4",
+          "isStatic": true,
+          "tsSignatureId": "UrlDecodeToBytes|(System.Byte[],System.Int32,System.Int32):System.Byte[]|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663339
           }
         },
         {
-          "TsName": "JavaScriptStringEncode",
-          "IsStatic": true,
-          "TsSignatureId": "JavaScriptStringEncode|(System.String):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663340
+          "tsName": "javaScriptStringEncode",
+          "isStatic": true,
+          "tsSignatureId": "JavaScriptStringEncode|(System.String):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663340
           }
         },
         {
-          "TsName": "JavaScriptStringEncode2",
-          "IsStatic": true,
-          "TsSignatureId": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663341
+          "tsName": "javaScriptStringEncode2",
+          "isStatic": true,
+          "tsSignatureId": "JavaScriptStringEncode|(System.String,System.Boolean):System.String|static=true",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663341
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedConstructors": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|():void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Web.HttpUtility",
-            "DeclaringAssemblyName": "System.Web.HttpUtility",
-            "MetadataToken": 100663342
+          "isStatic": false,
+          "tsSignatureId": "constructor|():void|static=false",
+          "target": {
+            "declaringClrType": "System.Web.HttpUtility",
+            "declaringAssemblyName": "System.Web.HttpUtility",
+            "metadataToken": 100663342
           }
         }
       ]

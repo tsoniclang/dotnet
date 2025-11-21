@@ -1,52 +1,52 @@
 {
-  "Namespace": "System.Linq.Expressions.Interpreter",
-  "ContributingAssemblies": [
+  "namespace": "System.Linq.Expressions.Interpreter",
+  "contributingAssemblies": [
     "System.Linq.Expressions"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Linq.Expressions.Interpreter.LightLambda",
-      "TsEmitName": "LightLambda",
-      "Kind": "Class",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": false,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [
+      "clrName": "System.Linq.Expressions.Interpreter.LightLambda",
+      "tsEmitName": "LightLambda",
+      "kind": "Class",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": false,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [
         {
-          "ClrName": "Run",
-          "TsEmitName": "Run",
-          "NormalizedSignature": "Run|(System.Object[]):System.Object|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "Run",
+          "tsEmitName": "run",
+          "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1
         },
         {
-          "ClrName": "RunVoid",
-          "TsEmitName": "RunVoid",
-          "NormalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsSealed": false,
-          "Arity": 0,
-          "ParameterCount": 1
+          "clrName": "RunVoid",
+          "tsEmitName": "runVoid",
+          "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": []
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": []
     }
   ]
 }

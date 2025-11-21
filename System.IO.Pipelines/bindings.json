@@ -1,2286 +1,2286 @@
 {
-  "Namespace": "System.IO.Pipelines",
-  "Types": [
+  "namespace": "System.IO.Pipelines",
+  "types": [
     {
-      "ClrName": "System.IO.Pipelines.IDuplexPipe",
-      "TsEmitName": "IDuplexPipe",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.IDuplexPipe",
+      "tsEmitName": "IDuplexPipe",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Input",
-          "TsEmitName": "Input",
-          "MetadataToken": 385876000,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeReader",
-          "NormalizedSignature": "Input|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.IDuplexPipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Input",
+          "tsEmitName": "input",
+          "metadataToken": 385876000,
+          "canonicalSignature": ":System.IO.Pipelines.PipeReader",
+          "normalizedSignature": "Input|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Output",
-          "TsEmitName": "Output",
-          "MetadataToken": 385876001,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeWriter",
-          "NormalizedSignature": "Output|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.IDuplexPipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Output",
+          "tsEmitName": "output",
+          "metadataToken": 385876001,
+          "canonicalSignature": ":System.IO.Pipelines.PipeWriter",
+          "normalizedSignature": "Output|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedProperties": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedProperties": [
         {
-          "TsName": "Input",
-          "IsStatic": false,
-          "TsSignatureId": "Input|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.IDuplexPipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876000
+          "tsName": "input",
+          "isStatic": false,
+          "tsSignatureId": "Input|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876000
           }
         },
         {
-          "TsName": "Output",
-          "IsStatic": false,
-          "TsSignatureId": "Output|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.IDuplexPipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876001
+          "tsName": "output",
+          "isStatic": false,
+          "tsSignatureId": "Output|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876001
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.FlushResult",
-      "TsEmitName": "FlushResult",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.FlushResult",
+      "tsEmitName": "FlushResult",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "IsCanceled",
-          "TsEmitName": "IsCanceled",
-          "MetadataToken": 385875998,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "IsCanceled",
+          "tsEmitName": "isCanceled",
+          "metadataToken": 385875998,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.FlushResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "IsCompleted",
-          "TsEmitName": "IsCompleted",
-          "MetadataToken": 385875999,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "IsCompleted",
+          "tsEmitName": "isCompleted",
+          "metadataToken": 385875999,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.FlushResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663351,
-          "CanonicalSignature": "(System.Boolean,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Boolean,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663351,
+          "canonicalSignature": "(System.Boolean,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Boolean,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.FlushResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "IsCanceled",
-          "IsStatic": false,
-          "TsSignatureId": "IsCanceled|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385875998
-          }
-        },
-        {
-          "TsName": "IsCompleted",
-          "IsStatic": false,
-          "TsSignatureId": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385875999
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Boolean,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.FlushResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663351
+          "tsName": "isCanceled",
+          "isStatic": false,
+          "tsSignatureId": "IsCanceled|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.FlushResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385875998
+          }
+        },
+        {
+          "tsName": "isCompleted",
+          "isStatic": false,
+          "tsSignatureId": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.FlushResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385875999
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Boolean,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.FlushResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663351
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.ReadResult",
-      "TsEmitName": "ReadResult",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.ReadResult",
+      "tsEmitName": "ReadResult",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Buffer",
-          "TsEmitName": "Buffer",
-          "MetadataToken": 385876051,
-          "CanonicalSignature": ":System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "Buffer|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Buffer",
+          "tsEmitName": "buffer",
+          "metadataToken": 385876051,
+          "canonicalSignature": ":System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "Buffer|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.ReadResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "IsCanceled",
-          "TsEmitName": "IsCanceled",
-          "MetadataToken": 385876052,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "IsCanceled",
+          "tsEmitName": "isCanceled",
+          "metadataToken": 385876052,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.ReadResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "IsCompleted",
-          "TsEmitName": "IsCompleted",
-          "MetadataToken": 385876053,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "IsCompleted",
+          "tsEmitName": "isCompleted",
+          "metadataToken": 385876053,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.ReadResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663613,
-          "CanonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663613,
+          "canonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3,
+          "declaringClrType": "System.IO.Pipelines.ReadResult",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665958
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665958
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665961
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665961
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.ValueType",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100665963
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.ValueType",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100665963
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Buffer",
-          "IsStatic": false,
-          "TsSignatureId": "Buffer|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876051
-          }
-        },
-        {
-          "TsName": "IsCanceled",
-          "IsStatic": false,
-          "TsSignatureId": "IsCanceled|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876052
-          }
-        },
-        {
-          "TsName": "IsCompleted",
-          "IsStatic": false,
-          "TsSignatureId": "IsCompleted|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876053
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.ReadResult",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663613
+          "tsName": "buffer",
+          "isStatic": false,
+          "tsSignatureId": "Buffer|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.ReadResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876051
+          }
+        },
+        {
+          "tsName": "isCanceled",
+          "isStatic": false,
+          "tsSignatureId": "IsCanceled|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.ReadResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876052
+          }
+        },
+        {
+          "tsName": "isCompleted",
+          "isStatic": false,
+          "tsSignatureId": "IsCompleted|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.ReadResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876053
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.ReadResult",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663613
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.Pipe",
-      "TsEmitName": "Pipe",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.IO.Pipelines.Pipe",
+      "tsEmitName": "Pipe",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Reset",
-          "TsEmitName": "Reset",
-          "MetadataToken": 100663425,
-          "CanonicalSignature": "():System.Void",
-          "NormalizedSignature": "Reset|():System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.IO.Pipelines.Pipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Reset",
+          "tsEmitName": "reset",
+          "metadataToken": 100663425,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Reset|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.IO.Pipelines.Pipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "Reader",
-          "TsEmitName": "Reader",
-          "MetadataToken": 385876011,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeReader",
-          "NormalizedSignature": "Reader|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.Pipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Reader",
+          "tsEmitName": "reader",
+          "metadataToken": 385876011,
+          "canonicalSignature": ":System.IO.Pipelines.PipeReader",
+          "normalizedSignature": "Reader|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.Pipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Writer",
-          "TsEmitName": "Writer",
-          "MetadataToken": 385876012,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeWriter",
-          "NormalizedSignature": "Writer|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.Pipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Writer",
+          "tsEmitName": "writer",
+          "metadataToken": 385876012,
+          "canonicalSignature": ":System.IO.Pipelines.PipeWriter",
+          "normalizedSignature": "Writer|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.Pipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663375,
-          "CanonicalSignature": "():void",
-          "NormalizedSignature": "constructor|():void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.IO.Pipelines.Pipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663375,
+          "canonicalSignature": "():void",
+          "normalizedSignature": "constructor|():void|static=false",
+          "isStatic": false,
+          "parameterCount": 0,
+          "declaringClrType": "System.IO.Pipelines.Pipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "MetadataToken": 100663376,
-          "CanonicalSignature": "(System.IO.Pipelines.PipeOptions):void",
-          "NormalizedSignature": "constructor|(System.IO.Pipelines.PipeOptions):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.Pipe",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663376,
+          "canonicalSignature": "(System.IO.Pipelines.PipeOptions):void",
+          "normalizedSignature": "constructor|(System.IO.Pipelines.PipeOptions):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.Pipe",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "Reset",
-          "IsStatic": false,
-          "TsSignatureId": "Reset|():System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.Pipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663425
+          "tsName": "reset",
+          "isStatic": false,
+          "tsSignatureId": "Reset|():System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.Pipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663425
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Reader",
-          "IsStatic": false,
-          "TsSignatureId": "Reader|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.Pipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876011
-          }
-        },
-        {
-          "TsName": "Writer",
-          "IsStatic": false,
-          "TsSignatureId": "Writer|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.Pipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876012
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|():void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.Pipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663375
+          "tsName": "reader",
+          "isStatic": false,
+          "tsSignatureId": "Reader|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.Pipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876011
           }
         },
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.IO.Pipelines.PipeOptions):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.Pipe",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663376
+          "tsName": "writer",
+          "isStatic": false,
+          "tsSignatureId": "Writer|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.Pipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876012
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|():void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.Pipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663375
+          }
+        },
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.IO.Pipelines.PipeOptions):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.Pipe",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663376
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.PipeOptions",
-      "TsEmitName": "PipeOptions",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.PipeOptions",
+      "tsEmitName": "PipeOptions",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Default",
-          "TsEmitName": "Default",
-          "MetadataToken": 385876022,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeOptions",
-          "NormalizedSignature": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Default",
+          "tsEmitName": "default_",
+          "metadataToken": 385876022,
+          "canonicalSignature": ":System.IO.Pipelines.PipeOptions",
+          "normalizedSignature": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "UseSynchronizationContext",
-          "TsEmitName": "UseSynchronizationContext",
-          "MetadataToken": 385876023,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "UseSynchronizationContext|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "UseSynchronizationContext",
+          "tsEmitName": "useSynchronizationContext",
+          "metadataToken": 385876023,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "UseSynchronizationContext|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "PauseWriterThreshold",
-          "TsEmitName": "PauseWriterThreshold",
-          "MetadataToken": 385876024,
-          "CanonicalSignature": ":System.Int64",
-          "NormalizedSignature": "PauseWriterThreshold|:System.Int64|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "PauseWriterThreshold",
+          "tsEmitName": "pauseWriterThreshold",
+          "metadataToken": 385876024,
+          "canonicalSignature": ":System.Int64",
+          "normalizedSignature": "PauseWriterThreshold|:System.Int64|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "ResumeWriterThreshold",
-          "TsEmitName": "ResumeWriterThreshold",
-          "MetadataToken": 385876025,
-          "CanonicalSignature": ":System.Int64",
-          "NormalizedSignature": "ResumeWriterThreshold|:System.Int64|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "ResumeWriterThreshold",
+          "tsEmitName": "resumeWriterThreshold",
+          "metadataToken": 385876025,
+          "canonicalSignature": ":System.Int64",
+          "normalizedSignature": "ResumeWriterThreshold|:System.Int64|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "MinimumSegmentSize",
-          "TsEmitName": "MinimumSegmentSize",
-          "MetadataToken": 385876026,
-          "CanonicalSignature": ":System.Int32",
-          "NormalizedSignature": "MinimumSegmentSize|:System.Int32|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "MinimumSegmentSize",
+          "tsEmitName": "minimumSegmentSize",
+          "metadataToken": 385876026,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "MinimumSegmentSize|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "WriterScheduler",
-          "TsEmitName": "WriterScheduler",
-          "MetadataToken": 385876027,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeScheduler",
-          "NormalizedSignature": "WriterScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "WriterScheduler",
+          "tsEmitName": "writerScheduler",
+          "metadataToken": 385876027,
+          "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
+          "normalizedSignature": "WriterScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "ReaderScheduler",
-          "TsEmitName": "ReaderScheduler",
-          "MetadataToken": 385876028,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeScheduler",
-          "NormalizedSignature": "ReaderScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "ReaderScheduler",
+          "tsEmitName": "readerScheduler",
+          "metadataToken": 385876028,
+          "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
+          "normalizedSignature": "ReaderScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Pool",
-          "TsEmitName": "Pool",
-          "MetadataToken": 385876029,
-          "CanonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Pool",
+          "tsEmitName": "pool",
+          "metadataToken": 385876029,
+          "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663491,
-          "CanonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 7,
-          "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663491,
+          "canonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 7,
+          "declaringClrType": "System.IO.Pipelines.PipeOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "Default",
-          "IsStatic": true,
-          "TsSignatureId": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876022
-          }
-        },
-        {
-          "TsName": "UseSynchronizationContext",
-          "IsStatic": false,
-          "TsSignatureId": "UseSynchronizationContext|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876023
-          }
-        },
-        {
-          "TsName": "PauseWriterThreshold",
-          "IsStatic": false,
-          "TsSignatureId": "PauseWriterThreshold|:System.Int64|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876024
-          }
-        },
-        {
-          "TsName": "ResumeWriterThreshold",
-          "IsStatic": false,
-          "TsSignatureId": "ResumeWriterThreshold|:System.Int64|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876025
-          }
-        },
-        {
-          "TsName": "MinimumSegmentSize",
-          "IsStatic": false,
-          "TsSignatureId": "MinimumSegmentSize|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876026
-          }
-        },
-        {
-          "TsName": "WriterScheduler",
-          "IsStatic": false,
-          "TsSignatureId": "WriterScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876027
-          }
-        },
-        {
-          "TsName": "ReaderScheduler",
-          "IsStatic": false,
-          "TsSignatureId": "ReaderScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876028
-          }
-        },
-        {
-          "TsName": "Pool",
-          "IsStatic": false,
-          "TsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876029
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663491
+          "tsName": "default_",
+          "isStatic": true,
+          "tsSignatureId": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876022
+          }
+        },
+        {
+          "tsName": "useSynchronizationContext",
+          "isStatic": false,
+          "tsSignatureId": "UseSynchronizationContext|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876023
+          }
+        },
+        {
+          "tsName": "pauseWriterThreshold",
+          "isStatic": false,
+          "tsSignatureId": "PauseWriterThreshold|:System.Int64|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876024
+          }
+        },
+        {
+          "tsName": "resumeWriterThreshold",
+          "isStatic": false,
+          "tsSignatureId": "ResumeWriterThreshold|:System.Int64|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876025
+          }
+        },
+        {
+          "tsName": "minimumSegmentSize",
+          "isStatic": false,
+          "tsSignatureId": "MinimumSegmentSize|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876026
+          }
+        },
+        {
+          "tsName": "writerScheduler",
+          "isStatic": false,
+          "tsSignatureId": "WriterScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876027
+          }
+        },
+        {
+          "tsName": "readerScheduler",
+          "isStatic": false,
+          "tsSignatureId": "ReaderScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876028
+          }
+        },
+        {
+          "tsName": "pool",
+          "isStatic": false,
+          "tsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876029
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663491
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.PipeReader",
-      "TsEmitName": "PipeReader",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.IO.Pipelines.PipeReader",
+      "tsEmitName": "PipeReader",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "TryRead",
-          "TsEmitName": "TryRead",
-          "MetadataToken": 100663503,
-          "CanonicalSignature": "(System.IO.Pipelines.ReadResult\u0026):System.Boolean",
-          "NormalizedSignature": "TryRead|(System.IO.Pipelines.ReadResult\u0026):System.Boolean|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "TryRead",
+          "tsEmitName": "tryRead",
+          "metadataToken": 100663503,
+          "canonicalSignature": "(System.IO.Pipelines.ReadResult\u0026):System.Boolean",
+          "normalizedSignature": "TryRead|(System.IO.Pipelines.ReadResult\u0026):System.Boolean|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "ReadAsync",
-          "TsEmitName": "ReadAsync",
-          "MetadataToken": 100663504,
-          "CanonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "NormalizedSignature": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "ReadAsync",
+          "tsEmitName": "readAsync",
+          "metadataToken": 100663504,
+          "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "normalizedSignature": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "ReadAtLeastAsync",
-          "TsEmitName": "ReadAtLeastAsync",
-          "MetadataToken": 100663505,
-          "CanonicalSignature": "(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "NormalizedSignature": "ReadAtLeastAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "ReadAtLeastAsync",
+          "tsEmitName": "readAtLeastAsync",
+          "metadataToken": 100663505,
+          "canonicalSignature": "(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "normalizedSignature": "ReadAtLeastAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "AdvanceTo",
-          "TsEmitName": "AdvanceTo",
-          "MetadataToken": 100663507,
-          "CanonicalSignature": "(System.SequencePosition):System.Void",
-          "NormalizedSignature": "AdvanceTo|(System.SequencePosition):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "AdvanceTo",
+          "tsEmitName": "advanceTo",
+          "metadataToken": 100663507,
+          "canonicalSignature": "(System.SequencePosition):System.Void",
+          "normalizedSignature": "AdvanceTo|(System.SequencePosition):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "AdvanceTo",
-          "TsEmitName": "AdvanceTo2",
-          "MetadataToken": 100663508,
-          "CanonicalSignature": "(System.SequencePosition,System.SequencePosition):System.Void",
-          "NormalizedSignature": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "AdvanceTo",
+          "tsEmitName": "advanceTo2",
+          "metadataToken": 100663508,
+          "canonicalSignature": "(System.SequencePosition,System.SequencePosition):System.Void",
+          "normalizedSignature": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "AsStream",
-          "TsEmitName": "AsStream",
-          "MetadataToken": 100663509,
-          "CanonicalSignature": "(System.Boolean):System.IO.Stream",
-          "NormalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "AsStream",
+          "tsEmitName": "asStream",
+          "metadataToken": 100663509,
+          "canonicalSignature": "(System.Boolean):System.IO.Stream",
+          "normalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CancelPendingRead",
-          "TsEmitName": "CancelPendingRead",
-          "MetadataToken": 100663510,
-          "CanonicalSignature": "():System.Void",
-          "NormalizedSignature": "CancelPendingRead|():System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CancelPendingRead",
+          "tsEmitName": "cancelPendingRead",
+          "metadataToken": 100663510,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "CancelPendingRead|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Complete",
-          "TsEmitName": "Complete",
-          "MetadataToken": 100663511,
-          "CanonicalSignature": "(System.Exception):System.Void",
-          "NormalizedSignature": "Complete|(System.Exception):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Complete",
+          "tsEmitName": "complete",
+          "metadataToken": 100663511,
+          "canonicalSignature": "(System.Exception):System.Void",
+          "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CompleteAsync",
-          "TsEmitName": "CompleteAsync",
-          "MetadataToken": 100663512,
-          "CanonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
-          "NormalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CompleteAsync",
+          "tsEmitName": "completeAsync",
+          "metadataToken": 100663512,
+          "canonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
+          "normalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "OnWriterCompleted",
-          "TsEmitName": "OnWriterCompleted",
-          "MetadataToken": 100663513,
-          "CanonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "NormalizedSignature": "OnWriterCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "OnWriterCompleted",
+          "tsEmitName": "onWriterCompleted",
+          "metadataToken": 100663513,
+          "canonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
+          "normalizedSignature": "OnWriterCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create",
-          "MetadataToken": 100663514,
-          "CanonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
-          "NormalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Create",
+          "tsEmitName": "create",
+          "metadataToken": 100663514,
+          "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
+          "normalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create2",
-          "MetadataToken": 100663515,
-          "CanonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
-          "NormalizedSignature": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Create",
+          "tsEmitName": "create2",
+          "metadataToken": 100663515,
+          "canonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
+          "normalizedSignature": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CopyToAsync",
-          "TsEmitName": "CopyToAsync",
-          "MetadataToken": 100663516,
-          "CanonicalSignature": "(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "NormalizedSignature": "CopyToAsync|(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CopyToAsync",
+          "tsEmitName": "copyToAsync",
+          "metadataToken": 100663516,
+          "canonicalSignature": "(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "normalizedSignature": "CopyToAsync|(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CopyToAsync",
-          "TsEmitName": "CopyToAsync2",
-          "MetadataToken": 100663517,
-          "CanonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "NormalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CopyToAsync",
+          "tsEmitName": "copyToAsync2",
+          "metadataToken": 100663517,
+          "canonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeReader",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "TryRead",
-          "IsStatic": false,
-          "TsSignatureId": "TryRead|(System.IO.Pipelines.ReadResult\u0026):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663503
+          "tsName": "tryRead",
+          "isStatic": false,
+          "tsSignatureId": "TryRead|(System.IO.Pipelines.ReadResult\u0026):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663503
           }
         },
         {
-          "TsName": "ReadAsync",
-          "IsStatic": false,
-          "TsSignatureId": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663504
+          "tsName": "readAsync",
+          "isStatic": false,
+          "tsSignatureId": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663504
           }
         },
         {
-          "TsName": "ReadAtLeastAsync",
-          "IsStatic": false,
-          "TsSignatureId": "ReadAtLeastAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663505
+          "tsName": "readAtLeastAsync",
+          "isStatic": false,
+          "tsSignatureId": "ReadAtLeastAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663505
           }
         },
         {
-          "TsName": "AdvanceTo",
-          "IsStatic": false,
-          "TsSignatureId": "AdvanceTo|(System.SequencePosition):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663507
+          "tsName": "advanceTo",
+          "isStatic": false,
+          "tsSignatureId": "AdvanceTo|(System.SequencePosition):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663507
           }
         },
         {
-          "TsName": "AdvanceTo2",
-          "IsStatic": false,
-          "TsSignatureId": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663508
+          "tsName": "advanceTo2",
+          "isStatic": false,
+          "tsSignatureId": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663508
           }
         },
         {
-          "TsName": "AsStream",
-          "IsStatic": false,
-          "TsSignatureId": "AsStream|(System.Boolean):System.IO.Stream|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663509
+          "tsName": "asStream",
+          "isStatic": false,
+          "tsSignatureId": "AsStream|(System.Boolean):System.IO.Stream|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663509
           }
         },
         {
-          "TsName": "CancelPendingRead",
-          "IsStatic": false,
-          "TsSignatureId": "CancelPendingRead|():System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663510
+          "tsName": "cancelPendingRead",
+          "isStatic": false,
+          "tsSignatureId": "CancelPendingRead|():System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663510
           }
         },
         {
-          "TsName": "Complete",
-          "IsStatic": false,
-          "TsSignatureId": "Complete|(System.Exception):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663511
+          "tsName": "complete",
+          "isStatic": false,
+          "tsSignatureId": "Complete|(System.Exception):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663511
           }
         },
         {
-          "TsName": "CompleteAsync",
-          "IsStatic": false,
-          "TsSignatureId": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663512
+          "tsName": "completeAsync",
+          "isStatic": false,
+          "tsSignatureId": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663512
           }
         },
         {
-          "TsName": "OnWriterCompleted",
-          "IsStatic": false,
-          "TsSignatureId": "OnWriterCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663513
+          "tsName": "onWriterCompleted",
+          "isStatic": false,
+          "tsSignatureId": "OnWriterCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663513
           }
         },
         {
-          "TsName": "Create",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader|static=true",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663514
+          "tsName": "create",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader|static=true",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663514
           }
         },
         {
-          "TsName": "Create2",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663515
+          "tsName": "create2",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663515
           }
         },
         {
-          "TsName": "CopyToAsync",
-          "IsStatic": false,
-          "TsSignatureId": "CopyToAsync|(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663516
+          "tsName": "copyToAsync",
+          "isStatic": false,
+          "tsSignatureId": "CopyToAsync|(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663516
           }
         },
         {
-          "TsName": "CopyToAsync2",
-          "IsStatic": false,
-          "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeReader",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663517
+          "tsName": "copyToAsync2",
+          "isStatic": false,
+          "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeReader",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663517
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.PipeScheduler",
-      "TsEmitName": "PipeScheduler",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.IO.Pipelines.PipeScheduler",
+      "tsEmitName": "PipeScheduler",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Schedule",
-          "TsEmitName": "Schedule",
-          "MetadataToken": 100663567,
-          "CanonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "NormalizedSignature": "Schedule|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Schedule",
+          "tsEmitName": "schedule",
+          "metadataToken": 100663567,
+          "canonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
+          "normalizedSignature": "Schedule|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "ThreadPool",
-          "TsEmitName": "ThreadPool",
-          "MetadataToken": 385876041,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeScheduler",
-          "NormalizedSignature": "ThreadPool|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "ThreadPool",
+          "tsEmitName": "threadPool",
+          "metadataToken": 385876041,
+          "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
+          "normalizedSignature": "ThreadPool|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Inline",
-          "TsEmitName": "Inline",
-          "MetadataToken": 385876042,
-          "CanonicalSignature": ":System.IO.Pipelines.PipeScheduler",
-          "NormalizedSignature": "Inline|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Inline",
+          "tsEmitName": "inline",
+          "metadataToken": 385876042,
+          "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
+          "normalizedSignature": "Inline|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Schedule",
-          "IsStatic": false,
-          "TsSignatureId": "Schedule|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663567
+          "tsName": "schedule",
+          "isStatic": false,
+          "tsSignatureId": "Schedule|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663567
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "ThreadPool",
-          "IsStatic": true,
-          "TsSignatureId": "ThreadPool|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876041
+          "tsName": "threadPool",
+          "isStatic": true,
+          "tsSignatureId": "ThreadPool|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876041
           }
         },
         {
-          "TsName": "Inline",
-          "IsStatic": true,
-          "TsSignatureId": "Inline|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeScheduler",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876042
+          "tsName": "inline",
+          "isStatic": true,
+          "tsSignatureId": "Inline|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeScheduler",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876042
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.PipeWriter",
-      "TsEmitName": "PipeWriter",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.IO.Pipelines.PipeWriter",
+      "tsEmitName": "PipeWriter",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "Complete",
-          "TsEmitName": "Complete",
-          "MetadataToken": 100663571,
-          "CanonicalSignature": "(System.Exception):System.Void",
-          "NormalizedSignature": "Complete|(System.Exception):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Complete",
+          "tsEmitName": "complete",
+          "metadataToken": 100663571,
+          "canonicalSignature": "(System.Exception):System.Void",
+          "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CompleteAsync",
-          "TsEmitName": "CompleteAsync",
-          "MetadataToken": 100663572,
-          "CanonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
-          "NormalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CompleteAsync",
+          "tsEmitName": "completeAsync",
+          "metadataToken": 100663572,
+          "canonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
+          "normalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "CancelPendingFlush",
-          "TsEmitName": "CancelPendingFlush",
-          "MetadataToken": 100663573,
-          "CanonicalSignature": "():System.Void",
-          "NormalizedSignature": "CancelPendingFlush|():System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 0,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CancelPendingFlush",
+          "tsEmitName": "cancelPendingFlush",
+          "metadataToken": 100663573,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "CancelPendingFlush|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 0,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "OnReaderCompleted",
-          "TsEmitName": "OnReaderCompleted",
-          "MetadataToken": 100663575,
-          "CanonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "NormalizedSignature": "OnReaderCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "OnReaderCompleted",
+          "tsEmitName": "onReaderCompleted",
+          "metadataToken": 100663575,
+          "canonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
+          "normalizedSignature": "OnReaderCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "FlushAsync",
-          "TsEmitName": "FlushAsync",
-          "MetadataToken": 100663576,
-          "CanonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "NormalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "FlushAsync",
+          "tsEmitName": "flushAsync",
+          "metadataToken": 100663576,
+          "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Advance",
-          "TsEmitName": "Advance",
-          "MetadataToken": 100663577,
-          "CanonicalSignature": "(System.Int32):System.Void",
-          "NormalizedSignature": "Advance|(System.Int32):System.Void|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Advance",
+          "tsEmitName": "advance",
+          "metadataToken": 100663577,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "GetMemory",
-          "TsEmitName": "GetMemory",
-          "MetadataToken": 100663578,
-          "CanonicalSignature": "(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "GetMemory|(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "GetMemory",
+          "tsEmitName": "getMemory",
+          "metadataToken": 100663578,
+          "canonicalSignature": "(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "GetMemory|(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "GetSpan",
-          "TsEmitName": "GetSpan",
-          "MetadataToken": 100663579,
-          "CanonicalSignature": "(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "GetSpan|(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "GetSpan",
+          "tsEmitName": "getSpan",
+          "metadataToken": 100663579,
+          "canonicalSignature": "(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "GetSpan|(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "AsStream",
-          "TsEmitName": "AsStream",
-          "MetadataToken": 100663580,
-          "CanonicalSignature": "(System.Boolean):System.IO.Stream",
-          "NormalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "AsStream",
+          "tsEmitName": "asStream",
+          "metadataToken": 100663580,
+          "canonicalSignature": "(System.Boolean):System.IO.Stream",
+          "normalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Create",
-          "TsEmitName": "Create",
-          "MetadataToken": 100663581,
-          "CanonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
-          "NormalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Create",
+          "tsEmitName": "create",
+          "metadataToken": 100663581,
+          "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
+          "normalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "WriteAsync",
-          "TsEmitName": "WriteAsync",
-          "MetadataToken": 100663582,
-          "CanonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "NormalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 2,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "WriteAsync",
+          "tsEmitName": "writeAsync",
+          "metadataToken": 100663582,
+          "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
+          "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "GetMemory",
-          "TsEmitName": "GetMemory$view",
-          "MetadataToken": 100663364,
-          "CanonicalSignature": "(System.Int32):Memory_1",
-          "NormalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
-          "EmitScope": "ViewOnly",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "DeclaringAssemblyName": "System.Memory"
+          "clrName": "GetMemory",
+          "tsEmitName": "getMemory$view",
+          "metadataToken": 100663364,
+          "canonicalSignature": "(System.Int32):Memory_1",
+          "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+          "declaringAssemblyName": "System.Memory"
         },
         {
-          "ClrName": "GetSpan",
-          "TsEmitName": "GetSpan$view",
-          "MetadataToken": 100663365,
-          "CanonicalSignature": "(System.Int32):Span_1",
-          "NormalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
-          "EmitScope": "ViewOnly",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "DeclaringAssemblyName": "System.Memory"
+          "clrName": "GetSpan",
+          "tsEmitName": "getSpan$view",
+          "metadataToken": 100663365,
+          "canonicalSignature": "(System.Int32):Span_1",
+          "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+          "declaringAssemblyName": "System.Memory"
         },
         {
-          "ClrName": "Advance",
-          "TsEmitName": "Advance$view",
-          "MetadataToken": 100663363,
-          "CanonicalSignature": "(System.Int32):System.Void",
-          "NormalizedSignature": "Advance|(System.Int32):System.Void|static=false",
-          "EmitScope": "ViewOnly",
-          "Arity": 0,
-          "ParameterCount": 1,
-          "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "DeclaringAssemblyName": "System.Memory"
+          "clrName": "Advance",
+          "tsEmitName": "advance$view",
+          "metadataToken": 100663363,
+          "canonicalSignature": "(System.Int32):System.Void",
+          "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 1,
+          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+          "declaringAssemblyName": "System.Memory"
         }
       ],
-      "Properties": [
+      "properties": [
         {
-          "ClrName": "CanGetUnflushedBytes",
-          "TsEmitName": "CanGetUnflushedBytes",
-          "MetadataToken": 385876043,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "CanGetUnflushedBytes|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CanGetUnflushedBytes",
+          "tsEmitName": "canGetUnflushedBytes",
+          "metadataToken": 385876043,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "CanGetUnflushedBytes|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "UnflushedBytes",
-          "TsEmitName": "UnflushedBytes",
-          "MetadataToken": 385876044,
-          "CanonicalSignature": ":System.Int64",
-          "NormalizedSignature": "UnflushedBytes|:System.Int64|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "UnflushedBytes",
+          "tsEmitName": "unflushedBytes",
+          "metadataToken": 385876044,
+          "canonicalSignature": ":System.Int64",
+          "normalizedSignature": "UnflushedBytes|:System.Int64|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.PipeWriter",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "Complete",
-          "IsStatic": false,
-          "TsSignatureId": "Complete|(System.Exception):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663571
+          "tsName": "complete",
+          "isStatic": false,
+          "tsSignatureId": "Complete|(System.Exception):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663571
           }
         },
         {
-          "TsName": "CompleteAsync",
-          "IsStatic": false,
-          "TsSignatureId": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663572
+          "tsName": "completeAsync",
+          "isStatic": false,
+          "tsSignatureId": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663572
           }
         },
         {
-          "TsName": "CancelPendingFlush",
-          "IsStatic": false,
-          "TsSignatureId": "CancelPendingFlush|():System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663573
+          "tsName": "cancelPendingFlush",
+          "isStatic": false,
+          "tsSignatureId": "CancelPendingFlush|():System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663573
           }
         },
         {
-          "TsName": "OnReaderCompleted",
-          "IsStatic": false,
-          "TsSignatureId": "OnReaderCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663575
+          "tsName": "onReaderCompleted",
+          "isStatic": false,
+          "tsSignatureId": "OnReaderCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663575
           }
         },
         {
-          "TsName": "FlushAsync",
-          "IsStatic": false,
-          "TsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663576
+          "tsName": "flushAsync",
+          "isStatic": false,
+          "tsSignatureId": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663576
           }
         },
         {
-          "TsName": "Advance",
-          "IsStatic": false,
-          "TsSignatureId": "Advance|(System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663577
+          "tsName": "advance",
+          "isStatic": false,
+          "tsSignatureId": "Advance|(System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663577
           }
         },
         {
-          "TsName": "GetMemory",
-          "IsStatic": false,
-          "TsSignatureId": "GetMemory|(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663578
+          "tsName": "getMemory",
+          "isStatic": false,
+          "tsSignatureId": "GetMemory|(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663578
           }
         },
         {
-          "TsName": "GetSpan",
-          "IsStatic": false,
-          "TsSignatureId": "GetSpan|(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663579
+          "tsName": "getSpan",
+          "isStatic": false,
+          "tsSignatureId": "GetSpan|(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663579
           }
         },
         {
-          "TsName": "AsStream",
-          "IsStatic": false,
-          "TsSignatureId": "AsStream|(System.Boolean):System.IO.Stream|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663580
+          "tsName": "asStream",
+          "isStatic": false,
+          "tsSignatureId": "AsStream|(System.Boolean):System.IO.Stream|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663580
           }
         },
         {
-          "TsName": "Create",
-          "IsStatic": true,
-          "TsSignatureId": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter|static=true",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663581
+          "tsName": "create",
+          "isStatic": true,
+          "tsSignatureId": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter|static=true",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663581
           }
         },
         {
-          "TsName": "WriteAsync",
-          "IsStatic": false,
-          "TsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663582
+          "tsName": "writeAsync",
+          "isStatic": false,
+          "tsSignatureId": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663582
           }
         },
         {
-          "TsName": "GetMemory$view",
-          "IsStatic": false,
-          "TsSignatureId": "GetMemory|(System.Int32):Memory_1|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-            "DeclaringAssemblyName": "System.Memory",
-            "MetadataToken": 100663364
+          "tsName": "getMemory$view",
+          "isStatic": false,
+          "tsSignatureId": "GetMemory|(System.Int32):Memory_1|static=false",
+          "target": {
+            "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+            "declaringAssemblyName": "System.Memory",
+            "metadataToken": 100663364
           }
         },
         {
-          "TsName": "GetSpan$view",
-          "IsStatic": false,
-          "TsSignatureId": "GetSpan|(System.Int32):Span_1|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-            "DeclaringAssemblyName": "System.Memory",
-            "MetadataToken": 100663365
+          "tsName": "getSpan$view",
+          "isStatic": false,
+          "tsSignatureId": "GetSpan|(System.Int32):Span_1|static=false",
+          "target": {
+            "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+            "declaringAssemblyName": "System.Memory",
+            "metadataToken": 100663365
           }
         },
         {
-          "TsName": "Advance$view",
-          "IsStatic": false,
-          "TsSignatureId": "Advance|(System.Int32):System.Void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Buffers.IBufferWriter\u00601",
-            "DeclaringAssemblyName": "System.Memory",
-            "MetadataToken": 100663363
+          "tsName": "advance$view",
+          "isStatic": false,
+          "tsSignatureId": "Advance|(System.Int32):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Buffers.IBufferWriter\u00601",
+            "declaringAssemblyName": "System.Memory",
+            "metadataToken": 100663363
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedProperties": [
+      "exposedProperties": [
         {
-          "TsName": "CanGetUnflushedBytes",
-          "IsStatic": false,
-          "TsSignatureId": "CanGetUnflushedBytes|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876043
+          "tsName": "canGetUnflushedBytes",
+          "isStatic": false,
+          "tsSignatureId": "CanGetUnflushedBytes|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876043
           }
         },
         {
-          "TsName": "UnflushedBytes",
-          "IsStatic": false,
-          "TsSignatureId": "UnflushedBytes|:System.Int64|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.PipeWriter",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876044
+          "tsName": "unflushedBytes",
+          "isStatic": false,
+          "tsSignatureId": "UnflushedBytes|:System.Int64|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.PipeWriter",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876044
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.StreamPipeReaderOptions",
-      "TsEmitName": "StreamPipeReaderOptions",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.StreamPipeReaderOptions",
+      "tsEmitName": "StreamPipeReaderOptions",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "BufferSize",
-          "TsEmitName": "BufferSize",
-          "MetadataToken": 385876061,
-          "CanonicalSignature": ":System.Int32",
-          "NormalizedSignature": "BufferSize|:System.Int32|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "BufferSize",
+          "tsEmitName": "bufferSize",
+          "metadataToken": 385876061,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "BufferSize|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "MinimumReadSize",
-          "TsEmitName": "MinimumReadSize",
-          "MetadataToken": 385876063,
-          "CanonicalSignature": ":System.Int32",
-          "NormalizedSignature": "MinimumReadSize|:System.Int32|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "MinimumReadSize",
+          "tsEmitName": "minimumReadSize",
+          "metadataToken": 385876063,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "MinimumReadSize|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Pool",
-          "TsEmitName": "Pool",
-          "MetadataToken": 385876064,
-          "CanonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Pool",
+          "tsEmitName": "pool",
+          "metadataToken": 385876064,
+          "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "LeaveOpen",
-          "TsEmitName": "LeaveOpen",
-          "MetadataToken": 385876065,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "LeaveOpen",
+          "tsEmitName": "leaveOpen",
+          "metadataToken": 385876065,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "UseZeroByteReads",
-          "TsEmitName": "UseZeroByteReads",
-          "MetadataToken": 385876066,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "UseZeroByteReads|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "UseZeroByteReads",
+          "tsEmitName": "useZeroByteReads",
+          "metadataToken": 385876066,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "UseZeroByteReads|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663669,
-          "CanonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 4,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663669,
+          "canonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 4,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "MetadataToken": 100663670,
-          "CanonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 5,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663670,
+          "canonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 5,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "BufferSize",
-          "IsStatic": false,
-          "TsSignatureId": "BufferSize|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876061
-          }
-        },
-        {
-          "TsName": "MinimumReadSize",
-          "IsStatic": false,
-          "TsSignatureId": "MinimumReadSize|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876063
-          }
-        },
-        {
-          "TsName": "Pool",
-          "IsStatic": false,
-          "TsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876064
-          }
-        },
-        {
-          "TsName": "LeaveOpen",
-          "IsStatic": false,
-          "TsSignatureId": "LeaveOpen|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876065
-          }
-        },
-        {
-          "TsName": "UseZeroByteReads",
-          "IsStatic": false,
-          "TsSignatureId": "UseZeroByteReads|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876066
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663669
+          "tsName": "bufferSize",
+          "isStatic": false,
+          "tsSignatureId": "BufferSize|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876061
           }
         },
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663670
+          "tsName": "minimumReadSize",
+          "isStatic": false,
+          "tsSignatureId": "MinimumReadSize|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876063
+          }
+        },
+        {
+          "tsName": "pool",
+          "isStatic": false,
+          "tsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876064
+          }
+        },
+        {
+          "tsName": "leaveOpen",
+          "isStatic": false,
+          "tsSignatureId": "LeaveOpen|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876065
+          }
+        },
+        {
+          "tsName": "useZeroByteReads",
+          "isStatic": false,
+          "tsSignatureId": "UseZeroByteReads|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876066
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663669
+          }
+        },
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663670
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.StreamPipeWriterOptions",
-      "TsEmitName": "StreamPipeWriterOptions",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.IO.Pipelines.StreamPipeWriterOptions",
+      "tsEmitName": "StreamPipeWriterOptions",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "MinimumBufferSize",
-          "TsEmitName": "MinimumBufferSize",
-          "MetadataToken": 385876072,
-          "CanonicalSignature": ":System.Int32",
-          "NormalizedSignature": "MinimumBufferSize|:System.Int32|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "MinimumBufferSize",
+          "tsEmitName": "minimumBufferSize",
+          "metadataToken": 385876072,
+          "canonicalSignature": ":System.Int32",
+          "normalizedSignature": "MinimumBufferSize|:System.Int32|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "Pool",
-          "TsEmitName": "Pool",
-          "MetadataToken": 385876073,
-          "CanonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "NormalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "Pool",
+          "tsEmitName": "pool",
+          "metadataToken": 385876073,
+          "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
+          "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         },
         {
-          "ClrName": "LeaveOpen",
-          "TsEmitName": "LeaveOpen",
-          "MetadataToken": 385876074,
-          "CanonicalSignature": ":System.Boolean",
-          "NormalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
-          "EmitScope": "ClassSurface",
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "LeaveOpen",
+          "tsEmitName": "leaveOpen",
+          "metadataToken": 385876074,
+          "canonicalSignature": ":System.Boolean",
+          "normalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
+          "emitScope": "ClassSurface",
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "MetadataToken": 100663707,
-          "CanonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void",
-          "NormalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "metadataToken": 100663707,
+          "canonicalSignature": "(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void",
+          "normalizedSignature": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void|static=false",
+          "isStatic": false,
+          "parameterCount": 3,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "ExposedMethods": [
+      "exposedMethods": [
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
-          }
-        }
-      ],
-      "ExposedProperties": [
-        {
-          "TsName": "MinimumBufferSize",
-          "IsStatic": false,
-          "TsSignatureId": "MinimumBufferSize|:System.Int32|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876072
-          }
-        },
-        {
-          "TsName": "Pool",
-          "IsStatic": false,
-          "TsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876073
-          }
-        },
-        {
-          "TsName": "LeaveOpen",
-          "IsStatic": false,
-          "TsSignatureId": "LeaveOpen|:System.Boolean|static=false|accessor=get",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 385876074
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ],
-      "ExposedConstructors": [
+      "exposedProperties": [
         {
-          "IsStatic": false,
-          "TsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void|static=false",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663707
+          "tsName": "minimumBufferSize",
+          "isStatic": false,
+          "tsSignatureId": "MinimumBufferSize|:System.Int32|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876072
+          }
+        },
+        {
+          "tsName": "pool",
+          "isStatic": false,
+          "tsSignatureId": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876073
+          }
+        },
+        {
+          "tsName": "leaveOpen",
+          "isStatic": false,
+          "tsSignatureId": "LeaveOpen|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 385876074
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Boolean):void|static=false",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663707
           }
         }
       ]
     },
     {
-      "ClrName": "System.IO.Pipelines.StreamPipeExtensions",
-      "TsEmitName": "StreamPipeExtensions",
-      "AssemblyName": "System.IO.Pipelines",
-      "MetadataToken": 0,
-      "Methods": [
+      "clrName": "System.IO.Pipelines.StreamPipeExtensions",
+      "tsEmitName": "StreamPipeExtensions",
+      "assemblyName": "System.IO.Pipelines",
+      "metadataToken": 0,
+      "methods": [
         {
-          "ClrName": "CopyToAsync",
-          "TsEmitName": "CopyToAsync",
-          "MetadataToken": 100663625,
-          "CanonicalSignature": "(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "NormalizedSignature": "CopyToAsync|(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
-          "EmitScope": "ClassSurface",
-          "Arity": 0,
-          "ParameterCount": 3,
-          "DeclaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
-          "DeclaringAssemblyName": "System.IO.Pipelines"
+          "clrName": "CopyToAsync",
+          "tsEmitName": "copyToAsync",
+          "metadataToken": 100663625,
+          "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
+          "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
+          "declaringAssemblyName": "System.IO.Pipelines"
         }
       ],
-      "Properties": [],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [],
-      "ExposedMethods": [
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [],
+      "exposedMethods": [
         {
-          "TsName": "CopyToAsync",
-          "IsStatic": true,
-          "TsSignatureId": "CopyToAsync|(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
-          "Target": {
-            "DeclaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
-            "DeclaringAssemblyName": "System.IO.Pipelines",
-            "MetadataToken": 100663625
+          "tsName": "copyToAsync",
+          "isStatic": true,
+          "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
+          "target": {
+            "declaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
+            "declaringAssemblyName": "System.IO.Pipelines",
+            "metadataToken": 100663625
           }
         },
         {
-          "TsName": "GetType",
-          "IsStatic": false,
-          "TsSignatureId": "GetType|():System.Type|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664825
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
           }
         },
         {
-          "TsName": "ToString",
-          "IsStatic": false,
-          "TsSignatureId": "ToString|():System.String|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664829
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": false,
-          "TsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664830
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664830
           }
         },
         {
-          "TsName": "Equals",
-          "IsStatic": true,
-          "TsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664831
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
           }
         },
         {
-          "TsName": "ReferenceEquals",
-          "IsStatic": true,
-          "TsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664832
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
           }
         },
         {
-          "TsName": "GetHashCode",
-          "IsStatic": false,
-          "TsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "Target": {
-            "DeclaringClrType": "System.Object",
-            "DeclaringAssemblyName": "System.Private.CoreLib",
-            "MetadataToken": 100664833
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664833
           }
         }
       ]

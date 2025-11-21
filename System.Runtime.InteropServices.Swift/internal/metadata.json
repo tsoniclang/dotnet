@@ -1,150 +1,150 @@
 {
-  "Namespace": "System.Runtime.InteropServices.Swift",
-  "ContributingAssemblies": [
+  "namespace": "System.Runtime.InteropServices.Swift",
+  "contributingAssemblies": [
     "System.Private.CoreLib"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftError",
-      "TsEmitName": "SwiftError",
-      "Kind": "Struct",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftError",
+      "tsEmitName": "SwiftError",
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Value",
+          "tsEmitName": "value",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "TsEmitName": "SwiftIndirectResult",
-      "Kind": "Struct",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+      "tsEmitName": "SwiftIndirectResult",
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Value",
+          "tsEmitName": "value",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-      "TsEmitName": "SwiftSelf",
-      "Kind": "Struct",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+      "tsEmitName": "SwiftSelf",
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "NormalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Value",
+          "tsEmitName": "value",
+          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(System.Void*):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(System.Void*):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     },
     {
-      "ClrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "TsEmitName": "SwiftSelf_1",
-      "Kind": "Struct",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 1,
-      "Methods": [],
-      "Properties": [
+      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+      "tsEmitName": "SwiftSelf_1",
+      "kind": "Struct",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 1,
+      "methods": [],
+      "properties": [
         {
-          "ClrName": "Value",
-          "TsEmitName": "Value",
-          "NormalizedSignature": "Value|:T|static=false|accessor=get",
-          "Provenance": "Original",
-          "EmitScope": "ClassSurface",
-          "IsStatic": false,
-          "IsAbstract": false,
-          "IsVirtual": false,
-          "IsOverride": false,
-          "IsIndexer": false,
-          "HasGetter": true,
-          "HasSetter": false
+          "clrName": "Value",
+          "tsEmitName": "value",
+          "normalizedSignature": "Value|:T|static=false|accessor=get",
+          "provenance": "Original",
+          "emitScope": "ClassSurface",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": false,
+          "isOverride": false,
+          "isIndexer": false,
+          "hasGetter": true,
+          "hasSetter": false
         }
       ],
-      "Fields": [],
-      "Events": [],
-      "Constructors": [
+      "fields": [],
+      "events": [],
+      "constructors": [
         {
-          "NormalizedSignature": "constructor|(T):void|static=false",
-          "IsStatic": false,
-          "ParameterCount": 1
+          "normalizedSignature": "constructor|(T):void|static=false",
+          "isStatic": false,
+          "parameterCount": 1
         }
       ]
     }

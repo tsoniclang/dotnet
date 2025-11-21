@@ -1,128 +1,128 @@
 {
-  "Namespace": "System.Configuration.Assemblies",
-  "ContributingAssemblies": [
+  "namespace": "System.Configuration.Assemblies",
+  "contributingAssemblies": [
     "System.Private.CoreLib"
   ],
-  "Types": [
+  "types": [
     {
-      "ClrName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-      "TsEmitName": "AssemblyHashAlgorithm",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+      "tsEmitName": "AssemblyHashAlgorithm",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "None",
-          "TsEmitName": "None",
-          "NormalizedSignature": "None|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "None",
+          "tsEmitName": "none",
+          "normalizedSignature": "None|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "MD5",
-          "TsEmitName": "MD5",
-          "NormalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "MD5",
+          "tsEmitName": "md5",
+          "normalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SHA1",
-          "TsEmitName": "SHA1",
-          "NormalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SHA1",
+          "tsEmitName": "sha1",
+          "normalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SHA256",
-          "TsEmitName": "SHA256",
-          "NormalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SHA256",
+          "tsEmitName": "sha256",
+          "normalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SHA384",
-          "TsEmitName": "SHA384",
-          "NormalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SHA384",
+          "tsEmitName": "sha384",
+          "normalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SHA512",
-          "TsEmitName": "SHA512",
-          "NormalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SHA512",
+          "tsEmitName": "sha512",
+          "normalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     },
     {
-      "ClrName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-      "TsEmitName": "AssemblyVersionCompatibility",
-      "Kind": "Enum",
-      "Accessibility": "Public",
-      "IsAbstract": false,
-      "IsSealed": true,
-      "IsStatic": false,
-      "Arity": 0,
-      "Methods": [],
-      "Properties": [],
-      "Fields": [
+      "clrName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+      "tsEmitName": "AssemblyVersionCompatibility",
+      "kind": "Enum",
+      "accessibility": "Public",
+      "isAbstract": false,
+      "isSealed": true,
+      "isStatic": false,
+      "arity": 0,
+      "methods": [],
+      "properties": [],
+      "fields": [
         {
-          "ClrName": "value__",
-          "TsEmitName": "value__",
-          "NormalizedSignature": "value__|System.Int32|static=false|const=false",
-          "IsStatic": false,
-          "IsReadOnly": false,
-          "IsLiteral": false
+          "clrName": "value__",
+          "tsEmitName": "value__",
+          "normalizedSignature": "value__|System.Int32|static=false|const=false",
+          "isStatic": false,
+          "isReadOnly": false,
+          "isLiteral": false
         },
         {
-          "ClrName": "SameMachine",
-          "TsEmitName": "SameMachine",
-          "NormalizedSignature": "SameMachine|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SameMachine",
+          "tsEmitName": "sameMachine",
+          "normalizedSignature": "SameMachine|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SameProcess",
-          "TsEmitName": "SameProcess",
-          "NormalizedSignature": "SameProcess|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SameProcess",
+          "tsEmitName": "sameProcess",
+          "normalizedSignature": "SameProcess|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         },
         {
-          "ClrName": "SameDomain",
-          "TsEmitName": "SameDomain",
-          "NormalizedSignature": "SameDomain|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
-          "IsStatic": true,
-          "IsReadOnly": false,
-          "IsLiteral": true
+          "clrName": "SameDomain",
+          "tsEmitName": "sameDomain",
+          "normalizedSignature": "SameDomain|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
+          "isStatic": true,
+          "isReadOnly": false,
+          "isLiteral": true
         }
       ],
-      "Events": [],
-      "Constructors": []
+      "events": [],
+      "constructors": []
     }
   ]
 }
