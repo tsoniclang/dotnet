@@ -152,7 +152,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.AncestorDocOrderIterator::MoveNext():System.Boolean",
@@ -167,7 +168,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -215,7 +217,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.AncestorIterator::MoveNext():System.Boolean",
@@ -230,7 +233,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -278,7 +282,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.AttributeContentIterator::MoveNext():System.Boolean",
@@ -293,7 +298,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -341,7 +347,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.AttributeIterator::MoveNext():System.Boolean",
@@ -356,7 +363,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -404,7 +412,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.ContentIterator::MoveNext():System.Boolean",
@@ -419,7 +428,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -467,7 +477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.ContentMergeIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult",
@@ -482,7 +493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -530,7 +542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DecimalAggregator::Sum(System.Decimal):System.Void",
@@ -545,7 +558,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DecimalAggregator::Average(System.Decimal):System.Void",
@@ -560,7 +574,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DecimalAggregator::Minimum(System.Decimal):System.Void",
@@ -575,7 +590,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DecimalAggregator::Maximum(System.Decimal):System.Void",
@@ -590,7 +606,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -698,7 +715,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DescendantIterator::MoveNext():System.Boolean",
@@ -713,7 +731,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -761,7 +780,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DescendantMergeIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult",
@@ -776,7 +796,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -824,7 +845,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DifferenceIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult",
@@ -839,7 +861,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -887,7 +910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DodSequenceMerge::AddSequence(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
@@ -902,7 +926,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DodSequenceMerge::MergeSequences():System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -917,7 +942,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -949,7 +975,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DoubleAggregator::Sum(System.Double):System.Void",
@@ -964,7 +991,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DoubleAggregator::Average(System.Double):System.Void",
@@ -979,7 +1007,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DoubleAggregator::Minimum(System.Double):System.Void",
@@ -994,7 +1023,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.DoubleAggregator::Maximum(System.Double):System.Void",
@@ -1009,7 +1039,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1117,7 +1148,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.ElementContentIterator::MoveNext():System.Boolean",
@@ -1132,7 +1164,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1180,7 +1213,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.FollowingSiblingIterator::MoveNext():System.Boolean",
@@ -1195,7 +1229,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1243,7 +1278,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.FollowingSiblingMergeIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult",
@@ -1258,7 +1294,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1306,7 +1343,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.IdIterator::MoveNext():System.Boolean",
@@ -1321,7 +1359,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1369,7 +1408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int32Aggregator::Sum(System.Int32):System.Void",
@@ -1384,7 +1424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int32Aggregator::Average(System.Int32):System.Void",
@@ -1399,7 +1440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int32Aggregator::Minimum(System.Int32):System.Void",
@@ -1414,7 +1456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int32Aggregator::Maximum(System.Int32):System.Void",
@@ -1429,7 +1472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1537,7 +1581,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int64Aggregator::Sum(System.Int64):System.Void",
@@ -1552,7 +1597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int64Aggregator::Average(System.Int64):System.Void",
@@ -1567,7 +1613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int64Aggregator::Minimum(System.Int64):System.Void",
@@ -1582,7 +1629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.Int64Aggregator::Maximum(System.Int64):System.Void",
@@ -1597,7 +1645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1705,7 +1754,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.IntersectIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult",
@@ -1720,7 +1770,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1768,7 +1819,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.NamespaceIterator::MoveNext():System.Boolean",
@@ -1783,7 +1835,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1831,7 +1884,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.NodeKindContentIterator::MoveNext():System.Boolean",
@@ -1846,7 +1900,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1894,7 +1949,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.NodeRangeIterator::MoveNext():System.Boolean",
@@ -1909,7 +1965,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1957,7 +2014,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.ParentIterator::MoveNext():System.Boolean",
@@ -1972,7 +2030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2020,7 +2079,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.PrecedingIterator::MoveNext():System.Boolean",
@@ -2035,7 +2095,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2083,7 +2144,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.PrecedingSiblingDocOrderIterator::MoveNext():System.Boolean",
@@ -2098,7 +2160,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2146,7 +2209,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.PrecedingSiblingIterator::MoveNext():System.Boolean",
@@ -2161,7 +2225,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2209,7 +2274,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.StringConcat::Concat(System.String):System.Void",
@@ -2224,7 +2290,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.StringConcat::GetResult():System.String",
@@ -2239,7 +2306,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2287,7 +2355,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.UnionIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.SetIteratorResult",
@@ -2302,7 +2371,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2350,7 +2420,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddStringSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.String):System.Void",
@@ -2365,7 +2436,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddDecimalSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.Decimal):System.Void",
@@ -2380,7 +2452,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddIntegerSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.Int64):System.Void",
@@ -2395,7 +2468,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddIntSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.Int32):System.Void",
@@ -2410,7 +2484,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddDoubleSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.Double):System.Void",
@@ -2425,7 +2500,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddDateTimeSortKey(System.Xml.Xsl.Runtime.XmlCollation,System.DateTime):System.Void",
@@ -2440,7 +2516,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::AddEmptySortKey(System.Xml.Xsl.Runtime.XmlCollation):System.Void",
@@ -2455,7 +2532,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlSortKeyAccumulator::FinishSortKeys():System.Void",
@@ -2470,7 +2548,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2518,7 +2597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XPathFollowingIterator::MoveNext():System.Boolean",
@@ -2533,7 +2613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2581,7 +2662,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XPathFollowingMergeIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult",
@@ -2596,7 +2678,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2644,7 +2727,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XPathPrecedingDocOrderIterator::MoveNext():System.Boolean",
@@ -2659,7 +2743,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2707,7 +2792,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XPathPrecedingIterator::MoveNext():System.Boolean",
@@ -2722,7 +2808,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2770,7 +2857,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XPathPrecedingMergeIterator::MoveNext(System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.IteratorResult",
@@ -2785,7 +2873,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2833,7 +2922,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlCollation::GetHashCode():System.Int32",
@@ -2848,7 +2938,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2880,7 +2971,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILIndex::Lookup(System.String):System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
@@ -2895,7 +2987,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2927,7 +3020,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::MoveToNextContent(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -2942,7 +3036,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::MoveToFollowingSibling(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -2957,7 +3052,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::MoveToPreviousSibling(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -2972,7 +3068,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::MoveToFollowing(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -2987,7 +3084,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::IsFiltered(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -3002,7 +3100,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3034,7 +3133,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext::GetParameter(System.String,System.String):System.Object",
@@ -3049,7 +3149,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext::GetLateBoundObject(System.String):System.Object",
@@ -3064,7 +3165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext::LateBoundFunctionExists(System.String,System.String):System.Boolean",
@@ -3079,7 +3181,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext::InvokeXsltLateBoundFunction(System.String,System.String,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]][]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -3094,7 +3197,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext::OnXsltMessageEncountered(System.String):System.Void",
@@ -3109,7 +3213,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3187,7 +3292,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CreateOrReuse(System.Xml.Xsl.Runtime.XmlQueryItemSequence,System.Xml.XPath.XPathItem):System.Xml.Xsl.Runtime.XmlQueryItemSequence",
@@ -3202,7 +3308,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::AddClone(System.Xml.XPath.XPathItem):System.Void",
@@ -3217,7 +3324,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -3233,7 +3341,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -3249,7 +3358,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -3265,7 +3375,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -3281,7 +3392,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -3297,7 +3409,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -3313,7 +3426,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -3329,7 +3443,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -3345,7 +3460,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3361,7 +3477,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -3377,7 +3494,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -3393,7 +3511,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -3409,7 +3528,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -3425,7 +3545,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3441,7 +3562,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -3457,7 +3579,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -3473,7 +3596,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Add(T):System.Void",
@@ -3488,7 +3612,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Add(System.Object):System.Int32",
@@ -3503,7 +3628,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Clear():System.Void",
@@ -3518,7 +3644,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Contains(T):System.Boolean",
@@ -3533,7 +3660,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Contains(System.Object):System.Boolean",
@@ -3548,7 +3676,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CopyTo(T[],System.Int32):System.Void",
@@ -3563,7 +3692,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CopyTo(System.Array,System.Int32):System.Void",
@@ -3578,7 +3708,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -3593,7 +3724,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::GetEnumerator():System.Collections.IEnumerator",
@@ -3608,7 +3740,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::IndexOf(T):System.Int32",
@@ -3623,7 +3756,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Insert(System.Int32,T):System.Void",
@@ -3638,7 +3772,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Insert(System.Int32,System.Object):System.Void",
@@ -3653,7 +3788,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Remove(T):System.Boolean",
@@ -3668,7 +3804,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::Remove(System.Object):System.Void",
@@ -3683,7 +3820,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::RemoveAt(System.Int32):System.Void",
@@ -3698,7 +3836,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3869,7 +4008,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CreateOrReuse(System.Xml.Xsl.Runtime.XmlQueryNodeSequence,System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
@@ -3884,7 +4024,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::DocOrderDistinct(System.Collections.Generic.IComparer_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
@@ -3899,7 +4040,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::AddClone(System.Xml.XPath.XPathNavigator):System.Void",
@@ -3914,7 +4056,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -3930,7 +4073,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -3946,7 +4090,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -3962,7 +4107,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -3978,7 +4124,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -3994,7 +4141,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -4010,7 +4158,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -4026,7 +4175,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -4042,7 +4192,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -4058,7 +4209,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -4074,7 +4226,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -4090,7 +4243,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -4106,7 +4260,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -4122,7 +4277,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -4138,7 +4294,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -4154,7 +4311,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -4170,7 +4328,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Add(T):System.Void",
@@ -4185,7 +4344,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Add(System.Object):System.Int32",
@@ -4200,7 +4360,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Clear():System.Void",
@@ -4215,7 +4376,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Contains(T):System.Boolean",
@@ -4230,7 +4392,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Contains(System.Object):System.Boolean",
@@ -4245,7 +4408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CopyTo(T[],System.Int32):System.Void",
@@ -4260,7 +4424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CopyTo(System.Array,System.Int32):System.Void",
@@ -4275,7 +4440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -4290,7 +4456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::GetEnumerator():System.Collections.IEnumerator",
@@ -4305,7 +4472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::IndexOf(T):System.Int32",
@@ -4320,7 +4488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Insert(System.Int32,T):System.Void",
@@ -4335,7 +4504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Insert(System.Int32,System.Object):System.Void",
@@ -4350,7 +4520,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Remove(T):System.Boolean",
@@ -4365,7 +4536,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::Remove(System.Object):System.Void",
@@ -4380,7 +4552,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::RemoveAt(System.Int32):System.Void",
@@ -4395,7 +4568,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4591,7 +4765,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartDocument(System.Boolean):System.Void",
@@ -4606,7 +4781,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndDocument():System.Void",
@@ -4621,7 +4797,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteDocType(System.String,System.String,System.String,System.String):System.Void",
@@ -4636,7 +4813,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String,System.String,System.String):System.Void",
@@ -4651,7 +4829,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndElement():System.Void",
@@ -4666,7 +4845,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteFullEndElement():System.Void",
@@ -4681,7 +4861,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String,System.String,System.String):System.Void",
@@ -4696,7 +4877,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndAttribute():System.Void",
@@ -4711,7 +4893,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteComment(System.String):System.Void",
@@ -4726,7 +4909,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteProcessingInstruction(System.String,System.String):System.Void",
@@ -4741,7 +4925,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEntityRef(System.String):System.Void",
@@ -4756,7 +4941,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteCharEntity(System.Char):System.Void",
@@ -4771,7 +4957,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteSurrogateCharEntity(System.Char,System.Char):System.Void",
@@ -4786,7 +4973,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteWhitespace(System.String):System.Void",
@@ -4801,7 +4989,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteString(System.String):System.Void",
@@ -4816,7 +5005,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteChars(System.Char[],System.Int32,System.Int32):System.Void",
@@ -4831,7 +5021,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteRaw(System.Char[],System.Int32,System.Int32):System.Void",
@@ -4846,7 +5037,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteRaw(System.String):System.Void",
@@ -4861,7 +5053,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteCData(System.String):System.Void",
@@ -4876,7 +5069,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteBase64(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -4891,7 +5085,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::Close():System.Void",
@@ -4906,7 +5101,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::Flush():System.Void",
@@ -4921,7 +5117,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::LookupPrefix(System.String):System.String",
@@ -4936,7 +5133,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::StartTree(System.Xml.XPath.XPathNodeType):System.Void",
@@ -4951,7 +5149,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::EndTree():System.Void",
@@ -4966,7 +5165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementUnchecked(System.String,System.String,System.String):System.Void",
@@ -4981,7 +5181,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementUnchecked(System.String):System.Void",
@@ -4996,7 +5197,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::StartElementContentUnchecked():System.Void",
@@ -5011,7 +5213,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndElementUnchecked(System.String,System.String,System.String):System.Void",
@@ -5026,7 +5229,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndElementUnchecked(System.String):System.Void",
@@ -5041,7 +5245,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeUnchecked(System.String,System.String,System.String):System.Void",
@@ -5056,7 +5261,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeUnchecked(System.String):System.Void",
@@ -5071,7 +5277,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndAttributeUnchecked():System.Void",
@@ -5086,7 +5293,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteNamespaceDeclarationUnchecked(System.String,System.String):System.Void",
@@ -5101,7 +5309,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStringUnchecked(System.String):System.Void",
@@ -5116,7 +5325,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteRawUnchecked(System.String):System.Void",
@@ -5131,7 +5341,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartRoot():System.Void",
@@ -5146,7 +5357,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndRoot():System.Void",
@@ -5161,7 +5373,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementLocalName(System.String):System.Void",
@@ -5176,7 +5389,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeLocalName(System.String):System.Void",
@@ -5191,7 +5405,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.String,System.Int32):System.Void",
@@ -5206,7 +5421,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.String,System.String):System.Void",
@@ -5221,7 +5437,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.Xml.XPath.XPathNavigator):System.Void",
@@ -5236,7 +5453,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.Xml.XmlQualifiedName):System.Void",
@@ -5251,7 +5469,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.String,System.Int32):System.Void",
@@ -5266,7 +5485,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.String,System.String):System.Void",
@@ -5281,7 +5501,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.Xml.XPath.XPathNavigator):System.Void",
@@ -5296,7 +5517,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.Xml.XmlQualifiedName):System.Void",
@@ -5311,7 +5533,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteNamespaceDeclaration(System.String,System.String):System.Void",
@@ -5326,7 +5549,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartNamespace(System.String):System.Void",
@@ -5341,7 +5565,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteNamespaceString(System.String):System.Void",
@@ -5356,7 +5581,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndNamespace():System.Void",
@@ -5371,7 +5597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartComment():System.Void",
@@ -5386,7 +5613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteCommentString(System.String):System.Void",
@@ -5401,7 +5629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndComment():System.Void",
@@ -5416,7 +5645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartProcessingInstruction(System.String):System.Void",
@@ -5431,7 +5661,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteProcessingInstructionString(System.String):System.Void",
@@ -5446,7 +5677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndProcessingInstruction():System.Void",
@@ -5461,7 +5693,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteItem(System.Xml.XPath.XPathItem):System.Void",
@@ -5476,7 +5709,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::XsltCopyOf(System.Xml.XPath.XPathNavigator):System.Void",
@@ -5491,7 +5725,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::StartCopy(System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -5506,7 +5741,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::EndCopy(System.Xml.XPath.XPathNavigator):System.Void",
@@ -5521,7 +5757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5537,7 +5774,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5553,7 +5791,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::Dispose():System.Void",
@@ -5568,7 +5807,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5583,7 +5823,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String,System.String):System.Void",
@@ -5598,7 +5839,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttribute(System.String):System.Void",
@@ -5613,7 +5855,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String,System.String):System.Void",
@@ -5628,7 +5871,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElement(System.String):System.Void",
@@ -5643,7 +5887,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5721,7 +5966,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::DebugGetGlobalValue(System.String):System.Collections.IList",
@@ -5736,7 +5982,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::DebugSetGlobalValue(System.String,System.Object):System.Void",
@@ -5751,7 +5998,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::DebugGetXsltValue(System.Collections.IList):System.Object",
@@ -5766,7 +6014,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetEarlyBoundObject(System.Int32):System.Object",
@@ -5781,7 +6030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::EarlyBoundFunctionExists(System.String,System.String):System.Boolean",
@@ -5796,7 +6046,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::IsGlobalComputed(System.Int32):System.Boolean",
@@ -5811,7 +6062,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetGlobalValue(System.Int32):System.Object",
@@ -5826,7 +6078,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::SetGlobalValue(System.Int32,System.Object):System.Void",
@@ -5841,7 +6094,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetAtomizedName(System.Int32):System.String",
@@ -5856,7 +6110,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetNameFilter(System.Int32):System.Xml.Xsl.Runtime.XmlNavigatorFilter",
@@ -5871,7 +6126,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetTypeFilter(System.Xml.XPath.XPathNodeType):System.Xml.Xsl.Runtime.XmlNavigatorFilter",
@@ -5886,7 +6142,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ParseTagName(System.String,System.Int32):System.Xml.XmlQualifiedName",
@@ -5901,7 +6158,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ParseTagName(System.String,System.String):System.Xml.XmlQualifiedName",
@@ -5916,7 +6174,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::IsQNameEqual(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -5931,7 +6190,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::IsQNameEqual(System.Xml.XPath.XPathNavigator,System.Int32,System.Int32):System.Boolean",
@@ -5946,7 +6206,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ChangeTypeXsltArgument(System.Int32,System.Object,System.Type):System.Object",
@@ -5961,7 +6222,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ChangeTypeXsltResult(System.Int32,System.Object):System.Object",
@@ -5976,7 +6238,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Int32):System.Boolean",
@@ -5991,7 +6254,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Xml.XPath.XPathItem,System.Int32):System.Boolean",
@@ -6006,7 +6270,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Schema.XmlTypeCode):System.Boolean",
@@ -6021,7 +6286,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Xml.XPath.XPathItem,System.Xml.Schema.XmlTypeCode):System.Boolean",
@@ -6036,7 +6302,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GetCollation(System.Int32):System.Xml.Xsl.Runtime.XmlCollation",
@@ -6051,7 +6318,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::CreateCollation(System.String):System.Xml.Xsl.Runtime.XmlCollation",
@@ -6066,7 +6334,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ComparePosition(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Int32",
@@ -6081,7 +6350,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::DocOrderDistinct(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -6096,7 +6366,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::GenerateId(System.Xml.XPath.XPathNavigator):System.String",
@@ -6111,7 +6382,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::FindIndex(System.Xml.XPath.XPathNavigator,System.Int32,System.Xml.Xsl.Runtime.XmlILIndex\u0026):System.Boolean",
@@ -6126,7 +6398,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::AddNewIndex(System.Xml.XPath.XPathNavigator,System.Int32,System.Xml.Xsl.Runtime.XmlILIndex):System.Void",
@@ -6141,7 +6414,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::StartSequenceConstruction(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Void",
@@ -6156,7 +6430,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::EndSequenceConstruction(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -6171,7 +6446,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::StartRtfConstruction(System.String,System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Void",
@@ -6186,7 +6462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::EndRtfConstruction(System.Xml.Xsl.Runtime.XmlQueryOutput\u0026):System.Xml.XPath.XPathNavigator",
@@ -6201,7 +6478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::TextRtfConstruction(System.String,System.String):System.Xml.XPath.XPathNavigator",
@@ -6216,7 +6494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::SendMessage(System.String):System.Void",
@@ -6231,7 +6510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ThrowException(System.String):System.Void",
@@ -6246,7 +6526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::OnCurrentNodeChanged(System.Xml.XPath.XPathNavigator):System.Int32",
@@ -6261,7 +6542,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6354,7 +6636,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::CreateOrReuse(XmlQuerySequence_1,T):XmlQuerySequence_1",
@@ -6369,7 +6652,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::GetEnumerator():IEnumerator_1",
@@ -6384,7 +6668,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::Contains(T):System.Boolean",
@@ -6399,7 +6684,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -6414,7 +6700,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::IndexOf(T):System.Int32",
@@ -6429,7 +6716,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::Clear():System.Void",
@@ -6444,7 +6732,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::Add(T):System.Void",
@@ -6459,7 +6748,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::SortByKeys(System.Array):System.Void",
@@ -6474,7 +6764,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -6490,7 +6781,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -6506,7 +6798,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Remove(T):System.Boolean",
@@ -6522,7 +6815,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6538,7 +6832,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -6554,7 +6849,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -6570,7 +6866,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -6586,7 +6883,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -6602,7 +6900,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6618,7 +6917,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -6634,7 +6934,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -6650,7 +6951,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -6666,7 +6968,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -6682,7 +6985,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -6698,7 +7002,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -6714,7 +7019,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -6730,7 +7036,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -6746,7 +7053,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6952,7 +7260,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::CheckScriptNamespace(System.String):System.Int32",
@@ -6967,7 +7276,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::ElementAvailable(System.Xml.XmlQualifiedName):System.Boolean",
@@ -6982,7 +7292,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::FunctionAvailable(System.Xml.XmlQualifiedName):System.Boolean",
@@ -6997,7 +7308,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::RegisterDecimalFormat(System.Xml.XmlQualifiedName,System.String,System.String,System.String):System.Int32",
@@ -7012,7 +7324,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::RegisterDecimalFormatter(System.String,System.String,System.String,System.String):System.Double",
@@ -7027,7 +7340,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::FormatNumberStatic(System.Double,System.Double):System.String",
@@ -7042,7 +7356,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::FormatNumberDynamic(System.Double,System.String,System.Xml.XmlQualifiedName,System.String):System.String",
@@ -7057,7 +7372,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::NumberFormat(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.String,System.Double,System.String,System.String,System.Double):System.String",
@@ -7072,7 +7388,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::LangToLcid(System.String,System.Boolean):System.Int32",
@@ -7087,7 +7404,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::EqualityOperator(System.Double,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean",
@@ -7102,7 +7420,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::RelationalOperator(System.Double,System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean",
@@ -7117,7 +7436,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltLibrary::IsSameNodeSort(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -7132,7 +7452,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7164,7 +7485,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::DecimalToAtomicValue(System.Decimal,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7179,7 +7501,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::Int64ToAtomicValue(System.Int64,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7194,7 +7517,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::Int32ToAtomicValue(System.Int32,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7209,7 +7533,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::BooleanToAtomicValue(System.Boolean,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7224,7 +7549,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::DoubleToAtomicValue(System.Double,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7239,7 +7565,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::SingleToAtomicValue(System.Single,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7254,7 +7581,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::DateTimeToAtomicValue(System.DateTime,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7269,7 +7597,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::XmlQualifiedNameToAtomicValue(System.Xml.XmlQualifiedName,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7284,7 +7613,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::TimeSpanToAtomicValue(System.TimeSpan,System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7299,7 +7629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::BytesToAtomicValue(System.Byte[],System.Int32,System.Xml.Xsl.Runtime.XmlQueryRuntime):System.Xml.Schema.XmlAtomicValue",
@@ -7314,7 +7645,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::NavigatorsToItems(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -7329,7 +7661,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlILStorageConverter::ItemsToNavigators(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -7344,7 +7677,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7376,7 +7710,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToBoolean(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean",
@@ -7391,7 +7726,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.String):System.Double",
@@ -7406,7 +7742,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Xml.XPath.XPathItem):System.Double",
@@ -7421,7 +7758,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double",
@@ -7436,7 +7774,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNode(System.Xml.XPath.XPathItem):System.Xml.XPath.XPathNavigator",
@@ -7451,7 +7790,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNode(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.XPath.XPathNavigator",
@@ -7466,7 +7806,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNodeSet(System.Xml.XPath.XPathItem):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -7481,7 +7822,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNodeSet(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -7496,7 +7838,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.Double):System.String",
@@ -7511,7 +7854,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.Xml.XPath.XPathItem):System.String",
@@ -7526,7 +7870,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String",
@@ -7541,7 +7886,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.DateTime):System.String",
@@ -7556,7 +7902,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Decimal):System.Double",
@@ -7571,7 +7918,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Int32):System.Double",
@@ -7586,7 +7934,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Int64):System.Double",
@@ -7601,7 +7950,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDecimal(System.Double):System.Decimal",
@@ -7616,7 +7966,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToInt(System.Double):System.Int32",
@@ -7631,7 +7982,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToLong(System.Double):System.Int64",
@@ -7646,7 +7998,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDateTime(System.String):System.DateTime",
@@ -7661,7 +8014,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::EnsureNodeSet(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -7676,7 +8030,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7708,7 +8063,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Contains(System.String,System.String):System.Boolean",
@@ -7723,7 +8079,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::SubstringBefore(System.String,System.String):System.String",
@@ -7738,7 +8095,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::SubstringAfter(System.String,System.String):System.String",
@@ -7753,7 +8111,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Substring(System.String,System.Double):System.String",
@@ -7768,7 +8127,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Substring(System.String,System.Double,System.Double):System.String",
@@ -7783,7 +8143,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::NormalizeSpace(System.String):System.String",
@@ -7798,7 +8159,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Translate(System.String,System.String,System.String):System.String",
@@ -7813,7 +8175,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Lang(System.String,System.Xml.XPath.XPathNavigator):System.Boolean",
@@ -7828,7 +8191,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Round(System.Double):System.Double",
@@ -7843,7 +8207,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::SystemProperty(System.Xml.XmlQualifiedName):System.Xml.XPath.XPathItem",
@@ -7858,7 +8223,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::BaseUri(System.Xml.XPath.XPathNavigator):System.String",
@@ -7873,7 +8239,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::OuterXml(System.Xml.XPath.XPathNavigator):System.String",
@@ -7888,7 +8255,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::EXslObjectType(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String",
@@ -7903,7 +8271,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSNumber(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double",
@@ -7918,7 +8287,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSFormatDateTime(System.String,System.String,System.String,System.Boolean):System.String",
@@ -7933,7 +8303,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSStringCompare(System.String,System.String,System.String,System.String):System.Double",
@@ -7948,7 +8319,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSUtc(System.String):System.String",
@@ -7963,7 +8335,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSLocalName(System.String):System.String",
@@ -7978,7 +8351,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::MSNamespaceUri(System.String,System.Xml.XPath.XPathNavigator):System.String",
@@ -7993,7 +8367,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

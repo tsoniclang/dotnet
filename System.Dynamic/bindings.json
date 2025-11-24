@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -96,7 +97,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::FallbackBinaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -109,7 +111,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -122,7 +125,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -135,7 +139,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.BinaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -374,7 +379,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions::GetTypeRestriction(System.Linq.Expressions.Expression,System.Type):System.Dynamic.BindingRestrictions",
@@ -387,7 +393,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions::GetInstanceRestriction(System.Linq.Expressions.Expression,System.Object):System.Dynamic.BindingRestrictions",
@@ -400,7 +407,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions::GetExpressionRestriction(System.Linq.Expressions.Expression):System.Dynamic.BindingRestrictions",
@@ -413,7 +421,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions::Combine(System.Collections.Generic.IList_1[[System.Dynamic.DynamicMetaObject,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Dynamic.BindingRestrictions",
@@ -426,7 +435,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions::ToExpression():System.Linq.Expressions.Expression",
@@ -439,7 +449,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Dynamic.BindingRestrictions",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -611,7 +622,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Dynamic.CallInfo",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CallInfo::Equals(System.Object):System.Boolean",
@@ -624,7 +636,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.CallInfo",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -804,7 +817,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.ConvertBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::FallbackConvert(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -817,7 +831,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.ConvertBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -830,7 +845,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.ConvertBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -843,7 +859,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.ConvertBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1106,7 +1123,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::FallbackCreateInstance(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -1119,7 +1137,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -1132,7 +1151,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -1145,7 +1165,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.CreateInstanceBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1384,7 +1405,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::FallbackDeleteIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -1397,7 +1419,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::FallbackDeleteIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -1410,7 +1433,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -1423,7 +1447,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DeleteIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1662,7 +1687,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::FallbackDeleteMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -1675,7 +1701,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -1688,7 +1715,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -1701,7 +1729,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DeleteMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1964,7 +1993,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindGetMember(System.Dynamic.GetMemberBinder):System.Dynamic.DynamicMetaObject",
@@ -1977,7 +2007,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindSetMember(System.Dynamic.SetMemberBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -1990,7 +2021,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindDeleteMember(System.Dynamic.DeleteMemberBinder):System.Dynamic.DynamicMetaObject",
@@ -2003,7 +2035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindGetIndex(System.Dynamic.GetIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2016,7 +2049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindSetIndex(System.Dynamic.SetIndexBinder,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -2029,7 +2063,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2042,7 +2077,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindInvokeMember(System.Dynamic.InvokeMemberBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2055,7 +2091,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindInvoke(System.Dynamic.InvokeBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2068,7 +2105,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindCreateInstance(System.Dynamic.CreateInstanceBinder,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2081,7 +2119,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindUnaryOperation(System.Dynamic.UnaryOperationBinder):System.Dynamic.DynamicMetaObject",
@@ -2094,7 +2133,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::BindBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -2107,7 +2147,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::GetDynamicMemberNames():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2120,7 +2161,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject::Create(System.Object,System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
@@ -2133,7 +2175,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2573,7 +2616,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2586,7 +2630,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::GetUpdateExpression(System.Type):System.Linq.Expressions.Expression",
@@ -2599,7 +2644,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Defer(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2612,7 +2658,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Defer(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -2625,7 +2672,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -2638,7 +2686,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicMetaObjectBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2833,7 +2882,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TrySetMember(System.Dynamic.SetMemberBinder,System.Object):System.Boolean",
@@ -2846,7 +2896,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryDeleteMember(System.Dynamic.DeleteMemberBinder):System.Boolean",
@@ -2859,7 +2910,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryInvokeMember(System.Dynamic.InvokeMemberBinder,System.Object[],System.Object\u0026):System.Boolean",
@@ -2872,7 +2924,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryConvert(System.Dynamic.ConvertBinder,System.Object\u0026):System.Boolean",
@@ -2885,7 +2938,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryCreateInstance(System.Dynamic.CreateInstanceBinder,System.Object[],System.Object\u0026):System.Boolean",
@@ -2898,7 +2952,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryInvoke(System.Dynamic.InvokeBinder,System.Object[],System.Object\u0026):System.Boolean",
@@ -2911,7 +2966,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryBinaryOperation(System.Dynamic.BinaryOperationBinder,System.Object,System.Object\u0026):System.Boolean",
@@ -2924,7 +2980,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryUnaryOperation(System.Dynamic.UnaryOperationBinder,System.Object\u0026):System.Boolean",
@@ -2937,7 +2994,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryGetIndex(System.Dynamic.GetIndexBinder,System.Object[],System.Object\u0026):System.Boolean",
@@ -2950,7 +3008,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TrySetIndex(System.Dynamic.SetIndexBinder,System.Object[],System.Object):System.Boolean",
@@ -2963,7 +3022,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::TryDeleteIndex(System.Dynamic.DeleteIndexBinder,System.Object[]):System.Boolean",
@@ -2976,7 +3036,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::GetDynamicMemberNames():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2989,7 +3050,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::GetMetaObject(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
@@ -3002,7 +3064,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.DynamicObject",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.IDynamicMetaObjectProvider::GetMetaObject(System.Linq.Expressions.Expression):System.Dynamic.DynamicMetaObject",
@@ -3015,7 +3078,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3253,7 +3317,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.IDynamicMetaObjectProvider",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -3266,7 +3331,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
@@ -3279,7 +3345,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -3292,7 +3359,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -3305,7 +3373,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -3318,7 +3387,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -3331,7 +3401,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -3344,7 +3415,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -3357,7 +3429,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3370,7 +3443,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3679,7 +3753,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.GetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::FallbackGetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -3692,7 +3767,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.GetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::FallbackGetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -3705,7 +3781,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.GetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -3718,7 +3795,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.GetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3957,7 +4035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.GetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::FallbackGetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -3970,7 +4049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.GetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -3983,7 +4063,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.GetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -3996,7 +4077,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.GetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4259,7 +4341,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.InvokeBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::FallbackInvoke(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -4272,7 +4355,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.InvokeBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -4285,7 +4369,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.InvokeBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -4298,7 +4383,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.InvokeBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4537,7 +4623,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::FallbackInvokeMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -4550,7 +4637,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::FallbackInvokeMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -4563,7 +4651,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::FallbackInvoke(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -4576,7 +4665,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -4589,7 +4679,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.InvokeMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4886,7 +4977,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.SetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::FallbackSetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -4899,7 +4991,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.SetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::FallbackSetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -4912,7 +5005,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Dynamic.SetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -4925,7 +5019,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.SetIndexBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5164,7 +5259,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.SetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::FallbackSetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -5177,7 +5273,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.SetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::FallbackSetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -5190,7 +5287,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.SetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -5203,7 +5301,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.SetMemberBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5466,7 +5565,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::FallbackUnaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
@@ -5479,7 +5579,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
@@ -5492,7 +5593,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::Bind(System.Object[],System.Collections.ObjectModel.ReadOnlyCollection_1,System.Linq.Expressions.LabelTarget):System.Linq.Expressions.Expression",
@@ -5505,7 +5607,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Dynamic.UnaryOperationBinder",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

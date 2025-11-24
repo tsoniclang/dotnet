@@ -841,7 +841,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
@@ -854,7 +855,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
@@ -867,7 +869,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -925,7 +928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -990,7 +994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
@@ -1003,7 +1008,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1051,7 +1057,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.MemoryHandle",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1064,7 +1071,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1221,7 +1229,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.SequencePosition):ReadOnlySequence_1",
@@ -1234,7 +1243,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int64):ReadOnlySequence_1",
@@ -1247,7 +1257,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.Int32):ReadOnlySequence_1",
@@ -1260,7 +1271,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.SequencePosition):ReadOnlySequence_1",
@@ -1273,7 +1285,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int32):ReadOnlySequence_1",
@@ -1286,7 +1299,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1",
@@ -1299,7 +1313,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition):ReadOnlySequence_1",
@@ -1312,7 +1327,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64):ReadOnlySequence_1",
@@ -1325,7 +1341,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::ToString():System.String",
@@ -1338,7 +1355,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetEnumerator():Enumerator",
@@ -1351,7 +1369,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64):System.SequencePosition",
@@ -1364,7 +1383,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetOffset(System.SequencePosition):System.Int64",
@@ -1377,7 +1397,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64,System.SequencePosition):System.SequencePosition",
@@ -1390,7 +1411,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::TryGet(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean",
@@ -1403,7 +1425,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1905,7 +1928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2052,7 +2076,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(System.Int64,T\u0026):System.Boolean",
@@ -2065,7 +2090,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryRead(T\u0026):System.Boolean",
@@ -2078,7 +2104,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Rewind(System.Int64):System.Void",
@@ -2091,7 +2118,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Advance(System.Int64):System.Void",
@@ -2104,7 +2132,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryCopyTo(Span_1):System.Boolean",
@@ -2117,7 +2146,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean",
@@ -2130,7 +2160,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean",
@@ -2143,7 +2174,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean",
@@ -2156,7 +2188,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean",
@@ -2169,7 +2202,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2182,7 +2216,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2195,7 +2230,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2208,7 +2244,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2221,7 +2258,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadExact(System.Int32,ReadOnlySequence_1\u0026):System.Boolean",
@@ -2234,7 +2272,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceTo(T,System.Boolean):System.Boolean",
@@ -2247,7 +2286,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceToAny(ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2260,7 +2300,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePast(T):System.Int64",
@@ -2273,7 +2314,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(ReadOnlySpan_1):System.Int64",
@@ -2286,7 +2328,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T,T):System.Int64",
@@ -2299,7 +2342,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T):System.Int64",
@@ -2312,7 +2356,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T):System.Int64",
@@ -2325,7 +2370,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvanceToEnd():System.Void",
@@ -2338,7 +2384,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(T,System.Boolean):System.Boolean",
@@ -2351,7 +2398,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(ReadOnlySpan_1,System.Boolean):System.Boolean",
@@ -2364,7 +2412,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2967,7 +3016,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.String):System.Buffers.StandardFormat",
@@ -2980,7 +3030,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean",
@@ -2993,7 +3044,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Object):System.Boolean",
@@ -3006,7 +3058,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::GetHashCode():System.Int32",
@@ -3019,7 +3072,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Buffers.StandardFormat):System.Boolean",
@@ -3032,7 +3086,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::ToString():System.String",
@@ -3045,7 +3100,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -3058,7 +3114,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3362,7 +3419,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::ResetWrittenCount():System.Void",
@@ -3375,7 +3433,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Advance(System.Int32):System.Void",
@@ -3388,7 +3447,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
@@ -3401,7 +3461,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetSpan(System.Int32):Span_1",
@@ -3414,7 +3475,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
@@ -3427,7 +3489,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
@@ -3440,7 +3503,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
@@ -3453,7 +3517,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3785,7 +3850,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create(System.Int32,System.Int32):ArrayPool_1",
@@ -3798,7 +3864,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Rent(System.Int32):T[]",
@@ -3811,7 +3878,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Return(T[],System.Boolean):System.Void",
@@ -3824,7 +3892,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3979,7 +4048,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Pin(System.Int32):System.Buffers.MemoryHandle",
@@ -3992,7 +4062,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Unpin():System.Void",
@@ -4005,7 +4076,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4018,7 +4090,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Pin(System.Int32):System.Buffers.MemoryHandle",
@@ -4031,7 +4104,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
@@ -4044,7 +4118,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4243,7 +4318,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Dispose():System.Void",
@@ -4256,7 +4332,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4269,7 +4346,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4587,7 +4665,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::BeginInvoke(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4600,7 +4679,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
@@ -4613,7 +4693,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4626,7 +4707,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4639,7 +4721,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::Clone():System.Object",
@@ -4652,7 +4735,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4665,7 +4749,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5057,7 +5142,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SearchValues\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5155,7 +5241,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::BeginInvoke(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -5168,7 +5255,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
@@ -5181,7 +5269,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5194,7 +5283,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5207,7 +5297,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::Clone():System.Object",
@@ -5220,7 +5311,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5233,7 +5325,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5625,7 +5718,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::CopyTo(ReadOnlySequence_1\u0026,Span_1):System.Void",
@@ -5638,7 +5732,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::ToArray(ReadOnlySequence_1\u0026):T[]",
@@ -5651,7 +5746,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::Write(IBufferWriter_1,ReadOnlySpan_1):System.Void",
@@ -5664,7 +5760,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -5792,7 +5889,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5805,7 +5903,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -5818,7 +5917,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5936,7 +6036,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
@@ -5949,7 +6050,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
@@ -5962,7 +6064,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
@@ -5975,7 +6078,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
@@ -5988,7 +6092,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
@@ -6001,7 +6106,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

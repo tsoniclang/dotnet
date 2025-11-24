@@ -3256,7 +3256,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Permissions.SecurityAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3755,7 +3756,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

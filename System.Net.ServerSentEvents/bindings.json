@@ -214,7 +214,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::BeginInvoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -227,7 +228,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::EndInvoke(System.IAsyncResult):T",
@@ -240,7 +242,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -253,7 +256,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -266,7 +270,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::Clone():System.Object",
@@ -279,7 +284,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -292,7 +298,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -684,7 +691,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::EnumerateAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -697,7 +705,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -856,7 +865,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -869,7 +879,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -977,7 +988,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.ServerSentEvents.SseParser",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
@@ -990,7 +1002,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Net.ServerSentEvents.SseParser",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

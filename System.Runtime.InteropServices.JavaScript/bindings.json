@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Boolean\u0026):System.Void",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Boolean):System.Void",
@@ -45,7 +47,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -58,7 +61,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -71,7 +75,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte\u0026):System.Void",
@@ -84,7 +89,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte):System.Void",
@@ -97,7 +103,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -110,7 +117,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -123,7 +131,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte[]\u0026):System.Void",
@@ -136,7 +145,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte[]):System.Void",
@@ -149,7 +159,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Char\u0026):System.Void",
@@ -162,7 +173,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Char):System.Void",
@@ -175,7 +187,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -188,7 +201,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -201,7 +215,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int16\u0026):System.Void",
@@ -214,7 +229,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int16):System.Void",
@@ -227,7 +243,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -240,7 +257,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -253,7 +271,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32\u0026):System.Void",
@@ -266,7 +285,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32):System.Void",
@@ -279,7 +299,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -292,7 +313,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -305,7 +327,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32[]\u0026):System.Void",
@@ -318,7 +341,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32[]):System.Void",
@@ -331,7 +355,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int64\u0026):System.Void",
@@ -344,7 +369,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int64):System.Void",
@@ -357,7 +383,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -370,7 +397,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -383,7 +411,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManagedBig(System.Int64\u0026):System.Void",
@@ -396,7 +425,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJSBig(System.Int64):System.Void",
@@ -409,7 +439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManagedBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -422,7 +453,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJSBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -435,7 +467,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Single\u0026):System.Void",
@@ -448,7 +481,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Single):System.Void",
@@ -461,7 +495,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -474,7 +509,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -487,7 +523,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double\u0026):System.Void",
@@ -500,7 +537,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double):System.Void",
@@ -513,7 +551,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -526,7 +565,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -539,7 +579,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double[]\u0026):System.Void",
@@ -552,7 +593,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double[]):System.Void",
@@ -565,7 +607,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.IntPtr\u0026):System.Void",
@@ -578,7 +621,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.IntPtr):System.Void",
@@ -591,7 +635,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -604,7 +649,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -617,7 +663,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTimeOffset\u0026):System.Void",
@@ -630,7 +677,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTimeOffset):System.Void",
@@ -643,7 +691,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -656,7 +705,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -669,7 +719,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTime\u0026):System.Void",
@@ -682,7 +733,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTime):System.Void",
@@ -695,7 +747,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -708,7 +761,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -721,7 +775,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String\u0026):System.Void",
@@ -734,7 +789,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String):System.Void",
@@ -747,7 +803,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String[]\u0026):System.Void",
@@ -760,7 +817,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String[]):System.Void",
@@ -773,7 +831,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Exception\u0026):System.Void",
@@ -786,7 +845,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Exception):System.Void",
@@ -799,7 +859,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object\u0026):System.Void",
@@ -812,7 +873,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object):System.Void",
@@ -825,7 +887,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object[]\u0026):System.Void",
@@ -838,7 +901,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object[]):System.Void",
@@ -851,7 +915,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void",
@@ -864,7 +929,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
@@ -877,7 +943,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void",
@@ -890,7 +957,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void",
@@ -903,7 +971,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Threading.Tasks.Task\u0026):System.Void",
@@ -916,7 +985,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Threading.Tasks.Task):System.Void",
@@ -929,7 +999,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Task_1\u0026,ArgumentToManagedCallback_1):System.Void",
@@ -942,7 +1013,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Task_1,ArgumentToJSCallback_1):System.Void",
@@ -955,7 +1027,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Action\u0026):System.Void",
@@ -968,7 +1041,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Action):System.Void",
@@ -981,7 +1055,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_1\u0026,ArgumentToJSCallback_1):System.Void",
@@ -994,7 +1069,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_1,ArgumentToManagedCallback_1):System.Void",
@@ -1007,7 +1083,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
@@ -1020,7 +1097,8 @@
           "arity": 2,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
@@ -1033,7 +1111,8 @@
           "arity": 2,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
@@ -1046,7 +1125,8 @@
           "arity": 3,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
@@ -1059,7 +1139,8 @@
           "arity": 3,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_1\u0026,ArgumentToManagedCallback_1):System.Void",
@@ -1072,7 +1153,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_1,ArgumentToJSCallback_1):System.Void",
@@ -1085,7 +1167,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
@@ -1098,7 +1181,8 @@
           "arity": 2,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
@@ -1111,7 +1195,8 @@
           "arity": 2,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
@@ -1124,7 +1209,8 @@
           "arity": 3,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
@@ -1137,7 +1223,8 @@
           "arity": 3,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
@@ -1150,7 +1237,8 @@
           "arity": 4,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
@@ -1163,7 +1251,8 @@
           "arity": 4,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Void*\u0026):System.Void",
@@ -1176,7 +1265,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Void*):System.Void",
@@ -1189,7 +1279,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1202,7 +1293,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1215,7 +1307,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1228,7 +1321,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1241,7 +1335,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1254,7 +1349,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1267,7 +1363,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1280,7 +1377,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1293,7 +1391,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1306,7 +1405,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1319,7 +1419,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
@@ -1332,7 +1433,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1345,7 +1447,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2463,7 +2566,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2476,7 +2580,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSException",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3146,7 +3251,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSFunctionBinding::BindJSFunction(System.String,System.String,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
@@ -3159,7 +3265,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSFunctionBinding::BindManagedFunction(System.String,System.Int32,System.ReadOnlySpan_1[[System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
@@ -3172,7 +3279,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSFunctionBinding",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4254,7 +4362,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4267,7 +4376,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
@@ -4280,7 +4390,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4293,7 +4404,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4306,7 +4418,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Clone():System.Object",
@@ -4319,7 +4432,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4332,7 +4446,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4724,7 +4839,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -4737,7 +4853,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
@@ -4750,7 +4867,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -4763,7 +4881,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4776,7 +4895,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Clone():System.Object",
@@ -4789,7 +4909,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4802,7 +4923,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5194,7 +5316,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Task():System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5207,7 +5330,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Task(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5220,7 +5344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Array(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5233,7 +5358,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::ArraySegment(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5246,7 +5372,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Span(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5259,7 +5386,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action():System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5272,7 +5400,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5285,7 +5414,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5298,7 +5428,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5311,7 +5442,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5324,7 +5456,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5337,7 +5470,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5350,7 +5484,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
@@ -5363,7 +5498,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerType",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6026,7 +6162,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::HasProperty(System.String):System.Boolean",
@@ -6039,7 +6176,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetTypeOfProperty(System.String):System.String",
@@ -6052,7 +6190,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsBoolean(System.String):System.Boolean",
@@ -6065,7 +6204,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsInt32(System.String):System.Int32",
@@ -6078,7 +6218,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsDouble(System.String):System.Double",
@@ -6091,7 +6232,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsString(System.String):System.String",
@@ -6104,7 +6246,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsJSObject(System.String):System.Runtime.InteropServices.JavaScript.JSObject",
@@ -6117,7 +6260,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::GetPropertyAsByteArray(System.String):System.Byte[]",
@@ -6130,7 +6274,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Boolean):System.Void",
@@ -6143,7 +6288,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Int32):System.Void",
@@ -6156,7 +6302,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Double):System.Void",
@@ -6169,7 +6316,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.String):System.Void",
@@ -6182,7 +6330,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
@@ -6195,7 +6344,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Byte[]):System.Void",
@@ -6208,7 +6358,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6221,7 +6372,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7902,7 +8054,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSHost",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

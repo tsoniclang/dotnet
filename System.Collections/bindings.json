@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -155,7 +157,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -193,7 +196,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -206,7 +210,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -219,7 +224,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -232,7 +238,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -245,7 +252,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -258,7 +266,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -271,7 +280,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -564,7 +574,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -577,7 +588,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -724,7 +736,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -762,7 +775,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -775,7 +789,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -850,7 +865,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IEqualityComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::GetHashCode(System.Object):System.Int32",
@@ -863,7 +879,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IEqualityComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -911,7 +928,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IHashCodeProvider",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -949,7 +967,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -962,7 +981,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -975,7 +995,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -988,7 +1009,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -1001,7 +1023,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -1014,7 +1037,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1027,7 +1051,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1040,7 +1065,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1295,7 +1321,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IStructuralComparable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1333,7 +1360,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IStructuralEquatable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IStructuralEquatable::GetHashCode(System.Collections.IEqualityComparer):System.Int32",
@@ -1346,7 +1374,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IStructuralEquatable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1394,7 +1423,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.DictionaryEntry",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.DictionaryEntry::ToString():System.String",
@@ -1407,7 +1437,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.DictionaryEntry",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1578,7 +1609,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Add(System.Object):System.Int32",
@@ -1591,7 +1623,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::AddRange(System.Collections.ICollection):System.Void",
@@ -1604,7 +1637,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::BinarySearch(System.Int32,System.Int32,System.Object,System.Collections.IComparer):System.Int32",
@@ -1617,7 +1651,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::BinarySearch(System.Object):System.Int32",
@@ -1630,7 +1665,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::BinarySearch(System.Object,System.Collections.IComparer):System.Int32",
@@ -1643,7 +1679,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Clear():System.Void",
@@ -1656,7 +1693,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Clone():System.Object",
@@ -1669,7 +1707,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Contains(System.Object):System.Boolean",
@@ -1682,7 +1721,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::CopyTo(System.Array):System.Void",
@@ -1695,7 +1735,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::CopyTo(System.Array,System.Int32):System.Void",
@@ -1708,7 +1749,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::CopyTo(System.Int32,System.Array,System.Int32,System.Int32):System.Void",
@@ -1721,7 +1763,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::FixedSize(System.Collections.IList):System.Collections.IList",
@@ -1734,7 +1777,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::FixedSize(System.Collections.ArrayList):System.Collections.ArrayList",
@@ -1747,7 +1791,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::GetEnumerator():System.Collections.IEnumerator",
@@ -1760,7 +1805,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::GetEnumerator(System.Int32,System.Int32):System.Collections.IEnumerator",
@@ -1773,7 +1819,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::IndexOf(System.Object):System.Int32",
@@ -1786,7 +1833,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::IndexOf(System.Object,System.Int32):System.Int32",
@@ -1799,7 +1847,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::IndexOf(System.Object,System.Int32,System.Int32):System.Int32",
@@ -1812,7 +1861,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Insert(System.Int32,System.Object):System.Void",
@@ -1825,7 +1875,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::InsertRange(System.Int32,System.Collections.ICollection):System.Void",
@@ -1838,7 +1889,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::LastIndexOf(System.Object):System.Int32",
@@ -1851,7 +1903,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::LastIndexOf(System.Object,System.Int32):System.Int32",
@@ -1864,7 +1917,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::LastIndexOf(System.Object,System.Int32,System.Int32):System.Int32",
@@ -1877,7 +1931,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ReadOnly(System.Collections.IList):System.Collections.IList",
@@ -1890,7 +1945,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ReadOnly(System.Collections.ArrayList):System.Collections.ArrayList",
@@ -1903,7 +1959,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Remove(System.Object):System.Void",
@@ -1916,7 +1973,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::RemoveAt(System.Int32):System.Void",
@@ -1929,7 +1987,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::RemoveRange(System.Int32,System.Int32):System.Void",
@@ -1942,7 +2001,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Repeat(System.Object,System.Int32):System.Collections.ArrayList",
@@ -1955,7 +2015,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Reverse():System.Void",
@@ -1968,7 +2029,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Reverse(System.Int32,System.Int32):System.Void",
@@ -1981,7 +2043,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::SetRange(System.Int32,System.Collections.ICollection):System.Void",
@@ -1994,7 +2057,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::GetRange(System.Int32,System.Int32):System.Collections.ArrayList",
@@ -2007,7 +2071,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Sort():System.Void",
@@ -2020,7 +2085,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Sort(System.Collections.IComparer):System.Void",
@@ -2033,7 +2099,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Sort(System.Int32,System.Int32,System.Collections.IComparer):System.Void",
@@ -2046,7 +2113,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Synchronized(System.Collections.IList):System.Collections.IList",
@@ -2059,7 +2127,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Synchronized(System.Collections.ArrayList):System.Collections.ArrayList",
@@ -2072,7 +2141,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ToArray():System.Object[]",
@@ -2085,7 +2155,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ToArray(System.Type):System.Array",
@@ -2098,7 +2169,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::TrimToSize():System.Void",
@@ -2111,7 +2183,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ArrayList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -2124,7 +2197,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -2137,7 +2211,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -2150,7 +2225,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -2163,7 +2239,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -2176,7 +2253,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -2189,7 +2267,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2202,7 +2281,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2215,7 +2295,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -2228,7 +2309,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3177,7 +3259,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Set(System.Int32,System.Boolean):System.Void",
@@ -3190,7 +3273,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::SetAll(System.Boolean):System.Void",
@@ -3203,7 +3287,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::And(System.Collections.BitArray):System.Collections.BitArray",
@@ -3216,7 +3301,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Or(System.Collections.BitArray):System.Collections.BitArray",
@@ -3229,7 +3315,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Xor(System.Collections.BitArray):System.Collections.BitArray",
@@ -3242,7 +3329,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Not():System.Collections.BitArray",
@@ -3255,7 +3343,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::RightShift(System.Int32):System.Collections.BitArray",
@@ -3268,7 +3357,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::LeftShift(System.Int32):System.Collections.BitArray",
@@ -3281,7 +3371,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::CopyTo(System.Array,System.Int32):System.Void",
@@ -3294,7 +3385,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::HasAllSet():System.Boolean",
@@ -3307,7 +3399,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::HasAnySet():System.Boolean",
@@ -3320,7 +3413,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Clone():System.Object",
@@ -3333,7 +3427,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::GetEnumerator():System.Collections.IEnumerator",
@@ -3346,7 +3441,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.BitArray",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -3359,7 +3455,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3372,7 +3469,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3385,7 +3483,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -3398,7 +3497,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4002,7 +4102,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.CaseInsensitiveComparer",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IComparer::Compare(System.Object,System.Object):System.Int32",
@@ -4015,7 +4116,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4215,7 +4317,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.CaseInsensitiveHashCodeProvider",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IHashCodeProvider::GetHashCode(System.Object):System.Int32",
@@ -4228,7 +4331,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IHashCodeProvider",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4428,7 +4532,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.CollectionBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::RemoveAt(System.Int32):System.Void",
@@ -4441,7 +4546,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.CollectionBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::GetEnumerator():System.Collections.IEnumerator",
@@ -4454,7 +4560,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.CollectionBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -4467,7 +4574,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -4480,7 +4588,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -4493,7 +4602,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -4506,7 +4616,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -4519,7 +4630,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -4532,7 +4644,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -4545,7 +4658,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -4558,7 +4672,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4927,7 +5042,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Comparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Comparer::Compare(System.Object,System.Object):System.Int32",
@@ -4940,7 +5056,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Comparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IComparer::Compare(System.Object,System.Object):System.Int32",
@@ -4953,7 +5070,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IComparer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4966,7 +5084,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5161,7 +5280,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.DictionaryBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::Clear():System.Void",
@@ -5174,7 +5294,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.DictionaryBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -5187,7 +5308,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.DictionaryBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -5200,7 +5322,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -5213,7 +5336,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -5226,7 +5350,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -5239,7 +5364,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -5252,7 +5378,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -5265,7 +5392,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5278,7 +5406,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5661,7 +5790,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Clear():System.Void",
@@ -5674,7 +5804,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Clone():System.Object",
@@ -5687,7 +5818,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Contains(System.Object):System.Boolean",
@@ -5700,7 +5832,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::ContainsKey(System.Object):System.Boolean",
@@ -5713,7 +5846,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::ContainsValue(System.Object):System.Boolean",
@@ -5726,7 +5860,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::CopyTo(System.Array,System.Int32):System.Void",
@@ -5739,7 +5874,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -5752,7 +5888,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Remove(System.Object):System.Void",
@@ -5765,7 +5902,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Synchronized(System.Collections.Hashtable):System.Collections.Hashtable",
@@ -5778,7 +5916,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5791,7 +5930,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Hashtable::OnDeserialization(System.Object):System.Void",
@@ -5804,7 +5944,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Hashtable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -5817,7 +5958,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -5830,7 +5972,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -5843,7 +5986,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -5856,7 +6000,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -5869,7 +6014,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -5882,7 +6028,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5895,7 +6042,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -5908,7 +6056,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
@@ -5921,7 +6070,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IDeserializationCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -5934,7 +6084,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6893,7 +7044,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ListDictionaryInternal::Clear():System.Void",
@@ -6906,7 +7058,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ListDictionaryInternal::Contains(System.Object):System.Boolean",
@@ -6919,7 +7072,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ListDictionaryInternal::CopyTo(System.Array,System.Int32):System.Void",
@@ -6932,7 +7086,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ListDictionaryInternal::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -6945,7 +7100,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ListDictionaryInternal::Remove(System.Object):System.Void",
@@ -6958,7 +7114,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.ListDictionaryInternal",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6971,7 +7128,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -6984,7 +7142,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -6997,7 +7156,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -7010,7 +7170,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -7023,7 +7184,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -7036,7 +7198,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -7049,7 +7212,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7652,7 +7816,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Clear():System.Void",
@@ -7665,7 +7830,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::CopyTo(System.Array,System.Int32):System.Void",
@@ -7678,7 +7844,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Enqueue(System.Object):System.Void",
@@ -7691,7 +7858,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::GetEnumerator():System.Collections.IEnumerator",
@@ -7704,7 +7872,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Dequeue():System.Object",
@@ -7717,7 +7886,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Peek():System.Object",
@@ -7730,7 +7900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Synchronized(System.Collections.Queue):System.Collections.Queue",
@@ -7743,7 +7914,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::Contains(System.Object):System.Boolean",
@@ -7756,7 +7928,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::ToArray():System.Object[]",
@@ -7769,7 +7942,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Queue::TrimToSize():System.Void",
@@ -7782,7 +7956,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Queue",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -7795,7 +7970,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -7808,7 +7984,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -7821,7 +7998,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8275,7 +8453,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.ReadOnlyCollectionBase",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -8288,7 +8467,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -8301,7 +8481,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8518,7 +8699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::Clear():System.Void",
@@ -8531,7 +8713,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::Clone():System.Object",
@@ -8544,7 +8727,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::Contains(System.Object):System.Boolean",
@@ -8557,7 +8741,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::ContainsKey(System.Object):System.Boolean",
@@ -8570,7 +8755,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::ContainsValue(System.Object):System.Boolean",
@@ -8583,7 +8769,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::CopyTo(System.Array,System.Int32):System.Void",
@@ -8596,7 +8783,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::GetByIndex(System.Int32):System.Object",
@@ -8609,7 +8797,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -8622,7 +8811,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::GetKey(System.Int32):System.Object",
@@ -8635,7 +8825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::GetKeyList():System.Collections.IList",
@@ -8648,7 +8839,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::GetValueList():System.Collections.IList",
@@ -8661,7 +8853,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::IndexOfKey(System.Object):System.Int32",
@@ -8674,7 +8867,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::IndexOfValue(System.Object):System.Int32",
@@ -8687,7 +8881,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::RemoveAt(System.Int32):System.Void",
@@ -8700,7 +8895,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::Remove(System.Object):System.Void",
@@ -8713,7 +8909,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::SetByIndex(System.Int32,System.Object):System.Void",
@@ -8726,7 +8923,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::Synchronized(System.Collections.SortedList):System.Collections.SortedList",
@@ -8739,7 +8937,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.SortedList::TrimToSize():System.Void",
@@ -8752,7 +8951,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.SortedList",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -8765,7 +8965,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -8778,7 +8979,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -8791,7 +8993,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -8804,7 +9007,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -8817,7 +9021,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -8830,7 +9035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -8843,7 +9049,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -8856,7 +9063,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9718,7 +9926,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Clone():System.Object",
@@ -9731,7 +9940,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Contains(System.Object):System.Boolean",
@@ -9744,7 +9954,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::CopyTo(System.Array,System.Int32):System.Void",
@@ -9757,7 +9968,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::GetEnumerator():System.Collections.IEnumerator",
@@ -9770,7 +9982,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Peek():System.Object",
@@ -9783,7 +9996,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Pop():System.Object",
@@ -9796,7 +10010,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Push(System.Object):System.Void",
@@ -9809,7 +10024,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::Synchronized(System.Collections.Stack):System.Collections.Stack",
@@ -9822,7 +10038,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Stack::ToArray():System.Object[]",
@@ -9835,7 +10052,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Stack",
-          "declaringAssemblyName": "System.Collections.NonGeneric"
+          "declaringAssemblyName": "System.Collections.NonGeneric",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -9848,7 +10066,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -9861,7 +10080,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -9874,7 +10094,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

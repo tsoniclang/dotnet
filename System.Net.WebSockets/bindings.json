@@ -4573,7 +4573,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ConnectAsync(System.Uri,System.Net.Http.HttpMessageInvoker,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4586,7 +4587,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4599,7 +4601,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4612,7 +4615,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4625,7 +4629,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4638,7 +4643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4651,7 +4657,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4664,7 +4671,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4677,7 +4685,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::Abort():System.Void",
@@ -4690,7 +4699,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::Dispose():System.Void",
@@ -4703,7 +4713,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4716,7 +4727,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.ArraySegment_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -4729,7 +4741,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -4742,7 +4755,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ArraySegment_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4755,7 +4769,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4768,7 +4783,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -4781,7 +4797,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5312,7 +5329,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::AddSubProtocol(System.String):System.Void",
@@ -5325,7 +5343,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::SetBuffer(System.Int32,System.Int32):System.Void",
@@ -5338,7 +5357,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::SetBuffer(System.Int32,System.Int32,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -5351,7 +5371,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6135,7 +6156,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6148,7 +6170,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6161,7 +6184,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::Dispose():System.Void",
@@ -6174,7 +6198,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6187,7 +6212,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -6200,7 +6226,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6213,7 +6240,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -6226,7 +6254,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -6239,7 +6268,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateClientBuffer(System.Int32,System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6252,7 +6282,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateServerBuffer(System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6265,7 +6296,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateFromStream(System.IO.Stream,System.Boolean,System.String,System.TimeSpan):System.Net.WebSockets.WebSocket",
@@ -6278,7 +6310,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateFromStream(System.IO.Stream,System.Net.WebSockets.WebSocketCreationOptions):System.Net.WebSockets.WebSocket",
@@ -6291,7 +6324,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::IsApplicationTargeting45():System.Boolean",
@@ -6304,7 +6338,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::RegisterPrefixes():System.Void",
@@ -6317,7 +6352,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateClientWebSocket(System.IO.Stream,System.String,System.Int32,System.Int32,System.TimeSpan,System.Boolean,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.WebSockets.WebSocket",
@@ -6330,7 +6366,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6343,7 +6380,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7503,7 +7541,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7516,7 +7555,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8282,7 +8322,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Create(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.TimeSpan):System.Net.WebSockets.WebSocketStream",
@@ -8295,7 +8336,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CreateWritableMessageStream(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType):System.Net.WebSockets.WebSocketStream",
@@ -8308,7 +8350,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CreateReadableMessageStream(System.Net.WebSockets.WebSocket):System.Net.WebSockets.WebSocketStream",
@@ -8321,7 +8364,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Flush():System.Void",
@@ -8334,7 +8378,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -8347,7 +8392,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8360,7 +8406,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -8373,7 +8420,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -8386,7 +8434,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::EndRead(System.IAsyncResult):System.Int32",
@@ -8399,7 +8448,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -8412,7 +8462,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -8425,7 +8476,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -8438,7 +8490,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::EndWrite(System.IAsyncResult):System.Void",
@@ -8451,7 +8504,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -8464,7 +8518,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -8477,7 +8532,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -8490,7 +8546,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::SetLength(System.Int64):System.Void",
@@ -8503,7 +8560,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8516,7 +8574,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -8529,7 +8588,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Dispose():System.Void",
@@ -8542,7 +8602,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -8555,7 +8616,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync():System.Threading.Tasks.Task",
@@ -8568,7 +8630,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Span_1):System.Int32",
@@ -8581,7 +8644,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -8594,7 +8658,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -8607,7 +8672,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -8620,7 +8686,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -8633,7 +8700,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -8646,7 +8714,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -8659,7 +8728,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "declaringAssemblyName": "System.Net.WebSockets",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

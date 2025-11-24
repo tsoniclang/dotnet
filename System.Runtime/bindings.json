@@ -1642,7 +1642,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.DependentHandle",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1655,7 +1656,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1884,7 +1886,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AmbiguousImplementationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1897,7 +1900,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.AmbiguousImplementationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2630,7 +2634,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.MemoryFailPoint",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2643,7 +2648,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3246,7 +3252,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.ControlledExecution",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3493,7 +3500,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.JitInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompiledMethodCount(System.Boolean):System.Int64",
@@ -3506,7 +3514,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.JitInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompilationTime(System.Boolean):System.TimeSpan",
@@ -3519,7 +3528,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.JitInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3637,7 +3647,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.ProfileOptimization",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ProfileOptimization::StartProfile(System.String):System.Void",
@@ -3650,7 +3661,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.ProfileOptimization",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

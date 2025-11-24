@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -191,7 +193,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -204,7 +207,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -217,7 +221,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -230,7 +235,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -433,7 +439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::TryGetValue(TAlternate,T\u0026):System.Boolean",
@@ -446,7 +453,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -581,7 +589,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -594,7 +603,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -607,7 +617,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -620,7 +631,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -823,7 +835,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::CopyTo(Span_1):System.Void",
@@ -836,7 +849,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetValueRefOrNullRef(TKey):TValue\u0026",
@@ -849,7 +863,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -862,7 +877,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -875,7 +891,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetEnumerator():Enumerator",
@@ -888,7 +905,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetAlternateLookup():AlternateLookup_1",
@@ -901,7 +919,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::TryGetAlternateLookup(AlternateLookup_1\u0026):System.Boolean",
@@ -914,7 +933,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
@@ -927,7 +947,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Remove(TKey):System.Boolean",
@@ -940,7 +961,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -953,7 +975,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -966,7 +989,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -979,7 +1003,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -992,7 +1017,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -1005,7 +1031,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1018,7 +1045,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -1031,7 +1059,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -1044,7 +1073,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -1057,7 +1087,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -1070,7 +1101,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1083,7 +1115,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -1096,7 +1129,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -1109,7 +1143,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -1122,7 +1157,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -1135,7 +1171,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -1148,7 +1185,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1979,7 +2017,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::CopyTo(Span_1):System.Void",
@@ -1992,7 +2031,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Contains(T):System.Boolean",
@@ -2005,7 +2045,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::TryGetValue(T,T\u0026):System.Boolean",
@@ -2018,7 +2059,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::GetEnumerator():Enumerator",
@@ -2031,7 +2073,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsProperSubsetOf(IEnumerable_1):System.Boolean",
@@ -2044,7 +2087,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsProperSupersetOf(IEnumerable_1):System.Boolean",
@@ -2057,7 +2101,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsSubsetOf(IEnumerable_1):System.Boolean",
@@ -2070,7 +2115,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsSupersetOf(IEnumerable_1):System.Boolean",
@@ -2083,7 +2129,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Overlaps(IEnumerable_1):System.Boolean",
@@ -2096,7 +2143,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::SetEquals(IEnumerable_1):System.Boolean",
@@ -2109,7 +2157,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::GetAlternateLookup():AlternateLookup_1",
@@ -2122,7 +2171,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::TryGetAlternateLookup(AlternateLookup_1\u0026):System.Boolean",
@@ -2135,7 +2185,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::Add(T):System.Boolean",
@@ -2148,7 +2199,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::UnionWith(IEnumerable_1):System.Void",
@@ -2161,7 +2213,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -2174,7 +2227,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -2187,7 +2241,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -2200,7 +2255,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2213,7 +2269,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2226,7 +2283,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::IsSubsetOf(IEnumerable_1):System.Boolean",
@@ -2239,7 +2297,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -2252,7 +2311,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -2265,7 +2325,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::Contains(T):System.Boolean",
@@ -2278,7 +2339,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::IsProperSubsetOf(IEnumerable_1):System.Boolean",
@@ -2291,7 +2353,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2872,7 +2935,8 @@
           "arity": 2,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::Create(IEqualityComparer_1,ReadOnlySpan_1):FrozenDictionary_2",
@@ -2885,7 +2949,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,IEqualityComparer_1):FrozenDictionary_2",
@@ -2898,7 +2963,8 @@
           "arity": 2,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,Func_2,IEqualityComparer_1):FrozenDictionary_2",
@@ -2911,7 +2977,8 @@
           "arity": 2,
           "parameterCount": 3,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):FrozenDictionary_2",
@@ -2924,7 +2991,8 @@
           "arity": 3,
           "parameterCount": 4,
           "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -3062,7 +3130,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet::Create(IEqualityComparer_1,ReadOnlySpan_1):FrozenSet_1",
@@ -3075,7 +3144,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet::ToFrozenSet(IEnumerable_1,IEqualityComparer_1):FrozenSet_1",
@@ -3088,7 +3158,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "declaringAssemblyName": "System.Collections.Immutable",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

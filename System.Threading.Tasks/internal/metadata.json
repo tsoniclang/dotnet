@@ -486,7 +486,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::FromCanceled(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -501,7 +502,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::FromCanceled(System.Threading.CancellationToken):ValueTask_1",
@@ -516,7 +518,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::FromException(System.Exception):System.Threading.Tasks.ValueTask",
@@ -531,7 +534,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::FromException(System.Exception):ValueTask_1",
@@ -546,7 +550,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::GetHashCode():System.Int32",
@@ -561,7 +566,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::Equals(System.Object):System.Boolean",
@@ -576,7 +582,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::Equals(System.Threading.Tasks.ValueTask):System.Boolean",
@@ -591,7 +598,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::AsTask():System.Threading.Tasks.Task",
@@ -606,7 +614,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::Preserve():System.Threading.Tasks.ValueTask",
@@ -621,7 +630,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::GetAwaiter():System.Runtime.CompilerServices.ValueTaskAwaiter",
@@ -636,7 +646,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask::ConfigureAwait(System.Boolean):System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable",
@@ -651,7 +662,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -667,7 +679,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -786,7 +799,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::Equals(System.Object):System.Boolean",
@@ -801,7 +815,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::Equals(ValueTask_1):System.Boolean",
@@ -816,7 +831,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::AsTask():Task_1",
@@ -831,7 +847,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::Preserve():ValueTask_1",
@@ -846,7 +863,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::GetAwaiter():ValueTaskAwaiter_1",
@@ -861,7 +879,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::ConfigureAwait(System.Boolean):ConfiguredValueTaskAwaitable_1",
@@ -876,7 +895,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.ValueTask\u00601::ToString():System.String",
@@ -891,7 +911,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -907,7 +928,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1031,7 +1053,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1130,7 +1153,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.ParallelLoopState::Break():System.Void",
@@ -1145,7 +1169,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1306,7 +1331,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Start(System.Threading.Tasks.TaskScheduler):System.Void",
@@ -1321,7 +1347,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::RunSynchronously():System.Void",
@@ -1336,7 +1363,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::RunSynchronously(System.Threading.Tasks.TaskScheduler):System.Void",
@@ -1351,7 +1379,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Dispose():System.Void",
@@ -1366,7 +1395,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::GetAwaiter():System.Runtime.CompilerServices.TaskAwaiter",
@@ -1381,7 +1411,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ConfigureAwait(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
@@ -1396,7 +1427,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ConfigureAwait(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
@@ -1411,7 +1443,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Yield():System.Runtime.CompilerServices.YieldAwaitable",
@@ -1426,7 +1459,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait():System.Void",
@@ -1441,7 +1475,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait(System.TimeSpan):System.Boolean",
@@ -1456,7 +1491,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait(System.TimeSpan,System.Threading.CancellationToken):System.Boolean",
@@ -1471,7 +1507,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait(System.Threading.CancellationToken):System.Void",
@@ -1486,7 +1523,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait(System.Int32):System.Boolean",
@@ -1501,7 +1539,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Wait(System.Int32,System.Threading.CancellationToken):System.Boolean",
@@ -1516,7 +1555,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1531,7 +1571,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAsync(System.TimeSpan):System.Threading.Tasks.Task",
@@ -1546,7 +1587,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAsync(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task",
@@ -1561,7 +1603,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAsync(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1576,7 +1619,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1591,7 +1635,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -1606,7 +1651,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1621,7 +1667,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -1636,7 +1683,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -1651,7 +1699,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -1666,7 +1715,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task",
@@ -1681,7 +1731,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1696,7 +1747,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -1711,7 +1763,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -1726,7 +1779,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(System.Action_2[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -1741,7 +1795,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_2):Task_1",
@@ -1756,7 +1811,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_2,System.Threading.CancellationToken):Task_1",
@@ -1771,7 +1827,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_2,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -1786,7 +1843,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -1801,7 +1859,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -1816,7 +1875,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_3,System.Object):Task_1",
@@ -1831,7 +1891,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken):Task_1",
@@ -1846,7 +1907,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -1861,7 +1923,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -1876,7 +1939,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -1891,7 +1955,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Threading.Tasks.Task[]):System.Void",
@@ -1906,7 +1971,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1921,7 +1987,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Threading.Tasks.Task[],System.TimeSpan):System.Boolean",
@@ -1936,7 +2003,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Threading.Tasks.Task[],System.Int32):System.Boolean",
@@ -1951,7 +2019,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Threading.Tasks.Task[],System.Threading.CancellationToken):System.Void",
@@ -1966,7 +2035,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken):System.Boolean",
@@ -1981,7 +2051,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAll(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Void",
@@ -1996,7 +2067,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAny(System.Threading.Tasks.Task[]):System.Int32",
@@ -2011,7 +2083,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAny(System.Threading.Tasks.Task[],System.TimeSpan):System.Int32",
@@ -2026,7 +2099,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAny(System.Threading.Tasks.Task[],System.Threading.CancellationToken):System.Int32",
@@ -2041,7 +2115,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAny(System.Threading.Tasks.Task[],System.Int32):System.Int32",
@@ -2056,7 +2131,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WaitAny(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken):System.Int32",
@@ -2071,7 +2147,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::FromResult(TResult):Task_1",
@@ -2086,7 +2163,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::FromException(System.Exception):System.Threading.Tasks.Task",
@@ -2101,7 +2179,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::FromException(System.Exception):Task_1",
@@ -2116,7 +2195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::FromCanceled(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2131,7 +2211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::FromCanceled(System.Threading.CancellationToken):Task_1",
@@ -2146,7 +2227,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(System.Action):System.Threading.Tasks.Task",
@@ -2161,7 +2243,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(System.Action,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2176,7 +2259,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(Func_1):Task_1",
@@ -2191,7 +2275,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(Func_1,System.Threading.CancellationToken):Task_1",
@@ -2206,7 +2291,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -2221,7 +2307,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Run(System.Func_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2236,7 +2323,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.TimeSpan):System.Threading.Tasks.Task",
@@ -2251,7 +2339,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task",
@@ -2266,7 +2355,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2281,7 +2371,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2296,7 +2387,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.Int32):System.Threading.Tasks.Task",
@@ -2311,7 +2403,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Delay(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2326,7 +2419,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -2341,7 +2435,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(System.Threading.Tasks.Task[]):System.Threading.Tasks.Task",
@@ -2356,7 +2451,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -2371,7 +2467,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(IEnumerable_1):Task_1",
@@ -2386,7 +2483,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(Task_1[]):Task_1",
@@ -2401,7 +2499,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAll(ReadOnlySpan_1):Task_1",
@@ -2416,7 +2515,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(System.Threading.Tasks.Task[]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2431,7 +2531,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2446,7 +2547,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(System.Threading.Tasks.Task,System.Threading.Tasks.Task):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2461,7 +2563,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2476,7 +2579,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(Task_1[]):Task_1",
@@ -2491,7 +2595,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(ReadOnlySpan_1):Task_1",
@@ -2506,7 +2611,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(Task_1,Task_1):Task_1",
@@ -2521,7 +2627,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenAny(IEnumerable_1):Task_1",
@@ -2536,7 +2643,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(System.Threading.Tasks.Task[]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2551,7 +2659,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(System.ReadOnlySpan_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2566,7 +2675,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(System.Collections.Generic.IEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Collections.Generic.IAsyncEnumerable_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2581,7 +2691,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(Task_1[]):IAsyncEnumerable_1",
@@ -2596,7 +2707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(ReadOnlySpan_1):IAsyncEnumerable_1",
@@ -2611,7 +2723,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::WhenEach(IEnumerable_1):IAsyncEnumerable_1",
@@ -2626,7 +2739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2642,7 +2756,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2960,7 +3075,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Boolean):ConfiguredTaskAwaitable_1",
@@ -2975,7 +3091,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Threading.Tasks.ConfigureAwaitOptions):ConfiguredTaskAwaitable_1",
@@ -2990,7 +3107,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.Threading.CancellationToken):Task_1",
@@ -3005,7 +3123,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan):Task_1",
@@ -3020,7 +3139,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider):Task_1",
@@ -3035,7 +3155,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.Threading.CancellationToken):Task_1",
@@ -3050,7 +3171,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):Task_1",
@@ -3065,7 +3187,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1):System.Threading.Tasks.Task",
@@ -3080,7 +3203,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3095,7 +3219,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3110,7 +3235,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -3125,7 +3251,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3140,7 +3267,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object):System.Threading.Tasks.Task",
@@ -3155,7 +3283,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3170,7 +3299,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3185,7 +3315,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -3200,7 +3331,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3215,7 +3347,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2):Task_1",
@@ -3230,7 +3363,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.CancellationToken):Task_1",
@@ -3245,7 +3379,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -3260,7 +3395,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -3275,7 +3411,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -3290,7 +3427,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object):Task_1",
@@ -3305,7 +3443,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken):Task_1",
@@ -3320,7 +3459,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -3335,7 +3475,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -3350,7 +3491,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -3365,7 +3507,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3381,7 +3524,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Boolean):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
@@ -3396,7 +3540,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ConfigureAwait(System.Threading.Tasks.ConfigureAwaitOptions):System.Runtime.CompilerServices.ConfiguredTaskAwaitable",
@@ -3411,7 +3556,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1):System.Threading.Tasks.Task",
@@ -3426,7 +3572,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3441,7 +3588,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3456,7 +3604,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -3471,7 +3620,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3486,7 +3636,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object):System.Threading.Tasks.Task",
@@ -3501,7 +3652,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3516,7 +3668,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3531,7 +3684,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -3546,7 +3700,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Action_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -3561,7 +3716,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2):System.Threading.Tasks.Task_1",
@@ -3576,7 +3732,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -3591,7 +3748,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
@@ -3606,7 +3764,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1",
@@ -3621,7 +3780,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
@@ -3636,7 +3796,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object):System.Threading.Tasks.Task_1",
@@ -3651,7 +3812,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -3666,7 +3828,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
@@ -3681,7 +3844,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task_1",
@@ -3696,7 +3860,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::ContinueWith(System.Func_3,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task_1",
@@ -3711,7 +3876,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::Dispose():System.Void",
@@ -3726,7 +3892,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::GetAwaiter():System.Runtime.CompilerServices.TaskAwaiter",
@@ -3741,7 +3908,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3756,7 +3924,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan):System.Threading.Tasks.Task",
@@ -3771,7 +3940,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider):System.Threading.Tasks.Task",
@@ -3786,7 +3956,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3801,7 +3972,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task\u00601::WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3816,7 +3988,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3985,7 +4158,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCanceledException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -4000,7 +4174,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4074,7 +4249,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::SetException(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4089,7 +4265,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetException(System.Exception):System.Boolean",
@@ -4104,7 +4281,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetException(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -4119,7 +4297,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::SetResult():System.Void",
@@ -4134,7 +4313,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetResult():System.Boolean",
@@ -4149,7 +4329,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::SetCanceled():System.Void",
@@ -4164,7 +4345,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::SetCanceled(System.Threading.CancellationToken):System.Void",
@@ -4179,7 +4361,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetCanceled():System.Boolean",
@@ -4194,7 +4377,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetCanceled(System.Threading.CancellationToken):System.Boolean",
@@ -4209,7 +4393,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::SetFromTask(System.Threading.Tasks.Task):System.Void",
@@ -4224,7 +4409,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource::TrySetFromTask(System.Threading.Tasks.Task):System.Boolean",
@@ -4239,7 +4425,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4308,7 +4495,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetException(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4323,7 +4511,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetException(System.Exception):System.Boolean",
@@ -4338,7 +4527,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetException(System.Collections.Generic.IEnumerable_1[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -4353,7 +4543,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetResult(TResult):System.Void",
@@ -4368,7 +4559,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetResult(TResult):System.Boolean",
@@ -4383,7 +4575,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetCanceled():System.Void",
@@ -4398,7 +4591,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetCanceled(System.Threading.CancellationToken):System.Void",
@@ -4413,7 +4607,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetCanceled():System.Boolean",
@@ -4428,7 +4623,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetCanceled(System.Threading.CancellationToken):System.Boolean",
@@ -4443,7 +4639,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::SetFromTask(Task_1):System.Void",
@@ -4458,7 +4655,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCompletionSource\u00601::TrySetFromTask(Task_1):System.Boolean",
@@ -4473,7 +4671,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4542,7 +4741,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4557,7 +4757,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4572,7 +4773,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -4587,7 +4789,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task",
@@ -4602,7 +4805,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4617,7 +4821,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4632,7 +4837,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -4647,7 +4853,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_1):Task_1",
@@ -4662,7 +4869,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_1,System.Threading.CancellationToken):Task_1",
@@ -4677,7 +4885,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_1,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -4692,7 +4901,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -4707,7 +4917,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_2,System.Object):Task_1",
@@ -4722,7 +4933,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_2,System.Object,System.Threading.CancellationToken):Task_1",
@@ -4737,7 +4949,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -4752,7 +4965,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::StartNew(Func_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -4767,7 +4981,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -4782,7 +4997,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4797,7 +5013,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -4812,7 +5029,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Threading.Tasks.Task",
@@ -4827,7 +5045,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4842,7 +5061,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_4,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,System.Object):System.Threading.Tasks.Task",
@@ -4857,7 +5077,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_4,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4872,7 +5093,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_5,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,System.Object):System.Threading.Tasks.Task",
@@ -4887,7 +5109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_5,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4902,7 +5125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_6,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,TArg3,System.Object):System.Threading.Tasks.Task",
@@ -4917,7 +5141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_6,System.Action_1[[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):System.Threading.Tasks.Task",
@@ -4932,7 +5157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,Func_2):Task_1",
@@ -4947,7 +5173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -4962,7 +5189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -4977,7 +5205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object):Task_1",
@@ -4992,7 +5221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5007,7 +5237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_4,Func_2,TArg1,System.Object):Task_1",
@@ -5022,7 +5253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_4,Func_2,TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5037,7 +5269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_5,Func_2,TArg1,TArg2,System.Object):Task_1",
@@ -5052,7 +5285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_5,Func_2,TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5067,7 +5301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object):Task_1",
@@ -5082,7 +5317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 4,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::FromAsync(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5097,7 +5333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 4,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -5112,7 +5349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5127,7 +5365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -5142,7 +5381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -5157,7 +5397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Action_1):System.Threading.Tasks.Task",
@@ -5172,7 +5413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5187,7 +5429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -5202,7 +5445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -5217,7 +5461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2):Task_1",
@@ -5232,7 +5477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -5247,7 +5493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -5262,7 +5509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5277,7 +5525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Func_2):Task_1",
@@ -5292,7 +5541,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -5307,7 +5557,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -5322,7 +5573,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAll(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5337,7 +5589,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task",
@@ -5352,7 +5605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5367,7 +5621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -5382,7 +5637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],System.Action_1[[System.Threading.Tasks.Task,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -5397,7 +5653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2):Task_1",
@@ -5412,7 +5669,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -5427,7 +5685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -5442,7 +5701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5457,7 +5717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Func_2):Task_1",
@@ -5472,7 +5733,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -5487,7 +5749,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -5502,7 +5765,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5517,7 +5781,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Action_1):System.Threading.Tasks.Task",
@@ -5532,7 +5797,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Action_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -5547,7 +5813,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Action_1,System.Threading.Tasks.TaskContinuationOptions):System.Threading.Tasks.Task",
@@ -5562,7 +5829,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory::ContinueWhenAny(Task_1[],Action_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):System.Threading.Tasks.Task",
@@ -5577,7 +5845,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5696,7 +5965,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_1,System.Threading.CancellationToken):Task_1",
@@ -5711,7 +5981,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_1,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5726,7 +5997,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_1,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5741,7 +6013,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_2,System.Object):Task_1",
@@ -5756,7 +6029,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_2,System.Object,System.Threading.CancellationToken):Task_1",
@@ -5771,7 +6045,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5786,7 +6061,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::StartNew(Func_2,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5801,7 +6077,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(System.IAsyncResult,Func_2):Task_1",
@@ -5816,7 +6093,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5831,7 +6109,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(System.IAsyncResult,Func_2,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -5846,7 +6125,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object):Task_1",
@@ -5861,7 +6141,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(System.Func_3[[System.AsyncCallback,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.IAsyncResult,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],Func_2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5876,7 +6157,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_4,Func_2,TArg1,System.Object):Task_1",
@@ -5891,7 +6173,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_4,Func_2,TArg1,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5906,7 +6189,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_5,Func_2,TArg1,TArg2,System.Object):Task_1",
@@ -5921,7 +6205,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_5,Func_2,TArg1,TArg2,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5936,7 +6221,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object):Task_1",
@@ -5951,7 +6237,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::FromAsync(Func_6,Func_2,TArg1,TArg2,TArg3,System.Object,System.Threading.Tasks.TaskCreationOptions):Task_1",
@@ -5966,7 +6253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 7
+          "parameterCount": 7,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2):Task_1",
@@ -5981,7 +6269,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -5996,7 +6285,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -6011,7 +6301,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -6026,7 +6317,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(Task_1[],Func_2):Task_1",
@@ -6041,7 +6333,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(Task_1[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -6056,7 +6349,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -6071,7 +6365,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAll(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -6086,7 +6381,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2):Task_1",
@@ -6101,7 +6397,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -6116,7 +6413,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -6131,7 +6429,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(System.Threading.Tasks.Task[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -6146,7 +6445,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(Task_1[],Func_2):Task_1",
@@ -6161,7 +6461,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(Task_1[],Func_2,System.Threading.CancellationToken):Task_1",
@@ -6176,7 +6477,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(Task_1[],Func_2,System.Threading.Tasks.TaskContinuationOptions):Task_1",
@@ -6191,7 +6493,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskFactory\u00601::ContinueWhenAny(Task_1[],Func_2,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler):Task_1",
@@ -6206,7 +6509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6325,7 +6629,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6427,7 +6732,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -6442,7 +6748,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6495,7 +6802,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6564,7 +6872,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::Invoke(System.Threading.Tasks.ParallelOptions,System.Action[]):System.Void",
@@ -6579,7 +6888,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6594,7 +6904,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6609,7 +6920,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6624,7 +6936,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6639,7 +6952,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6654,7 +6968,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6669,7 +6984,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6684,7 +7000,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
@@ -6699,7 +7016,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6714,7 +7032,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6729,7 +7048,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6744,7 +7064,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6759,7 +7080,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6774,7 +7096,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6789,7 +7112,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,Action_2):System.Threading.Tasks.ParallelLoopResult",
@@ -6804,7 +7128,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_2):System.Threading.Tasks.ParallelLoopResult",
@@ -6819,7 +7144,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,Action_3):System.Threading.Tasks.ParallelLoopResult",
@@ -6834,7 +7160,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Action_3):System.Threading.Tasks.ParallelLoopResult",
@@ -6849,7 +7176,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6864,7 +7192,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6879,7 +7208,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6894,7 +7224,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6909,7 +7240,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6924,7 +7256,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,Action_2):System.Threading.Tasks.ParallelLoopResult",
@@ -6939,7 +7272,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(OrderablePartitioner_1,Action_3):System.Threading.Tasks.ParallelLoopResult",
@@ -6954,7 +7288,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6969,7 +7304,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(OrderablePartitioner_1,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6984,7 +7320,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,System.Threading.Tasks.ParallelOptions,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -6999,7 +7336,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,System.Threading.Tasks.ParallelOptions,Action_2):System.Threading.Tasks.ParallelLoopResult",
@@ -7014,7 +7352,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(OrderablePartitioner_1,System.Threading.Tasks.ParallelOptions,Action_3):System.Threading.Tasks.ParallelLoopResult",
@@ -7029,7 +7368,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(Partitioner_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -7044,7 +7384,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEach(OrderablePartitioner_1,System.Threading.Tasks.ParallelOptions,Func_1,Func_5,Action_1):System.Threading.Tasks.ParallelLoopResult",
@@ -7059,7 +7400,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForAsync(T,T,Func_3):System.Threading.Tasks.Task",
@@ -7074,7 +7416,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForAsync(T,T,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task",
@@ -7089,7 +7432,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForAsync(T,T,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task",
@@ -7104,7 +7448,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IEnumerable_1,Func_3):System.Threading.Tasks.Task",
@@ -7119,7 +7464,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IEnumerable_1,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task",
@@ -7134,7 +7480,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task",
@@ -7149,7 +7496,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IAsyncEnumerable_1,Func_3):System.Threading.Tasks.Task",
@@ -7164,7 +7512,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IAsyncEnumerable_1,System.Threading.CancellationToken,Func_3):System.Threading.Tasks.Task",
@@ -7179,7 +7528,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::ForEachAsync(IAsyncEnumerable_1,System.Threading.Tasks.ParallelOptions,Func_3):System.Threading.Tasks.Task",
@@ -7194,7 +7544,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7226,7 +7577,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskAsyncEnumerableExtensions::ConfigureAwait(IAsyncEnumerable_1,System.Boolean):ConfiguredCancelableAsyncEnumerable_1",
@@ -7241,7 +7593,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskAsyncEnumerableExtensions::WithCancellation(IAsyncEnumerable_1,System.Threading.CancellationToken):ConfiguredCancelableAsyncEnumerable_1",
@@ -7256,7 +7609,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskAsyncEnumerableExtensions::ToBlockingEnumerable(IAsyncEnumerable_1,System.Threading.CancellationToken):IEnumerable_1",
@@ -7271,7 +7625,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -7303,7 +7658,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskExtensions::Unwrap(Task_1):Task_1",
@@ -7318,7 +7674,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -7350,7 +7707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskToAsyncResult::End(System.IAsyncResult):System.Void",
@@ -7365,7 +7723,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskToAsyncResult::End(System.IAsyncResult):TResult",
@@ -7380,7 +7739,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskToAsyncResult::Unwrap(System.IAsyncResult):System.Threading.Tasks.Task",
@@ -7395,7 +7755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskToAsyncResult::Unwrap(System.IAsyncResult):Task_1",
@@ -7410,7 +7771,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

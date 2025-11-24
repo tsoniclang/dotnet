@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadHalfBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt16BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16",
@@ -45,7 +47,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt32BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -58,7 +61,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt64BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -71,7 +75,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt128BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128",
@@ -84,7 +89,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadIntPtrBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr",
@@ -97,7 +103,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadSingleBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -110,7 +117,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt16BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16",
@@ -123,7 +131,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt32BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32",
@@ -136,7 +145,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt64BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64",
@@ -149,7 +159,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt128BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128",
@@ -162,7 +173,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUIntPtrBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr",
@@ -175,7 +187,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadDoubleBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean",
@@ -188,7 +201,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadHalfBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean",
@@ -201,7 +215,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt16BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean",
@@ -214,7 +229,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt32BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
@@ -227,7 +243,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt64BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean",
@@ -240,7 +257,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt128BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean",
@@ -253,7 +271,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadIntPtrBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean",
@@ -266,7 +285,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadSingleBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean",
@@ -279,7 +299,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt16BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean",
@@ -292,7 +313,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt32BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean",
@@ -305,7 +327,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt64BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean",
@@ -318,7 +341,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt128BigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean",
@@ -331,7 +355,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUIntPtrBigEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean",
@@ -344,7 +369,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadDoubleLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Double",
@@ -357,7 +383,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadHalfLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Half",
@@ -370,7 +397,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt16LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int16",
@@ -383,7 +411,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt32LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -396,7 +425,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt64LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int64",
@@ -409,7 +439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadInt128LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int128",
@@ -422,7 +453,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadIntPtrLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr",
@@ -435,7 +467,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadSingleLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Single",
@@ -448,7 +481,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt16LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt16",
@@ -461,7 +495,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt32LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt32",
@@ -474,7 +509,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt64LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt64",
@@ -487,7 +523,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUInt128LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UInt128",
@@ -500,7 +537,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReadUIntPtrLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.UIntPtr",
@@ -513,7 +551,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadDoubleLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026):System.Boolean",
@@ -526,7 +565,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadHalfLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half\u0026):System.Boolean",
@@ -539,7 +579,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt16LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026):System.Boolean",
@@ -552,7 +593,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt32LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
@@ -565,7 +607,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt64LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026):System.Boolean",
@@ -578,7 +621,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadInt128LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128\u0026):System.Boolean",
@@ -591,7 +635,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadIntPtrLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean",
@@ -604,7 +649,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadSingleLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026):System.Boolean",
@@ -617,7 +663,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt16LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026):System.Boolean",
@@ -630,7 +677,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt32LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026):System.Boolean",
@@ -643,7 +691,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt64LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026):System.Boolean",
@@ -656,7 +705,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUInt128LittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128\u0026):System.Boolean",
@@ -669,7 +719,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryReadUIntPtrLittleEndian(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr\u0026):System.Boolean",
@@ -682,7 +733,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.SByte):System.SByte",
@@ -695,7 +747,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int16):System.Int16",
@@ -708,7 +761,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int32):System.Int32",
@@ -721,7 +775,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int64):System.Int64",
@@ -734,7 +789,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.IntPtr):System.IntPtr",
@@ -747,7 +803,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int128):System.Int128",
@@ -760,7 +817,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Byte):System.Byte",
@@ -773,7 +831,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt16):System.UInt16",
@@ -786,7 +845,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt32):System.UInt32",
@@ -799,7 +859,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt64):System.UInt64",
@@ -812,7 +873,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UIntPtr):System.UIntPtr",
@@ -825,7 +887,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt128):System.UInt128",
@@ -838,7 +901,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -851,7 +915,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -864,7 +929,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -877,7 +943,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -890,7 +957,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -903,7 +971,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -916,7 +985,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -929,7 +999,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -942,7 +1013,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -955,7 +1027,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -968,7 +1041,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteDoubleBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
@@ -981,7 +1055,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteHalfBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void",
@@ -994,7 +1069,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt16BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void",
@@ -1007,7 +1083,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt32BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
@@ -1020,7 +1097,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt64BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
@@ -1033,7 +1111,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt128BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void",
@@ -1046,7 +1125,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteIntPtrBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void",
@@ -1059,7 +1139,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteSingleBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
@@ -1072,7 +1153,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt16BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void",
@@ -1085,7 +1167,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt32BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
@@ -1098,7 +1181,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt64BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
@@ -1111,7 +1195,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt128BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void",
@@ -1124,7 +1209,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUIntPtrBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void",
@@ -1137,7 +1223,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteDoubleBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean",
@@ -1150,7 +1237,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteHalfBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean",
@@ -1163,7 +1251,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt16BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean",
@@ -1176,7 +1265,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt32BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
@@ -1189,7 +1279,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt64BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean",
@@ -1202,7 +1293,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt128BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean",
@@ -1215,7 +1307,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteIntPtrBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean",
@@ -1228,7 +1321,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteSingleBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean",
@@ -1241,7 +1335,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt16BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean",
@@ -1254,7 +1349,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt32BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean",
@@ -1267,7 +1363,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt64BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean",
@@ -1280,7 +1377,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt128BigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean",
@@ -1293,7 +1391,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUIntPtrBigEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean",
@@ -1306,7 +1405,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteDoubleLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
@@ -1319,7 +1419,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteHalfLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Void",
@@ -1332,7 +1433,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt16LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Void",
@@ -1345,7 +1447,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt32LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
@@ -1358,7 +1461,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt64LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
@@ -1371,7 +1475,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteInt128LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Void",
@@ -1384,7 +1489,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteIntPtrLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Void",
@@ -1397,7 +1503,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteSingleLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
@@ -1410,7 +1517,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt16LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Void",
@@ -1423,7 +1531,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt32LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
@@ -1436,7 +1545,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt64LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
@@ -1449,7 +1559,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUInt128LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Void",
@@ -1462,7 +1573,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::WriteUIntPtrLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Void",
@@ -1475,7 +1587,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteDoubleLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Boolean",
@@ -1488,7 +1601,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteHalfLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Half):System.Boolean",
@@ -1501,7 +1615,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt16LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16):System.Boolean",
@@ -1514,7 +1629,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt32LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
@@ -1527,7 +1643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt64LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Boolean",
@@ -1540,7 +1657,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteInt128LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int128):System.Boolean",
@@ -1553,7 +1671,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteIntPtrLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr):System.Boolean",
@@ -1566,7 +1685,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteSingleLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Boolean",
@@ -1579,7 +1699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt16LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16):System.Boolean",
@@ -1592,7 +1713,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt32LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Boolean",
@@ -1605,7 +1727,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt64LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Boolean",
@@ -1618,7 +1741,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUInt128LittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt128):System.Boolean",
@@ -1631,7 +1755,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::TryWriteUIntPtrLittleEndian(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UIntPtr):System.Boolean",
@@ -1644,7 +1769,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Buffers.Binary.BinaryPrimitives",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

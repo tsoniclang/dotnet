@@ -4951,7 +4951,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String):Microsoft.Win32.RegistryKey",
@@ -4964,7 +4965,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey",
@@ -4977,7 +4979,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey",
@@ -4990,7 +4993,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey",
@@ -5003,7 +5007,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey",
@@ -5016,7 +5021,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,System.Boolean):Microsoft.Win32.RegistryKey",
@@ -5029,7 +5035,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey",
@@ -5042,7 +5049,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKey(System.String):System.Void",
@@ -5055,7 +5063,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKey(System.String,System.Boolean):System.Void",
@@ -5068,7 +5077,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKeyTree(System.String):System.Void",
@@ -5081,7 +5091,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKeyTree(System.String,System.Boolean):System.Void",
@@ -5094,7 +5105,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteValue(System.String):System.Void",
@@ -5107,7 +5119,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteValue(System.String,System.Boolean):System.Void",
@@ -5120,7 +5133,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::Dispose():System.Void",
@@ -5133,7 +5147,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::Flush():System.Void",
@@ -5146,7 +5161,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle):Microsoft.Win32.RegistryKey",
@@ -5159,7 +5175,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey",
@@ -5172,7 +5189,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetAccessControl():System.Security.AccessControl.RegistrySecurity",
@@ -5185,7 +5203,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetAccessControl(System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.RegistrySecurity",
@@ -5198,7 +5217,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetSubKeyNames():System.String[]",
@@ -5211,7 +5231,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValue(System.String):System.Object",
@@ -5224,7 +5245,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValue(System.String,System.Object):System.Object",
@@ -5237,7 +5259,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions):System.Object",
@@ -5250,7 +5273,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValueKind(System.String):Microsoft.Win32.RegistryValueKind",
@@ -5263,7 +5287,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValueNames():System.String[]",
@@ -5276,7 +5301,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenBaseKey(Microsoft.Win32.RegistryHive,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey",
@@ -5289,7 +5315,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String):Microsoft.Win32.RegistryKey",
@@ -5302,7 +5329,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey",
@@ -5315,7 +5343,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String):Microsoft.Win32.RegistryKey",
@@ -5328,7 +5357,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey",
@@ -5341,7 +5371,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey",
@@ -5354,7 +5385,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,System.Boolean):Microsoft.Win32.RegistryKey",
@@ -5367,7 +5399,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey",
@@ -5380,7 +5413,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::SetAccessControl(System.Security.AccessControl.RegistrySecurity):System.Void",
@@ -5393,7 +5427,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::SetValue(System.String,System.Object):System.Void",
@@ -5406,7 +5441,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void",
@@ -5419,7 +5455,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::ToString():System.String",
@@ -5432,7 +5469,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.Win32.RegistryKey",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5445,7 +5483,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6056,7 +6095,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.Registry",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.Registry::SetValue(System.String,System.String,System.Object):System.Void",
@@ -6069,7 +6109,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.Win32.Registry",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.Registry::SetValue(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void",
@@ -6082,7 +6123,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.Win32.Registry",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

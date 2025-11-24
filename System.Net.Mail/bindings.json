@@ -4507,7 +4507,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateView",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.AlternateView",
@@ -4520,7 +4521,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Mail.AlternateView",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.AlternateView",
@@ -4533,7 +4535,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AlternateView",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4546,7 +4549,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::Dispose():System.Void",
@@ -4559,7 +4563,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AlternateView",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4905,7 +4910,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -4918,7 +4924,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -4931,7 +4938,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -4944,7 +4952,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -4957,7 +4966,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -4970,7 +4980,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -4983,7 +4994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -4996,7 +5008,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -5009,7 +5022,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -5022,7 +5036,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -5035,7 +5050,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -5048,7 +5064,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -5061,7 +5078,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -5074,7 +5092,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5087,7 +5106,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -5100,7 +5120,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -5113,7 +5134,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5126,7 +5148,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(T):System.Void",
@@ -5139,7 +5162,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Add(System.Object):System.Int32",
@@ -5152,7 +5176,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Clear():System.Void",
@@ -5165,7 +5190,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(T):System.Boolean",
@@ -5178,7 +5204,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Contains(System.Object):System.Boolean",
@@ -5191,7 +5218,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(T[],System.Int32):System.Void",
@@ -5204,7 +5232,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5217,7 +5246,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -5230,7 +5260,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -5243,7 +5274,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::IndexOf(T):System.Int32",
@@ -5256,7 +5288,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,T):System.Void",
@@ -5269,7 +5302,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Insert(System.Int32,System.Object):System.Void",
@@ -5282,7 +5316,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(T):System.Boolean",
@@ -5295,7 +5330,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::Remove(System.Object):System.Void",
@@ -5308,7 +5344,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateViewCollection::RemoveAt(System.Int32):System.Void",
@@ -5321,7 +5358,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AlternateViewCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5944,7 +5982,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.Attachment",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.String,System.Text.Encoding,System.String):System.Net.Mail.Attachment",
@@ -5957,7 +5996,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Mail.Attachment",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.Attachment",
@@ -5970,7 +6010,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.Attachment",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -5983,7 +6024,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::Dispose():System.Void",
@@ -5996,7 +6038,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.Attachment",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6366,7 +6409,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AttachmentBase",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6379,7 +6423,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6586,7 +6631,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -6599,7 +6645,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -6612,7 +6659,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -6625,7 +6673,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -6638,7 +6687,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -6651,7 +6701,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -6664,7 +6715,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -6677,7 +6729,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -6690,7 +6743,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6703,7 +6757,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -6716,7 +6771,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -6729,7 +6785,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -6742,7 +6799,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -6755,7 +6813,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6768,7 +6827,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -6781,7 +6841,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -6794,7 +6855,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6807,7 +6869,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(T):System.Void",
@@ -6820,7 +6883,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Add(System.Object):System.Int32",
@@ -6833,7 +6897,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Clear():System.Void",
@@ -6846,7 +6911,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(T):System.Boolean",
@@ -6859,7 +6925,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Contains(System.Object):System.Boolean",
@@ -6872,7 +6939,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(T[],System.Int32):System.Void",
@@ -6885,7 +6953,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6898,7 +6967,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -6911,7 +6981,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -6924,7 +6995,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::IndexOf(T):System.Int32",
@@ -6937,7 +7009,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,T):System.Void",
@@ -6950,7 +7023,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Insert(System.Int32,System.Object):System.Void",
@@ -6963,7 +7037,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(T):System.Boolean",
@@ -6976,7 +7051,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::Remove(System.Object):System.Void",
@@ -6989,7 +7065,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection::RemoveAt(System.Int32):System.Void",
@@ -7002,7 +7079,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.AttachmentCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7625,7 +7703,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResource",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.LinkedResource",
@@ -7638,7 +7717,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Mail.LinkedResource",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.LinkedResource",
@@ -7651,7 +7731,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.LinkedResource",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -7664,7 +7745,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::Dispose():System.Void",
@@ -7677,7 +7759,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.LinkedResource",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7999,7 +8082,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -8012,7 +8096,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -8025,7 +8110,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -8038,7 +8124,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -8051,7 +8138,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -8064,7 +8152,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -8077,7 +8166,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -8090,7 +8180,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -8103,7 +8194,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -8116,7 +8208,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -8129,7 +8222,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -8142,7 +8236,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -8155,7 +8250,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -8168,7 +8264,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -8181,7 +8278,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -8194,7 +8292,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -8207,7 +8306,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8220,7 +8320,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(T):System.Void",
@@ -8233,7 +8334,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Add(System.Object):System.Int32",
@@ -8246,7 +8348,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Clear():System.Void",
@@ -8259,7 +8362,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(T):System.Boolean",
@@ -8272,7 +8376,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Contains(System.Object):System.Boolean",
@@ -8285,7 +8390,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(T[],System.Int32):System.Void",
@@ -8298,7 +8404,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -8311,7 +8418,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -8324,7 +8432,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -8337,7 +8446,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::IndexOf(T):System.Int32",
@@ -8350,7 +8460,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,T):System.Void",
@@ -8363,7 +8474,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Insert(System.Int32,System.Object):System.Void",
@@ -8376,7 +8488,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(T):System.Boolean",
@@ -8389,7 +8502,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::Remove(System.Object):System.Void",
@@ -8402,7 +8516,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResourceCollection::RemoveAt(System.Int32):System.Void",
@@ -8415,7 +8530,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.LinkedResourceCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9038,7 +9154,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Net.Mail.MailAddress\u0026):System.Boolean",
@@ -9051,7 +9168,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Text.Encoding,System.Net.Mail.MailAddress\u0026):System.Boolean",
@@ -9064,7 +9182,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::ToString():System.String",
@@ -9077,7 +9196,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::Equals(System.Object):System.Boolean",
@@ -9090,7 +9210,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::GetHashCode():System.Int32",
@@ -9103,7 +9224,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddress",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9380,7 +9502,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::ToString():System.String",
@@ -9393,7 +9516,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -9406,7 +9530,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -9419,7 +9544,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -9432,7 +9558,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -9445,7 +9572,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -9458,7 +9586,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -9471,7 +9600,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -9484,7 +9614,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -9497,7 +9628,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -9510,7 +9642,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -9523,7 +9656,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -9536,7 +9670,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -9549,7 +9684,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -9562,7 +9698,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -9575,7 +9712,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -9588,7 +9726,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -9601,7 +9740,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(T):System.Void",
@@ -9614,7 +9754,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Add(System.Object):System.Int32",
@@ -9627,7 +9768,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Clear():System.Void",
@@ -9640,7 +9782,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(T):System.Boolean",
@@ -9653,7 +9796,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Contains(System.Object):System.Boolean",
@@ -9666,7 +9810,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(T[],System.Int32):System.Void",
@@ -9679,7 +9824,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -9692,7 +9838,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.Generic.IEnumerator_1",
@@ -9705,7 +9852,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -9718,7 +9866,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::IndexOf(T):System.Int32",
@@ -9731,7 +9880,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,T):System.Void",
@@ -9744,7 +9894,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Insert(System.Int32,System.Object):System.Void",
@@ -9757,7 +9908,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(T):System.Boolean",
@@ -9770,7 +9922,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::Remove(System.Object):System.Void",
@@ -9783,7 +9936,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddressCollection::RemoveAt(System.Int32):System.Void",
@@ -9796,7 +9950,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.MailAddressCollection",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10431,7 +10586,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.MailMessage",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -10444,7 +10600,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -11090,7 +11247,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::BeginInvoke(System.Object,System.ComponentModel.AsyncCompletedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -11103,7 +11261,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -11116,7 +11275,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -11129,7 +11289,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -11142,7 +11303,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::Clone():System.Object",
@@ -11155,7 +11317,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SendCompletedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -11168,7 +11331,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SendCompletedEventHandler",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11560,7 +11724,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.Net.Mail.MailMessage):System.Void",
@@ -11573,7 +11738,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsync(System.String,System.String,System.String,System.String,System.Object):System.Void",
@@ -11586,7 +11752,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsync(System.Net.Mail.MailMessage,System.Object):System.Void",
@@ -11599,7 +11766,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsyncCancel():System.Void",
@@ -11612,7 +11780,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.String,System.String,System.String,System.String):System.Threading.Tasks.Task",
@@ -11625,7 +11794,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage):System.Threading.Tasks.Task",
@@ -11638,7 +11808,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -11651,7 +11822,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -11664,7 +11836,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Dispose():System.Void",
@@ -11677,7 +11850,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Mail.SmtpClient",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -11690,7 +11864,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12262,7 +12437,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SmtpException",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -12275,7 +12451,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12598,7 +12775,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientException",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -12611,7 +12789,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12963,7 +13142,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Mail.SmtpFailedRecipientsException",
-          "declaringAssemblyName": "System.Net.Mail"
+          "declaringAssemblyName": "System.Net.Mail",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -12976,7 +13156,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

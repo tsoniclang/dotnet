@@ -2674,7 +2674,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2687,7 +2688,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2700,7 +2702,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2713,7 +2716,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2726,7 +2730,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2739,7 +2744,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2752,7 +2758,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2765,7 +2772,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2778,7 +2786,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2791,7 +2800,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2804,7 +2814,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2817,7 +2828,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2830,7 +2842,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2843,7 +2856,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2856,7 +2870,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
@@ -2869,7 +2884,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream():System.IO.MemoryMappedFiles.MemoryMappedViewStream",
@@ -2882,7 +2898,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
@@ -2895,7 +2912,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
@@ -2908,7 +2926,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
@@ -2921,7 +2940,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
@@ -2934,7 +2954,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
@@ -2947,7 +2968,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::Dispose():System.Void",
@@ -2960,7 +2982,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2973,7 +2996,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3328,7 +3352,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3341,7 +3366,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Dispose():System.Void",
@@ -3354,7 +3380,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3853,7 +3880,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Flush():System.Void",
@@ -3866,7 +3894,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3879,7 +3908,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3892,7 +3922,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Dispose():System.Void",
@@ -3905,7 +3936,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3918,7 +3950,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

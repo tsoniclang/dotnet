@@ -516,7 +516,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -529,7 +530,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Flush():System.Void",
@@ -542,7 +544,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync():System.Threading.Tasks.Task",
@@ -555,7 +558,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -568,7 +572,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String):System.Void",
@@ -581,7 +586,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
@@ -594,7 +600,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
@@ -607,7 +614,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
@@ -620,7 +628,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
@@ -633,7 +642,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
@@ -646,7 +656,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
@@ -659,7 +670,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
@@ -672,7 +684,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
@@ -685,7 +698,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
@@ -698,7 +712,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
@@ -711,7 +726,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
@@ -724,7 +740,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
@@ -737,7 +754,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -750,7 +768,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
@@ -763,7 +782,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -776,7 +796,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
@@ -789,7 +810,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -802,7 +824,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -815,7 +838,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabs(System.String):System.Void",
@@ -828,7 +852,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabsAsync(System.String):System.Threading.Tasks.Task",
@@ -841,7 +866,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String):System.Void",
@@ -854,7 +880,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
@@ -867,7 +894,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
@@ -880,7 +908,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
@@ -893,7 +922,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
@@ -906,7 +936,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
@@ -919,7 +950,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
@@ -932,7 +964,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
@@ -945,7 +978,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
@@ -958,7 +992,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
@@ -971,7 +1006,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
@@ -984,7 +1020,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
@@ -997,7 +1034,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
@@ -1010,7 +1048,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
@@ -1023,7 +1062,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -1036,7 +1076,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
@@ -1049,7 +1090,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync():System.Threading.Tasks.Task",
@@ -1062,7 +1104,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
@@ -1075,7 +1118,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -1088,7 +1132,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
@@ -1101,7 +1146,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1114,7 +1160,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1127,7 +1174,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -1140,7 +1188,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -1153,7 +1202,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Dispose():System.Void",
@@ -1166,7 +1216,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.ReadOnlySpan_1):System.Void",
@@ -1179,7 +1230,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt32):System.Void",
@@ -1192,7 +1244,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt64):System.Void",
@@ -1205,7 +1258,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Decimal):System.Void",
@@ -1218,7 +1272,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Text.StringBuilder):System.Void",
@@ -1231,7 +1286,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
@@ -1244,7 +1300,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1):System.Void",
@@ -1257,7 +1314,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
@@ -1270,7 +1328,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1283,7 +1342,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.ReadOnlySpan_1):System.Void",
@@ -1296,7 +1356,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt64):System.Void",
@@ -1309,7 +1370,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Decimal):System.Void",
@@ -1322,7 +1384,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Text.StringBuilder):System.Void",
@@ -1335,7 +1398,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
@@ -1348,7 +1412,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1):System.Void",
@@ -1361,7 +1426,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
@@ -1374,7 +1440,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1387,7 +1454,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T):System.Boolean",
@@ -32,7 +33,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.String):System.Boolean",
@@ -45,7 +47,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Boolean",
@@ -58,7 +61,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Boolean",
@@ -71,7 +75,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -84,7 +89,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
@@ -97,7 +103,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -110,7 +117,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
@@ -123,7 +131,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String):System.Boolean",
@@ -136,7 +145,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Boolean",
@@ -149,7 +159,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Boolean",
@@ -162,7 +173,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -411,7 +423,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Unicode.UnicodeRange",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4547,7 +4560,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Text.Unicode.Utf8",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::ToUtf16(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
@@ -4560,7 +4574,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Text.Unicode.Utf8",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
@@ -4573,7 +4588,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Unicode.Utf8",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
@@ -4586,7 +4602,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.Unicode.Utf8",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -4599,7 +4616,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.Unicode.Utf8",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

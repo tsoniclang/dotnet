@@ -90,7 +90,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -185,7 +186,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver::GetTypeInfo(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
@@ -201,7 +203,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver"
+          "sourceInterface": "System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1364,7 +1367,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfo::CreateJsonTypeInfo(System.Text.Json.JsonSerializerOptions):JsonTypeInfo_1",
@@ -1379,7 +1383,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfo::CreateJsonTypeInfo(System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Serialization.Metadata.JsonTypeInfo",
@@ -1394,7 +1399,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfo::CreateJsonPropertyInfo(System.Type,System.String):System.Text.Json.Serialization.Metadata.JsonPropertyInfo",
@@ -1409,7 +1415,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1774,7 +1781,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateListInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1789,7 +1797,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateDictionaryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1804,7 +1813,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateImmutableDictionaryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Func_2):JsonTypeInfo_1",
@@ -1819,7 +1829,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateIDictionaryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1834,7 +1845,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateIReadOnlyDictionaryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1849,7 +1861,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 3,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateImmutableEnumerableInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Func_2):JsonTypeInfo_1",
@@ -1864,7 +1877,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateIListInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1879,7 +1893,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateISetInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1894,7 +1909,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateICollectionInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1909,7 +1925,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateStackInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1924,7 +1941,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateQueueInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1939,7 +1957,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateConcurrentStackInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1954,7 +1973,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateConcurrentQueueInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1969,7 +1989,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateIEnumerableInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1984,7 +2005,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateIAsyncEnumerableInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -1999,7 +2021,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 2,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateStackInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Action_2):JsonTypeInfo_1",
@@ -2014,7 +2037,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateQueueInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1,Action_2):JsonTypeInfo_1",
@@ -2029,7 +2053,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateMemoryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -2044,7 +2069,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateReadOnlyMemoryInfo(System.Text.Json.JsonSerializerOptions,JsonCollectionInfoValues_1):JsonTypeInfo_1",
@@ -2059,7 +2085,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::GetUnsupportedTypeConverter():JsonConverter_1",
@@ -2074,7 +2101,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::GetEnumConverter(System.Text.Json.JsonSerializerOptions):JsonConverter_1",
@@ -2089,7 +2117,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::GetNullableConverter(JsonTypeInfo_1):JsonConverter_1",
@@ -2104,7 +2133,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::GetNullableConverter(System.Text.Json.JsonSerializerOptions):JsonConverter_1",
@@ -2119,7 +2149,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreatePropertyInfo(System.Text.Json.JsonSerializerOptions,JsonPropertyInfoValues_1):System.Text.Json.Serialization.Metadata.JsonPropertyInfo",
@@ -2134,7 +2165,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateObjectInfo(System.Text.Json.JsonSerializerOptions,JsonObjectInfoValues_1):JsonTypeInfo_1",
@@ -2149,7 +2181,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonMetadataServices::CreateValueInfo(System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter):JsonTypeInfo_1",
@@ -2164,7 +2197,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2722,7 +2756,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfoResolver::Combine(System.ReadOnlySpan_1[[System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
@@ -2737,7 +2772,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfoResolver::WithAddedModifier(System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver,System.Action_1[[System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver",
@@ -2752,7 +2788,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

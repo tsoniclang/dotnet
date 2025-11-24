@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
-          "declaringAssemblyName": "System.Linq.Expressions"
+          "declaringAssemblyName": "System.Linq.Expressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

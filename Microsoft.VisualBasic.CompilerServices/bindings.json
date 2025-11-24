@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.BooleanType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.BooleanType::FromObject(System.Object):System.Boolean",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.BooleanType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -140,7 +142,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ByteType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ByteType::FromObject(System.Object):System.Byte",
@@ -153,7 +156,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ByteType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -261,7 +265,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharArrayType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.CharArrayType::FromObject(System.Object):System.Char[]",
@@ -274,7 +279,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharArrayType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -382,7 +388,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.CharType::FromObject(System.Object):System.Char",
@@ -395,7 +402,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.CharType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -503,7 +511,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToBoolean(System.Object):System.Boolean",
@@ -516,7 +525,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToByte(System.String):System.Byte",
@@ -529,7 +539,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToByte(System.Object):System.Byte",
@@ -542,7 +553,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSByte(System.String):System.SByte",
@@ -555,7 +567,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSByte(System.Object):System.SByte",
@@ -568,7 +581,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToShort(System.String):System.Int16",
@@ -581,7 +595,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToShort(System.Object):System.Int16",
@@ -594,7 +609,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUShort(System.String):System.UInt16",
@@ -607,7 +623,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUShort(System.Object):System.UInt16",
@@ -620,7 +637,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToInteger(System.String):System.Int32",
@@ -633,7 +651,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToInteger(System.Object):System.Int32",
@@ -646,7 +665,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUInteger(System.String):System.UInt32",
@@ -659,7 +679,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUInteger(System.Object):System.UInt32",
@@ -672,7 +693,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToLong(System.String):System.Int64",
@@ -685,7 +707,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToLong(System.Object):System.Int64",
@@ -698,7 +721,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToULong(System.String):System.UInt64",
@@ -711,7 +735,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToULong(System.Object):System.UInt64",
@@ -724,7 +749,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDecimal(System.Boolean):System.Decimal",
@@ -737,7 +763,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDecimal(System.String):System.Decimal",
@@ -750,7 +777,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDecimal(System.Object):System.Decimal",
@@ -763,7 +791,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSingle(System.String):System.Single",
@@ -776,7 +805,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSingle(System.Object):System.Single",
@@ -789,7 +819,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDouble(System.String):System.Double",
@@ -802,7 +833,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDouble(System.Object):System.Double",
@@ -815,7 +847,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDate(System.String):System.DateTime",
@@ -828,7 +861,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDate(System.Object):System.DateTime",
@@ -841,7 +875,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToChar(System.String):System.Char",
@@ -854,7 +889,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToChar(System.Object):System.Char",
@@ -867,7 +903,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToCharArrayRankOne(System.String):System.Char[]",
@@ -880,7 +917,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToCharArrayRankOne(System.Object):System.Char[]",
@@ -893,7 +931,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Boolean):System.String",
@@ -906,7 +945,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Byte):System.String",
@@ -919,7 +959,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Char):System.String",
@@ -932,7 +973,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::FromCharArray(System.Char[]):System.String",
@@ -945,7 +987,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::FromCharAndCount(System.Char,System.Int32):System.String",
@@ -958,7 +1001,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::FromCharArraySubset(System.Char[],System.Int32,System.Int32):System.String",
@@ -971,7 +1015,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int16):System.String",
@@ -984,7 +1029,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int32):System.String",
@@ -997,7 +1043,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.UInt32):System.String",
@@ -1010,7 +1057,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int64):System.String",
@@ -1023,7 +1071,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.UInt64):System.String",
@@ -1036,7 +1085,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Single):System.String",
@@ -1049,7 +1099,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Double):System.String",
@@ -1062,7 +1113,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Single,System.Globalization.NumberFormatInfo):System.String",
@@ -1075,7 +1127,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Double,System.Globalization.NumberFormatInfo):System.String",
@@ -1088,7 +1141,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.DateTime):System.String",
@@ -1101,7 +1155,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Decimal):System.String",
@@ -1114,7 +1169,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Decimal,System.Globalization.NumberFormatInfo):System.String",
@@ -1127,7 +1183,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Object):System.String",
@@ -1140,7 +1197,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToGenericParameter(System.Object):T",
@@ -1153,7 +1211,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ChangeType(System.Object,System.Type):System.Object",
@@ -1166,7 +1225,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::FallbackUserDefinedConversion(System.Object,System.Type):System.Object",
@@ -1179,7 +1239,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Conversions",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1797,7 +1858,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DateType::FromString(System.String,System.Globalization.CultureInfo):System.DateTime",
@@ -1810,7 +1872,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DateType::FromObject(System.Object):System.DateTime",
@@ -1823,7 +1886,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DateType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1941,7 +2005,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromString(System.String):System.Decimal",
@@ -1954,7 +2019,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Decimal",
@@ -1967,7 +2033,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromObject(System.Object):System.Decimal",
@@ -1980,7 +2047,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Decimal",
@@ -1993,7 +2061,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::Parse(System.String,System.Globalization.NumberFormatInfo):System.Decimal",
@@ -2006,7 +2075,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DecimalType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2602,7 +2672,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Double",
@@ -2615,7 +2686,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::FromObject(System.Object):System.Double",
@@ -2628,7 +2700,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Double",
@@ -2641,7 +2714,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::Parse(System.String):System.Double",
@@ -2654,7 +2728,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::Parse(System.String,System.Globalization.NumberFormatInfo):System.Double",
@@ -2667,7 +2742,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.DoubleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2815,7 +2891,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.IncompleteInitialization::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -2828,7 +2905,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IncompleteInitialization",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3050,7 +3128,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IntegerType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.IntegerType::FromObject(System.Object):System.Int32",
@@ -3063,7 +3142,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.IntegerType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3171,7 +3251,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateSetComplex(System.Object,System.Type,System.String,System.Object[],System.String[],System.Boolean,System.Boolean):System.Void",
@@ -3184,7 +3265,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateSet(System.Object,System.Type,System.String,System.Object[],System.String[]):System.Void",
@@ -3197,7 +3279,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateIndexGet(System.Object,System.Object[],System.String[]):System.Object",
@@ -3210,7 +3293,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean):System.Void",
@@ -3223,7 +3307,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateIndexSet(System.Object,System.Object[],System.String[]):System.Void",
@@ -3236,7 +3321,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LateBinding::LateCall(System.Object,System.Type,System.String,System.Object[],System.String[],System.Boolean[]):System.Void",
@@ -3249,7 +3335,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3407,7 +3494,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LikeOperator",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LikeOperator::LikeString(System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Boolean",
@@ -3420,7 +3508,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LikeOperator",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3528,7 +3617,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LongType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.LongType::FromObject(System.Object):System.Int64",
@@ -3541,7 +3631,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.LongType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3649,7 +3740,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackCall(System.Object,System.String,System.Object[],System.String[],System.Boolean):System.Object",
@@ -3662,7 +3754,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateCallInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean):System.Object",
@@ -3675,7 +3768,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateGetInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean):System.Object",
@@ -3688,7 +3782,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackInvokeDefault1(System.Object,System.Object[],System.String[],System.Boolean):System.Object",
@@ -3701,7 +3796,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackInvokeDefault2(System.Object,System.Object[],System.String[],System.Boolean):System.Object",
@@ -3714,7 +3810,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateIndexGet(System.Object,System.Object[],System.String[]):System.Object",
@@ -3727,7 +3824,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateGet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[]):System.Object",
@@ -3740,7 +3838,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackGet(System.Object,System.String,System.Object[],System.String[]):System.Object",
@@ -3753,7 +3852,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean):System.Void",
@@ -3766,7 +3866,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean):System.Void",
@@ -3779,7 +3880,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateIndexSet(System.Object,System.Object[],System.String[]):System.Void",
@@ -3792,7 +3894,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackIndexSet(System.Object,System.Object[],System.String[]):System.Void",
@@ -3805,7 +3908,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateSetComplex(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean):System.Void",
@@ -3818,7 +3922,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackSetComplex(System.Object,System.String,System.Object[],System.Boolean,System.Boolean):System.Void",
@@ -3831,7 +3936,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[]):System.Void",
@@ -3844,7 +3950,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::FallbackSet(System.Object,System.String,System.Object[]):System.Void",
@@ -3857,7 +3964,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean,Microsoft.VisualBasic.CallType):System.Void",
@@ -3870,7 +3978,8 @@
           "arity": 0,
           "parameterCount": 9,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.NewLateBinding",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4138,7 +4247,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4236,7 +4346,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl::ForNextCheckObj(System.Object,System.Object,System.Object\u0026):System.Boolean",
@@ -4249,7 +4360,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl::ForNextCheckR4(System.Single,System.Single,System.Single):System.Boolean",
@@ -4262,7 +4374,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl::ForNextCheckR8(System.Double,System.Double,System.Double):System.Boolean",
@@ -4275,7 +4388,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl::ForNextCheckDec(System.Decimal,System.Decimal,System.Decimal):System.Boolean",
@@ -4288,7 +4402,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectFlowControl\u002BForLoopControl",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4426,7 +4541,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::PlusObj(System.Object):System.Object",
@@ -4439,7 +4555,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::NegObj(System.Object):System.Object",
@@ -4452,7 +4569,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::NotObj(System.Object):System.Object",
@@ -4465,7 +4583,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::BitAndObj(System.Object,System.Object):System.Object",
@@ -4478,7 +4597,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::BitOrObj(System.Object,System.Object):System.Object",
@@ -4491,7 +4611,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::BitXorObj(System.Object,System.Object):System.Object",
@@ -4504,7 +4625,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::AddObj(System.Object,System.Object):System.Object",
@@ -4517,7 +4639,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::SubObj(System.Object,System.Object):System.Object",
@@ -4530,7 +4653,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::MulObj(System.Object,System.Object):System.Object",
@@ -4543,7 +4667,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::DivObj(System.Object,System.Object):System.Object",
@@ -4556,7 +4681,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::PowObj(System.Object,System.Object):System.Object",
@@ -4569,7 +4695,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::ModObj(System.Object,System.Object):System.Object",
@@ -4582,7 +4709,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::IDivObj(System.Object,System.Object):System.Object",
@@ -4595,7 +4723,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::ShiftLeftObj(System.Object,System.Int32):System.Object",
@@ -4608,7 +4737,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::ShiftRightObj(System.Object,System.Int32):System.Object",
@@ -4621,7 +4751,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::XorObj(System.Object,System.Object):System.Object",
@@ -4634,7 +4765,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::LikeObj(System.Object,System.Object,Microsoft.VisualBasic.CompareMethod):System.Boolean",
@@ -4647,7 +4779,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::StrCatObj(System.Object,System.Object):System.Object",
@@ -4660,7 +4793,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ObjectType::GetObjectValuePrimitive(System.Object):System.Object",
@@ -4673,7 +4807,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ObjectType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4983,7 +5118,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectEqual(System.Object,System.Object,System.Boolean):System.Object",
@@ -4996,7 +5132,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectEqual(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5009,7 +5146,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectNotEqual(System.Object,System.Object,System.Boolean):System.Object",
@@ -5022,7 +5160,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectNotEqual(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5035,7 +5174,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectLess(System.Object,System.Object,System.Boolean):System.Object",
@@ -5048,7 +5188,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectLess(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5061,7 +5202,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectLessEqual(System.Object,System.Object,System.Boolean):System.Object",
@@ -5074,7 +5216,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectLessEqual(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5087,7 +5230,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectGreaterEqual(System.Object,System.Object,System.Boolean):System.Object",
@@ -5100,7 +5244,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectGreaterEqual(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5113,7 +5258,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareObjectGreater(System.Object,System.Object,System.Boolean):System.Object",
@@ -5126,7 +5272,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConditionalCompareObjectGreater(System.Object,System.Object,System.Boolean):System.Boolean",
@@ -5139,7 +5286,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::CompareString(System.String,System.String,System.Boolean):System.Int32",
@@ -5152,7 +5300,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::PlusObject(System.Object):System.Object",
@@ -5165,7 +5314,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::NegateObject(System.Object):System.Object",
@@ -5178,7 +5328,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::NotObject(System.Object):System.Object",
@@ -5191,7 +5342,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::AndObject(System.Object,System.Object):System.Object",
@@ -5204,7 +5356,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::OrObject(System.Object,System.Object):System.Object",
@@ -5217,7 +5370,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::XorObject(System.Object,System.Object):System.Object",
@@ -5230,7 +5384,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::AddObject(System.Object,System.Object):System.Object",
@@ -5243,7 +5398,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::SubtractObject(System.Object,System.Object):System.Object",
@@ -5256,7 +5412,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::MultiplyObject(System.Object,System.Object):System.Object",
@@ -5269,7 +5426,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::DivideObject(System.Object,System.Object):System.Object",
@@ -5282,7 +5440,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ExponentObject(System.Object,System.Object):System.Object",
@@ -5295,7 +5454,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ModObject(System.Object,System.Object):System.Object",
@@ -5308,7 +5468,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::IntDivideObject(System.Object,System.Object):System.Object",
@@ -5321,7 +5482,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::LeftShiftObject(System.Object,System.Object):System.Object",
@@ -5334,7 +5496,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::RightShiftObject(System.Object,System.Object):System.Object",
@@ -5347,7 +5510,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Operators::ConcatenateObject(System.Object,System.Object):System.Object",
@@ -5360,7 +5524,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Operators",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6644,7 +6809,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ProjectData::SetProjectError(System.Exception):System.Void",
@@ -6657,7 +6823,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ProjectData::SetProjectError(System.Exception,System.Int32):System.Void",
@@ -6670,7 +6837,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ProjectData::ClearProjectError():System.Void",
@@ -6683,7 +6851,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ProjectData::EndApp():System.Void",
@@ -6696,7 +6865,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ProjectData",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6834,7 +7004,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ShortType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ShortType::FromObject(System.Object):System.Int16",
@@ -6847,7 +7018,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.ShortType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6955,7 +7127,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.SingleType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Single",
@@ -6968,7 +7141,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.SingleType::FromObject(System.Object):System.Single",
@@ -6981,7 +7155,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.SingleType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Single",
@@ -6994,7 +7169,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.SingleType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7690,7 +7866,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromByte(System.Byte):System.String",
@@ -7703,7 +7880,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromChar(System.Char):System.String",
@@ -7716,7 +7894,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromShort(System.Int16):System.String",
@@ -7729,7 +7908,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromInteger(System.Int32):System.String",
@@ -7742,7 +7922,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromLong(System.Int64):System.String",
@@ -7755,7 +7936,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromSingle(System.Single):System.String",
@@ -7768,7 +7950,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDouble(System.Double):System.String",
@@ -7781,7 +7964,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromSingle(System.Single,System.Globalization.NumberFormatInfo):System.String",
@@ -7794,7 +7978,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDouble(System.Double,System.Globalization.NumberFormatInfo):System.String",
@@ -7807,7 +7992,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDate(System.DateTime):System.String",
@@ -7820,7 +8006,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDecimal(System.Decimal):System.String",
@@ -7833,7 +8020,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDecimal(System.Decimal,System.Globalization.NumberFormatInfo):System.String",
@@ -7846,7 +8034,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromObject(System.Object):System.String",
@@ -7859,7 +8048,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::StrCmp(System.String,System.String,System.Boolean):System.Int32",
@@ -7872,7 +8062,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::StrLike(System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Boolean",
@@ -7885,7 +8076,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::StrLikeBinary(System.String,System.String):System.Boolean",
@@ -7898,7 +8090,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::StrLikeText(System.String,System.String):System.Boolean",
@@ -7911,7 +8104,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::MidStmtStr(System.String\u0026,System.Int32,System.Int32,System.String):System.Void",
@@ -7924,7 +8118,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.StringType",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8202,7 +8397,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Utils",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Utils::CopyArray(System.Array,System.Array):System.Array",
@@ -8215,7 +8411,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Utils",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8323,7 +8520,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Versioned::IsNumeric(System.Object):System.Boolean",
@@ -8336,7 +8534,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Versioned::TypeName(System.Object):System.String",
@@ -8349,7 +8548,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Versioned::SystemTypeName(System.String):System.String",
@@ -8362,7 +8562,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Versioned::VbTypeName(System.String):System.String",
@@ -8375,7 +8576,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "Microsoft.VisualBasic.CompilerServices.Versioned",
-          "declaringAssemblyName": "Microsoft.VisualBasic.Core"
+          "declaringAssemblyName": "Microsoft.VisualBasic.Core",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

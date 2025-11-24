@@ -18384,7 +18384,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.AceEnumerator",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceEnumerator::Reset():System.Void",
@@ -18397,7 +18398,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.AceEnumerator",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -18410,7 +18412,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -18423,7 +18426,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -19146,7 +19150,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.AuthorizationRuleCollection",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32):System.Void",
@@ -19159,7 +19164,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.AuthorizationRuleCollection",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -19172,7 +19178,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -19185,7 +19192,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -19198,7 +19206,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.AuthorizationRuleCollection",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuthorizationRuleCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -19211,7 +19220,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.AuthorizationRuleCollection",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -19480,7 +19490,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAce::MaxOpaqueLength(System.Boolean):System.Int32",
@@ -19493,7 +19504,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.CommonAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -19800,7 +19812,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::Purge(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -19813,7 +19826,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::RemoveInheritedAces():System.Void",
@@ -19826,7 +19840,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -19839,7 +19854,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -19852,7 +19868,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -19865,7 +19882,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -19878,7 +19896,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -19891,7 +19910,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -19904,7 +19924,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.CommonAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -20325,7 +20346,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.CommonObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonObjectSecurity::GetAuditRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -20338,7 +20360,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.CommonObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -20708,7 +20731,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::AddSystemAcl(System.Byte,System.Int32):System.Void",
@@ -20721,7 +20745,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::PurgeAccessControl(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -20734,7 +20759,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::PurgeAudit(System.Security.Principal.SecurityIdentifier):System.Void",
@@ -20747,7 +20773,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::SetDiscretionaryAclProtection(System.Boolean,System.Boolean):System.Void",
@@ -20760,7 +20787,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CommonSecurityDescriptor::SetSystemAclProtection(System.Boolean,System.Boolean):System.Void",
@@ -20773,7 +20801,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CommonSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21269,7 +21298,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CompoundAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21540,7 +21570,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.CustomAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CustomAce::GetOpaque():System.Byte[]",
@@ -21553,7 +21584,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.CustomAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CustomAce::SetOpaque(System.Byte[]):System.Void",
@@ -21566,7 +21598,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.CustomAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21861,7 +21894,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid):System.Security.AccessControl.AuditRule",
@@ -21874,7 +21908,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::GetAccessRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -21887,7 +21922,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::GetAuditRules(System.Boolean,System.Boolean,System.Type):System.Security.AccessControl.AuthorizationRuleCollection",
@@ -21900,7 +21936,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType):System.Security.AccessControl.AccessRule",
@@ -21913,7 +21950,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.DirectoryObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -21926,7 +21964,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.DirectoryObjectSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -22823,7 +22862,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -22836,7 +22876,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -22849,7 +22890,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean",
@@ -22862,7 +22904,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
@@ -22875,7 +22918,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Boolean",
@@ -22888,7 +22932,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -22901,7 +22946,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -22914,7 +22960,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -22927,7 +22974,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -22940,7 +22988,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -22953,7 +23002,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
@@ -22966,7 +23016,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -22979,7 +23030,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -22992,7 +23044,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -23005,7 +23058,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -23018,7 +23072,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -23031,7 +23086,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -23044,7 +23100,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.DiscretionaryAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -23902,7 +23959,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AddAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -23915,7 +23973,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AddAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -23928,7 +23987,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -23941,7 +24001,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Boolean",
@@ -23954,7 +24015,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRuleAll(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -23967,7 +24029,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -23980,7 +24043,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Boolean",
@@ -23993,7 +24057,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRuleAll(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -24006,7 +24071,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -24019,7 +24085,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::ResetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -24032,7 +24099,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::SetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule):System.Void",
@@ -24045,7 +24113,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleSecurity::SetAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule):System.Void",
@@ -24058,7 +24127,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.EventWaitHandleSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -25570,7 +25640,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AddAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -25583,7 +25654,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AddAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -25596,7 +25668,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -25609,7 +25682,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Boolean",
@@ -25622,7 +25696,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -25635,7 +25710,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -25648,7 +25724,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Boolean",
@@ -25661,7 +25738,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -25674,7 +25752,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -25687,7 +25766,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -25700,7 +25780,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::SetAccessRule(System.Security.AccessControl.FileSystemAccessRule):System.Void",
@@ -25713,7 +25794,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemSecurity::SetAuditRule(System.Security.AccessControl.FileSystemAuditRule):System.Void",
@@ -25726,7 +25808,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.FileSystemSecurity",
-          "declaringAssemblyName": "System.IO.FileSystem.AccessControl"
+          "declaringAssemblyName": "System.IO.FileSystem.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -26249,7 +26332,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.GenericAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::CreateFromBinaryForm(System.Byte[],System.Int32):System.Security.AccessControl.GenericAce",
@@ -26262,7 +26346,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.GenericAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::Equals(System.Object):System.Boolean",
@@ -26275,7 +26360,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.GenericAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -26288,7 +26374,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.GenericAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAce::GetHashCode():System.Int32",
@@ -26301,7 +26388,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.GenericAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -26590,7 +26678,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.GenericAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAcl::GetBinaryForm(System.Byte[],System.Int32):System.Void",
@@ -26603,7 +26692,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.GenericAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -26616,7 +26706,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.GenericAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -26629,7 +26720,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -26642,7 +26734,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -27065,7 +27158,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.GenericSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericSecurityDescriptor::GetSddlForm(System.Security.AccessControl.AccessControlSections):System.String",
@@ -27078,7 +27172,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.GenericSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.GenericSecurityDescriptor::IsSddlConversionSupported():System.Boolean",
@@ -27091,7 +27186,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.GenericSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -27922,7 +28018,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AddAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -27935,7 +28032,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AddAuditRule(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -27948,7 +28046,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -27961,7 +28060,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRule(System.Security.AccessControl.MutexAccessRule):System.Boolean",
@@ -27974,7 +28074,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRuleAll(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -27987,7 +28088,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -28000,7 +28102,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRule(System.Security.AccessControl.MutexAuditRule):System.Boolean",
@@ -28013,7 +28116,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRuleAll(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -28026,7 +28130,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -28039,7 +28144,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::ResetAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -28052,7 +28158,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::SetAccessRule(System.Security.AccessControl.MutexAccessRule):System.Void",
@@ -28065,7 +28172,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexSecurity::SetAuditRule(System.Security.AccessControl.MutexAuditRule):System.Void",
@@ -28078,7 +28186,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.MutexSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -29197,7 +29306,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.ObjectAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectAce::MaxOpaqueLength(System.Boolean):System.Int32",
@@ -29210,7 +29320,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -29788,7 +29899,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -29801,7 +29913,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetGroup(System.Type):System.Security.Principal.IdentityReference",
@@ -29814,7 +29927,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetOwner(System.Type):System.Security.Principal.IdentityReference",
@@ -29827,7 +29941,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetSecurityDescriptorBinaryForm():System.Byte[]",
@@ -29840,7 +29955,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections):System.String",
@@ -29853,7 +29969,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::IsSddlConversionSupported():System.Boolean",
@@ -29866,7 +29983,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::ModifyAccessRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean\u0026):System.Boolean",
@@ -29879,7 +29997,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::ModifyAuditRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean\u0026):System.Boolean",
@@ -29892,7 +30011,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::PurgeAccessRules(System.Security.Principal.IdentityReference):System.Void",
@@ -29905,7 +30025,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::PurgeAuditRules(System.Security.Principal.IdentityReference):System.Void",
@@ -29918,7 +30039,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetAccessRuleProtection(System.Boolean,System.Boolean):System.Void",
@@ -29931,7 +30053,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetAuditRuleProtection(System.Boolean,System.Boolean):System.Void",
@@ -29944,7 +30067,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetGroup(System.Security.Principal.IdentityReference):System.Void",
@@ -29957,7 +30081,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetOwner(System.Security.Principal.IdentityReference):System.Void",
@@ -29970,7 +30095,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorBinaryForm(System.Byte[]):System.Void",
@@ -29983,7 +30109,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorBinaryForm(System.Byte[],System.Security.AccessControl.AccessControlSections):System.Void",
@@ -29996,7 +30123,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorSddlForm(System.String):System.Void",
@@ -30009,7 +30137,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorSddlForm(System.String,System.Security.AccessControl.AccessControlSections):System.Void",
@@ -30022,7 +30151,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -30471,7 +30601,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AddAccessRule(AccessRule_1):System.Void",
@@ -30484,7 +30615,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AddAuditRule(AuditRule_1):System.Void",
@@ -30497,7 +30629,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -30510,7 +30643,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRule(AccessRule_1):System.Boolean",
@@ -30523,7 +30657,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRuleAll(AccessRule_1):System.Void",
@@ -30536,7 +30671,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAccessRuleSpecific(AccessRule_1):System.Void",
@@ -30549,7 +30685,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRule(AuditRule_1):System.Boolean",
@@ -30562,7 +30699,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRuleAll(AuditRule_1):System.Void",
@@ -30575,7 +30713,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::RemoveAuditRuleSpecific(AuditRule_1):System.Void",
@@ -30588,7 +30727,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::ResetAccessRule(AccessRule_1):System.Void",
@@ -30601,7 +30741,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::SetAccessRule(AccessRule_1):System.Void",
@@ -30614,7 +30755,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity\u00601::SetAuditRule(AuditRule_1):System.Void",
@@ -30627,7 +30769,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.ObjectSecurity\u00601",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -31150,7 +31293,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.PrivilegeNotHeldException",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -31163,7 +31307,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -31448,7 +31593,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.QualifiedAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.QualifiedAce::SetOpaque(System.Byte[]):System.Void",
@@ -31461,7 +31607,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.QualifiedAce",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -31764,7 +31911,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::InsertAce(System.Int32,System.Security.AccessControl.GenericAce):System.Void",
@@ -31777,7 +31925,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::RemoveAce(System.Int32):System.Void",
@@ -31790,7 +31939,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -31803,7 +31953,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -31816,7 +31967,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -31829,7 +31981,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -31842,7 +31995,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -31855,7 +32009,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.RawAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -31868,7 +32023,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.RawAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -32258,7 +32414,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RawSecurityDescriptor",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -33035,7 +33192,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AddAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -33048,7 +33206,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AddAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -33061,7 +33220,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -33074,7 +33234,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Boolean",
@@ -33087,7 +33248,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRuleAll(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -33100,7 +33262,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -33113,7 +33276,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Boolean",
@@ -33126,7 +33290,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRuleAll(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -33139,7 +33304,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -33152,7 +33318,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::ResetAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -33165,7 +33332,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::SetAccessRule(System.Security.AccessControl.RegistryAccessRule):System.Void",
@@ -33178,7 +33346,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         },
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistrySecurity::SetAuditRule(System.Security.AccessControl.RegistryAuditRule):System.Void",
@@ -33191,7 +33360,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.RegistrySecurity",
-          "declaringAssemblyName": "Microsoft.Win32.Registry"
+          "declaringAssemblyName": "Microsoft.Win32.Registry",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -34101,7 +34271,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AddAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -34114,7 +34285,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AddAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -34127,7 +34299,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags):System.Security.AccessControl.AuditRule",
@@ -34140,7 +34313,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Boolean",
@@ -34153,7 +34327,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRuleAll(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -34166,7 +34341,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAccessRuleSpecific(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -34179,7 +34355,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Boolean",
@@ -34192,7 +34369,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRuleAll(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -34205,7 +34383,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::RemoveAuditRuleSpecific(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -34218,7 +34397,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::ResetAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -34231,7 +34411,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::SetAccessRule(System.Security.AccessControl.SemaphoreAccessRule):System.Void",
@@ -34244,7 +34425,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreSecurity::SetAuditRule(System.Security.AccessControl.SemaphoreAuditRule):System.Void",
@@ -34257,7 +34439,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Security.AccessControl.SemaphoreSecurity",
-          "declaringAssemblyName": "System.Threading.AccessControl"
+          "declaringAssemblyName": "System.Threading.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -34821,7 +35004,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -34834,7 +35018,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -34847,7 +35032,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Boolean",
@@ -34860,7 +35046,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
@@ -34873,7 +35060,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Boolean",
@@ -34886,7 +35074,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -34899,7 +35088,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -34912,7 +35102,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -34925,7 +35116,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags):System.Void",
@@ -34938,7 +35130,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
@@ -34951,7 +35144,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
@@ -34964,7 +35158,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -34977,7 +35172,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -34990,7 +35186,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Array,System.Int32):System.Void",
@@ -35003,7 +35200,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::CopyTo(System.Security.AccessControl.GenericAce[],System.Int32):System.Void",
@@ -35016,7 +35214,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Collections.IEnumerator",
@@ -35029,7 +35228,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::GetEnumerator():System.Security.AccessControl.AceEnumerator",
@@ -35042,7 +35242,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Security.AccessControl.SystemAcl",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "declaringAssemblyName": "System.Security.AccessControl",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

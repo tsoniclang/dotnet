@@ -12133,7 +12133,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslApplicationProtocol",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslApplicationProtocol::Equals(System.Object):System.Boolean",
@@ -12146,7 +12147,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslApplicationProtocol",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslApplicationProtocol::GetHashCode():System.Int32",
@@ -12159,7 +12161,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslApplicationProtocol",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslApplicationProtocol::ToString():System.String",
@@ -12172,7 +12175,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslApplicationProtocol",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -12185,7 +12189,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -12574,7 +12579,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.AuthenticatedStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -12587,7 +12593,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -12600,7 +12607,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.AuthenticatedStream::Dispose():System.Void",
@@ -12613,7 +12621,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.AuthenticatedStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13461,7 +13470,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.LocalCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.LocalCertificateSelectionCallback::BeginInvoke(System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -13474,7 +13484,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Net.Security.LocalCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.LocalCertificateSelectionCallback::EndInvoke(System.IAsyncResult):System.Security.Cryptography.X509Certificates.X509Certificate",
@@ -13487,7 +13498,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.LocalCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -13500,7 +13512,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -13513,7 +13526,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.LocalCertificateSelectionCallback::Clone():System.Object",
@@ -13526,7 +13540,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.LocalCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.LocalCertificateSelectionCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -13539,7 +13554,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.LocalCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13931,7 +13947,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::GetOutgoingBlob(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Security.NegotiateAuthenticationStatusCode\u0026):System.Byte[]",
@@ -13944,7 +13961,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::GetOutgoingBlob(System.String,System.Net.Security.NegotiateAuthenticationStatusCode\u0026):System.String",
@@ -13957,7 +13975,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::Wrap(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Boolean\u0026):System.Net.Security.NegotiateAuthenticationStatusCode",
@@ -13970,7 +13989,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::Unwrap(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):System.Net.Security.NegotiateAuthenticationStatusCode",
@@ -13983,7 +14003,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::UnwrapInPlace(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean\u0026):System.Net.Security.NegotiateAuthenticationStatusCode",
@@ -13996,7 +14017,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::ComputeIntegrityCheck(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -14009,7 +14031,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::VerifyIntegrityCheck(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -14022,7 +14045,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateAuthentication",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -14035,7 +14059,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15007,7 +15032,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15020,7 +15046,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15033,7 +15060,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15046,7 +15074,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15059,7 +15088,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15072,7 +15102,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::EndAuthenticateAsClient(System.IAsyncResult):System.Void",
@@ -15085,7 +15116,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer():System.Void",
@@ -15098,7 +15130,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Void",
@@ -15111,7 +15144,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
@@ -15124,7 +15158,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
@@ -15137,7 +15172,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15150,7 +15186,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15163,7 +15200,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15176,7 +15214,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15189,7 +15228,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::EndAuthenticateAsServer(System.IAsyncResult):System.Void",
@@ -15202,7 +15242,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient():System.Void",
@@ -15215,7 +15256,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.String):System.Void",
@@ -15228,7 +15270,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Void",
@@ -15241,7 +15284,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
@@ -15254,7 +15298,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
@@ -15267,7 +15312,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync():System.Threading.Tasks.Task",
@@ -15280,7 +15326,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String):System.Threading.Tasks.Task",
@@ -15293,7 +15340,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
@@ -15306,7 +15354,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Threading.Tasks.Task",
@@ -15319,7 +15368,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
@@ -15332,7 +15382,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync():System.Threading.Tasks.Task",
@@ -15345,7 +15396,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Threading.Tasks.Task",
@@ -15358,7 +15410,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
@@ -15371,7 +15424,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
@@ -15384,7 +15438,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::SetLength(System.Int64):System.Void",
@@ -15397,7 +15452,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -15410,7 +15466,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Flush():System.Void",
@@ -15423,7 +15480,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -15436,7 +15494,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -15449,7 +15508,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -15462,7 +15522,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -15475,7 +15536,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -15488,7 +15550,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -15501,7 +15564,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -15514,7 +15578,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15527,7 +15592,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::EndRead(System.IAsyncResult):System.Int32",
@@ -15540,7 +15606,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -15553,7 +15620,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::EndWrite(System.IAsyncResult):System.Void",
@@ -15566,7 +15634,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -15579,7 +15648,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -15592,7 +15662,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Dispose():System.Void",
@@ -15605,7 +15676,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::FlushAsync():System.Threading.Tasks.Task",
@@ -15618,7 +15690,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Read(System.Span_1):System.Int32",
@@ -15631,7 +15704,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -15644,7 +15718,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -15657,7 +15732,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -15670,7 +15746,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -15683,7 +15760,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -15696,7 +15774,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -15709,7 +15788,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.NegotiateStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16971,7 +17051,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.RemoteCertificateValidationCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.RemoteCertificateValidationCallback::BeginInvoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -16984,7 +17065,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.RemoteCertificateValidationCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.RemoteCertificateValidationCallback::EndInvoke(System.IAsyncResult):System.Boolean",
@@ -16997,7 +17079,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.RemoteCertificateValidationCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -17010,7 +17093,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17023,7 +17107,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.RemoteCertificateValidationCallback::Clone():System.Object",
@@ -17036,7 +17121,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.RemoteCertificateValidationCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.RemoteCertificateValidationCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17049,7 +17135,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.RemoteCertificateValidationCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17441,7 +17528,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.ServerCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerCertificateSelectionCallback::BeginInvoke(System.Object,System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -17454,7 +17542,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.ServerCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerCertificateSelectionCallback::EndInvoke(System.IAsyncResult):System.Security.Cryptography.X509Certificates.X509Certificate",
@@ -17467,7 +17556,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.ServerCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -17480,7 +17570,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17493,7 +17584,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerCertificateSelectionCallback::Clone():System.Object",
@@ -17506,7 +17598,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.ServerCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerCertificateSelectionCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17519,7 +17612,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.ServerCertificateSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -17911,7 +18005,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.ServerOptionsSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerOptionsSelectionCallback::BeginInvoke(System.Net.Security.SslStream,System.Net.Security.SslClientHelloInfo,System.Object,System.Threading.CancellationToken,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -17924,7 +18019,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.ServerOptionsSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerOptionsSelectionCallback::EndInvoke(System.IAsyncResult):System.Threading.Tasks.ValueTask_1[[System.Net.Security.SslServerAuthenticationOptions,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -17937,7 +18033,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.ServerOptionsSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -17950,7 +18047,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17963,7 +18061,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerOptionsSelectionCallback::Clone():System.Object",
@@ -17976,7 +18075,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.ServerOptionsSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.ServerOptionsSelectionCallback::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -17989,7 +18089,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.ServerOptionsSelectionCallback",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -18381,7 +18482,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslCertificateTrust",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslCertificateTrust::CreateForX509Collection(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean):System.Net.Security.SslCertificateTrust",
@@ -18394,7 +18496,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslCertificateTrust",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -19420,7 +19523,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19433,7 +19537,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19446,7 +19551,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::EndAuthenticateAsClient(System.IAsyncResult):System.Void",
@@ -19459,7 +19565,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19472,7 +19579,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19485,7 +19593,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19498,7 +19607,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::EndAuthenticateAsServer(System.IAsyncResult):System.Void",
@@ -19511,7 +19621,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.String):System.Void",
@@ -19524,7 +19635,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Void",
@@ -19537,7 +19649,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Void",
@@ -19550,7 +19663,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.Net.Security.SslClientAuthenticationOptions):System.Void",
@@ -19563,7 +19677,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
@@ -19576,7 +19691,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Void",
@@ -19589,7 +19705,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Void",
@@ -19602,7 +19719,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Net.Security.SslServerAuthenticationOptions):System.Void",
@@ -19615,7 +19733,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.String):System.Threading.Tasks.Task",
@@ -19628,7 +19747,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Threading.Tasks.Task",
@@ -19641,7 +19761,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task",
@@ -19654,7 +19775,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.Net.Security.SslClientAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19667,7 +19789,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate):System.Threading.Tasks.Task",
@@ -19680,7 +19803,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Threading.Tasks.Task",
@@ -19693,7 +19817,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task",
@@ -19706,7 +19831,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Net.Security.SslServerAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19719,7 +19845,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Net.Security.ServerOptionsSelectionCallback,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19732,7 +19859,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ShutdownAsync():System.Threading.Tasks.Task",
@@ -19745,7 +19873,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::SetLength(System.Int64):System.Void",
@@ -19758,7 +19887,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
@@ -19771,7 +19901,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Flush():System.Void",
@@ -19784,7 +19915,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19797,7 +19929,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::NegotiateClientCertificateAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19810,7 +19943,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -19823,7 +19957,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadByte():System.Int32",
@@ -19836,7 +19971,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -19849,7 +19985,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
@@ -19862,7 +19999,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteByte(System.Byte):System.Void",
@@ -19875,7 +20013,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -19888,7 +20027,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.Byte[]):System.Void",
@@ -19901,7 +20041,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
@@ -19914,7 +20055,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19927,7 +20069,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::EndRead(System.IAsyncResult):System.Int32",
@@ -19940,7 +20083,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -19953,7 +20097,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::EndWrite(System.IAsyncResult):System.Void",
@@ -19966,7 +20111,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -19979,7 +20125,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -19992,7 +20139,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -20005,7 +20153,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -20018,7 +20167,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -20031,7 +20181,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -20044,7 +20195,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Dispose():System.Void",
@@ -20057,7 +20209,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::FlushAsync():System.Threading.Tasks.Task",
@@ -20070,7 +20223,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Read(System.Span_1):System.Int32",
@@ -20083,7 +20237,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1",
@@ -20096,7 +20251,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1",
@@ -20109,7 +20265,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Memory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1",
@@ -20122,7 +20279,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.ReadOnlySpan_1):System.Void",
@@ -20135,7 +20293,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
@@ -20148,7 +20307,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteAsync(System.ReadOnlyMemory_1,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -20161,7 +20321,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Net.Security.SslStream",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -21758,7 +21919,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Net.Security.SslStreamCertificateContext",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStreamCertificateContext::Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean,System.Net.Security.SslCertificateTrust):System.Net.Security.SslStreamCertificateContext",
@@ -21771,7 +21933,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Net.Security.SslStreamCertificateContext",
-          "declaringAssemblyName": "System.Net.Security"
+          "declaringAssemblyName": "System.Net.Security",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

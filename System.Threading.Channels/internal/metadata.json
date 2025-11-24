@@ -207,7 +207,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -222,7 +223,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -337,7 +339,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryPeek(T\u0026):System.Boolean",
@@ -352,7 +355,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::WaitToReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -367,7 +371,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAsync(System.Threading.CancellationToken):ValueTask_1",
@@ -382,7 +387,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAllAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
@@ -397,7 +403,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -490,7 +497,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryWrite(T):System.Boolean",
@@ -505,7 +513,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WaitToWriteAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -520,7 +529,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WriteAsync(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
@@ -535,7 +545,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::Complete(System.Exception):System.Void",
@@ -550,7 +561,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -642,7 +654,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnbounded(System.Threading.Channels.UnboundedChannelOptions):Channel_1",
@@ -657,7 +670,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Int32):Channel_1",
@@ -672,7 +686,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions):Channel_1",
@@ -687,7 +702,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1",
@@ -702,7 +718,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized():Channel_1",
@@ -717,7 +734,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized(UnboundedPrioritizedChannelOptions_1):Channel_1",
@@ -732,7 +750,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

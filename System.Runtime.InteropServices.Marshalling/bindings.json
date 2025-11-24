@@ -1768,7 +1768,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IComExposedClass",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1806,7 +1807,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IComExposedDetails",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1844,7 +1846,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy::TryGetTableInfo(System.RuntimeTypeHandle,System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy\u002BTableInfo\u0026):System.Boolean",
@@ -1857,7 +1860,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy::TrySetTableInfo(System.RuntimeTypeHandle,System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy\u002BTableInfo):System.Boolean",
@@ -1870,7 +1874,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy::Clear(System.Runtime.InteropServices.Marshalling.IIUnknownStrategy):System.Void",
@@ -1883,7 +1888,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownCacheStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2038,7 +2044,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownInterfaceDetailsStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownInterfaceDetailsStrategy::GetComExposedTypeDetails(System.RuntimeTypeHandle):System.Runtime.InteropServices.Marshalling.IComExposedDetails",
@@ -2051,7 +2058,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownInterfaceDetailsStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2162,7 +2170,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownStrategy::QueryInterface(System.Void*,System.Guid\u0026,System.Void*\u0026):System.Int32",
@@ -2175,7 +2184,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IIUnknownStrategy::Release(System.Void*):System.Int32",
@@ -2188,7 +2198,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IIUnknownStrategy",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2246,7 +2257,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IUnmanagedVirtualMethodTableProvider",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2284,7 +2296,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.Byte*",
@@ -2297,7 +2310,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -2310,7 +2324,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2455,7 +2470,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
@@ -2468,7 +2484,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
@@ -2481,7 +2498,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
@@ -2494,7 +2512,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
@@ -2507,7 +2526,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -2520,7 +2540,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(T[]):T\u0026",
@@ -2533,7 +2554,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2718,7 +2740,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.UInt16*",
@@ -2731,7 +2754,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -2744,7 +2768,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2889,7 +2914,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariant",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::Create(T):System.Runtime.InteropServices.Marshalling.ComVariant",
@@ -2902,7 +2928,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariant",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::CreateRaw(System.Runtime.InteropServices.VarEnum,T):System.Runtime.InteropServices.Marshalling.ComVariant",
@@ -2915,7 +2942,8 @@
           "arity": 1,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariant",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::As():T",
@@ -2928,7 +2956,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariant",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::GetRawDataRef():T\u0026",
@@ -2941,7 +2970,8 @@
           "arity": 1,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariant",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2954,7 +2984,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3153,7 +3184,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate::FromManaged(System.Object):System.Void",
@@ -3166,7 +3198,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate::ToUnmanaged():System.Runtime.InteropServices.Marshalling.ComVariant",
@@ -3179,7 +3212,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate::ToManaged():System.Object",
@@ -3192,7 +3226,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate::Free():System.Void",
@@ -3205,7 +3240,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller\u002BRefPropagate",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3566,7 +3602,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3579,7 +3616,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
@@ -3592,7 +3630,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
@@ -3605,7 +3644,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
@@ -3618,7 +3658,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -3631,7 +3672,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(T*[]):System.Byte\u0026",
@@ -3644,7 +3686,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3829,7 +3872,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
@@ -3842,7 +3886,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
@@ -3855,7 +3900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
@@ -3868,7 +3914,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
@@ -3881,7 +3928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -3894,7 +3942,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(ReadOnlySpan_1):T\u0026",
@@ -3907,7 +3956,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4092,7 +4142,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::ToManaged():ReadOnlySpan_1",
@@ -4105,7 +4156,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::GetUnmanagedValuesSource(System.Int32):ReadOnlySpan_1",
@@ -4118,7 +4170,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::GetManagedValuesDestination(System.Int32):Span_1",
@@ -4131,7 +4184,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::Free():System.Void",
@@ -4144,7 +4198,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4282,7 +4337,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn::ToUnmanaged():System.IntPtr",
@@ -4295,7 +4351,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -4308,7 +4365,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4426,7 +4484,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::ToManaged():T",
@@ -4439,7 +4498,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::Free():System.Void",
@@ -4452,7 +4512,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4592,7 +4653,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::ToUnmanaged():System.IntPtr",
@@ -4605,7 +4667,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::FromUnmanaged(System.IntPtr):System.Void",
@@ -4618,7 +4681,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::OnInvoked():System.Void",
@@ -4631,7 +4695,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::ToManagedFinally():T",
@@ -4644,7 +4709,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::Free():System.Void",
@@ -4657,7 +4723,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4827,7 +4894,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
@@ -4840,7 +4908,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
@@ -4853,7 +4922,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
@@ -4866,7 +4936,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
@@ -4879,7 +4950,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -4892,7 +4964,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(Span_1):T\u0026",
@@ -4905,7 +4978,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5090,7 +5164,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.Byte*",
@@ -5103,7 +5178,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
@@ -5116,7 +5192,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5261,7 +5338,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.VirtualMethodTableInfo",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5432,7 +5510,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComExposedClassAttribute\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IComExposedDetails::GetComInterfaceEntries(System.Int32\u0026):System.Runtime.InteropServices.ComWrappers\u002BComInterfaceEntry*",
@@ -5445,7 +5524,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IComExposedDetails",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5927,7 +6007,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComObject",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.IDynamicInterfaceCastable::IsInterfaceImplemented(System.RuntimeTypeHandle,System.Boolean):System.Boolean",
@@ -5940,7 +6021,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.IDynamicInterfaceCastable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.IDynamicInterfaceCastable::GetInterfaceImplementation(System.RuntimeTypeHandle):System.RuntimeTypeHandle",
@@ -5953,7 +6035,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.IDynamicInterfaceCastable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.IUnmanagedVirtualMethodTableProvider::GetVirtualMethodTableInfoForKey(System.Type):System.Runtime.InteropServices.Marshalling.VirtualMethodTableInfo",
@@ -5966,7 +6049,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.IUnmanagedVirtualMethodTableProvider",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -9957,7 +10041,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller::ConvertToManaged(System.Byte*):System.String",
@@ -9970,7 +10055,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller::Free(System.Byte*):System.Void",
@@ -9983,7 +10069,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10101,7 +10188,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetManagedValuesSource(T[]):ReadOnlySpan_1",
@@ -10114,7 +10202,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
@@ -10127,7 +10216,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):T[]",
@@ -10140,7 +10230,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetManagedValuesDestination(T[]):Span_1",
@@ -10153,7 +10244,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
@@ -10166,7 +10258,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
@@ -10179,7 +10272,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10337,7 +10431,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller::ConvertToManaged(System.UInt16*):System.String",
@@ -10350,7 +10445,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller::Free(System.UInt16*):System.Void",
@@ -10363,7 +10459,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.BStrStringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10481,7 +10578,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComInterfaceMarshaller\u00601::ConvertToManaged(System.Void*):T",
@@ -10494,7 +10592,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComInterfaceMarshaller\u00601::Free(System.Void*):System.Void",
@@ -10507,7 +10606,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10625,7 +10725,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller::ConvertToManaged(System.Runtime.InteropServices.Marshalling.ComVariant):System.Object",
@@ -10638,7 +10739,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.ComVariantMarshaller::Free(System.Runtime.InteropServices.Marshalling.ComVariant):System.Void",
@@ -10651,7 +10753,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ComVariantMarshaller",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10769,7 +10872,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ExceptionAsDefaultMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10867,7 +10971,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ExceptionAsHResultMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10965,7 +11070,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ExceptionAsNaNMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11063,7 +11169,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ExceptionAsVoidMarshaller",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11161,7 +11268,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetManagedValuesSource(T*[]):System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -11174,7 +11282,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
@@ -11187,7 +11296,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):T*[]",
@@ -11200,7 +11310,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetManagedValuesDestination(T*[]):System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -11213,7 +11324,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
@@ -11226,7 +11338,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
@@ -11239,7 +11352,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11471,7 +11585,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut::GetManagedValuesSource(ReadOnlySpan_1):ReadOnlySpan_1",
@@ -11484,7 +11599,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
@@ -11497,7 +11613,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11689,7 +11806,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetManagedValuesSource(Span_1):ReadOnlySpan_1",
@@ -11702,7 +11820,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
@@ -11715,7 +11834,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):Span_1",
@@ -11728,7 +11848,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetManagedValuesDestination(Span_1):Span_1",
@@ -11741,7 +11862,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
@@ -11754,7 +11876,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
@@ -11767,7 +11890,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -11925,7 +12049,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.UniqueComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.UniqueComInterfaceMarshaller\u00601::ConvertToManaged(System.Void*):T",
@@ -11938,7 +12063,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.UniqueComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.Marshalling.UniqueComInterfaceMarshaller\u00601::Free(System.Void*):System.Void",
@@ -11951,7 +12077,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.UniqueComInterfaceMarshaller\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices"
+          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12069,7 +12196,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::ConvertToManaged(System.UInt16*):System.String",
@@ -12082,7 +12210,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::Free(System.UInt16*):System.Void",
@@ -12095,7 +12224,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::GetPinnableReference(System.String):System.Char\u0026",
@@ -12108,7 +12238,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -12236,7 +12367,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller::ConvertToManaged(System.Byte*):System.String",
@@ -12249,7 +12381,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller::Free(System.Byte*):System.Void",
@@ -12262,7 +12395,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

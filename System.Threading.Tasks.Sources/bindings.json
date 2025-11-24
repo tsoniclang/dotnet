@@ -1642,7 +1642,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
@@ -1655,7 +1656,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::GetResult(System.Int16):System.Void",
@@ -1668,7 +1670,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1726,7 +1729,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
@@ -1739,7 +1743,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::GetResult(System.Int16):TResult",
@@ -1752,7 +1757,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1810,7 +1816,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetResult(TResult):System.Void",
@@ -1823,7 +1830,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetException(System.Exception):System.Void",
@@ -1836,7 +1844,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
@@ -1849,7 +1858,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetResult(System.Int16):TResult",
@@ -1862,7 +1872,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
@@ -1875,7 +1886,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

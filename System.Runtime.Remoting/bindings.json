@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

@@ -1630,7 +1630,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Int32,System.Int32,System.Int32):System.Drawing.Color",
@@ -1645,7 +1646,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Drawing.Color):System.Drawing.Color",
@@ -1660,7 +1662,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Int32,System.Int32):System.Drawing.Color",
@@ -1675,7 +1678,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromKnownColor(System.Drawing.KnownColor):System.Drawing.Color",
@@ -1690,7 +1694,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromName(System.String):System.Drawing.Color",
@@ -1705,7 +1710,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::GetBrightness():System.Single",
@@ -1720,7 +1726,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::GetHue():System.Single",
@@ -1735,7 +1742,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::GetSaturation():System.Single",
@@ -1750,7 +1758,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::ToArgb():System.Int32",
@@ -1765,7 +1774,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::ToKnownColor():System.Drawing.KnownColor",
@@ -1780,7 +1790,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::ToString():System.String",
@@ -1795,7 +1806,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::Equals(System.Object):System.Boolean",
@@ -1810,7 +1822,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::Equals(System.Drawing.Color):System.Boolean",
@@ -1825,7 +1838,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::GetHashCode():System.Int32",
@@ -1840,7 +1854,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -1856,7 +1871,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4164,7 +4180,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Subtract(System.Drawing.Point,System.Drawing.Size):System.Drawing.Point",
@@ -4179,7 +4196,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Ceiling(System.Drawing.PointF):System.Drawing.Point",
@@ -4194,7 +4212,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Truncate(System.Drawing.PointF):System.Drawing.Point",
@@ -4209,7 +4228,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Round(System.Drawing.PointF):System.Drawing.Point",
@@ -4224,7 +4244,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Equals(System.Object):System.Boolean",
@@ -4239,7 +4260,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Equals(System.Drawing.Point):System.Boolean",
@@ -4254,7 +4276,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::GetHashCode():System.Int32",
@@ -4269,7 +4292,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Offset(System.Int32,System.Int32):System.Void",
@@ -4284,7 +4308,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Offset(System.Drawing.Point):System.Void",
@@ -4299,7 +4324,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::ToString():System.String",
@@ -4314,7 +4340,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -4330,7 +4357,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4434,7 +4462,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Add(System.Drawing.PointF,System.Drawing.Size):System.Drawing.PointF",
@@ -4449,7 +4478,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Subtract(System.Drawing.PointF,System.Drawing.Size):System.Drawing.PointF",
@@ -4464,7 +4494,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Add(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF",
@@ -4479,7 +4510,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Subtract(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF",
@@ -4494,7 +4526,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Equals(System.Object):System.Boolean",
@@ -4509,7 +4542,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Equals(System.Drawing.PointF):System.Boolean",
@@ -4524,7 +4558,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::GetHashCode():System.Int32",
@@ -4539,7 +4574,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::ToString():System.String",
@@ -4554,7 +4590,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -4570,7 +4607,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4669,7 +4707,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Equals(System.Object):System.Boolean",
@@ -4684,7 +4723,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Equals(System.Drawing.Rectangle):System.Boolean",
@@ -4699,7 +4739,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Ceiling(System.Drawing.RectangleF):System.Drawing.Rectangle",
@@ -4714,7 +4755,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Truncate(System.Drawing.RectangleF):System.Drawing.Rectangle",
@@ -4729,7 +4771,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Round(System.Drawing.RectangleF):System.Drawing.Rectangle",
@@ -4744,7 +4787,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Contains(System.Int32,System.Int32):System.Boolean",
@@ -4759,7 +4803,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Contains(System.Drawing.Point):System.Boolean",
@@ -4774,7 +4819,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Contains(System.Drawing.Rectangle):System.Boolean",
@@ -4789,7 +4835,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::GetHashCode():System.Int32",
@@ -4804,7 +4851,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Inflate(System.Int32,System.Int32):System.Void",
@@ -4819,7 +4867,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Inflate(System.Drawing.Size):System.Void",
@@ -4834,7 +4883,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Inflate(System.Drawing.Rectangle,System.Int32,System.Int32):System.Drawing.Rectangle",
@@ -4849,7 +4899,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Intersect(System.Drawing.Rectangle):System.Void",
@@ -4864,7 +4915,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Intersect(System.Drawing.Rectangle,System.Drawing.Rectangle):System.Drawing.Rectangle",
@@ -4879,7 +4931,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::IntersectsWith(System.Drawing.Rectangle):System.Boolean",
@@ -4894,7 +4947,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Union(System.Drawing.Rectangle,System.Drawing.Rectangle):System.Drawing.Rectangle",
@@ -4909,7 +4963,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Offset(System.Drawing.Point):System.Void",
@@ -4924,7 +4979,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Offset(System.Int32,System.Int32):System.Void",
@@ -4939,7 +4995,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::ToString():System.String",
@@ -4954,7 +5011,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -4970,7 +5028,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5189,7 +5248,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::FromLTRB(System.Single,System.Single,System.Single,System.Single):System.Drawing.RectangleF",
@@ -5204,7 +5264,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Equals(System.Object):System.Boolean",
@@ -5219,7 +5280,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Equals(System.Drawing.RectangleF):System.Boolean",
@@ -5234,7 +5296,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Contains(System.Single,System.Single):System.Boolean",
@@ -5249,7 +5312,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Contains(System.Drawing.PointF):System.Boolean",
@@ -5264,7 +5328,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Contains(System.Drawing.RectangleF):System.Boolean",
@@ -5279,7 +5344,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::GetHashCode():System.Int32",
@@ -5294,7 +5360,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Inflate(System.Single,System.Single):System.Void",
@@ -5309,7 +5376,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Inflate(System.Drawing.SizeF):System.Void",
@@ -5324,7 +5392,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Inflate(System.Drawing.RectangleF,System.Single,System.Single):System.Drawing.RectangleF",
@@ -5339,7 +5408,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Intersect(System.Drawing.RectangleF):System.Void",
@@ -5354,7 +5424,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Intersect(System.Drawing.RectangleF,System.Drawing.RectangleF):System.Drawing.RectangleF",
@@ -5369,7 +5440,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::IntersectsWith(System.Drawing.RectangleF):System.Boolean",
@@ -5384,7 +5456,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Union(System.Drawing.RectangleF,System.Drawing.RectangleF):System.Drawing.RectangleF",
@@ -5399,7 +5472,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Offset(System.Drawing.PointF):System.Void",
@@ -5414,7 +5488,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Offset(System.Single,System.Single):System.Void",
@@ -5429,7 +5504,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::ToString():System.String",
@@ -5444,7 +5520,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -5460,7 +5537,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5684,7 +5762,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Ceiling(System.Drawing.SizeF):System.Drawing.Size",
@@ -5699,7 +5778,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Subtract(System.Drawing.Size,System.Drawing.Size):System.Drawing.Size",
@@ -5714,7 +5794,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Truncate(System.Drawing.SizeF):System.Drawing.Size",
@@ -5729,7 +5810,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Round(System.Drawing.SizeF):System.Drawing.Size",
@@ -5744,7 +5826,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Equals(System.Object):System.Boolean",
@@ -5759,7 +5842,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Equals(System.Drawing.Size):System.Boolean",
@@ -5774,7 +5858,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::GetHashCode():System.Int32",
@@ -5789,7 +5874,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::ToString():System.String",
@@ -5804,7 +5890,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -5820,7 +5907,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5919,7 +6007,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::Add(System.Drawing.SizeF,System.Drawing.SizeF):System.Drawing.SizeF",
@@ -5934,7 +6023,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::Subtract(System.Drawing.SizeF,System.Drawing.SizeF):System.Drawing.SizeF",
@@ -5949,7 +6039,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::Equals(System.Object):System.Boolean",
@@ -5964,7 +6055,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::Equals(System.Drawing.SizeF):System.Boolean",
@@ -5979,7 +6071,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::GetHashCode():System.Int32",
@@ -5994,7 +6087,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::ToPointF():System.Drawing.PointF",
@@ -6009,7 +6103,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::ToSize():System.Drawing.Size",
@@ -6024,7 +6119,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::ToString():System.String",
@@ -6039,7 +6135,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -6055,7 +6152,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.IEquatable\u00601"
+          "sourceInterface": "System.IEquatable\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6164,7 +6262,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
@@ -6179,7 +6278,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
@@ -6194,7 +6294,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -6209,7 +6310,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext):System.ComponentModel.TypeConverter\u002BStandardValuesCollection",
@@ -6224,7 +6326,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6239,7 +6342,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertFrom(System.Type):System.Boolean",
@@ -6254,7 +6358,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::CanConvertTo(System.Type):System.Boolean",
@@ -6269,7 +6374,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertFrom(System.Object):System.Object",
@@ -6284,7 +6390,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -6299,7 +6406,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValues():System.Collections.ICollection",
@@ -6314,7 +6422,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.ColorConverter::GetStandardValuesSupported():System.Boolean",
@@ -6329,7 +6438,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6367,7 +6477,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
@@ -6382,7 +6493,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
@@ -6397,7 +6509,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -6412,7 +6525,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
@@ -6427,7 +6541,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6442,7 +6557,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -6457,7 +6573,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6472,7 +6589,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertFrom(System.Type):System.Boolean",
@@ -6487,7 +6605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CanConvertTo(System.Type):System.Boolean",
@@ -6502,7 +6621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertFrom(System.Object):System.Object",
@@ -6517,7 +6637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -6532,7 +6653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::CreateInstance(System.Collections.IDictionary):System.Object",
@@ -6547,7 +6669,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetCreateInstanceSupported():System.Boolean",
@@ -6562,7 +6685,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -6577,7 +6701,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -6592,7 +6717,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.PointConverter::GetPropertiesSupported():System.Boolean",
@@ -6607,7 +6733,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6645,7 +6772,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
@@ -6660,7 +6788,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
@@ -6675,7 +6804,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -6690,7 +6820,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
@@ -6705,7 +6836,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6720,7 +6852,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -6735,7 +6868,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6750,7 +6884,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertFrom(System.Type):System.Boolean",
@@ -6765,7 +6900,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CanConvertTo(System.Type):System.Boolean",
@@ -6780,7 +6916,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertFrom(System.Object):System.Object",
@@ -6795,7 +6932,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -6810,7 +6948,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::CreateInstance(System.Collections.IDictionary):System.Object",
@@ -6825,7 +6964,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetCreateInstanceSupported():System.Boolean",
@@ -6840,7 +6980,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -6855,7 +6996,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -6870,7 +7012,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.RectangleConverter::GetPropertiesSupported():System.Boolean",
@@ -6885,7 +7028,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -6923,7 +7067,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
@@ -6938,7 +7083,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
@@ -6953,7 +7099,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -6968,7 +7115,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
@@ -6983,7 +7131,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -6998,7 +7147,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -7013,7 +7163,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -7028,7 +7179,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertFrom(System.Type):System.Boolean",
@@ -7043,7 +7195,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CanConvertTo(System.Type):System.Boolean",
@@ -7058,7 +7211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertFrom(System.Object):System.Object",
@@ -7073,7 +7227,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -7088,7 +7243,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::CreateInstance(System.Collections.IDictionary):System.Object",
@@ -7103,7 +7259,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetCreateInstanceSupported():System.Boolean",
@@ -7118,7 +7275,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -7133,7 +7291,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -7148,7 +7307,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeConverter::GetPropertiesSupported():System.Boolean",
@@ -7163,7 +7323,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7201,7 +7362,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type):System.Boolean",
@@ -7216,7 +7378,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object):System.Object",
@@ -7231,7 +7394,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type):System.Object",
@@ -7246,7 +7410,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary):System.Object",
@@ -7261,7 +7426,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -7276,7 +7442,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -7291,7 +7458,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext):System.Boolean",
@@ -7306,7 +7474,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertFrom(System.Type):System.Boolean",
@@ -7321,7 +7490,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CanConvertTo(System.Type):System.Boolean",
@@ -7336,7 +7506,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertFrom(System.Object):System.Object",
@@ -7351,7 +7522,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::ConvertTo(System.Object,System.Type):System.Object",
@@ -7366,7 +7538,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::CreateInstance(System.Collections.IDictionary):System.Object",
@@ -7381,7 +7554,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetCreateInstanceSupported():System.Boolean",
@@ -7396,7 +7570,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -7411,7 +7586,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object):System.ComponentModel.PropertyDescriptorCollection",
@@ -7426,7 +7602,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Drawing.SizeFConverter::GetPropertiesSupported():System.Boolean",
@@ -7441,7 +7618,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7479,7 +7657,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.ColorTranslator::ToOle(System.Drawing.Color):System.Int32",
@@ -7494,7 +7673,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.ColorTranslator::FromOle(System.Int32):System.Drawing.Color",
@@ -7509,7 +7689,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.ColorTranslator::FromWin32(System.Int32):System.Drawing.Color",
@@ -7524,7 +7705,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.ColorTranslator::FromHtml(System.String):System.Drawing.Color",
@@ -7539,7 +7721,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.ColorTranslator::ToHtml(System.Drawing.Color):System.String",
@@ -7554,7 +7737,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

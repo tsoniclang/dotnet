@@ -967,7 +967,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolBinder",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1005,7 +1006,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolBinder1",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1043,7 +1045,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocument",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolDocument::FindClosestLine(System.Int32):System.Int32",
@@ -1056,7 +1059,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocument",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolDocument::GetSourceRange(System.Int32,System.Int32,System.Int32,System.Int32):System.Byte[]",
@@ -1069,7 +1073,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocument",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1298,7 +1303,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.SymbolStore.ISymbolDocumentWriter::SetSource(System.Byte[]):System.Void",
@@ -1311,7 +1317,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1359,7 +1366,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetScope(System.Int32):System.Diagnostics.SymbolStore.ISymbolScope",
@@ -1372,7 +1380,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetOffset(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Int32",
@@ -1385,7 +1394,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetRanges(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Int32[]",
@@ -1398,7 +1408,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetParameters():System.Diagnostics.SymbolStore.ISymbolVariable[]",
@@ -1411,7 +1422,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetNamespace():System.Diagnostics.SymbolStore.ISymbolNamespace",
@@ -1424,7 +1436,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolMethod::GetSourceStartEnd(System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[]):System.Boolean",
@@ -1437,7 +1450,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolMethod",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1610,7 +1624,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolNamespace",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolNamespace::GetVariables():System.Diagnostics.SymbolStore.ISymbolVariable[]",
@@ -1623,7 +1638,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolNamespace",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1698,7 +1714,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetDocuments():System.Diagnostics.SymbolStore.ISymbolDocument[]",
@@ -1711,7 +1728,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetMethod(System.Diagnostics.SymbolStore.SymbolToken):System.Diagnostics.SymbolStore.ISymbolMethod",
@@ -1724,7 +1742,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetMethod(System.Diagnostics.SymbolStore.SymbolToken,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod",
@@ -1737,7 +1756,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetVariables(System.Diagnostics.SymbolStore.SymbolToken):System.Diagnostics.SymbolStore.ISymbolVariable[]",
@@ -1750,7 +1770,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetGlobalVariables():System.Diagnostics.SymbolStore.ISymbolVariable[]",
@@ -1763,7 +1784,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetMethodFromDocumentPosition(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod",
@@ -1776,7 +1798,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken,System.String):System.Byte[]",
@@ -1789,7 +1812,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetNamespaces():System.Diagnostics.SymbolStore.ISymbolNamespace[]",
@@ -1802,7 +1826,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolReader",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1947,7 +1972,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolScope",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolScope::GetLocals():System.Diagnostics.SymbolStore.ISymbolVariable[]",
@@ -1960,7 +1986,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolScope",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolScope::GetNamespaces():System.Diagnostics.SymbolStore.ISymbolNamespace[]",
@@ -1973,7 +2000,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolScope",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2130,7 +2158,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolVariable",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2363,7 +2392,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineDocument(System.String,System.Guid,System.Guid,System.Guid):System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
@@ -2376,7 +2406,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken):System.Void",
@@ -2389,7 +2420,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::CloseMethod():System.Void",
@@ -2402,7 +2434,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[]):System.Void",
@@ -2415,7 +2448,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::OpenScope(System.Int32):System.Int32",
@@ -2428,7 +2462,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::CloseScope(System.Int32):System.Void",
@@ -2441,7 +2476,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::SetScopeRange(System.Int32,System.Int32,System.Int32):System.Void",
@@ -2454,7 +2490,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineLocalVariable(System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.Void",
@@ -2467,7 +2504,8 @@
           "arity": 0,
           "parameterCount": 9,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineParameter(System.String,System.Reflection.ParameterAttributes,System.Int32,System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void",
@@ -2480,7 +2518,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineField(System.Diagnostics.SymbolStore.SymbolToken,System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void",
@@ -2493,7 +2532,8 @@
           "arity": 0,
           "parameterCount": 8,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::DefineGlobalVariable(System.String,System.Reflection.FieldAttributes,System.Byte[],System.Diagnostics.SymbolStore.SymAddressKind,System.Int32,System.Int32,System.Int32):System.Void",
@@ -2506,7 +2546,8 @@
           "arity": 0,
           "parameterCount": 7,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken,System.String,System.Byte[]):System.Void",
@@ -2519,7 +2560,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::OpenNamespace(System.String):System.Void",
@@ -2532,7 +2574,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32,System.Diagnostics.SymbolStore.ISymbolDocumentWriter,System.Int32,System.Int32):System.Void",
@@ -2545,7 +2588,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolWriter::SetUnderlyingWriter(System.IntPtr):System.Void",
@@ -2558,7 +2602,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolWriter",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2746,7 +2791,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.SymbolToken",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymbolToken::GetHashCode():System.Int32",
@@ -2759,7 +2805,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.SymbolStore.SymbolToken",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymbolToken::Equals(System.Object):System.Boolean",
@@ -2772,7 +2819,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.SymbolToken",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymbolToken::Equals(System.Diagnostics.SymbolStore.SymbolToken):System.Boolean",
@@ -2785,7 +2833,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.SymbolStore.SymbolToken",
-          "declaringAssemblyName": "System.Diagnostics.StackTrace"
+          "declaringAssemblyName": "System.Diagnostics.StackTrace",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
@@ -2798,7 +2847,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

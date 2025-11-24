@@ -267,7 +267,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -299,7 +300,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::ResetFillLoadOption():System.Void",
@@ -314,7 +316,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::ShouldSerializeFillLoadOption():System.Boolean",
@@ -329,7 +332,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]",
@@ -344,7 +348,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::Fill(System.Data.DataSet):System.Int32",
@@ -359,7 +364,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::GetFillParameters():System.Data.IDataParameter[]",
@@ -374,7 +380,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::Update(System.Data.DataSet):System.Int32",
@@ -389,7 +396,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -405,7 +413,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]",
@@ -421,7 +430,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::Fill(System.Data.DataSet):System.Int32",
@@ -437,7 +447,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::GetFillParameters():System.Data.IDataParameter[]",
@@ -453,7 +464,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataAdapter::Dispose():System.Void",
@@ -468,7 +480,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -693,7 +706,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMapping::GetDataColumnBySchemaAction(System.String,System.String,System.Data.DataTable,System.Type,System.Data.MissingSchemaAction):System.Data.DataColumn",
@@ -708,7 +722,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMapping::ToString():System.String",
@@ -723,7 +738,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -739,7 +755,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -845,7 +862,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Add(System.String,System.String):System.Data.Common.DataColumnMapping",
@@ -860,7 +878,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::AddRange(System.Data.Common.DataColumnMapping[]):System.Void",
@@ -875,7 +894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::AddRange(System.Array):System.Void",
@@ -890,7 +910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Clear():System.Void",
@@ -905,7 +926,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Contains(System.String):System.Boolean",
@@ -920,7 +942,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Contains(System.Object):System.Boolean",
@@ -935,7 +958,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -950,7 +974,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::CopyTo(System.Data.Common.DataColumnMapping[],System.Int32):System.Void",
@@ -965,7 +990,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::GetByDataSetColumn(System.String):System.Data.Common.DataColumnMapping",
@@ -980,7 +1006,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -995,7 +1022,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::IndexOf(System.Object):System.Int32",
@@ -1010,7 +1038,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::IndexOf(System.String):System.Int32",
@@ -1025,7 +1054,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::IndexOfDataSetColumn(System.String):System.Int32",
@@ -1040,7 +1070,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Insert(System.Int32,System.Object):System.Void",
@@ -1055,7 +1086,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Insert(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
@@ -1070,7 +1102,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::RemoveAt(System.Int32):System.Void",
@@ -1085,7 +1118,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::RemoveAt(System.String):System.Void",
@@ -1100,7 +1134,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Remove(System.Object):System.Void",
@@ -1115,7 +1150,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Remove(System.Data.Common.DataColumnMapping):System.Void",
@@ -1130,7 +1166,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::GetDataColumn(System.Data.Common.DataColumnMappingCollection,System.String,System.Type,System.Data.DataTable,System.Data.MissingMappingAction,System.Data.MissingSchemaAction):System.Data.DataColumn",
@@ -1145,7 +1182,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 6
+          "parameterCount": 6,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::GetColumnMappingBySchemaAction(System.Data.Common.DataColumnMappingCollection,System.String,System.Data.MissingMappingAction):System.Data.Common.DataColumnMapping",
@@ -1160,7 +1198,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::Add(System.String,System.String):System.Data.IColumnMapping",
@@ -1176,7 +1215,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Data.IColumnMappingCollection"
+          "sourceInterface": "System.Data.IColumnMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::GetByDataSetColumn(System.String):System.Data.IColumnMapping",
@@ -1192,7 +1232,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IColumnMappingCollection"
+          "sourceInterface": "System.Data.IColumnMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::Contains(System.String):System.Boolean",
@@ -1208,7 +1249,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IColumnMappingCollection"
+          "sourceInterface": "System.Data.IColumnMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::IndexOf(System.String):System.Int32",
@@ -1224,7 +1266,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IColumnMappingCollection"
+          "sourceInterface": "System.Data.IColumnMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IColumnMappingCollection::RemoveAt(System.String):System.Void",
@@ -1240,7 +1283,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IColumnMappingCollection"
+          "sourceInterface": "System.Data.IColumnMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -1256,7 +1300,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -1272,7 +1317,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -1288,7 +1334,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -1304,7 +1351,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -1320,7 +1368,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -1336,7 +1385,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1352,7 +1402,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -1368,7 +1419,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.Int32):System.Data.Common.DataColumnMapping",
@@ -1383,7 +1435,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
@@ -1398,7 +1451,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.String):System.Data.Common.DataColumnMapping",
@@ -1413,7 +1467,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.String,System.Data.Common.DataColumnMapping):System.Void",
@@ -1428,7 +1483,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1562,7 +1618,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMapping::GetColumnMappingBySchemaAction(System.String,System.Data.MissingMappingAction):System.Data.Common.DataColumnMapping",
@@ -1577,7 +1634,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMapping::GetDataTableBySchemaAction(System.Data.DataSet,System.Data.MissingSchemaAction):System.Data.DataTable",
@@ -1592,7 +1650,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMapping::ToString():System.String",
@@ -1607,7 +1666,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1623,7 +1683,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1765,7 +1826,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::AddRange(System.Data.Common.DataTableMapping[]):System.Void",
@@ -1780,7 +1842,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::AddRange(System.Array):System.Void",
@@ -1795,7 +1858,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Add(System.String,System.String):System.Data.Common.DataTableMapping",
@@ -1810,7 +1874,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Clear():System.Void",
@@ -1825,7 +1890,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Contains(System.String):System.Boolean",
@@ -1840,7 +1906,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Contains(System.Object):System.Boolean",
@@ -1855,7 +1922,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -1870,7 +1938,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::CopyTo(System.Data.Common.DataTableMapping[],System.Int32):System.Void",
@@ -1885,7 +1954,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::GetByDataSetTable(System.String):System.Data.Common.DataTableMapping",
@@ -1900,7 +1970,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -1915,7 +1986,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::IndexOf(System.Object):System.Int32",
@@ -1930,7 +2002,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::IndexOf(System.String):System.Int32",
@@ -1945,7 +2018,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::IndexOfDataSetTable(System.String):System.Int32",
@@ -1960,7 +2034,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Insert(System.Int32,System.Object):System.Void",
@@ -1975,7 +2050,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Insert(System.Int32,System.Data.Common.DataTableMapping):System.Void",
@@ -1990,7 +2066,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::RemoveAt(System.Int32):System.Void",
@@ -2005,7 +2082,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::RemoveAt(System.String):System.Void",
@@ -2020,7 +2098,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Remove(System.Object):System.Void",
@@ -2035,7 +2114,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Remove(System.Data.Common.DataTableMapping):System.Void",
@@ -2050,7 +2130,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::GetTableMappingBySchemaAction(System.Data.Common.DataTableMappingCollection,System.String,System.String,System.Data.MissingMappingAction):System.Data.Common.DataTableMapping",
@@ -2065,7 +2146,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::Add(System.String,System.String):System.Data.ITableMapping",
@@ -2081,7 +2163,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Data.ITableMappingCollection"
+          "sourceInterface": "System.Data.ITableMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::GetByDataSetTable(System.String):System.Data.ITableMapping",
@@ -2097,7 +2180,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.ITableMappingCollection"
+          "sourceInterface": "System.Data.ITableMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::Contains(System.String):System.Boolean",
@@ -2113,7 +2197,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.ITableMappingCollection"
+          "sourceInterface": "System.Data.ITableMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::IndexOf(System.String):System.Int32",
@@ -2129,7 +2214,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.ITableMappingCollection"
+          "sourceInterface": "System.Data.ITableMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.ITableMappingCollection::RemoveAt(System.String):System.Void",
@@ -2145,7 +2231,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.ITableMappingCollection"
+          "sourceInterface": "System.Data.ITableMappingCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -2161,7 +2248,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -2177,7 +2265,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -2193,7 +2282,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -2209,7 +2299,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -2225,7 +2316,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -2241,7 +2333,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -2257,7 +2350,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2273,7 +2367,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.Int32):System.Data.Common.DataTableMapping",
@@ -2288,7 +2383,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.Int32,System.Data.Common.DataTableMapping):System.Void",
@@ -2303,7 +2399,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.String):System.Data.Common.DataTableMapping",
@@ -2318,7 +2415,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.String,System.Data.Common.DataTableMapping):System.Void",
@@ -2333,7 +2431,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2467,7 +2566,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteReaderAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -2482,7 +2582,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -2497,7 +2598,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteNonQuery():System.Int32",
@@ -2512,7 +2614,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteNonQueryAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2527,7 +2630,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteScalar():System.Object",
@@ -2542,7 +2646,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteScalarAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -2557,7 +2662,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::Prepare():System.Void",
@@ -2572,7 +2678,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::PrepareAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -2587,7 +2694,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::Cancel():System.Void",
@@ -2602,7 +2710,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::CreateBatchCommand():System.Data.Common.DbBatchCommand",
@@ -2617,7 +2726,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::Dispose():System.Void",
@@ -2632,7 +2742,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -2647,7 +2758,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2663,7 +2775,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -2679,7 +2792,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2772,7 +2886,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2880,7 +2995,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::Add(System.Data.Common.DbBatchCommand):System.Void",
@@ -2895,7 +3011,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::Clear():System.Void",
@@ -2910,7 +3027,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::Contains(System.Data.Common.DbBatchCommand):System.Boolean",
@@ -2925,7 +3043,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::CopyTo(System.Data.Common.DbBatchCommand[],System.Int32):System.Void",
@@ -2940,7 +3059,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::Remove(System.Data.Common.DbBatchCommand):System.Boolean",
@@ -2955,7 +3075,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::IndexOf(System.Data.Common.DbBatchCommand):System.Int32",
@@ -2970,7 +3091,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::Insert(System.Int32,System.Data.Common.DbBatchCommand):System.Void",
@@ -2985,7 +3107,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::RemoveAt(System.Int32):System.Void",
@@ -3000,7 +3123,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -3016,7 +3140,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -3032,7 +3157,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -3048,7 +3174,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -3064,7 +3191,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -3080,7 +3208,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -3096,7 +3225,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
+          "sourceInterface": "System.Collections.Generic.IEnumerable\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3112,7 +3242,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -3128,7 +3259,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.Generic.IList\u00601"
+          "sourceInterface": "System.Collections.Generic.IList\u00601",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -3144,7 +3276,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.Generic.ICollection\u00601"
+          "sourceInterface": "System.Collections.Generic.ICollection\u00601",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3631,7 +3764,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::CreateParameter():System.Data.Common.DbParameter",
@@ -3646,7 +3780,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteNonQuery():System.Int32",
@@ -3661,7 +3796,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReader():System.Data.Common.DbDataReader",
@@ -3676,7 +3812,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReader(System.Data.CommandBehavior):System.Data.Common.DbDataReader",
@@ -3691,7 +3828,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteNonQueryAsync():System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3706,7 +3844,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteNonQueryAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3721,7 +3860,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync():System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3736,7 +3876,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3751,7 +3892,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Data.CommandBehavior):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3766,7 +3908,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -3781,7 +3924,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteScalarAsync():System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3796,7 +3940,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteScalarAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -3811,7 +3956,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteScalar():System.Object",
@@ -3826,7 +3972,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::Prepare():System.Void",
@@ -3841,7 +3988,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::PrepareAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -3856,7 +4004,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3871,7 +4020,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3887,7 +4037,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::CreateParameter():System.Data.IDbDataParameter",
@@ -3903,7 +4054,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbCommand"
+          "sourceInterface": "System.Data.IDbCommand",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::ExecuteReader():System.Data.IDataReader",
@@ -3919,7 +4071,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbCommand"
+          "sourceInterface": "System.Data.IDbCommand",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::ExecuteReader(System.Data.CommandBehavior):System.Data.IDataReader",
@@ -3935,7 +4088,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDbCommand"
+          "sourceInterface": "System.Data.IDbCommand",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::Prepare():System.Void",
@@ -3951,7 +4105,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::ExecuteNonQuery():System.Int32",
@@ -3967,7 +4122,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbCommand"
+          "sourceInterface": "System.Data.IDbCommand",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::ExecuteScalar():System.Object",
@@ -3983,7 +4139,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbCommand"
+          "sourceInterface": "System.Data.IDbCommand",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -3999,7 +4156,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::Dispose():System.Void",
@@ -4014,7 +4172,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4295,7 +4454,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetInsertCommand(System.Boolean):System.Data.Common.DbCommand",
@@ -4310,7 +4470,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetUpdateCommand():System.Data.Common.DbCommand",
@@ -4325,7 +4486,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetUpdateCommand(System.Boolean):System.Data.Common.DbCommand",
@@ -4340,7 +4502,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetDeleteCommand():System.Data.Common.DbCommand",
@@ -4355,7 +4518,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetDeleteCommand(System.Boolean):System.Data.Common.DbCommand",
@@ -4370,7 +4534,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::QuoteIdentifier(System.String):System.String",
@@ -4385,7 +4550,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::RefreshSchema():System.Void",
@@ -4400,7 +4566,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::UnquoteIdentifier(System.String):System.String",
@@ -4415,7 +4582,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4431,7 +4599,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::Dispose():System.Void",
@@ -4446,7 +4615,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4615,7 +4785,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::BeginTransaction(System.Data.IsolationLevel):System.Data.Common.DbTransaction",
@@ -4630,7 +4801,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::BeginTransactionAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Data.Common.DbTransaction,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4645,7 +4817,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::BeginTransactionAsync(System.Data.IsolationLevel,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Data.Common.DbTransaction,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4660,7 +4833,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::Close():System.Void",
@@ -4675,7 +4849,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::CloseAsync():System.Threading.Tasks.Task",
@@ -4690,7 +4865,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -4705,7 +4881,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::ChangeDatabase(System.String):System.Void",
@@ -4720,7 +4897,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::ChangeDatabaseAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4735,7 +4913,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::CreateBatch():System.Data.Common.DbBatch",
@@ -4750,7 +4929,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::CreateCommand():System.Data.Common.DbCommand",
@@ -4765,7 +4945,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::EnlistTransaction(System.Transactions.Transaction):System.Void",
@@ -4780,7 +4961,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchema():System.Data.DataTable",
@@ -4795,7 +4977,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchema(System.String):System.Data.DataTable",
@@ -4810,7 +4993,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchema(System.String,System.String[]):System.Data.DataTable",
@@ -4825,7 +5009,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchemaAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4840,7 +5025,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchemaAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4855,7 +5041,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchemaAsync(System.String,System.String[],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -4870,7 +5057,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::Open():System.Void",
@@ -4885,7 +5073,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::OpenAsync():System.Threading.Tasks.Task",
@@ -4900,7 +5089,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::OpenAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -4915,7 +5105,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -4931,7 +5122,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::BeginTransaction():System.Data.IDbTransaction",
@@ -4947,7 +5139,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbConnection"
+          "sourceInterface": "System.Data.IDbConnection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::BeginTransaction(System.Data.IsolationLevel):System.Data.IDbTransaction",
@@ -4963,7 +5156,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDbConnection"
+          "sourceInterface": "System.Data.IDbConnection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::CreateCommand():System.Data.IDbCommand",
@@ -4979,7 +5173,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDbConnection"
+          "sourceInterface": "System.Data.IDbConnection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::Close():System.Void",
@@ -4995,7 +5190,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::ChangeDatabase(System.String):System.Void",
@@ -5011,7 +5207,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDbConnection"
+          "sourceInterface": "System.Data.IDbConnection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -5027,7 +5224,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::Dispose():System.Void",
@@ -5042,7 +5240,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5268,7 +5467,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::AppendKeyValuePair(System.Text.StringBuilder,System.String,System.String):System.Void",
@@ -5283,7 +5483,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::AppendKeyValuePair(System.Text.StringBuilder,System.String,System.String,System.Boolean):System.Void",
@@ -5298,7 +5499,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::Clear():System.Void",
@@ -5313,7 +5515,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::ContainsKey(System.String):System.Boolean",
@@ -5328,7 +5531,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::EquivalentTo(System.Data.Common.DbConnectionStringBuilder):System.Boolean",
@@ -5343,7 +5547,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::Remove(System.String):System.Boolean",
@@ -5358,7 +5563,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::ShouldSerialize(System.String):System.Boolean",
@@ -5373,7 +5579,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::ToString():System.String",
@@ -5388,7 +5595,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::TryGetValue(System.String,System.Object\u0026):System.Boolean",
@@ -5403,7 +5611,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
@@ -5419,7 +5628,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -5435,7 +5645,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
@@ -5451,7 +5662,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5467,7 +5679,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -5483,7 +5696,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetAttributes():System.ComponentModel.AttributeCollection",
@@ -5499,7 +5713,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetClassName():System.String",
@@ -5515,7 +5730,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetConverter():System.ComponentModel.TypeConverter",
@@ -5531,7 +5747,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetDefaultEvent():System.ComponentModel.EventDescriptor",
@@ -5547,7 +5764,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetDefaultProperty():System.ComponentModel.PropertyDescriptor",
@@ -5563,7 +5781,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEditor(System.Type):System.Object",
@@ -5579,7 +5798,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEvents():System.ComponentModel.EventDescriptorCollection",
@@ -5595,7 +5815,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEvents(System.Attribute[]):System.ComponentModel.EventDescriptorCollection",
@@ -5611,7 +5832,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetProperties():System.ComponentModel.PropertyDescriptorCollection",
@@ -5627,7 +5849,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetProperties(System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -5643,7 +5866,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetPropertyOwner(System.ComponentModel.PropertyDescriptor):System.Object",
@@ -5659,7 +5883,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
@@ -5675,7 +5900,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
@@ -5691,7 +5917,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IDictionary"
+          "sourceInterface": "System.Collections.IDictionary",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5983,7 +6210,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]",
@@ -5998,7 +6226,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType,System.String):System.Data.DataTable[]",
@@ -6013,7 +6242,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataSet):System.Int32",
@@ -6028,7 +6258,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataSet,System.String):System.Int32",
@@ -6043,7 +6274,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataSet,System.Int32,System.Int32,System.String):System.Int32",
@@ -6058,7 +6290,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 4
+          "parameterCount": 4,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataTable):System.Int32",
@@ -6073,7 +6306,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Int32,System.Int32,System.Data.DataTable[]):System.Int32",
@@ -6088,7 +6322,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 3
+          "parameterCount": 3,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::GetFillParameters():System.Data.IDataParameter[]",
@@ -6103,7 +6338,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataSet):System.Int32",
@@ -6118,7 +6354,8 @@
           "isOverride": true,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataRow[]):System.Int32",
@@ -6133,7 +6370,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataTable):System.Int32",
@@ -6148,7 +6386,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataSet,System.String):System.Int32",
@@ -6163,7 +6402,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -6179,7 +6419,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -6195,7 +6436,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ICloneable"
+          "sourceInterface": "System.ICloneable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]",
@@ -6211,7 +6453,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::Fill(System.Data.DataSet):System.Int32",
@@ -6227,7 +6470,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataAdapter::GetFillParameters():System.Data.IDataParameter[]",
@@ -6243,7 +6487,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDataAdapter"
+          "sourceInterface": "System.Data.IDataAdapter",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Dispose():System.Void",
@@ -6258,7 +6503,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6504,7 +6750,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::CloseAsync():System.Threading.Tasks.Task",
@@ -6519,7 +6766,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::Dispose():System.Void",
@@ -6534,7 +6782,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -6549,7 +6798,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetDataTypeName(System.Int32):System.String",
@@ -6564,7 +6814,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetEnumerator():System.Collections.IEnumerator",
@@ -6579,7 +6830,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFieldType(System.Int32):System.Type",
@@ -6594,7 +6846,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetName(System.Int32):System.String",
@@ -6609,7 +6862,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetOrdinal(System.String):System.Int32",
@@ -6624,7 +6878,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetSchemaTable():System.Data.DataTable",
@@ -6639,7 +6894,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetSchemaTableAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -6654,7 +6910,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetColumnSchemaAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Data.Common.DbColumn,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -6669,7 +6926,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetBoolean(System.Int32):System.Boolean",
@@ -6684,7 +6942,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetByte(System.Int32):System.Byte",
@@ -6699,7 +6958,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32):System.Int64",
@@ -6714,7 +6974,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetChar(System.Int32):System.Char",
@@ -6729,7 +6990,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32):System.Int64",
@@ -6744,7 +7006,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetData(System.Int32):System.Data.Common.DbDataReader",
@@ -6759,7 +7022,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetDateTime(System.Int32):System.DateTime",
@@ -6774,7 +7038,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetDecimal(System.Int32):System.Decimal",
@@ -6789,7 +7054,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetDouble(System.Int32):System.Double",
@@ -6804,7 +7070,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFloat(System.Int32):System.Single",
@@ -6819,7 +7086,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetGuid(System.Int32):System.Guid",
@@ -6834,7 +7102,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetInt16(System.Int32):System.Int16",
@@ -6849,7 +7118,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetInt32(System.Int32):System.Int32",
@@ -6864,7 +7134,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetInt64(System.Int32):System.Int64",
@@ -6879,7 +7150,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetProviderSpecificFieldType(System.Int32):System.Type",
@@ -6894,7 +7166,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetProviderSpecificValue(System.Int32):System.Object",
@@ -6909,7 +7182,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetProviderSpecificValues(System.Object[]):System.Int32",
@@ -6924,7 +7198,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetString(System.Int32):System.String",
@@ -6939,7 +7214,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetStream(System.Int32):System.IO.Stream",
@@ -6954,7 +7230,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetTextReader(System.Int32):System.IO.TextReader",
@@ -6969,7 +7246,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetValue(System.Int32):System.Object",
@@ -6984,7 +7262,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFieldValue(System.Int32):T",
@@ -6999,7 +7278,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFieldValueAsync(System.Int32):Task_1",
@@ -7014,7 +7294,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFieldValueAsync(System.Int32,System.Threading.CancellationToken):Task_1",
@@ -7029,7 +7310,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 1,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetValues(System.Object[]):System.Int32",
@@ -7044,7 +7326,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::IsDBNull(System.Int32):System.Boolean",
@@ -7059,7 +7342,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::IsDBNullAsync(System.Int32):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7074,7 +7358,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::IsDBNullAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7089,7 +7374,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::NextResult():System.Boolean",
@@ -7104,7 +7390,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::Read():System.Boolean",
@@ -7119,7 +7406,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::ReadAsync():System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7134,7 +7422,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::ReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7149,7 +7438,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::NextResultAsync():System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7164,7 +7454,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::NextResultAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -7179,7 +7470,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetData(System.Int32):System.Data.IDataReader",
@@ -7195,7 +7487,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataReader::Close():System.Void",
@@ -7211,7 +7504,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataReader::GetSchemaTable():System.Data.DataTable",
@@ -7227,7 +7521,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDataReader"
+          "sourceInterface": "System.Data.IDataReader",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataReader::NextResult():System.Boolean",
@@ -7243,7 +7538,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Data.IDataReader"
+          "sourceInterface": "System.Data.IDataReader",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetName(System.Int32):System.String",
@@ -7259,7 +7555,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetFieldType(System.Int32):System.Type",
@@ -7275,7 +7572,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetValue(System.Int32):System.Object",
@@ -7291,7 +7589,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetValues(System.Object[]):System.Int32",
@@ -7307,7 +7606,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetOrdinal(System.String):System.Int32",
@@ -7323,7 +7623,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetBoolean(System.Int32):System.Boolean",
@@ -7339,7 +7640,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetByte(System.Int32):System.Byte",
@@ -7355,7 +7657,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32):System.Int64",
@@ -7371,7 +7674,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 5,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetChar(System.Int32):System.Char",
@@ -7387,7 +7691,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32):System.Int64",
@@ -7403,7 +7708,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 5,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetGuid(System.Int32):System.Guid",
@@ -7419,7 +7725,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt16(System.Int32):System.Int16",
@@ -7435,7 +7742,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt32(System.Int32):System.Int32",
@@ -7451,7 +7759,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt64(System.Int32):System.Int64",
@@ -7467,7 +7776,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetFloat(System.Int32):System.Single",
@@ -7483,7 +7793,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDouble(System.Int32):System.Double",
@@ -7499,7 +7810,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDecimal(System.Int32):System.Decimal",
@@ -7515,7 +7827,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDateTime(System.Int32):System.DateTime",
@@ -7531,7 +7844,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -7547,7 +7861,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -7563,7 +7878,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -7579,7 +7895,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.Int32):System.Object",
@@ -7594,7 +7911,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.String):System.Object",
@@ -7609,7 +7927,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7796,7 +8115,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetByte(System.Int32):System.Byte",
@@ -7811,7 +8131,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32):System.Int64",
@@ -7826,7 +8147,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetChar(System.Int32):System.Char",
@@ -7841,7 +8163,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32):System.Int64",
@@ -7856,7 +8179,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 5
+          "parameterCount": 5,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetData(System.Int32):System.Data.IDataReader",
@@ -7871,7 +8195,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetDataTypeName(System.Int32):System.String",
@@ -7886,7 +8211,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetDateTime(System.Int32):System.DateTime",
@@ -7901,7 +8227,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetDecimal(System.Int32):System.Decimal",
@@ -7916,7 +8243,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetDouble(System.Int32):System.Double",
@@ -7931,7 +8259,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetFieldType(System.Int32):System.Type",
@@ -7946,7 +8275,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetFloat(System.Int32):System.Single",
@@ -7961,7 +8291,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetGuid(System.Int32):System.Guid",
@@ -7976,7 +8307,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetInt16(System.Int32):System.Int16",
@@ -7991,7 +8323,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetInt32(System.Int32):System.Int32",
@@ -8006,7 +8339,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetInt64(System.Int32):System.Int64",
@@ -8021,7 +8355,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetName(System.Int32):System.String",
@@ -8036,7 +8371,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetOrdinal(System.String):System.Int32",
@@ -8051,7 +8387,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetString(System.Int32):System.String",
@@ -8066,7 +8403,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetValue(System.Int32):System.Object",
@@ -8081,7 +8419,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::GetValues(System.Object[]):System.Int32",
@@ -8096,7 +8435,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::IsDBNull(System.Int32):System.Boolean",
@@ -8111,7 +8451,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetAttributes():System.ComponentModel.AttributeCollection",
@@ -8127,7 +8468,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetClassName():System.String",
@@ -8143,7 +8485,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetConverter():System.ComponentModel.TypeConverter",
@@ -8159,7 +8502,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetDefaultEvent():System.ComponentModel.EventDescriptor",
@@ -8175,7 +8519,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetDefaultProperty():System.ComponentModel.PropertyDescriptor",
@@ -8191,7 +8536,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEditor(System.Type):System.Object",
@@ -8207,7 +8553,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEvents():System.ComponentModel.EventDescriptorCollection",
@@ -8223,7 +8570,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetEvents(System.Attribute[]):System.ComponentModel.EventDescriptorCollection",
@@ -8239,7 +8587,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetProperties():System.ComponentModel.PropertyDescriptorCollection",
@@ -8255,7 +8604,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetProperties(System.Attribute[]):System.ComponentModel.PropertyDescriptorCollection",
@@ -8271,7 +8621,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ICustomTypeDescriptor::GetPropertyOwner(System.ComponentModel.PropertyDescriptor):System.Object",
@@ -8287,7 +8638,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor"
+          "sourceInterface": "System.ComponentModel.ICustomTypeDescriptor",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetName(System.Int32):System.String",
@@ -8303,7 +8655,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetFieldType(System.Int32):System.Type",
@@ -8319,7 +8672,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetValue(System.Int32):System.Object",
@@ -8335,7 +8689,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetValues(System.Object[]):System.Int32",
@@ -8351,7 +8706,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetOrdinal(System.String):System.Int32",
@@ -8367,7 +8723,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetBoolean(System.Int32):System.Boolean",
@@ -8383,7 +8740,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetByte(System.Int32):System.Byte",
@@ -8399,7 +8757,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32):System.Int64",
@@ -8415,7 +8774,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 5,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetChar(System.Int32):System.Char",
@@ -8431,7 +8791,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32):System.Int64",
@@ -8447,7 +8808,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 5,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetGuid(System.Int32):System.Guid",
@@ -8463,7 +8825,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt16(System.Int32):System.Int16",
@@ -8479,7 +8842,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt32(System.Int32):System.Int32",
@@ -8495,7 +8859,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetInt64(System.Int32):System.Int64",
@@ -8511,7 +8876,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetFloat(System.Int32):System.Single",
@@ -8527,7 +8893,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDouble(System.Int32):System.Double",
@@ -8543,7 +8910,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDecimal(System.Int32):System.Decimal",
@@ -8559,7 +8927,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetDateTime(System.Int32):System.DateTime",
@@ -8575,7 +8944,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataRecord::GetData(System.Int32):System.Data.IDataReader",
@@ -8591,7 +8961,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataRecord"
+          "sourceInterface": "System.Data.IDataRecord",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.Int32):System.Object",
@@ -8606,7 +8977,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.String):System.Object",
@@ -8621,7 +8993,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8701,7 +9074,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::OpenConnection():System.Data.Common.DbConnection",
@@ -8716,7 +9090,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::OpenConnectionAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Data.Common.DbConnection,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
@@ -8731,7 +9106,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::CreateCommand(System.String):System.Data.Common.DbCommand",
@@ -8746,7 +9122,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::CreateBatch():System.Data.Common.DbBatch",
@@ -8761,7 +9138,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::Dispose():System.Void",
@@ -8776,7 +9154,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataSource::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -8791,7 +9170,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -8807,7 +9187,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -8823,7 +9204,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8871,7 +9253,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -8903,7 +9286,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbEnumerator::Reset():System.Void",
@@ -8918,7 +9302,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -8934,7 +9319,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -8950,7 +9336,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator"
+          "sourceInterface": "System.Collections.IEnumerator",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9036,7 +9423,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Runtime.Serialization.ISerializable"
+          "sourceInterface": "System.Runtime.Serialization.ISerializable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9051,7 +9439,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9129,7 +9518,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9487,7 +9877,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::AddRange(System.Array):System.Void",
@@ -9502,7 +9893,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Contains(System.Object):System.Boolean",
@@ -9517,7 +9909,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Contains(System.String):System.Boolean",
@@ -9532,7 +9925,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -9547,7 +9941,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Clear():System.Void",
@@ -9562,7 +9957,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::GetEnumerator():System.Collections.IEnumerator",
@@ -9577,7 +9973,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::IndexOf(System.Object):System.Int32",
@@ -9592,7 +9989,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::IndexOf(System.String):System.Int32",
@@ -9607,7 +10005,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Insert(System.Int32,System.Object):System.Void",
@@ -9622,7 +10021,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Remove(System.Object):System.Void",
@@ -9637,7 +10037,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::RemoveAt(System.Int32):System.Void",
@@ -9652,7 +10053,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::RemoveAt(System.String):System.Void",
@@ -9667,7 +10069,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::Contains(System.String):System.Boolean",
@@ -9683,7 +10086,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataParameterCollection"
+          "sourceInterface": "System.Data.IDataParameterCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::IndexOf(System.String):System.Int32",
@@ -9699,7 +10103,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataParameterCollection"
+          "sourceInterface": "System.Data.IDataParameterCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDataParameterCollection::RemoveAt(System.String):System.Void",
@@ -9715,7 +10120,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Data.IDataParameterCollection"
+          "sourceInterface": "System.Data.IDataParameterCollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -9731,7 +10137,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -9747,7 +10154,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -9763,7 +10171,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -9779,7 +10188,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -9795,7 +10205,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -9811,7 +10222,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 1,
-          "sourceInterface": "System.Collections.IList"
+          "sourceInterface": "System.Collections.IList",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -9827,7 +10239,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 2,
-          "sourceInterface": "System.Collections.ICollection"
+          "sourceInterface": "System.Collections.ICollection",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -9843,7 +10256,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerable"
+          "sourceInterface": "System.Collections.IEnumerable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.Int32):System.Data.Common.DbParameter",
@@ -9858,7 +10272,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.Int32,System.Data.Common.DbParameter):System.Void",
@@ -9873,7 +10288,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.String):System.Data.Common.DbParameter",
@@ -9888,7 +10304,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.String,System.Data.Common.DbParameter):System.Void",
@@ -9903,7 +10320,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10091,7 +10509,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateBatchCommand():System.Data.Common.DbBatchCommand",
@@ -10106,7 +10525,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateCommand():System.Data.Common.DbCommand",
@@ -10121,7 +10541,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateCommandBuilder():System.Data.Common.DbCommandBuilder",
@@ -10136,7 +10557,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateConnection():System.Data.Common.DbConnection",
@@ -10151,7 +10573,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateConnectionStringBuilder():System.Data.Common.DbConnectionStringBuilder",
@@ -10166,7 +10589,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateDataAdapter():System.Data.Common.DbDataAdapter",
@@ -10181,7 +10605,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateParameter():System.Data.Common.DbParameter",
@@ -10196,7 +10621,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateDataSourceEnumerator():System.Data.Common.DbDataSourceEnumerator",
@@ -10211,7 +10637,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::CreateDataSource(System.String):System.Data.Common.DbDataSource",
@@ -10226,7 +10653,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10357,7 +10785,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::CommitAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -10372,7 +10801,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Dispose():System.Void",
@@ -10387,7 +10817,8 @@
           "isOverride": false,
           "isSealed": true,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -10402,7 +10833,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Rollback():System.Void",
@@ -10417,7 +10849,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::RollbackAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -10432,7 +10865,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::SaveAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -10447,7 +10881,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::RollbackAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -10462,7 +10897,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::ReleaseAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -10477,7 +10913,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Save(System.String):System.Void",
@@ -10492,7 +10929,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Rollback(System.String):System.Void",
@@ -10507,7 +10945,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Release(System.String):System.Void",
@@ -10522,7 +10961,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.IDbTransaction::Commit():System.Void",
@@ -10538,7 +10978,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -10554,7 +10995,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IDisposable"
+          "sourceInterface": "System.IDisposable",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
@@ -10570,7 +11012,8 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.IAsyncDisposable"
+          "sourceInterface": "System.IAsyncDisposable",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10680,7 +11123,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.RowUpdatedEventArgs::CopyToRows(System.Data.DataRow[],System.Int32):System.Void",
@@ -10695,7 +11139,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10967,7 +11412,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReaderExtensions::CanGetColumnSchema(System.Data.Common.DbDataReader):System.Boolean",
@@ -10982,7 +11428,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -11480,7 +11927,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactory(System.String):System.Data.Common.DbProviderFactory",
@@ -11495,7 +11943,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactory(System.Data.DataRow):System.Data.Common.DbProviderFactory",
@@ -11510,7 +11959,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactory(System.Data.Common.DbConnection):System.Data.Common.DbProviderFactory",
@@ -11525,7 +11975,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactoryClasses():System.Data.DataTable",
@@ -11540,7 +11991,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetProviderInvariantNames():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -11555,7 +12007,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 0
+          "parameterCount": 0,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::RegisterFactory(System.String,System.String):System.Void",
@@ -11570,7 +12023,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::RegisterFactory(System.String,System.Type):System.Void",
@@ -11585,7 +12039,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::RegisterFactory(System.String,System.Data.Common.DbProviderFactory):System.Void",
@@ -11600,7 +12055,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 2
+          "parameterCount": 2,
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::UnregisterFactory(System.String):System.Boolean",
@@ -11615,7 +12071,8 @@
           "isOverride": false,
           "isSealed": false,
           "arity": 0,
-          "parameterCount": 1
+          "parameterCount": 1,
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

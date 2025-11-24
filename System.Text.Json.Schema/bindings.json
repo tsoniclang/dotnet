@@ -363,7 +363,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
@@ -376,7 +377,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
-          "declaringAssemblyName": "System.Text.Json"
+          "declaringAssemblyName": "System.Text.Json",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

@@ -799,7 +799,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -812,7 +813,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -825,7 +827,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -883,7 +886,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Object):System.Void",
@@ -896,7 +900,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
@@ -909,7 +914,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::Close():System.Void",
@@ -922,7 +928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -990,7 +997,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1003,7 +1011,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.MissingManifestResourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1263,7 +1272,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1276,7 +1286,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2096,7 +2107,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::CreateFileBasedResourceManager(System.String,System.String,System.Type):System.Resources.ResourceManager",
@@ -2109,7 +2121,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
@@ -2122,7 +2135,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetString(System.String):System.String",
@@ -2135,7 +2149,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetString(System.String,System.Globalization.CultureInfo):System.String",
@@ -2148,7 +2163,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetObject(System.String):System.Object",
@@ -2161,7 +2177,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetObject(System.String,System.Globalization.CultureInfo):System.Object",
@@ -2174,7 +2191,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetStream(System.String):System.IO.UnmanagedMemoryStream",
@@ -2187,7 +2205,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetStream(System.String,System.Globalization.CultureInfo):System.IO.UnmanagedMemoryStream",
@@ -2200,7 +2219,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2558,7 +2578,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::Close():System.Void",
@@ -2571,7 +2592,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::Dispose():System.Void",
@@ -2584,7 +2606,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -2597,7 +2620,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2610,7 +2634,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::Close():System.Void",
@@ -2623,7 +2648,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -2636,7 +2662,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2649,7 +2676,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2858,7 +2886,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::Dispose():System.Void",
@@ -2871,7 +2900,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetDefaultReader():System.Type",
@@ -2884,7 +2914,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetDefaultWriter():System.Type",
@@ -2897,7 +2928,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetEnumerator():System.Collections.IDictionaryEnumerator",
@@ -2910,7 +2942,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetString(System.String):System.String",
@@ -2923,7 +2956,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetString(System.String,System.Boolean):System.String",
@@ -2936,7 +2970,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetObject(System.String):System.Object",
@@ -2949,7 +2984,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetObject(System.String,System.Boolean):System.Object",
@@ -2962,7 +2998,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -2975,7 +3012,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2988,7 +3026,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3246,7 +3285,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResourceData(System.String,System.String,System.Byte[]):System.Void",
@@ -3259,7 +3299,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.String):System.Void",
@@ -3272,7 +3313,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.Object):System.Void",
@@ -3285,7 +3327,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.IO.Stream,System.Boolean):System.Void",
@@ -3298,7 +3341,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
@@ -3311,7 +3355,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Close():System.Void",
@@ -3324,7 +3369,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Dispose():System.Void",
@@ -3337,7 +3383,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Generate():System.Void",
@@ -3350,7 +3397,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.String):System.Void",
@@ -3363,7 +3411,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Object):System.Void",
@@ -3376,7 +3425,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
@@ -3389,7 +3439,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::Close():System.Void",
@@ -3402,7 +3453,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "declaringAssemblyName": "System.Resources.Writer",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3415,7 +3467,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [

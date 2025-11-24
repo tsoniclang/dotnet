@@ -19,7 +19,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.IMeterFactory",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -32,7 +33,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -303,7 +305,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -316,7 +319,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -329,7 +333,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -342,7 +347,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -355,7 +361,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
@@ -368,7 +375,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Diagnostics.TagList\u0026):System.Void",
@@ -381,7 +389,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -621,7 +630,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -634,7 +644,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -647,7 +658,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -660,7 +672,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -673,7 +686,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
@@ -686,7 +700,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Diagnostics.TagList\u0026):System.Void",
@@ -699,7 +714,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -939,7 +955,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -952,7 +969,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -965,7 +983,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -978,7 +997,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -991,7 +1011,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
@@ -1004,7 +1025,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Diagnostics.TagList\u0026):System.Void",
@@ -1017,7 +1039,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1796,7 +1819,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::BeginInvoke(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -1809,7 +1833,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::EndInvoke(System.IAsyncResult):System.Void",
@@ -1822,7 +1847,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -1835,7 +1861,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1848,7 +1875,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::Clone():System.Object",
@@ -1861,7 +1889,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -1874,7 +1903,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2266,7 +2296,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateCounter(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Counter_1",
@@ -2279,7 +2310,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateGauge(System.String):Gauge_1",
@@ -2292,7 +2324,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateGauge(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Gauge_1",
@@ -2305,7 +2338,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String):Histogram_1",
@@ -2318,7 +2352,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String):Histogram_1",
@@ -2331,7 +2366,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Histogram_1",
@@ -2344,7 +2380,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],InstrumentAdvice_1):Histogram_1",
@@ -2357,7 +2394,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateUpDownCounter(System.String,System.String,System.String):UpDownCounter_1",
@@ -2370,7 +2408,8 @@
           "arity": 1,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateUpDownCounter(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):UpDownCounter_1",
@@ -2383,7 +2422,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableUpDownCounter(System.String,Func_1,System.String,System.String):ObservableUpDownCounter_1",
@@ -2396,7 +2436,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableUpDownCounter(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableUpDownCounter_1",
@@ -2409,7 +2450,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableCounter(System.String,Func_1,System.String,System.String):ObservableCounter_1",
@@ -2422,7 +2464,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableCounter(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableCounter_1",
@@ -2435,7 +2478,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableGauge(System.String,Func_1,System.String,System.String):ObservableGauge_1",
@@ -2448,7 +2492,8 @@
           "arity": 1,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableGauge(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableGauge_1",
@@ -2461,7 +2506,8 @@
           "arity": 1,
           "parameterCount": 5,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Dispose():System.Void",
@@ -2474,7 +2520,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2487,7 +2534,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2957,7 +3005,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::DisableMeasurementEvents(System.Diagnostics.Metrics.Instrument):System.Object",
@@ -2970,7 +3019,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::SetMeasurementEventCallback(MeasurementCallback_1):System.Void",
@@ -2983,7 +3033,8 @@
           "arity": 1,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::Start():System.Void",
@@ -2996,7 +3047,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::RecordObservableInstruments():System.Void",
@@ -3009,7 +3061,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::Dispose():System.Void",
@@ -3022,7 +3075,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -3035,7 +3089,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4084,7 +4139,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4097,7 +4153,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4110,7 +4167,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4123,7 +4181,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -4136,7 +4195,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
@@ -4149,7 +4209,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Diagnostics.TagList\u0026):System.Void",
@@ -4162,7 +4223,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -4402,7 +4464,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Diagnostics.Metrics.MeterFactoryExtensions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

@@ -400,7 +400,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -881,7 +882,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -894,7 +896,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAtLeastAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -907,7 +910,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition):System.Void",
@@ -920,7 +924,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition,System.SequencePosition):System.Void",
@@ -933,7 +938,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AsStream(System.Boolean):System.IO.Stream",
@@ -946,7 +952,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CancelPendingRead():System.Void",
@@ -959,7 +966,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Complete(System.Exception):System.Void",
@@ -972,7 +980,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
@@ -985,7 +994,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::OnWriterCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
@@ -998,7 +1008,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
@@ -1011,7 +1022,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
@@ -1024,7 +1036,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1037,7 +1050,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
@@ -1050,7 +1064,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1278,7 +1293,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1427,7 +1443,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
@@ -1440,7 +1457,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CancelPendingFlush():System.Void",
@@ -1453,7 +1471,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::OnReaderCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
@@ -1466,7 +1485,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -1479,7 +1499,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Advance(System.Int32):System.Void",
@@ -1492,7 +1513,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetMemory(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1505,7 +1527,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetSpan(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
@@ -1518,7 +1541,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::AsStream(System.Boolean):System.IO.Stream",
@@ -1531,7 +1555,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
@@ -1544,7 +1569,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
@@ -1557,7 +1583,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
@@ -1570,7 +1597,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
@@ -1583,7 +1611,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
@@ -1596,7 +1625,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "declaringAssemblyName": "System.Memory",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2284,7 +2314,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "declaringAssemblyName": "System.IO.Pipelines",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],

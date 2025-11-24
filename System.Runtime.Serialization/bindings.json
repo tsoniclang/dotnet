@@ -1747,7 +1747,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IDeserializationCallback",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -1824,7 +1825,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -1837,7 +1839,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -1960,7 +1963,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::Convert(System.Object,System.TypeCode):System.Object",
@@ -1973,7 +1977,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToBoolean(System.Object):System.Boolean",
@@ -1986,7 +1991,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToChar(System.Object):System.Char",
@@ -1999,7 +2005,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToSByte(System.Object):System.SByte",
@@ -2012,7 +2019,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToByte(System.Object):System.Byte",
@@ -2025,7 +2033,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt16(System.Object):System.Int16",
@@ -2038,7 +2047,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt16(System.Object):System.UInt16",
@@ -2051,7 +2061,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt32(System.Object):System.Int32",
@@ -2064,7 +2075,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt32(System.Object):System.UInt32",
@@ -2077,7 +2089,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt64(System.Object):System.Int64",
@@ -2090,7 +2103,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt64(System.Object):System.UInt64",
@@ -2103,7 +2117,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToSingle(System.Object):System.Single",
@@ -2116,7 +2131,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDouble(System.Object):System.Double",
@@ -2129,7 +2145,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDecimal(System.Object):System.Decimal",
@@ -2142,7 +2159,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDateTime(System.Object):System.DateTime",
@@ -2155,7 +2173,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToString(System.Object):System.String",
@@ -2168,7 +2187,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2366,7 +2386,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IObjectReference",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2404,7 +2425,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISafeSerializationData",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2442,7 +2464,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2480,7 +2503,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogate",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISerializationSurrogate::SetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector):System.Object",
@@ -2493,7 +2517,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogate",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2541,7 +2566,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider::GetObjectToSerialize(System.Object,System.Type):System.Object",
@@ -2554,7 +2580,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2602,7 +2629,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider2",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider2::GetCustomDataToExport(System.Type,System.Type):System.Object",
@@ -2615,7 +2643,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider2",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider2::GetKnownCustomDataTypes(System.Collections.ObjectModel.Collection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -2628,7 +2657,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider2",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider2::GetReferencedTypeOnImport(System.String,System.String,System.Object):System.Type",
@@ -2641,7 +2671,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider2",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider::GetSurrogateType(System.Type):System.Type",
@@ -2654,7 +2685,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider::GetObjectToSerialize(System.Object,System.Type):System.Object",
@@ -2667,7 +2699,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializationSurrogateProvider",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2755,7 +2788,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISurrogateSelector::GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector\u0026):System.Runtime.Serialization.ISerializationSurrogate",
@@ -2768,7 +2802,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISurrogateSelector::GetNextSelector():System.Runtime.Serialization.ISurrogateSelector",
@@ -2781,7 +2816,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -2839,7 +2875,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.DeserializationToken",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2852,7 +2889,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -3109,7 +3147,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.StreamingContext",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContext::GetHashCode():System.Int32",
@@ -3122,7 +3161,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.StreamingContext",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5129,7 +5169,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.Serialization.DataContractResolver",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractResolver::ResolveName(System.String,System.String,System.Type,System.Runtime.Serialization.DataContractResolver):System.Type",
@@ -5142,7 +5183,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.DataContractResolver",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -5250,7 +5292,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
@@ -5263,7 +5306,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
@@ -5276,7 +5320,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
@@ -5289,7 +5334,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -5302,7 +5348,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -5315,7 +5362,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
@@ -5328,7 +5376,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void",
@@ -5341,7 +5390,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlReader):System.Object",
@@ -5354,7 +5404,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
@@ -5367,7 +5418,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::IsStartObject(System.Xml.XmlReader):System.Boolean",
@@ -5380,7 +5432,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
@@ -5393,7 +5446,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
@@ -5406,7 +5460,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object",
@@ -5419,7 +5474,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.IO.Stream):System.Object",
@@ -5432,7 +5488,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
@@ -5445,7 +5502,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
@@ -5458,7 +5516,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -5471,7 +5530,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7790,7 +7850,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.Formatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatter::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -7803,7 +7864,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.Formatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Deserialize(System.IO.Stream):System.Object",
@@ -7816,7 +7878,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.IFormatter::Serialize(System.IO.Stream,System.Object):System.Void",
@@ -7829,7 +7892,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -8104,7 +8168,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::Convert(System.Object,System.TypeCode):System.Object",
@@ -8117,7 +8182,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToBoolean(System.Object):System.Boolean",
@@ -8130,7 +8196,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToChar(System.Object):System.Char",
@@ -8143,7 +8210,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToSByte(System.Object):System.SByte",
@@ -8156,7 +8224,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToByte(System.Object):System.Byte",
@@ -8169,7 +8238,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToInt16(System.Object):System.Int16",
@@ -8182,7 +8252,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToUInt16(System.Object):System.UInt16",
@@ -8195,7 +8266,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToInt32(System.Object):System.Int32",
@@ -8208,7 +8280,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToUInt32(System.Object):System.UInt32",
@@ -8221,7 +8294,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToInt64(System.Object):System.Int64",
@@ -8234,7 +8308,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToUInt64(System.Object):System.UInt64",
@@ -8247,7 +8322,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToSingle(System.Object):System.Single",
@@ -8260,7 +8336,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToDouble(System.Object):System.Double",
@@ -8273,7 +8350,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToDecimal(System.Object):System.Decimal",
@@ -8286,7 +8364,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToDateTime(System.Object):System.DateTime",
@@ -8299,7 +8378,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::ToString(System.Object):System.String",
@@ -8312,7 +8392,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterConverter",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::Convert(System.Object,System.Type):System.Object",
@@ -8325,7 +8406,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::Convert(System.Object,System.TypeCode):System.Object",
@@ -8338,7 +8420,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToBoolean(System.Object):System.Boolean",
@@ -8351,7 +8434,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToChar(System.Object):System.Char",
@@ -8364,7 +8448,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToSByte(System.Object):System.SByte",
@@ -8377,7 +8462,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToByte(System.Object):System.Byte",
@@ -8390,7 +8476,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt16(System.Object):System.Int16",
@@ -8403,7 +8490,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt16(System.Object):System.UInt16",
@@ -8416,7 +8504,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt32(System.Object):System.Int32",
@@ -8429,7 +8518,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt32(System.Object):System.UInt32",
@@ -8442,7 +8532,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToInt64(System.Object):System.Int64",
@@ -8455,7 +8546,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToUInt64(System.Object):System.UInt64",
@@ -8468,7 +8560,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToSingle(System.Object):System.Single",
@@ -8481,7 +8574,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDouble(System.Object):System.Double",
@@ -8494,7 +8588,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDecimal(System.Object):System.Decimal",
@@ -8507,7 +8602,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToDateTime(System.Object):System.DateTime",
@@ -8520,7 +8616,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::ToString(System.Object):System.String",
@@ -8533,7 +8630,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.IFormatterConverter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -9431,7 +9529,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.InvalidDataContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9444,7 +9543,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.InvalidDataContractException",
-          "declaringAssemblyName": "System.Runtime.Serialization.Primitives"
+          "declaringAssemblyName": "System.Runtime.Serialization.Primitives",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10220,7 +10320,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ObjectIDGenerator",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectIDGenerator::HasId(System.Object,System.Boolean\u0026):System.Int64",
@@ -10233,7 +10334,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ObjectIDGenerator",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -10363,7 +10465,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64):System.Void",
@@ -10376,7 +10479,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo):System.Void",
@@ -10389,7 +10493,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo):System.Void",
@@ -10402,7 +10507,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[]):System.Void",
@@ -10415,7 +10521,8 @@
           "arity": 0,
           "parameterCount": 6,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::DoFixups():System.Void",
@@ -10428,7 +10535,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RecordFixup(System.Int64,System.Reflection.MemberInfo,System.Int64):System.Void",
@@ -10441,7 +10549,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RecordDelayedFixup(System.Int64,System.String,System.Int64):System.Void",
@@ -10454,7 +10563,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RecordArrayElementFixup(System.Int64,System.Int32,System.Int64):System.Void",
@@ -10467,7 +10577,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RecordArrayElementFixup(System.Int64,System.Int32[],System.Int64):System.Void",
@@ -10480,7 +10591,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RaiseDeserializationEvent():System.Void",
@@ -10493,7 +10605,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RaiseOnDeserializingEvent(System.Object):System.Void",
@@ -10506,7 +10619,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13001,7 +13115,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SafeSerializationEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -13126,7 +13241,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.SerializationBinder",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationBinder::BindToType(System.String,System.String):System.Type",
@@ -13139,7 +13255,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationBinder",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13247,7 +13364,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationEventHandler",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::BeginInvoke(System.Runtime.Serialization.StreamingContext,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -13260,7 +13378,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.SerializationEventHandler",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::EndInvoke(System.IAsyncResult):System.Void",
@@ -13273,7 +13392,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationEventHandler",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -13286,7 +13406,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -13299,7 +13420,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::Clone():System.Object",
@@ -13312,7 +13434,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationEventHandler",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -13325,7 +13448,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationEventHandler",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13717,7 +13841,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -13730,7 +13855,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -13990,7 +14116,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetEnumerator():System.Runtime.Serialization.SerializationInfoEnumerator",
@@ -14003,7 +14130,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Object,System.Type):System.Void",
@@ -14016,7 +14144,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Object):System.Void",
@@ -14029,7 +14158,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Boolean):System.Void",
@@ -14042,7 +14172,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Char):System.Void",
@@ -14055,7 +14186,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.SByte):System.Void",
@@ -14068,7 +14200,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Byte):System.Void",
@@ -14081,7 +14214,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int16):System.Void",
@@ -14094,7 +14228,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt16):System.Void",
@@ -14107,7 +14242,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int32):System.Void",
@@ -14120,7 +14256,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt32):System.Void",
@@ -14133,7 +14270,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int64):System.Void",
@@ -14146,7 +14284,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt64):System.Void",
@@ -14159,7 +14298,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Single):System.Void",
@@ -14172,7 +14312,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Double):System.Void",
@@ -14185,7 +14326,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Decimal):System.Void",
@@ -14198,7 +14340,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.DateTime):System.Void",
@@ -14211,7 +14354,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetValue(System.String,System.Type):System.Object",
@@ -14224,7 +14368,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetBoolean(System.String):System.Boolean",
@@ -14237,7 +14382,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetChar(System.String):System.Char",
@@ -14250,7 +14396,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetSByte(System.String):System.SByte",
@@ -14263,7 +14410,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetByte(System.String):System.Byte",
@@ -14276,7 +14424,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetInt16(System.String):System.Int16",
@@ -14289,7 +14438,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetUInt16(System.String):System.UInt16",
@@ -14302,7 +14452,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetInt32(System.String):System.Int32",
@@ -14315,7 +14466,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetUInt32(System.String):System.UInt32",
@@ -14328,7 +14480,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetInt64(System.String):System.Int64",
@@ -14341,7 +14494,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetUInt64(System.String):System.UInt64",
@@ -14354,7 +14508,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetSingle(System.String):System.Single",
@@ -14367,7 +14522,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetDouble(System.String):System.Double",
@@ -14380,7 +14536,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetDecimal(System.String):System.Decimal",
@@ -14393,7 +14550,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetDateTime(System.String):System.DateTime",
@@ -14406,7 +14564,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::GetString(System.String):System.String",
@@ -14419,7 +14578,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::StartDeserialization():System.Runtime.Serialization.DeserializationToken",
@@ -14432,7 +14592,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15058,7 +15219,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfoEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfoEnumerator::Reset():System.Void",
@@ -15071,7 +15233,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationInfoEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -15084,7 +15247,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -15097,7 +15261,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -15348,7 +15513,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SerializationObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationObjectManager::RaiseOnSerializedEvent():System.Void",
@@ -15361,7 +15527,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SerializationObjectManager",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -15491,7 +15658,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.SurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SurrogateSelector::ChainSelector(System.Runtime.Serialization.ISurrogateSelector):System.Void",
@@ -15504,7 +15672,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.SurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SurrogateSelector::GetNextSelector():System.Runtime.Serialization.ISurrogateSelector",
@@ -15517,7 +15686,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.SurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SurrogateSelector::GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector\u0026):System.Runtime.Serialization.ISerializationSurrogate",
@@ -15530,7 +15700,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.SurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SurrogateSelector::RemoveSurrogate(System.Type,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -15543,7 +15714,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.SurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISurrogateSelector::ChainSelector(System.Runtime.Serialization.ISurrogateSelector):System.Void",
@@ -15556,7 +15728,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISurrogateSelector::GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector\u0026):System.Runtime.Serialization.ISerializationSurrogate",
@@ -15569,7 +15742,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ISurrogateSelector::GetNextSelector():System.Runtime.Serialization.ISurrogateSelector",
@@ -15582,7 +15756,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Runtime.Serialization.ISurrogateSelector",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -15846,7 +16021,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -15859,7 +16035,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
@@ -15872,7 +16049,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObject(System.IO.Stream,System.Object):System.Void",
@@ -15885,7 +16063,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
@@ -15898,7 +16077,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
@@ -15911,7 +16091,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
@@ -15924,7 +16105,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
@@ -15937,7 +16119,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
@@ -15950,7 +16133,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.IO.Stream):System.Object",
@@ -15963,7 +16147,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlReader):System.Object",
@@ -15976,7 +16161,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
@@ -15989,7 +16175,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
@@ -16002,7 +16189,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
@@ -16015,7 +16203,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::IsStartObject(System.Xml.XmlReader):System.Boolean",
@@ -16028,7 +16217,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
@@ -16041,7 +16231,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlObjectSerializer",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -16289,7 +16480,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
@@ -16302,7 +16494,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Type):System.Void",
@@ -16315,7 +16508,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::GetSchemaTypeName(System.Type):System.Xml.XmlQualifiedName",
@@ -16328,7 +16522,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::GetSchemaType(System.Type):System.Xml.Schema.XmlSchemaType",
@@ -16341,7 +16536,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::GetRootElementName(System.Type):System.Xml.XmlQualifiedName",
@@ -16354,7 +16550,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::CanExport(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -16367,7 +16564,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::CanExport(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -16380,7 +16578,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::CanExport(System.Type):System.Boolean",
@@ -16393,7 +16592,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XsdDataContractExporter",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -16663,7 +16863,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializerExtensions",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializerExtensions::SetSerializationSurrogateProvider(System.Runtime.Serialization.DataContractSerializer,System.Runtime.Serialization.ISerializationSurrogateProvider):System.Void",
@@ -16676,7 +16877,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.DataContractSerializerExtensions",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": true
         }
       ],
       "properties": [],
@@ -16784,7 +16986,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetSerializableMembers(System.Type,System.Runtime.Serialization.StreamingContext):System.Reflection.MemberInfo[]",
@@ -16797,7 +17000,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::CheckTypeSecurity(System.Type,System.Runtime.Serialization.Formatters.TypeFilterLevel):System.Void",
@@ -16810,7 +17014,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetUninitializedObject(System.Type):System.Object",
@@ -16823,7 +17028,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetSafeUninitializedObject(System.Type):System.Object",
@@ -16836,7 +17042,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[]):System.Object",
@@ -16849,7 +17056,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetObjectData(System.Object,System.Reflection.MemberInfo[]):System.Object[]",
@@ -16862,7 +17070,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate):System.Runtime.Serialization.ISerializationSurrogate",
@@ -16875,7 +17084,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetTypeFromAssembly(System.Reflection.Assembly,System.String):System.Type",
@@ -16888,7 +17098,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.FormatterServices",
-          "declaringAssemblyName": "System.Runtime.Serialization.Formatters"
+          "declaringAssemblyName": "System.Runtime.Serialization.Formatters",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -18007,7 +18218,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Runtime.Serialization.XmlSerializableServices",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlSerializableServices::WriteNodes(System.Xml.XmlWriter,System.Xml.XmlNode[]):System.Void",
@@ -18020,7 +18232,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlSerializableServices",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlSerializableServices::AddDefaultSchema(System.Xml.Schema.XmlSchemaSet,System.Xml.XmlQualifiedName):System.Void",
@@ -18033,7 +18246,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.XmlSerializableServices",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -18151,7 +18365,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Runtime.Serialization.XPathQueryGenerator",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XPathQueryGenerator::CreateFromDataContractSerializer(System.Type,System.Reflection.MemberInfo[],System.Text.StringBuilder,System.Xml.XmlNamespaceManager\u0026):System.String",
@@ -18164,7 +18379,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Runtime.Serialization.XPathQueryGenerator",
-          "declaringAssemblyName": "System.Private.DataContractSerialization"
+          "declaringAssemblyName": "System.Private.DataContractSerialization",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],

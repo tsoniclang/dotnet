@@ -2398,7 +2398,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::MoveNext():System.Boolean",
@@ -2411,7 +2412,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -2424,7 +2426,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2437,7 +2440,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -2450,7 +2454,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -2663,7 +2668,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::MoveNext():System.Boolean",
@@ -2676,7 +2682,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
@@ -2689,7 +2696,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
@@ -2702,7 +2710,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
@@ -2715,7 +2724,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3053,7 +3063,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Capture",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -3240,7 +3251,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.CaptureCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3253,7 +3265,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.CaptureCollection::CopyTo(System.Text.RegularExpressions.Capture[],System.Int32):System.Void",
@@ -3266,7 +3279,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.CaptureCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -3279,7 +3293,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -3292,7 +3307,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -3305,7 +3321,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -3318,7 +3335,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -3331,7 +3349,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -3344,7 +3363,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -3357,7 +3377,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -3370,7 +3391,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -3383,7 +3405,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -3396,7 +3419,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -3409,7 +3433,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -3422,7 +3447,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -3435,7 +3461,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -3448,7 +3475,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -3461,7 +3489,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -3474,7 +3503,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4688,7 +4718,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Group",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -4901,7 +4932,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -4914,7 +4946,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::CopyTo(System.Text.RegularExpressions.Group[],System.Int32):System.Void",
@@ -4927,7 +4960,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::TryGetValue(System.String,System.Text.RegularExpressions.Group\u0026):System.Boolean",
@@ -4940,7 +4974,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::ContainsKey(System.String):System.Boolean",
@@ -4953,7 +4988,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -4966,7 +5002,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -4979,7 +5016,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -4992,7 +5030,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -5005,7 +5044,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -5018,7 +5058,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -5031,7 +5072,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -5044,7 +5086,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -5057,7 +5100,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -5070,7 +5114,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -5083,7 +5128,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -5096,7 +5142,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -5109,7 +5156,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
@@ -5122,7 +5170,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
@@ -5135,7 +5184,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -5148,7 +5198,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -5161,7 +5212,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -5174,7 +5226,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -5187,7 +5240,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::get_Item(System.Int32):System.Text.RegularExpressions.Group",
@@ -5200,7 +5254,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::get_Item(System.String):System.Text.RegularExpressions.Group",
@@ -5213,7 +5268,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.GroupCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5938,7 +5994,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Match",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Match::Result(System.String):System.String",
@@ -5951,7 +6008,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Match",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Match::Synchronized(System.Text.RegularExpressions.Match):System.Text.RegularExpressions.Match",
@@ -5964,7 +6022,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Match",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -6213,7 +6272,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchCollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6226,7 +6286,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchCollection::CopyTo(System.Text.RegularExpressions.Match[],System.Int32):System.Void",
@@ -6239,7 +6300,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.MatchCollection",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
@@ -6252,7 +6314,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
@@ -6265,7 +6328,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
@@ -6278,7 +6342,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.IList\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
@@ -6291,7 +6356,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
@@ -6304,7 +6370,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
@@ -6317,7 +6384,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
@@ -6330,7 +6398,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
@@ -6343,7 +6412,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
@@ -6356,7 +6426,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
@@ -6369,7 +6440,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
@@ -6382,7 +6454,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
@@ -6395,7 +6468,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
@@ -6408,7 +6482,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
@@ -6421,7 +6496,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
@@ -6434,7 +6510,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Collections.IList",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
@@ -6447,7 +6524,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -7040,7 +7118,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchEvaluator::BeginInvoke(System.Text.RegularExpressions.Match,System.AsyncCallback,System.Object):System.IAsyncResult",
@@ -7053,7 +7132,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchEvaluator::EndInvoke(System.IAsyncResult):System.String",
@@ -7066,7 +7146,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
@@ -7079,7 +7160,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7092,7 +7174,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchEvaluator::Clone():System.Object",
@@ -7105,7 +7188,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchEvaluator::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -7118,7 +7202,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.MatchEvaluator",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
@@ -7510,7 +7595,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void",
@@ -7523,7 +7609,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void",
@@ -7536,7 +7623,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Escape(System.String):System.String",
@@ -7549,7 +7637,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Unescape(System.String):System.String",
@@ -7562,7 +7651,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::ToString():System.String",
@@ -7575,7 +7665,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::GetGroupNames():System.String[]",
@@ -7588,7 +7679,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::GetGroupNumbers():System.Int32[]",
@@ -7601,7 +7693,8 @@
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::GroupNameFromNumber(System.Int32):System.String",
@@ -7614,7 +7707,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::GroupNumberFromName(System.String):System.Int32",
@@ -7627,7 +7721,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String):System.Int32",
@@ -7640,7 +7735,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
@@ -7653,7 +7749,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32",
@@ -7666,7 +7763,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String):System.Int32",
@@ -7679,7 +7777,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
@@ -7692,7 +7791,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
@@ -7705,7 +7805,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32",
@@ -7718,7 +7819,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
@@ -7731,7 +7833,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
@@ -7744,7 +7847,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String):System.Boolean",
@@ -7757,7 +7861,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean",
@@ -7770,7 +7875,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
@@ -7783,7 +7889,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
@@ -7796,7 +7903,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
@@ -7809,7 +7917,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
@@ -7822,7 +7931,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String):System.Boolean",
@@ -7835,7 +7945,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.Int32):System.Boolean",
@@ -7848,7 +7959,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
@@ -7861,7 +7973,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
@@ -7874,7 +7987,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String):System.Text.RegularExpressions.Match",
@@ -7887,7 +8001,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match",
@@ -7900,7 +8015,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match",
@@ -7913,7 +8029,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String):System.Text.RegularExpressions.Match",
@@ -7926,7 +8043,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32):System.Text.RegularExpressions.Match",
@@ -7939,7 +8057,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match",
@@ -7952,7 +8071,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String):System.Text.RegularExpressions.MatchCollection",
@@ -7965,7 +8085,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection",
@@ -7978,7 +8099,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection",
@@ -7991,7 +8113,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String):System.Text.RegularExpressions.MatchCollection",
@@ -8004,7 +8127,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection",
@@ -8017,7 +8141,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String):System.String",
@@ -8030,7 +8155,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String",
@@ -8043,7 +8169,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
@@ -8056,7 +8183,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String):System.String",
@@ -8069,7 +8197,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32):System.String",
@@ -8082,7 +8211,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32,System.Int32):System.String",
@@ -8095,7 +8225,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
@@ -8108,7 +8239,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String",
@@ -8121,7 +8253,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
@@ -8134,7 +8267,8 @@
           "arity": 0,
           "parameterCount": 5,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
@@ -8147,7 +8281,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String",
@@ -8160,7 +8295,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String",
@@ -8173,7 +8309,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String):System.String[]",
@@ -8186,7 +8323,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]",
@@ -8199,7 +8337,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]",
@@ -8212,7 +8351,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String):System.String[]",
@@ -8225,7 +8365,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32):System.String[]",
@@ -8238,7 +8379,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32,System.Int32):System.String[]",
@@ -8251,7 +8393,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
@@ -8264,7 +8407,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
@@ -8277,7 +8421,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
@@ -8290,7 +8435,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
@@ -8303,7 +8449,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
@@ -8316,7 +8463,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8329,7 +8477,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8342,7 +8491,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8355,7 +8505,8 @@
           "arity": 0,
           "parameterCount": 4,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8368,7 +8519,8 @@
           "arity": 0,
           "parameterCount": 1,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8381,7 +8533,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -8394,7 +8547,8 @@
           "arity": 0,
           "parameterCount": 3,
           "declaringClrType": "System.Text.RegularExpressions.Regex",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -8407,7 +8561,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9630,7 +9785,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -9643,7 +9799,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.RegexMatchTimeoutException",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -9995,7 +10152,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.RegexParseException",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
@@ -10008,7 +10166,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -10287,7 +10446,8 @@
           "arity": 0,
           "parameterCount": 2,
           "declaringClrType": "System.Text.RegularExpressions.RegexRunner",
-          "declaringAssemblyName": "System.Text.RegularExpressions"
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [],
