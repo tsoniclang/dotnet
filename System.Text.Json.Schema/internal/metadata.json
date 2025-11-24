@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext",
       "clrName": "System.Text.Json.Schema.JsonSchemaExporterContext",
       "tsEmitName": "JsonSchemaExporterContext",
       "kind": "Struct",
@@ -16,8 +17,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::TypeInfo:System.Text.Json.Serialization.Metadata.JsonTypeInfo",
           "clrName": "TypeInfo",
-          "tsEmitName": "typeInfo",
+          "tsEmitName": "TypeInfo",
           "normalizedSignature": "TypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -30,8 +32,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::PropertyInfo:System.Text.Json.Serialization.Metadata.JsonPropertyInfo",
           "clrName": "PropertyInfo",
-          "tsEmitName": "propertyInfo",
+          "tsEmitName": "PropertyInfo",
           "normalizedSignature": "PropertyInfo|:System.Text.Json.Serialization.Metadata.JsonPropertyInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -44,8 +47,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::BaseTypeInfo:System.Text.Json.Serialization.Metadata.JsonTypeInfo",
           "clrName": "BaseTypeInfo",
-          "tsEmitName": "baseTypeInfo",
+          "tsEmitName": "BaseTypeInfo",
           "normalizedSignature": "BaseTypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -58,8 +62,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::Path:System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Path",
-          "tsEmitName": "path",
+          "tsEmitName": "Path",
           "normalizedSignature": "Path|:System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -77,6 +82,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions",
       "clrName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
       "tsEmitName": "JsonSchemaExporterOptions",
       "kind": "Class",
@@ -88,8 +94,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::Default:System.Text.Json.Schema.JsonSchemaExporterOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "Default",
           "normalizedSignature": "Default|:System.Text.Json.Schema.JsonSchemaExporterOptions|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -102,8 +109,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::TreatNullObliviousAsNonNullable:System.Boolean",
           "clrName": "TreatNullObliviousAsNonNullable",
-          "tsEmitName": "treatNullObliviousAsNonNullable",
+          "tsEmitName": "TreatNullObliviousAsNonNullable",
           "normalizedSignature": "TreatNullObliviousAsNonNullable|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -116,8 +124,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::TransformSchemaNode:System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "TransformSchemaNode",
-          "tsEmitName": "transformSchemaNode",
+          "tsEmitName": "TransformSchemaNode",
           "normalizedSignature": "TransformSchemaNode|:System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -141,6 +150,7 @@
       ]
     },
     {
+      "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter",
       "clrName": "System.Text.Json.Schema.JsonSchemaExporter",
       "tsEmitName": "JsonSchemaExporter",
       "kind": "StaticNamespace",
@@ -151,8 +161,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "GetJsonSchemaAsNode",
-          "tsEmitName": "getJsonSchemaAsNode",
+          "tsEmitName": "GetJsonSchemaAsNode",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -165,8 +176,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "GetJsonSchemaAsNode",
-          "tsEmitName": "getJsonSchemaAsNode2",
+          "tsEmitName": "GetJsonSchemaAsNode2",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

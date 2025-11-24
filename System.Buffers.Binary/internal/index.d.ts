@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
@@ -86,32 +86,32 @@ export abstract class BinaryPrimitives$instance {
     static ReverseEndianness(value: uint): uint;
     static ReverseEndianness(value: ulong): ulong;
     static ReverseEndianness(value: nuint): nuint;
-    static TryReadDoubleBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<double> }): boolean;
-    static TryReadDoubleLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<double> }): boolean;
-    static TryReadHalfBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<half> }): boolean;
-    static TryReadHalfLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<half> }): boolean;
-    static TryReadInt128BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<int128> }): boolean;
-    static TryReadInt128LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<int128> }): boolean;
-    static TryReadInt16BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<short> }): boolean;
-    static TryReadInt16LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<short> }): boolean;
-    static TryReadInt32BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<int> }): boolean;
-    static TryReadInt32LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<int> }): boolean;
-    static TryReadInt64BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<long> }): boolean;
-    static TryReadInt64LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<long> }): boolean;
-    static TryReadIntPtrBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<nint> }): boolean;
-    static TryReadIntPtrLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<nint> }): boolean;
-    static TryReadSingleBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<float> }): boolean;
-    static TryReadSingleLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<float> }): boolean;
-    static TryReadUInt128BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<uint128> }): boolean;
-    static TryReadUInt128LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<uint128> }): boolean;
-    static TryReadUInt16BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<ushort> }): boolean;
-    static TryReadUInt16LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<ushort> }): boolean;
-    static TryReadUInt32BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<uint> }): boolean;
-    static TryReadUInt32LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<uint> }): boolean;
-    static TryReadUInt64BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<ulong> }): boolean;
-    static TryReadUInt64LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<ulong> }): boolean;
-    static TryReadUIntPtrBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<nuint> }): boolean;
-    static TryReadUIntPtrLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: TSByRef<nuint> }): boolean;
+    static TryReadDoubleBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<double> }): boolean;
+    static TryReadDoubleLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<double> }): boolean;
+    static TryReadHalfBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<half> }): boolean;
+    static TryReadHalfLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<half> }): boolean;
+    static TryReadInt128BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int128> }): boolean;
+    static TryReadInt128LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int128> }): boolean;
+    static TryReadInt16BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<short> }): boolean;
+    static TryReadInt16LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<short> }): boolean;
+    static TryReadInt32BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int> }): boolean;
+    static TryReadInt32LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<int> }): boolean;
+    static TryReadInt64BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<long> }): boolean;
+    static TryReadInt64LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<long> }): boolean;
+    static TryReadIntPtrBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<nint> }): boolean;
+    static TryReadIntPtrLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<nint> }): boolean;
+    static TryReadSingleBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<float> }): boolean;
+    static TryReadSingleLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<float> }): boolean;
+    static TryReadUInt128BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint128> }): boolean;
+    static TryReadUInt128LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint128> }): boolean;
+    static TryReadUInt16BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ushort> }): boolean;
+    static TryReadUInt16LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ushort> }): boolean;
+    static TryReadUInt32BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint> }): boolean;
+    static TryReadUInt32LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<uint> }): boolean;
+    static TryReadUInt64BigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ulong> }): boolean;
+    static TryReadUInt64LittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<ulong> }): boolean;
+    static TryReadUIntPtrBigEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<nuint> }): boolean;
+    static TryReadUIntPtrLittleEndian(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<nuint> }): boolean;
     static TryWriteDoubleBigEndian(destination: Span_1<CLROf<byte>>, value: double): boolean;
     static TryWriteDoubleLittleEndian(destination: Span_1<CLROf<byte>>, value: double): boolean;
     static TryWriteHalfBigEndian(destination: Span_1<CLROf<byte>>, value: half): boolean;

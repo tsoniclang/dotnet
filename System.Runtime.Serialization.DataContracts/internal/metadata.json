@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract",
       "clrName": "System.Runtime.Serialization.DataContracts.DataContract",
       "tsEmitName": "DataContract",
       "kind": "Class",
@@ -15,8 +16,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::GetBuiltInDataContract(System.String,System.String):System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "GetBuiltInDataContract",
-          "tsEmitName": "getBuiltInDataContract",
+          "tsEmitName": "GetBuiltInDataContract",
           "normalizedSignature": "GetBuiltInDataContract|(System.String,System.String):System.Runtime.Serialization.DataContracts.DataContract|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -29,8 +31,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::IsDictionaryLike(System.String\u0026,System.String\u0026,System.String\u0026):System.Boolean",
           "clrName": "IsDictionaryLike",
-          "tsEmitName": "isDictionaryLike",
+          "tsEmitName": "IsDictionaryLike",
           "normalizedSignature": "IsDictionaryLike|(System.String\u0026,System.String\u0026,System.String\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -43,8 +46,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::GetXmlName(System.Type):System.Xml.XmlQualifiedName",
           "clrName": "GetXmlName",
-          "tsEmitName": "getXmlName",
+          "tsEmitName": "GetXmlName",
           "normalizedSignature": "GetXmlName|(System.Type):System.Xml.XmlQualifiedName|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -57,8 +61,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::GetArrayTypeName(System.Boolean):System.Xml.XmlQualifiedName",
           "clrName": "GetArrayTypeName",
-          "tsEmitName": "getArrayTypeName",
+          "tsEmitName": "GetArrayTypeName",
           "normalizedSignature": "GetArrayTypeName|(System.Boolean):System.Xml.XmlQualifiedName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -71,8 +76,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -85,8 +91,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -101,8 +108,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::ContractType:System.String",
           "clrName": "ContractType",
-          "tsEmitName": "contractType",
+          "tsEmitName": "ContractType",
           "normalizedSignature": "ContractType|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -115,8 +123,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::UnderlyingType:System.Type",
           "clrName": "UnderlyingType",
-          "tsEmitName": "underlyingType",
+          "tsEmitName": "UnderlyingType",
           "normalizedSignature": "UnderlyingType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -129,8 +138,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::OriginalUnderlyingType:System.Type",
           "clrName": "OriginalUnderlyingType",
-          "tsEmitName": "originalUnderlyingType",
+          "tsEmitName": "OriginalUnderlyingType",
           "normalizedSignature": "OriginalUnderlyingType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -143,8 +153,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::IsBuiltInDataContract:System.Boolean",
           "clrName": "IsBuiltInDataContract",
-          "tsEmitName": "isBuiltInDataContract",
+          "tsEmitName": "IsBuiltInDataContract",
           "normalizedSignature": "IsBuiltInDataContract|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -157,8 +168,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::IsValueType:System.Boolean",
           "clrName": "IsValueType",
-          "tsEmitName": "isValueType",
+          "tsEmitName": "IsValueType",
           "normalizedSignature": "IsValueType|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -171,8 +183,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::IsReference:System.Boolean",
           "clrName": "IsReference",
-          "tsEmitName": "isReference",
+          "tsEmitName": "IsReference",
           "normalizedSignature": "IsReference|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -185,8 +198,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::XmlName:System.Xml.XmlQualifiedName",
           "clrName": "XmlName",
-          "tsEmitName": "xmlName",
+          "tsEmitName": "XmlName",
           "normalizedSignature": "XmlName|:System.Xml.XmlQualifiedName|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -199,8 +213,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::BaseContract:System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "BaseContract",
-          "tsEmitName": "baseContract",
+          "tsEmitName": "BaseContract",
           "normalizedSignature": "BaseContract|:System.Runtime.Serialization.DataContracts.DataContract|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -213,8 +228,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::KnownDataContracts:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "KnownDataContracts",
-          "tsEmitName": "knownDataContracts",
+          "tsEmitName": "KnownDataContracts",
           "normalizedSignature": "KnownDataContracts|:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -227,8 +243,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::IsISerializable:System.Boolean",
           "clrName": "IsISerializable",
-          "tsEmitName": "isISerializable",
+          "tsEmitName": "IsISerializable",
           "normalizedSignature": "IsISerializable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -241,8 +258,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::TopLevelElementName:System.Xml.XmlDictionaryString",
           "clrName": "TopLevelElementName",
-          "tsEmitName": "topLevelElementName",
+          "tsEmitName": "TopLevelElementName",
           "normalizedSignature": "TopLevelElementName|:System.Xml.XmlDictionaryString|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -255,8 +273,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::TopLevelElementNamespace:System.Xml.XmlDictionaryString",
           "clrName": "TopLevelElementNamespace",
-          "tsEmitName": "topLevelElementNamespace",
+          "tsEmitName": "TopLevelElementNamespace",
           "normalizedSignature": "TopLevelElementNamespace|:System.Xml.XmlDictionaryString|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -269,8 +288,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContract::DataMembers:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Runtime.Serialization.DataContracts.DataMember,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "DataMembers",
-          "tsEmitName": "dataMembers",
+          "tsEmitName": "DataMembers",
           "normalizedSignature": "DataMembers|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Runtime.Serialization.DataContracts.DataMember,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -288,6 +308,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet",
       "clrName": "System.Runtime.Serialization.DataContracts.DataContractSet",
       "tsEmitName": "DataContractSet",
       "kind": "Class",
@@ -298,8 +319,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::GetDataContract(System.Type):System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "GetDataContract",
-          "tsEmitName": "getDataContract",
+          "tsEmitName": "GetDataContract",
           "normalizedSignature": "GetDataContract|(System.Type):System.Runtime.Serialization.DataContracts.DataContract|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -312,8 +334,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::GetDataContract(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "GetDataContract",
-          "tsEmitName": "getDataContract2",
+          "tsEmitName": "GetDataContract2",
           "normalizedSignature": "GetDataContract|(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -326,8 +349,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::GetReferencedType(System.Xml.XmlQualifiedName,System.Runtime.Serialization.DataContracts.DataContract,System.Runtime.Serialization.DataContracts.DataContract\u0026,System.Object[]\u0026,System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Type",
           "clrName": "GetReferencedType",
-          "tsEmitName": "getReferencedType",
+          "tsEmitName": "GetReferencedType",
           "normalizedSignature": "GetReferencedType|(System.Xml.XmlQualifiedName,System.Runtime.Serialization.DataContracts.DataContract,System.Runtime.Serialization.DataContracts.DataContract\u0026,System.Object[]\u0026,System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,8 +364,9 @@
           "parameterCount": 5
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::ImportSchemaSet(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Void",
           "clrName": "ImportSchemaSet",
-          "tsEmitName": "importSchemaSet",
+          "tsEmitName": "ImportSchemaSet",
           "normalizedSignature": "ImportSchemaSet|(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -354,8 +379,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::ImportSchemaSet(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "ImportSchemaSet",
-          "tsEmitName": "importSchemaSet2",
+          "tsEmitName": "ImportSchemaSet2",
           "normalizedSignature": "ImportSchemaSet|(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -370,8 +396,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::Contracts:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "Contracts",
-          "tsEmitName": "contracts",
+          "tsEmitName": "Contracts",
           "normalizedSignature": "Contracts|:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -384,8 +411,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::ProcessedContracts:System.Collections.Generic.Dictionary_2[[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ProcessedContracts",
-          "tsEmitName": "processedContracts",
+          "tsEmitName": "ProcessedContracts",
           "normalizedSignature": "ProcessedContracts|:System.Collections.Generic.Dictionary_2[[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -398,8 +426,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::SurrogateData:System.Collections.Hashtable",
           "clrName": "SurrogateData",
-          "tsEmitName": "surrogateData",
+          "tsEmitName": "SurrogateData",
           "normalizedSignature": "SurrogateData|:System.Collections.Hashtable|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -412,8 +441,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::KnownTypesForObject:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "KnownTypesForObject",
-          "tsEmitName": "knownTypesForObject",
+          "tsEmitName": "KnownTypesForObject",
           "normalizedSignature": "KnownTypesForObject|:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -442,6 +472,7 @@
       ]
     },
     {
+      "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember",
       "clrName": "System.Runtime.Serialization.DataContracts.DataMember",
       "tsEmitName": "DataMember",
       "kind": "Class",
@@ -453,8 +484,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -467,8 +499,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::Order:System.Int64",
           "clrName": "Order",
-          "tsEmitName": "order",
+          "tsEmitName": "Order",
           "normalizedSignature": "Order|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -481,8 +514,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::IsRequired:System.Boolean",
           "clrName": "IsRequired",
-          "tsEmitName": "isRequired",
+          "tsEmitName": "IsRequired",
           "normalizedSignature": "IsRequired|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -495,8 +529,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::EmitDefaultValue:System.Boolean",
           "clrName": "EmitDefaultValue",
-          "tsEmitName": "emitDefaultValue",
+          "tsEmitName": "EmitDefaultValue",
           "normalizedSignature": "EmitDefaultValue|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -509,8 +544,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::IsNullable:System.Boolean",
           "clrName": "IsNullable",
-          "tsEmitName": "isNullable",
+          "tsEmitName": "IsNullable",
           "normalizedSignature": "IsNullable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -523,8 +559,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataMember::MemberTypeContract:System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "MemberTypeContract",
-          "tsEmitName": "memberTypeContract",
+          "tsEmitName": "MemberTypeContract",
           "normalizedSignature": "MemberTypeContract|:System.Runtime.Serialization.DataContracts.DataContract|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -542,6 +579,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract",
       "clrName": "System.Runtime.Serialization.DataContracts.XmlDataContract",
       "tsEmitName": "XmlDataContract",
       "kind": "Class",
@@ -553,8 +591,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::ContractType:System.String",
           "clrName": "ContractType",
-          "tsEmitName": "contractType",
+          "tsEmitName": "ContractType",
           "normalizedSignature": "ContractType|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -567,8 +606,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::KnownDataContracts:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "KnownDataContracts",
-          "tsEmitName": "knownDataContracts",
+          "tsEmitName": "KnownDataContracts",
           "normalizedSignature": "KnownDataContracts|:System.Collections.Generic.Dictionary_2[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Runtime.Serialization.DataContracts.DataContract,System.Private.DataContractSerialization,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -581,8 +621,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::XsdType:System.Xml.Schema.XmlSchemaType",
           "clrName": "XsdType",
-          "tsEmitName": "xsdType",
+          "tsEmitName": "XsdType",
           "normalizedSignature": "XsdType|:System.Xml.Schema.XmlSchemaType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -595,8 +636,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::IsAnonymous:System.Boolean",
           "clrName": "IsAnonymous",
-          "tsEmitName": "isAnonymous",
+          "tsEmitName": "IsAnonymous",
           "normalizedSignature": "IsAnonymous|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -609,8 +651,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::IsValueType:System.Boolean",
           "clrName": "IsValueType",
-          "tsEmitName": "isValueType",
+          "tsEmitName": "IsValueType",
           "normalizedSignature": "IsValueType|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -623,8 +666,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::HasRoot:System.Boolean",
           "clrName": "HasRoot",
-          "tsEmitName": "hasRoot",
+          "tsEmitName": "HasRoot",
           "normalizedSignature": "HasRoot|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -637,8 +681,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::TopLevelElementName:System.Xml.XmlDictionaryString",
           "clrName": "TopLevelElementName",
-          "tsEmitName": "topLevelElementName",
+          "tsEmitName": "TopLevelElementName",
           "normalizedSignature": "TopLevelElementName|:System.Xml.XmlDictionaryString|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -651,8 +696,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::TopLevelElementNamespace:System.Xml.XmlDictionaryString",
           "clrName": "TopLevelElementNamespace",
-          "tsEmitName": "topLevelElementNamespace",
+          "tsEmitName": "TopLevelElementNamespace",
           "normalizedSignature": "TopLevelElementNamespace|:System.Xml.XmlDictionaryString|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -665,8 +711,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::IsTopLevelElementNullable:System.Boolean",
           "clrName": "IsTopLevelElementNullable",
-          "tsEmitName": "isTopLevelElementNullable",
+          "tsEmitName": "IsTopLevelElementNullable",
           "normalizedSignature": "IsTopLevelElementNullable|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -679,8 +726,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::IsTypeDefinedOnImport:System.Boolean",
           "clrName": "IsTypeDefinedOnImport",
-          "tsEmitName": "isTypeDefinedOnImport",
+          "tsEmitName": "IsTypeDefinedOnImport",
           "normalizedSignature": "IsTypeDefinedOnImport|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -693,8 +741,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.XmlDataContract::IsBuiltInDataContract:System.Boolean",
           "clrName": "IsBuiltInDataContract",
-          "tsEmitName": "isBuiltInDataContract",
+          "tsEmitName": "IsBuiltInDataContract",
           "normalizedSignature": "IsBuiltInDataContract|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

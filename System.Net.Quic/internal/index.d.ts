@@ -48,37 +48,37 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum QuicAbortDirection {
-    read = 1,
-    write = 2,
-    both = 3
+    Read = 1,
+    Write = 2,
+    Both = 3
 }
 
 
 export enum QuicError {
-    success = 0,
-    internalError = 1,
-    connectionAborted = 2,
-    streamAborted = 3,
-    connectionTimeout = 6,
-    connectionRefused = 8,
-    versionNegotiationError = 9,
-    connectionIdle = 10,
-    operationAborted = 12,
-    alpnInUse = 13,
-    transportError = 14,
-    callbackError = 15
+    Success = 0,
+    InternalError = 1,
+    ConnectionAborted = 2,
+    StreamAborted = 3,
+    ConnectionTimeout = 6,
+    ConnectionRefused = 8,
+    VersionNegotiationError = 9,
+    ConnectionIdle = 10,
+    OperationAborted = 12,
+    AlpnInUse = 13,
+    TransportError = 14,
+    CallbackError = 15
 }
 
 
 export enum QuicStreamType {
-    unidirectional = 0,
-    bidirectional = 1
+    Unidirectional = 0,
+    Bidirectional = 1
 }
 
 
 export class QuicStreamCapacityChangedArgs$instance {
-    bidirectionalIncrement: int;
-    unidirectionalIncrement: int;
+    BidirectionalIncrement: int;
+    UnidirectionalIncrement: int;
 }
 
 
@@ -86,27 +86,27 @@ export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instan
 
 export class QuicClientConnectionOptions$instance extends QuicConnectionOptions$instance {
     constructor();
-    clientAuthenticationOptions: SslClientAuthenticationOptions;
-    localEndPoint: IPEndPoint;
-    remoteEndPoint: EndPoint;
+    ClientAuthenticationOptions: SslClientAuthenticationOptions;
+    LocalEndPoint: IPEndPoint;
+    RemoteEndPoint: EndPoint;
 }
 
 
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
 export class QuicConnection$instance {
-    readonly localEndPoint: IPEndPoint;
-    readonly negotiatedApplicationProtocol: SslApplicationProtocol;
-    readonly negotiatedCipherSuite: TlsCipherSuite;
-    readonly remoteCertificate: X509Certificate;
-    readonly remoteEndPoint: IPEndPoint;
-    readonly sslProtocol: SslProtocols;
-    readonly targetHostName: string;
-    acceptInboundStreamAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
-    closeAsync(errorCode: long, cancellationToken?: CancellationToken): ValueTask;
-    disposeAsync(): ValueTask;
-    openOutboundStreamAsync(type_: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
-    toString(): string;
+    readonly LocalEndPoint: IPEndPoint;
+    readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
+    readonly NegotiatedCipherSuite: TlsCipherSuite;
+    readonly RemoteCertificate: X509Certificate;
+    readonly RemoteEndPoint: IPEndPoint;
+    readonly SslProtocol: SslProtocols;
+    readonly TargetHostName: string;
+    AcceptInboundStreamAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
+    CloseAsync(errorCode: long, cancellationToken?: CancellationToken): ValueTask;
+    DisposeAsync(): ValueTask;
+    OpenOutboundStreamAsync(type_: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
+    ToString(): string;
     static readonly IsSupported: boolean;
     static ConnectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
 }
@@ -120,15 +120,15 @@ export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
 
 export abstract class QuicConnectionOptions$instance {
-    defaultCloseErrorCode: long;
-    defaultStreamErrorCode: long;
-    handshakeTimeout: TimeSpan;
-    idleTimeout: TimeSpan;
-    initialReceiveWindowSizes: QuicReceiveWindowSizes;
-    keepAliveInterval: TimeSpan;
-    maxInboundBidirectionalStreams: int;
-    maxInboundUnidirectionalStreams: int;
-    streamCapacityCallback: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>;
+    DefaultCloseErrorCode: long;
+    DefaultStreamErrorCode: long;
+    HandshakeTimeout: TimeSpan;
+    IdleTimeout: TimeSpan;
+    InitialReceiveWindowSizes: QuicReceiveWindowSizes;
+    KeepAliveInterval: TimeSpan;
+    MaxInboundBidirectionalStreams: int;
+    MaxInboundUnidirectionalStreams: int;
+    StreamCapacityCallback: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>;
 }
 
 
@@ -136,10 +136,10 @@ export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
 export class QuicException$instance extends System_IO_Internal.IOException$instance {
     constructor(error: QuicError, applicationErrorCode: Nullable_1<CLROf<long>>, message: string);
-    readonly applicationErrorCode: Nullable_1<CLROf<long>>;
-    readonly quicError: QuicError;
-    readonly transportErrorCode: Nullable_1<CLROf<long>>;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly ApplicationErrorCode: Nullable_1<CLROf<long>>;
+    readonly QuicError: QuicError;
+    readonly TransportErrorCode: Nullable_1<CLROf<long>>;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -151,10 +151,10 @@ export type QuicException = QuicException$instance & __QuicException$views;
 
 
 export class QuicListener$instance {
-    readonly localEndPoint: IPEndPoint;
-    acceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
-    disposeAsync(): ValueTask;
-    toString(): string;
+    readonly LocalEndPoint: IPEndPoint;
+    AcceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
+    DisposeAsync(): ValueTask;
+    ToString(): string;
     static readonly IsSupported: boolean;
     static ListenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
 }
@@ -169,10 +169,10 @@ export type QuicListener = QuicListener$instance & __QuicListener$views;
 
 export class QuicListenerOptions$instance {
     constructor();
-    applicationProtocols: List_1<SslApplicationProtocol>;
-    connectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
-    listenBacklog: int;
-    listenEndPoint: IPEndPoint;
+    ApplicationProtocols: List_1<SslApplicationProtocol>;
+    ConnectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
+    ListenBacklog: int;
+    ListenEndPoint: IPEndPoint;
 }
 
 
@@ -180,10 +180,10 @@ export type QuicListenerOptions = QuicListenerOptions$instance;
 
 export class QuicReceiveWindowSizes$instance {
     constructor();
-    connection: int;
-    locallyInitiatedBidirectionalStream: int;
-    remotelyInitiatedBidirectionalStream: int;
-    unidirectionalStream: int;
+    Connection: int;
+    LocallyInitiatedBidirectionalStream: int;
+    RemotelyInitiatedBidirectionalStream: int;
+    UnidirectionalStream: int;
 }
 
 
@@ -191,56 +191,56 @@ export type QuicReceiveWindowSizes = QuicReceiveWindowSizes$instance;
 
 export class QuicServerConnectionOptions$instance extends QuicConnectionOptions$instance {
     constructor();
-    serverAuthenticationOptions: SslServerAuthenticationOptions;
+    ServerAuthenticationOptions: SslServerAuthenticationOptions;
 }
 
 
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
 export class QuicStream$instance extends System_IO_Internal.Stream$instance {
-    readonly canRead: boolean;
-    readonly canSeek: boolean;
-    readonly canTimeout: boolean;
-    readonly canWrite: boolean;
-    readonly id: long;
-    readonly length: long;
-    position: long;
-    readonly readsClosed: Task;
-    readTimeout: int;
-    readonly type_: QuicStreamType;
-    readonly writesClosed: Task;
-    writeTimeout: int;
-    abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
-    completeWrites(): void;
-    dispose(): void;
-    disposeAsync(): ValueTask;
-    endRead(asyncResult: IAsyncResult): int;
-    endWrite(asyncResult: IAsyncResult): void;
-    flush(): void;
-    flushAsync(cancellationToken?: CancellationToken): Task;
-    flushAsync(): Task;
-    read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readByte(): int;
-    seek(offset: long, origin: SeekOrigin): long;
-    setLength(value: long): void;
-    toString(): string;
-    write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    writeAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
-    writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    writeByte(value: byte): void;
+    readonly CanRead: boolean;
+    readonly CanSeek: boolean;
+    readonly CanTimeout: boolean;
+    readonly CanWrite: boolean;
+    readonly Id: long;
+    readonly Length: long;
+    Position: long;
+    readonly ReadsClosed: Task;
+    ReadTimeout: int;
+    readonly Type: QuicStreamType;
+    readonly WritesClosed: Task;
+    WriteTimeout: int;
+    Abort(abortDirection: QuicAbortDirection, errorCode: long): void;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
+    CompleteWrites(): void;
+    Dispose(): void;
+    DisposeAsync(): ValueTask;
+    EndRead(asyncResult: IAsyncResult): int;
+    EndWrite(asyncResult: IAsyncResult): void;
+    Flush(): void;
+    FlushAsync(cancellationToken?: CancellationToken): Task;
+    FlushAsync(): Task;
+    Read(buffer: byte[], offset: int, count: int): int;
+    Read(buffer: Span_1<CLROf<byte>>): int;
+    Read(buffer: Span_1<CLROf<byte>>): int;
+    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
+    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
+    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    ReadAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    ReadByte(): int;
+    Seek(offset: long, origin: SeekOrigin): long;
+    SetLength(value: long): void;
+    ToString(): string;
+    Write(buffer: byte[], offset: int, count: int): void;
+    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    Write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
+    WriteAsync(buffer: byte[], offset: int, count: int): Task;
+    WriteAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    WriteByte(value: byte): void;
 }
 
 

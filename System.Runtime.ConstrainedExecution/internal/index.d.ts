@@ -35,17 +35,17 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum Cer {
-    none = 0,
-    mayFail = 1,
-    success = 2
+    None = 0,
+    MayFail = 1,
+    Success = 2
 }
 
 
 export enum Consistency {
-    mayCorruptProcess = 0,
-    mayCorruptAppDomain = 1,
-    mayCorruptInstance = 2,
-    willNotCorruptState = 3
+    MayCorruptProcess = 0,
+    MayCorruptAppDomain = 1,
+    MayCorruptInstance = 2,
+    WillNotCorruptState = 3
 }
 
 
@@ -64,8 +64,8 @@ export type PrePrepareMethodAttribute = PrePrepareMethodAttribute$instance;
 
 export class ReliabilityContractAttribute$instance extends System_Internal.Attribute$instance {
     constructor(consistencyGuarantee: Consistency, cer: Cer);
-    readonly cer: Cer;
-    readonly consistencyGuarantee: Consistency;
+    readonly Cer: Cer;
+    readonly ConsistencyGuarantee: Consistency;
 }
 
 

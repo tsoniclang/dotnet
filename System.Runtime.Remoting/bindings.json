@@ -2,15 +2,17 @@
   "namespace": "System.Runtime.Remoting",
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle",
       "clrName": "System.Runtime.Remoting.ObjectHandle",
       "tsEmitName": "ObjectHandle",
       "assemblyName": "System.Private.CoreLib",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
-          "tsEmitName": "unwrap",
-          "metadataToken": 100682741,
+          "tsEmitName": "Unwrap",
+          "metadataToken": 100682761,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
           "emitScope": "ClassSurface",
@@ -25,7 +27,8 @@
       "events": [],
       "constructors": [
         {
-          "metadataToken": 100682740,
+          "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::.ctor(System.Object):void",
+          "metadataToken": 100682760,
           "canonicalSignature": "(System.Object):void",
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
@@ -36,17 +39,17 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "unwrap",
+          "tsName": "Unwrap",
           "isStatic": false,
           "tsSignatureId": "Unwrap|():System.Object|static=false",
           "target": {
             "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682741
+            "metadataToken": 100682761
           }
         },
         {
-          "tsName": "getLifetimeService",
+          "tsName": "GetLifetimeService",
           "isStatic": false,
           "tsSignatureId": "GetLifetimeService|():System.Object|static=false",
           "target": {
@@ -56,7 +59,7 @@
           }
         },
         {
-          "tsName": "initializeLifetimeService",
+          "tsName": "InitializeLifetimeService",
           "isStatic": false,
           "tsSignatureId": "InitializeLifetimeService|():System.Object|static=false",
           "target": {
@@ -66,7 +69,7 @@
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -76,7 +79,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -86,7 +89,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -96,7 +99,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -106,7 +109,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -116,7 +119,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -133,7 +136,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682740
+            "metadataToken": 100682760
           }
         }
       ]

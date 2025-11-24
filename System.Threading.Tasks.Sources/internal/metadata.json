@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
       "clrName": "System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
       "tsEmitName": "ValueTaskSourceOnCompletedFlags",
       "kind": "Enum",
@@ -17,6 +18,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -25,24 +27,27 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::NoneSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "None",
-          "tsEmitName": "none",
+          "tsEmitName": "None",
           "normalizedSignature": "None|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::UseSchedulingContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "UseSchedulingContext",
-          "tsEmitName": "useSchedulingContext",
+          "tsEmitName": "UseSchedulingContext",
           "normalizedSignature": "UseSchedulingContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::FlowExecutionContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "FlowExecutionContext",
-          "tsEmitName": "flowExecutionContext",
+          "tsEmitName": "FlowExecutionContext",
           "normalizedSignature": "FlowExecutionContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -53,6 +58,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus",
       "clrName": "System.Threading.Tasks.Sources.ValueTaskSourceStatus",
       "tsEmitName": "ValueTaskSourceStatus",
       "kind": "Enum",
@@ -65,6 +71,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -73,32 +80,36 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::PendingSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Pending",
-          "tsEmitName": "pending",
+          "tsEmitName": "Pending",
           "normalizedSignature": "Pending|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::SucceededSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Succeeded",
-          "tsEmitName": "succeeded",
+          "tsEmitName": "Succeeded",
           "normalizedSignature": "Succeeded|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::FaultedSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Faulted",
-          "tsEmitName": "faulted",
+          "tsEmitName": "Faulted",
           "normalizedSignature": "Faulted|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::CanceledSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Canceled",
-          "tsEmitName": "canceled",
+          "tsEmitName": "Canceled",
           "normalizedSignature": "Canceled|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -109,6 +120,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource",
       "clrName": "System.Threading.Tasks.Sources.IValueTaskSource",
       "tsEmitName": "IValueTaskSource",
       "kind": "Interface",
@@ -119,8 +131,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "GetStatus",
-          "tsEmitName": "getStatus",
+          "tsEmitName": "GetStatus",
           "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -133,8 +146,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
           "clrName": "OnCompleted",
-          "tsEmitName": "onCompleted",
+          "tsEmitName": "OnCompleted",
           "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -147,8 +161,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource::GetResult(System.Int16):System.Void",
           "clrName": "GetResult",
-          "tsEmitName": "getResult",
+          "tsEmitName": "GetResult",
           "normalizedSignature": "GetResult|(System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -167,6 +182,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601",
       "clrName": "System.Threading.Tasks.Sources.IValueTaskSource\u00601",
       "tsEmitName": "IValueTaskSource_1",
       "kind": "Interface",
@@ -177,8 +193,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "GetStatus",
-          "tsEmitName": "getStatus",
+          "tsEmitName": "GetStatus",
           "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -191,8 +208,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
           "clrName": "OnCompleted",
-          "tsEmitName": "onCompleted",
+          "tsEmitName": "OnCompleted",
           "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -205,8 +223,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.IValueTaskSource\u00601::GetResult(System.Int16):TResult",
           "clrName": "GetResult",
-          "tsEmitName": "getResult",
+          "tsEmitName": "GetResult",
           "normalizedSignature": "GetResult|(System.Int16):TResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -225,6 +244,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
       "clrName": "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601",
       "tsEmitName": "ManualResetValueTaskSourceCore_1",
       "kind": "Struct",
@@ -235,8 +255,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset",
+          "tsEmitName": "Reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -249,8 +270,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetResult(TResult):System.Void",
           "clrName": "SetResult",
-          "tsEmitName": "setResult",
+          "tsEmitName": "SetResult",
           "normalizedSignature": "SetResult|(TResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -263,8 +285,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::SetException(System.Exception):System.Void",
           "clrName": "SetException",
-          "tsEmitName": "setException",
+          "tsEmitName": "SetException",
           "normalizedSignature": "SetException|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -277,8 +300,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetStatus(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "GetStatus",
-          "tsEmitName": "getStatus",
+          "tsEmitName": "GetStatus",
           "normalizedSignature": "GetStatus|(System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -291,8 +315,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::GetResult(System.Int16):TResult",
           "clrName": "GetResult",
-          "tsEmitName": "getResult",
+          "tsEmitName": "GetResult",
           "normalizedSignature": "GetResult|(System.Int16):TResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -305,8 +330,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::OnCompleted(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void",
           "clrName": "OnCompleted",
-          "tsEmitName": "onCompleted",
+          "tsEmitName": "OnCompleted",
           "normalizedSignature": "OnCompleted|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -321,8 +347,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::RunContinuationsAsynchronously:System.Boolean",
           "clrName": "RunContinuationsAsynchronously",
-          "tsEmitName": "runContinuationsAsynchronously",
+          "tsEmitName": "RunContinuationsAsynchronously",
           "normalizedSignature": "RunContinuationsAsynchronously|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -335,8 +362,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore\u00601::Version:System.Int16",
           "clrName": "Version",
-          "tsEmitName": "version",
+          "tsEmitName": "Version",
           "normalizedSignature": "Version|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle",
       "clrName": "System.Runtime.Remoting.ObjectHandle",
       "tsEmitName": "ObjectHandle",
       "kind": "Class",
@@ -15,8 +16,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
-          "tsEmitName": "unwrap",
+          "tsEmitName": "Unwrap",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

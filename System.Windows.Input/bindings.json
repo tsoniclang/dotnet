@@ -2,14 +2,16 @@
   "namespace": "System.Windows.Input",
   "types": [
     {
+      "stableId": "System.ObjectModel:System.Windows.Input.ICommand",
       "clrName": "System.Windows.Input.ICommand",
       "tsEmitName": "ICommand",
       "assemblyName": "System.ObjectModel",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
           "clrName": "CanExecute",
-          "tsEmitName": "canExecute",
+          "tsEmitName": "CanExecute",
           "metadataToken": 100663318,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
@@ -20,8 +22,9 @@
           "declaringAssemblyName": "System.ObjectModel"
         },
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
           "clrName": "Execute",
-          "tsEmitName": "execute",
+          "tsEmitName": "Execute",
           "metadataToken": 100663319,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
@@ -36,8 +39,9 @@
       "fields": [],
       "events": [
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
           "clrName": "CanExecuteChanged",
-          "tsEmitName": "canExecuteChanged",
+          "tsEmitName": "CanExecuteChanged",
           "metadataToken": 335544321,
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false,
@@ -48,7 +52,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "canExecute",
+          "tsName": "CanExecute",
           "isStatic": false,
           "tsSignatureId": "CanExecute|(System.Object):System.Boolean|static=false",
           "target": {
@@ -58,7 +62,7 @@
           }
         },
         {
-          "tsName": "execute",
+          "tsName": "Execute",
           "isStatic": false,
           "tsSignatureId": "Execute|(System.Object):System.Void|static=false",
           "target": {
@@ -70,7 +74,7 @@
       ],
       "exposedEvents": [
         {
-          "tsName": "canExecuteChanged",
+          "tsName": "CanExecuteChanged",
           "isStatic": false,
           "tsSignatureId": "CanExecuteChanged|System.EventHandler|static=false",
           "target": {

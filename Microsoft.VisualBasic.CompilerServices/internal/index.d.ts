@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { CallType, CompareMethod } from "../../Microsoft.VisualBasic/internal/index.js";
@@ -176,7 +176,7 @@ export type DoubleType = DoubleType$instance;
 
 export class IncompleteInitialization$instance extends System_Internal.Exception$instance {
     constructor();
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -256,9 +256,9 @@ export class ObjectFlowControl$instance {
 export type ObjectFlowControl = ObjectFlowControl$instance;
 
 export class ObjectFlowControl_ForLoopControl$instance {
-    static ForLoopInitObj(Counter: any, Start: any, Limit: any, StepValue: any, LoopForResult: { value: TSByRef<any> }, CounterResult: { value: TSByRef<any> }): boolean;
+    static ForLoopInitObj(Counter: any, Start: any, Limit: any, StepValue: any, LoopForResult: { value: ref<any> }, CounterResult: { value: ref<any> }): boolean;
     static ForNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
-    static ForNextCheckObj(Counter: any, LoopObj: any, CounterResult: { value: TSByRef<any> }): boolean;
+    static ForNextCheckObj(Counter: any, LoopObj: any, CounterResult: { value: ref<any> }): boolean;
     static ForNextCheckR4(count: float, limit: float, StepValue: float): boolean;
     static ForNextCheckR8(count: double, limit: double, StepValue: double): boolean;
 }
@@ -402,7 +402,7 @@ export class StringType$instance {
     static FromShort(Value: short): string;
     static FromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
     static FromSingle(Value: float): string;
-    static MidStmtStr(sDest: { value: TSByRef<string> }, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
+    static MidStmtStr(sDest: { value: ref<string> }, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
     static StrCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
     static StrLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
     static StrLikeBinary(Source: string, Pattern: string): boolean;

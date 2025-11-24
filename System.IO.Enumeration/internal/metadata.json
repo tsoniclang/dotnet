@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry",
       "clrName": "System.IO.Enumeration.FileSystemEntry",
       "tsEmitName": "FileSystemEntry",
       "kind": "Struct",
@@ -15,8 +16,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::ToSpecifiedFullPath():System.String",
           "clrName": "ToSpecifiedFullPath",
-          "tsEmitName": "toSpecifiedFullPath",
+          "tsEmitName": "ToSpecifiedFullPath",
           "normalizedSignature": "ToSpecifiedFullPath|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -29,8 +31,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::ToFileSystemInfo():System.IO.FileSystemInfo",
           "clrName": "ToFileSystemInfo",
-          "tsEmitName": "toFileSystemInfo",
+          "tsEmitName": "ToFileSystemInfo",
           "normalizedSignature": "ToFileSystemInfo|():System.IO.FileSystemInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -43,8 +46,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::ToFullPath():System.String",
           "clrName": "ToFullPath",
-          "tsEmitName": "toFullPath",
+          "tsEmitName": "ToFullPath",
           "normalizedSignature": "ToFullPath|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -59,8 +63,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::FileName:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "FileName",
-          "tsEmitName": "fileName",
+          "tsEmitName": "FileName",
           "normalizedSignature": "FileName|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -73,8 +78,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::Directory:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Directory",
-          "tsEmitName": "directory",
+          "tsEmitName": "Directory",
           "normalizedSignature": "Directory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -87,8 +93,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::RootDirectory:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "RootDirectory",
-          "tsEmitName": "rootDirectory",
+          "tsEmitName": "RootDirectory",
           "normalizedSignature": "RootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -101,8 +108,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::OriginalRootDirectory:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OriginalRootDirectory",
-          "tsEmitName": "originalRootDirectory",
+          "tsEmitName": "OriginalRootDirectory",
           "normalizedSignature": "OriginalRootDirectory|:System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -115,8 +123,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::Attributes:System.IO.FileAttributes",
           "clrName": "Attributes",
-          "tsEmitName": "attributes",
+          "tsEmitName": "Attributes",
           "normalizedSignature": "Attributes|:System.IO.FileAttributes|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -129,8 +138,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::Length:System.Int64",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -143,8 +153,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::CreationTimeUtc:System.DateTimeOffset",
           "clrName": "CreationTimeUtc",
-          "tsEmitName": "creationTimeUtc",
+          "tsEmitName": "CreationTimeUtc",
           "normalizedSignature": "CreationTimeUtc|:System.DateTimeOffset|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -157,8 +168,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::LastAccessTimeUtc:System.DateTimeOffset",
           "clrName": "LastAccessTimeUtc",
-          "tsEmitName": "lastAccessTimeUtc",
+          "tsEmitName": "LastAccessTimeUtc",
           "normalizedSignature": "LastAccessTimeUtc|:System.DateTimeOffset|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -171,8 +183,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::LastWriteTimeUtc:System.DateTimeOffset",
           "clrName": "LastWriteTimeUtc",
-          "tsEmitName": "lastWriteTimeUtc",
+          "tsEmitName": "LastWriteTimeUtc",
           "normalizedSignature": "LastWriteTimeUtc|:System.DateTimeOffset|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -185,8 +198,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::IsHidden:System.Boolean",
           "clrName": "IsHidden",
-          "tsEmitName": "isHidden",
+          "tsEmitName": "IsHidden",
           "normalizedSignature": "IsHidden|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -199,8 +213,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEntry::IsDirectory:System.Boolean",
           "clrName": "IsDirectory",
-          "tsEmitName": "isDirectory",
+          "tsEmitName": "IsDirectory",
           "normalizedSignature": "IsDirectory|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -218,6 +233,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601",
       "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601",
       "tsEmitName": "FileSystemEnumerable_1",
       "kind": "Class",
@@ -228,8 +244,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -242,8 +259,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -257,8 +275,9 @@
           "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -274,8 +293,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601::ShouldIncludePredicate:FindPredicate",
           "clrName": "ShouldIncludePredicate",
-          "tsEmitName": "shouldIncludePredicate",
+          "tsEmitName": "ShouldIncludePredicate",
           "normalizedSignature": "ShouldIncludePredicate|:FindPredicate|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -288,8 +308,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601::ShouldRecursePredicate:FindPredicate",
           "clrName": "ShouldRecursePredicate",
-          "tsEmitName": "shouldRecursePredicate",
+          "tsEmitName": "ShouldRecursePredicate",
           "normalizedSignature": "ShouldRecursePredicate|:FindPredicate|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -313,6 +334,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
       "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate",
       "tsEmitName": "FileSystemEnumerable_1_FindPredicate",
       "kind": "Class",
@@ -323,8 +345,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -337,8 +360,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -351,8 +375,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -365,8 +390,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -380,8 +406,9 @@
           "sourceInterface": "System.ICloneable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -395,8 +422,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -409,8 +437,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindPredicate::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -435,6 +464,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
       "clrName": "System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform",
       "tsEmitName": "FileSystemEnumerable_1_FindTransform",
       "kind": "Class",
@@ -445,8 +475,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::Invoke(System.IO.Enumeration.FileSystemEntry\u0026):TResult",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.IO.Enumeration.FileSystemEntry\u0026):TResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -459,8 +490,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::BeginInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -473,8 +505,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::EndInvoke(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IO.Enumeration.FileSystemEntry\u0026,System.IAsyncResult):TResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -487,8 +520,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -502,8 +536,9 @@
           "sourceInterface": "System.ICloneable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -517,8 +552,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -531,8 +567,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerable\u00601\u002BFindTransform::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -557,6 +594,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601",
       "clrName": "System.IO.Enumeration.FileSystemEnumerator\u00601",
       "tsEmitName": "FileSystemEnumerator_1",
       "kind": "Class",
@@ -567,8 +605,9 @@
       "arity": 1,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset",
+          "tsEmitName": "Reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -581,8 +620,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -595,8 +635,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "tsEmitName": "moveNext",
+          "tsEmitName": "MoveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -609,8 +650,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -624,8 +666,9 @@
           "sourceInterface": "System.Collections.IEnumerator"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "tsEmitName": "moveNext$view",
+          "tsEmitName": "MoveNext$view",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -639,8 +682,9 @@
           "sourceInterface": "System.Collections.IEnumerator"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset$view",
+          "tsEmitName": "Reset$view",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -656,8 +700,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemEnumerator\u00601::Current:TResult",
           "clrName": "Current",
-          "tsEmitName": "current",
+          "tsEmitName": "Current",
           "normalizedSignature": "Current|:TResult|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -670,8 +715,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "tsEmitName": "current$view",
+          "tsEmitName": "Current$view",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -685,8 +731,9 @@
           "sourceInterface": "System.Collections.Generic.IEnumerator\u00601"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "tsEmitName": "current$view",
+          "tsEmitName": "Current$view",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -711,6 +758,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemName",
       "clrName": "System.IO.Enumeration.FileSystemName",
       "tsEmitName": "FileSystemName",
       "kind": "StaticNamespace",
@@ -721,8 +769,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemName::TranslateWin32Expression(System.String):System.String",
           "clrName": "TranslateWin32Expression",
-          "tsEmitName": "translateWin32Expression",
+          "tsEmitName": "TranslateWin32Expression",
           "normalizedSignature": "TranslateWin32Expression|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -735,8 +784,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemName::MatchesWin32Expression(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Boolean",
           "clrName": "MatchesWin32Expression",
-          "tsEmitName": "matchesWin32Expression",
+          "tsEmitName": "MatchesWin32Expression",
           "normalizedSignature": "MatchesWin32Expression|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -749,8 +799,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Private.CoreLib:System.IO.Enumeration.FileSystemName::MatchesSimpleExpression(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Boolean",
           "clrName": "MatchesSimpleExpression",
-          "tsEmitName": "matchesSimpleExpression",
+          "tsEmitName": "MatchesSimpleExpression",
           "normalizedSignature": "MatchesSimpleExpression|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

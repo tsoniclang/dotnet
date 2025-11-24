@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.ObjectModel:System.Windows.Input.ICommand",
       "clrName": "System.Windows.Input.ICommand",
       "tsEmitName": "ICommand",
       "kind": "Interface",
@@ -15,8 +16,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
           "clrName": "CanExecute",
-          "tsEmitName": "canExecute",
+          "tsEmitName": "CanExecute",
           "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -29,8 +31,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
           "clrName": "Execute",
-          "tsEmitName": "execute",
+          "tsEmitName": "Execute",
           "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -47,8 +50,9 @@
       "fields": [],
       "events": [
         {
+          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
           "clrName": "CanExecuteChanged",
-          "tsEmitName": "canExecuteChanged",
+          "tsEmitName": "CanExecuteChanged",
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false
         }

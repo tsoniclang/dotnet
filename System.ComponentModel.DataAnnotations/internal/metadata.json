@@ -5,6 +5,7 @@
   ],
   "types": [
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType",
       "clrName": "System.ComponentModel.DataAnnotations.DataType",
       "tsEmitName": "DataType",
       "kind": "Enum",
@@ -17,6 +18,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -25,136 +27,153 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::CustomSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Custom",
-          "tsEmitName": "custom",
+          "tsEmitName": "Custom",
           "normalizedSignature": "Custom|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::DateTimeSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "DateTime",
-          "tsEmitName": "dateTime",
+          "tsEmitName": "DateTime",
           "normalizedSignature": "DateTime|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::DateSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Date",
-          "tsEmitName": "date",
+          "tsEmitName": "Date",
           "normalizedSignature": "Date|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::TimeSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Time",
-          "tsEmitName": "time",
+          "tsEmitName": "Time",
           "normalizedSignature": "Time|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::DurationSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Duration",
-          "tsEmitName": "duration",
+          "tsEmitName": "Duration",
           "normalizedSignature": "Duration|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::PhoneNumberSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "PhoneNumber",
-          "tsEmitName": "phoneNumber",
+          "tsEmitName": "PhoneNumber",
           "normalizedSignature": "PhoneNumber|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::CurrencySystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Currency",
-          "tsEmitName": "currency",
+          "tsEmitName": "Currency",
           "normalizedSignature": "Currency|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::TextSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Text",
-          "tsEmitName": "text",
+          "tsEmitName": "Text",
           "normalizedSignature": "Text|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::HtmlSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Html",
-          "tsEmitName": "html",
+          "tsEmitName": "Html",
           "normalizedSignature": "Html|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::MultilineTextSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "MultilineText",
-          "tsEmitName": "multilineText",
+          "tsEmitName": "MultilineText",
           "normalizedSignature": "MultilineText|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::EmailAddressSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "EmailAddress",
-          "tsEmitName": "emailAddress",
+          "tsEmitName": "EmailAddress",
           "normalizedSignature": "EmailAddress|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::PasswordSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Password",
-          "tsEmitName": "password",
+          "tsEmitName": "Password",
           "normalizedSignature": "Password|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::UrlSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Url",
-          "tsEmitName": "url",
+          "tsEmitName": "Url",
           "normalizedSignature": "Url|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::ImageUrlSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "ImageUrl",
-          "tsEmitName": "imageUrl",
+          "tsEmitName": "ImageUrl",
           "normalizedSignature": "ImageUrl|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::CreditCardSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "CreditCard",
-          "tsEmitName": "creditCard",
+          "tsEmitName": "CreditCard",
           "normalizedSignature": "CreditCard|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::PostalCodeSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "PostalCode",
-          "tsEmitName": "postalCode",
+          "tsEmitName": "PostalCode",
           "normalizedSignature": "PostalCode|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataType::UploadSystem.ComponentModel.DataAnnotations.DataType",
           "clrName": "Upload",
-          "tsEmitName": "upload",
+          "tsEmitName": "Upload",
           "normalizedSignature": "Upload|System.ComponentModel.DataAnnotations.DataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -165,6 +184,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.IValidatableObject",
       "clrName": "System.ComponentModel.DataAnnotations.IValidatableObject",
       "tsEmitName": "IValidatableObject",
       "kind": "Interface",
@@ -175,8 +195,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.IValidatableObject::Validate(System.ComponentModel.DataAnnotations.ValidationContext):System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "Validate",
-          "tsEmitName": "validate",
+          "tsEmitName": "Validate",
           "normalizedSignature": "Validate|(System.ComponentModel.DataAnnotations.ValidationContext):System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -195,6 +216,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.AllowedValuesAttribute",
       "tsEmitName": "AllowedValuesAttribute",
       "kind": "Class",
@@ -205,8 +227,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AllowedValuesAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -221,8 +244,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AllowedValuesAttribute::Values:System.Object[]",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Object[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -246,6 +270,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
       "clrName": "System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider",
       "tsEmitName": "AssociatedMetadataTypeTypeDescriptionProvider",
       "kind": "Class",
@@ -256,8 +281,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Type,System.Object):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "getTypeDescriptor3",
+          "tsEmitName": "GetTypeDescriptor3",
           "normalizedSignature": "GetTypeDescriptor|(System.Type,System.Object):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -270,8 +296,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Type):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "getTypeDescriptor",
+          "tsEmitName": "GetTypeDescriptor",
           "normalizedSignature": "GetTypeDescriptor|(System.Type):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -284,8 +311,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider::GetTypeDescriptor(System.Object):System.ComponentModel.ICustomTypeDescriptor",
           "clrName": "GetTypeDescriptor",
-          "tsEmitName": "getTypeDescriptor2",
+          "tsEmitName": "GetTypeDescriptor2",
           "normalizedSignature": "GetTypeDescriptor|(System.Object):System.ComponentModel.ICustomTypeDescriptor|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -315,6 +343,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.AssociationAttribute",
       "tsEmitName": "AssociationAttribute",
       "kind": "Class",
@@ -326,8 +355,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -340,8 +370,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::ThisKey:System.String",
           "clrName": "ThisKey",
-          "tsEmitName": "thisKey",
+          "tsEmitName": "ThisKey",
           "normalizedSignature": "ThisKey|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -354,8 +385,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::OtherKey:System.String",
           "clrName": "OtherKey",
-          "tsEmitName": "otherKey",
+          "tsEmitName": "OtherKey",
           "normalizedSignature": "OtherKey|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -368,8 +400,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::IsForeignKey:System.Boolean",
           "clrName": "IsForeignKey",
-          "tsEmitName": "isForeignKey",
+          "tsEmitName": "IsForeignKey",
           "normalizedSignature": "IsForeignKey|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -382,8 +415,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::ThisKeyMembers:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ThisKeyMembers",
-          "tsEmitName": "thisKeyMembers",
+          "tsEmitName": "ThisKeyMembers",
           "normalizedSignature": "ThisKeyMembers|:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -396,8 +430,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.AssociationAttribute::OtherKeyMembers:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OtherKeyMembers",
-          "tsEmitName": "otherKeyMembers",
+          "tsEmitName": "OtherKeyMembers",
           "normalizedSignature": "OtherKeyMembers|:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -421,6 +456,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Base64StringAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.Base64StringAttribute",
       "tsEmitName": "Base64StringAttribute",
       "kind": "Class",
@@ -431,8 +467,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Base64StringAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -457,6 +494,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.CompareAttribute",
       "tsEmitName": "CompareAttribute",
       "kind": "Class",
@@ -467,8 +505,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -483,8 +522,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::OtherProperty:System.String",
           "clrName": "OtherProperty",
-          "tsEmitName": "otherProperty",
+          "tsEmitName": "OtherProperty",
           "normalizedSignature": "OtherProperty|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -497,8 +537,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::OtherPropertyDisplayName:System.String",
           "clrName": "OtherPropertyDisplayName",
-          "tsEmitName": "otherPropertyDisplayName",
+          "tsEmitName": "OtherPropertyDisplayName",
           "normalizedSignature": "OtherPropertyDisplayName|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -511,8 +552,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CompareAttribute::RequiresValidationContext:System.Boolean",
           "clrName": "RequiresValidationContext",
-          "tsEmitName": "requiresValidationContext",
+          "tsEmitName": "RequiresValidationContext",
           "normalizedSignature": "RequiresValidationContext|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -536,6 +578,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ConcurrencyCheckAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.ConcurrencyCheckAttribute",
       "tsEmitName": "ConcurrencyCheckAttribute",
       "kind": "Class",
@@ -557,6 +600,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CreditCardAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.CreditCardAttribute",
       "tsEmitName": "CreditCardAttribute",
       "kind": "Class",
@@ -567,8 +611,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CreditCardAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -593,6 +638,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.CustomValidationAttribute",
       "tsEmitName": "CustomValidationAttribute",
       "kind": "Class",
@@ -603,8 +649,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -619,8 +666,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::ValidatorType:System.Type",
           "clrName": "ValidatorType",
-          "tsEmitName": "validatorType",
+          "tsEmitName": "ValidatorType",
           "normalizedSignature": "ValidatorType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -633,8 +681,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::TypeId:System.Object",
           "clrName": "TypeId",
-          "tsEmitName": "typeId",
+          "tsEmitName": "TypeId",
           "normalizedSignature": "TypeId|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -647,8 +696,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::Method:System.String",
           "clrName": "Method",
-          "tsEmitName": "method",
+          "tsEmitName": "Method",
           "normalizedSignature": "Method|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -661,8 +711,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.CustomValidationAttribute::RequiresValidationContext:System.Boolean",
           "clrName": "RequiresValidationContext",
-          "tsEmitName": "requiresValidationContext",
+          "tsEmitName": "RequiresValidationContext",
           "normalizedSignature": "RequiresValidationContext|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -686,6 +737,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.DataTypeAttribute",
       "tsEmitName": "DataTypeAttribute",
       "kind": "Class",
@@ -696,8 +748,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::GetDataTypeName():System.String",
           "clrName": "GetDataTypeName",
-          "tsEmitName": "getDataTypeName",
+          "tsEmitName": "GetDataTypeName",
           "normalizedSignature": "GetDataTypeName|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -710,8 +763,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -726,8 +780,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::DataType:System.ComponentModel.DataAnnotations.DataType",
           "clrName": "DataType",
-          "tsEmitName": "dataType",
+          "tsEmitName": "DataType",
           "normalizedSignature": "DataType|:System.ComponentModel.DataAnnotations.DataType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,8 +795,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::CustomDataType:System.String",
           "clrName": "CustomDataType",
-          "tsEmitName": "customDataType",
+          "tsEmitName": "CustomDataType",
           "normalizedSignature": "CustomDataType|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -754,8 +810,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DataTypeAttribute::DisplayFormat:System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
           "clrName": "DisplayFormat",
-          "tsEmitName": "displayFormat",
+          "tsEmitName": "DisplayFormat",
           "normalizedSignature": "DisplayFormat|:System.ComponentModel.DataAnnotations.DisplayFormatAttribute|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -784,6 +841,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.DeniedValuesAttribute",
       "tsEmitName": "DeniedValuesAttribute",
       "kind": "Class",
@@ -794,8 +852,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DeniedValuesAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -810,8 +869,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DeniedValuesAttribute::Values:System.Object[]",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Object[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -835,6 +895,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.DisplayAttribute",
       "tsEmitName": "DisplayAttribute",
       "kind": "Class",
@@ -845,8 +906,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetShortName():System.String",
           "clrName": "GetShortName",
-          "tsEmitName": "getShortName",
+          "tsEmitName": "GetShortName",
           "normalizedSignature": "GetShortName|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -859,8 +921,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetName():System.String",
           "clrName": "GetName",
-          "tsEmitName": "getName",
+          "tsEmitName": "GetName",
           "normalizedSignature": "GetName|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -873,8 +936,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetDescription():System.String",
           "clrName": "GetDescription",
-          "tsEmitName": "getDescription",
+          "tsEmitName": "GetDescription",
           "normalizedSignature": "GetDescription|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -887,8 +951,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetPrompt():System.String",
           "clrName": "GetPrompt",
-          "tsEmitName": "getPrompt",
+          "tsEmitName": "GetPrompt",
           "normalizedSignature": "GetPrompt|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -901,8 +966,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetGroupName():System.String",
           "clrName": "GetGroupName",
-          "tsEmitName": "getGroupName",
+          "tsEmitName": "GetGroupName",
           "normalizedSignature": "GetGroupName|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -915,8 +981,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetAutoGenerateField():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetAutoGenerateField",
-          "tsEmitName": "getAutoGenerateField",
+          "tsEmitName": "GetAutoGenerateField",
           "normalizedSignature": "GetAutoGenerateField|():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -929,8 +996,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetAutoGenerateFilter():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetAutoGenerateFilter",
-          "tsEmitName": "getAutoGenerateFilter",
+          "tsEmitName": "GetAutoGenerateFilter",
           "normalizedSignature": "GetAutoGenerateFilter|():System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -943,8 +1011,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GetOrder():System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetOrder",
-          "tsEmitName": "getOrder",
+          "tsEmitName": "GetOrder",
           "normalizedSignature": "GetOrder|():System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -959,8 +1028,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::ShortName:System.String",
           "clrName": "ShortName",
-          "tsEmitName": "shortName",
+          "tsEmitName": "ShortName",
           "normalizedSignature": "ShortName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -973,8 +1043,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::Name:System.String",
           "clrName": "Name",
-          "tsEmitName": "name",
+          "tsEmitName": "Name",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -987,8 +1058,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::Description:System.String",
           "clrName": "Description",
-          "tsEmitName": "description",
+          "tsEmitName": "Description",
           "normalizedSignature": "Description|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1001,8 +1073,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::Prompt:System.String",
           "clrName": "Prompt",
-          "tsEmitName": "prompt",
+          "tsEmitName": "Prompt",
           "normalizedSignature": "Prompt|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1015,8 +1088,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::GroupName:System.String",
           "clrName": "GroupName",
-          "tsEmitName": "groupName",
+          "tsEmitName": "GroupName",
           "normalizedSignature": "GroupName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1029,8 +1103,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::ResourceType:System.Type",
           "clrName": "ResourceType",
-          "tsEmitName": "resourceType",
+          "tsEmitName": "ResourceType",
           "normalizedSignature": "ResourceType|:System.Type|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1043,8 +1118,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::AutoGenerateField:System.Boolean",
           "clrName": "AutoGenerateField",
-          "tsEmitName": "autoGenerateField",
+          "tsEmitName": "AutoGenerateField",
           "normalizedSignature": "AutoGenerateField|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1057,8 +1133,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::AutoGenerateFilter:System.Boolean",
           "clrName": "AutoGenerateFilter",
-          "tsEmitName": "autoGenerateFilter",
+          "tsEmitName": "AutoGenerateFilter",
           "normalizedSignature": "AutoGenerateFilter|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1071,8 +1148,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayAttribute::Order:System.Int32",
           "clrName": "Order",
-          "tsEmitName": "order",
+          "tsEmitName": "Order",
           "normalizedSignature": "Order|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1096,6 +1174,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.DisplayColumnAttribute",
       "tsEmitName": "DisplayColumnAttribute",
       "kind": "Class",
@@ -1107,8 +1186,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayColumnAttribute::DisplayColumn:System.String",
           "clrName": "DisplayColumn",
-          "tsEmitName": "displayColumn",
+          "tsEmitName": "DisplayColumn",
           "normalizedSignature": "DisplayColumn|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1121,8 +1201,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayColumnAttribute::SortColumn:System.String",
           "clrName": "SortColumn",
-          "tsEmitName": "sortColumn",
+          "tsEmitName": "SortColumn",
           "normalizedSignature": "SortColumn|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1135,8 +1216,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayColumnAttribute::SortDescending:System.Boolean",
           "clrName": "SortDescending",
-          "tsEmitName": "sortDescending",
+          "tsEmitName": "SortDescending",
           "normalizedSignature": "SortDescending|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1170,6 +1252,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.DisplayFormatAttribute",
       "tsEmitName": "DisplayFormatAttribute",
       "kind": "Class",
@@ -1180,8 +1263,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::GetNullDisplayText():System.String",
           "clrName": "GetNullDisplayText",
-          "tsEmitName": "getNullDisplayText",
+          "tsEmitName": "GetNullDisplayText",
           "normalizedSignature": "GetNullDisplayText|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1196,8 +1280,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::DataFormatString:System.String",
           "clrName": "DataFormatString",
-          "tsEmitName": "dataFormatString",
+          "tsEmitName": "DataFormatString",
           "normalizedSignature": "DataFormatString|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,8 +1295,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::NullDisplayText:System.String",
           "clrName": "NullDisplayText",
-          "tsEmitName": "nullDisplayText",
+          "tsEmitName": "NullDisplayText",
           "normalizedSignature": "NullDisplayText|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1224,8 +1310,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::ConvertEmptyStringToNull:System.Boolean",
           "clrName": "ConvertEmptyStringToNull",
-          "tsEmitName": "convertEmptyStringToNull",
+          "tsEmitName": "ConvertEmptyStringToNull",
           "normalizedSignature": "ConvertEmptyStringToNull|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1238,8 +1325,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::ApplyFormatInEditMode:System.Boolean",
           "clrName": "ApplyFormatInEditMode",
-          "tsEmitName": "applyFormatInEditMode",
+          "tsEmitName": "ApplyFormatInEditMode",
           "normalizedSignature": "ApplyFormatInEditMode|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1252,8 +1340,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::HtmlEncode:System.Boolean",
           "clrName": "HtmlEncode",
-          "tsEmitName": "htmlEncode",
+          "tsEmitName": "HtmlEncode",
           "normalizedSignature": "HtmlEncode|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1266,8 +1355,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.DisplayFormatAttribute::NullDisplayTextResourceType:System.Type",
           "clrName": "NullDisplayTextResourceType",
-          "tsEmitName": "nullDisplayTextResourceType",
+          "tsEmitName": "NullDisplayTextResourceType",
           "normalizedSignature": "NullDisplayTextResourceType|:System.Type|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1291,6 +1381,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EditableAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.EditableAttribute",
       "tsEmitName": "EditableAttribute",
       "kind": "Class",
@@ -1302,8 +1393,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EditableAttribute::AllowEdit:System.Boolean",
           "clrName": "AllowEdit",
-          "tsEmitName": "allowEdit",
+          "tsEmitName": "AllowEdit",
           "normalizedSignature": "AllowEdit|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1316,8 +1408,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EditableAttribute::AllowInitialValue:System.Boolean",
           "clrName": "AllowInitialValue",
-          "tsEmitName": "allowInitialValue",
+          "tsEmitName": "AllowInitialValue",
           "normalizedSignature": "AllowInitialValue|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1341,6 +1434,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EmailAddressAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.EmailAddressAttribute",
       "tsEmitName": "EmailAddressAttribute",
       "kind": "Class",
@@ -1351,8 +1445,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EmailAddressAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1377,6 +1472,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.EnumDataTypeAttribute",
       "tsEmitName": "EnumDataTypeAttribute",
       "kind": "Class",
@@ -1387,8 +1483,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EnumDataTypeAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1403,8 +1500,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.EnumDataTypeAttribute::EnumType:System.Type",
           "clrName": "EnumType",
-          "tsEmitName": "enumType",
+          "tsEmitName": "EnumType",
           "normalizedSignature": "EnumType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1428,6 +1526,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.FileExtensionsAttribute",
       "tsEmitName": "FileExtensionsAttribute",
       "kind": "Class",
@@ -1438,8 +1537,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1452,8 +1552,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1468,8 +1569,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FileExtensionsAttribute::Extensions:System.String",
           "clrName": "Extensions",
-          "tsEmitName": "extensions",
+          "tsEmitName": "Extensions",
           "normalizedSignature": "Extensions|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1493,6 +1595,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.FilterUIHintAttribute",
       "tsEmitName": "FilterUIHintAttribute",
       "kind": "Class",
@@ -1503,8 +1606,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1517,8 +1621,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1533,8 +1638,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::FilterUIHint:System.String",
           "clrName": "FilterUIHint",
-          "tsEmitName": "filterUIHint",
+          "tsEmitName": "FilterUIHint",
           "normalizedSignature": "FilterUIHint|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1547,8 +1653,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::PresentationLayer:System.String",
           "clrName": "PresentationLayer",
-          "tsEmitName": "presentationLayer",
+          "tsEmitName": "PresentationLayer",
           "normalizedSignature": "PresentationLayer|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1561,8 +1668,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.FilterUIHintAttribute::ControlParameters:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ControlParameters",
-          "tsEmitName": "controlParameters",
+          "tsEmitName": "ControlParameters",
           "normalizedSignature": "ControlParameters|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1596,6 +1704,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.KeyAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.KeyAttribute",
       "tsEmitName": "KeyAttribute",
       "kind": "Class",
@@ -1617,6 +1726,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.LengthAttribute",
       "tsEmitName": "LengthAttribute",
       "kind": "Class",
@@ -1627,8 +1737,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1641,8 +1752,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1657,8 +1769,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::MinimumLength:System.Int32",
           "clrName": "MinimumLength",
-          "tsEmitName": "minimumLength",
+          "tsEmitName": "MinimumLength",
           "normalizedSignature": "MinimumLength|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1671,8 +1784,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.LengthAttribute::MaximumLength:System.Int32",
           "clrName": "MaximumLength",
-          "tsEmitName": "maximumLength",
+          "tsEmitName": "MaximumLength",
           "normalizedSignature": "MaximumLength|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1696,6 +1810,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.MaxLengthAttribute",
       "tsEmitName": "MaxLengthAttribute",
       "kind": "Class",
@@ -1706,8 +1821,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1720,8 +1836,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1736,8 +1853,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MaxLengthAttribute::Length:System.Int32",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1766,6 +1884,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MetadataTypeAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.MetadataTypeAttribute",
       "tsEmitName": "MetadataTypeAttribute",
       "kind": "Class",
@@ -1777,8 +1896,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MetadataTypeAttribute::MetadataClassType:System.Type",
           "clrName": "MetadataClassType",
-          "tsEmitName": "metadataClassType",
+          "tsEmitName": "MetadataClassType",
           "normalizedSignature": "MetadataClassType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,6 +1922,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.MinLengthAttribute",
       "tsEmitName": "MinLengthAttribute",
       "kind": "Class",
@@ -1812,8 +1933,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1826,8 +1948,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1842,8 +1965,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.MinLengthAttribute::Length:System.Int32",
           "clrName": "Length",
-          "tsEmitName": "length",
+          "tsEmitName": "Length",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1867,6 +1991,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.PhoneAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.PhoneAttribute",
       "tsEmitName": "PhoneAttribute",
       "kind": "Class",
@@ -1877,8 +2002,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.PhoneAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1903,6 +2029,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.RangeAttribute",
       "tsEmitName": "RangeAttribute",
       "kind": "Class",
@@ -1913,8 +2040,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1927,8 +2055,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1943,8 +2072,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::Minimum:System.Object",
           "clrName": "Minimum",
-          "tsEmitName": "minimum",
+          "tsEmitName": "Minimum",
           "normalizedSignature": "Minimum|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1957,8 +2087,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::Maximum:System.Object",
           "clrName": "Maximum",
-          "tsEmitName": "maximum",
+          "tsEmitName": "Maximum",
           "normalizedSignature": "Maximum|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1971,8 +2102,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::MinimumIsExclusive:System.Boolean",
           "clrName": "MinimumIsExclusive",
-          "tsEmitName": "minimumIsExclusive",
+          "tsEmitName": "MinimumIsExclusive",
           "normalizedSignature": "MinimumIsExclusive|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1985,8 +2117,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::MaximumIsExclusive:System.Boolean",
           "clrName": "MaximumIsExclusive",
-          "tsEmitName": "maximumIsExclusive",
+          "tsEmitName": "MaximumIsExclusive",
           "normalizedSignature": "MaximumIsExclusive|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1999,8 +2132,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::OperandType:System.Type",
           "clrName": "OperandType",
-          "tsEmitName": "operandType",
+          "tsEmitName": "OperandType",
           "normalizedSignature": "OperandType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2013,8 +2147,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::ParseLimitsInInvariantCulture:System.Boolean",
           "clrName": "ParseLimitsInInvariantCulture",
-          "tsEmitName": "parseLimitsInInvariantCulture",
+          "tsEmitName": "ParseLimitsInInvariantCulture",
           "normalizedSignature": "ParseLimitsInInvariantCulture|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2027,8 +2162,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RangeAttribute::ConvertValueInInvariantCulture:System.Boolean",
           "clrName": "ConvertValueInInvariantCulture",
-          "tsEmitName": "convertValueInInvariantCulture",
+          "tsEmitName": "ConvertValueInInvariantCulture",
           "normalizedSignature": "ConvertValueInInvariantCulture|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2062,6 +2198,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.RegularExpressionAttribute",
       "tsEmitName": "RegularExpressionAttribute",
       "kind": "Class",
@@ -2072,8 +2209,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2086,8 +2224,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2102,8 +2241,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::MatchTimeoutInMilliseconds:System.Int32",
           "clrName": "MatchTimeoutInMilliseconds",
-          "tsEmitName": "matchTimeoutInMilliseconds",
+          "tsEmitName": "MatchTimeoutInMilliseconds",
           "normalizedSignature": "MatchTimeoutInMilliseconds|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2116,8 +2256,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::MatchTimeout:System.TimeSpan",
           "clrName": "MatchTimeout",
-          "tsEmitName": "matchTimeout",
+          "tsEmitName": "MatchTimeout",
           "normalizedSignature": "MatchTimeout|:System.TimeSpan|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2130,8 +2271,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RegularExpressionAttribute::Pattern:System.String",
           "clrName": "Pattern",
-          "tsEmitName": "pattern",
+          "tsEmitName": "Pattern",
           "normalizedSignature": "Pattern|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2155,6 +2297,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RequiredAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.RequiredAttribute",
       "tsEmitName": "RequiredAttribute",
       "kind": "Class",
@@ -2165,8 +2308,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RequiredAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2181,8 +2325,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.RequiredAttribute::AllowEmptyStrings:System.Boolean",
           "clrName": "AllowEmptyStrings",
-          "tsEmitName": "allowEmptyStrings",
+          "tsEmitName": "AllowEmptyStrings",
           "normalizedSignature": "AllowEmptyStrings|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2206,6 +2351,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute",
       "tsEmitName": "ScaffoldColumnAttribute",
       "kind": "Class",
@@ -2217,8 +2363,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute::Scaffold:System.Boolean",
           "clrName": "Scaffold",
-          "tsEmitName": "scaffold",
+          "tsEmitName": "Scaffold",
           "normalizedSignature": "Scaffold|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2242,6 +2389,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.StringLengthAttribute",
       "tsEmitName": "StringLengthAttribute",
       "kind": "Class",
@@ -2252,8 +2400,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2266,8 +2415,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2282,8 +2432,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::MaximumLength:System.Int32",
           "clrName": "MaximumLength",
-          "tsEmitName": "maximumLength",
+          "tsEmitName": "MaximumLength",
           "normalizedSignature": "MaximumLength|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2296,8 +2447,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.StringLengthAttribute::MinimumLength:System.Int32",
           "clrName": "MinimumLength",
-          "tsEmitName": "minimumLength",
+          "tsEmitName": "MinimumLength",
           "normalizedSignature": "MinimumLength|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2321,6 +2473,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.TimestampAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.TimestampAttribute",
       "tsEmitName": "TimestampAttribute",
       "kind": "Class",
@@ -2342,6 +2495,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.UIHintAttribute",
       "tsEmitName": "UIHintAttribute",
       "kind": "Class",
@@ -2352,8 +2506,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2366,8 +2521,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2382,8 +2538,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::UIHint:System.String",
           "clrName": "UIHint",
-          "tsEmitName": "uiHint",
+          "tsEmitName": "UIHint",
           "normalizedSignature": "UIHint|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2396,8 +2553,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::PresentationLayer:System.String",
           "clrName": "PresentationLayer",
-          "tsEmitName": "presentationLayer",
+          "tsEmitName": "PresentationLayer",
           "normalizedSignature": "PresentationLayer|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2410,8 +2568,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UIHintAttribute::ControlParameters:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ControlParameters",
-          "tsEmitName": "controlParameters",
+          "tsEmitName": "ControlParameters",
           "normalizedSignature": "ControlParameters|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2445,6 +2604,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UrlAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.UrlAttribute",
       "tsEmitName": "UrlAttribute",
       "kind": "Class",
@@ -2455,8 +2615,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.UrlAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2481,6 +2642,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute",
       "clrName": "System.ComponentModel.DataAnnotations.ValidationAttribute",
       "tsEmitName": "ValidationAttribute",
       "kind": "Class",
@@ -2491,8 +2653,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::FormatErrorMessage(System.String):System.String",
           "clrName": "FormatErrorMessage",
-          "tsEmitName": "formatErrorMessage",
+          "tsEmitName": "FormatErrorMessage",
           "normalizedSignature": "FormatErrorMessage|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2505,8 +2668,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::IsValid(System.Object):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid",
+          "tsEmitName": "IsValid",
           "normalizedSignature": "IsValid|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2519,8 +2683,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::GetValidationResult(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult",
           "clrName": "GetValidationResult",
-          "tsEmitName": "getValidationResult",
+          "tsEmitName": "GetValidationResult",
           "normalizedSignature": "GetValidationResult|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.ComponentModel.DataAnnotations.ValidationResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2533,8 +2698,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::Validate(System.Object,System.String):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate",
+          "tsEmitName": "Validate",
           "normalizedSignature": "Validate|(System.Object,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2547,8 +2713,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::Validate(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate2",
+          "tsEmitName": "Validate2",
           "normalizedSignature": "Validate|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2563,8 +2730,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::RequiresValidationContext:System.Boolean",
           "clrName": "RequiresValidationContext",
-          "tsEmitName": "requiresValidationContext",
+          "tsEmitName": "RequiresValidationContext",
           "normalizedSignature": "RequiresValidationContext|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2577,8 +2745,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::ErrorMessage:System.String",
           "clrName": "ErrorMessage",
-          "tsEmitName": "errorMessage",
+          "tsEmitName": "ErrorMessage",
           "normalizedSignature": "ErrorMessage|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2591,8 +2760,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::ErrorMessageResourceName:System.String",
           "clrName": "ErrorMessageResourceName",
-          "tsEmitName": "errorMessageResourceName",
+          "tsEmitName": "ErrorMessageResourceName",
           "normalizedSignature": "ErrorMessageResourceName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2605,8 +2775,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::ErrorMessageResourceType:System.Type",
           "clrName": "ErrorMessageResourceType",
-          "tsEmitName": "errorMessageResourceType",
+          "tsEmitName": "ErrorMessageResourceType",
           "normalizedSignature": "ErrorMessageResourceType|:System.Type|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2624,6 +2795,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext",
       "clrName": "System.ComponentModel.DataAnnotations.ValidationContext",
       "tsEmitName": "ValidationContext",
       "kind": "Class",
@@ -2634,8 +2806,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::InitializeServiceProvider(System.Func_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "InitializeServiceProvider",
-          "tsEmitName": "initializeServiceProvider",
+          "tsEmitName": "InitializeServiceProvider",
           "normalizedSignature": "InitializeServiceProvider|(System.Func_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2648,8 +2821,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService",
+          "tsEmitName": "GetService",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2662,8 +2836,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
           "clrName": "GetService",
-          "tsEmitName": "getService$view",
+          "tsEmitName": "GetService$view",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2679,8 +2854,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::ObjectInstance:System.Object",
           "clrName": "ObjectInstance",
-          "tsEmitName": "objectInstance",
+          "tsEmitName": "ObjectInstance",
           "normalizedSignature": "ObjectInstance|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2693,8 +2869,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::ObjectType:System.Type",
           "clrName": "ObjectType",
-          "tsEmitName": "objectType",
+          "tsEmitName": "ObjectType",
           "normalizedSignature": "ObjectType|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2707,8 +2884,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::DisplayName:System.String",
           "clrName": "DisplayName",
-          "tsEmitName": "displayName",
+          "tsEmitName": "DisplayName",
           "normalizedSignature": "DisplayName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2721,8 +2899,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::MemberName:System.String",
           "clrName": "MemberName",
-          "tsEmitName": "memberName",
+          "tsEmitName": "MemberName",
           "normalizedSignature": "MemberName|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2735,8 +2914,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationContext::Items:System.Collections.Generic.IDictionary_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Items",
-          "tsEmitName": "items",
+          "tsEmitName": "Items",
           "normalizedSignature": "Items|:System.Collections.Generic.IDictionary_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2775,6 +2955,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException",
       "clrName": "System.ComponentModel.DataAnnotations.ValidationException",
       "tsEmitName": "ValidationException",
       "kind": "Class",
@@ -2785,8 +2966,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2800,8 +2982,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2816,8 +2999,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::ValidationAttribute:System.ComponentModel.DataAnnotations.ValidationAttribute",
           "clrName": "ValidationAttribute",
-          "tsEmitName": "validationAttribute",
+          "tsEmitName": "ValidationAttribute",
           "normalizedSignature": "ValidationAttribute|:System.ComponentModel.DataAnnotations.ValidationAttribute|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2830,8 +3014,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::ValidationResult:System.ComponentModel.DataAnnotations.ValidationResult",
           "clrName": "ValidationResult",
-          "tsEmitName": "validationResult",
+          "tsEmitName": "ValidationResult",
           "normalizedSignature": "ValidationResult|:System.ComponentModel.DataAnnotations.ValidationResult|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2844,8 +3029,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationException::Value:System.Object",
           "clrName": "Value",
-          "tsEmitName": "value",
+          "tsEmitName": "Value",
           "normalizedSignature": "Value|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2889,6 +3075,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult",
       "clrName": "System.ComponentModel.DataAnnotations.ValidationResult",
       "tsEmitName": "ValidationResult",
       "kind": "Class",
@@ -2899,8 +3086,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2915,8 +3103,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult::MemberNames:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "MemberNames",
-          "tsEmitName": "memberNames",
+          "tsEmitName": "MemberNames",
           "normalizedSignature": "MemberNames|:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2929,8 +3118,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult::ErrorMessage:System.String",
           "clrName": "ErrorMessage",
-          "tsEmitName": "errorMessage",
+          "tsEmitName": "ErrorMessage",
           "normalizedSignature": "ErrorMessage|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2945,8 +3135,9 @@
       ],
       "fields": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationResult::SuccessSystem.ComponentModel.DataAnnotations.ValidationResult",
           "clrName": "Success",
-          "tsEmitName": "success",
+          "tsEmitName": "Success",
           "normalizedSignature": "Success|System.ComponentModel.DataAnnotations.ValidationResult|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2968,6 +3159,7 @@
       ]
     },
     {
+      "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator",
       "clrName": "System.ComponentModel.DataAnnotations.Validator",
       "tsEmitName": "Validator",
       "kind": "StaticNamespace",
@@ -2978,8 +3170,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateProperty(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
           "clrName": "TryValidateProperty",
-          "tsEmitName": "tryValidateProperty",
+          "tsEmitName": "TryValidateProperty",
           "normalizedSignature": "TryValidateProperty|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2992,8 +3185,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
           "clrName": "TryValidateObject",
-          "tsEmitName": "tryValidateObject",
+          "tsEmitName": "TryValidateObject",
           "normalizedSignature": "TryValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3006,8 +3200,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Boolean):System.Boolean",
           "clrName": "TryValidateObject",
-          "tsEmitName": "tryValidateObject2",
+          "tsEmitName": "TryValidateObject2",
           "normalizedSignature": "TryValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3020,8 +3215,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateValue(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean",
           "clrName": "TryValidateValue",
-          "tsEmitName": "tryValidateValue",
+          "tsEmitName": "TryValidateValue",
           "normalizedSignature": "TryValidateValue|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3034,8 +3230,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateProperty(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
           "clrName": "ValidateProperty",
-          "tsEmitName": "validateProperty",
+          "tsEmitName": "ValidateProperty",
           "normalizedSignature": "ValidateProperty|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3048,8 +3245,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
           "clrName": "ValidateObject",
-          "tsEmitName": "validateObject",
+          "tsEmitName": "ValidateObject",
           "normalizedSignature": "ValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3062,8 +3260,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Boolean):System.Void",
           "clrName": "ValidateObject",
-          "tsEmitName": "validateObject2",
+          "tsEmitName": "ValidateObject2",
           "normalizedSignature": "ValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3076,8 +3275,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateValue(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "ValidateValue",
-          "tsEmitName": "validateValue",
+          "tsEmitName": "ValidateValue",
           "normalizedSignature": "ValidateValue|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.IEnumerable_1[[System.ComponentModel.DataAnnotations.ValidationAttribute,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

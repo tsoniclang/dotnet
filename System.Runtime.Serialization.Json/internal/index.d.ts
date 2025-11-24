@@ -64,31 +64,31 @@ export class DataContractJsonSerializer$instance extends System_Runtime_Serializ
     constructor(type_: Type, rootName: string, knownTypes: IEnumerable_1<Type>);
     constructor(type_: Type, rootName: XmlDictionaryString, knownTypes: IEnumerable_1<Type>);
     constructor(type_: Type, settings: DataContractJsonSerializerSettings);
-    readonly dateTimeFormat: DateTimeFormat;
-    readonly emitTypeInformation: EmitTypeInformation;
-    readonly ignoreExtensionDataObject: boolean;
-    readonly knownTypes: ReadOnlyCollection_1<Type>;
-    readonly maxItemsInObjectGraph: int;
-    readonly serializeReadOnlyTypes: boolean;
-    readonly useSimpleDictionaryFormat: boolean;
-    getSerializationSurrogateProvider(): ISerializationSurrogateProvider;
-    isStartObject(reader: XmlReader): boolean;
-    isStartObject(reader: XmlDictionaryReader): boolean;
-    readObject(stream: Stream): any;
-    readObject(reader: XmlReader): any;
-    readObject(reader: XmlReader, verifyObjectName: boolean): any;
-    readObject(reader: XmlDictionaryReader): any;
-    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): any;
-    setSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
-    writeEndObject(writer: XmlWriter): void;
-    writeEndObject(writer: XmlDictionaryWriter): void;
-    writeObject(stream: Stream, graph: any): void;
-    writeObject(writer: XmlWriter, graph: any): void;
-    writeObject(writer: XmlDictionaryWriter, graph: any): void;
-    writeObjectContent(writer: XmlWriter, graph: any): void;
-    writeObjectContent(writer: XmlDictionaryWriter, graph: any): void;
-    writeStartObject(writer: XmlWriter, graph: any): void;
-    writeStartObject(writer: XmlDictionaryWriter, graph: any): void;
+    readonly DateTimeFormat: DateTimeFormat;
+    readonly EmitTypeInformation: EmitTypeInformation;
+    readonly IgnoreExtensionDataObject: boolean;
+    readonly KnownTypes: ReadOnlyCollection_1<Type>;
+    readonly MaxItemsInObjectGraph: int;
+    readonly SerializeReadOnlyTypes: boolean;
+    readonly UseSimpleDictionaryFormat: boolean;
+    GetSerializationSurrogateProvider(): ISerializationSurrogateProvider;
+    IsStartObject(reader: XmlReader): boolean;
+    IsStartObject(reader: XmlDictionaryReader): boolean;
+    ReadObject(stream: Stream): any;
+    ReadObject(reader: XmlReader): any;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): any;
+    ReadObject(reader: XmlDictionaryReader): any;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): any;
+    SetSerializationSurrogateProvider(provider: ISerializationSurrogateProvider): void;
+    WriteEndObject(writer: XmlWriter): void;
+    WriteEndObject(writer: XmlDictionaryWriter): void;
+    WriteObject(stream: Stream, graph: any): void;
+    WriteObject(writer: XmlWriter, graph: any): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: any): void;
+    WriteObjectContent(writer: XmlWriter, graph: any): void;
+    WriteObjectContent(writer: XmlDictionaryWriter, graph: any): void;
+    WriteStartObject(writer: XmlWriter, graph: any): void;
+    WriteStartObject(writer: XmlDictionaryWriter, graph: any): void;
 }
 
 
@@ -96,14 +96,14 @@ export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
 export class DataContractJsonSerializerSettings$instance {
     constructor();
-    dateTimeFormat: DateTimeFormat;
-    emitTypeInformation: EmitTypeInformation;
-    ignoreExtensionDataObject: boolean;
-    knownTypes: IEnumerable_1<Type>;
-    maxItemsInObjectGraph: int;
-    rootName: string;
-    serializeReadOnlyTypes: boolean;
-    useSimpleDictionaryFormat: boolean;
+    DateTimeFormat: DateTimeFormat;
+    EmitTypeInformation: EmitTypeInformation;
+    IgnoreExtensionDataObject: boolean;
+    KnownTypes: IEnumerable_1<Type>;
+    MaxItemsInObjectGraph: int;
+    RootName: string;
+    SerializeReadOnlyTypes: boolean;
+    UseSimpleDictionaryFormat: boolean;
 }
 
 

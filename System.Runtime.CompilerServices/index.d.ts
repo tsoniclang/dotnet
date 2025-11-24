@@ -150,7 +150,6 @@ export type MethodCodeType = Internal.MethodCodeType;
 export type MethodImplAttribute = Internal.MethodImplAttribute;
 export type MethodImplOptions = Internal.MethodImplOptions;
 export type ModuleInitializerAttribute = Internal.ModuleInitializerAttribute;
-export type MetadataUpdateDeletedAttribute = Internal.MetadataUpdateDeletedAttribute;
 export type MetadataUpdateOriginalTypeAttribute = Internal.MetadataUpdateOriginalTypeAttribute;
 export type NullableAttribute = Internal.NullableAttribute;
 export type NullableContextAttribute = Internal.NullableContextAttribute;

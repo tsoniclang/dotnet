@@ -5,8 +5,8 @@
 // Branded primitive types are sourced from @tsonic/types
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
-// Import support types for unsafe CLR constructs
-import type { TSUnsafePointer, TSByRef } from "../../_support/types.js";
+// Import support types from @tsonic/types
+import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
@@ -42,21 +42,21 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ObjectiveCMarshal_MessageSendFunction {
-    msgSend = 0,
-    msgSendFpret = 1,
-    msgSendStret = 2,
-    msgSendSuper = 3,
-    msgSendSuperStret = 4
+    MsgSend = 0,
+    MsgSendFpret = 1,
+    MsgSendStret = 2,
+    MsgSendSuper = 3,
+    MsgSendSuperStret = 4
 }
 
 
 export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
     constructor(object_: any, method: nint);
-    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(context: { value: TSByRef<nint> }, result: IAsyncResult): unknown;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: TSByRef<nint> }): unknown;
+    BeginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: any): IAsyncResult;
+    Clone(): any;
+    EndInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
+    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    Invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
 }
 
 
@@ -76,7 +76,7 @@ export class ObjectiveCTrackedTypeAttribute$instance extends System_Internal.Att
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: any, taggedMemory: { value: TSByRef<Span_1<CLROf<nint>>> }): GCHandle;
+    static CreateReferenceTrackingHandle(obj: any, taggedMemory: { value: ref<Span_1<CLROf<nint>>> }): GCHandle;
     static Initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
     static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
     static SetMessageSendPendingException(exception: Exception): void;

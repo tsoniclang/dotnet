@@ -1,16 +1,17 @@
 {
   "namespace": "Microsoft.Win32.SafeHandles",
   "contributingAssemblies": [
-    "System.Security.Cryptography",
     "Microsoft.Win32.Registry",
-    "System.Security.Principal.Windows",
-    "System.IO.MemoryMappedFiles",
     "System.Diagnostics.Process",
+    "System.IO.MemoryMappedFiles",
     "System.IO.Pipes",
-    "System.Private.CoreLib"
+    "System.Private.CoreLib",
+    "System.Security.Cryptography",
+    "System.Security.Principal.Windows"
   ],
   "types": [
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
       "clrName": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
       "tsEmitName": "CriticalHandleMinusOneIsInvalid",
       "kind": "Class",
@@ -21,8 +22,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -36,8 +38,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -52,8 +55,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -71,6 +75,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
       "clrName": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
       "tsEmitName": "CriticalHandleZeroOrMinusOneIsInvalid",
       "kind": "Class",
@@ -81,8 +86,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -96,8 +102,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -112,8 +119,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,6 +139,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
       "tsEmitName": "SafeAccessTokenHandle",
       "kind": "Class",
@@ -141,8 +150,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -156,8 +166,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -172,8 +183,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle::InvalidHandle:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
           "clrName": "InvalidHandle",
-          "tsEmitName": "invalidHandle",
+          "tsEmitName": "InvalidHandle",
           "normalizedSignature": "InvalidHandle|:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -186,8 +198,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -216,6 +229,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeFileHandle",
       "tsEmitName": "SafeFileHandle",
       "kind": "Class",
@@ -226,8 +240,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -241,8 +256,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -257,8 +273,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle::IsAsync:System.Boolean",
           "clrName": "IsAsync",
-          "tsEmitName": "isAsync",
+          "tsEmitName": "IsAsync",
           "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -271,8 +288,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeFileHandle::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -301,6 +319,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
       "clrName": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
       "tsEmitName": "SafeHandleMinusOneIsInvalid",
       "kind": "Class",
@@ -311,8 +330,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -326,8 +346,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -342,8 +363,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -361,6 +383,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
       "clrName": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
       "tsEmitName": "SafeHandleZeroOrMinusOneIsInvalid",
       "kind": "Class",
@@ -371,8 +394,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -386,8 +410,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -402,8 +427,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -421,6 +447,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
       "tsEmitName": "SafeMemoryMappedFileHandle",
       "kind": "Class",
@@ -431,8 +458,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -446,8 +474,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -462,8 +491,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -487,6 +517,7 @@
       ]
     },
     {
+      "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
       "tsEmitName": "SafeMemoryMappedViewHandle",
       "kind": "Class",
@@ -497,8 +528,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -512,8 +544,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -538,6 +571,7 @@
       ]
     },
     {
+      "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
       "tsEmitName": "SafeNCryptHandle",
       "kind": "Class",
@@ -548,8 +582,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -563,8 +598,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -583,6 +619,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",
       "tsEmitName": "SafeNCryptKeyHandle",
       "kind": "Class",
@@ -593,8 +630,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -608,8 +646,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -639,6 +678,7 @@
       ]
     },
     {
+      "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle",
       "tsEmitName": "SafeNCryptProviderHandle",
       "kind": "Class",
@@ -649,8 +689,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -664,8 +705,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptProviderHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -690,6 +732,7 @@
       ]
     },
     {
+      "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle",
       "tsEmitName": "SafeNCryptSecretHandle",
       "kind": "Class",
@@ -700,8 +743,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -715,8 +759,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptSecretHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -741,6 +786,7 @@
       ]
     },
     {
+      "stableId": "System.IO.Pipes:Microsoft.Win32.SafeHandles.SafePipeHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafePipeHandle",
       "tsEmitName": "SafePipeHandle",
       "kind": "Class",
@@ -751,8 +797,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -766,8 +813,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.IO.Pipes:Microsoft.Win32.SafeHandles.SafePipeHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -782,8 +830,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.IO.Pipes:Microsoft.Win32.SafeHandles.SafePipeHandle::IsInvalid:System.Boolean",
           "clrName": "IsInvalid",
-          "tsEmitName": "isInvalid",
+          "tsEmitName": "IsInvalid",
           "normalizedSignature": "IsInvalid|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -812,6 +861,7 @@
       ]
     },
     {
+      "stableId": "System.Diagnostics.Process:Microsoft.Win32.SafeHandles.SafeProcessHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeProcessHandle",
       "tsEmitName": "SafeProcessHandle",
       "kind": "Class",
@@ -822,8 +872,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -837,8 +888,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Diagnostics.Process:Microsoft.Win32.SafeHandles.SafeProcessHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -868,6 +920,7 @@
       ]
     },
     {
+      "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.SafeHandles.SafeRegistryHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeRegistryHandle",
       "tsEmitName": "SafeRegistryHandle",
       "kind": "Class",
@@ -878,8 +931,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -893,8 +947,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.SafeHandles.SafeRegistryHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -924,6 +979,7 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeWaitHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeWaitHandle",
       "tsEmitName": "SafeWaitHandle",
       "kind": "Class",
@@ -934,8 +990,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -949,8 +1006,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeWaitHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -980,6 +1038,7 @@
       ]
     },
     {
+      "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
       "clrName": "Microsoft.Win32.SafeHandles.SafeX509ChainHandle",
       "tsEmitName": "SafeX509ChainHandle",
       "kind": "Class",
@@ -990,8 +1049,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose$view",
+          "tsEmitName": "Dispose$view",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1005,8 +1065,9 @@
           "sourceInterface": "System.IDisposable"
         },
         {
+          "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeX509ChainHandle::Dispose():System.Void",
           "clrName": "Dispose",
-          "tsEmitName": "dispose",
+          "tsEmitName": "Dispose",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",

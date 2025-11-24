@@ -2,15 +2,17 @@
   "namespace": "Internal",
   "types": [
     {
+      "stableId": "System.Private.CoreLib:Internal.Console",
       "clrName": "Internal.Console",
       "tsEmitName": "Console",
       "assemblyName": "System.Private.CoreLib",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
-          "metadataToken": 100704799,
+          "tsEmitName": "WriteLine",
+          "metadataToken": 100704902,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -20,9 +22,10 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
+          "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
-          "metadataToken": 100704800,
+          "tsEmitName": "WriteLine2",
+          "metadataToken": 100704903,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -32,9 +35,10 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
+          "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
-          "metadataToken": 100704801,
+          "tsEmitName": "Write",
+          "metadataToken": 100704904,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -50,37 +54,37 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "writeLine",
+          "tsName": "WriteLine",
           "isStatic": true,
           "tsSignatureId": "WriteLine|(System.String):System.Void|static=true",
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704799
+            "metadataToken": 100704902
           }
         },
         {
-          "tsName": "writeLine2",
+          "tsName": "WriteLine2",
           "isStatic": true,
           "tsSignatureId": "WriteLine|():System.Void|static=true",
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704800
+            "metadataToken": 100704903
           }
         },
         {
-          "tsName": "write",
+          "tsName": "Write",
           "isStatic": true,
           "tsSignatureId": "Write|(System.String):System.Void|static=true",
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704801
+            "metadataToken": 100704904
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -90,7 +94,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -100,7 +104,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -110,7 +114,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -120,7 +124,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -130,7 +134,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {
@@ -142,15 +146,17 @@
       ]
     },
     {
+      "stableId": "System.Private.CoreLib:Internal.Console\u002BError",
       "clrName": "Internal.Console\u002BError",
       "tsEmitName": "Console_Error",
       "assemblyName": "System.Private.CoreLib",
       "metadataToken": 0,
       "methods": [
         {
+          "stableId": "System.Private.CoreLib:Internal.Console\u002BError::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine",
-          "metadataToken": 100704802,
+          "tsEmitName": "WriteLine",
+          "metadataToken": 100704905,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -160,9 +166,10 @@
           "declaringAssemblyName": "System.Private.CoreLib"
         },
         {
+          "stableId": "System.Private.CoreLib:Internal.Console\u002BError::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write",
-          "metadataToken": 100704803,
+          "tsEmitName": "Write",
+          "metadataToken": 100704906,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -178,27 +185,27 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "writeLine",
+          "tsName": "WriteLine",
           "isStatic": true,
           "tsSignatureId": "WriteLine|():System.Void|static=true",
           "target": {
             "declaringClrType": "Internal.Console\u002BError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704802
+            "metadataToken": 100704905
           }
         },
         {
-          "tsName": "write",
+          "tsName": "Write",
           "isStatic": true,
           "tsSignatureId": "Write|(System.String):System.Void|static=true",
           "target": {
             "declaringClrType": "Internal.Console\u002BError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704803
+            "metadataToken": 100704906
           }
         },
         {
-          "tsName": "getType",
+          "tsName": "GetType",
           "isStatic": false,
           "tsSignatureId": "GetType|():System.Type|static=false",
           "target": {
@@ -208,7 +215,7 @@
           }
         },
         {
-          "tsName": "toString",
+          "tsName": "ToString",
           "isStatic": false,
           "tsSignatureId": "ToString|():System.String|static=false",
           "target": {
@@ -218,7 +225,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
           "target": {
@@ -228,7 +235,7 @@
           }
         },
         {
-          "tsName": "equals",
+          "tsName": "Equals",
           "isStatic": true,
           "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -238,7 +245,7 @@
           }
         },
         {
-          "tsName": "referenceEquals",
+          "tsName": "ReferenceEquals",
           "isStatic": true,
           "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
           "target": {
@@ -248,7 +255,7 @@
           }
         },
         {
-          "tsName": "getHashCode",
+          "tsName": "GetHashCode",
           "isStatic": false,
           "tsSignatureId": "GetHashCode|():System.Int32|static=false",
           "target": {

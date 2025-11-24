@@ -7,6 +7,7 @@
   ],
   "types": [
     {
+      "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction",
       "clrName": "System.Collections.Specialized.NotifyCollectionChangedAction",
       "tsEmitName": "NotifyCollectionChangedAction",
       "kind": "Enum",
@@ -19,6 +20,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
@@ -27,40 +29,45 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::AddSystem.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|System.Collections.Specialized.NotifyCollectionChangedAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::RemoveSystem.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|System.Collections.Specialized.NotifyCollectionChangedAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::ReplaceSystem.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Replace",
-          "tsEmitName": "replace",
+          "tsEmitName": "Replace",
           "normalizedSignature": "Replace|System.Collections.Specialized.NotifyCollectionChangedAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::MoveSystem.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Move",
-          "tsEmitName": "move",
+          "tsEmitName": "Move",
           "normalizedSignature": "Move|System.Collections.Specialized.NotifyCollectionChangedAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::ResetSystem.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Reset",
-          "tsEmitName": "reset",
+          "tsEmitName": "Reset",
           "normalizedSignature": "Reset|System.Collections.Specialized.NotifyCollectionChangedAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -71,6 +78,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged",
       "clrName": "System.Collections.Specialized.INotifyCollectionChanged",
       "tsEmitName": "INotifyCollectionChanged",
       "kind": "Interface",
@@ -84,8 +92,9 @@
       "fields": [],
       "events": [
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.INotifyCollectionChanged::CollectionChangedSystem.Collections.Specialized.NotifyCollectionChangedEventHandler",
           "clrName": "CollectionChanged",
-          "tsEmitName": "collectionChanged",
+          "tsEmitName": "CollectionChanged",
           "normalizedSignature": "CollectionChanged|System.Collections.Specialized.NotifyCollectionChangedEventHandler|static=false",
           "isStatic": false
         }
@@ -93,6 +102,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary",
       "clrName": "System.Collections.Specialized.IOrderedDictionary",
       "tsEmitName": "IOrderedDictionary",
       "kind": "Interface",
@@ -103,8 +113,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -117,8 +128,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::Insert(System.Int32,System.Object,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "Insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -131,8 +143,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "RemoveAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -145,8 +158,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -159,8 +173,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -173,8 +188,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -187,8 +203,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -201,8 +218,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -215,8 +233,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator2",
+          "tsEmitName": "GetEnumerator2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -229,6 +248,7 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
           "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -243,6 +263,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -257,6 +278,7 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
           "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -271,6 +293,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -287,8 +310,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -301,8 +325,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -315,8 +340,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -329,8 +355,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize",
+          "tsEmitName": "IsFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -343,8 +370,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -357,8 +385,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -371,8 +400,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -390,6 +420,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32",
       "clrName": "System.Collections.Specialized.BitVector32",
       "tsEmitName": "BitVector32",
       "kind": "Struct",
@@ -400,8 +431,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateMask():System.Int32",
           "clrName": "CreateMask",
-          "tsEmitName": "createMask",
+          "tsEmitName": "CreateMask",
           "normalizedSignature": "CreateMask|():System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -414,8 +446,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateMask(System.Int32):System.Int32",
           "clrName": "CreateMask",
-          "tsEmitName": "createMask2",
+          "tsEmitName": "CreateMask2",
           "normalizedSignature": "CreateMask|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -428,8 +461,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateSection(System.Int16):System.Collections.Specialized.BitVector32\u002BSection",
           "clrName": "CreateSection",
-          "tsEmitName": "createSection",
+          "tsEmitName": "CreateSection",
           "normalizedSignature": "CreateSection|(System.Int16):System.Collections.Specialized.BitVector32\u002BSection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -442,8 +476,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateSection(System.Int16,System.Collections.Specialized.BitVector32\u002BSection):System.Collections.Specialized.BitVector32\u002BSection",
           "clrName": "CreateSection",
-          "tsEmitName": "createSection2",
+          "tsEmitName": "CreateSection2",
           "normalizedSignature": "CreateSection|(System.Int16,System.Collections.Specialized.BitVector32\u002BSection):System.Collections.Specialized.BitVector32\u002BSection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -456,8 +491,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -470,8 +506,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::Equals(System.Collections.Specialized.BitVector32):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "Equals2",
           "normalizedSignature": "Equals|(System.Collections.Specialized.BitVector32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -484,8 +521,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -498,8 +536,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::ToString(System.Collections.Specialized.BitVector32):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|(System.Collections.Specialized.BitVector32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -512,8 +551,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -526,8 +566,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals$view",
+          "tsEmitName": "Equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -541,6 +582,7 @@
           "sourceInterface": "System.IEquatable\u00601"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Int32):System.Boolean",
           "clrName": "get_Item",
           "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Boolean|static=false",
@@ -555,6 +597,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Int32,System.Boolean):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
@@ -569,6 +612,7 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "clrName": "get_Item",
           "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
@@ -583,6 +627,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
@@ -599,8 +644,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::Data:System.Int32",
           "clrName": "Data",
-          "tsEmitName": "data",
+          "tsEmitName": "Data",
           "normalizedSignature": "Data|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -629,6 +675,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection",
       "clrName": "System.Collections.Specialized.BitVector32\u002BSection",
       "tsEmitName": "BitVector32_Section",
       "kind": "Struct",
@@ -639,8 +686,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals",
+          "tsEmitName": "Equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -653,8 +701,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::Equals(System.Collections.Specialized.BitVector32\u002BSection):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "Equals2",
           "normalizedSignature": "Equals|(System.Collections.Specialized.BitVector32\u002BSection):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -667,8 +716,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode",
+          "tsEmitName": "GetHashCode",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -681,8 +731,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::ToString(System.Collections.Specialized.BitVector32\u002BSection):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|(System.Collections.Specialized.BitVector32\u002BSection):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -695,8 +746,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::ToString():System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString",
+          "tsEmitName": "ToString",
           "normalizedSignature": "ToString|():System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -709,8 +761,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals$view",
+          "tsEmitName": "Equals$view",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -726,8 +779,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::Mask:System.Int16",
           "clrName": "Mask",
-          "tsEmitName": "mask",
+          "tsEmitName": "Mask",
           "normalizedSignature": "Mask|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,8 +794,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::Offset:System.Int16",
           "clrName": "Offset",
-          "tsEmitName": "offset",
+          "tsEmitName": "Offset",
           "normalizedSignature": "Offset|:System.Int16|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -759,6 +814,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil",
       "clrName": "System.Collections.Specialized.CollectionsUtil",
       "tsEmitName": "CollectionsUtil",
       "kind": "Class",
@@ -769,8 +825,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveHashtable():System.Collections.Hashtable",
           "clrName": "CreateCaseInsensitiveHashtable",
-          "tsEmitName": "createCaseInsensitiveHashtable",
+          "tsEmitName": "CreateCaseInsensitiveHashtable",
           "normalizedSignature": "CreateCaseInsensitiveHashtable|():System.Collections.Hashtable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -783,8 +840,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveHashtable(System.Int32):System.Collections.Hashtable",
           "clrName": "CreateCaseInsensitiveHashtable",
-          "tsEmitName": "createCaseInsensitiveHashtable2",
+          "tsEmitName": "CreateCaseInsensitiveHashtable2",
           "normalizedSignature": "CreateCaseInsensitiveHashtable|(System.Int32):System.Collections.Hashtable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -797,8 +855,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveHashtable(System.Collections.IDictionary):System.Collections.Hashtable",
           "clrName": "CreateCaseInsensitiveHashtable",
-          "tsEmitName": "createCaseInsensitiveHashtable3",
+          "tsEmitName": "CreateCaseInsensitiveHashtable3",
           "normalizedSignature": "CreateCaseInsensitiveHashtable|(System.Collections.IDictionary):System.Collections.Hashtable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -811,8 +870,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveSortedList():System.Collections.SortedList",
           "clrName": "CreateCaseInsensitiveSortedList",
-          "tsEmitName": "createCaseInsensitiveSortedList",
+          "tsEmitName": "CreateCaseInsensitiveSortedList",
           "normalizedSignature": "CreateCaseInsensitiveSortedList|():System.Collections.SortedList|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -837,6 +897,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary",
       "clrName": "System.Collections.Specialized.HybridDictionary",
       "tsEmitName": "HybridDictionary",
       "kind": "Class",
@@ -847,8 +908,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -861,8 +923,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -875,8 +938,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -889,8 +953,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -903,8 +968,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -917,8 +983,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -931,8 +998,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -946,8 +1014,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains$view",
+          "tsEmitName": "Contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -961,8 +1030,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add$view",
+          "tsEmitName": "Add$view",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -976,8 +1046,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear$view",
+          "tsEmitName": "Clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -991,8 +1062,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1006,8 +1078,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove$view",
+          "tsEmitName": "Remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1021,8 +1094,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1038,8 +1112,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Item[System.Object]:System.Object",
           "clrName": "Item",
-          "tsEmitName": "item",
+          "tsEmitName": "Item",
           "normalizedSignature": "Item|[System.Object]:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1052,8 +1127,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1066,8 +1142,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1080,8 +1157,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1094,8 +1172,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize",
+          "tsEmitName": "IsFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1108,8 +1187,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1122,8 +1202,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1136,8 +1217,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.HybridDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1150,8 +1232,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys$view",
+          "tsEmitName": "Keys$view",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1165,8 +1248,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values$view",
+          "tsEmitName": "Values$view",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1180,8 +1264,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly$view",
+          "tsEmitName": "IsReadOnly$view",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1195,8 +1280,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize$view",
+          "tsEmitName": "IsFixedSize$view",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1210,8 +1296,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1225,8 +1312,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot$view",
+          "tsEmitName": "SyncRoot$view",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1240,8 +1328,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized$view",
+          "tsEmitName": "IsSynchronized$view",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1281,6 +1370,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary",
       "clrName": "System.Collections.Specialized.ListDictionary",
       "tsEmitName": "ListDictionary",
       "kind": "Class",
@@ -1291,8 +1381,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1305,8 +1396,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1319,8 +1411,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1333,8 +1426,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1347,8 +1441,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1361,8 +1456,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1375,8 +1471,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1390,8 +1487,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains$view",
+          "tsEmitName": "Contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1405,8 +1503,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add$view",
+          "tsEmitName": "Add$view",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1420,8 +1519,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear$view",
+          "tsEmitName": "Clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1435,8 +1535,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1450,8 +1551,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove$view",
+          "tsEmitName": "Remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1465,8 +1567,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1482,8 +1585,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Item[System.Object]:System.Object",
           "clrName": "Item",
-          "tsEmitName": "item",
+          "tsEmitName": "Item",
           "normalizedSignature": "Item|[System.Object]:System.Object|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1496,8 +1600,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1510,8 +1615,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1524,8 +1630,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1538,8 +1645,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize",
+          "tsEmitName": "IsFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1552,8 +1660,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1566,8 +1675,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1580,8 +1690,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1594,8 +1705,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys$view",
+          "tsEmitName": "Keys$view",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1609,8 +1721,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values$view",
+          "tsEmitName": "Values$view",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1624,8 +1737,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly$view",
+          "tsEmitName": "IsReadOnly$view",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1639,8 +1753,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize$view",
+          "tsEmitName": "IsFixedSize$view",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1654,8 +1769,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1669,8 +1785,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot$view",
+          "tsEmitName": "SyncRoot$view",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1684,8 +1801,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized$view",
+          "tsEmitName": "IsSynchronized$view",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1715,6 +1833,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary\u002BDictionaryNode",
       "clrName": "System.Collections.Specialized.ListDictionary\u002BDictionaryNode",
       "tsEmitName": "ListDictionary_DictionaryNode",
       "kind": "Class",
@@ -1727,6 +1846,7 @@
       "properties": [],
       "fields": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary\u002BDictionaryNode::keySystem.Object",
           "clrName": "key",
           "tsEmitName": "key",
           "normalizedSignature": "key|System.Object|static=false|const=false",
@@ -1735,6 +1855,7 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary\u002BDictionaryNode::valueSystem.Object",
           "clrName": "value",
           "tsEmitName": "value",
           "normalizedSignature": "value|System.Object|static=false|const=false",
@@ -1743,6 +1864,7 @@
           "isLiteral": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.ListDictionary\u002BDictionaryNode::nextSystem.Collections.Specialized.ListDictionary\u002BDictionaryNode",
           "clrName": "next",
           "tsEmitName": "next",
           "normalizedSignature": "next|System.Collections.Specialized.ListDictionary\u002BDictionaryNode|static=false|const=false",
@@ -1761,6 +1883,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase",
       "clrName": "System.Collections.Specialized.NameObjectCollectionBase",
       "tsEmitName": "NameObjectCollectionBase",
       "kind": "Class",
@@ -1771,8 +1894,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1785,8 +1909,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "OnDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1799,8 +1924,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1813,8 +1939,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1828,8 +1955,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1843,8 +1971,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1858,8 +1987,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization$view",
+          "tsEmitName": "OnDeserialization$view",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1875,8 +2005,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1889,8 +2020,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase::Keys:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1903,8 +2035,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1918,8 +2051,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1933,8 +2067,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -1953,6 +2088,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection",
       "clrName": "System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection",
       "tsEmitName": "NameObjectCollectionBase_KeysCollection",
       "kind": "Class",
@@ -1963,8 +2099,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "Get",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1977,8 +2114,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1991,8 +2129,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2006,8 +2145,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2023,8 +2163,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection::Item[System.Int32]:System.String",
           "clrName": "Item",
-          "tsEmitName": "item",
+          "tsEmitName": "Item",
           "normalizedSignature": "Item|[System.Int32]:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2037,8 +2178,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2051,8 +2193,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2066,8 +2209,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2081,8 +2225,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2101,6 +2246,7 @@
       "constructors": []
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection",
       "clrName": "System.Collections.Specialized.NameValueCollection",
       "tsEmitName": "NameValueCollection",
       "kind": "Class",
@@ -2111,8 +2257,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Add(System.Collections.Specialized.NameValueCollection):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Collections.Specialized.NameValueCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2125,8 +2272,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2139,8 +2287,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2153,8 +2302,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::HasKeys():System.Boolean",
           "clrName": "HasKeys",
-          "tsEmitName": "hasKeys",
+          "tsEmitName": "HasKeys",
           "normalizedSignature": "HasKeys|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2167,8 +2317,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Add(System.String,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "Add2",
           "normalizedSignature": "Add|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2181,8 +2332,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "Get",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2195,8 +2347,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetValues(System.String):System.String[]",
           "clrName": "GetValues",
-          "tsEmitName": "getValues",
+          "tsEmitName": "GetValues",
           "normalizedSignature": "GetValues|(System.String):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2209,8 +2362,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Set(System.String,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "Set",
           "normalizedSignature": "Set|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2223,8 +2377,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2237,8 +2392,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_2",
+          "tsEmitName": "Get2",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2251,8 +2407,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetValues(System.Int32):System.String[]",
           "clrName": "GetValues",
-          "tsEmitName": "getValues2",
+          "tsEmitName": "GetValues2",
           "normalizedSignature": "GetValues|(System.Int32):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2265,8 +2422,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetKey(System.Int32):System.String",
           "clrName": "GetKey",
-          "tsEmitName": "getKey",
+          "tsEmitName": "GetKey",
           "normalizedSignature": "GetKey|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2279,8 +2437,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2294,8 +2453,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2309,8 +2469,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization$view",
+          "tsEmitName": "OnDeserialization$view",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2324,8 +2485,9 @@
           "sourceInterface": "System.Runtime.Serialization.IDeserializationCallback"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2339,8 +2501,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2353,8 +2516,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2367,8 +2531,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "OnDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2381,6 +2546,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.String):System.String",
           "clrName": "get_Item",
           "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
@@ -2395,6 +2561,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::set_Item(System.String,System.String):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.String,System.String):System.Void|static=false",
@@ -2409,6 +2576,7 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
           "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
@@ -2425,8 +2593,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::AllKeys:System.String[]",
           "clrName": "AllKeys",
-          "tsEmitName": "allKeys",
+          "tsEmitName": "AllKeys",
           "normalizedSignature": "AllKeys|:System.String[]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2439,8 +2608,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2454,8 +2624,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2469,8 +2640,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2530,6 +2702,7 @@
       ]
     },
     {
+      "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs",
       "clrName": "System.Collections.Specialized.NotifyCollectionChangedEventArgs",
       "tsEmitName": "NotifyCollectionChangedEventArgs",
       "kind": "Class",
@@ -2541,8 +2714,9 @@
       "methods": [],
       "properties": [
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs::Action:System.Collections.Specialized.NotifyCollectionChangedAction",
           "clrName": "Action",
-          "tsEmitName": "action",
+          "tsEmitName": "Action",
           "normalizedSignature": "Action|:System.Collections.Specialized.NotifyCollectionChangedAction|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2555,8 +2729,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs::NewItems:System.Collections.IList",
           "clrName": "NewItems",
-          "tsEmitName": "newItems",
+          "tsEmitName": "NewItems",
           "normalizedSignature": "NewItems|:System.Collections.IList|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2569,8 +2744,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs::OldItems:System.Collections.IList",
           "clrName": "OldItems",
-          "tsEmitName": "oldItems",
+          "tsEmitName": "OldItems",
           "normalizedSignature": "OldItems|:System.Collections.IList|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2583,8 +2759,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs::NewStartingIndex:System.Int32",
           "clrName": "NewStartingIndex",
-          "tsEmitName": "newStartingIndex",
+          "tsEmitName": "NewStartingIndex",
           "normalizedSignature": "NewStartingIndex|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2597,8 +2774,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventArgs::OldStartingIndex:System.Int32",
           "clrName": "OldStartingIndex",
-          "tsEmitName": "oldStartingIndex",
+          "tsEmitName": "OldStartingIndex",
           "normalizedSignature": "OldStartingIndex|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2672,6 +2850,7 @@
       ]
     },
     {
+      "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler",
       "clrName": "System.Collections.Specialized.NotifyCollectionChangedEventHandler",
       "tsEmitName": "NotifyCollectionChangedEventHandler",
       "kind": "Class",
@@ -2682,8 +2861,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::Invoke(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke",
+          "tsEmitName": "Invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2696,8 +2876,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::BeginInvoke(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
+          "tsEmitName": "BeginInvoke",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2710,8 +2891,9 @@
           "parameterCount": 4
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
           "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
+          "tsEmitName": "EndInvoke",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2724,8 +2906,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone$view",
+          "tsEmitName": "Clone$view",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2739,8 +2922,9 @@
           "sourceInterface": "System.ICloneable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2754,8 +2938,9 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::Clone():System.Object",
           "clrName": "Clone",
-          "tsEmitName": "clone",
+          "tsEmitName": "Clone",
           "normalizedSignature": "Clone|():System.Object|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2768,8 +2953,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedEventHandler::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "BaseOverload",
           "emitScope": "ClassSurface",
@@ -2794,6 +2980,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary",
       "clrName": "System.Collections.Specialized.OrderedDictionary",
       "tsEmitName": "OrderedDictionary",
       "kind": "Class",
@@ -2804,8 +2991,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2818,8 +3006,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2832,8 +3021,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::AsReadOnly():System.Collections.Specialized.OrderedDictionary",
           "clrName": "AsReadOnly",
-          "tsEmitName": "asReadOnly",
+          "tsEmitName": "AsReadOnly",
           "normalizedSignature": "AsReadOnly|():System.Collections.Specialized.OrderedDictionary|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2846,8 +3036,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2860,8 +3051,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2874,8 +3066,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Insert(System.Int32,System.Object,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "Insert",
           "normalizedSignature": "Insert|(System.Int32,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2888,8 +3081,9 @@
           "parameterCount": 3
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "RemoveAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2902,8 +3096,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2916,8 +3111,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2930,8 +3126,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
+          "tsEmitName": "GetObjectData",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2944,8 +3141,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2959,8 +3157,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
           "clrName": "OnDeserialization",
-          "tsEmitName": "onDeserialization",
+          "tsEmitName": "OnDeserialization",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2974,8 +3173,9 @@
           "sourceInterface": "System.Runtime.Serialization.IDeserializationCallback"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -2989,8 +3189,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::Insert(System.Int32,System.Object,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert$view",
+          "tsEmitName": "Insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3004,8 +3205,9 @@
           "sourceInterface": "System.Collections.Specialized.IOrderedDictionary"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt$view",
+          "tsEmitName": "RemoveAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3019,8 +3221,9 @@
           "sourceInterface": "System.Collections.Specialized.IOrderedDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains$view",
+          "tsEmitName": "Contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3034,8 +3237,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add$view",
+          "tsEmitName": "Add$view",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3049,8 +3253,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear$view",
+          "tsEmitName": "Clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3064,8 +3269,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove$view",
+          "tsEmitName": "Remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3079,8 +3285,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3094,8 +3301,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view2",
+          "tsEmitName": "GetEnumerator$view2",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3109,8 +3317,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
+          "tsEmitName": "GetObjectData$view",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3124,6 +3333,7 @@
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
           "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -3138,6 +3348,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -3152,6 +3363,7 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
           "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -3166,6 +3378,7 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
           "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -3182,8 +3395,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3196,8 +3410,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3210,8 +3425,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3224,8 +3440,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3238,8 +3455,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize",
+          "tsEmitName": "IsFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3253,8 +3471,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3268,8 +3487,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys$view",
+          "tsEmitName": "Keys$view",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3283,8 +3503,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values$view",
+          "tsEmitName": "Values$view",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3298,8 +3519,9 @@
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly$view",
+          "tsEmitName": "IsReadOnly$view",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3313,8 +3535,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3328,8 +3551,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3369,6 +3593,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection",
       "clrName": "System.Collections.Specialized.StringCollection",
       "tsEmitName": "StringCollection",
       "kind": "Class",
@@ -3379,8 +3604,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Add(System.String):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3393,8 +3619,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::AddRange(System.String[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange",
+          "tsEmitName": "AddRange",
           "normalizedSignature": "AddRange|(System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3407,8 +3634,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3421,8 +3649,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Contains(System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains",
+          "tsEmitName": "Contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3435,8 +3664,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::CopyTo(System.String[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.String[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3449,8 +3679,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::GetEnumerator():System.Collections.Specialized.StringEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.Specialized.StringEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3463,8 +3694,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf",
+          "tsEmitName": "IndexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3477,8 +3709,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Insert(System.Int32,System.String):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert",
+          "tsEmitName": "Insert",
           "normalizedSignature": "Insert|(System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3491,8 +3724,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3505,8 +3739,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt",
+          "tsEmitName": "RemoveAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3519,8 +3754,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo$view",
+          "tsEmitName": "CopyTo$view",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3534,8 +3770,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3549,8 +3786,9 @@
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add$view",
+          "tsEmitName": "Add$view",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3564,8 +3802,9 @@
           "sourceInterface": "System.Collections.IList"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains$view",
+          "tsEmitName": "Contains$view",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3579,8 +3818,9 @@
           "sourceInterface": "System.Collections.IList"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear$view",
+          "tsEmitName": "Clear$view",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3594,8 +3834,9 @@
           "sourceInterface": "System.Collections.IList"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert$view",
+          "tsEmitName": "Insert$view",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3609,8 +3850,9 @@
           "sourceInterface": "System.Collections.IList"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove$view",
+          "tsEmitName": "Remove$view",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3624,8 +3866,9 @@
           "sourceInterface": "System.Collections.IList"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt$view",
+          "tsEmitName": "RemoveAt$view",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3641,8 +3884,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Item[System.Int32]:System.String",
           "clrName": "Item",
-          "tsEmitName": "item",
+          "tsEmitName": "Item",
           "normalizedSignature": "Item|[System.Int32]:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3655,8 +3899,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3669,8 +3914,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly",
+          "tsEmitName": "IsReadOnly",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3683,8 +3929,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3697,8 +3944,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringCollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3711,8 +3959,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "tsEmitName": "isFixedSize",
+          "tsEmitName": "IsFixedSize",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3726,8 +3975,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "tsEmitName": "isReadOnly$view",
+          "tsEmitName": "IsReadOnly$view",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3741,8 +3991,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count$view",
+          "tsEmitName": "Count$view",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3756,8 +4007,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot$view",
+          "tsEmitName": "SyncRoot$view",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3771,8 +4023,9 @@
           "sourceInterface": "System.Collections.ICollection"
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized$view",
+          "tsEmitName": "IsSynchronized$view",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3797,6 +4050,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary",
       "clrName": "System.Collections.Specialized.StringDictionary",
       "tsEmitName": "StringDictionary",
       "kind": "Class",
@@ -3807,8 +4061,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Add(System.String,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add",
+          "tsEmitName": "Add",
           "normalizedSignature": "Add|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3821,8 +4076,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Clear():System.Void",
           "clrName": "Clear",
-          "tsEmitName": "clear",
+          "tsEmitName": "Clear",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3835,8 +4091,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::ContainsKey(System.String):System.Boolean",
           "clrName": "ContainsKey",
-          "tsEmitName": "containsKey",
+          "tsEmitName": "ContainsKey",
           "normalizedSignature": "ContainsKey|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3849,8 +4106,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::ContainsValue(System.String):System.Boolean",
           "clrName": "ContainsValue",
-          "tsEmitName": "containsValue",
+          "tsEmitName": "ContainsValue",
           "normalizedSignature": "ContainsValue|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3863,8 +4121,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo",
+          "tsEmitName": "CopyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3877,8 +4136,9 @@
           "parameterCount": 2
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator",
+          "tsEmitName": "GetEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3891,8 +4151,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove",
+          "tsEmitName": "Remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3905,8 +4166,9 @@
           "parameterCount": 1
         },
         {
+          "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator$view",
+          "tsEmitName": "GetEnumerator$view",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -3922,8 +4184,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Count:System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count",
+          "tsEmitName": "Count",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3936,8 +4199,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "tsEmitName": "isSynchronized",
+          "tsEmitName": "IsSynchronized",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3950,8 +4214,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Item[System.String]:System.String",
           "clrName": "Item",
-          "tsEmitName": "item",
+          "tsEmitName": "Item",
           "normalizedSignature": "Item|[System.String]:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3964,8 +4229,9 @@
           "hasSetter": true
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Keys:System.Collections.ICollection",
           "clrName": "Keys",
-          "tsEmitName": "keys",
+          "tsEmitName": "Keys",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3978,8 +4244,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "tsEmitName": "syncRoot",
+          "tsEmitName": "SyncRoot",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3992,8 +4259,9 @@
           "hasSetter": false
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringDictionary::Values:System.Collections.ICollection",
           "clrName": "Values",
-          "tsEmitName": "values",
+          "tsEmitName": "Values",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4017,6 +4285,7 @@
       ]
     },
     {
+      "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringEnumerator",
       "clrName": "System.Collections.Specialized.StringEnumerator",
       "tsEmitName": "StringEnumerator",
       "kind": "Class",
@@ -4027,8 +4296,9 @@
       "arity": 0,
       "methods": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "tsEmitName": "moveNext",
+          "tsEmitName": "MoveNext",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4041,8 +4311,9 @@
           "parameterCount": 0
         },
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset",
+          "tsEmitName": "Reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4057,8 +4328,9 @@
       ],
       "properties": [
         {
+          "stableId": "System.Collections.Specialized:System.Collections.Specialized.StringEnumerator::Current:System.String",
           "clrName": "Current",
-          "tsEmitName": "current",
+          "tsEmitName": "Current",
           "normalizedSignature": "Current|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
